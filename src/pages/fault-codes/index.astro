@@ -1,0 +1,126 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+import { getCollection } from 'astro:content';
+
+const allFaultCodes = await getCollection('fault-codes');
+// Sort by date descending
+allFaultCodes.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout
+  title="AC Fault Codes & Error Diagnostics | Atlas Aircon"
+  description="Comprehensive database of AC error codes for Daikin, O General, Voltas, and more. Learn what they mean and how Atlas Aircon fixes them."
+>
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="alert-circle" size={14} strokeWidth={2} /> Error Database</div>
+      <h1 class="page-title">AC <span>Fault Codes</span></h1>
+      <p class="page-subtitle">Diagnostic guides for major HVAC brands.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="fault-grid">
+        {allFaultCodes.map(post => (
+          <a href={`/fault-codes/${post.slug}/`} class="fault-card card">
+            <div class="fault-brand">{post.data.brand}</div>
+            <h2 class="fault-title">{post.data.title}</h2>
+            <p class="fault-desc">{post.data.description}</p>
+            <div class="fault-readmore">Read Diagnostic <Icon name="arrow-right" size={16} /></div>
+          </a>
+        ))}
+      </div>
+      {allFaultCodes.length === 0 && (
+        <div class="text-center py-12 text-slate-400">
+          <Icon name="search" size={48} class="mx-auto mb-4 opacity-50" />
+          <p>Database is currently being updated. Check back soon.</p>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: var(--space-24) 0 var(--space-16);
+    overflow: hidden;
+  }
+  .header-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.1) 0%, transparent 70%), var(--color-navy);
+  }
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    color: #F8FAFC;
+    margin: var(--space-4) 0;
+  }
+  .page-title span {
+    background: linear-gradient(135deg, #06B6D4, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .page-subtitle {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+  }
+  .fault-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-6);
+  }
+  .fault-card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-6);
+    text-decoration: none;
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+  }
+  .fault-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3), 0 0 0 1px rgba(6,182,212,0.3);
+  }
+  .fault-brand {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(6,182,212,0.15);
+    color: #06B6D4;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: var(--space-4);
+    align-self: flex-start;
+  }
+  .fault-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-xl);
+    font-weight: 700;
+    color: #F8FAFC;
+    margin: 0 0 var(--space-3);
+    line-height: 1.3;
+  }
+  .fault-desc {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    margin: 0 0 var(--space-6);
+    flex-grow: 1;
+  }
+  .fault-readmore {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: #06B6D4;
+    font-weight: 600;
+    font-size: var(--text-sm);
+    margin-top: auto;
+  }
+</style>

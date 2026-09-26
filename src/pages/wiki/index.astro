@@ -1,0 +1,158 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+
+const articles = [
+  {
+    title: 'The Vapor-Compression Refrigeration Cycle',
+    desc: 'Deep dive into the 4 stages of cooling: compression, condensation, expansion, and evaporation.',
+    category: 'Thermodynamics'
+  },
+  {
+    title: 'Inverter vs Non-Inverter Compressors',
+    desc: 'Understanding variable frequency drives (VFD) and how they save up to 30% electricity.',
+    category: 'Electrical'
+  },
+  {
+    title: 'R32 vs R410a Refrigerants',
+    desc: 'Analysis of operating pressures, GWP (Global Warming Potential), and flammability.',
+    category: 'Chemicals'
+  },
+  {
+    title: 'Anatomy of an Inverter PCB',
+    desc: 'Identifying the IPM module, microprocessors, and optocouplers on modern circuit boards.',
+    category: 'Electronics'
+  },
+  {
+    title: 'Chiller Heat Exchanger Descaling',
+    desc: 'Standard operating procedure for chemical cleaning of shell and tube heat exchangers.',
+    category: 'Industrial'
+  },
+  {
+    title: 'Calculating AC Tonnage',
+    desc: 'How to properly calculate required BTUs based on room volume, insulation, and heat load.',
+    category: 'Engineering'
+  }
+];
+---
+
+<BaseLayout
+  title="Atlas Wiki | HVAC Knowledge Base"
+  description="Explore the Atlas Aircon Wiki. In-depth engineering concepts, maintenance guides, and technical explanations."
+>
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="book" size={14} strokeWidth={2} /> Knowledge Base</div>
+      <h1 class="page-title">Atlas <span>Wiki</span></h1>
+      <p class="page-subtitle">The ultimate technical resource for HVAC engineering.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="wiki-grid">
+        {articles.map((article) => (
+          <a href="#" class="wiki-card card">
+            <div class="wiki-category">{article.category}</div>
+            <h3 class="wiki-title">{article.title}</h3>
+            <p class="wiki-desc">{article.desc}</p>
+            <div class="wiki-footer">Read Article <Icon name="arrow-right" size={14} /></div>
+          </a>
+        ))}
+      </div>
+      
+      <div class="text-center mt-12">
+        <a href="tel:+919727257141" class="btn btn-outline">
+          <Icon name="phone" size={16} /> Have a Technical Question?
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: var(--space-24) 0 var(--space-16);
+    overflow: hidden;
+  }
+  .header-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.1) 0%, transparent 70%), var(--color-navy);
+  }
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    color: #F8FAFC;
+    margin: var(--space-4) 0;
+  }
+  .page-title span {
+    background: linear-gradient(135deg, #06B6D4, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .page-subtitle {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+  }
+  
+  .wiki-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-6);
+  }
+  
+  .wiki-card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-6);
+    text-decoration: none;
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+  }
+  
+  .wiki-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3), 0 0 0 1px rgba(6,182,212,0.3);
+  }
+  
+  .wiki-category {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #06B6D4;
+    margin-bottom: var(--space-3);
+  }
+  
+  .wiki-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-lg);
+    font-weight: 700;
+    color: #F8FAFC;
+    margin: 0 0 var(--space-3);
+    line-height: 1.4;
+  }
+  
+  .wiki-desc {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    margin: 0 0 var(--space-6);
+    flex-grow: 1;
+  }
+  
+  .wiki-footer {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: #06B6D4;
+    font-weight: 600;
+    font-size: var(--text-sm);
+    margin-top: auto;
+  }
+  
+  .mt-12 { margin-top: var(--space-12); }
+</style>

@@ -1,0 +1,172 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+
+const posts = [
+  {
+    title: 'Why Is My AC Tripping the Circuit Breaker?',
+    excerpt: 'Frequent MCB trips usually indicate a failing compressor drawing too many amps, or a short circuit in the outdoor condenser fan.',
+    date: 'Apr 12, 2024',
+    author: 'Atlas Engineering Team'
+  },
+  {
+    title: 'The Hidden Dangers of Low Refrigerant',
+    excerpt: 'Running an AC with low gas doesn’t just blow warm air—it freezes the evaporator coils and can permanently seize the compressor.',
+    date: 'Mar 28, 2024',
+    author: 'Atlas Engineering Team'
+  },
+  {
+    title: 'How Often Should Commercial Chillers Be Serviced?',
+    excerpt: 'For GIDC industrial plants, preventative maintenance schedules should be strictly adhered to every 30-45 days to prevent critical failures.',
+    date: 'Feb 15, 2024',
+    author: 'Atlas Engineering Team'
+  },
+  {
+    title: 'Inverter ACs: Are They Worth the Extra Cost?',
+    excerpt: 'An analysis of energy savings, ROI, and why the voltage fluctuations in Gujarat require specialized PCB protection.',
+    date: 'Jan 10, 2024',
+    author: 'Atlas Engineering Team'
+  }
+];
+---
+
+<BaseLayout
+  title="Atlas Aircon Blog | HVAC Tips & News"
+  description="Read the latest news, tips, and insights on air conditioning maintenance and energy efficiency from the engineers at Atlas Aircon."
+>
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="file-text" size={14} strokeWidth={2} /> Engineering Insights</div>
+      <h1 class="page-title">Atlas <span>Blog</span></h1>
+      <p class="page-subtitle">Maintenance tips and industry news.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="blog-grid">
+        {posts.map((post) => (
+          <a href="#" class="blog-card card">
+            <div class="blog-meta">
+              <span><Icon name="calendar" size={12} /> {post.date}</span>
+            </div>
+            <h3 class="blog-title">{post.title}</h3>
+            <p class="blog-excerpt">{post.excerpt}</p>
+            <div class="blog-author">
+              <div class="author-avatar"><Icon name="user" size={16} /></div>
+              <span>{post.author}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: var(--space-24) 0 var(--space-16);
+    overflow: hidden;
+  }
+  .header-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.1) 0%, transparent 70%), var(--color-navy);
+  }
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    color: #F8FAFC;
+    margin: var(--space-4) 0;
+  }
+  .page-title span {
+    background: linear-gradient(135deg, #06B6D4, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .page-subtitle {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: var(--space-8);
+  }
+  
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-8);
+    text-decoration: none;
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3), 0 0 0 1px rgba(6,182,212,0.3);
+  }
+  
+  .blog-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-4);
+  }
+  
+  .blog-meta span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .blog-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-xl);
+    font-weight: 700;
+    color: #F8FAFC;
+    margin: 0 0 var(--space-3);
+    line-height: 1.4;
+  }
+  
+  .blog-excerpt {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    margin: 0 0 var(--space-6);
+    flex-grow: 1;
+  }
+  
+  .blog-author {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding-top: var(--space-4);
+    margin-top: auto;
+  }
+  
+  .author-avatar {
+    width: 32px;
+    height: 32px;
+    background: rgba(6,182,212,0.1);
+    color: #06B6D4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blog-author span {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #E2E8F0;
+  }
+</style>

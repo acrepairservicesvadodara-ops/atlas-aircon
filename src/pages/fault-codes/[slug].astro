@@ -1,0 +1,145 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+
+export async function getStaticPaths() {
+  const faultCodes = await getCollection('fault-codes');
+  return faultCodes.map(entry => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<BaseLayout
+  title={`${entry.data.title} | Atlas Aircon Diagnostics`}
+  description={entry.data.description}
+>
+  <article class="article-container">
+    <header class="article-header text-center">
+      <div class="brand-badge">{entry.data.brand}</div>
+      <h1 class="article-title">{entry.data.title}</h1>
+      <div class="article-meta">
+        <Icon name="calendar" size={14} /> 
+        <time datetime={entry.data.date.toISOString()}>
+          {entry.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+      </div>
+    </header>
+
+    <div class="article-content">
+      <Content />
+    </div>
+
+    <div class="article-cta card mt-12 text-center p-8">
+      <h3>Need Help Fixing This Error?</h3>
+      <p>Our engineers can diagnose and repair <strong>{entry.data.brand}</strong> PCB and system faults directly on-site in Vadodara.</p>
+      <div class="mt-6">
+        <a href="tel:+919727257141" class="btn btn-primary">
+          <Icon name="phone" size={16} /> Call Engineer
+        </a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-20) var(--space-4) var(--space-16);
+  }
+  .brand-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(6,182,212,0.15);
+    color: #06B6D4;
+    border-radius: var(--radius-full);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: var(--space-6);
+  }
+  .article-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.2;
+    color: #F8FAFC;
+    margin: 0 0 var(--space-6);
+  }
+  .article-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-12);
+  }
+  
+  /* Markdown Content Styling */
+  .article-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+  }
+  .article-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: #F8FAFC;
+    margin: var(--space-10) 0 var(--space-4);
+  }
+  .article-content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-xl);
+    font-weight: 600;
+    color: #E2E8F0;
+    margin: var(--space-8) 0 var(--space-3);
+  }
+  .article-content p {
+    margin-bottom: var(--space-6);
+  }
+  .article-content ul, .article-content ol {
+    margin: 0 0 var(--space-6) var(--space-6);
+    padding: 0;
+  }
+  .article-content li {
+    margin-bottom: var(--space-2);
+  }
+  .article-content strong {
+    color: #E2E8F0;
+  }
+  .article-content blockquote {
+    border-left: 4px solid #F59E0B;
+    background: rgba(245,158,11,0.05);
+    padding: var(--space-4) var(--space-6);
+    margin: var(--space-8) 0;
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  }
+  .article-content blockquote p {
+    margin: 0;
+    color: #F8FAFC;
+    font-style: italic;
+  }
+  
+  .article-cta h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-xl);
+    color: #F8FAFC;
+    margin: 0 0 var(--space-2);
+  }
+  .article-cta p {
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+  .mt-12 { margin-top: var(--space-12); }
+  .mt-6 { margin-top: var(--space-6); }
+  .p-8 { padding: var(--space-8); }
+</style>

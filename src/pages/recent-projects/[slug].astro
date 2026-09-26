@@ -1,0 +1,155 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('recent-projects');
+  return projects.map(entry => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<BaseLayout
+  title={`${entry.data.title} | Atlas Aircon Daily Ops`}
+  description={entry.data.description}
+>
+  <article class="article-container">
+    <header class="article-header text-center">
+      <div class="meta-badges">
+        <span class="brand-badge"><Icon name="map-pin" size={14}/> {entry.data.location}</span>
+        <span class="service-badge">{entry.data.serviceType}</span>
+      </div>
+      <h1 class="article-title">{entry.data.title}</h1>
+      <div class="article-meta">
+        <Icon name="calendar" size={14} /> 
+        <time datetime={entry.data.date.toISOString()}>
+          {entry.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+      </div>
+    </header>
+
+    <div class="article-content">
+      <Content />
+    </div>
+
+    <div class="article-cta card mt-12 text-center p-8">
+      <h3>Require Similar Engineering Work?</h3>
+      <p>Atlas Aircon engineers are available 24/7 for commercial and residential emergencies.</p>
+      <div class="mt-6 flex justify-center gap-4">
+        <a href="tel:+919727257141" class="btn btn-primary">
+          <Icon name="phone" size={16} /> Call Now
+        </a>
+        <a href="https://wa.me/919727257141" class="btn btn-whatsapp" target="_blank" rel="noopener">
+          <Icon name="whatsapp" size={16} /> WhatsApp
+        </a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-20) var(--space-4) var(--space-16);
+  }
+  .meta-badges {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-6);
+  }
+  .brand-badge, .service-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 16px;
+    border-radius: var(--radius-full);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .brand-badge {
+    background: rgba(6,182,212,0.15);
+    color: #06B6D4;
+  }
+  .service-badge {
+    background: rgba(245,158,11,0.15);
+    color: #F59E0B;
+  }
+  .article-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.2;
+    color: #F8FAFC;
+    margin: 0 0 var(--space-6);
+  }
+  .article-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-12);
+  }
+  
+  /* Markdown Content Styling */
+  .article-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+  }
+  .article-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: #F8FAFC;
+    margin: var(--space-10) 0 var(--space-4);
+  }
+  .article-content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-xl);
+    font-weight: 600;
+    color: #E2E8F0;
+    margin: var(--space-8) 0 var(--space-3);
+  }
+  .article-content p {
+    margin-bottom: var(--space-6);
+  }
+  .article-content ul, .article-content ol {
+    margin: 0 0 var(--space-6) var(--space-6);
+    padding: 0;
+  }
+  .article-content li {
+    margin-bottom: var(--space-2);
+  }
+  .article-content strong {
+    color: #E2E8F0;
+  }
+  
+  .article-cta h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-xl);
+    color: #F8FAFC;
+    margin: 0 0 var(--space-2);
+  }
+  .article-cta p {
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+  .mt-12 { margin-top: var(--space-12); }
+  .mt-6 { margin-top: var(--space-6); }
+  .p-8 { padding: var(--space-8); }
+  .flex { display: flex; }
+  .justify-center { justify-content: center; }
+  .gap-4 { gap: var(--space-4); }
+</style>

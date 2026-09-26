@@ -1,0 +1,141 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+---
+
+<BaseLayout
+  title="Page Not Found | Atlas Aircon"
+  description="The page you are looking for does not exist."
+  noindex={true}
+>
+  <section class="error-page">
+    <div class="error-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="error-code">404</div>
+      <h1 class="page-title">Connection <span>Lost</span></h1>
+      <p class="page-subtitle max-w-2xl mx-auto mt-4 mb-8">
+        We couldn't locate the page you're looking for. It might have been moved during our system upgrade, or the URL might be incorrect.
+      </p>
+      
+      <div class="cta-buttons justify-center">
+        <a href="/" class="btn btn-primary btn-lg">
+          <Icon name="home" size={18} strokeWidth={2.5} /> Return to Homepage
+        </a>
+        <a href="/services/" class="btn btn-outline btn-lg ml-4">
+          <Icon name="gear" size={18} strokeWidth={2} /> View Our Services
+        </a>
+      </div>
+      
+      <div class="mt-16 card max-w-lg mx-auto p-6 text-left flex items-start gap-4 bg-slate-800/50 border border-slate-700/50 backdrop-blur">
+        <div class="flex-shrink-0 text-amber-400 p-3 bg-amber-400/10 rounded-lg">
+          <Icon name="alert-circle" size={24} />
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-1">Need immediate assistance?</h3>
+          <p class="text-slate-400 text-sm mb-3">If you are trying to book an emergency repair, please contact our dispatch team directly.</p>
+          <a href="tel:+919727257141" class="text-cyan-400 hover:text-cyan-300 font-semibold text-sm flex items-center gap-2">
+            <Icon name="phone" size={14} /> Call +91 97272 57141
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .error-page {
+    position: relative;
+    padding: var(--space-32) 0;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .error-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.1) 0%, transparent 60%), var(--color-navy);
+  }
+
+  .error-code {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(6rem, 15vw, 10rem);
+    font-weight: 900;
+    line-height: 1;
+    color: rgba(6, 182, 212, 0.1);
+    background: linear-gradient(135deg, rgba(6,182,212,0.4), rgba(34,211,238,0.1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -1rem;
+    position: relative;
+    z-index: -1;
+  }
+
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    color: #F8FAFC;
+    margin: 0;
+  }
+
+  .page-title span {
+    background: linear-gradient(135deg, #06B6D4, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .page-subtitle {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-4);
+  }
+
+  /* Utility Classes */
+  .mx-auto { margin-left: auto; margin-right: auto; }
+  .max-w-2xl { max-width: 42rem; }
+  .max-w-lg { max-width: 32rem; }
+  .mt-4 { margin-top: var(--space-4); }
+  .mt-16 { margin-top: var(--space-16); }
+  .mb-1 { margin-bottom: 0.25rem; }
+  .mb-3 { margin-bottom: 0.75rem; }
+  .mb-8 { margin-bottom: var(--space-8); }
+  .p-3 { padding: 0.75rem; }
+  .p-6 { padding: 1.5rem; }
+  .justify-center { justify-content: center; }
+  .text-center { text-align: center; }
+  .text-left { text-align: left; }
+  .flex { display: flex; }
+  .items-start { align-items: flex-start; }
+  .items-center { align-items: center; }
+  .gap-2 { gap: 0.5rem; }
+  .gap-4 { gap: 1rem; }
+  .flex-shrink-0 { flex-shrink: 0; }
+  .rounded-lg { border-radius: 0.5rem; }
+  .font-semibold { font-weight: 600; }
+  .text-sm { font-size: 0.875rem; }
+  .text-white { color: #fff; }
+  .text-slate-400 { color: #94a3b8; }
+  .text-amber-400 { color: #fbbf24; }
+  .text-cyan-400 { color: #22d3ee; }
+  .hover\:text-cyan-300:hover { color: #67e8f9; }
+  .bg-amber-400\/10 { background-color: rgba(251, 191, 36, 0.1); }
+  .bg-slate-800\/50 { background-color: rgba(30, 41, 59, 0.5); }
+  .border-slate-700\/50 { border-color: rgba(51, 65, 85, 0.5); }
+  .backdrop-blur { backdrop-filter: blur(8px); }
+
+  @media (max-width: 640px) {
+    .cta-buttons { justify-content: center; flex-direction: column; width: 100%; }
+    .cta-buttons .btn { width: 100%; justify-content: center; }
+    .btn-outline.ml-4 { margin-left: 0; }
+  }
+</style>

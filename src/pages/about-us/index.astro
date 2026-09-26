@@ -1,0 +1,252 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+import WhatsAppForm from '@components/WhatsAppForm.astro';
+
+const stats = [
+  { value: '20+', label: 'Years Experience' },
+  { value: '5000+', label: 'Projects Completed' },
+  { value: '342+', label: 'Verified Reviews' },
+  { value: '4.9/5', label: 'Google Rating' },
+];
+
+const team = [
+  { role: 'Lead HVAC Engineer', desc: 'Over 15 years specializing in VRF/VRV systems and heavy chiller plants.' },
+  { role: 'Inverter PCB Specialist', desc: 'Expert in micro-soldering and complex electronic diagnostics.' },
+  { role: 'Installation Crew', desc: 'Trained in diamond core drilling and architectural integration.' },
+];
+---
+
+<BaseLayout
+  title="About Us | Atlas Aircon Vadodara"
+  description="Learn about Atlas Aircon, Vadodara's premier HVAC engineering firm. Over 20 years of experience in residential, commercial, and industrial AC services."
+>
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="shield" size={14} strokeWidth={2} /> Established 2005</div>
+      <h1 class="page-title">About <span>Atlas Aircon</span></h1>
+      <p class="page-subtitle">We don't just fix ACs. We engineer thermal solutions.</p>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="section">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Left: Text -->
+        <div class="about-text">
+          <h2>Gujarat's Premier HVAC Engineering Authority</h2>
+          <div class="gold-line"></div>
+          <p>
+            Atlas Aircon was founded with a singular mission: to elevate the standard of air conditioning repair and installation in Gujarat. We saw an industry plagued by untrained mechanics, temporary fixes, and a lack of engineering rigor. 
+          </p>
+          <p>
+            Today, we are the trusted partners for hundreds of residential clients in Alkapuri and Gotri, as well as massive industrial plants in Makarpura GIDC. We combine military-grade precision with cutting-edge diagnostic tools.
+          </p>
+          
+          <div class="mission-box card mt-8">
+            <h3><Icon name="award" size={20} class="text-gold" /> Our Mission</h3>
+            <p class="mb-0">To deliver transparent, technically superior, and highly reliable cooling solutions that protect our clients' investments and ensure absolute comfort in extreme climates.</p>
+          </div>
+        </div>
+
+        <!-- Right: Image/Stats -->
+        <div class="about-visuals">
+          <div class="image-wrap card">
+             <img
+              src="https://atlasaircons.com/wp-content/uploads/2025/07/emergency-ac-repair-in-vadodara.webp"
+              alt="Atlas Aircon Team at work"
+              width="600"
+              height="400"
+              class="rounded-xl w-full object-cover"
+              style="aspect-ratio: 4/3;"
+            />
+          </div>
+          
+          <div class="stats-grid mt-6">
+            {stats.map(s => (
+              <div class="stat-card card text-center">
+                <span class="stat-val">{s.value}</span>
+                <span class="stat-lbl">{s.label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team/Expertise -->
+  <section class="section bg-surface">
+    <div class="container text-center">
+      <div class="section-badge"><Icon name="users" size={14} strokeWidth={2} /> Our Core Strength</div>
+      <h2 class="section-title">The Engineering <span>Squad</span></h2>
+      <div class="gold-line mx-auto mt-4 mb-10"></div>
+
+      <div class="team-grid">
+        {team.map(member => (
+          <div class="team-card card text-left">
+            <div class="team-icon"><Icon name="wrench" size={24} /></div>
+            <h3>{member.role}</h3>
+            <p>{member.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Booking Form Section -->
+  <section class="section bg-surface">
+    <div class="container max-w-2xl mx-auto">
+      <WhatsAppForm />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* Page Header */
+  .page-header {
+    position: relative;
+    padding: var(--space-24) 0 var(--space-16);
+    overflow: hidden;
+  }
+
+  .header-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.1) 0%, transparent 70%), var(--color-navy);
+  }
+
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    color: #F8FAFC;
+    margin: var(--space-4) 0;
+  }
+
+  .page-title span {
+    background: linear-gradient(135deg, #06B6D4, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .page-subtitle {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+  }
+
+  /* About Grid */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-16);
+    align-items: center;
+  }
+
+  .about-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-3xl);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: var(--space-4);
+  }
+
+  .about-text p {
+    font-size: var(--text-base);
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: var(--space-4);
+  }
+
+  .mission-box h3 {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-2);
+    color: #06B6D4;
+  }
+
+  .text-gold { color: #06B6D4; }
+  .mt-8 { margin-top: var(--space-8); }
+  .mt-6 { margin-top: var(--space-6); }
+  .mt-4 { margin-top: var(--space-4); }
+  .mb-10 { margin-bottom: var(--space-10); }
+  .mb-0 { margin-bottom: 0 !important; }
+  .mx-auto { margin-left: auto; margin-right: auto; }
+
+  /* Stats */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+  }
+
+  .stat-card {
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .stat-val {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-3xl);
+    font-weight: 800;
+    color: #06B6D4;
+  }
+
+  .stat-lbl {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    font-weight: 600;
+  }
+
+  /* Team */
+  .bg-surface { background: var(--color-surface-1); }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+  }
+
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .team-icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(6,182,212,0.1);
+    color: #06B6D4;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--space-2);
+  }
+
+  .team-card h3 {
+    font-size: var(--text-lg);
+    color: #F8FAFC;
+    margin: 0;
+  }
+
+  .team-card p {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 900px) {
+    .about-grid { grid-template-columns: 1fr; gap: var(--space-8); }
+    .team-grid { grid-template-columns: 1fr; }
+  }
+</style>

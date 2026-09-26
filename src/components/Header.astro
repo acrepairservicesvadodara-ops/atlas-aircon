@@ -1,0 +1,328 @@
+---
+// Header Component — Atlas Aircon
+import Icon from './Icon.astro';
+
+const navLinks = [
+  { href: '/services/', label: 'Services' },
+  { href: '/about-us/', label: 'About Us' },
+  { href: '/wiki/', label: 'Atlas Wiki', icon: 'book' },
+  { href: '/fault-codes/', label: 'Fault Codes', icon: 'alert-circle' },
+  { href: '/shop/', label: 'Shop' },
+  { href: '/blogs/', label: 'Blog' },
+  { href: '/contact-us/', label: 'Contact' },
+  { href: '/ac-repair-cost-vadodara/', label: 'Price List' },
+  { href: '/recent-projects/', label: 'Daily Ops', icon: 'zap' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="site-header" id="site-header">
+  <div class="header-inner container">
+    <!-- Logo -->
+    <div class="header-logo">
+      <a href="/" aria-label="Atlas Aircon - Home">
+        <img
+          src="https://www.atlasaircons.com/wp-content/uploads/2026/03/Atlas-Aircon-Logo.png"
+          alt="Atlas Aircon Logo"
+          width="160"
+          height="60"
+          loading="eager"
+        />
+      </a>
+    </div>
+
+    <!-- Desktop Nav -->
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        {navLinks.map(link => (
+          <li>
+            <a
+              href={link.href}
+              class:list={['nav-link', { active: currentPath === link.href }]}
+            >
+              {link.icon && <Icon name={link.icon} size={13} strokeWidth={2} />}
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <!-- CTA + Mobile Toggle -->
+    <div class="header-actions">
+      <a href="tel:+919727257141" class="btn-call" aria-label="Call Atlas Aircon">
+        <span class="btn-call-icon"><Icon name="phone" size={14} strokeWidth={2.5} /></span>
+        <span class="btn-call-text">97272 57141</span>
+      </a>
+      <button
+        class="mobile-toggle"
+        id="mobile-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav>
+      <ul>
+        {navLinks.map(link => (
+          <li>
+            <a href={link.href} class="mobile-nav-link">{link.label}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <div class="mobile-ctas">
+      <a href="tel:+919727257141" class="btn btn-primary btn-lg">
+        <Icon name="phone" size={18} strokeWidth={2} /> Call Now — 97272 57141
+      </a>
+      <a
+        href="https://wa.me/919727257141?text=Hi%2C+I+need+AC+service"
+        class="btn btn-whatsapp btn-lg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Icon name="whatsapp" size={18} /> WhatsApp Us
+      </a>
+    </div>
+  </div>
+</header>
+
+<style>
+  /* ---- Header ---- */
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: rgba(10, 22, 40, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+    transition: box-shadow var(--transition-base);
+  }
+
+  .site-header.scrolled {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-height);
+    gap: var(--space-6);
+  }
+
+  /* ---- Logo ---- */
+  .header-logo a { display: block; line-height: 0; }
+  .header-logo img {
+    height: 52px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(1.05);
+  }
+
+  /* ---- Desktop Nav ---- */
+  .main-nav ul {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    flex-wrap: nowrap;
+  }
+
+  .nav-link {
+    font-family: var(--font-heading);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    color: var(--color-gold);
+    background: var(--color-gold-dim);
+  }
+
+  /* ---- Call Button ---- */
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-shrink: 0;
+  }
+
+  .btn-call {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: linear-gradient(135deg, var(--color-gold), var(--color-gold-light));
+    color: var(--color-navy);
+    font-family: var(--font-heading);
+    font-size: var(--text-xs);
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: var(--space-2) var(--space-5);
+    border-radius: var(--radius-full);
+    transition: all var(--transition-base);
+    box-shadow: 0 4px 16px rgba(212,175,55,0.3);
+    animation: pulse-gold 2.5s infinite;
+  }
+
+  .btn-call:hover {
+    color: var(--color-navy);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(212,175,55,0.5);
+  }
+
+  /* ---- Mobile Toggle ---- */
+  .mobile-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: var(--space-2);
+    border-radius: var(--radius-md);
+    transition: background var(--transition-fast);
+  }
+
+  .mobile-toggle:hover { background: var(--color-gold-dim); }
+
+  .toggle-bar {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--color-gold);
+    border-radius: 2px;
+    transition: all var(--transition-base);
+  }
+
+  /* Active state bars */
+  .mobile-toggle[aria-expanded="true"] .toggle-bar:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+  }
+  .mobile-toggle[aria-expanded="true"] .toggle-bar:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  .mobile-toggle[aria-expanded="true"] .toggle-bar:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+  }
+
+  /* ---- Mobile Menu ---- */
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    background: var(--color-navy-light);
+    border-bottom: 1px solid var(--color-gold-border);
+    padding: var(--space-6);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  }
+
+  .mobile-menu.open {
+    display: block;
+    animation: fadeInUp 0.25s ease;
+  }
+
+  .mobile-menu nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-1);
+    margin-bottom: var(--space-6);
+  }
+
+  .mobile-nav-link {
+    display: block;
+    padding: var(--space-3) var(--space-4);
+    font-family: var(--font-heading);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+    border: 1px solid transparent;
+  }
+
+  .mobile-nav-link:hover {
+    color: var(--color-gold);
+    background: var(--color-gold-dim);
+    border-color: var(--color-gold-border);
+  }
+
+  .mobile-ctas {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .mobile-ctas .btn { justify-content: center; }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 1200px) {
+    .main-nav { display: none; }
+    .mobile-toggle { display: flex; }
+    .btn-call-text { display: none; }
+    .btn-call { padding: var(--space-2) var(--space-3); }
+  }
+
+  @media (max-width: 768px) {
+    .mobile-menu nav ul {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<script>
+  // Header scroll effect
+  const header = document.getElementById('site-header');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 20) {
+      header?.classList.add('scrolled');
+    } else {
+      header?.classList.remove('scrolled');
+    }
+  }, { passive: true });
+
+  // Mobile menu toggle
+  const toggle = document.getElementById('mobile-toggle');
+  const menu = document.getElementById('mobile-menu');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = menu?.classList.contains('open');
+    menu?.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', (!isOpen).toString());
+    menu?.setAttribute('aria-hidden', isOpen.toString());
+  });
+
+  // Close menu on link click
+  document.querySelectorAll('.mobile-nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      menu?.classList.remove('open');
+      toggle?.setAttribute('aria-expanded', 'false');
+      menu?.setAttribute('aria-hidden', 'true');
+    });
+  });
+</script>

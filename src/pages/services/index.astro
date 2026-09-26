@@ -1,0 +1,291 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+import WhatsAppForm from '@components/WhatsAppForm.astro';
+
+const services = [
+  {
+    icon: 'wrench',
+    title: 'AC Repair & Power Jet Servicing',
+    desc: '120-Bar Power Jet Descaling + non-corrosive alkaline chemicals restore factory-level heat exchange. On-site inverter PCB micro-soldering and IC chip replacement — no unnecessary board replacements.',
+    points: ['Inverter PCB Component-Level Repair', 'Vacuum-Assisted Gas Charging by Weight', 'Compressor Seize Recovery & Replacement', 'Copper Coil Brazing & Leak Elimination'],
+    link: '/ac-repair-vadodara/'
+  },
+  {
+    icon: 'gear',
+    title: 'Precision AC Installation & Shifting',
+    desc: 'Diamond-core cutting for zero wall damage. Dry nitrogen pressure testing at 350 PSI on every pipeline before gas charge. Mathematical flaring, torque-wrench sealed joints.',
+    points: ['Diamond Core Cutting (Zero Wall Damage)', 'Dry Nitrogen Pressure Testing at 350 PSI', 'Safe Gas Pump-Down & Equipment Shifting', 'Cassette, Tower & Ductable AC Mounting'],
+    link: '/ac-installation/'
+  },
+  {
+    icon: 'factory',
+    title: 'Heavy Industrial & Commercial HVAC',
+    desc: 'Rapid-deployment for critical chiller plants and multi-zone VRF systems. Thermal imaging and vibration analysis for predictive maintenance. AMC protocols for GIDC industries.',
+    points: ['Water-Cooled & Air-Cooled Chiller Overhaul', 'VRF / VRV System Digital Diagnostics', 'CNC Machine & Control Panel AC Repair', 'Corporate & Industrial AMC Contracts'],
+    link: '/industrial-hvac/'
+  },
+  {
+    icon: 'circuit',
+    title: 'Inverter PCB Repair',
+    desc: 'We diagnose and repair burnt ICs, IPM modules, and microprocessors on your existing board at a fraction of the cost of a company replacement.',
+    points: ['Component-Level Diagnostics', 'IPM Module Replacement', 'Communication Error Fixes', 'Voltage Fluctuation Protection'],
+    link: '/inverter-pcb-repair/'
+  },
+  {
+    icon: 'thermometer',
+    title: 'Gas Charging & Leak Repair',
+    desc: 'We use dual-stage vacuum pumps for 30–45 minutes to create a pure vacuum before injecting any refrigerant. We charge R32, R410a, and R22 by exact weight.',
+    points: ['Nitrogen Leak Testing', 'Condenser Coil Brazing', 'Dual-Stage Vacuuming', 'Precise Gas Weighing'],
+    link: '/ac-gas-charging/'
+  },
+  {
+    icon: 'air-vent',
+    title: 'Cassette & Ductable ACs',
+    desc: 'Complete servicing, repair, and installation of ceiling cassette units and ductable split systems for commercial showrooms and corporate offices.',
+    points: ['Deep Chemical Wash', 'Drain Pump Clearing', 'Thermostat Calibration', 'Airflow Optimization'],
+    link: '/cassette-ac-service/'
+  }
+];
+---
+
+<BaseLayout
+  title="Our Services | Atlas Aircon Vadodara"
+  description="Comprehensive AC repair, installation, gas charging, and industrial HVAC services by Atlas Aircon in Vadodara and across Gujarat."
+>
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="gear" size={14} strokeWidth={2} /> Our Capabilities</div>
+      <h1 class="page-title">Engineering <span>Services</span></h1>
+      <p class="page-subtitle">From residential splits to heavy-tonnage industrial chillers.</p>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="services-grid">
+        {services.map((svc, i) => (
+          <div class="service-card card" style={`animation-delay: ${i * 0.1}s`}>
+            <div class="svc-icon"><Icon name={svc.icon} size={36} strokeWidth={1.5} /></div>
+            <h3 class="svc-title">{svc.title}</h3>
+            <p class="svc-desc">{svc.desc}</p>
+            <ul class="svc-points">
+              {svc.points.map(pt => (
+                <li>
+                  <span class="pt-check"><Icon name="check" size={14} strokeWidth={3} /></span>
+                  {pt}
+                </li>
+              ))}
+            </ul>
+            <div class="svc-footer">
+              <a href={svc.link} class="svc-link">View Details <Icon name="arrow-right" size={16} /></a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="cta-banner">
+        <div class="cta-banner-inner">
+          <div>
+            <h2>Need Immediate Technical Assistance?</h2>
+            <p>Our rapid-response engineers are deployed across Vadodara 24/7.</p>
+          </div>
+          <div class="cta-buttons">
+            <a href="tel:+919727257141" class="btn btn-primary btn-lg">
+              <Icon name="phone" size={18} strokeWidth={2.5} /> 97272 57141
+            </a>
+            <a
+              href="https://wa.me/919727257141?text=EMERGENCY:%20I%20need%20rapid%20AC%20Repair."
+              class="btn btn-whatsapp btn-lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon name="whatsapp" size={18} /> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Booking Form Section -->
+  <section class="section bg-surface">
+    <div class="container max-w-2xl mx-auto">
+      <WhatsAppForm />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* Page Header */
+  .page-header {
+    position: relative;
+    padding: var(--space-24) 0 var(--space-16);
+    overflow: hidden;
+  }
+
+  .header-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.1) 0%, transparent 70%), var(--color-navy);
+  }
+
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    color: #F8FAFC;
+    margin: var(--space-4) 0;
+  }
+
+  .page-title span {
+    background: linear-gradient(135deg, #06B6D4, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .page-subtitle {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+  }
+
+  /* Services Grid */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+  }
+
+  .service-card { 
+    display: flex; 
+    flex-direction: column; 
+    gap: var(--space-4);
+    height: 100%;
+  }
+
+  .svc-icon {
+    width: 64px;
+    height: 64px;
+    background: rgba(6,182,212,0.1);
+    color: #06B6D4;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .svc-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-xl);
+    font-weight: 700;
+    color: #F8FAFC;
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .svc-desc {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .svc-points {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin: var(--space-2) 0;
+    flex: 1; /* Pushes footer to bottom */
+  }
+
+  .svc-points li {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+  }
+
+  .pt-check {
+    color: #06B6D4;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .svc-footer {
+    border-top: 1px solid rgba(6,182,212,0.1);
+    padding-top: var(--space-4);
+    margin-top: auto;
+  }
+
+  .svc-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: #06B6D4;
+    font-weight: 600;
+    font-size: var(--text-sm);
+    text-decoration: none;
+    transition: gap var(--transition-fast);
+  }
+
+  .svc-link:hover {
+    gap: var(--space-3);
+    color: #22D3EE;
+  }
+
+  /* CTA Banner */
+  .cta-banner {
+    background: linear-gradient(135deg, rgba(6,182,212,0.1), rgba(11,22,40,0.8));
+    border: 1px solid rgba(6,182,212,0.3);
+    border-radius: var(--radius-2xl);
+    padding: var(--space-10);
+  }
+
+  .cta-banner-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-8);
+  }
+
+  .cta-banner h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: #F8FAFC;
+    margin: 0 0 var(--space-2);
+  }
+
+  .cta-banner p {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 1024px) {
+    .services-grid { grid-template-columns: repeat(2, 1fr); }
+    .cta-banner-inner { flex-direction: column; text-align: center; }
+    .cta-buttons { justify-content: center; }
+  }
+
+  @media (max-width: 640px) {
+    .services-grid { grid-template-columns: 1fr; }
+  }
+</style>
