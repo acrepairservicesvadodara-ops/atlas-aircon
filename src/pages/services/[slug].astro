@@ -56,7 +56,7 @@ const aliasesMap: Record<string, string> = {
 const canonicalSlug = aliasesMap[svc.slug] || svc.slug;
 
 // Top Vadodara & GIDC locations for internal linking
-const topLocations = locations.slice(0, 18);
+const topLocations = locations.slice(0, 24);
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -150,8 +150,8 @@ const schemaData = {
 ---
 
 <BaseLayout
-  title={`${svc.name} in Vadodara & Gujarat | Atlas Aircon`}
-  description={`${svc.heroSubtitle} Expert ${svc.shortTitle.toLowerCase()} services in Vadodara and Gujarat GIDC zones. 24/7 emergency dispatch, genuine OEM spares, and 90-day written warranty.`}
+  title={`${svc.name} in Vadodara & Gujarat | 24/7 HVAC Authority | Atlas Aircon`}
+  description={`${svc.heroSubtitle} Expert ${svc.shortTitle.toLowerCase()} services in Vadodara and Gujarat GIDC zones. 24/7 emergency dispatch, genuine OEM spares, and 90-day written warranty. Book via WhatsApp.`}
 >
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
@@ -166,7 +166,7 @@ const schemaData = {
           <h1 class="page-title">{svc.name}</h1>
           <p class="tagline-highlight mt-2">{svc.tagline}</p>
           <p class="page-subtitle max-w-2xl mt-4">
-            {svc.heroSubtitle} Backed by 20+ years of engineering excellence, Atlas Aircon deploys mobile emergency diagnostic vans equipped with digital manifold gauges, two-stage vacuum pumps, and nitrogen pressure testing rigs across Vadodara and 300+ surrounding areas.
+            {svc.heroSubtitle} Backed by 20+ years of cooling engineering authority, Atlas Aircon deploys mobile emergency diagnostic vans equipped with digital manifold gauges, two-stage vacuum pumps, and nitrogen pressure testing rigs across Vadodara city and 300+ surrounding areas.
           </p>
 
           <div class="hero-meta-badges mt-6">
@@ -178,7 +178,7 @@ const schemaData = {
 
           <div class="hero-ctas mt-8">
             <a
-              href={`https://wa.me/919727257141?text=${encodeURIComponent(`Hi Atlas Aircon, I need immediate assistance for ${svc.name}. Please connect me with a senior technician.`)}`}
+              href={`https://wa.me/919727257141?text=${encodeURIComponent(`Hi Atlas Aircon, I need immediate assistance for ${svc.name}. Please connect me with a senior HVAC engineer.`)}`}
               class="btn btn-whatsapp btn-lg"
               target="_blank"
               rel="noopener noreferrer"
@@ -198,77 +198,125 @@ const schemaData = {
     </div>
   </section>
 
-  <!-- ===================== ENGINEERING RIGOR SECTION ===================== -->
+  <!-- ===================== DEDICATED ENGINEERING OVERVIEW ===================== -->
   <section class="section bg-surface">
     <div class="container max-w-5xl mx-auto">
-      <div class="section-badge text-center mx-auto mb-3"><Icon name="zap" size={14} /> Engineering Excellence</div>
+      <div class="section-badge text-center mx-auto mb-3"><Icon name="zap" size={14} /> Thermodynamic Science</div>
       <h2 class="text-3xl font-extrabold text-white text-center mb-4">
-        Thermodynamic Rigor & Component-Level Diagnostics
+        Engineering Principles & Thermodynamics of {svc.shortTitle}
       </h2>
       <p class="text-slate-400 text-center max-w-3xl mx-auto mb-8">
-        Why industrial plant engineers, commercial facility directors, and discerning homeowners trust Atlas Aircon over roadside mechanics.
+        Why corporate plant managers, industrial utility engineers, and discerning homeowners trust Atlas Aircon over untrained roadside mechanics.
       </p>
       <div class="gold-line mx-auto mb-10"></div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-        <div class="card p-8">
-          <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
-            <span class="text-cyan-400"><Icon name="wrench" size={20} /></span>
-            Instrument-Verified Diagnostic Protocols
-          </h3>
-          <p class="text-slate-300 text-sm leading-relaxed mb-4">
-            At Atlas Aircon, we do not guess or rely on superficial checks. For every {svc.shortTitle.toLowerCase()} engagement, our certified technicians carry calibrated digital diagnostic instruments. We measure dual-temperature subcooling and superheat curves, verify running current with True-RMS clamp meters under compressor load, and examine winding insulation using 500V digital insulation testers (meggers).
-          </p>
-          <p class="text-slate-300 text-sm leading-relaxed">
-            This rigorous physical science eliminates trial-and-error part swapping. Whether addressing high head pressures, defective electronic expansion valves, or failing motor windings, we isolate the root mechanical or electrical cause before commencing repairs.
-          </p>
-        </div>
-
-        <div class="card p-8">
-          <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
-            <span class="text-cyan-400"><Icon name="shield" size={20} /></span>
-            Refrigeration Circuit Integrity & Moisture Elimination
-          </h3>
-          <p class="text-slate-300 text-sm leading-relaxed mb-4">
-            Refrigeration circuits operate under extreme thermodynamic pressures. When roadside mechanics introduce moisture into air conditioning circuits or skip proper vacuum procedures, atmospheric humidity reacts with synthetic polyolester (POE) lubricants to generate corrosive hydrofluoric acid. This internal acid slowly rots compressor motor enamel, causing catastrophic burnout.
-          </p>
-          <p class="text-slate-300 text-sm leading-relaxed">
-            Atlas Aircon strictly implements dual-stage rotary vacuum evacuation down to below 500 microns. Every brazed joint is subjected to a 350 PSI dry nitrogen pressure hold for 30 minutes, ensuring 100% molecular leak-tight integrity before introducing virgin refrigerants.
-          </p>
-        </div>
+      <div class="card p-8 mb-8">
+        <p class="text-slate-200 text-base leading-relaxed mb-6 font-medium">
+          {svc.engineeringOverview || svc.heroSubtitle}
+        </p>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          Air conditioning and process refrigeration equipment operates under demanding physical principles. Heat transfer is governed by the Fourier conduction law across evaporator and condenser fin surfaces, while fluid phase change obeys strict temperature-pressure saturation curves. During scorching Gujarat summers—where ambient outdoor temperatures routinely exceed 45°C—heat rejection systems face extreme thermal stress. Any drop in refrigerant flow, partial coil fouling, or capacitor drift immediately cascades into high compressor head pressure, increased electrical amp draw, and eventual mechanical seizure.
+        </p>
+        <p class="text-slate-300 text-sm leading-relaxed">
+          At Atlas Aircon, we do not guess or rely on superficial checks. Every {svc.shortTitle.toLowerCase()} call is executed by factory-certified technicians using calibrated electronic diagnostic instruments. We verify subcooling and superheat curves down to 0.1°C precision, test compressor motor winding resistance with 500V digital insulation testers, and draw deep moisture-free vacuum below 500 microns before introducing virgin refrigerants.
+        </p>
       </div>
 
-      <div class="card p-8 bg-surface-elevated">
-        <h3 class="text-xl font-bold text-white mb-4">Core Technical Capabilities & Equipment Standards</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-300">
-          <div class="flex items-start gap-3">
-            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
-            <span><strong>Digital Manifold Gauge Sets:</strong> Real-time saturation pressure, superheat, and subcooling readouts eliminate guesswork.</span>
+      <!-- Supported Brands & Systems Grid -->
+      {svc.supportedBrands && (
+        <div class="card p-6 bg-surface-elevated mb-8">
+          <div class="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-3">
+            <Icon name="check" size={14} /> Brands & Systems Certified
           </div>
-          <div class="flex items-start gap-3">
-            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
-            <span><strong>Ultrasonic & Electronic Leak Detectors:</strong> Micro-leak pinpointing down to 3 grams per year along copper coils and flares.</span>
-          </div>
-          <div class="flex items-start gap-3">
-            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
-            <span><strong>High-Vacuum Micron Gauges:</strong> Deep dehydration below 500 microns to boil away internal atmospheric moisture completely.</span>
-          </div>
-          <div class="flex items-start gap-3">
-            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
-            <span><strong>Electronic Charging Scales:</strong> Virgin refrigerant metering down to the exact gram stamped on manufacturer nameplates.</span>
-          </div>
-          <div class="flex items-start gap-3">
-            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
-            <span><strong>120-Bar Alkaline Power Jets:</strong> Specialized pressure descaling for condenser and evaporator coils without fin damage.</span>
-          </div>
-          <div class="flex items-start gap-3">
-            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
-            <span><strong>OEM Micro-Soldering Rework:</strong> Component-level electronics repair for burnt inverter IPM modules and microcontrollers.</span>
+          <h3 class="text-lg font-bold text-white mb-3">Equipment Brands & Architectures Supported for {svc.shortTitle}:</h3>
+          <div class="flex flex-wrap gap-2">
+            {svc.supportedBrands.map((b: string) => (
+              <span class="text-xs bg-slate-800 text-slate-200 px-3 py-1.5 rounded-md border border-slate-700/80 font-medium">
+                {b}
+              </span>
+            ))}
           </div>
         </div>
-      </div>
+      )}
     </div>
   </section>
+
+  <!-- ===================== FAILURE MECHANISMS & RECTIFICATION MATRIX ===================== -->
+  {svc.failureMechanisms && (
+    <section class="section">
+      <div class="container max-w-5xl mx-auto">
+        <div class="text-center mb-10">
+          <div class="section-badge mx-auto mb-3"><Icon name="wrench" size={14} /> Root Cause Analysis</div>
+          <h2 class="section-title">Common Failure Modes Diagnosed in {svc.shortTitle}</h2>
+          <p class="section-desc max-w-3xl mx-auto">
+            Component-level root causes, physical symptoms, and our certified engineering fixes.
+          </p>
+          <div class="gold-line mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {svc.failureMechanisms.map((fm: { issue: string; cause: string; fix: string }) => (
+            <div class="card p-6 border-l-4 border-cyan-400">
+              <h3 class="text-lg font-bold text-white mb-2">{fm.issue}</h3>
+              <p class="text-slate-400 text-xs mb-3">
+                <strong class="text-rose-400">Root Cause:</strong> {fm.cause}
+              </p>
+              <p class="text-slate-300 text-sm leading-relaxed">
+                <strong class="text-cyan-400">Atlas Technical Fix:</strong> {fm.fix}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ===================== CALIBRATED TOOLS & DIAGNOSTIC STANDARDS ===================== -->
+  {svc.toolsUsed && (
+    <section class="section bg-surface">
+      <div class="container max-w-5xl mx-auto">
+        <div class="text-center mb-10">
+          <div class="section-badge mx-auto mb-3"><Icon name="settings" size={14} /> Precision Instrumentation</div>
+          <h2 class="section-title">Diagnostic Equipment & Standards for {svc.shortTitle}</h2>
+          <p class="section-desc max-w-3xl mx-auto">
+            We invest in laboratory-grade instruments to ensure instrument-verified outcomes on every service visit.
+          </p>
+          <div class="gold-line mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          {svc.toolsUsed.map((t: { name: string; role: string }) => (
+            <div class="card p-6 flex items-start gap-4">
+              <div class="w-12 h-12 rounded-lg bg-cyan-950/80 text-cyan-400 flex items-center justify-center shrink-0 border border-cyan-800/40">
+                <Icon name="wrench" size={20} />
+              </div>
+              <div>
+                <h4 class="text-base font-bold text-white mb-1">{t.name}</h4>
+                <p class="text-slate-300 text-sm leading-relaxed">{t.role}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {svc.diagnosticChecklist && (
+          <div class="card p-6 bg-surface-elevated">
+            <h4 class="text-base font-bold text-white mb-4 flex items-center gap-2">
+              <Icon name="check" size={16} class="text-cyan-400" />
+              Pre-Departure Verification Checklist & Tolerances:
+            </h4>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {svc.diagnosticChecklist.map((c: { check: string; standard: string }) => (
+                <div class="text-xs bg-slate-900/60 p-3 rounded border border-slate-800">
+                  <span class="text-slate-400 font-medium block mb-1">{c.check}</span>
+                  <span class="text-cyan-400 font-mono font-bold">{c.standard}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+  )}
 
   <!-- ===================== 4-STEP SOP (AEO) ===================== -->
   <section class="section">
@@ -283,7 +331,7 @@ const schemaData = {
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-        {svc.sop.map(item => (
+        {svc.sop.map((item: { step: string; title: string; desc: string }) => (
           <div class="card p-6 relative">
             <div class="sop-step-number">{item.step}</div>
             <h3 class="text-lg font-bold text-white mb-2">{item.title}</h3>
@@ -317,7 +365,7 @@ const schemaData = {
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-800">
-              {svc.pricing.map(p => (
+              {svc.pricing.map((p: { service: string; spec: string; cost: string; turnaround: string }) => (
                 <tr class="hover:bg-slate-800/30">
                   <td class="py-3 px-4 font-semibold text-white">{p.service}</td>
                   <td class="py-3 px-4 text-slate-400">{p.spec}</td>

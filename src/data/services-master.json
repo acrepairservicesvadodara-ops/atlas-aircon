@@ -54,6 +54,76 @@
         "cost": "₹1,400 - ₹2,400",
         "turnaround": "2 Hours"
       }
+    ],
+    "engineeringOverview": "Modern split, window, and cassette air conditioning systems depend on a balanced thermodynamic closed loop governed by the vapor-compression refrigeration cycle. When cooling performance falters, common symptoms such as insufficient heat rejection, excessive compressor head pressure, or high electrical amp draw indicate root mechanical or electrical degradation. Rather than applying superficial refrigerant top-ups or shorting out safety switches, Atlas Aircon technicians utilize precision electrical diagnostics, digital manifold gauges, and non-invasive acoustic leak detectors to isolate the exact component failure before starting repairs.",
+    "failureMechanisms": [
+      {
+        "issue": "Compressor Thermal Tripping",
+        "cause": "Choked condenser coils, defective dual-run capacitor, or low operating voltage under load",
+        "fix": "120-bar power jet chemical wash, heavy-duty 450V capacitor replacement, and line voltage stabilization test."
+      },
+      {
+        "issue": "Ice Formation on Indoor Evaporator",
+        "cause": "Severe capillary tube restriction, clogged air filters, or refrigerant pressure dropping below 90 PSI on R32/R410A circuits",
+        "fix": "Nitrogen flush of expansion circuit, deep chemical coil descaling, and electronic scale refrigerant metering."
+      },
+      {
+        "issue": "Indoor Water Dripping & Overflow",
+        "cause": "Algae slime blockage in gravity drain line, cracked condensate drain pan, or incorrect indoor unit mounting level",
+        "fix": "Pressure-flushing drain line with anti-fungal biocides, leveling mounting plate with laser level, and resealing tray joints."
+      },
+      {
+        "issue": "Strange Rattling or Squealing Noises",
+        "cause": "Worn ball bearings on cross-flow blower motor, broken outdoor fan blade, or severe copper pipe vibration against cabinet",
+        "fix": "High-temperature sealed bearing replacement, dynamic fan balancing, and vibration damping foam installation."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Digital Manifold Gauge",
+        "role": "Measures saturation pressure, subcooling, and superheat in real time."
+      },
+      {
+        "name": "True-RMS Clamp Meter",
+        "role": "Measures compressor running amps (RLA) and locked rotor amps (LRA)."
+      },
+      {
+        "name": "Ultrasonic Leak Detector",
+        "role": "Pinpoints microscopic refrigerant leaks down to 3 grams/year."
+      },
+      {
+        "name": "Infrared Thermal Camera",
+        "role": "Scans coil temperature uniformity to detect choked circuit passes."
+      }
+    ],
+    "supportedBrands": [
+      "Daikin Inverter & Fixed Speed",
+      "Voltas All-Weather Series",
+      "Blue Star Inverter Splits",
+      "Hitachi Yoshi & Kashikoi",
+      "Mitsubishi Electric Heavy Duty",
+      "O General Tropical Inverter",
+      "Carrier Emereau & Ester",
+      "Panasonic nanoe™ X Series",
+      "LG Dual Inverter Series"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Incoming Line Voltage Under Load",
+        "standard": "220V - 240V AC (±5% tolerance)"
+      },
+      {
+        "check": "Capacitor Capacitance Reading",
+        "standard": "Within ±5% of microfarad (uF) rating"
+      },
+      {
+        "check": "Evaporator Delta-T Temperature Drop",
+        "standard": "14°C to 18°C temperature differential"
+      },
+      {
+        "check": "Condenser Air Discharge Temperature",
+        "standard": "48°C to 56°C under normal ambient heat"
+      }
     ]
   },
   {
@@ -110,6 +180,72 @@
         "spec": "Vibration isolators + anti-rust mounting frame",
         "cost": "₹750 - ₹1,100",
         "turnaround": "Immediate"
+      }
+    ],
+    "engineeringOverview": "Over 80% of premature air conditioner failures trace directly to improper installation practices. Unskilled hammer-and-chisel drilling causes structural wall cracks, manual flaring without torque wrenches causes cracked flare nuts, and skipping vacuum dehydration contaminates synthetic POE compressor lubricants with atmospheric moisture. Atlas Aircon treats AC installation as a precision engineering discipline, utilizing diamond-core rigs, calibrated flaring tools, dry nitrogen pressure holds at 350 PSI, and dual-stage vacuum pumps pulling below 500 microns.",
+    "failureMechanisms": [
+      {
+        "issue": "Refrigerant Leak at Flare Nuts",
+        "cause": "Over-tightening or uneven flaring causing hairline cracks at brass brass flare connections",
+        "fix": "Mathematical eccentric flaring, applying refrigeration lubricant to flare face, and tightening with calibrated torque wrench."
+      },
+      {
+        "issue": "Moisture-Induced Compressor Seizure",
+        "cause": "Skipping vacuum evacuation, causing trapped air and moisture to form corrosive acids with compressor oil",
+        "fix": "Dual-stage vacuum pump evacuation below 500 microns verified with digital electronic micron gauge."
+      },
+      {
+        "issue": "Outdoor Unit Vibration & Resonance",
+        "cause": "Improper mounting on flimsy brackets without anti-vibration rubber pads",
+        "fix": "Heavy-duty powder-coated GI mounting stand anchored with M10 expansion bolts and heavy neoprene dampers."
+      },
+      {
+        "issue": "Condensate Water Backflow",
+        "cause": "Drain pipe installed with upward slope or sagging traps",
+        "fix": "Gravity conduit installation with continuous 5-degree downward pitch and rigid PVC routing."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Diamond Core Drilling Machine",
+        "role": "Drills clean 3-inch circular wall conduits with zero plaster cracking."
+      },
+      {
+        "name": "Digital Micron Gauge",
+        "role": "Verifies deep moisture-free vacuum below 500 microns."
+      },
+      {
+        "name": "Calibrated Torque Wrench",
+        "role": "Tightens 1/4\", 3/8\", 1/2\", and 5/8\" flare nuts to exact manufacturer torque."
+      },
+      {
+        "name": "Dry Nitrogen Purge Rig",
+        "role": "Prevents copper oxidation scaling during brazing and pressure-holds at 350 PSI."
+      }
+    ],
+    "supportedBrands": [
+      "Split ACs (1.0 to 2.5 Ton)",
+      "Ceiling Cassette Units (2.0 to 4.5 Ton)",
+      "Floor Standing Tower ACs",
+      "Concealed Ductable Units",
+      "VRF Indoor Fan Coil Units"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Nitrogen Pressure Hold Test",
+        "standard": "350 PSI held for minimum 30 minutes"
+      },
+      {
+        "check": "Deep Vacuum Dehydration Level",
+        "standard": "Below 500 microns on electronic gauge"
+      },
+      {
+        "check": "Drainage Gravity Slope",
+        "standard": "Minimum 1:50 downward slope"
+      },
+      {
+        "check": "Compressor Running Amperes",
+        "standard": "Matches nameplate rated current (RLA)"
       }
     ]
   },
@@ -168,6 +304,75 @@
         "cost": "₹950 - ₹1,500",
         "turnaround": "2 Hours"
       }
+    ],
+    "engineeringOverview": "Inverter air conditioning technology utilizes sophisticated variable-frequency drives (VFD), microcontrollers, and Intelligent Power Modules (IPM) to continuously modulate compressor motor speed. In Gujarat, intense summer voltage fluctuations and harmonic grid distortion frequently damage high-voltage switching components on the outdoor PCB. Rather than forcing clients into expensive ₹8,000 to ₹14,000 full board replacements, Atlas Aircon repairs PCBs at component level in our dedicated electronics diagnostic laboratory, saving up to 70%.",
+    "failureMechanisms": [
+      {
+        "issue": "Blown Intelligent Power Module (IPM)",
+        "cause": "High ambient heat, thermal paste drying out, or compressor motor winding short-circuit",
+        "fix": "De-soldering damaged IPM chip, testing DC bus voltage, applying silver thermal paste, and soldering genuine OEM replacement."
+      },
+      {
+        "issue": "Communication Error (U4 / E6 / 01)",
+        "cause": "Burnt optocoupler IC, open communication pull-up resistors, or lightning surge",
+        "fix": "Tracing 24V/5V communication circuits, replacing damaged high-speed photocouplers, and verifying signal waveforms on oscilloscope."
+      },
+      {
+        "issue": "PFC Inductor / IGBT Overcurrent",
+        "cause": "Severe voltage surges, lightning transients, or shorted filter capacitors",
+        "fix": "Replacing IGBT transistors, low-ESR high-voltage electrolytic capacitors, and transient surge varistors (MOV)."
+      },
+      {
+        "issue": "Microcontroller EEPROM Lockup",
+        "cause": "Firmware corruption during brownout or power interruptions",
+        "fix": "De-soldering EEPROM chip, reprogramming factory HEX code on EEPROM programmer, and resetting fault registers."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Digital Storage Oscilloscope",
+        "role": "Analyzes PWM switching frequencies and inverter drive communication signals."
+      },
+      {
+        "name": "SMD Hot-Air Rework Station",
+        "role": "Micro-solders multi-pin surface-mount ICs and microcontrollers without board damage."
+      },
+      {
+        "name": "Inverter Compressor Simulator Bench",
+        "role": "Simulates 3-phase BLDC compressor loads to bench-test repaired boards under full load."
+      },
+      {
+        "name": "LCR Meter & ESR Tester",
+        "role": "Detects high internal resistance and dried-out electrolyte in power capacitors."
+      }
+    ],
+    "supportedBrands": [
+      "Daikin (U4, L5, E7, J6 error codes)",
+      "Voltas (E6, F1, F3 error codes)",
+      "Hitachi (01, 02, 03, 11 error codes)",
+      "Blue Star (EC, E1, E4 error codes)",
+      "O General (01:04, 01:06 error codes)",
+      "Mitsubishi Electric",
+      "Carrier",
+      "LG Dual Inverter"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "DC Bus High-Voltage Rails",
+        "standard": "310V - 380V DC steady under load"
+      },
+      {
+        "check": "Optocoupler Communication Pulses",
+        "standard": "Square-wave 0V-5V pulse train"
+      },
+      {
+        "check": "IPM U-V-W Output Balance",
+        "standard": "Equal 3-phase AC voltage on all legs"
+      },
+      {
+        "check": "Heat-Sink Thermal Resistance",
+        "standard": "Thermal grease applied; <65°C under load"
+      }
     ]
   },
   {
@@ -224,6 +429,73 @@
         "spec": "350 PSI pressure hold test + silver brazing",
         "cost": "₹1,200 - ₹1,800",
         "turnaround": "90 Minutes"
+      }
+    ],
+    "engineeringOverview": "Refrigerant gas is not consumed during normal operation; any low-gas condition is the direct result of a physical leak. Merely adding refrigerant without finding and sealing the leak guarantees repeated failure and financial loss. Furthermore, non-azeotropic refrigerant blends (such as R410A) must be charged exclusively in liquid phase by weight, and circuits must be evacuated below 500 microns to prevent moisture acid formation. Atlas Aircon follows strict thermodynamic protocols: nitrogen leak detection, silver brazing, vacuum dehydration, and electronic scale charging.",
+    "failureMechanisms": [
+      {
+        "issue": "Condenser U-Bend Copper Corrosion",
+        "cause": "Galvanic corrosion, acid rain, or airborne sulfur attacking thin copper U-bends",
+        "fix": "350 PSI nitrogen hold test, pinpointing leaks with bubble solution, and permanent 5% silver alloy brazing."
+      },
+      {
+        "issue": "Fractionated R410A Gas Mixture",
+        "cause": "Slow vapor leak causing differential boiling of R32 and R125 blend components",
+        "fix": "Complete system recovery, deep vacuum dehydration, and charging fresh virgin R410A in liquid phase by weight."
+      },
+      {
+        "issue": "Moisture Blockage at Expansion Orifice",
+        "cause": "Moisture inside circuit freezing into ice at the expansion device, stopping refrigerant flow",
+        "fix": "Triple nitrogen sweep, 45-minute vacuum pump run below 500 microns, and filter-drier replacement."
+      },
+      {
+        "issue": "Compressor Acid Burnout Hazard",
+        "cause": "Running system with low gas, depriving compressor motor of suction gas cooling",
+        "fix": "Testing oil acidity, installing temporary burnout filter-drier if needed, and charging exact factory weight."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Precision Electronic Charging Scale",
+        "role": "Meters virgin refrigerant down to the exact gram stamped on nameplate."
+      },
+      {
+        "name": "Dual-Stage Rotary Vane Vacuum Pump",
+        "role": "Pulls pure vacuum below 500 microns to boil away internal moisture."
+      },
+      {
+        "name": "Oxy-Acetylene Brazing Torch",
+        "role": "Produces controlled 1,600°C flame with silver-copper brazing rods."
+      },
+      {
+        "name": "Nitrogen Regulator & 400 PSI Rig",
+        "role": "Pressurizes coils for safe leak pinpointing and oxygen-free brazing."
+      }
+    ],
+    "supportedBrands": [
+      "R32 Virgin Refrigerant (Difluoromethane)",
+      "R410A Virgin Refrigerant (50% R32 / 50% R125)",
+      "R134a Pure Refrigerant (Tetrafluoroethane)",
+      "R22 Legacy Refrigerant (Chlorodifluoromethane)",
+      "R404A / R507 Sub-Zero Blends",
+      "R407C Commercial Blends"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Nitrogen Leak Pressure Test",
+        "standard": "350 PSI held for minimum 30 minutes"
+      },
+      {
+        "check": "Digital Vacuum Level",
+        "standard": "Below 500 microns maintained for 15 minutes"
+      },
+      {
+        "check": "Refrigerant Charge Accuracy",
+        "standard": "Within ±10 grams of factory nameplate weight"
+      },
+      {
+        "check": "Superheat / Subcooling Curves",
+        "standard": "Superheat 5°C-8°C; Subcooling 4°C-7°C"
       }
     ]
   },
@@ -282,6 +554,74 @@
         "cost": "Per Kg Market Rate",
         "turnaround": "Same Day"
       }
+    ],
+    "engineeringOverview": "Industrial water-cooled and air-cooled chillers ranging from 10-Ton to 500-Ton capacity form the thermal backbone of chemical synthesis reactors, pharmaceutical processing, plastic molding, and manufacturing plants across Gujarat. Operating under continuous 24/7 duty cycles, chiller uptime directly dictates production output. Atlas Aircon deploys certified industrial refrigeration engineers equipped with laser shaft alignment tools, accelerometer vibration meters, shell-and-tube descaling rigs, and deep oil-analysis protocols.",
+    "failureMechanisms": [
+      {
+        "issue": "High Head Pressure Cutout (HP Trip)",
+        "cause": "Hard water calcium scale coating inside condenser tubes, choked cooling tower nozzles, or non-condensable gas in refrigerant",
+        "fix": "Closed-loop inhibited chemical acid descaling, rotary nylon tube brushing, and non-condensable gas purging."
+      },
+      {
+        "issue": "Screw Compressor Bearing Vibration",
+        "cause": "Journal bearing wear, oil dilution from liquid floodback, or coupling misalignment",
+        "fix": "Accelerometer vibration spectrum analysis, laser alignment, and precision mechanical overhaul."
+      },
+      {
+        "issue": "Low Delta-T Syndrome",
+        "cause": "Degraded evaporator heat transfer, fouled chilled water loop, or 3-way modulating bypass valve malfunction",
+        "fix": "Evaporator chemical passivation, flow balance calibration, and electronic modulating valve tuning."
+      },
+      {
+        "issue": "Moisture & Acid in Chiller Lubricant",
+        "cause": "Tube leak in water-to-refrigerant bundle or atmospheric ingress during previous servicing",
+        "fix": "Oil acidity titration, replacing liquid line core filter-driers, and high-vacuum evacuation down to 300 microns."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Vibration Accelerometer Analyzer",
+        "role": "Measures bearing wear and rotor meshing frequencies on screw compressors."
+      },
+      {
+        "name": "Optical Fiber Borescope",
+        "role": "Inspects interior copper tube walls in shell-and-tube heat exchangers for pitting."
+      },
+      {
+        "name": "Rotary Flexible-Shaft Tube Cleaner",
+        "role": "Rotates nylon and brass brushes at 1,750 RPM with water flush to clean condenser tubes."
+      },
+      {
+        "name": "Megohmmeter (1,000V Insulation Tester)",
+        "role": "Tests motor stator winding insulation resistance to prevent ground faults."
+      }
+    ],
+    "supportedBrands": [
+      "York Water-Cooled Chillers",
+      "Carrier AquaEdge & AquaForce",
+      "Trane Series R Screw Chillers",
+      "Blue Star Centrifugal & Screw Units",
+      "Voltas Industrial Chillers",
+      "Daikin Water-Cooled Magnetic Bearing Chillers",
+      "Dunham-Bush Screw Chillers"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Condenser Approach Temperature",
+        "standard": "Less than 2.0°C (3.6°F) approach"
+      },
+      {
+        "check": "Evaporator Approach Temperature",
+        "standard": "Less than 1.5°C (2.7°F) approach"
+      },
+      {
+        "check": "Compressor Motor Winding Insulation",
+        "standard": ">100 Megaohms at 1,000V DC test"
+      },
+      {
+        "check": "Compressor Oil Acidity (TAN)",
+        "standard": "<0.05 mg KOH/g acid number"
+      }
     ]
   },
   {
@@ -338,6 +678,74 @@
         "spec": "Quarterly deep wash, leak tests & logbook audits",
         "cost": "Per Unit / Per Annum",
         "turnaround": "Scheduled"
+      }
+    ],
+    "engineeringOverview": "Variable Refrigerant Flow (VRF) and Variable Refrigerant Volume (VRV) systems represent advanced commercial multi-zone climate control. By dynamically modulating multiple inverter compressors and dozens of electronic expansion valves (EEV) across extensive refnet piping networks, VRF systems achieve high seasonal energy efficiency. However, micro-leaks in ceiling refnet joints or serial communication packet dropouts can shut down cooling across entire office towers. Atlas Aircon engineers interface diagnostic telemetry software directly with outdoor master boards to troubleshoot circuits on-site.",
+    "failureMechanisms": [
+      {
+        "issue": "Electronic Expansion Valve (EEV) Sticking",
+        "cause": "Wear on stepper motor magnetic coils or foreign debris wedging valve pin",
+        "fix": "Testing stepper coil phase resistance (46 ohms nominal), manual pulse activation, or valve body replacement under nitrogen."
+      },
+      {
+        "issue": "DIII-NET / RS-485 Communication Failure",
+        "cause": "High electrical noise from factory drives, severed shielding, or damaged transmission transceivers",
+        "fix": "Shielding continuity check, terminal voltage measurement (0.5V-2.5V differential), and optocoupler replacement."
+      },
+      {
+        "issue": "Oil Trapping in Long Vertical Pipe Risers",
+        "cause": "Improper oil return trap installation or malfunctioning oil separator solenoid valve",
+        "fix": "Executing automated oil-return cycle, solenoid coil testing, and secondary oil balancing."
+      },
+      {
+        "issue": "Inverter Compressor Drive Fault (L5 / P4)",
+        "cause": "IPM module thermal breakdown, current sensor malfunction, or DC bus capacitor ripple",
+        "fix": "Component-level mainboard rebuild, high-temp silicone thermal bonding, and bench testing."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "VRF Service Telemetry Software",
+        "role": "Extracts real-time compressor Hz, EEV pulse steps, and sensor thermistor values."
+      },
+      {
+        "name": "Ultrasonic Nitrogen Sniffer",
+        "role": "Locates concealed refnet joint micro-leaks inside false ceilings without tearing down plaster."
+      },
+      {
+        "name": "Digital Stepper Motor Driver Tester",
+        "role": "Sends manual open/close pulse sequences to test EEV movement."
+      },
+      {
+        "name": "Precision Electronic Charging Rig",
+        "role": "Calculates additional pipe length gas charges and charges pure liquid R410A/R32."
+      }
+    ],
+    "supportedBrands": [
+      "Daikin VRV IV / VRV X Series",
+      "Mitsubishi Electric City Multi",
+      "Blue Star VRF V Plus",
+      "Toshiba SMMS-e Series",
+      "Hitachi Set-Free Series",
+      "Carrier Airstage Series",
+      "Voltas Commercial VRF"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Liquid Line Subcooling at Master Unit",
+        "standard": "4°C to 8°C under full multi-zone load"
+      },
+      {
+        "check": "EEV Stepper Coil Phase Resistance",
+        "standard": "46 ± 3 ohms across all 5-wire pins"
+      },
+      {
+        "check": "Communication Bus Transmission Voltage",
+        "standard": "Continuous modulated 16V DC pulse"
+      },
+      {
+        "check": "Refnet Pressure Hold Integrity",
+        "standard": "400 PSI nitrogen held for 24 hours"
       }
     ]
   },
@@ -396,6 +804,73 @@
         "cost": "Custom Discount",
         "turnaround": "Same Day"
       }
+    ],
+    "engineeringOverview": "Ceiling cassette air conditioners deliver high-efficiency 360-degree draft-free air distribution across corporate boardrooms, retail showrooms, hospitals, and restaurants. However, because cassette units are mounted horizontally recessed inside false ceilings, their condensate drain pans accumulate stagnant water, airborne dust, and bacterial bio-slime. When the internal condensate pump or safety float switch clogs, water overflows through ceiling tiles onto computers and furniture. Atlas Aircon delivers specialized power-jet chemical servicing using waterproof containment funnels.",
+    "failureMechanisms": [
+      {
+        "issue": "Ceiling Water Dripping & Pan Overflow",
+        "cause": "Condensate lift pump impeller jammed with sludge, blocked float switch, or choked drain hose",
+        "fix": "Dismantling internal lift pump, clearing calcium sludge with biocide flush, and verifying float switch cutoff."
+      },
+      {
+        "issue": "Foul Odor & Low Air Discharge",
+        "cause": "Bacterial mold and fungus blooming across multi-row high-density cooling fins",
+        "fix": "120-bar power jet chemical wash with anti-fungal alkaline cleaner and air duct sanitization."
+      },
+      {
+        "issue": "Motorized Swing Louver Stuck",
+        "cause": "Plastic gear teeth stripping on step motor or loose wiring harness",
+        "fix": "Micro-stepper motor replacement and mechanical louver realignment for 360-degree airflow."
+      },
+      {
+        "issue": "High Energy Bills & Weak Cooling",
+        "cause": "Air bypass through clogged return air intake filters and dirty cross-flow centrifugal blower",
+        "fix": "Ultrasonic filter screen cleaning, dynamic blower scrub, and fin straightening."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Waterproof Funnel Service Bag",
+        "role": "Encloses ceiling cassette completely, routing wastewater into buckets with zero spills."
+      },
+      {
+        "name": "120-Bar Variable Power Jet Pump",
+        "role": "Blasts pressurized water through multi-layer coils without bending soft aluminum fins."
+      },
+      {
+        "name": "Condensate Drain Snake & Vacuum Flush",
+        "role": "Clears 30-meter long PVC drain conduits concealed in false ceilings."
+      },
+      {
+        "name": "Digital Anemometer",
+        "role": "Measures air velocity across all 4 discharge louvers to ensure uniform CFM distribution."
+      }
+    ],
+    "supportedBrands": [
+      "Daikin 4-Way & 8-Way Round Flow",
+      "Voltas Commercial Cassettes",
+      "Blue Star Inverter Cassettes",
+      "Hitachi Silent-Dome Cassettes",
+      "Mitsubishi Electric Ceiling Units",
+      "Carrier Slim-Fit Cassettes"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Condensate Lift Pump Cut-Off Test",
+        "standard": "Safety float switch shuts compressor off within 10 seconds of water rise"
+      },
+      {
+        "check": "Discharge Air Velocity Balance",
+        "standard": "Within ±10% CFM across all 4 discharge louvers"
+      },
+      {
+        "check": "Coil Delta-T Temperature Drop",
+        "standard": "14°C to 18°C temperature drop across evaporator"
+      },
+      {
+        "check": "Drain Line Water Discharge Speed",
+        "standard": "Free flow >2 liters/minute with zero backflow"
+      }
     ]
   },
   {
@@ -452,6 +927,73 @@
         "spec": "Industrial duty compact compressor replacement",
         "cost": "Quote on Spec",
         "turnaround": "24 Hours"
+      }
+    ],
+    "engineeringOverview": "Control panel air conditioners operate on a closed-loop refrigeration principle to maintain sealed electrical cabinets (housing CNC controllers, variable frequency drives, PLCs, and servo amplifiers) at a stable 28°C–32°C. In manufacturing environments like Makarpura, Savli, and Halol GIDCs, factory ambient temperatures regularly exceed 48°C, while cutting fluid mist and conductive metallic grinding dust saturate the air. If a panel AC fails, cabinet temperatures soar above 60°C within minutes, triggering machine shutdowns worth lakhs. Atlas Aircon provides rapid on-site repair and degreasing.",
+    "failureMechanisms": [
+      {
+        "issue": "Condenser Clogged with Machining Oil Mist",
+        "cause": "Cutting oil vapors and airborne dust baking onto condenser fins, causing high-pressure compressor trip",
+        "fix": "Chemical degreasing bath, high-pressure fin wash, and installing reusable stainless steel wire-mesh pre-filters."
+      },
+      {
+        "issue": "R134a Micro-Refrigerant Circuit Leak",
+        "cause": "Vibration from nearby stamping presses or CNC machining centers cracking miniature copper joints",
+        "fix": "Helium/nitrogen pressure test, silver brazing, deep vacuuming, and charging exact 180g-350g virgin R134a micro-charge."
+      },
+      {
+        "issue": "Thermostat Sensor Calibration Drift",
+        "cause": "Cabinet vibration or oil ingress damaging digital NTC thermistor sensor",
+        "fix": "Digital controller replacement with dual alarm relays and high-accuracy PT100/NTC probe."
+      },
+      {
+        "issue": "Miniature Hermetic Compressor Burnout",
+        "cause": "Prolonged operation under choked condenser conditions and high ambient heat",
+        "fix": "Compressor replacement with high-ambient tropicalized hermetic unit and nitrogen line flush."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Industrial Solvent Degreaser Spray",
+        "role": "Dissolves baked-on cutting oils and grease from aluminum condenser fins."
+      },
+      {
+        "name": "Micro-Charge Manifold Gauge",
+        "role": "Measures micro-refrigerant pressures on compact R134a hermetic loops."
+      },
+      {
+        "name": "Enclosure Cabinet Thermal Scanner",
+        "role": "Verifies that hot spots on high-power IGBT drives inside cabinet drop below 35°C."
+      },
+      {
+        "name": "Gasket Integrity Tester",
+        "role": "Checks door gasket compression to ensure zero ambient factory air ingress."
+      }
+    ],
+    "supportedBrands": [
+      "Rittal TopTherm Enclosure Cooling",
+      "Seifert Systems Panel ACs",
+      "Werner Finley CNC Cooling",
+      "Enviro Panel Coolers",
+      "Daikin Oil & Control Coolers",
+      "Universal Industrial Panel Units"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Cabinet Internal Steady Temperature",
+        "standard": "28°C to 32°C under full CNC machine load"
+      },
+      {
+        "check": "Enclosure Air-Tightness Seal",
+        "standard": "100% airtight; zero oily air infiltration"
+      },
+      {
+        "check": "Compressor Amp Draw",
+        "standard": "Within ±5% of manufacturer rated micro-ampere"
+      },
+      {
+        "check": "High-Temperature Alarm Relay Trigger",
+        "standard": "Audible alert / trip trigger verified at 42°C"
       }
     ]
   },
@@ -510,6 +1052,73 @@
         "cost": "Quote on Volume",
         "turnaround": "Same Day"
       }
+    ],
+    "engineeringOverview": "Industrial cold rooms, ripening chambers, and deep-freeze blast freezers operating down to -25°C require specialized sub-zero refrigeration engineering. A single defrost heater failure, expansion valve icing, or oil return failure can destroy temperature-sensitive pharmaceutical inventories, dairy products, or agricultural commodities worth lakhs. Atlas Aircon engineers understand the physics of sub-zero evaporation, thermostatic expansion valve (TXV) superheat calibration, crankcase heaters, and automated defrost sequencing.",
+    "failureMechanisms": [
+      {
+        "issue": "Solid Ice Encasement on Evaporator",
+        "cause": "Defrost heater element burnout, defective bimetal defrost termination thermostat, or failed defrost timer clock",
+        "fix": "Testing electrical resistance of defrost heaters, replacing termination sensor, and calibrating digital defrost clock."
+      },
+      {
+        "issue": "Liquid Slugging Damaging Compressor Valves",
+        "cause": "TXV sensing bulb losing thermal contact or wrong superheat setting, allowing liquid refrigerant into crankcase",
+        "fix": "Re-insulating TXV bulb, adjusting valve stem to 4°C-6°C superheat, and testing suction accumulator."
+      },
+      {
+        "issue": "Oil Trapping & Low Compressor Oil Level",
+        "cause": "Inadequate suction line velocity or failure of crankcase immersion heater during off cycles",
+        "fix": "Checking suction oil return traps, replacing immersion heater, and topping up POE/PVE synthetic oil."
+      },
+      {
+        "issue": "Temperature Creep During Loading",
+        "cause": "Chamber air infiltration through worn door gaskets or undersized refrigeration capacity",
+        "fix": "Replacing magnetic door gaskets, installing air curtains, and tuning condensing unit fans."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Sub-Zero Digital Pipe Clamps",
+        "role": "Measures suction temperature down to -40°C for precise superheat calculation."
+      },
+      {
+        "name": "Megger Insulation Resistance Tester",
+        "role": "Tests defrost heater sheath insulation to prevent ground fault trips."
+      },
+      {
+        "name": "Refrigeration Oil Acidity Kit",
+        "role": "Tests polyolester (POE) oil samples for moisture-induced chemical breakdown."
+      },
+      {
+        "name": "Ultrasonic Cold-Door Leak Detector",
+        "role": "Scans polyurethane insulated panel (PUF) joints and door gaskets for air leaks."
+      }
+    ],
+    "supportedBrands": [
+      "Bitzer Semi-Hermetic Condensing Units",
+      "Copeland Scroll Sub-Zero Units",
+      "Frascold Semi-Hermetic Compressors",
+      "Danfoss Industrial Controls & Valves",
+      "Blue Star Cold Storage Systems",
+      "Guntner & Lu-Ve Evaporators"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Defrost Termination Temperature",
+        "standard": "Heaters de-energize when coil hits +10°C"
+      },
+      {
+        "check": "Operating Superheat Setting",
+        "standard": "4°C to 6°C at evaporator outlet"
+      },
+      {
+        "check": "Compressor Crankcase Heater Operation",
+        "standard": "Warm (45°C-55°C) during compressor standby"
+      },
+      {
+        "check": "Chamber Temperature Recovery Rate",
+        "standard": "Pulls down to setpoint within 30 minutes of door close"
+      }
     ]
   },
   {
@@ -566,6 +1175,73 @@
         "spec": "Quarterly deep service + priority emergency calls",
         "cost": "Custom Package",
         "turnaround": "Scheduled"
+      }
+    ],
+    "engineeringOverview": "Commercial concealed ductable central air conditioning systems deliver high volumetric airflow (CFM) across large open-plan corporate offices, conference halls, and banquet facilities. Because the indoor unit and sheet metal ductwork are hidden above false ceilings, problems like static pressure loss, duct air leakage, choked return air plenums, and blower motor bearing wear can quietly drain power and leave remote rooms suffocatingly warm. Atlas Aircon delivers complete aerodynamic and refrigeration maintenance.",
+    "failureMechanisms": [
+      {
+        "issue": "Uneven Cooling Across Remote Rooms",
+        "cause": "Imbalanced volume control dampers (VCD), disconnected flexible ducts, or severe duct air leakage",
+        "fix": "Anemometer CFM measurement across all supply diffusers, proportional damper tuning, and mastic duct sealing."
+      },
+      {
+        "issue": "Centrifugal Blower Vibration & Noise",
+        "cause": "Accumulation of dust sludge on blower curved vanes throwing the wheel out of dynamic balance",
+        "fix": "Dismantling blower assembly, ultrasonic chemical scrub, dynamic balancing, and pillow block bearing lubrication."
+      },
+      {
+        "issue": "High Indoor Humidity & Sweating Diffusers",
+        "cause": "Air velocity through cooling coil too high (exceeding 500 FPM), preventing latent moisture condensation",
+        "fix": "Adjusting motor pulley diameter or multi-speed tap to reduce CFM and optimize moisture extraction."
+      },
+      {
+        "issue": "Water Stains on False Ceiling Tiles",
+        "cause": "Condensate drain tray overflowing or uninsulated ductwork causing condensation sweating",
+        "fix": "Pressure-flushing primary and secondary drain traps and wrapping exposed metal with closed-cell nitrile rubber."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Hot-Wire Anemometer & Capture Hood",
+        "role": "Measures exact volumetric air delivery (CFM) at every supply air register."
+      },
+      {
+        "name": "Differential Digital Manometer",
+        "role": "Measures external static pressure (ESP) across cooling coil and air filter bank."
+      },
+      {
+        "name": "Laser Pulley Alignment Tool",
+        "role": "Ensures drive motor and blower shaft pulleys are in 100% parallel alignment."
+      },
+      {
+        "name": "120-Bar High-Pressure Foam Rig",
+        "role": "Cleans deep multi-row cooling coils through ceiling access panels."
+      }
+    ],
+    "supportedBrands": [
+      "Voltas Ductable Central Systems",
+      "Blue Star Packaged & Ductable Units",
+      "Carrier Ducted Split Systems",
+      "Daikin Concealed Duct Units",
+      "Hitachi Ducted Air Conditioners",
+      "Mitsubishi Electric Heavy Ducted"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "External Static Pressure (ESP)",
+        "standard": "Within manufacturer rated inches of water column (in. w.g.)"
+      },
+      {
+        "check": "Airflow Velocity Across Coil",
+        "standard": "Maintained between 400 and 500 Feet Per Minute (FPM)"
+      },
+      {
+        "check": "V-Belt Tension & Deflection",
+        "standard": "1/2-inch deflection under 2 kg thumb pressure"
+      },
+      {
+        "check": "Supply Diffuser Temperature Split",
+        "standard": "Supply air at 12°C-15°C with return air at 24°C"
       }
     ]
   },
@@ -624,6 +1300,73 @@
         "cost": "₹1,800 - ₹3,200",
         "turnaround": "2 Hours"
       }
+    ],
+    "engineeringOverview": "The compressor is the mechanical heart of any air conditioning or refrigeration system. When a compressor burns out or seizes, the internal electric motor failure contaminates the entire copper refrigeration circuit with acidic carbon sludge and burnt enamel varnish. Simply bolting in a replacement compressor without chemical flushing guarantees that the new compressor will fail within 48 hours. Atlas Aircon executes rigorous chemical flushing with solvent R141b, dry nitrogen sweeps, silver brazing, and POE oil balance.",
+    "failureMechanisms": [
+      {
+        "issue": "Motor Stator Winding Burnout",
+        "cause": "Prolonged low-voltage operation, running without refrigerant gas, or lightning strike",
+        "fix": "Testing oil acidity, executing chemical R141b flush, installing suction burnout filter-drier, and fitting new OEM compressor."
+      },
+      {
+        "issue": "Mechanical Seizure (Locked Rotor)",
+        "cause": "Loss of compressor oil lubrication, liquid refrigerant slugging, or broken connecting rod",
+        "fix": "Unseizing assessment, system evacuation, installing new compressor on vibration isolators, and virgin POE oil charge."
+      },
+      {
+        "issue": "Internal Valve Reed Blowby",
+        "cause": "Liquid refrigerant entering compression chamber causing hydraulic shock and broken flapper valves",
+        "fix": "Differential pressure test, replacing damaged compressor, and tuning expansion valve superheat."
+      },
+      {
+        "issue": "High Discharge Temperature Overheating",
+        "cause": "High compression ratio from choked condenser coil or low suction pressure",
+        "fix": "Installing new compressor, descaling condenser coil, and verifying discharge temperature remains below 105°C."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "R141b Flushing Cylinder & Rig",
+        "role": "Flushes carbonized oil and burnt varnish sludge from indoor and outdoor copper coils."
+      },
+      {
+        "name": "Wet-Rag Heat Sink Shielding",
+        "role": "Safeguards internal compressor valves and service ports from torch heat during brazing."
+      },
+      {
+        "name": "True-RMS Motor Megohmmeter",
+        "role": "Tests motor stator winding insulation before energizing new compressor."
+      },
+      {
+        "name": "Burnout Acid Core Filter-Drier",
+        "role": "Adsorbs residual acid molecules in suction line following electrical burnout."
+      }
+    ],
+    "supportedBrands": [
+      "Copeland Scroll Compressors (ZR Series)",
+      "Danfoss Maneurop Reciprocating & Scroll",
+      "Daikin Swing & Scroll Compressors",
+      "Highly / GMCC Rotary Inverter Compressors",
+      "Panasonic Rotary Compressors",
+      "Tecumseh Industrial Reciprocating"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Refrigerant Circuit Acidity Test",
+        "standard": "Clear oil color; zero acid indicator change"
+      },
+      {
+        "check": "Nitrogen Cleanliness Flush",
+        "standard": "White cloth at discharge shows zero black residue"
+      },
+      {
+        "check": "Compressor Ground Insulation",
+        "standard": ">50 Megaohms winding-to-ground resistance"
+      },
+      {
+        "check": "Locked Rotor Amps (LRA) vs Running Amps",
+        "standard": "Running current drops to normal RLA within 1.5 seconds"
+      }
     ]
   },
   {
@@ -680,6 +1423,73 @@
         "spec": "Chillers, panel ACs & VRF with dedicated logbook",
         "cost": "Tailored SLA",
         "turnaround": "Yearly"
+      }
+    ],
+    "engineeringOverview": "Air conditioning and commercial refrigeration equipment left without scheduled preventive maintenance experiences an average 7% efficiency loss per year, accompanied by a 400% surge in sudden emergency breakdown risk. Atlas Aircon Annual Maintenance Contracts (AMC) provide comprehensive and non-comprehensive preventive care for commercial corporate offices, hospitals, retail chains, and GIDC industrial plants across Gujarat, backed by formal SLA uptime guarantees and quarterly 120-bar power jet deep cleaning.",
+    "failureMechanisms": [
+      {
+        "issue": "Gradual Power Bill Inflation",
+        "cause": "Dust accumulation on condenser coils insulating heat transfer surfaces and driving up compressor amps",
+        "fix": "Scheduled quarterly 120-bar chemical jet descaling, restoring factory heat transfer efficiency."
+      },
+      {
+        "issue": "Catastrophic Mid-Summer Breakdown",
+        "cause": "Degraded motor run capacitors or loose electrical terminal lugs overheating unnoticed",
+        "fix": "Monthly electrical thermography scans, tightening lugs, and pre-emptive capacitor swaps before failure."
+      },
+      {
+        "issue": "Chronic Undetected Gas Leaks",
+        "cause": "Micro-vibration causing flare nuts to loosen over thousands of operating hours",
+        "fix": "Electronic ultrasonic leak inspection during every scheduled quarterly service call."
+      },
+      {
+        "issue": "Severe Biological Contamination & Sick Building",
+        "cause": "Stagnant condensate drain pans fostering black mold, mildew, and Legionella bacteria",
+        "fix": "Hospital-grade anti-microbial biocide sanitization of drain pans and air delivery ducts."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Digital Maintenance Logbook App",
+        "role": "Logs exact running amps, suction/discharge pressures, and temperatures on every visit."
+      },
+      {
+        "name": "Infrared Thermal Imager",
+        "role": "Detects overheated electrical contactors, loose busbars, and overloaded circuit breakers."
+      },
+      {
+        "name": "Refrigerant Leak Sniffer",
+        "role": "Scans every flare nut and braze joint to eliminate fugitive emissions."
+      },
+      {
+        "name": "Airflow CFM Anemometer",
+        "role": "Verifies conditioned space air circulation complies with ASHRAE standards."
+      }
+    ],
+    "supportedBrands": [
+      "Commercial Multi-Split Systems",
+      "Ceiling Cassette & Tower Air Conditioners",
+      "Concealed Ductable Split Units",
+      "VRF / VRV Multi-Zone Systems",
+      "Industrial Water & Air Cooled Chillers",
+      "Control Panel Air Conditioners"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Quarterly Service Execution",
+        "standard": "100% adherence to scheduled maintenance calendar"
+      },
+      {
+        "check": "Emergency Response SLA Guarantee",
+        "standard": "<90 minutes for urban; <2 hours for GIDC plants"
+      },
+      {
+        "check": "Electrical Safety Audit",
+        "standard": "Contactor points, earth continuity, and fuses inspected"
+      },
+      {
+        "check": "Compressor Running Amps vs Rated",
+        "standard": "Running current remains within ±5% of factory spec"
       }
     ]
   },
@@ -738,6 +1548,72 @@
         "cost": "₹1,299 / Unit",
         "turnaround": "75 Minutes"
       }
+    ],
+    "engineeringOverview": "Standard brush-and-water servicing cleans only the outermost 20% of air conditioner coils, leaving dense layers of cooking grease, airborne dust, and bio-slime baked deep within the multi-row heat exchanger. This choked condition reduces airflow by over 40% and forces the compressor to run up to 3 hours longer per day. Atlas Aircon 120-Bar Power Jet Service utilizes high-pressure micro-jets combined with non-corrosive, biodegradable alkaline chemical foam to wash through the entire depth of the coil.",
+    "failureMechanisms": [
+      {
+        "issue": "Deeply Impacted Coil Fin Clogging",
+        "cause": "Years of airborne dust, cooking oil vapors, and vehicular exhaust coating inner coil passes",
+        "fix": "Alkaline foam soak followed by 120-bar cross-fin power jet spray, flushing black wastewater into containment bags."
+      },
+      {
+        "issue": "Cross-Flow Blower Barrel Smothering",
+        "cause": "Thick lint and dust cakes sticking to the concave blades of the cylindrical blower fan",
+        "fix": "Extracting or shroud-washing blower wheel with rotational high-pressure spray until transparently clean."
+      },
+      {
+        "issue": "Choked Condensate Drainage Channel",
+        "cause": "Jelly-like algae slime accumulating in the narrow drain channel behind the cooling coil",
+        "fix": "Pressure-flushing the internal U-drain channel and injecting anti-microbial biocide tablets."
+      },
+      {
+        "issue": "Bent Aluminum Cooling Fins",
+        "cause": "Careless cleaning by roadside mechanics using sharp metal brushes",
+        "fix": "Realigning crushed aluminum fins using precision stainless steel fin combs to restore laminar airflow."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "120-Bar Variable High-Pressure Jet Rig",
+        "role": "Blasts high-velocity water jets through multi-row aluminum coils without bending fins."
+      },
+      {
+        "name": "Waterproof AC Service Jacket Hood",
+        "role": "Wraps around indoor split unit to direct all wastewater into buckets, protecting walls."
+      },
+      {
+        "name": "Biodegradable Alkaline Chemical Cleaner",
+        "role": "Breaks down greasy dirt films without etching aluminum fins or copper tubing."
+      },
+      {
+        "name": "Stainless Steel Fin Comb",
+        "role": "Straightens bent cooling fins to eliminate air restriction."
+      }
+    ],
+    "supportedBrands": [
+      "Split ACs (1 Ton to 2.5 Ton)",
+      "Ceiling Cassette Air Conditioners",
+      "Floor Standing Tower ACs",
+      "Concealed Ductable Split Coils",
+      "Outdoor Condenser Units (All Brands)"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Coil Light Transmission Test",
+        "standard": "Flashlight shines clearly through all rows of the cleaned coil"
+      },
+      {
+        "check": "Discharge Air Velocity Increase",
+        "standard": "Airflow velocity increases by 25% to 35% after service"
+      },
+      {
+        "check": "Compressor Running Current Drop",
+        "standard": "Amp draw drops by 10% to 18% as head pressure normalizes"
+      },
+      {
+        "check": "Wall & Flooring Protection",
+        "standard": "Zero water spots or splash damage on interior decor"
+      }
     ]
   },
   {
@@ -794,6 +1670,72 @@
         "spec": "Temporary bypass board while original is repaired",
         "cost": "₹1,200",
         "turnaround": "2 Hours"
+      }
+    ],
+    "engineeringOverview": "When an air conditioner or industrial cooling system fails during peak 45°C summer heat in Gujarat, the consequences are immediate: loss of sleep in residential homes, customer walkouts in retail showrooms, or severe financial losses in IT server rooms and chemical plants. Atlas Aircon maintains dedicated 24/7 mobile emergency response vans stationed at strategic transportation nodes across Vadodara and the NH-48 industrial corridor, equipped with universal components and diagnostic tools for same-day recovery.",
+    "failureMechanisms": [
+      {
+        "issue": "Sudden No-Cooling / Machine Trip",
+        "cause": "Blown dual-run capacitor, failed heavy-duty contactor, or electrical power surge tripping safety fuse",
+        "fix": "Rapid on-site triage, testing electrical circuit with True-RMS multimeter, and installing heavy-duty OEM replacement."
+      },
+      {
+        "issue": "Outdoor Unit Smelling Burnt / Smoking",
+        "cause": "Condenser fan motor seized or terminal wiring block melting under high current draw",
+        "fix": "Isolating electrical supply, rewiring heat-resistant ceramic terminals, and replacing condenser motor."
+      },
+      {
+        "issue": "Server Room / Medical ICU Thermal Spike",
+        "cause": "Primary cooling circuit failure in temperature-critical commercial environment",
+        "fix": "Deploying priority emergency squad with temporary bypass controls and mobile refrigerant charging."
+      },
+      {
+        "issue": "Inverter PCB Error Shutdown",
+        "cause": "Sudden outdoor PCB failure displaying blinking error code and shutting down inverter compressor",
+        "fix": "On-site board diagnosis, swapping common failure chips or installing emergency loaner board."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Mobile Service Van Universal Spares Kit",
+        "role": "Carries 35uF-60uF capacitors, 2-pole contactors, fan motors, sensors, and expansion valves."
+      },
+      {
+        "name": "Dual-Stage Vacuum & Nitrogen Rigs",
+        "role": "Enables complete refrigerant leak brazing and gas charging on an emergency basis."
+      },
+      {
+        "name": "Portable Inverter Test Rig",
+        "role": "Quickly determines whether fault lies in inverter board or compressor motor windings."
+      },
+      {
+        "name": "Rapid Thermal Laser Thermometer",
+        "role": "Instant temperature verification of critical electrical and cooling points."
+      }
+    ],
+    "supportedBrands": [
+      "Emergency Urban Residential Splits",
+      "Commercial Corporate VRF & Cassette Units",
+      "Industrial Plant Chillers & Panel ACs",
+      "Hospital & Diagnostic Center HVAC",
+      "Data Center & Server Room Precision ACs"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Urban Vadodara Response Time",
+        "standard": "Technician on-site within 60 to 90 minutes"
+      },
+      {
+        "check": "GIDC Industrial Belt Response Time",
+        "standard": "Mobile van on-site within 90 to 120 minutes"
+      },
+      {
+        "check": "First-Time-Fix Resolution Rate",
+        "standard": ">92% of emergency calls resolved on the initial visit"
+      },
+      {
+        "check": "Safety System Verification",
+        "standard": "High-pressure cutout and thermal overloads tested before departure"
       }
     ]
   },
@@ -852,6 +1794,73 @@
         "cost": "Quote on Spec",
         "turnaround": "24 Hours"
       }
+    ],
+    "engineeringOverview": "Air Handling Units (AHU) regulate and circulate conditioned air throughout commercial office buildings, hospitals, pharmaceutical facilities, and manufacturing plants. Because AHUs handle large volumetric airflows across multi-row chilled water or DX coils, mechanical problems like V-belt slippage, centrifugal blower bearing vibration, filter bank pressure drops, and damper actuator failures severely degrade indoor air quality (IAQ) and balloon energy consumption. Atlas Aircon delivers precision aerodynamic and mechanical AHU overhauls.",
+    "failureMechanisms": [
+      {
+        "issue": "Low Airflow CFM & High Filter Pressure Drop",
+        "cause": "Choked primary EU4 pre-filters and secondary micro-filters causing high static differential",
+        "fix": "Differential manometer inspection, filter bank replacement, and casing airtightness sealing."
+      },
+      {
+        "issue": "Severe AHU Casing Vibration & Blower Noise",
+        "cause": "Worn pillow block bearings, loose V-belt tension, or dynamic unbalance on centrifugal blower",
+        "fix": "Laser pulley alignment, installing matched V-belt sets, replacing bearings, and dynamic fan balancing."
+      },
+      {
+        "issue": "Chilled Water Cooling Coil Biofouling",
+        "cause": "Airborne dust and organic bio-films choking deep 4-row or 6-row cooling coil passes",
+        "fix": "120-bar power jet chemical wash with coil descaling foam to restore heat exchange Delta-T."
+      },
+      {
+        "issue": "Motorized Damper Actuator Malfunction",
+        "cause": "Stripped gears or electrical feedback failure on Belimo modulating damper actuators",
+        "fix": "Testing 0-10V / 4-20mA control signals, actuator calibration, and lubricating damper linkages."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Digital Differential Manometer",
+        "role": "Measures filter bank static pressure drop in Pascals (Pa)."
+      },
+      {
+        "name": "Hot-Wire Anemometer",
+        "role": "Measures face velocity and total volumetric air delivery CFM."
+      },
+      {
+        "name": "Laser Pulley Alignment System",
+        "role": "Aligns motor and blower shaft pulleys to eliminate belt wear and vibration."
+      },
+      {
+        "name": "Vibration Accelerometer Pen",
+        "role": "Measures bearing vibration velocity (mm/s) to detect early bearing fatigue."
+      }
+    ],
+    "supportedBrands": [
+      "Carrier Commercial AHUs",
+      "Blue Star Central Air Handlers",
+      "Trane Climate Changer AHUs",
+      "Voltas Commercial AHU Systems",
+      "Zeco Aircon Air Handling Units",
+      "Edgetech Air Handlers"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Filter Bank Differential Pressure",
+        "standard": "<150 Pa for pre-filters; <250 Pa for fine filters"
+      },
+      {
+        "check": "V-Belt Tension & Alignment",
+        "standard": "Laser aligned; 1/2-inch deflection under tension"
+      },
+      {
+        "check": "Blower Bearing Vibration Level",
+        "standard": "<2.8 mm/s RMS vibration severity"
+      },
+      {
+        "check": "Coil Water Delta-T Temperature Drop",
+        "standard": "Chilled water enters at 7°C, leaves at 12°C"
+      }
     ]
   },
   {
@@ -908,6 +1917,73 @@
         "spec": "Complete documentation for regulatory audit compliance",
         "cost": "Custom SLA",
         "turnaround": "Scheduled"
+      }
+    ],
+    "engineeringOverview": "Pharmaceutical manufacturing cleanrooms, biotechnology laboratories, and electronics cleanrooms require rigorous adherence to ISO 14644 and US-FDA cGMP air cleanliness standards. Maintaining cleanroom environments demands absolute control over airborne particulate counts, positive differential room pressure cascading (+15 Pa / +30 Pa) to prevent cross-contamination, precise temperature control (21°C ± 1°C), and relative humidity stabilization (45% ± 5% RH). Atlas Aircon provides specialized cleanroom HVAC commissioning, validation, and terminal HEPA filtration services.",
+    "failureMechanisms": [
+      {
+        "issue": "Loss of Differential Room Pressure Cascade",
+        "cause": "Damper actuator drift, door seal leaks, or clogged HEPA filters causing pressure drop",
+        "fix": "Magnehelic gauge calibration, automated VAV damper rebalancing, and door drop-seal replacement."
+      },
+      {
+        "issue": "Airborne Particle Count Exceedance",
+        "cause": "Pin-hole leaks in terminal HEPA filter media or failing fluid/gel seals in filter housings",
+        "fix": "PAO aerosol photometer leak testing, HEPA filter replacement (H14 99.995% efficiency), and gel seal repair."
+      },
+      {
+        "issue": "Uncontrolled Humidity Spikes (>55% RH)",
+        "cause": "Chilled water coil valve failure or malfunctioning electric reheat loop",
+        "fix": "Calibrating modulating chilled water control valves and tuning SCR electric heater thyristors."
+      },
+      {
+        "issue": "Low Air Changes Per Hour (ACPH)",
+        "cause": "Blower motor slip, belt looseness, or choked pre-filters reducing total supply CFM",
+        "fix": "Airflow hood CFM measurement, belt adjustment, and restoring design 20-60 ACPH air turnover."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Aerosol Photometer & PAO Generator",
+        "role": "Scans terminal HEPA filters for leaks down to 0.01% penetration."
+      },
+      {
+        "name": "Digital Magnehelic Differential Gauge",
+        "role": "Calibrates room-to-corridor positive pressure cascading."
+      },
+      {
+        "name": "Airflow Capture Hood (Balometer)",
+        "role": "Measures exact CFM delivery from cleanroom ceiling diffusers."
+      },
+      {
+        "name": "High-Accuracy RH% & Temperature Logger",
+        "role": "Verifies 24-hour thermal and humidity stability within ±1°C and ±3% RH."
+      }
+    ],
+    "supportedBrands": [
+      "ISO Class 5 (Class 100) Cleanrooms",
+      "ISO Class 7 (Class 10,000) Cleanrooms",
+      "ISO Class 8 (Class 100,000) Cleanrooms",
+      "Pharma Sterile Formulation Blocks",
+      "Oral Solid Dosage (OSD) Facilities",
+      "Biotech Clean Laboratories"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "HEPA Filter Integrity (DOP/PAO Leak)",
+        "standard": "<0.01% penetration across entire filter face"
+      },
+      {
+        "check": "Room Pressure Differential Cascade",
+        "standard": "+15 Pa differential between adjacent cleanliness zones"
+      },
+      {
+        "check": "Air Changes Per Hour (ACPH)",
+        "standard": "Complies with design specification (20 to 60 ACPH)"
+      },
+      {
+        "check": "Temperature & Relative Humidity Stability",
+        "standard": "21°C ± 1°C and 45% ± 5% RH continuously"
       }
     ]
   },
@@ -966,6 +2042,73 @@
         "cost": "Quote on Spec",
         "turnaround": "2 Days"
       }
+    ],
+    "engineeringOverview": "Water-cooled industrial chillers circulating water from cooling towers suffer severe calcium carbonate scale, silica fouling, and biological slime deposition inside condenser copper tubes. In Gujarat industrial regions with high total dissolved solids (TDS) in makeup water, scale as thin as 0.6 mm reduces heat transfer by over 30%, driving up electrical consumption and causing high-pressure compressor trips. Atlas Aircon executes certified chemical descaling utilizing food-grade inhibited sulfamic acids, rotary nylon brushing, and passivation flushes.",
+    "failureMechanisms": [
+      {
+        "issue": "High Condenser Approach Temperature (>3.5°C)",
+        "cause": "Calcium carbonate and magnesium scale insulating inner copper tube walls",
+        "fix": "Inhibited acid circulation, dissolving mineral scale without etching base copper metal."
+      },
+      {
+        "issue": "Compressor High Head Pressure Trip",
+        "cause": "Impaired heat rejection forcing condensing temperature and compressor head pressure to trip limits",
+        "fix": "Complete condenser tube chemical descaling, dropping condensing pressure to design baseline."
+      },
+      {
+        "issue": "Condenser Water Box End-Cover Leakage",
+        "cause": "Degraded neoprene water box gaskets or rusted flange clamping bolts",
+        "fix": "Replacing full-face neoprene gaskets, wire-brushing tube sheets, and torquing flange bolts."
+      },
+      {
+        "issue": "Tube Wall Pitting & Galvanic Corrosion Hazard",
+        "cause": "Unchecked acid circulation without proper corrosion inhibitors or post-acid neutralization",
+        "fix": "Circulating neutralizing alkaline solution, passivation rinse, and borescopic optical inspection."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Chemical Circulation Pump Station",
+        "role": "Circulates inhibited acid solutions through shell-and-tube heat exchangers."
+      },
+      {
+        "name": "Rotary Flexible Shaft Tube Cleaner",
+        "role": "Rotates high-speed nylon/brass brushes with water flush to strip loose scale."
+      },
+      {
+        "name": "Optical Borescope Camera",
+        "role": "Inspects interior copper tube surfaces for scale removal and wall pitting."
+      },
+      {
+        "name": "Digital pH & TDS Water Tester",
+        "role": "Monitors chemical reaction acidity and verifies post-flush neutralization."
+      }
+    ],
+    "supportedBrands": [
+      "Shell-and-Tube Water-Cooled Condensers",
+      "Flooded & DX Shell-and-Tube Evaporators",
+      "Plate Heat Exchangers (PHE)",
+      "Industrial Oil Coolers",
+      "Compressor Aftercoolers",
+      "Process Heat Exchangers"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Post-Clean Approach Temperature",
+        "standard": "Drops below 1.5°C - 2.0°C baseline"
+      },
+      {
+        "check": "Tube Wall Cleanliness Inspection",
+        "standard": "Borescope reveals bare copper with zero scale ring"
+      },
+      {
+        "check": "Neutralization Rinse pH Level",
+        "standard": "Water effluent pH neutral between 7.0 and 7.5"
+      },
+      {
+        "check": "Condenser Water Flow Rate Differential",
+        "standard": "Pressure drop across water box returns to factory spec"
+      }
     ]
   },
   {
@@ -1023,6 +2166,73 @@
         "cost": "Custom SLA",
         "turnaround": "Yearly"
       }
+    ],
+    "engineeringOverview": "Cooling towers act as the heat rejection terminal for water-cooled industrial chillers, diesel generators, and process heat exchangers. Constant evaporation of water in Gujarat heat concentrates dissolved minerals, fostering severe algae growth, calcium scale on PVC honeycomb fills, and Legionella bacterial blooms. Furthermore, mechanical vibration in axial fan gearboxes or misaligned pulleys can cause catastrophic fan blade failure. Atlas Aircon delivers complete mechanical and chemical cooling tower overhauls.",
+    "failureMechanisms": [
+      {
+        "issue": "Choked PVC Honeycomb Infill Packs",
+        "cause": "Algae slime and mineral scale choking infill channels, reducing air-water contact surface",
+        "fix": "Chemical biocide wash, high-pressure foam descaling, or replacing degraded PVC infill modules."
+      },
+      {
+        "issue": "Severe Axial Fan Vibration & Noise",
+        "cause": "Broken fan blade pitch, bearing wear in reduction gearbox, or dynamic blade unbalance",
+        "fix": "Laser pitch calibration, high-viscosity gear lube replacement, and dynamic fan balancing."
+      },
+      {
+        "issue": "Uneven Water Distribution & Dry Spots",
+        "cause": "Clogged gravity distribution basin holes or cracked rotating spray nozzles",
+        "fix": "Clearing nozzle orifices, replacing cracked nozzles, and balancing water flow rates."
+      },
+      {
+        "issue": "Excessive Water Drift & Fogging Loss",
+        "cause": "Damaged or brittle cellular drift eliminators allowing water droplets to escape with exhaust air",
+        "fix": "Retrofitting high-efficiency PVC cellular drift eliminators to slash water loss below 0.005%."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Optical Fan Pitch Gauge",
+        "role": "Ensures all FRP axial fan blades have identical pitch angles for balanced airflow."
+      },
+      {
+        "name": "Gearbox Oil Viscosity Tester",
+        "role": "Inspects reduction gearbox oil for water contamination and metal shavings."
+      },
+      {
+        "name": "High-Pressure Infill Wash Wand",
+        "role": "Cleans delicate PVC honeycomb fills without crushing thin plastic sheets."
+      },
+      {
+        "name": "Wet-Bulb Digital Psychrometer",
+        "role": "Measures ambient wet-bulb temperature to calculate cooling tower approach and range."
+      }
+    ],
+    "supportedBrands": [
+      "FRP Round Bottle Cooling Towers",
+      "Square Crossflow Cooling Towers",
+      "Induced Draft Counterflow Towers",
+      "Paharpur Cooling Towers",
+      "Bell Cooling Towers",
+      "Marley Industrial Cooling Towers"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "Cooling Tower Approach Temperature",
+        "standard": "Basin water temperature within 3°C - 5°C of wet bulb"
+      },
+      {
+        "check": "Axial Fan Vibration Severity",
+        "standard": "<3.5 mm/s RMS vibration velocity"
+      },
+      {
+        "check": "Gearbox Oil Level & Quality",
+        "standard": "Clear oil; zero water emulsion in sight glass"
+      },
+      {
+        "check": "Water Distribution Uniformity",
+        "standard": "100% wet surface across entire infill pack"
+      }
     ]
   },
   {
@@ -1079,6 +2289,73 @@
         "spec": "Class 4 pressure decay test per SMACNA specifications",
         "cost": "₹4,000 - ₹8,000",
         "turnaround": "Same Day"
+      }
+    ],
+    "engineeringOverview": "Centralized air distribution networks require high-precision galvanized iron (GI) ductwork fabricated in strict accordance with SMACNA (Sheet Metal and Air Conditioning Contractors' National Association) standards. Substandard duct fabrication with poor Pittsburgh seams, inadequate sheet gauges, or leaky flanging results in massive conditioned air leakage (up to 30%), high static pressure loss, and annoying airflow whistling noise. Atlas Aircon fabricates, installs, and balances high-efficiency rectangular and spiral ductwork.",
+    "failureMechanisms": [
+      {
+        "issue": "Conditioned Air Leakage Along Seams",
+        "cause": "Poorly formed Pittsburgh lock seams or missing gasket sealants along TDF flange connections",
+        "fix": "Precision automated lockformer seam rolling, 4-bolt TDF flange assembly with butyl gasket seal."
+      },
+      {
+        "issue": "Condensation Sweating on Duct Exterior",
+        "cause": "Uninsulated sheet metal or gaps in vapor barrier insulation allowing warm humid air to condense",
+        "fix": "Wrapping with closed-cell elastomeric nitrile rubber insulation with aluminum vapor barrier."
+      },
+      {
+        "issue": "High Air Whistling & Rattle Noise",
+        "cause": "Excessive air velocity in undersized ducts or lack of acoustic lining near high-CFM blowers",
+        "fix": "Resizing duct transitions to keep velocity below 1,200 FPM and installing acoustic insulation."
+      },
+      {
+        "issue": "Room-to-Room Air Flow Imbalance",
+        "cause": "Uncalibrated volume control dampers (VCD) causing some rooms to freeze while others starve",
+        "fix": "Proportional airflow balancing using balometer capture hoods and locking damper quadrants."
+      }
+    ],
+    "toolsUsed": [
+      {
+        "name": "Automated Lockformer Machine",
+        "role": "Rolls precision Pittsburgh seams and snap-lock seams on galvanized steel."
+      },
+      {
+        "name": "TDF Flange Roll Former",
+        "role": "Integrally forms transverse duct flanges for rigid, leak-proof 4-bolt connections."
+      },
+      {
+        "name": "Digital Airflow Balometer Hood",
+        "role": "Measures volumetric airflow (CFM) at each supply diffuser for proportional balancing."
+      },
+      {
+        "name": "Duct Static Pressure Leakage Rig",
+        "role": "Conducts Class 4 SMACNA pressure decay tests to verify airtightness."
+      }
+    ],
+    "supportedBrands": [
+      "Rectangular GI Ductwork (16 to 26 Gauge)",
+      "Spiral Round Duct Systems",
+      "Pre-Insulated Ductwork (PID)",
+      "Fire-Rated Kitchen Exhaust Ducts",
+      "Commercial Supply & Return Plenums",
+      "Volume Control Dampers (VCD & FSD)"
+    ],
+    "diagnosticChecklist": [
+      {
+        "check": "SMACNA Air Leakage Classification",
+        "standard": "Class 4 leakage rating (<1% total CFM loss)"
+      },
+      {
+        "check": "Duct Gauge Adherence",
+        "standard": "Gauge thickness strictly matches duct longest side spec"
+      },
+      {
+        "check": "Thermal Insulation Integrity",
+        "standard": "Zero bare metal exposed; sealed with aluminum tape"
+      },
+      {
+        "check": "Diffuser CFM Airflow Balance",
+        "standard": "Within ±10% of design CFM across all supply zones"
       }
     ]
   }
