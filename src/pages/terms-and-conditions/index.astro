@@ -1,0 +1,84 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+---
+
+<BaseLayout
+  title="Terms & Conditions | Atlas Aircon"
+  description="Terms of service, warranty conditions, and repair guidelines for Atlas Aircon."
+>
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="shield" size={14} strokeWidth={2} /> Legal</div>
+      <h1 class="page-title">Terms & <span>Conditions</span></h1>
+      <p class="page-subtitle">Standard service terms, warranties, and operating protocols.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-4xl mx-auto prose-content card p-8">
+      <h2>1. Service Scope & Inspection</h2>
+      <p>
+        Atlas Aircon provides diagnostic inspection, maintenance, repair, gas charging, and installation services for residential split ACs, commercial cassette units, and industrial HVAC plants. An initial inspection fee is payable upon technician arrival unless waived during active repair booking.
+      </p>
+
+      <h2>2. Repair Warranty</h2>
+      <p>
+        All genuine spare parts replaced by Atlas Aircon carry standard manufacturer or service warranties (typically 30 to 90 days depending on component type). Gas charging warranties require that the system has passed our 350 PSI dry nitrogen pressure test and proper vacuuming.
+      </p>
+
+      <h2>3. Emergency Response & Dispatch</h2>
+      <p>
+        While we strive for 60 to 90 minute arrival times within Vadodara municipal limits and priority industrial response across GIDC zones, arrival times may vary slightly based on severe traffic or extreme weather conditions.
+      </p>
+
+      <h2>4. Payment Terms</h2>
+      <p>
+        Payment is due immediately upon completion of service and testing. We accept UPI, bank transfer, and cash. B2B corporate AMC billing terms are governed by specific written agreements.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: var(--space-20) 0 var(--space-12);
+    overflow: hidden;
+  }
+  .header-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.1) 0%, transparent 70%), var(--color-navy);
+  }
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+    font-weight: 800;
+    color: #F8FAFC;
+    margin: var(--space-3) 0;
+  }
+  .page-title span {
+    background: linear-gradient(135deg, #06B6D4, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .page-subtitle {
+    font-size: var(--text-base);
+    color: var(--color-text-secondary);
+  }
+  .prose-content h2 {
+    color: #F8FAFC;
+    font-size: var(--text-xl);
+    font-weight: 700;
+    margin-top: var(--space-6);
+    margin-bottom: var(--space-2);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding-bottom: var(--space-2);
+  }
+  .prose-content p {
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+  }
+</style>

@@ -1,0 +1,534 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+import WhatsAppForm from '@components/WhatsAppForm.astro';
+import servicesMaster from '@data/services-master.json';
+import locations from '@data/locations.json';
+
+export async function getStaticPaths() {
+  const serviceMap = new Map();
+
+  for (const s of servicesMaster) {
+    serviceMap.set(s.slug, s);
+  }
+
+  // Aliases for backward compatibility
+  const aliases: Record<string, string> = {
+    'industrial-chiller': 'industrial-chiller-repair',
+    'vrf-vrv-system': 'vrf-vrv-maintenance',
+    'cold-storage': 'cold-storage-maintenance',
+    'panel-ac': 'panel-ac-repair',
+    'industrial-hvac': 'industrial-chiller-repair',
+  };
+
+  const paths = [];
+
+  // Generate for all master slugs
+  for (const s of servicesMaster) {
+    paths.push({
+      params: { slug: s.slug },
+      props: { svc: s },
+    });
+  }
+
+  // Generate for aliases if not already in master
+  for (const [alias, targetSlug] of Object.entries(aliases)) {
+    if (!serviceMap.has(alias) && serviceMap.has(targetSlug)) {
+      paths.push({
+        params: { slug: alias },
+        props: { svc: { ...serviceMap.get(targetSlug)!, slug: alias } },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { svc } = Astro.props;
+
+const aliasesMap: Record<string, string> = {
+  'industrial-chiller': 'industrial-chiller-repair',
+  'vrf-vrv-system': 'vrf-vrv-maintenance',
+  'cold-storage': 'cold-storage-maintenance',
+  'panel-ac': 'panel-ac-repair',
+  'industrial-hvac': 'industrial-chiller-repair',
+};
+const canonicalSlug = aliasesMap[svc.slug] || svc.slug;
+
+// Top Vadodara & GIDC locations for internal linking
+const topLocations = locations.slice(0, 18);
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": `${svc.name} - Atlas Aircon`,
+      "serviceType": svc.category,
+      "provider": {
+        "@type": "HVACBusiness",
+        "name": "Atlas Aircon",
+        "telephone": "+91-972-725-7141",
+        "email": "atlasaircon1@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Payal Complex, 27, Opp. M.S. University, Sarod, Sayajiganj",
+          "addressLocality": "Vadodara",
+          "addressRegion": "Gujarat",
+          "postalCode": "390005",
+          "addressCountry": "IN"
+        }
+      },
+      "description": `${svc.heroSubtitle} Professional ${svc.name} across Vadodara and 100 km industrial corridors including Makarpura, Savli, Halol, Dahej, and Ankleshwar.`,
+      "areaServed": [
+        { "@type": "City", "name": "Vadodara" },
+        { "@type": "State", "name": "Gujarat" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": `How quickly can Atlas Aircon deploy engineers for ${svc.shortTitle}?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `Atlas Aircon deploys rapid-response HVAC technicians within 60 to 90 minutes across Vadodara urban areas and within 2 to 3 hours across regional GIDC industrial belts like Halol, Savli, Dahej, and Ankleshwar.`
+          }
+        },
+        {
+          "@type": "Question",
+          "name": `What warranty is provided on ${svc.shortTitle}?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `All repair and maintenance works are backed by a comprehensive 90-day written warranty covering both replacement components and technical workmanship.`
+          }
+        },
+        {
+          "@type": "Question",
+          "name": `Do you use genuine OEM spare parts and pure virgin refrigerants?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `Yes. We strictly utilize 100% genuine OEM replacement parts and virgin refrigerants (R32, R410A, R134a, R407c, R404A) charged strictly by digital electronic weight scales after deep evacuation below 500 microns.`
+          }
+        },
+        {
+          "@type": "Question",
+          "name": `Are commercial and industrial AMC contracts available for ${svc.shortTitle}?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `Yes. We provide tailored comprehensive and non-comprehensive Annual Maintenance Contracts (AMC) with dedicated uptime service level agreements (SLAs), quarterly descaling, and priority emergency breakdown call-outs.`
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.atlasaircons.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.atlasaircons.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": svc.name,
+          "item": `https://www.atlasaircons.com/services/${svc.slug}/`
+        }
+      ]
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title={`${svc.name} in Vadodara & Gujarat | Atlas Aircon`}
+  description={`${svc.heroSubtitle} Expert ${svc.shortTitle.toLowerCase()} services in Vadodara and Gujarat GIDC zones. 24/7 emergency dispatch, genuine OEM spares, and 90-day written warranty.`}
+>
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10">
+      <div class="hero-grid">
+        <div>
+          <div class="section-badge mb-3"><Icon name={svc.icon} size={14} strokeWidth={2} /> {svc.category} • Vadodara & Gujarat</div>
+          <h1 class="page-title">{svc.name}</h1>
+          <p class="tagline-highlight mt-2">{svc.tagline}</p>
+          <p class="page-subtitle max-w-2xl mt-4">
+            {svc.heroSubtitle} Backed by 20+ years of engineering excellence, Atlas Aircon deploys mobile emergency diagnostic vans equipped with digital manifold gauges, two-stage vacuum pumps, and nitrogen pressure testing rigs across Vadodara and 300+ surrounding areas.
+          </p>
+
+          <div class="hero-meta-badges mt-6">
+            <span class="meta-badge"><Icon name="clock" size={14} /> 24/7 Rapid Dispatch</span>
+            <span class="meta-badge"><Icon name="shield" size={14} /> 90-Day Written Warranty</span>
+            <span class="meta-badge"><Icon name="award" size={14} /> 20+ Years Field Authority</span>
+            <span class="meta-badge"><Icon name="check" size={14} /> 100% Genuine OEM Spares</span>
+          </div>
+
+          <div class="hero-ctas mt-8">
+            <a
+              href={`https://wa.me/919727257141?text=${encodeURIComponent(`Hi Atlas Aircon, I need immediate assistance for ${svc.name}. Please connect me with a senior technician.`)}`}
+              class="btn btn-whatsapp btn-lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon name="whatsapp" size={18} /> Inquire via WhatsApp
+            </a>
+            <a href="tel:+919727257141" class="btn btn-primary btn-lg">
+              <Icon name="phone" size={18} /> 97272 57141
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-form-wrapper">
+          <WhatsAppForm defaultLocation="Vadodara" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ENGINEERING RIGOR SECTION ===================== -->
+  <section class="section bg-surface">
+    <div class="container max-w-5xl mx-auto">
+      <div class="section-badge text-center mx-auto mb-3"><Icon name="zap" size={14} /> Engineering Excellence</div>
+      <h2 class="text-3xl font-extrabold text-white text-center mb-4">
+        Thermodynamic Rigor & Component-Level Diagnostics
+      </h2>
+      <p class="text-slate-400 text-center max-w-3xl mx-auto mb-8">
+        Why industrial plant engineers, commercial facility directors, and discerning homeowners trust Atlas Aircon over roadside mechanics.
+      </p>
+      <div class="gold-line mx-auto mb-10"></div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <div class="card p-8">
+          <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
+            <span class="text-cyan-400"><Icon name="wrench" size={20} /></span>
+            Instrument-Verified Diagnostic Protocols
+          </h3>
+          <p class="text-slate-300 text-sm leading-relaxed mb-4">
+            At Atlas Aircon, we do not guess or rely on superficial checks. For every {svc.shortTitle.toLowerCase()} engagement, our certified technicians carry calibrated digital diagnostic instruments. We measure dual-temperature subcooling and superheat curves, verify running current with True-RMS clamp meters under compressor load, and examine winding insulation using 500V digital insulation testers (meggers).
+          </p>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            This rigorous physical science eliminates trial-and-error part swapping. Whether addressing high head pressures, defective electronic expansion valves, or failing motor windings, we isolate the root mechanical or electrical cause before commencing repairs.
+          </p>
+        </div>
+
+        <div class="card p-8">
+          <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-3">
+            <span class="text-cyan-400"><Icon name="shield" size={20} /></span>
+            Refrigeration Circuit Integrity & Moisture Elimination
+          </h3>
+          <p class="text-slate-300 text-sm leading-relaxed mb-4">
+            Refrigeration circuits operate under extreme thermodynamic pressures. When roadside mechanics introduce moisture into air conditioning circuits or skip proper vacuum procedures, atmospheric humidity reacts with synthetic polyolester (POE) lubricants to generate corrosive hydrofluoric acid. This internal acid slowly rots compressor motor enamel, causing catastrophic burnout.
+          </p>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Atlas Aircon strictly implements dual-stage rotary vacuum evacuation down to below 500 microns. Every brazed joint is subjected to a 350 PSI dry nitrogen pressure hold for 30 minutes, ensuring 100% molecular leak-tight integrity before introducing virgin refrigerants.
+          </p>
+        </div>
+      </div>
+
+      <div class="card p-8 bg-surface-elevated">
+        <h3 class="text-xl font-bold text-white mb-4">Core Technical Capabilities & Equipment Standards</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-300">
+          <div class="flex items-start gap-3">
+            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
+            <span><strong>Digital Manifold Gauge Sets:</strong> Real-time saturation pressure, superheat, and subcooling readouts eliminate guesswork.</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
+            <span><strong>Ultrasonic & Electronic Leak Detectors:</strong> Micro-leak pinpointing down to 3 grams per year along copper coils and flares.</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
+            <span><strong>High-Vacuum Micron Gauges:</strong> Deep dehydration below 500 microns to boil away internal atmospheric moisture completely.</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
+            <span><strong>Electronic Charging Scales:</strong> Virgin refrigerant metering down to the exact gram stamped on manufacturer nameplates.</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
+            <span><strong>120-Bar Alkaline Power Jets:</strong> Specialized pressure descaling for condenser and evaporator coils without fin damage.</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-cyan-400 mt-1"><Icon name="check" size={16} strokeWidth={3} /></span>
+            <span><strong>OEM Micro-Soldering Rework:</strong> Component-level electronics repair for burnt inverter IPM modules and microcontrollers.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 4-STEP SOP (AEO) ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center mb-12">
+        <div class="section-badge mx-auto mb-3"><Icon name="check" size={14} /> Certified Protocol</div>
+        <h2 class="section-title">Standard Operating Procedure for {svc.shortTitle}</h2>
+        <p class="section-desc max-w-3xl mx-auto">
+          Our four-stage engineering workflow guarantees long-term thermodynamic efficiency, peak cooling output, and zero repeat breakdowns.
+        </p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        {svc.sop.map(item => (
+          <div class="card p-6 relative">
+            <div class="sop-step-number">{item.step}</div>
+            <h3 class="text-lg font-bold text-white mb-2">{item.title}</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRICING MATRIX ===================== -->
+  <section class="section bg-surface">
+    <div class="container max-w-4xl mx-auto">
+      <div class="card p-8">
+        <div class="flex justify-between items-center flex-wrap gap-4 mb-6">
+          <div>
+            <div class="section-badge mb-2"><Icon name="shield" size={12} /> Fair & Transparent</div>
+            <h3 class="text-2xl font-bold text-white mb-1">Standard Rate Card & SLA for {svc.shortTitle}</h3>
+            <p class="text-slate-400 text-sm">Clear pricing backed by digital invoices and written 90-day warranties.</p>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto mb-6">
+          <table class="w-full text-left text-sm text-slate-300">
+            <thead class="text-xs uppercase bg-slate-800/60 text-slate-400 border-b border-slate-700">
+              <tr>
+                <th class="py-3 px-4">Service Description</th>
+                <th class="py-3 px-4">Technical Scope</th>
+                <th class="py-3 px-4">Standard Rate</th>
+                <th class="py-3 px-4">Turnaround</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800">
+              {svc.pricing.map(p => (
+                <tr class="hover:bg-slate-800/30">
+                  <td class="py-3 px-4 font-semibold text-white">{p.service}</td>
+                  <td class="py-3 px-4 text-slate-400">{p.spec}</td>
+                  <td class="py-3 px-4 font-bold text-cyan-400">{p.cost}</td>
+                  <td class="py-3 px-4 text-slate-300">{p.turnaround}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <p class="text-slate-400 text-xs leading-relaxed mb-6">
+          * Note: Standard diagnostic visits include electrical testing, thermal scanning, and gas pressure audits. If repairs are approved on-site, the diagnostic fee is adjusted into the final invoice.
+        </p>
+
+        <div class="text-center">
+          <a
+            href={`https://wa.me/919727257141?text=${encodeURIComponent(`Hi Atlas Aircon, I need an official price quotation for ${svc.name}.`)}`}
+            class="btn btn-whatsapp btn-lg inline-flex"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon name="whatsapp" size={18} /> Request Official Quote on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INDUSTRIAL & COMMERCIAL GEO APPLICATIONS ===================== -->
+  <section class="section">
+    <div class="container max-w-5xl mx-auto">
+      <div class="text-center mb-10">
+        <div class="section-badge mx-auto mb-3"><Icon name="factory" size={14} /> Regional Coverage</div>
+        <h2 class="section-title">Serving Industries & Commercial Belts Across Gujarat</h2>
+        <p class="section-desc max-w-3xl mx-auto">
+          Atlas Aircon operates dedicated mobile engineering squads across Vadodara city and key Gujarat industrial corridors within a 100 km radius.
+        </p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+        <div class="card p-6">
+          <h4 class="text-lg font-bold text-white mb-2 text-cyan-400">Vadodara Urban & Residential</h4>
+          <p class="text-slate-300 text-sm leading-relaxed mb-4">
+            Alkapuri, Akota, Vasna Road, Gotri, Sayajiganj, Manjalpur, Karelibaug, Sama, and surrounding residential societies. Rapid deployment within 60 to 90 minutes.
+          </p>
+          <span class="text-xs text-slate-400 font-mono">SLA: 60-90 Mins • Splits & Cassettes</span>
+        </div>
+
+        <div class="card p-6">
+          <h4 class="text-lg font-bold text-white mb-2 text-cyan-400">Vadodara Industrial Corridor</h4>
+          <p class="text-slate-300 text-sm leading-relaxed mb-4">
+            Makarpura GIDC, Por GIDC, Nandesari GIDC, Savli GIDC, Manjusar GIDC, and Waghodia GIDC. Heavy chillers, panel ACs, and factory cooling plants.
+          </p>
+          <span class="text-xs text-slate-400 font-mono">SLA: 90-120 Mins • Chillers & Panels</span>
+        </div>
+
+        <div class="card p-6">
+          <h4 class="text-lg font-bold text-white mb-2 text-cyan-400">100 KM Regional Industrial Hubs</h4>
+          <p class="text-slate-300 text-sm leading-relaxed mb-4">
+            Halol GIDC, Dahej PCPIR, Ankleshwar GIDC, Jhagadia GIDC, Panoli GIDC, Bharuch, and Anand. Complete industrial overhaul, AMC agreements, and cleanrooms.
+          </p>
+          <span class="text-xs text-slate-400 font-mono">SLA: 2-3 Hours • Process Refrigeration</span>
+        </div>
+      </div>
+
+      <!-- Quick Location Links Grid -->
+      <div class="card p-6 bg-surface">
+        <h4 class="text-base font-bold text-white mb-4">Popular Service Hubs for {svc.shortTitle}:</h4>
+        <div class="flex flex-wrap gap-2">
+          {topLocations.map(loc => (
+            <a
+              href={`/service/${canonicalSlug}/${loc.slug}/`}
+              class="text-xs bg-slate-800/80 hover:bg-cyan-950 text-slate-300 hover:text-cyan-400 px-3 py-1.5 rounded-md border border-slate-700/60 transition-colors"
+            >
+              {svc.shortTitle} in {loc.name}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AEO FAQS ===================== -->
+  <section class="section bg-surface" id="faq">
+    <div class="container max-w-4xl mx-auto">
+      <div class="text-center mb-10">
+        <div class="section-badge mx-auto mb-3"><Icon name="alert-circle" size={14} /> Technical AEO Q&A</div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Authoritative answers on cooling physics, turnaround times, and service guarantees.</p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="space-y-4">
+        <div class="card p-6">
+          <h3 class="text-base font-bold text-white mb-2 flex items-start gap-3">
+            <span class="text-cyan-400 font-mono text-lg">Q.</span>
+            <span>How quickly can Atlas Aircon deploy engineers for {svc.shortTitle}?</span>
+          </h3>
+          <p class="text-slate-300 text-sm leading-relaxed pl-7">
+            Our centralized dispatch hub operates 24/7. Mobile service vans stationed throughout Vadodara arrive at residential and commercial addresses within 60 to 90 minutes. For industrial manufacturing plants in Halol, Savli, Dahej, or Ankleshwar GIDCs, emergency deployment arrives within 2 to 3 hours with specialized testing gear.
+          </p>
+        </div>
+
+        <div class="card p-6">
+          <h3 class="text-base font-bold text-white mb-2 flex items-start gap-3">
+            <span class="text-cyan-400 font-mono text-lg">Q.</span>
+            <span>What warranty is provided on {svc.shortTitle}?</span>
+          </h3>
+          <p class="text-slate-300 text-sm leading-relaxed pl-7">
+            All repair jobs, compressor replacements, PCB repairs, and leak rectifications performed by Atlas Aircon are protected by an official written 90-day warranty. If any technical defect re-emerges during the warranty period, our senior technician rectifies it with zero inspection or service charges.
+          </p>
+        </div>
+
+        <div class="card p-6">
+          <h3 class="text-base font-bold text-white mb-2 flex items-start gap-3">
+            <span class="text-cyan-400 font-mono text-lg">Q.</span>
+            <span>Do you use genuine OEM spare parts and pure virgin refrigerants?</span>
+          </h3>
+          <p class="text-slate-300 text-sm leading-relaxed pl-7">
+            Yes. We strictly install 100% genuine OEM components (capacitors, contactors, fan motors, electronic expansion valves, and inverter IPM modules). Refrigerant refills strictly utilize virgin sealed cylinders of R32, R410A, R134a, R404A, or R407c, metered on digital scales after deep vacuum dehydration below 500 microns.
+          </p>
+        </div>
+
+        <div class="card p-6">
+          <h3 class="text-base font-bold text-white mb-2 flex items-start gap-3">
+            <span class="text-cyan-400 font-mono text-lg">Q.</span>
+            <span>Are commercial and industrial AMC contracts available for {svc.shortTitle}?</span>
+          </h3>
+          <p class="text-slate-300 text-sm leading-relaxed pl-7">
+            Yes. Atlas Aircon offers customized Annual Maintenance Contracts (AMC) for corporate office complexes, hospitals, hotels, and industrial manufacturing plants. Our AMC agreements include scheduled quarterly power-jet deep cleaning, monthly electrical thermography and vibration audits, priority emergency response, and detailed regulatory logbooks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: var(--space-20) 0 var(--space-16);
+    overflow: hidden;
+  }
+  .header-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.12) 0%, transparent 70%), var(--color-navy);
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: var(--space-8);
+    align-items: center;
+  }
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 800;
+    color: #F8FAFC;
+    line-height: 1.2;
+    margin: var(--space-2) 0;
+  }
+  .tagline-highlight {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #22D3EE;
+  }
+  .page-subtitle {
+    font-size: var(--text-base);
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+  }
+  .hero-meta-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .meta-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(6,182,212,0.08);
+    border: 1px solid rgba(6,182,212,0.2);
+    color: #E2E8F0;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+  }
+  .sop-step-number {
+    position: absolute;
+    top: 1rem;
+    right: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: rgba(6,182,212,0.15);
+    line-height: 1;
+  }
+  @media (max-width: 1024px) {
+    .hero-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 640px) {
+    .hero-ctas { flex-direction: column; width: 100%; }
+    .hero-ctas .btn { width: 100%; justify-content: center; }
+  }
+</style>

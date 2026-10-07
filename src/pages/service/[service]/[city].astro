@@ -1,0 +1,589 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+import WhatsAppForm from '@components/WhatsAppForm.astro';
+import locations from '@data/locations.json';
+import services from '@data/services-master.json';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const svc of services) {
+    for (const loc of locations) {
+      paths.push({
+        params: {
+          service: svc.slug,
+          city: loc.slug,
+        },
+        props: {
+          svc,
+          loc,
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+interface Props {
+  svc: {
+    slug: string;
+    name: string;
+    shortTitle: string;
+    tagline: string;
+    icon: string;
+    category: string;
+    heroSubtitle: string;
+    sop: Array<{ step: string; title: string; desc: string }>;
+    pricing: Array<{ service: string; spec: string; cost: string; turnaround: string }>;
+  };
+  loc: {
+    slug: string;
+    name: string;
+    type: string;
+    isVadodara?: boolean;
+    distanceKm?: number;
+    slaTime?: string;
+  };
+}
+
+const { svc, loc } = Astro.props;
+const city = loc.name;
+const type = loc.type;
+const slaTime = loc.slaTime || '60–90 Minutes';
+const isVadodara = loc.isVadodara ?? true;
+const isIndustrial = type.toLowerCase().includes('gidc') || 
+                     type.toLowerCase().includes('industrial') || 
+                     type.toLowerCase().includes('chemical') || 
+                     type.toLowerCase().includes('petrochemical') ||
+                     type.toLowerCase().includes('manufacturing') ||
+                     type.toLowerCase().includes('sez');
+
+// Dynamic Local Stress Text (GEO Optimization)
+const localStress = isIndustrial ?
+  `In the industrial zone of ${city}, HVAC systems providing ${svc.shortTitle.toLowerCase()} operate in demanding plant conditions. Chemical acid vapors, particulate sulfur, and heavy airborne manufacturing dust accelerate corrosion across heat exchanger fins, while heavy motor loads cause severe electrical stress. Standard local repair mechanics who rely on temporary patches fail to address galvanic oxidation or chemical oil degradation. Atlas Aircon engineers apply protective chemical barrier flushes, vibration analysis, and OEM component tolerances to guarantee maximum equipment reliability across ${city}.` :
+  `Residential homes, retail showrooms, and corporate offices in ${city} endure intense summer heat loads exceeding 44°C, aggravated by local power grid voltage fluctuations. When residents require ${svc.shortTitle.toLowerCase()} in ${city}, generic mechanics often attempt quick fixes without analyzing compressor winding resistance or vacuuming refrigerant lines. Atlas Aircon provides laboratory-grade diagnostic instruments, calibrated digital manifold gauges, and genuine OEM parts to deliver ice-cold performance and low electricity bills across ${city}.`;
+
+// AEO FAQ Generation
+const faqs = [
+  {
+    q: `How quickly can Atlas Aircon deploy for ${svc.shortTitle} in ${city}?`,
+    a: `Our localized engineering team arrives within ${slaTime} anywhere in ${city}. You can book immediately via our interactive WhatsApp form or 24/7 hotline. Mobile vans carry digital multimeters, vacuum pumps, nitrogen cylinders, and genuine spares.`
+  },
+  {
+    q: `What is the warranty period for ${svc.shortTitle} in ${city}?`,
+    a: `Every service call for ${svc.shortTitle.toLowerCase()} in ${city} is backed by an official Atlas Aircon warranty of up to 90 days. If cooling efficiency drops or the same technical symptom recurs, our engineer revisits and rectifies it with zero inspection charges.`
+  },
+  {
+    q: `Why does Atlas Aircon emphasize nitrogen testing and vacuuming for ${svc.shortTitle}?`,
+    a: `Atmospheric moisture inside refrigeration circuits combines with synthetic oils to produce corrosive hydrofluoric acid, which rots compressor windings from within. In ${city}, we always pull vacuum below 500 microns and pressure-test with 350 PSI dry nitrogen before signing off.`
+  },
+  {
+    q: `Do you provide commercial tax invoices for corporate clients in ${city}?`,
+    a: `Yes. All commercial complexes, retail showrooms, manufacturing plants, and residential clients in ${city} receive formal GST invoices and comprehensive technical service test reports.`
+  }
+];
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": `${svc.name} in ${city}`,
+      "serviceType": svc.category,
+      "provider": {
+        "@type": "HVACBusiness",
+        "name": "Atlas Aircon",
+        "telephone": "+91-972-725-7141",
+        "email": "atlasaircon1@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Payal Complex, 27, Opp. M.S. University, Sarod, Sayajiganj",
+          "addressLocality": "Vadodara",
+          "addressRegion": "Gujarat",
+          "postalCode": "390005",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": city
+      },
+      "description": `Professional ${svc.name} by Atlas Aircon in ${city}. 24/7 emergency dispatch within ${slaTime}, instrument-verified diagnostics, and 90-day warranty.`
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(f => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": f.a
+        }
+      }))
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.atlasaircons.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.atlasaircons.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": svc.name,
+          "item": `https://www.atlasaircons.com/services/${svc.slug}/`
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": city,
+          "item": `https://www.atlasaircons.com/service/${svc.slug}/${loc.slug}/`
+        }
+      ]
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title={`#1 ${svc.name} in ${city} | 24/7 HVAC Engineers | Atlas Aircon`}
+  description={`Looking for professional ${svc.name} in ${city}? Atlas Aircon delivers instrument-verified ${svc.shortTitle.toLowerCase()}, arrival in ${slaTime}, and 90-day written warranty. Book via WhatsApp today.`}
+>
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="service-city-hero">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb-1"></div>
+    </div>
+    
+    <div class="container relative z-10">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="section-badge mb-4">
+            <Icon name={svc.icon} size={14} strokeWidth={2} /> {svc.category} • {city} ({type})
+          </div>
+          
+          <h1 class="page-title">
+            {svc.name}<br />
+            <span>in {city}</span>
+          </h1>
+          
+          <p class="tagline-highlight mt-2">{svc.tagline}</p>
+          
+          <p class="page-subtitle mt-4">
+            {svc.heroSubtitle} Stationed locally near <strong>{city}</strong>, our certified engineers arrive within <strong>{slaTime}</strong> equipped with digital manifold gauges, high-vacuum pumps, and genuine OEM replacement components.
+          </p>
+
+          <div class="hero-meta-badges mt-6">
+            <span class="meta-badge"><Icon name="clock" size={14} /> Arrival: {slaTime}</span>
+            <span class="meta-badge"><Icon name="shield" size={14} /> 90-Day Written Warranty</span>
+            <span class="meta-badge"><Icon name="award" size={14} /> 20+ Years Authority</span>
+            <span class="meta-badge"><Icon name="check" size={14} /> 100% Genuine OEM Spares</span>
+          </div>
+
+          <div class="hero-ctas mt-8">
+            <a
+              href={`https://wa.me/919727257141?text=${encodeURIComponent(`EMERGENCY: Requesting priority ${svc.name} in ${city}.`)}`}
+              class="hero-emergency-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="emergency-pulse"></span>
+              <Icon name="alert-circle" size={18} strokeWidth={2.5} /> Request Priority Dispatch to {city}
+            </a>
+            <a href="tel:+919727257141" class="btn btn-call-hero">
+              <Icon name="phone" size={16} /> Call Hotline: 97272 57141
+            </a>
+          </div>
+        </div>
+        
+        <!-- Interactive Hero WhatsApp Form -->
+        <div class="hero-form-wrapper">
+          <WhatsAppForm defaultLocation={city} />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LOCAL ENGINEERING REALITY (GEO SECTION) ===================== -->
+  <section class="section bg-surface">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <div class="section-badge text-center mx-auto mb-3"><Icon name="zap" size={14} /> Local Diagnostic Audit</div>
+        <h2 class="text-3xl font-extrabold text-white text-center mb-6">
+          The Engineering Reality of {svc.shortTitle} in <span>{city}</span>
+        </h2>
+        <div class="gold-line mx-auto mb-8"></div>
+
+        <div class="prose-body card p-8 mb-8">
+          <p class="lead-text">
+            {localStress}
+          </p>
+          <p class="mt-4">
+            Achieving sustained cooling efficiency during peak Gujarat summers requires an uncompromising adherence to refrigeration thermodynamics. In <strong>{city}</strong>, heat loads easily exceed standard manufacturer ratings. When an air conditioner or industrial chilling circuit experiences operational failure, quick temporary fixes lead to catastrophic compressor burnout within weeks.
+          </p>
+          <p class="mt-4">
+            Atlas Aircon technicians servicing {city} follow strict ISO and manufacturer service bulletins. Every service procedure for {svc.shortTitle.toLowerCase()} is checked with electronic micron gauges, calibrated torque wrenches, and infrared temperature monitors to guarantee that design Delta-T performance is fully restored.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 4-STEP AEO ENGINEERING SOP ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center mb-12">
+        <div class="section-badge mx-auto mb-3"><Icon name="check" size={14} /> Standard Operating Procedure</div>
+        <h2 class="section-title">Our Technical Protocol for {svc.shortTitle} in <span>{city}</span></h2>
+        <p class="section-desc max-w-2xl mx-auto">
+          Four instrument-verified steps that eliminate repeat faults and protect your cooling investment.
+        </p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        {svc.sop.map(item => (
+          <div class="card p-6 relative">
+            <div class="sop-step-number">{item.step}</div>
+            <h3 class="text-lg font-bold text-white mb-2">{item.title}</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRICING MATRIX TABLE ===================== -->
+  <section class="section bg-surface">
+    <div class="container max-w-5xl mx-auto">
+      <div class="text-center mb-10">
+        <div class="section-badge mx-auto mb-3"><Icon name="award" size={14} /> Upfront Pricing</div>
+        <h2 class="section-title">Transparent {svc.shortTitle} Rates for <span>{city}</span></h2>
+        <p class="section-desc max-w-2xl mx-auto">
+          Clear, honest pricing with zero unexpected hidden charges.
+        </p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="card p-6 overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700 text-cyan-400 text-sm font-mono uppercase tracking-wider">
+              <th class="py-3 px-4">Service Description</th>
+              <th class="py-3 px-4">Technical Protocol Included</th>
+              <th class="py-3 px-4">Estimated Rate</th>
+              <th class="py-3 px-4">Turnaround Time</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800 text-sm">
+            {svc.pricing.map(row => (
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-4 px-4 font-bold text-white">{row.service}</td>
+                <td class="py-4 px-4 text-slate-300">{row.spec}</td>
+                <td class="py-4 px-4 font-bold text-cyan-400">{row.cost}</td>
+                <td class="py-4 px-4 text-slate-400">{row.turnaround}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COMPARISON SECTION ===================== -->
+  <section class="section">
+    <div class="container max-w-4xl mx-auto">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-extrabold text-white mb-3">Why {city} Relies on Atlas Aircon for {svc.shortTitle}</h2>
+        <p class="text-slate-400">Comparing our certified engineering protocols against untrained local mechanics.</p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="card p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="border-b md:border-b-0 md:border-r border-slate-700/60 pb-6 md:pb-0 md:pr-6">
+            <h4 class="text-lg font-bold text-rose-400 mb-4 flex items-center gap-2">
+              <span>✕</span> Generic Technicians
+            </h4>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li class="flex items-start gap-2"><span>•</span> Guess refrigerant quantity by pressure gauge without weighing.</li>
+              <li class="flex items-start gap-2"><span>•</span> Skip vacuuming entirely, trapping moisture that rots the compressor.</li>
+              <li class="flex items-start gap-2"><span>•</span> Push expensive replacements instead of component micro-repair.</li>
+              <li class="flex items-start gap-2"><span>•</span> Disappear when the air conditioner breaks down 3 days later.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <span>✓</span> Atlas Certified Field Engineers
+            </h4>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li class="flex items-start gap-2"><span>•</span> Charge 100% pure virgin refrigerant on digital precision scales.</li>
+              <li class="flex items-start gap-2"><span>•</span> 45-minute dual-stage vacuum down to 500 microns every time.</li>
+              <li class="flex items-start gap-2"><span>•</span> Component-level repair with silver brazing and heatsink grease.</li>
+              <li class="flex items-start gap-2"><span>•</span> Backed by an official 90-day written performance warranty.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LOCAL FIELD DISPATCH LOG ===================== -->
+  <section class="section bg-surface">
+    <div class="container max-w-4xl mx-auto">
+      <div class="card p-8 border-l-4 border-cyan-400">
+        <div class="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-2">
+          <Icon name="zap" size={14} /> Field Dispatch Case Log • {city}
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">
+          {svc.name} Execution in {city}
+        </h3>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          A client in <strong>{city}</strong> recently reported an urgent failure requiring immediate {svc.shortTitle.toLowerCase()}. After receiving the call, our dispatch coordinator routed our nearest service vehicle carrying digital diagnostic instruments.
+        </p>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          Our engineer arrived within {slaTime}, executed our 4-step diagnostic protocol, identified the primary failure point, and performed precision technical rectification. Following vacuuming and factory calibration, the system was brought back online at peak thermodynamic efficiency, saving the customer thousands of rupees in avoidable downtime.
+        </p>
+        <div class="flex items-center gap-4 text-xs font-semibold text-slate-400">
+          <span>✓ Location: {city}</span>
+          <span>✓ Response SLA: {slaTime}</span>
+          <span>✓ Result: 100% Factory Restored</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AEO FAQ SECTION ===================== -->
+  <section class="section" id="faq">
+    <div class="container max-w-3xl mx-auto">
+      <div class="text-center mb-10">
+        <div class="section-badge mx-auto mb-3"><Icon name="alert-circle" size={14} /> Frequently Asked Questions</div>
+        <h2 class="section-title">Questions About {svc.shortTitle} in <span>{city}</span></h2>
+        <p class="section-desc">Clear, direct answers to common customer inquiries.</p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="space-y-4">
+        {faqs.map(faq => (
+          <div class="card p-6">
+            <h3 class="text-base font-bold text-white mb-2 flex items-start gap-3">
+              <span class="text-cyan-400 font-mono text-lg">Q.</span>
+              <span>{faq.q}</span>
+            </h3>
+            <p class="text-slate-300 text-sm leading-relaxed pl-7">
+              {faq.a}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FINAL BOOKING CTA BANNER ===================== -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container max-w-5xl mx-auto">
+      <div class="cta-banner">
+        <div class="cta-banner-inner">
+          <div>
+            <h2 class="text-2xl font-bold text-white mb-2">Ready to Book {svc.shortTitle} in {city}?</h2>
+            <p class="text-slate-300">Our certified engineers are currently on duty in your zone. Response within {slaTime}.</p>
+          </div>
+          <div class="cta-buttons">
+            <a
+              href={`https://wa.me/919727257141?text=${encodeURIComponent(`Hi, I need to book ${svc.name} in ${city}. Please confirm technician arrival.`)}`}
+              class="btn btn-whatsapp btn-lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon name="whatsapp" size={18} /> WhatsApp Dispatch
+            </a>
+            <a href="tel:+919727257141" class="btn btn-outline btn-lg" style="border-color: #06B6D4; color: #06B6D4;">
+              <Icon name="phone" size={18} /> 97272 57141
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .service-city-hero {
+    position: relative;
+    padding: var(--space-20) 0 var(--space-16);
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.15) 0%, transparent 65%), var(--color-navy);
+  }
+
+  .hero-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.25;
+    animation: floatOrb 8s ease-in-out infinite;
+  }
+  .hero-orb-1 {
+    width: 400px;
+    height: 400px;
+    background: #06B6D4;
+    top: -100px;
+    right: -50px;
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: var(--space-8);
+    align-items: center;
+  }
+
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    font-weight: 800;
+    color: #F8FAFC;
+    line-height: 1.15;
+    margin: 0;
+  }
+
+  .page-title span {
+    background: linear-gradient(135deg, #06B6D4, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .tagline-highlight {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #F59E0B;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+    color: #94A3B8;
+    line-height: 1.6;
+  }
+
+  .hero-meta-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .meta-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(6,182,212,0.08);
+    border: 1px solid rgba(6,182,212,0.2);
+    color: #E2E8F0;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .hero-emergency-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, #EF4444, #DC2626);
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
+    transition: all 0.2s ease;
+  }
+
+  .hero-emergency-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.6);
+  }
+
+  .btn-call-hero {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #06B6D4;
+    color: #06B6D4;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  .btn-call-hero:hover {
+    background: rgba(6,182,212,0.1);
+  }
+
+  .emergency-pulse {
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+  }
+
+  .sop-step-number {
+    position: absolute;
+    top: 1rem;
+    right: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: rgba(6,182,212,0.15);
+    line-height: 1;
+  }
+
+  .lead-text {
+    font-size: 1.05rem;
+    color: #E2E8F0;
+    line-height: 1.7;
+    font-weight: 500;
+  }
+
+  .prose-body {
+    font-size: 0.95rem;
+    color: #94A3B8;
+    line-height: 1.7;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(255, 255, 255, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+  }
+
+  @media (max-width: 1024px) {
+    .hero-grid { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 640px) {
+    .hero-meta-badges { flex-direction: column; }
+    .hero-ctas { flex-direction: column; width: 100%; }
+    .hero-ctas .hero-emergency-btn, .hero-ctas .btn-call-hero { width: 100%; justify-content: center; }
+  }
+</style>

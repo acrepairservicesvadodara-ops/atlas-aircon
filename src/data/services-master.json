@@ -1,0 +1,1085 @@
+[
+  {
+    "slug": "ac-repair",
+    "name": "AC Repair & Fault Diagnostics",
+    "shortTitle": "AC Repair",
+    "tagline": "On-Site Component-Level Diagnostics & Emergency Repair",
+    "icon": "wrench",
+    "category": "Emergency Diagnostics",
+    "heroSubtitle": "Rapid-response AC repair for split, window, and commercial cassette systems. We diagnose root causes with digital instruments—no guesswork.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Electrical & Amp-Draw Scan",
+        "desc": "We test incoming supply voltage under compressor load, measure running amps, and check dual-run capacitors with digital multimeters."
+      },
+      {
+        "step": "02",
+        "title": "Refrigerant & Pressure Audit",
+        "desc": "We connect digital manifold gauges to measure exact suction, discharge, and saturated temperatures, verifying superheat and subcooling."
+      },
+      {
+        "step": "03",
+        "title": "Component Repair & Brazing",
+        "desc": "Damaged contactors, relays, and copper leaks are replaced or silver-brazed with oxy-acetylene torches under nitrogen purging."
+      },
+      {
+        "step": "04",
+        "title": "Post-Repair Delta-T Sign-Off",
+        "desc": "We verify a steady 14°C–18°C temperature drop across the evaporator coil and deliver a formal digital inspection report."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Standard AC Diagnostic Visit",
+        "spec": "Electrical, gas pressure & thermal inspection",
+        "cost": "₹299 (Waived on repair)",
+        "turnaround": "Within 60-90 Mins"
+      },
+      {
+        "service": "Capacitor / Relay Replacement",
+        "spec": "Heavy-duty 450V dual-run capacitor + fitting",
+        "cost": "₹650 - ₹1,200",
+        "turnaround": "30 Minutes"
+      },
+      {
+        "service": "Contactor / Sensor Calibration",
+        "spec": "Digital ambient & coil temperature thermistors",
+        "cost": "₹450 - ₹850",
+        "turnaround": "45 Minutes"
+      },
+      {
+        "service": "Outdoor Condenser Fan Motor Fix",
+        "spec": "Bearing replacement or high-torque motor swap",
+        "cost": "₹1,400 - ₹2,400",
+        "turnaround": "2 Hours"
+      }
+    ]
+  },
+  {
+    "slug": "ac-installation",
+    "name": "Precision AC Installation & Shifting",
+    "shortTitle": "AC Installation",
+    "tagline": "Diamond-Core Cutting & 350 PSI Nitrogen Pressure Hold",
+    "icon": "gear",
+    "category": "Installation Engineering",
+    "heroSubtitle": "Flawless split and cassette AC installation using diamond core drilling for zero structural wall damage and torque-wrench sealed joints.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Diamond Core Drilling",
+        "desc": "We use precision diamond-tipped core drilling rigs to bore clean conduit holes without cracking plaster, bricks, or exterior paint."
+      },
+      {
+        "step": "02",
+        "title": "Torque-Wrench Flaring",
+        "desc": "Copper piping is flared mathematically and tightened using calibrated torque wrenches to eliminate flared flare-nut cracks."
+      },
+      {
+        "step": "03",
+        "title": "350 PSI Nitrogen Pressure Hold",
+        "desc": "The complete copper circuit is pressurized with dry nitrogen at 350 PSI for 30 minutes to guarantee zero micro-leaks before evacuation."
+      },
+      {
+        "step": "04",
+        "title": "Deep Vacuum & Gas Release",
+        "desc": "We pull vacuum below 500 microns with a dual-stage pump to boil off all moisture before opening the service valves."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Standard Split AC Installation",
+        "spec": "Includes diamond core cut + standard brackets",
+        "cost": "₹1,499",
+        "turnaround": "2 Hours"
+      },
+      {
+        "service": "Cassette / Tower AC Installation",
+        "spec": "Ceiling rod suspension + false ceiling fitting",
+        "cost": "₹3,499 - ₹4,999",
+        "turnaround": "4 Hours"
+      },
+      {
+        "service": "Safe AC Uninstallation & Pump Down",
+        "spec": "Refrigerant trapped safely inside compressor",
+        "cost": "₹699",
+        "turnaround": "45 Minutes"
+      },
+      {
+        "service": "Heavy-Duty Powder-Coated Stand",
+        "spec": "Vibration isolators + anti-rust mounting frame",
+        "cost": "₹750 - ₹1,100",
+        "turnaround": "Immediate"
+      }
+    ]
+  },
+  {
+    "slug": "inverter-pcb-repair",
+    "name": "Inverter PCB Micro-Soldering & Repair",
+    "shortTitle": "Inverter PCB Repair",
+    "tagline": "Component-Level Electronics Repair — Save 70% vs New Board",
+    "icon": "circuit",
+    "category": "Electronics Engineering",
+    "heroSubtitle": "Specialized laboratory-grade repair for burnt IPM modules, IGBT transistors, and microcontroller communication faults on inverter boards.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Oscilloscope Waveform Diagnostic",
+        "desc": "We test PWM switching frequencies, optocoupler communication signals, and DC bus voltage levels across the inverter board."
+      },
+      {
+        "step": "02",
+        "title": "Faulty Component Extraction",
+        "desc": "Blown IPM modules, shorted diodes, and dried electrolytic capacitors are desoldered using temperature-controlled stations."
+      },
+      {
+        "step": "03",
+        "title": "OEM Component Replacement",
+        "desc": "Genuine high-temperature OEM semiconductors are micro-soldered with silver-bearing solder and thermally heatsink-greased."
+      },
+      {
+        "step": "04",
+        "title": "Full Load Bench Testing",
+        "desc": "The PCB is stress-tested on an electronic inverter compressor test bench before reinstallation on your unit."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Inverter IPM Module Replacement",
+        "spec": "High-voltage driver chip + heat sink paste",
+        "cost": "₹1,800 - ₹3,200",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Communication IC & Optocoupler Fix",
+        "spec": "Resolves indoor-outdoor communication failure",
+        "cost": "₹1,200 - ₹1,800",
+        "turnaround": "2-4 Hours"
+      },
+      {
+        "service": "Microcontroller EEPROM Re-Flash",
+        "spec": "Error code reset and firmware parameter restoration",
+        "cost": "₹1,500 - ₹2,200",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Power Section / MOV Surge Repair",
+        "spec": "Line filter, fuse, and varistor surge network fix",
+        "cost": "₹950 - ₹1,500",
+        "turnaround": "2 Hours"
+      }
+    ]
+  },
+  {
+    "slug": "ac-gas-charging",
+    "name": "Vacuum-Assisted AC Gas Charging",
+    "shortTitle": "Gas Charging",
+    "tagline": "Pure Virgin Refrigerant Metered Strictly on Digital Scales",
+    "icon": "droplet",
+    "category": "Refrigeration Physics",
+    "heroSubtitle": "No pressure guesswork. We evacuate systems below 500 microns and charge virgin R32, R410A, and R134a strictly by manufacturer weight.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Nitrogen Leak Pinpointing",
+        "desc": "We charge dry nitrogen to 300+ PSI and use acoustic ultrasonic sensors and soap solution to locate microscopic coil pinholes."
+      },
+      {
+        "step": "02",
+        "title": "High-Silver Alloy Brazing",
+        "desc": "Damaged copper joints and U-bends are permanently sealed using 5% silver-copper brazing rods under nitrogen shielding."
+      },
+      {
+        "step": "03",
+        "title": "Deep Vacuum Dehydration",
+        "desc": "A dual-stage rotary vacuum pump operates for 35–45 minutes until digital micron gauges confirm moisture-free evacuation."
+      },
+      {
+        "step": "04",
+        "title": "Digital Scale Weight Metering",
+        "desc": "Virgin refrigerant from sealed manufacturer cylinders is charged in liquid state by exact grams stamped on the nameplate."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Pure R32 Gas Refill (By Weight)",
+        "spec": "Includes 45-min vacuum + electronic scale charge",
+        "cost": "₹2,200 - ₹2,600",
+        "turnaround": "60 Minutes"
+      },
+      {
+        "service": "Pure R410A Gas Refill (By Weight)",
+        "spec": "Liquid-state charging into vacuumed system",
+        "cost": "₹2,400 - ₹2,800",
+        "turnaround": "60 Minutes"
+      },
+      {
+        "service": "R22 Legacy Refrigerant Top-Up",
+        "spec": "Virgin HCFC-22 charged per exact pressure spec",
+        "cost": "₹2,500 - ₹3,200",
+        "turnaround": "60 Minutes"
+      },
+      {
+        "service": "Nitrogen Leak Testing & Brazing",
+        "spec": "350 PSI pressure hold test + silver brazing",
+        "cost": "₹1,200 - ₹1,800",
+        "turnaround": "90 Minutes"
+      }
+    ]
+  },
+  {
+    "slug": "industrial-chiller-repair",
+    "name": "Industrial Chiller Repair & Overhaul",
+    "shortTitle": "Chiller Overhaul",
+    "tagline": "10-Ton to 500-Ton Water & Air-Cooled Chiller Specialists",
+    "icon": "factory",
+    "category": "Heavy Industrial HVAC",
+    "heroSubtitle": "Comprehensive mechanical overhaul, chemical tube descaling, and compressor rebuilding for chemical, pharmaceutical, and manufacturing plants.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Thermal & Vibration Analysis",
+        "desc": "Laser alignment, accelerometer vibration scans on screw compressors, and infrared thermal imaging of contactors."
+      },
+      {
+        "step": "02",
+        "title": "Shell & Tube Descaling",
+        "desc": "Rotary mechanical brushing combined with inhibited acid circulation to dissolve calcium carbonate scale without etching copper."
+      },
+      {
+        "step": "03",
+        "title": "Oil & Moisture Acid Neutralization",
+        "desc": "Refrigeration oil acidity test, liquid line filter drier core replacement, and moisture purge."
+      },
+      {
+        "step": "04",
+        "title": "Approach Temperature Audit",
+        "desc": "We verify that condenser and evaporator approach temperatures return below 2°C (factory baseline efficiency)."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Industrial Chiller Complete Diagnostic Audit",
+        "spec": "Delta-T, vibration, megger & oil analysis",
+        "cost": "₹3,500 - ₹7,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Shell & Tube Condenser Chemical Descaling",
+        "spec": "Inhibited acid descaling + neutralization flush",
+        "cost": "₹14,000 - ₹32,000",
+        "turnaround": "24-48 Hours"
+      },
+      {
+        "service": "Screw Compressor Bearing & Valve Rebuild",
+        "spec": "Precision mechanical teardown and overhaul",
+        "cost": "Quote on Spec",
+        "turnaround": "3-5 Days"
+      },
+      {
+        "service": "Industrial Refrigerant Charge (R134a / R407c)",
+        "spec": "Bulk cylinder charging with moisture audit",
+        "cost": "Per Kg Market Rate",
+        "turnaround": "Same Day"
+      }
+    ]
+  },
+  {
+    "slug": "vrf-vrv-maintenance",
+    "name": "Commercial VRF & VRV System Maintenance",
+    "shortTitle": "VRF / VRV Systems",
+    "tagline": "Multi-Zone Variable Refrigerant Flow Diagnostic Authority",
+    "icon": "air-vent",
+    "category": "Commercial Climate Control",
+    "heroSubtitle": "Complete diagnostics, electronic expansion valve calibration, and communication troubleshooting for Daikin, Mitsubishi, and Blue Star VRF networks.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Data-Bus Signal Analysis",
+        "desc": "We connect diagnostic software to parse DIII-NET or RS-485 communication packets between outdoor master and indoor units."
+      },
+      {
+        "step": "02",
+        "title": "EEV Electronic Pulse Check",
+        "desc": "We test stepper-motor coils on electronic expansion valves to resolve starved or flooded evaporator conditions."
+      },
+      {
+        "step": "03",
+        "title": "Refnet Joint Leak Pinpoint",
+        "desc": "High-pressure nitrogen testing across branching refnet joints to eliminate elusive micro-leaks in false ceilings."
+      },
+      {
+        "step": "04",
+        "title": "Superheat Subcooling Auto-Tuning",
+        "desc": "We monitor subcooling at the outdoor subcooler to ensure optimal liquid delivery across long vertical piping runs."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "VRF / VRV System Diagnostic Scan",
+        "desc": "Software fault code extraction & circuit audit",
+        "cost": "₹3,500 - ₹6,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Electronic Expansion Valve (EEV) Replacement",
+        "spec": "Stepper motor valve swap + brazing under N2",
+        "cost": "₹4,500 - ₹8,500",
+        "turnaround": "24 Hours"
+      },
+      {
+        "service": "VRV Inverter Mainboard PCB Repair",
+        "spec": "Dual IPM module repair with high-temp testing",
+        "cost": "₹6,500 - ₹14,000",
+        "turnaround": "2 Days"
+      },
+      {
+        "service": "Commercial VRF Preventive AMC Contract",
+        "spec": "Quarterly deep wash, leak tests & logbook audits",
+        "cost": "Per Unit / Per Annum",
+        "turnaround": "Scheduled"
+      }
+    ]
+  },
+  {
+    "slug": "cassette-ac-service",
+    "name": "120-Bar Power Jet Cassette AC Service",
+    "shortTitle": "Cassette AC Service",
+    "tagline": "Ceiling Unit Chemical Wash & Condensate Pump Declogging",
+    "icon": "air-vent",
+    "category": "Commercial Cleaning",
+    "heroSubtitle": "Specialized servicing for ceiling cassette ACs in corporate offices, showrooms, and hospitals with waterproof containment drop-cloths.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Ceiling Protection Containment",
+        "desc": "We mount specialized funnel-shaped waterproof collection bags around the ceiling unit to safeguard tiles and computers."
+      },
+      {
+        "step": "02",
+        "title": "120-Bar Alkaline Power Jet Wash",
+        "desc": "Alkaline coil cleaner is sprayed at high pressure through the multi-row evaporator coil to dislodge mold and sludge."
+      },
+      {
+        "step": "03",
+        "title": "Condensate Drain Pump Flush",
+        "desc": "We dismantle the internal water lift pump, descale the float switch, and pressure-flush the PVC drainage line."
+      },
+      {
+        "step": "04",
+        "title": "Airflow & Louver Calibration",
+        "desc": "We check step motor functionality on the 4-way louvers to guarantee uniform 360-degree draft-free air distribution."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Cassette AC Power Jet Chemical Wash",
+        "spec": "Waterproof hood containment + coil descaling",
+        "cost": "₹999 - ₹1,499",
+        "turnaround": "60 Minutes"
+      },
+      {
+        "service": "Condensate Lift Pump Replacement",
+        "spec": "Internal drainage pump with float switch",
+        "cost": "₹2,200 - ₹3,500",
+        "turnaround": "2 Hours"
+      },
+      {
+        "service": "Louver Stepper Motor Replacement",
+        "spec": "Restores automated 4-way swing functionality",
+        "cost": "₹850 - ₹1,400",
+        "turnaround": "45 Minutes"
+      },
+      {
+        "service": "Corporate Showroom Bulk Service Package",
+        "spec": "Overhaul of 5+ units with commercial invoice",
+        "cost": "Custom Discount",
+        "turnaround": "Same Day"
+      }
+    ]
+  },
+  {
+    "slug": "panel-ac-repair",
+    "name": "CNC Machine & Control Panel AC Repair",
+    "shortTitle": "Panel AC Repair",
+    "tagline": "Closed-Loop Cooling for Critical Industrial Electronics",
+    "icon": "circuit",
+    "category": "Industrial Electronics Cooling",
+    "heroSubtitle": "Rapid maintenance for control panel air conditioners protecting CNC machines, VFD drives, and PLC controllers from overheating in GIDCs.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Airflow & Dust Seal Inspection",
+        "desc": "We verify that the internal closed-loop enclosure seal is airtight, preventing humid shop-floor air and oil mist ingress."
+      },
+      {
+        "step": "02",
+        "title": "Condenser Oil Mist Chemical Bath",
+        "desc": "We dissolve stubborn machining oil residues and metal shavings from condenser fins using industrial degreasers."
+      },
+      {
+        "step": "03",
+        "title": "Capillary Tube & Compressor Check",
+        "desc": "We inspect miniature reciprocating compressors and balance micro-refrigerant charges of virgin R134a."
+      },
+      {
+        "step": "04",
+        "title": "Thermostat Safety Calibration",
+        "desc": "We verify internal cabinet setpoints maintain 28°C–32°C even when outside factory ambient exceeds 48°C."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Control Panel AC On-Site Audit & Servicing",
+        "spec": "Degreaser coil wash + electrical safety check",
+        "cost": "₹1,800 - ₹2,800",
+        "turnaround": "2 Hours"
+      },
+      {
+        "service": "Panel AC R134a Micro-Refrigerant Refill",
+        "spec": "Deep vacuum + exact gram micro-charge",
+        "cost": "₹2,200 - ₹3,200",
+        "turnaround": "2 Hours"
+      },
+      {
+        "service": "Digital Cabinet Thermostat Replacement",
+        "spec": "High-accuracy digital controller with alarm relay",
+        "cost": "₹1,600 - ₹2,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Hermetic Compressor Replacement",
+        "spec": "Industrial duty compact compressor replacement",
+        "cost": "Quote on Spec",
+        "turnaround": "24 Hours"
+      }
+    ]
+  },
+  {
+    "slug": "cold-storage-maintenance",
+    "name": "Industrial Cold Storage & Blast Freezer Repair",
+    "shortTitle": "Cold Storage",
+    "tagline": "Sub-Zero Refrigeration Down to -25°C for Process Plants",
+    "icon": "thermometer",
+    "category": "Process Refrigeration",
+    "heroSubtitle": "Emergency response for cold rooms, ripening chambers, and pharmaceutical temperature-controlled warehouses across Gujarat.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Defrost Cycle & Heater Audit",
+        "desc": "We test electrical defrost resistance heaters, termination bimetal sensors, and defrost time clocks."
+      },
+      {
+        "step": "02",
+        "title": "Thermostatic Expansion Valve (TXV) Tuning",
+        "desc": "We calibrate TXV superheat settings to prevent liquid slugging from flooding the compressor crankcase."
+      },
+      {
+        "step": "03",
+        "title": "Oil Level & Crankcase Heater Check",
+        "desc": "We inspect compressor sight glasses, test crankcase immersion heaters, and check oil return in suction lines."
+      },
+      {
+        "step": "04",
+        "title": "Pull-Down Time Verification",
+        "desc": "We log pull-down temperature curves to verify rapid recovery following door openings and product loading."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Emergency Cold Room Breakdown Service",
+        "spec": "Priority on-site diagnostics for freezing chambers",
+        "cost": "₹2,500 - ₹4,500",
+        "turnaround": "2-3 Hours"
+      },
+      {
+        "service": "Defrost Heater & Thermostat Overhaul",
+        "spec": "Sub-zero heater element swap + calibration",
+        "cost": "₹3,500 - ₹7,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "TXV Expansion Valve Calibration & Swap",
+        "spec": "External equalization valve fitting + tuning",
+        "cost": "₹4,000 - ₹8,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Refrigerant Leak Rectification (R404A / R507)",
+        "spec": "Nitrogen pressure test + virgin sub-zero gas",
+        "cost": "Quote on Volume",
+        "turnaround": "Same Day"
+      }
+    ]
+  },
+  {
+    "slug": "ductable-ac-service",
+    "name": "Commercial Ductable Central AC Maintenance",
+    "shortTitle": "Ductable AC",
+    "tagline": "Static Pressure Balancing & Deep Chilled Air Cleaning",
+    "icon": "air-vent",
+    "category": "Central Air Conditioning",
+    "heroSubtitle": "Complete maintenance of concealed ductable split units, VAV boxes, and plenum chambers in corporate headquarters and auditoriums.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Air Filter & Duct Velocity Audit",
+        "desc": "We test airflow CFM and static pressure using anemometers to detect duct leakage or choked internal return grilles."
+      },
+      {
+        "step": "02",
+        "title": "Blower Assembly & Motor Balancing",
+        "desc": "Centrifugal blower wheels are cleaned, dynamically balanced, and bearings lubricated with high-temperature grease."
+      },
+      {
+        "step": "03",
+        "title": "Cooling Coil Chemical Descaling",
+        "desc": "Heavy deep-fin cooling coils receive high-pressure alkaline foam treatment to wash away decades of internal dust."
+      },
+      {
+        "step": "04",
+        "title": "Supply Air Diffuser Temperature Balance",
+        "desc": "We adjust dampers across supply air diffusers to eliminate hot spots and ensure equal cooling across all zones."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Commercial Ductable AC Power Jet Service",
+        "spec": "Blower overhaul + chemical coil descaling",
+        "cost": "₹1,499 - ₹2,499 / Unit",
+        "turnaround": "90 Minutes"
+      },
+      {
+        "service": "Centrifugal Blower Motor Rewind / Swap",
+        "spec": "High-torque multi-speed motor service",
+        "cost": "₹3,200 - ₹6,500",
+        "turnaround": "24 Hours"
+      },
+      {
+        "service": "Supply Duct Inspection & Damper Tuning",
+        "spec": "Anemometer CFM balance across registers",
+        "cost": "₹2,000 - ₹4,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Annual Maintenance Agreement (Ductable)",
+        "spec": "Quarterly deep service + priority emergency calls",
+        "cost": "Custom Package",
+        "turnaround": "Scheduled"
+      }
+    ]
+  },
+  {
+    "slug": "ac-compressor-replacement",
+    "name": "Compressor Replacement & Seize Recovery",
+    "shortTitle": "Compressor Replacement",
+    "tagline": "Rotary, Scroll & Reciprocating Compressor Overhaul",
+    "icon": "settings",
+    "category": "Heavy Mechanical Repair",
+    "heroSubtitle": "We recover seized compressors, eliminate acid burnout contamination, and install genuine OEM replacement compressors with warranty.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Burnout Acid Contamination Test",
+        "desc": "We chemically test contaminated oil for acidity to determine if a suction line burnout filter-drier is required."
+      },
+      {
+        "step": "02",
+        "title": "System Nitrogen Chemical Flush",
+        "desc": "Solvent R141b followed by dry nitrogen at 200 PSI is flushed through all lines to remove carbonized sludge."
+      },
+      {
+        "step": "03",
+        "title": "OEM Compressor Silver Brazing",
+        "desc": "The new compressor is silver-brazed into place with wet-rag heat sinking to safeguard internal valves."
+      },
+      {
+        "step": "04",
+        "title": "Dual-Stage Vacuum & Oil Balancing",
+        "desc": "Deep evacuation below 500 microns followed by exact virgin refrigerant and polyolester (POE) oil charging."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Compressor Replacement Labour & Nitrogen Flush",
+        "spec": "Full R141b flush + silver brazing + vacuum",
+        "cost": "₹1,500 - ₹2,500 (Labour)",
+        "turnaround": "3-4 Hours"
+      },
+      {
+        "service": "1.5 Ton Rotary Inverter Compressor",
+        "spec": "Brand-new OEM sealed compressor + warranty",
+        "cost": "₹6,800 - ₹9,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Commercial Scroll Compressor (3-5 Ton)",
+        "spec": "Copeland / Danfoss scroll compressor replacement",
+        "cost": "Quote on Model",
+        "turnaround": "24 Hours"
+      },
+      {
+        "service": "Burnout Suction Filter-Drier Retrofit",
+        "spec": "Acid core removal canister installation",
+        "cost": "₹1,800 - ₹3,200",
+        "turnaround": "2 Hours"
+      }
+    ]
+  },
+  {
+    "slug": "hvac-amc-contract",
+    "name": "HVAC Annual Maintenance Contracts (AMC)",
+    "shortTitle": "HVAC AMC Contracts",
+    "tagline": "Comprehensive & Non-Comprehensive Preventative Agreements",
+    "icon": "shield",
+    "category": "Preventative Maintenance",
+    "heroSubtitle": "Protect your investments, slash electricity costs by up to 25%, and guarantee zero unexpected summer breakdowns with Atlas Aircon AMC.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Quarterly 120-Bar Deep Cleaning",
+        "desc": "Scheduled power-jet washes to prevent dirt accumulation on condenser and evaporator heat transfer surfaces."
+      },
+      {
+        "step": "02",
+        "title": "Monthly Electrical Safety Audits",
+        "desc": "Inspecting contactor points, tightening wire lugs, testing terminal insulation, and checking earthing resistance."
+      },
+      {
+        "step": "03",
+        "title": "Pre-Emptive Refrigerant Leak Checks",
+        "desc": "Electronic leak sniffing on all flare nuts and U-bends to detect tiny pressure drops before compressors trip."
+      },
+      {
+        "step": "04",
+        "title": "Priority Emergency Response SLA",
+        "desc": "Contract holders receive guaranteed priority dispatch within 60 minutes for urban homes and 2 hours for factories."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Residential Split AC Basic AMC (1 Year)",
+        "spec": "3 Deep services + unlimited breakdown visits",
+        "cost": "₹1,499 / Unit",
+        "turnaround": "Yearly"
+      },
+      {
+        "service": "Residential Comprehensive AMC (With Gas)",
+        "spec": "All services + free gas refill + electrical spares",
+        "cost": "₹2,999 / Unit",
+        "turnaround": "Yearly"
+      },
+      {
+        "service": "Commercial Showroom / Office AMC",
+        "spec": "Multi-unit servicing + off-peak Sunday maintenance",
+        "cost": "Custom Discount",
+        "turnaround": "Yearly"
+      },
+      {
+        "service": "GIDC Factory Industrial HVAC Contract",
+        "spec": "Chillers, panel ACs & VRF with dedicated logbook",
+        "cost": "Tailored SLA",
+        "turnaround": "Yearly"
+      }
+    ]
+  },
+  {
+    "slug": "power-jet-cleaning",
+    "name": "120-Bar High-Pressure Power Jet Service",
+    "shortTitle": "Power Jet Service",
+    "tagline": "Restores Factory Airflow & Cools 30% Faster",
+    "icon": "zap",
+    "category": "Deep Cleaning Maintenance",
+    "heroSubtitle": "Industrial-grade 120-Bar water pressure descaling with non-corrosive alkaline foam removes deeply impacted grime that normal servicing misses.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Drop-Sheet Floor & Wall Protection",
+        "desc": "We wrap the indoor unit with specialized waterproof service jackets to direct all dirty wastewater into buckets."
+      },
+      {
+        "step": "02",
+        "title": "Alkaline Chemical Foam Application",
+        "desc": "Non-acidic biodegradable cleaning foam dissolves baked-on cooking grease, nicotine, mold, and dust mites."
+      },
+      {
+        "step": "03",
+        "title": "120-Bar Cross-Fin Power Jet Wash",
+        "desc": "High-pressure micro-jets blast through the multi-layer evaporator and condenser coils without bending soft aluminum fins."
+      },
+      {
+        "step": "04",
+        "title": "Blower Wheel Extraction & Sanitization",
+        "desc": "We scrub the internal cross-flow fan barrel and disinfect the air stream with hospital-grade anti-microbial spray."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Power Jet Deep Wash (Split AC)",
+        "spec": "Indoor jacket wash + outdoor unit high pressure",
+        "cost": "₹599 / Unit",
+        "turnaround": "45 Minutes"
+      },
+      {
+        "service": "Combo Package: 2 or More Split Units",
+        "spec": "Complete multi-room deep cleaning discount",
+        "cost": "₹499 / Unit",
+        "turnaround": "90 Minutes"
+      },
+      {
+        "service": "Power Jet + Anti-Bacterial Sanitization",
+        "spec": "Eliminates foul odors, fungus & mildew bacteria",
+        "cost": "₹799 / Unit",
+        "turnaround": "60 Minutes"
+      },
+      {
+        "service": "Commercial Ductable / Cassette Power Jet",
+        "spec": "Deep coil flush with ceiling containment",
+        "cost": "₹1,299 / Unit",
+        "turnaround": "75 Minutes"
+      }
+    ]
+  },
+  {
+    "slug": "emergency-breakdown",
+    "name": "24/7 Emergency AC Breakdown Dispatch",
+    "shortTitle": "Emergency Breakdown",
+    "tagline": "Rapid Deployment Across Vadodara & Surrounding GIDC Belts",
+    "icon": "alert-circle",
+    "category": "Emergency Response",
+    "heroSubtitle": "When critical server rooms, hospital ICUs, residential bedrooms, or chemical reactors lose cooling, Atlas Aircon deploys immediately.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Instant WhatsApp / Hotline Dispatch",
+        "desc": "Our 24-hour dispatch coordinator assigns the closest mobile van equipped with universal replacement parts."
+      },
+      {
+        "step": "02",
+        "title": "Triage & Electrical Isolation",
+        "desc": "Our technician arrives on-site, isolates the fault to prevent compressor burnout, and bypasses failed safety trips safely."
+      },
+      {
+        "step": "03",
+        "title": "Emergency On-Site Component Repair",
+        "desc": "Universal capacitors, relays, micro-soldered PCBs, or nitrogen leak repairs are executed immediately."
+      },
+      {
+        "step": "04",
+        "title": "Thermal Verification & Standby",
+        "desc": "We measure discharge air temperature and stand by for 20 minutes of continuous operation to verify zero trip recurrence."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "24/7 Emergency Urban Home Dispatch",
+        "spec": "Guaranteed arrival within 60-90 minutes",
+        "cost": "₹499 Emergency Fee",
+        "turnaround": "Immediate"
+      },
+      {
+        "service": "Industrial GIDC Midnight Response",
+        "spec": "Priority van for manufacturing & chemical plants",
+        "cost": "₹1,500 Priority Fee",
+        "turnaround": "90-120 Mins"
+      },
+      {
+        "service": "Server Room / Hospital Priority Call",
+        "spec": "Zero-downtime temporary cooling bypass",
+        "cost": "Custom SLA",
+        "turnaround": "Immediate"
+      },
+      {
+        "service": "Emergency Inverter PCB Loaner Unit",
+        "spec": "Temporary bypass board while original is repaired",
+        "cost": "₹1,200",
+        "turnaround": "2 Hours"
+      }
+    ]
+  },
+  {
+    "slug": "ahu-maintenance",
+    "name": "Industrial AHU & Air Handling Unit Overhaul",
+    "shortTitle": "AHU Maintenance",
+    "tagline": "Static Pressure Balancing & HEPA/Pre-Filter Sanitization",
+    "icon": "air-vent",
+    "category": "Central Air Handling",
+    "heroSubtitle": "Complete mechanical and aerodynamic overhaul of air handling units, belt tensioning, backward-curved centrifugal fans, and chilled water coils for Gujarat factories and hospitals.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Static Pressure & CFM Measurement",
+        "desc": "Digital manometers and hot-wire anemometers measure differential static pressure across filter banks and total volumetric air delivery CFM."
+      },
+      {
+        "step": "02",
+        "title": "Centrifugal Blower Dynamic Balancing",
+        "desc": "Blower wheels dynamically balanced, bearings greased with high-temp polyurea, V-belt pulleys aligned using dual laser indicators."
+      },
+      {
+        "step": "03",
+        "title": "Chilled Water Cooling Coil Flushing",
+        "desc": "Alkaline coil descaling with 120-Bar pressure wash to eliminate bio-films, particulate sulfur, and laminar dirt layers."
+      },
+      {
+        "step": "04",
+        "title": "Modulating Actuator & Damper Calibration",
+        "desc": "Inspection of Belimo motorized actuators, face-and-bypass dampers, and automated return air mixing plenums."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Standard AHU Inspection & Airflow Balancing",
+        "spec": "Differential pressure, belt tension & CFM measurement",
+        "cost": "₹2,499",
+        "turnaround": "2 Hours"
+      },
+      {
+        "service": "AHU Blower Bearing Replacement & Alignment",
+        "spec": "Heavy-duty pillow block bearings + laser pulley check",
+        "cost": "₹3,800 - ₹7,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Chilled Water AHU Coil Chemical Descaling",
+        "spec": "Deep fin foam descaling + pressure jet rinse",
+        "cost": "₹3,500 - ₹6,500",
+        "turnaround": "3 Hours"
+      },
+      {
+        "service": "HEPA & EU4 Pre-Filter Bank Retrofit",
+        "spec": "Cleanroom grade primary and secondary filter replacement",
+        "cost": "Quote on Spec",
+        "turnaround": "24 Hours"
+      }
+    ]
+  },
+  {
+    "slug": "cleanroom-hvac",
+    "name": "Pharma Cleanroom HVAC & HEPA Validation",
+    "shortTitle": "Cleanroom HVAC",
+    "tagline": "ISO 14644 & cGMP Compliant Air Balancing & Particle Control",
+    "icon": "shield",
+    "category": "Pharmaceutical HVAC",
+    "heroSubtitle": "Precision cleanroom HVAC commissioning, differential room pressure cascading, laminar airflow validation, and terminal HEPA filter integrity testing for pharma & biotech facilities.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Room Pressure Cascade & Magnehelic Audit",
+        "desc": "We verify positive differential pressures (+15 Pa / +30 Pa) between cleanrooms and corridors to prevent airborne cross-contamination."
+      },
+      {
+        "step": "02",
+        "title": "HEPA Filter Integrity & PAO Aerosol Scan",
+        "desc": "Photometer DOP/PAO leak testing on terminal HEPA filters at 99.97% efficiency down to 0.3 microns."
+      },
+      {
+        "step": "03",
+        "title": "Air Exchange Rate (ACPH) Calculation",
+        "desc": "Measuring room volume against supply air CFM to guarantee required 20–60 air changes per hour per cGMP standards."
+      },
+      {
+        "step": "04",
+        "title": "Thermal & Humidity Stabilization",
+        "desc": "Micro-tuning chilled water control valves and electric reheaters to lock cleanrooms at 21°C ± 1°C and 45% ± 5% RH."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Cleanroom Differential Pressure & Airflow Audit",
+        "spec": "Air change per hour calculation + Magnehelic check",
+        "cost": "₹4,500 - ₹8,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Terminal HEPA Filter Replacement & Housing Seal",
+        "spec": "Factory-certified H14 filter swap with gel seal",
+        "cost": "₹3,200 - ₹5,800 / Filter",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Cleanroom Dehumidifier & Reheat Loop Calibration",
+        "spec": "Precision RH% stabilization within ±3% tolerance",
+        "cost": "₹4,200 - ₹7,500",
+        "turnaround": "4 Hours"
+      },
+      {
+        "service": "Comprehensive ISO 14644 Validation Support",
+        "spec": "Complete documentation for regulatory audit compliance",
+        "cost": "Custom SLA",
+        "turnaround": "Scheduled"
+      }
+    ]
+  },
+  {
+    "slug": "chiller-chemical-descaling",
+    "name": "Chiller Condenser Chemical Descaling & Tube Brushing",
+    "shortTitle": "Chiller Descaling",
+    "tagline": "Inhibited Acid Circulation & Rotary Nylon Tube Brushing",
+    "icon": "zap",
+    "category": "Industrial Heat Transfer",
+    "heroSubtitle": "Eliminate high condenser pressure trips and restore factory approach temperatures below 2°C with certified chemical descaling for water-cooled chillers.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "End-Cover Removal & Borescope Scan",
+        "desc": "Removal of water box dished heads and borescopic optical inspection of copper tubes for scale thickness, algae, and tube wall pitting."
+      },
+      {
+        "step": "02",
+        "title": "Inhibited Sulfamic Acid Circulation",
+        "desc": "Closed-loop circulation of food-grade inhibited descaling acids that dissolve calcium carbonate scale while sparing base copper alloy."
+      },
+      {
+        "step": "03",
+        "title": "Rotary High-Torque Mechanical Tube Brushing",
+        "desc": "Electric rotary flexible shaft tube cleaners with nylon and brass brushes strip dislodged scale residues with continuous water flush."
+      },
+      {
+        "step": "04",
+        "title": "Alkaline Neutralization Flush & Approach Test",
+        "desc": "Circulating neutralizing solution followed by passivation rinse; verifying thermodynamic approach drop below 2°C baseline."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Shell & Tube Condenser Descaling (Up to 50 TR)",
+        "spec": "Inhibited chemical wash + mechanical tube brushing",
+        "cost": "₹12,000 - ₹18,000",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Heavy Industrial Condenser Descaling (100 - 300 TR)",
+        "spec": "Complete water box service + high-pressure wash",
+        "cost": "₹24,000 - ₹45,000",
+        "turnaround": "24-48 Hours"
+      },
+      {
+        "service": "Rotary Mechanical Tube Brushing & Borescope Scan",
+        "spec": "Individual copper tube scouring with rotary rig",
+        "cost": "₹8,000 - ₹15,000",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Evaporator Chilled Water Barrel Descaling",
+        "spec": "Low-pressure chemical loop descaling and passivation",
+        "cost": "Quote on Spec",
+        "turnaround": "2 Days"
+      }
+    ]
+  },
+  {
+    "slug": "cooling-tower-maintenance",
+    "name": "Industrial Cooling Tower Servicing & Overhaul",
+    "shortTitle": "Cooling Tower Service",
+    "tagline": "FRP Basin Descaling, Drift Eliminator Swap & Gearbox Overhaul",
+    "icon": "droplet",
+    "category": "Evaporative Cooling Systems",
+    "heroSubtitle": "Comprehensive maintenance for induced draft and crossflow cooling towers, PVC honeycomb fill descaling, dynamic fan balancing, and biological algae treatment.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "PVC Honeycomb Infill Chemical Descaling",
+        "desc": "High-pressure chemical wash of honeycomb PVC infill packs to strip biological algae, biofilm, and hard water scale deposits."
+      },
+      {
+        "step": "02",
+        "title": "Spray Nozzle & Water Distribution Cleaning",
+        "desc": "Clearing blocked gravity distribution basins and rotating spray nozzles for 100% uniform water coverage across the pack."
+      },
+      {
+        "step": "03",
+        "title": "Axial Fan Dynamic Balancing & Gearbox Check",
+        "desc": "Checking oil levels in reduction gearboxes, replacing fan hub bearings, and dynamic balancing of FRP fan blades to stop vibration."
+      },
+      {
+        "step": "04",
+        "title": "Cooling Tower Approach & Range Verification",
+        "desc": "Logging wet-bulb ambient temperature against entering and basin water temperatures to verify factory thermodynamic performance."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Cooling Tower Chemical Basin Clean & Bio-Treatment",
+        "spec": "Sludge extraction, bio-treatment & strainers clean",
+        "cost": "₹4,500 - ₹8,500",
+        "turnaround": "4 Hours"
+      },
+      {
+        "service": "PVC Honeycomb Fill High-Pressure Descaling",
+        "spec": "Infill pack chemical wash & drift eliminator swap",
+        "cost": "₹6,500 - ₹14,000",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Axial Fan Hub Bearing & Gearbox Service",
+        "spec": "High-viscosity gear lube flush + dynamic balancing",
+        "cost": "₹5,500 - ₹11,000",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Annual Cooling Tower Preventive AMC",
+        "spec": "Quarterly descaling, monthly inspection & water analysis",
+        "cost": "Custom SLA",
+        "turnaround": "Yearly"
+      }
+    ]
+  },
+  {
+    "slug": "hvac-duct-fabrication",
+    "name": "Commercial HVAC Duct Fabrication & Air Balancing",
+    "shortTitle": "Duct Fabrication & Balancing",
+    "tagline": "SMACNA Standard Galvanized Iron (GI) Ducting & Acoustic Lining",
+    "icon": "settings",
+    "category": "Air Distribution Engineering",
+    "heroSubtitle": "Design, fabrication, and installation of galvanized iron (GI) rectangular and spiral ductwork, acoustic insulation, and proportional airflow balancing.",
+    "sop": [
+      {
+        "step": "01",
+        "title": "Static Pressure Loss & Duct Sizing Calculation",
+        "desc": "Mathematical calculation of friction loss per 100 feet to specify duct gauges complying with SMACNA class 4 standards."
+      },
+      {
+        "step": "02",
+        "title": "Automated Lockformer Seam & Flange Fabrication",
+        "desc": "Precision shearing, lockformer seam roll-forming, and 4-bolt TDF flange assembly for zero air leakage under high static pressure."
+      },
+      {
+        "step": "03",
+        "title": "Thermal & Acoustic Nitrile Rubber Insulation",
+        "desc": "Applying closed-cell elastomeric nitrile rubber or fiberglass insulation with anti-microbial vapor barriers to eliminate condensation."
+      },
+      {
+        "step": "04",
+        "title": "Proportional Damper Air Balancing",
+        "desc": "Using digital flow capture hoods to calibrate volume control dampers (VCD) and diffusers across every supply room."
+      }
+    ],
+    "pricing": [
+      {
+        "service": "Complete Duct Airflow Velocity & CFM Balancing",
+        "spec": "Hot-wire anemometer CFM tuning across all outlets",
+        "cost": "₹3,500 - ₹7,500",
+        "turnaround": "Same Day"
+      },
+      {
+        "service": "Motorized Fire Damper & VCD Damper Repair",
+        "spec": "Actuator motor replacement + linkage calibration",
+        "cost": "₹2,800 - ₹5,500",
+        "turnaround": "3 Hours"
+      },
+      {
+        "service": "Duct Acoustic Insulation Retrofit (Per Sq. Ft.)",
+        "spec": "Nitrile rubber class-O acoustic foam application",
+        "cost": "₹45 - ₹85 / Sq Ft",
+        "turnaround": "Custom"
+      },
+      {
+        "service": "Commercial Duct Leakage Testing (Smoke / Pressure)",
+        "spec": "Class 4 pressure decay test per SMACNA specifications",
+        "cost": "₹4,000 - ₹8,000",
+        "turnaround": "Same Day"
+      }
+    ]
+  }
+]

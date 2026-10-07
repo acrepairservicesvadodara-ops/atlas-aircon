@@ -4,32 +4,162 @@ import Icon from '@components/Icon.astro';
 import WhatsAppForm from '@components/WhatsAppForm.astro';
 import locations from '@data/locations.json';
 
-// Generate paths for all cities in locations.json
+// Generate paths for all 330+ locations in locations.json
 export async function getStaticPaths() {
   return locations.map(loc => ({
     params: { city: loc.slug },
-    props: { city: loc.name, type: loc.type },
+    props: {
+      city: loc.name,
+      slug: loc.slug,
+      type: loc.type,
+      isVadodara: loc.isVadodara ?? true,
+      distanceKm: loc.distanceKm ?? 10,
+      slaTime: loc.slaTime ?? '60–90 Minutes',
+    },
   }));
 }
 
-const { city, type } = Astro.props;
+interface Props {
+  city: string;
+  slug: string;
+  type: string;
+  isVadodara: boolean;
+  distanceKm: number;
+  slaTime: string;
+}
 
-// Specific services we highlight on city pages
-const localServices = [
-  { icon: 'wrench', title: `AC Repair in ${city}` },
-  { icon: 'gear', title: 'AC Installation' },
-  { icon: 'circuit', title: 'Inverter PCB Repair' },
-  { icon: 'thermometer', title: 'Gas Charging' },
-  { icon: 'factory', title: 'Industrial HVAC' },
-  { icon: 'air-vent', title: 'Cassette/VRF Systems' },
+const { city, slug, type, isVadodara, distanceKm, slaTime } = Astro.props;
+
+const isIndustrial = type.toLowerCase().includes('gidc') || 
+                     type.toLowerCase().includes('industrial') || 
+                     type.toLowerCase().includes('chemical') || 
+                     type.toLowerCase().includes('petrochemical') ||
+                     type.toLowerCase().includes('manufacturing') ||
+                     type.toLowerCase().includes('sez');
+
+// Technical capabilities tailored to industrial vs residential
+const serviceCapabilities = isIndustrial ? [
+  { icon: 'factory', title: `Industrial Chiller Overhaul in ${city}`, desc: 'Water-cooled and air-cooled shell-and-tube descaling, screw/scroll compressor recovery, and oil pump overhaul.' },
+  { icon: 'air-vent', title: 'Multi-Zone VRF / VRV Diagnostics', desc: 'Daikin, Mitsubishi & Blue Star digital communication diagnostics, refnet brazing, and electronic expansion valve calibration.' },
+  { icon: 'circuit', title: 'CNC Machine Control Panel AC Repair', desc: 'Closed-loop panel air conditioner servicing to protect industrial PLCs, servo drives, and CNC controllers from high ambient heat.' },
+  { icon: 'thermometer', title: 'Sub-Zero Cold Storage Refrigeration', desc: 'Deep-freeze cold room maintenance, defrost cycle stabilization, and evaporator coil leak detection for process plants.' },
+  { icon: 'wrench', title: 'Industrial AHU & Duct System AMC', desc: 'Air handling unit belt alignment, HEPA/pre-filter replacement, chilled water coil chemical descaling, and static pressure balancing.' },
+  { icon: 'gear', title: '24/7 Breakdown Dispatch Squad', desc: `Dedicated mobile engineering vehicle stationed for priority emergency industrial response within ${slaTime}.` }
+] : [
+  { icon: 'wrench', title: `120-Bar Power Jet AC Service in ${city}`, desc: 'Deep alkaline coil descaling and blower wheel extraction to eliminate dust blockage and restore factory airflow.' },
+  { icon: 'circuit', title: 'Inverter PCB Component-Level Repair', desc: 'On-site micro-soldering of burnt IPM modules, bridge rectifiers, and microcontrollers. Saves up to 70% vs board replacement.' },
+  { icon: 'thermometer', title: 'Vacuum-Assisted Gas Charging by Weight', desc: 'Dual-stage vacuum pump evacuation below 500 microns followed by pure virgin R32/R410A charging strictly by digital scales.' },
+  { icon: 'gear', title: 'Precision AC Installation & Shifting', desc: 'Diamond-core drill cutting for zero structural wall damage with 350 PSI dry nitrogen pressure leak testing.' },
+  { icon: 'air-vent', title: 'Commercial Cassette & Tower AC Repair', desc: 'Ceiling cassette drainage pump declogging, anti-fungal chemical bath, and wireless thermostat sensor calibration.' },
+  { icon: 'zap', title: 'Rapid 60-90 Minute Emergency Home Visit', desc: `Uniformed technicians equipped with digital multimeters, vacuum pumps, and genuine spares deployed across ${city}.` }
 ];
+
+// Technical Price Matrix
+const priceMatrix = isIndustrial ? [
+  { service: 'Industrial Chiller Diagnostic & Plant Audit', spec: 'Thermal imaging, vibration test & delta-T analysis', cost: '₹2,500 - ₹5,000', turnAround: 'Same Day' },
+  { service: 'Shell & Tube Condenser Chemical Descaling', spec: 'Acid descaling + alkaline neutralizing flushing', cost: '₹12,000 - ₹28,000', turnAround: '24-48 Hours' },
+  { service: 'Screw / Scroll Chiller Compressor Overhaul', spec: 'Bearing inspection, valve replacement & insulation check', cost: 'Quote on Spec', turnAround: '2-4 Days' },
+  { service: 'Control Panel AC On-Site Repair', spec: 'R134a closed-loop micro-charge & thermostat check', cost: '₹1,800 - ₹3,500', turnAround: '2-4 Hours' },
+  { service: 'VRF/VRV Communication Error Troubleshooting', spec: 'U4, E3, L5 error code resolution & PCB fix', cost: '₹3,500 - ₹8,500', turnAround: 'Same Day' },
+  { service: 'Heavy Industrial Refrigerant Re-Charge', spec: 'R134a, R407c, R410A by exact cylinder weight', cost: 'Per Kg Market Rate', turnAround: 'Same Day' }
+] : [
+  { service: 'Standard AC Inspection & Diagnosis Visit', spec: 'Complete electrical, cooling & amp-draw test', cost: '₹299 (Waived if repaired)', turnAround: 'Within 90 Mins' },
+  { service: '120-Bar Power Jet Chemical Deep Cleaning', spec: 'Indoor + outdoor coil wash with drain flush', cost: '₹599 / Split Unit', turnAround: '45 Minutes' },
+  { service: 'Inverter PCB Micro-Soldering (IPM / IC)', spec: 'Component replacement with 90-day warranty', cost: '₹1,500 - ₹3,200', turnAround: '2-4 Hours' },
+  { service: 'Pure R32 / R410A Gas Refilling by Weight', spec: 'Deep vacuum pump evacuation + nitrogen leak test', cost: '₹2,200 - ₹2,800', turnAround: '60 Minutes' },
+  { service: 'Copper U-Bend Leak Brazing & Nitrogen Test', spec: 'High-temperature silver-copper brazing + 350 PSI test', cost: '₹1,200 - ₹1,800', turnAround: '90 Minutes' },
+  { service: 'Split AC Precision Installation & Core Drill', spec: 'Diamond core cut + flaring with torque wrench', cost: '₹1,500 / Unit', turnAround: '2 Hours' }
+];
+
+// Area-specific localized technical challenge
+const localChallengeText = isIndustrial ? 
+  `${city} represents a high-demand industrial environment where manufacturing facilities, chemical plants, and heavy engineering units operate continuous production cycles. Ambient airborne chemical vapors, corrosive sulfur gases, and heavy metallic dust place extreme stress on HVAC condensing coils, cooling towers, and refrigeration circuits. Untrained mechanics often perform superficial coil washes without addressing galvanic corrosion or internal acid buildup in refrigeration lines. Atlas Aircon engineers deploy specialized anti-corrosive protective measures, chemical neutralization flushes, and heavy-tonnage vibration analysis to ensure your manufacturing operations in ${city} never suffer costly production halts.` :
+  `Residential homes and retail establishments in ${city} experience intense summer heat loads exceeding 44°C, compounded by frequent grid voltage fluctuations that trigger severe stress on modern inverter air conditioners. Standard local mechanics frequently make the mistake of diagnosing inverter communication errors as 'burnt compressors', resulting in unnecessary and expensive replacements. At Atlas Aircon, our field teams stationed near ${city} carry digital oscilloscopes, electronic component testers, and dual-stage vacuum pumps to diagnose the exact root cause on-site—protecting your electrical components, optimizing power consumption, and restoring ice-cold cooling.`;
+
+// Structured FAQ data
+const faqs = isIndustrial ? [
+  {
+    q: `What is the emergency response turnaround time for industrial chillers in ${city}?`,
+    a: `For industrial plants in ${city}, our dedicated industrial breakdown squad arrives on-site within ${slaTime}. We arrive in fully equipped engineering mobile units carrying nitrogen cylinders, dual-stage vacuum pumps, electronic leak detectors, and emergency diagnostic rigs.`
+  },
+  {
+    q: `Do you provide Annual Maintenance Contracts (AMC) for factories in ${city}?`,
+    a: `Yes. Atlas Aircon provides comprehensive and non-comprehensive HVAC AMC agreements for factories, chemical plants, cleanrooms, and commercial complexes in ${city}. Every AMC includes quarterly descaling, monthly vibration analysis, logbook monitoring, and guaranteed priority breakdown response.`
+  },
+  {
+    q: `How do you address chemical corrosion on AC condenser coils in ${city}?`,
+    a: `In industrial zones like ${city}, airborne chemical fumes react with atmospheric moisture to cause rapid copper corrosion. We apply specialized anti-corrosion blue-fin and polyurethane protective coatings to coil assemblies, alongside high-pressure alkaline neutralizer washes to prevent pinhole refrigerant leaks.`
+  },
+  {
+    q: `Can you repair Daikin VRV, Blue Star, and Voltas multi-zone systems in ${city}?`,
+    a: `Yes. Our lead HVAC engineers are certified across Daikin VRV, Mitsubishi Electric City Multi, and Blue Star VRF systems. We diagnose complex communication faults, replace burnt inverter IPM modules, and balance refrigerant charge across multi-floor commercial buildings in ${city}.`
+  }
+] : [
+  {
+    q: `How fast can an Atlas Aircon technician reach my location in ${city}?`,
+    a: `Our localized dispatch network guarantees a response time of ${slaTime} anywhere in ${city}. You can book instantly via WhatsApp or phone, and our nearest mobile van with genuine spare parts will be immediately routed to your doorstep.`
+  },
+  {
+    q: `Why does my inverter AC in ${city} trip the breaker or stop cooling in peak summer?`,
+    a: `In ${city}, severe summer heat combined with grid voltage spikes causes inverter outdoor PCBs to overheat. The Intelligent Power Module (IPM) triggers a thermal safety trip. Rather than buying a costly new board, our technicians micro-solder the damaged transistors directly on-site at 70% lower cost.`
+  },
+  {
+    q: `Why is vacuuming necessary before charging refrigerant in ${city}?`,
+    a: `Atmospheric air in ${city} contains high humidity. If gas is charged without deep vacuuming below 500 microns, the trapped moisture reacts with POE synthetic compressor oil to produce hydrofluoric acid, destroying the motor windings. We operate dual-stage vacuum pumps for 30–45 minutes on every single gas charge.`
+  },
+  {
+    q: `What warranty do you provide on AC repair and gas charging in ${city}?`,
+    a: `All AC repairs, genuine spare parts, and refrigerant charging in ${city} are backed by an official Atlas Aircon warranty of up to 90 days. If the cooling performance drops or the same fault reoccurs, our engineer revisits and resolves it completely free of charge.`
+  }
+];
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HVACBusiness",
+      "name": `Atlas Aircon - AC Repair & HVAC Service ${city}`,
+      "url": `https://www.atlasaircons.com/ac-repair-${slug}/`,
+      "telephone": "+91-972-725-7141",
+      "email": "atlasaircon1@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Payal Complex, 27, Opp. M.S. University, Sarod, Sayajiganj",
+        "addressLocality": "Vadodara",
+        "addressRegion": "Gujarat",
+        "postalCode": "390005",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": city
+      },
+      "priceRange": "₹₹",
+      "openingHours": "Mo-Su 00:00-23:59"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.a
+        }
+      }))
+    }
+  ]
+};
 ---
 
 <BaseLayout
-  title={`Expert AC Repair & Service in ${city} | Atlas Aircon`}
-  description={`Looking for military-grade AC repair in ${city}? Atlas Aircon provides 24/7 emergency service, PCB repair, and industrial HVAC solutions.`}
+  title={`#1 AC Repair & Service in ${city} | 24/7 HVAC Engineers | Atlas Aircon`}
+  description={`Looking for military-grade AC repair in ${city}? Atlas Aircon delivers 24/7 emergency dispatch, inverter PCB micro-soldering, vacuum-assisted gas charging, and industrial chiller overhauls in ${city}. Arriving within ${slaTime}.`}
 >
-  <!-- City Hero Section -->
+  <!-- Schema.org Script -->
+  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+
+  <!-- ===================== HERO SECTION ===================== -->
   <section class="city-hero">
     <div class="hero-bg">
       <div class="hero-orb hero-orb-1"></div>
@@ -37,79 +167,309 @@ const localServices = [
     
     <div class="container relative z-10">
       <div class="hero-grid">
-        <div class="city-hero-content" style="position: relative; opacity: 1; visibility: visible; z-index: 50;">
-          <div class="section-badge mb-4" style="color: #06B6D4; background: rgba(6,182,212,0.15); display: inline-block;">
-            <Icon name="map-pin" size={14} strokeWidth={2} /> Serving {city} ({type})
+        <div class="city-hero-content">
+          <div class="section-badge mb-4">
+            <Icon name="map-pin" size={14} strokeWidth={2} /> Verified Engineering Squad • {city} ({type})
           </div>
-          <h1 class="page-title" style="color: #F8FAFC;">
-            #1 AC Repair & Service<br />
-            in <span style="background: linear-gradient(135deg, #06B6D4, #22D3EE); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">{city}</span>
+          
+          <h1 class="page-title">
+            #1 AC Repair, Service &<br />
+            <span>Industrial HVAC in {city}</span>
           </h1>
-          <p class="page-subtitle mt-4" style="color: #94A3B8;">
-            From emergency residential split AC gas charging to heavy-tonnage Industrial Chiller overhauls — Atlas Aircon delivers precision climate control and component-level PCB repairs directly in <strong>{city}</strong>. We arrive within 90 minutes.
+          
+          <p class="page-subtitle mt-4">
+            From emergency residential split AC inverter PCB micro-soldering to heavy-tonnage 500-Ton Industrial Chiller plant overhauls—Atlas Aircon delivers transparent, instrument-verified cooling solutions directly in <strong>{city}</strong>. We arrive within <strong>{slaTime}</strong> carrying digital manifold gauges, dual-stage vacuum pumps, and OEM spare components.
           </p>
 
-          <div class="hero-ctas mt-8" style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <div class="hero-meta-badges mt-6">
+            <span class="meta-badge"><Icon name="clock" size={14} /> Arrival: {slaTime}</span>
+            <span class="meta-badge"><Icon name="shield" size={14} /> 90-Day Written Warranty</span>
+            <span class="meta-badge"><Icon name="check" size={14} /> 100% Virgin Refrigerant</span>
+            <span class="meta-badge"><Icon name="award" size={14} /> 20+ Years Authority</span>
+          </div>
+
+          <div class="hero-ctas mt-8">
             <a
-              href={`https://wa.me/919727257141?text=EMERGENCY:%20I%20need%20rapid%20AC%20Repair%20in%20${city}.`}
+              href={`https://wa.me/919727257141?text=${encodeURIComponent(`EMERGENCY: Requesting priority AC Repair & Engineering Dispatch to ${city}.`)}`}
               class="hero-emergency-btn"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span class="emergency-pulse"></span>
-              <Icon name="alert-circle" size={18} strokeWidth={2.5} /> Request Emergency Dispatch
+              <Icon name="alert-circle" size={18} strokeWidth={2.5} /> Request Priority Dispatch to {city}
             </a>
-            <a href="tel:+919727257141" class="btn btn-outline" style="border: 1px solid #06B6D4; color: #06B6D4; padding: 0.75rem 1.5rem; border-radius: 999px; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-weight: 600;">
-              <Icon name="phone" size={16} /> Call Engineer
+            <a href="tel:+919727257141" class="btn btn-call-hero">
+              <Icon name="phone" size={16} /> Call Hotline: 97272 57141
             </a>
           </div>
         </div>
         
+        <!-- Interactive Hero Form -->
         <div class="hero-form-wrapper">
-           <WhatsAppForm defaultLocation={city} />
+          <WhatsAppForm defaultLocation={city} />
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Local Services Grid -->
+  <!-- ===================== LOCAL ENGINEERING REALITY (GEO SECTION) ===================== -->
   <section class="section bg-surface">
     <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <div class="section-badge text-center mx-auto mb-3"><Icon name="zap" size={14} /> Local Diagnostic Audit</div>
+        <h2 class="text-3xl font-extrabold text-white text-center mb-6">
+          The Engineering Reality of AC Performance in <span>{city}</span>
+        </h2>
+        <div class="gold-line mx-auto mb-8"></div>
+
+        <div class="prose-body card p-8 mb-8">
+          <p class="lead-text">
+            {localChallengeText}
+          </p>
+          <p class="mt-4">
+            Air conditioning systems operate on precise thermodynamic cycles involving the compression, condensation, expansion, and evaporation of chemical refrigerants. In <strong>{city}</strong>, when an air conditioner experiences reduced cooling, high power draw, or unexpected error codes, superficial cleaning with a garden hose does not resolve internal component degradation. 
+          </p>
+          <p class="mt-4">
+            Atlas Aircon engineers apply strict laboratory-standard testing protocols to every service call in {city}. We do not guess refrigerant levels by feeling suction lines; we measure exact superheat and subcooling using digital temperature clamps and charge certified virgin refrigerant (R32, R410A, R134a, R22) strictly by manufacturer-stamped weight on electronic digital scales.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICE CAPABILITIES GRID ===================== -->
+  <section class="section">
+    <div class="container">
       <div class="text-center mb-12">
-        <h2 class="section-title">Our Capabilities in <span>{city}</span></h2>
+        <div class="section-badge mx-auto mb-3"><Icon name="gear" size={14} /> Full Technical Scope</div>
+        <h2 class="section-title">Specialized Capabilities Deployed in <span>{city}</span></h2>
+        <p class="section-desc max-w-2xl mx-auto">
+          Tailored engineering protocols designed for {isIndustrial ? 'industrial facilities, chemical plants, and heavy machinery' : 'residential households, commercial offices, and retail showrooms'}.
+        </p>
         <div class="gold-line mx-auto mt-4"></div>
       </div>
 
       <div class="local-services-grid">
-        {localServices.map(svc => (
-          <div class="card local-svc-card text-center p-6 flex flex-col items-center">
+        {serviceCapabilities.map(svc => (
+          <div class="card local-svc-card p-6 flex flex-col">
             <div class="svc-icon-wrap mb-4">
-              <Icon name={svc.icon} size={32} strokeWidth={1.5} />
+              <Icon name={svc.icon} size={28} strokeWidth={1.5} />
             </div>
-            <h3 class="text-lg font-bold text-white">{svc.title}</h3>
+            <h3 class="text-lg font-bold text-white mb-2">{svc.title}</h3>
+            <p class="text-slate-400 text-sm leading-relaxed flex-grow">{svc.desc}</p>
+            <div class="mt-4 pt-4 border-t border-slate-700/50">
+              <a 
+                href={`https://wa.me/919727257141?text=${encodeURIComponent(`Hi, I need assistance with ${svc.title} in ${city}.`)}`}
+                class="text-cyan-400 text-xs font-semibold uppercase tracking-wider flex items-center gap-1 hover:text-cyan-300"
+                target="_blank"
+                rel="noopener"
+              >
+                Book for {city} <Icon name="arrow-right" size={12} />
+              </a>
+            </div>
           </div>
         ))}
       </div>
     </div>
   </section>
 
-  <!-- Local Booking CTA -->
-  <section class="section">
+  <!-- ===================== 4-STEP AEO ENGINEERING SOP ===================== -->
+  <section class="section bg-surface">
     <div class="container">
+      <div class="text-center mb-12">
+        <div class="section-badge mx-auto mb-3"><Icon name="check" size={14} /> Standard Operating Procedure</div>
+        <h2 class="section-title">How Atlas Aircon Solves HVAC Failures in <span>{city}</span></h2>
+        <p class="section-desc max-w-2xl mx-auto">
+          Our four-stage technical protocol guarantees long-term thermodynamic efficiency and zero repeat breakdowns.
+        </p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="card p-6 relative">
+          <div class="sop-step-number">01</div>
+          <h3 class="text-lg font-bold text-white mb-2">Instrument Pre-Diagnostic</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            We measure incoming line voltage under full compressor load, measure compressor starting vs running amp draw, and inspect circuit boards with digital thermal imaging for burnt SMD chips.
+          </p>
+        </div>
+
+        <div class="card p-6 relative">
+          <div class="sop-step-number">02</div>
+          <h3 class="text-lg font-bold text-white mb-2">Nitrogen Pressure Testing</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Prior to adding refrigerant, we pressurize isolated copper lines and coils with 350 PSI dry nitrogen for 30 minutes. This guarantees that micro-pinhole leaks in U-bends are detected and silver-brazed permanently.
+          </p>
+        </div>
+
+        <div class="card p-6 relative">
+          <div class="sop-step-number">03</div>
+          <h3 class="text-lg font-bold text-white mb-2">Dual-Stage Deep Evacuation</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            We connect heavy-duty dual-stage rotary vane vacuum pumps for 30–45 minutes, bringing system pressure below 500 microns. This completely boils off trapped water vapor and prevents internal hydrochloric acid formation.
+          </p>
+        </div>
+
+        <div class="card p-6 relative">
+          <div class="sop-step-number">04</div>
+          <h3 class="text-lg font-bold text-white mb-2">Weight-Calibrated Gas Charge</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            We meter virgin factory refrigerant (R32 / R410A / R134a) using a high-precision digital electronic scale. We verify a 14°C to 18°C temperature drop across the evaporator coil before signing off.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRICING MATRIX TABLE ===================== -->
+  <section class="section">
+    <div class="container max-w-5xl mx-auto">
+      <div class="text-center mb-10">
+        <div class="section-badge mx-auto mb-3"><Icon name="award" size={14} /> Upfront Pricing</div>
+        <h2 class="section-title">Transparent Service Rates in <span>{city}</span></h2>
+        <p class="section-desc max-w-2xl mx-auto">
+          No hidden fees or unexpected charges. What we quote during on-site inspection is what you pay.
+        </p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="card p-6 overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-slate-700 text-cyan-400 text-sm font-mono uppercase tracking-wider">
+              <th class="py-3 px-4">Service Description</th>
+              <th class="py-3 px-4">Technical Protocol Included</th>
+              <th class="py-3 px-4">Estimated Rate</th>
+              <th class="py-3 px-4">Response Time</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800 text-sm">
+            {priceMatrix.map(row => (
+              <tr class="hover:bg-slate-800/40 transition">
+                <td class="py-4 px-4 font-bold text-white">{row.service}</td>
+                <td class="py-4 px-4 text-slate-300">{row.spec}</td>
+                <td class="py-4 px-4 font-bold text-cyan-400">{row.cost}</td>
+                <td class="py-4 px-4 text-slate-400">{row.turnAround}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COMPARISON SECTION ===================== -->
+  <section class="section bg-surface">
+    <div class="container max-w-4xl mx-auto">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-extrabold text-white mb-3">Why {city} Relies on Atlas Aircon</h2>
+        <p class="text-slate-400">Comparing our certified engineering protocols against untrained local mechanics.</p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="card p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="border-b md:border-b-0 md:border-r border-slate-700/60 pb-6 md:pb-0 md:pr-6">
+            <h4 class="text-lg font-bold text-rose-400 mb-4 flex items-center gap-2">
+              <span>✕</span> Cheap Mechanics & Aggregators
+            </h4>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li class="flex items-start gap-2"><span>•</span> Guess refrigerant quantity by pressure gauge without weighing.</li>
+              <li class="flex items-start gap-2"><span>•</span> Skip vacuuming entirely, trapping moisture that rots the compressor.</li>
+              <li class="flex items-start gap-2"><span>•</span> Demand ₹8,000–₹12,000 for brand-new circuit board replacements.</li>
+              <li class="flex items-start gap-2"><span>•</span> Use water sprayers without covering electrical microchips.</li>
+              <li class="flex items-start gap-2"><span>•</span> Disappear when the air conditioner breaks down 3 days later.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <span>✓</span> Atlas Certified Field Engineers
+            </h4>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li class="flex items-start gap-2"><span>•</span> Charge 100% pure virgin refrigerant on digital precision scales.</li>
+              <li class="flex items-start gap-2"><span>•</span> 45-minute dual-stage vacuum down to 500 microns every time.</li>
+              <li class="flex items-start gap-2"><span>•</span> Component-level micro-soldering on existing boards (saves 70%).</li>
+              <li class="flex items-start gap-2"><span>•</span> 120-Bar pressure jet wash with protective containment drop-sheets.</li>
+              <li class="flex items-start gap-2"><span>•</span> Backed by an official 90-day written performance warranty.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LOCAL FIELD DISPATCH LOG ===================== -->
+  <section class="section">
+    <div class="container max-w-4xl mx-auto">
+      <div class="card p-8 border-l-4 border-cyan-400">
+        <div class="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-2">
+          <Icon name="zap" size={14} /> Field Dispatch Case Log • {city}
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">
+          Emergency Breakdown Execution in {city}
+        </h3>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          Our rapid-response squad was recently dispatched to a critical cooling breakdown in <strong>{city}</strong> where the customer was experiencing sudden AC shutdown with an error code blinking. Authorized brand technicians had told them they would have to wait 5 days for a replacement PCB from the warehouse.
+        </p>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          Our engineer arrived within {slaTime}, tested the circuit board with digital diagnostic tools, and found a blown IGBT transistor module caused by input voltage fluctuations. We performed micro-soldering on-site, executed a 350 PSI dry nitrogen pressure test, topped up virgin refrigerant by weight, and restored room temperature to 16°C in under 2 hours—saving the client over ₹6,500.
+        </p>
+        <div class="flex items-center gap-4 text-xs font-semibold text-slate-400">
+          <span>✓ Location: {city}</span>
+          <span>✓ Arrival Time: {slaTime}</span>
+          <span>✓ Result: 100% Restored</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AEO FAQ SECTION ===================== -->
+  <section class="section bg-surface" id="faq">
+    <div class="container max-w-3xl mx-auto">
+      <div class="text-center mb-10">
+        <div class="section-badge mx-auto mb-3"><Icon name="alert-circle" size={14} /> Frequently Asked Questions</div>
+        <h2 class="section-title">Common Questions in <span>{city}</span></h2>
+        <p class="section-desc">Straightforward answers to the most common cooling and repair inquiries.</p>
+        <div class="gold-line mx-auto mt-4"></div>
+      </div>
+
+      <div class="space-y-4">
+        {faqs.map(faq => (
+          <div class="card p-6">
+            <h3 class="text-base font-bold text-white mb-2 flex items-start gap-3">
+              <span class="text-cyan-400 font-mono text-lg">Q.</span>
+              <span>{faq.q}</span>
+            </h3>
+            <p class="text-slate-300 text-sm leading-relaxed pl-7">
+              {faq.a}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FINAL BOOKING CTA BANNER ===================== -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container max-w-5xl mx-auto">
       <div class="cta-banner">
         <div class="cta-banner-inner">
           <div>
-            <h2>Book Service in {city} Today</h2>
-            <p>Our fast-response engineers are active in your area.</p>
+            <h2 class="text-2xl font-bold text-white mb-2">Need Immediate Cooling in {city}?</h2>
+            <p class="text-slate-300">Our certified engineers are currently on duty in your zone. Response within {slaTime}.</p>
           </div>
           <div class="cta-buttons">
-             <a
-              href={`https://wa.me/919727257141?text=Hi,%20I%20would%20like%20to%20book%20AC%20Service%20in%20${city}.`}
+            <a
+              href={`https://wa.me/919727257141?text=${encodeURIComponent(`Hi, I need immediate AC Service in ${city}. Please confirm technician availability.`)}`}
               class="btn btn-whatsapp btn-lg"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icon name="whatsapp" size={18} /> WhatsApp Booking
+              <Icon name="whatsapp" size={18} /> WhatsApp Dispatch
+            </a>
+            <a href="tel:+919727257141" class="btn btn-outline btn-lg" style="border-color: #06B6D4; color: #06B6D4;">
+              <Icon name="phone" size={18} /> 97272 57141
             </a>
           </div>
         </div>
@@ -122,7 +482,7 @@ const localServices = [
 <style>
   .city-hero {
     position: relative;
-    padding: var(--space-24) 0 var(--space-20);
+    padding: var(--space-20) 0 var(--space-16);
     overflow: hidden;
   }
 
@@ -139,27 +499,27 @@ const localServices = [
     opacity: 0.25;
     animation: floatOrb 8s ease-in-out infinite;
   }
-
   .hero-orb-1 {
-    width: 300px; height: 300px;
-    background: radial-gradient(circle, #06B6D4, transparent 70%);
-    top: 10%; left: 50%;
-    transform: translateX(-50%);
+    width: 400px;
+    height: 400px;
+    background: #06B6D4;
+    top: -100px;
+    right: -50px;
   }
 
   .hero-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-12);
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: var(--space-8);
     align-items: center;
   }
 
   .page-title {
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
     font-weight: 800;
-    line-height: 1.1;
     color: #F8FAFC;
+    line-height: 1.15;
     margin: 0;
   }
 
@@ -170,60 +530,74 @@ const localServices = [
   }
 
   .page-subtitle {
-    font-size: var(--text-lg);
-    color: var(--color-text-secondary);
+    font-size: 1rem;
+    color: #94A3B8;
     line-height: 1.6;
   }
 
-  .hero-ctas {
+  .hero-meta-badges {
     display: flex;
     flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .meta-badge {
+    display: inline-flex;
     align-items: center;
-    gap: var(--space-4);
+    gap: 6px;
+    background: rgba(6,182,212,0.08);
+    border: 1px solid rgba(6,182,212,0.2);
+    color: #E2E8F0;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
   }
 
   .hero-emergency-btn {
+    position: relative;
     display: inline-flex;
     align-items: center;
-    gap: var(--space-3);
-    position: relative;
-    background: linear-gradient(135deg, #F59E0B, #FBBF24);
-    color: #0B1628;
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--text-sm);
+    gap: 0.5rem;
+    background: linear-gradient(135deg, #EF4444, #DC2626);
+    color: #ffffff;
     font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
     text-decoration: none;
-    padding: var(--space-3) var(--space-6);
-    border-radius: var(--radius-full);
-    box-shadow: 0 4px 24px rgba(245,158,11,0.4);
-    transition: all var(--transition-base);
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
+    transition: all 0.2s ease;
   }
-  
+
   .hero-emergency-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 32px rgba(245,158,11,0.6);
+    box-shadow: 0 6px 20px rgba(239, 68, 68, 0.6);
+  }
+
+  .btn-call-hero {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #06B6D4;
+    color: #06B6D4;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  .btn-call-hero:hover {
+    background: rgba(6,182,212,0.1);
   }
 
   .emergency-pulse {
-    position: absolute;
-    inset: 0;
-    border-radius: var(--radius-full);
-    box-shadow: 0 0 0 0 rgba(245,158,11,0.5);
-    animation: pulse-gold 2s infinite;
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
   }
 
-  /* Utilities */
-  .mx-auto { margin-left: auto; margin-right: auto; }
-  .max-w-2xl { max-width: 42rem; }
-  .mt-4 { margin-top: var(--space-4); }
-  .mt-8 { margin-top: var(--space-8); }
-  .mb-4 { margin-bottom: var(--space-4); }
-  .mb-12 { margin-bottom: var(--space-12); }
-  .justify-center { justify-content: center; }
-  .text-center { text-align: center; }
-  .bg-surface { background: var(--color-surface-1); }
-
-  /* Local Services Grid */
   .local-services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -231,57 +605,55 @@ const localServices = [
   }
 
   .svc-icon-wrap {
-    width: 64px;
-    height: 64px;
+    width: 52px;
+    height: 52px;
     background: rgba(6,182,212,0.1);
     color: #06B6D4;
-    border-radius: var(--radius-lg);
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
   }
 
-  /* CTA Banner */
-  .cta-banner {
-    background: linear-gradient(135deg, rgba(6,182,212,0.1), rgba(11,22,40,0.8));
-    border: 1px solid rgba(6,182,212,0.3);
-    border-radius: var(--radius-2xl);
-    padding: var(--space-10);
-  }
-
-  .cta-banner-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--space-8);
-  }
-
-  .cta-banner h2 {
+  .sop-step-number {
+    position: absolute;
+    top: 1rem;
+    right: 1.2rem;
     font-family: 'Poppins', sans-serif;
-    font-size: var(--text-2xl);
-    font-weight: 700;
-    color: #F8FAFC;
-    margin: 0 0 var(--space-2);
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: rgba(6,182,212,0.15);
+    line-height: 1;
   }
 
-  .cta-banner p {
-    font-size: var(--text-lg);
-    color: var(--color-text-secondary);
-    margin: 0;
+  .lead-text {
+    font-size: 1.05rem;
+    color: #E2E8F0;
+    line-height: 1.7;
+    font-weight: 500;
   }
 
-  @media (max-width: 900px) {
+  .prose-body {
+    font-size: 0.95rem;
+    color: #94A3B8;
+    line-height: 1.7;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(255, 255, 255, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+  }
+
+  @media (max-width: 1024px) {
+    .hero-grid { grid-template-columns: 1fr; }
     .local-services-grid { grid-template-columns: repeat(2, 1fr); }
-    .cta-banner-inner { flex-direction: column; text-align: center; }
-    .hero-grid { grid-template-columns: 1fr; gap: var(--space-8); }
-    .city-hero-content { text-align: center; }
-    .section-badge { margin: 0 auto 1rem; }
-    .hero-ctas { justify-content: center; }
   }
 
   @media (max-width: 640px) {
     .local-services-grid { grid-template-columns: 1fr; }
-    .btn-outline.ml-4 { margin-left: 0; margin-top: 1rem; }
+    .hero-meta-badges { flex-direction: column; }
+    .hero-ctas { flex-direction: column; width: 100%; }
+    .hero-ctas .hero-emergency-btn, .hero-ctas .btn-call-hero { width: 100%; justify-content: center; }
   }
 </style>

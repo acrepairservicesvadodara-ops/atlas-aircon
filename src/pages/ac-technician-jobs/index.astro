@@ -1,0 +1,101 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+---
+
+<BaseLayout
+  title="Careers & AC Technician Jobs | Atlas Aircon"
+  description="We are hiring experienced AC technicians, HVAC engineers, and PCB specialists in Vadodara and GIDC hubs. Apply today."
+>
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="wrench" size={14} strokeWidth={2} /> We Are Hiring</div>
+      <h1 class="page-title">HVAC & <span>Technician Careers</span></h1>
+      <p class="page-subtitle">Join Gujarat's highest-paid, fastest-growing HVAC engineering squad.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-4xl mx-auto">
+      <div class="flex flex-col gap-6">
+        <div class="card p-6">
+          <div class="flex justify-between items-start mb-3">
+            <div>
+              <h3 class="text-xl font-bold text-white">Lead Industrial Chiller Engineer</h3>
+              <p class="text-sm text-cyan-400">Makarpura / Savli / Dahej GIDC Squad</p>
+            </div>
+            <span class="tag tag-gold">Full Time</span>
+          </div>
+          <p class="text-slate-300 text-sm mb-4">
+            Experience in screw & reciprocating chillers, shell-and-tube descaling, and oil pump overhaul. Minimum 3 years experience.
+          </p>
+          <a href="tel:+919727257141" class="btn btn-outline btn-sm inline-flex">
+            <Icon name="phone" size={14} /> Call HR to Apply
+          </a>
+        </div>
+
+        <div class="card p-6">
+          <div class="flex justify-between items-start mb-3">
+            <div>
+              <h3 class="text-xl font-bold text-white">Senior Inverter PCB Repair Technician</h3>
+              <p class="text-sm text-cyan-400">Sayajiganj Lab, Vadodara</p>
+            </div>
+            <span class="tag tag-gold">Full Time</span>
+          </div>
+          <p class="text-slate-300 text-sm mb-4">
+            Component-level micro-soldering, IPM module diagnostics, and microcontroller testing on Daikin, Voltas, and O General boards.
+          </p>
+          <a href="tel:+919727257141" class="btn btn-outline btn-sm inline-flex">
+            <Icon name="phone" size={14} /> Call HR to Apply
+          </a>
+        </div>
+
+        <div class="card p-6">
+          <div class="flex justify-between items-start mb-3">
+            <div>
+              <h3 class="text-xl font-bold text-white">AC Service & Installation Field Mechanic</h3>
+              <p class="text-sm text-cyan-400">Vadodara Urban Squad (Alkapuri / Gotri)</p>
+            </div>
+            <span class="tag tag-gold">Full Time</span>
+          </div>
+          <p class="text-slate-300 text-sm mb-4">
+            Proficient with 120-Bar pressure jet wash, nitrogen pressure testing at 350 PSI, mathematical flaring, and vacuum-assisted gas charging.
+          </p>
+          <a href="tel:+919727257141" class="btn btn-outline btn-sm inline-flex">
+            <Icon name="phone" size={14} /> Call HR to Apply
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: var(--space-20) 0 var(--space-12);
+    overflow: hidden;
+  }
+  .header-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, rgba(6,182,212,0.1) 0%, transparent 70%), var(--color-navy);
+  }
+  .page-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+    font-weight: 800;
+    color: #F8FAFC;
+    margin: var(--space-3) 0;
+  }
+  .page-title span {
+    background: linear-gradient(135deg, #06B6D4, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .page-subtitle {
+    font-size: var(--text-base);
+    color: var(--color-text-secondary);
+  }
+</style>

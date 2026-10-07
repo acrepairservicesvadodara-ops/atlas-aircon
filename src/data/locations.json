@@ -1,45 +1,2666 @@
 [
-  {"slug": "vadodara", "name": "Vadodara", "type": "HQ & Operations"},
-  {"slug": "alkapuri-vadodara", "name": "Alkapuri", "type": "VIP Residential Zone"},
-  {"slug": "gotri-vadodara", "name": "Gotri", "type": "Urban Residential Hub"},
-  {"slug": "akota-vadodara", "name": "Akota", "type": "Urban Residential Hub"},
-  {"slug": "makarpura-gidc", "name": "Makarpura GIDC", "type": "Heavy Industrial Belt"},
-  {"slug": "por-gidc", "name": "Por GIDC", "type": "Heavy Industrial Belt"},
-  {"slug": "karelibaug-vadodara", "name": "Karelibaug", "type": "Urban Residential Hub"},
-  {"slug": "vasna-bhayli-vadodara", "name": "Vasna Bhayli", "type": "Urban Residential Hub"},
-  {"slug": "sama-savli-vadodara", "name": "Sama Savli", "type": "Urban Residential Hub"},
-  {"slug": "nandesari-gidc", "name": "Nandesari GIDC", "type": "Chemical Industrial Belt"},
-  {"slug": "ahmedabad", "name": "Ahmedabad", "type": "Service Hub"},
-  {"slug": "vastrapur-ahmedabad", "name": "Vastrapur", "type": "Service Zone"},
-  {"slug": "sg-highway-ahmedabad", "name": "SG Highway", "type": "Commercial Zone"},
-  {"slug": "surat", "name": "Surat", "type": "Service Hub"},
-  {"slug": "vesu-surat", "name": "Vesu", "type": "Service Zone"},
-  {"slug": "adajan-surat", "name": "Adajan", "type": "Service Zone"},
-  {"slug": "rajkot", "name": "Rajkot", "type": "Service Hub"},
-  {"slug": "bhavnagar", "name": "Bhavnagar", "type": "Service Hub"},
-  {"slug": "jamnagar", "name": "Jamnagar", "type": "Service Hub"},
-  {"slug": "gandhinagar", "name": "Gandhinagar", "type": "Service Hub"},
-  {"slug": "anand", "name": "Anand", "type": "Service Hub"},
-  {"slug": "v-v-nagar", "name": "V.V. Nagar", "type": "Educational Hub"},
-  {"slug": "nadiad", "name": "Nadiad", "type": "Service Zone"},
-  {"slug": "bharuch", "name": "Bharuch", "type": "Service Hub"},
-  {"slug": "dahej-gidc", "name": "Dahej GIDC", "type": "Heavy Industrial Belt"},
-  {"slug": "ankleshwar-gidc", "name": "Ankleshwar GIDC", "type": "Chemical Industrial Belt"},
-  {"slug": "morbi", "name": "Morbi", "type": "Industrial Hub"},
-  {"slug": "vapi", "name": "Vapi", "type": "Industrial Hub"},
-  {"slug": "valsad", "name": "Valsad", "type": "Service Hub"},
-  {"slug": "navsari", "name": "Navsari", "type": "Service Hub"},
-  {"slug": "daman", "name": "Daman", "type": "Service Hub"},
-  {"slug": "silvassa", "name": "Silvassa", "type": "Industrial Hub"},
-  {"slug": "godhra", "name": "Godhra", "type": "Service Hub"},
-  {"slug": "halol-gidc", "name": "Halol GIDC", "type": "Industrial Belt"},
-  {"slug": "kalol", "name": "Kalol", "type": "Service Zone"},
-  {"slug": "mehsana", "name": "Mehsana", "type": "Service Hub"},
-  {"slug": "palanpur", "name": "Palanpur", "type": "Service Zone"},
-  {"slug": "bhuj", "name": "Bhuj", "type": "Service Hub"},
-  {"slug": "gandhidham", "name": "Gandhidham", "type": "Port Industrial Zone"},
-  {"slug": "mundra", "name": "Mundra", "type": "Port Industrial Zone"},
-  {"slug": "junagadh", "name": "Junagadh", "type": "Service Hub"},
-  {"slug": "amreli", "name": "Amreli", "type": "Service Zone"},
-  {"slug": "surendranagar", "name": "Surendranagar", "type": "Service Zone"}
+  {
+    "slug": "vadodara",
+    "name": "Vadodara",
+    "type": "HQ & Operations Hub",
+    "isVadodara": true,
+    "distanceKm": 0,
+    "slaTime": "30\u201360 Minutes"
+  },
+  {
+    "slug": "alkapuri-vadodara",
+    "name": "Alkapuri",
+    "type": "VIP Residential & Commercial Hub",
+    "isVadodara": true,
+    "distanceKm": 2,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "gotri-vadodara",
+    "name": "Gotri",
+    "type": "Urban Residential & Hospital Zone",
+    "isVadodara": true,
+    "distanceKm": 5,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "akota-vadodara",
+    "name": "Akota",
+    "type": "Urban Residential & Retail Hub",
+    "isVadodara": true,
+    "distanceKm": 3,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "karelibaug-vadodara",
+    "name": "Karelibaug",
+    "type": "High-Density Residential Hub",
+    "isVadodara": true,
+    "distanceKm": 4,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "vasna-bhayli-vadodara",
+    "name": "Vasna Bhayli",
+    "type": "Luxury Residential Township",
+    "isVadodara": true,
+    "distanceKm": 7,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sama-savli-vadodara",
+    "name": "Sama Savli",
+    "type": "Residential & Highway Corridor",
+    "isVadodara": true,
+    "distanceKm": 6,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "manjalpur-vadodara",
+    "name": "Manjalpur",
+    "type": "Urban Residential & Commercial",
+    "isVadodara": true,
+    "distanceKm": 6,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "subhanpura-vadodara",
+    "name": "Subhanpura",
+    "type": "Residential & Commercial",
+    "isVadodara": true,
+    "distanceKm": 4,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "fatehgunj-vadodara",
+    "name": "Fatehgunj",
+    "type": "Commercial & University Hub",
+    "isVadodara": true,
+    "distanceKm": 2,
+    "slaTime": "30\u201345 Minutes"
+  },
+  {
+    "slug": "sayajiganj-vadodara",
+    "name": "Sayajiganj",
+    "type": "Central Business District & HQ",
+    "isVadodara": true,
+    "distanceKm": 1,
+    "slaTime": "30 Minutes"
+  },
+  {
+    "slug": "nizampura-vadodara",
+    "name": "Nizampura",
+    "type": "Urban Residential & Market Hub",
+    "isVadodara": true,
+    "distanceKm": 4,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "chhani-vadodara",
+    "name": "Chhani",
+    "type": "Residential & Industrial Border",
+    "isVadodara": true,
+    "distanceKm": 6,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "atladara-vadodara",
+    "name": "Atladara",
+    "type": "Residential & Commercial Corridor",
+    "isVadodara": true,
+    "distanceKm": 6,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "bhayli-vadodara",
+    "name": "Bhayli",
+    "type": "Premium Residential Zone",
+    "isVadodara": true,
+    "distanceKm": 8,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sevasi-vadodara",
+    "name": "Sevasi",
+    "type": "Villa & Township Corridor",
+    "isVadodara": true,
+    "distanceKm": 9,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "bill-vadodara",
+    "name": "Bill",
+    "type": "Developing Residential Zone",
+    "isVadodara": true,
+    "distanceKm": 8,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kalali-vadodara",
+    "name": "Kalali",
+    "type": "Residential & Commercial Corridor",
+    "isVadodara": true,
+    "distanceKm": 6,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "diwalipura-vadodara",
+    "name": "Diwalipura",
+    "type": "Courts & Residential Sector",
+    "isVadodara": true,
+    "distanceKm": 4,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "old-padra-road-vadodara",
+    "name": "Old Padra Road",
+    "type": "Prime Commercial Corridor",
+    "isVadodara": true,
+    "distanceKm": 3,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "harinagar-vadodara",
+    "name": "Harinagar",
+    "type": "Urban Residential Sector",
+    "isVadodara": true,
+    "distanceKm": 5,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "gorwa-vadodara",
+    "name": "Gorwa",
+    "type": "Residential & Light Industrial",
+    "isVadodara": true,
+    "distanceKm": 5,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "panchvati-vadodara",
+    "name": "Panchvati",
+    "type": "Residential & Commercial",
+    "isVadodara": true,
+    "distanceKm": 5,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "harni-vadodara",
+    "name": "Harni",
+    "type": "Airport & Residential Hub",
+    "isVadodara": true,
+    "distanceKm": 6,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "warasiya-vadodara",
+    "name": "Warasiya",
+    "type": "Urban Residential & Retail",
+    "isVadodara": true,
+    "distanceKm": 5,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "waghodia-road-vadodara",
+    "name": "Waghodia Road",
+    "type": "Major Residential Arterial",
+    "isVadodara": true,
+    "distanceKm": 6,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "ajwa-road-vadodara",
+    "name": "Ajwa Road",
+    "type": "Rapid Growth Residential Belt",
+    "isVadodara": true,
+    "distanceKm": 7,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "parivar-char-rasta",
+    "name": "Parivar Char Rasta",
+    "type": "Commercial Junction",
+    "isVadodara": true,
+    "distanceKm": 6,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "dabhoi-road-vadodara",
+    "name": "Dabhoi Road",
+    "type": "Residential & Warehouse Zone",
+    "isVadodara": true,
+    "distanceKm": 7,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "soma-talav-vadodara",
+    "name": "Soma Talav",
+    "type": "Urban Residential Hub",
+    "isVadodara": true,
+    "distanceKm": 7,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "tarsali-vadodara",
+    "name": "Tarsali",
+    "type": "Highway Residential Township",
+    "isVadodara": true,
+    "distanceKm": 8,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "vadsar-vadodara",
+    "name": "Vadsar",
+    "type": "Residential & Highway Belt",
+    "isVadodara": true,
+    "distanceKm": 7,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "maneja-vadodara",
+    "name": "Maneja",
+    "type": "Industrial & Heavy Rail Hub",
+    "isVadodara": true,
+    "distanceKm": 9,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "jambuva-vadodara",
+    "name": "Jambuva",
+    "type": "Highway Logistics & Residential",
+    "isVadodara": true,
+    "distanceKm": 11,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "pratapnagar-vadodara",
+    "name": "Pratapnagar",
+    "type": "Railway & Residential Sector",
+    "isVadodara": true,
+    "distanceKm": 4,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "mandvi-vadodara",
+    "name": "Mandvi",
+    "type": "Heritage Commercial Market",
+    "isVadodara": true,
+    "distanceKm": 3,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "panigate-vadodara",
+    "name": "Panigate",
+    "type": "High-Density Residential Hub",
+    "isVadodara": true,
+    "distanceKm": 4,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "dandia-bazar-vadodara",
+    "name": "Dandia Bazar",
+    "type": "Central Heritage District",
+    "isVadodara": true,
+    "distanceKm": 2,
+    "slaTime": "30\u201345 Minutes"
+  },
+  {
+    "slug": "chhani-jakat-naka",
+    "name": "Chhani Jakat Naka",
+    "type": "Commercial Entry Point",
+    "isVadodara": true,
+    "distanceKm": 5,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "sun-pharma-road",
+    "name": "Sun Pharma Road",
+    "type": "Prime Residential & Corporate",
+    "isVadodara": true,
+    "distanceKm": 5,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "kapurai-vadodara",
+    "name": "Kapurai",
+    "type": "Highway Junction & Residential",
+    "isVadodara": true,
+    "distanceKm": 8,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "bapod-vadodara",
+    "name": "Bapod",
+    "type": "Urban Residential Belt",
+    "isVadodara": true,
+    "distanceKm": 6,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "makarpura-gidc",
+    "name": "Makarpura GIDC",
+    "type": "Heavy Engineering & Electrical GIDC",
+    "isVadodara": true,
+    "distanceKm": 8,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "nandesari-gidc",
+    "name": "Nandesari GIDC",
+    "type": "Chemical & Pharmaceutical GIDC",
+    "isVadodara": true,
+    "distanceKm": 18,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "por-gidc",
+    "name": "Por GIDC",
+    "type": "Heavy Manufacturing & Auto GIDC",
+    "isVadodara": true,
+    "distanceKm": 16,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "ranoli-gidc",
+    "name": "Ranoli GIDC",
+    "type": "Chemical & Petrochemical Belt",
+    "isVadodara": true,
+    "distanceKm": 14,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "dashrath-industrial",
+    "name": "Dashrath",
+    "type": "Chemical & Fertilizer Belt",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "koyali-refinery",
+    "name": "Koyali Refinery Area",
+    "type": "Petrochemical Heavy Complex",
+    "isVadodara": true,
+    "distanceKm": 12,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "ramangamdi-gidc",
+    "name": "Ramangamdi GIDC",
+    "type": "Engineering & Fabrication Belt",
+    "isVadodara": true,
+    "distanceKm": 17,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "savli-gidc",
+    "name": "Savli GIDC",
+    "type": "Heavy Engineering & Metro Rail Belt",
+    "isVadodara": false,
+    "distanceKm": 32,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "manjusar-gidc",
+    "name": "Manjusar GIDC",
+    "type": "Automobile & Engineering SEZ",
+    "isVadodara": false,
+    "distanceKm": 28,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "halol-gidc",
+    "name": "Halol GIDC",
+    "type": "Automobile & Heavy Manufacturing Hub",
+    "isVadodara": false,
+    "distanceKm": 42,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "kalol-gidc",
+    "name": "Kalol GIDC",
+    "type": "Packaging & Light Industrial Zone",
+    "isVadodara": false,
+    "distanceKm": 38,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "waghodia-gidc",
+    "name": "Waghodia GIDC",
+    "type": "Automobile Ancillary & Engineering",
+    "isVadodara": false,
+    "distanceKm": 26,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "padra-gidc",
+    "name": "Padra GIDC",
+    "type": "Pharmaceutical & Specialty Chemical",
+    "isVadodara": false,
+    "distanceKm": 18,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "ekalbara-gidc",
+    "name": "Ekalbara Industrial Area",
+    "type": "Active Pharma (API) Cluster",
+    "isVadodara": false,
+    "distanceKm": 24,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "luna-industrial",
+    "name": "Luna Industrial Area",
+    "type": "Engineering & Fabrication Belt",
+    "isVadodara": false,
+    "distanceKm": 20,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "karjan-gidc",
+    "name": "Karjan GIDC",
+    "type": "Textile, Ginning & Food Processing",
+    "isVadodara": false,
+    "distanceKm": 36,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "palej-gidc",
+    "name": "Palej GIDC",
+    "type": "Chemical & Plastic Manufacturing",
+    "isVadodara": false,
+    "distanceKm": 52,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "dahej-gidc",
+    "name": "Dahej GIDC",
+    "type": "Mega Petrochemical PCPIR & Port SEZ",
+    "isVadodara": false,
+    "distanceKm": 98,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "dahej-sez",
+    "name": "Dahej SEZ-1 & SEZ-2",
+    "type": "Export Chemical Mega Complex",
+    "isVadodara": false,
+    "distanceKm": 102,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "vilayat-gidc",
+    "name": "Vilayat GIDC",
+    "type": "Chemical & Synthetic Fiber Hub",
+    "isVadodara": false,
+    "distanceKm": 82,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "saykha-gidc",
+    "name": "Saykha GIDC",
+    "type": "Specialty Chemical & Dyes SEZ",
+    "isVadodara": false,
+    "distanceKm": 90,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "ankleshwar-gidc",
+    "name": "Ankleshwar GIDC",
+    "type": "Asia's Largest Chemical & Pharma GIDC",
+    "isVadodara": false,
+    "distanceKm": 86,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "panoli-gidc",
+    "name": "Panoli GIDC",
+    "type": "Pesticide & Agrochemical GIDC",
+    "isVadodara": false,
+    "distanceKm": 94,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "jhagadia-gidc",
+    "name": "Jhagadia GIDC",
+    "type": "Heavy Glass, Chemical & Metals SEZ",
+    "isVadodara": false,
+    "distanceKm": 78,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "jambusar-gidc",
+    "name": "Jambusar GIDC",
+    "type": "Agrochemical & Bulk Drug Belt",
+    "isVadodara": false,
+    "distanceKm": 65,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "vitthal-udyognagar",
+    "name": "Vitthal Udyognagar GIDC",
+    "type": "Engineering, Valve & Pump GIDC",
+    "isVadodara": false,
+    "distanceKm": 42,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "tarapur-gidc",
+    "name": "Tarapur GIDC",
+    "type": "Textile Processing & Chemical Hub",
+    "isVadodara": false,
+    "distanceKm": 68,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "petlad-gidc",
+    "name": "Petlad GIDC",
+    "type": "Textile & Agro Industrial Estate",
+    "isVadodara": false,
+    "distanceKm": 54,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "nadiad-gidc",
+    "name": "Nadiad GIDC",
+    "type": "Engineering & Food Processing Estate",
+    "isVadodara": false,
+    "distanceKm": 58,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "godhra-gidc",
+    "name": "Godhra GIDC",
+    "type": "Mineral, Engineering & Agro Estate",
+    "isVadodara": false,
+    "distanceKm": 74,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "dabhoi-gidc",
+    "name": "Dabhoi GIDC",
+    "type": "Small-Scale Engineering & Agro Belt",
+    "isVadodara": false,
+    "distanceKm": 34,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "borsad-gidc",
+    "name": "Borsad GIDC",
+    "type": "Agro Processing & Packaging Estate",
+    "isVadodara": false,
+    "distanceKm": 48,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "ahmedabad",
+    "name": "Ahmedabad",
+    "type": "Metropolitan Commercial & Industrial Hub",
+    "isVadodara": false,
+    "distanceKm": 110,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "surat",
+    "name": "Surat",
+    "type": "Diamond, Textile & Petrochemical Hub",
+    "isVadodara": false,
+    "distanceKm": 140,
+    "slaTime": "3 Hours"
+  },
+  {
+    "slug": "anand",
+    "name": "Anand",
+    "type": "Milk Capital & Commercial Hub",
+    "isVadodara": false,
+    "distanceKm": 44,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "v-v-nagar",
+    "name": "V.V. Nagar",
+    "type": "Educational Hub & Faculty Townships",
+    "isVadodara": false,
+    "distanceKm": 46,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "nadiad",
+    "name": "Nadiad",
+    "type": "Commercial & Healthcare Center",
+    "isVadodara": false,
+    "distanceKm": 56,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "bharuch",
+    "name": "Bharuch",
+    "type": "Historic Port & Industrial Twin City",
+    "isVadodara": false,
+    "distanceKm": 76,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "ankleshwar",
+    "name": "Ankleshwar",
+    "type": "Industrial Hub & Chemical Corridor",
+    "isVadodara": false,
+    "distanceKm": 84,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "kheda",
+    "name": "Kheda",
+    "type": "District Headquarters & Agro Corridor",
+    "isVadodara": false,
+    "distanceKm": 72,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "godhra",
+    "name": "Godhra",
+    "type": "Commercial Junction & District Hub",
+    "isVadodara": false,
+    "distanceKm": 72,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "padra",
+    "name": "Padra",
+    "type": "Semi-Urban Center & Commercial Market",
+    "isVadodara": false,
+    "distanceKm": 16,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "karjan",
+    "name": "Karjan",
+    "type": "Highway Town & Commercial Mandi",
+    "isVadodara": false,
+    "distanceKm": 34,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "shinor",
+    "name": "Shinor",
+    "type": "Narmada Riverfront Heritage Town",
+    "isVadodara": false,
+    "distanceKm": 52,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "dabhoi",
+    "name": "Dabhoi",
+    "type": "Historic Gateway & Commercial Hub",
+    "isVadodara": false,
+    "distanceKm": 32,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "waghodia",
+    "name": "Waghodia",
+    "type": "University & Industrial Corridor",
+    "isVadodara": false,
+    "distanceKm": 24,
+    "slaTime": "45\u201360 Minutes"
+  },
+  {
+    "slug": "halol",
+    "name": "Halol",
+    "type": "Automobile City & Tourism Gateway",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kalol",
+    "name": "Kalol",
+    "type": "Semi-Urban Hub & Agro Mandi",
+    "isVadodara": false,
+    "distanceKm": 36,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "savli",
+    "name": "Savli",
+    "type": "Taluka Headquarters & Industrial Border",
+    "isVadodara": false,
+    "distanceKm": 30,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "jambusar",
+    "name": "Jambusar",
+    "type": "Coastal Agro & Chemical Hub",
+    "isVadodara": false,
+    "distanceKm": 62,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "khambhat",
+    "name": "Khambhat",
+    "type": "Coastal Port, Agate & Chemical Town",
+    "isVadodara": false,
+    "distanceKm": 78,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "borsad",
+    "name": "Borsad",
+    "type": "Charotar Commercial & Tobacco Market",
+    "isVadodara": false,
+    "distanceKm": 46,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "petlad",
+    "name": "Petlad",
+    "type": "Historic Textile & Commercial Town",
+    "isVadodara": false,
+    "distanceKm": 52,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "umreth",
+    "name": "Umreth",
+    "type": "Commercial & Trade Junction",
+    "isVadodara": false,
+    "distanceKm": 62,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "dakor",
+    "name": "Dakor",
+    "type": "Major Pilgrimage Center & Commercial",
+    "isVadodara": false,
+    "distanceKm": 68,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "bodeli",
+    "name": "Bodeli",
+    "type": "Tribal Commercial Mandi & Mining Belt",
+    "isVadodara": false,
+    "distanceKm": 64,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "sankheda",
+    "name": "Sankheda",
+    "type": "Artisan Craft & Commercial Center",
+    "isVadodara": false,
+    "distanceKm": 54,
+    "slaTime": "90\u2013120 Minutes"
+  },
+  {
+    "slug": "rajpipla",
+    "name": "Rajpipla",
+    "type": "Narmada District Headquarters",
+    "isVadodara": false,
+    "distanceKm": 68,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "morbi",
+    "name": "Morbi",
+    "type": "Ceramic Tile Industrial World Capital",
+    "isVadodara": false,
+    "distanceKm": 240,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "vapi",
+    "name": "Vapi",
+    "type": "South Gujarat Mega Chemical Belt",
+    "isVadodara": false,
+    "distanceKm": 220,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "valsad",
+    "name": "Valsad",
+    "type": "Coastal Commercial & Chemical Hub",
+    "isVadodara": false,
+    "distanceKm": 200,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "navsari",
+    "name": "Navsari",
+    "type": "Twin City & Diamond/Textile Belt",
+    "isVadodara": false,
+    "distanceKm": 170,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "daman",
+    "name": "Daman",
+    "type": "Union Territory Industrial & Tourism Hub",
+    "isVadodara": false,
+    "distanceKm": 235,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "silvassa",
+    "name": "Silvassa",
+    "type": "Heavy Manufacturing & Textile Hub",
+    "isVadodara": false,
+    "distanceKm": 245,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "rajkot",
+    "name": "Rajkot",
+    "type": "Saurashtra Industrial Engineering Capital",
+    "isVadodara": false,
+    "distanceKm": 230,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "bhavnagar",
+    "name": "Bhavnagar",
+    "type": "Ship Recycling & Oxygen/Steel Hub",
+    "isVadodara": false,
+    "distanceKm": 180,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "jamnagar",
+    "name": "Jamnagar",
+    "type": "Brass Parts & Petrochemical Capital",
+    "isVadodara": false,
+    "distanceKm": 310,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "gandhinagar",
+    "name": "Gandhinagar",
+    "type": "Capital City & IT/Electronic Hub",
+    "isVadodara": false,
+    "distanceKm": 135,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "mehsana",
+    "name": "Mehsana",
+    "type": "North Gujarat Dairy & Industrial Hub",
+    "isVadodara": false,
+    "distanceKm": 185,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "palanpur",
+    "name": "Palanpur",
+    "type": "Diamond & Agro Border Commercial Hub",
+    "isVadodara": false,
+    "distanceKm": 250,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "bhuj",
+    "name": "Bhuj",
+    "type": "Kutch District Center & Mineral Belt",
+    "isVadodara": false,
+    "distanceKm": 430,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "gandhidham",
+    "name": "Gandhidham",
+    "type": "Port Commerce & Timber Industrial Hub",
+    "isVadodara": false,
+    "distanceKm": 360,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "mundra",
+    "name": "Mundra",
+    "type": "Mega Port SEZ, Power & Solar Complex",
+    "isVadodara": false,
+    "distanceKm": 410,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "junagadh",
+    "name": "Junagadh",
+    "type": "Agro Processing & Tourism Capital",
+    "isVadodara": false,
+    "distanceKm": 320,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "amreli",
+    "name": "Amreli",
+    "type": "Commercial Mandi & Agro Engineering",
+    "isVadodara": false,
+    "distanceKm": 240,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "surendranagar",
+    "name": "Surendranagar",
+    "type": "Ceramics & Engineering Hub",
+    "isVadodara": false,
+    "distanceKm": 180,
+    "slaTime": "Priority Dispatch"
+  },
+  {
+    "slug": "in-vadodara-get-your-air-conditioner-installed-with-ease",
+    "name": "In Get Your Air Conditioner Installed With Ease",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "cost-vadodara",
+    "name": "Cost",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "vadodara-best-air-conditioner-repair-service-center",
+    "name": "Vadodara Best Air Conditioner Repair Service Center",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "in-vadodara-best-air-conditioner-repair-service-center",
+    "name": "In Best Air Conditioner Repair Service Center",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "panoli-gidc-ankleshwar",
+    "name": "Panoli GIDC Ankleshwar",
+    "type": "Industrial & Commercial Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "services-for-your-home",
+    "name": "Services For Your Home",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "servicing-in-daman",
+    "name": "Servicing In Daman",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "servicing-in-valsad",
+    "name": "Servicing In Valsad",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "servicing-in-vapi",
+    "name": "Servicing In Vapi",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "vadodara-charges",
+    "name": "Vadodara Charges",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "ajod",
+    "name": "Ajod",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "ajwa-road",
+    "name": "Ajwa Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "akota-garden",
+    "name": "Akota Garden",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "akota",
+    "name": "Akota",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "alamgir",
+    "name": "Alamgir",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "alindra",
+    "name": "Alindra",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "alkapuri",
+    "name": "Alkapuri",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "amaliyara",
+    "name": "Amaliyara",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "amarapura",
+    "name": "Amarapura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "amodar",
+    "name": "Amodar",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "ampad",
+    "name": "Ampad",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "anagad",
+    "name": "Anagad",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "anjesar",
+    "name": "Anjesar",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "ankhol",
+    "name": "Ankhol",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "ankodiya",
+    "name": "Ankodiya",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "asoj",
+    "name": "Asoj",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "atladara",
+    "name": "Atladara",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "bajwa",
+    "name": "Bajwa",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "bakrol",
+    "name": "Bakrol",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "baranpura",
+    "name": "Baranpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "baroda-dairy",
+    "name": "Baroda Dairy",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "bautha",
+    "name": "Bautha",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "bhadarva",
+    "name": "Bhadarva",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "bhayli-road",
+    "name": "Bhayli Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "bhayli",
+    "name": "Bhayli",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "bill",
+    "name": "Bill",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "brushellz-industrial-park",
+    "name": "Brushellz Industrial Park",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "champaner-road",
+    "name": "Champaner Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "chapad",
+    "name": "Chapad",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "chhani",
+    "name": "Chhani",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "chipad",
+    "name": "Chipad",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "dabhasha",
+    "name": "Dabhasha",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "dabhoi-road",
+    "name": "Dabhoi Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "dajipura",
+    "name": "Dajipura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "dandia-bazar",
+    "name": "Dandia Bazar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "danteshwar",
+    "name": "Danteshwar",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "darapura",
+    "name": "Darapura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "darbar-chowkdi",
+    "name": "Darbar Chowkdi",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "dashrath",
+    "name": "Dashrath",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "dattapura",
+    "name": "Dattapura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "dena",
+    "name": "Dena",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "dhaniavi",
+    "name": "Dhaniavi",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "dhanora",
+    "name": "Dhanora",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "diwalipura",
+    "name": "Diwalipura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "dodka",
+    "name": "Dodka",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "dumad",
+    "name": "Dumad",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "ekalbara",
+    "name": "Ekalbara",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "ektanagar-kevadia-colony-narmada",
+    "name": "Ektanagar Kevadia Colony Narmada",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "ellora-park",
+    "name": "Ellora Park",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "eme",
+    "name": "Eme",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "eshanya",
+    "name": "Eshanya",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "fartilizer-nagar",
+    "name": "Fartilizer Nagar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "fatehganj",
+    "name": "Fatehganj",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "fatehpura",
+    "name": "Fatehpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "fertilizer-nagar",
+    "name": "Fertilizer Nagar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "garadhi",
+    "name": "Garadhi",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "gokalpura",
+    "name": "Gokalpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "gorwa-bidc",
+    "name": "Gorwa Bidc",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "gorwa",
+    "name": "Gorwa",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "gotri",
+    "name": "Gotri",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "haripura",
+    "name": "Haripura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "harni",
+    "name": "Harni",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "hinglot",
+    "name": "Hinglot",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "itola",
+    "name": "Itola",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "jail-road",
+    "name": "Jail Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "jambuva",
+    "name": "Jambuva",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "jarod",
+    "name": "Jarod",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "jesangpura",
+    "name": "Jesangpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "jetalpur-road",
+    "name": "Jetalpur Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kalali",
+    "name": "Kalali",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kamlapura",
+    "name": "Kamlapura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kapurai-village",
+    "name": "Kapurai Village",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kapurai",
+    "name": "Kapurai",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "karachiya",
+    "name": "Karachiya",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "karakhadi-gidc",
+    "name": "Karakhadi GIDC",
+    "type": "Industrial & Commercial Service Zone",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "karali",
+    "name": "Karali",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "karchiya",
+    "name": "Karchiya",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "karelibaug",
+    "name": "Karelibaug",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "karkhadi",
+    "name": "Karkhadi",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "karodiya",
+    "name": "Karodiya",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kelanpur",
+    "name": "Kelanpur",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "khalipur",
+    "name": "Khalipur",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "khanderao-market",
+    "name": "Khanderao Market",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "khandiwada",
+    "name": "Khandiwada",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kharkhadi",
+    "name": "Kharkhadi",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "khodiyar-nagar",
+    "name": "Khodiyar Nagar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kirti-mandir",
+    "name": "Kirti Mandir",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kishanwadi",
+    "name": "Kishanwadi",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kotambi",
+    "name": "Kotambi",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "koyali",
+    "name": "Koyali",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "krishna-industrial-park",
+    "name": "Krishna Industrial Park",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "krusha-nagar",
+    "name": "Krusha Nagar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "kundhela",
+    "name": "Kundhela",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "lalbagh",
+    "name": "Lalbagh",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "lalbaug",
+    "name": "Lalbaug",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "lamdapura",
+    "name": "Lamdapura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "lasundra",
+    "name": "Lasundra",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "laxmipura",
+    "name": "Laxmipura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "limbda-apollo-tyres",
+    "name": "Limbda Apollo Tyres",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "limda",
+    "name": "Limda",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "madanzampa",
+    "name": "Madanzampa",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "madhavpura",
+    "name": "Madhavpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "mahapura",
+    "name": "Mahapura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "maharana-pratap-rd",
+    "name": "Maharana Pratap Rd",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "maharana-pratap-road",
+    "name": "Maharana Pratap Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "makarand-desai-road",
+    "name": "Makarand Desai Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "makarpura",
+    "name": "Makarpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "makrand-desai-road",
+    "name": "Makrand Desai Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "managalpara",
+    "name": "Managalpara",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "mandvi",
+    "name": "Mandvi",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "maneja",
+    "name": "Maneja",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "manisha-char-rasta",
+    "name": "Manisha Char Rasta",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "manjalpur",
+    "name": "Manjalpur",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "maretha",
+    "name": "Maretha",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "mehsana-nagar",
+    "name": "Mehsana Nagar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "moksi",
+    "name": "Moksi",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "muj-mahuda",
+    "name": "Muj Mahuda",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "nagarwada",
+    "name": "Nagarwada",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "nandesari",
+    "name": "Nandesari",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "nava-ajva",
+    "name": "Nava Ajva",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "navapura",
+    "name": "Navapura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "new-alkapuri",
+    "name": "New Alkapuri",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "new-ipcl-road",
+    "name": "New Ipcl Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "new-karelibaug",
+    "name": "New Karelibaug",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "new-sama",
+    "name": "New Sama",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "new-vip-road",
+    "name": "New Vip Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "nizampura",
+    "name": "Nizampura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "old-padra-road",
+    "name": "Old Padra Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "padmala",
+    "name": "Padmala",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "palaswada",
+    "name": "Palaswada",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "panchvati",
+    "name": "Panchvati",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "panigate",
+    "name": "Panigate",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "parda-road",
+    "name": "Parda Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "pasa-bhai-park",
+    "name": "Pasa Bhai Park",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "patarveni",
+    "name": "Patarveni",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "patod",
+    "name": "Patod",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "petrochemical-t-ship",
+    "name": "Petrochemical T Ship",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "poicha-gidc",
+    "name": "Poicha GIDC",
+    "type": "Industrial & Commercial Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "poicha",
+    "name": "Poicha",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "por-ramangamdi-gidc",
+    "name": "Por Ramangamdi GIDC",
+    "type": "Industrial & Commercial Service Zone",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "pratapgunj",
+    "name": "Pratapgunj",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "pratapnagar",
+    "name": "Pratapnagar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "productivity-road",
+    "name": "Productivity Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "punit-nagar",
+    "name": "Punit Nagar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "race-course",
+    "name": "Race Course",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "raipura",
+    "name": "Raipura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "raniya",
+    "name": "Raniya",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "ranoli",
+    "name": "Ranoli",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "raopura",
+    "name": "Raopura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sakarda",
+    "name": "Sakarda",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sama-savli-road",
+    "name": "Sama Savli Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sama",
+    "name": "Sama",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "samiyala",
+    "name": "Samiyala",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "samlaya",
+    "name": "Samlaya",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "samta",
+    "name": "Samta",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sangam-char-rasta",
+    "name": "Sangam Char Rasta",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sangma",
+    "name": "Sangma",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sankarda",
+    "name": "Sankarda",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sankheda-gidc",
+    "name": "Sankheda GIDC",
+    "type": "Industrial & Commercial Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sarabhai-campus",
+    "name": "Sarabhai Campus",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sardar-estate",
+    "name": "Sardar Estate",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "savli-manjusar-gidc",
+    "name": "Savli Manjusar GIDC",
+    "type": "Industrial & Commercial Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sayajigunj",
+    "name": "Sayajigunj",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sayajipura",
+    "name": "Sayajipura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sevasi",
+    "name": "Sevasi",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "shah-industrial-park",
+    "name": "Shah Industrial Park",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sherkhi",
+    "name": "Sherkhi",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "siddharth-nagar",
+    "name": "Siddharth Nagar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sikandarpura",
+    "name": "Sikandarpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sindhrot",
+    "name": "Sindhrot",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sisva",
+    "name": "Sisva",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sokhda",
+    "name": "Sokhda",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "soma-talav",
+    "name": "Soma Talav",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sonarkui",
+    "name": "Sonarkui",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "subhanpura",
+    "name": "Subhanpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sultanpura",
+    "name": "Sultanpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "suncity-industrial-park",
+    "name": "Suncity Industrial Park",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "suncity-manjalpur",
+    "name": "Suncity Manjalpur",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "sundarpura",
+    "name": "Sundarpura",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "sunpharma-road",
+    "name": "Sunpharma Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "suryanagar",
+    "name": "Suryanagar",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "susan-char-rasta",
+    "name": "Susan Char Rasta",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "susen-char-rasta",
+    "name": "Susen Char Rasta",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "tandalja",
+    "name": "Tandalja",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "tarsali",
+    "name": "Tarsali",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "tilakwada-dashrath",
+    "name": "Tilakwada Dashrath",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "timbi",
+    "name": "Timbi",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "tp-13",
+    "name": "Tp 13",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "tulsidham-char-rasta",
+    "name": "Tulsidham Char Rasta",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "undera",
+    "name": "Undera",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "vadiwadi",
+    "name": "Vadiwadi",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "vadsar",
+    "name": "Vadsar",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "varnama",
+    "name": "Varnama",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "varsada",
+    "name": "Varsada",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "vasant-vihar",
+    "name": "Vasant Vihar",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "vasna-bhayli-road",
+    "name": "Vasna Bhayli Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "vasna-road",
+    "name": "Vasna Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "vasna",
+    "name": "Vasna",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "vemali",
+    "name": "Vemali",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "vip-road",
+    "name": "Vip Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "virod",
+    "name": "Virod",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "vishwamitri",
+    "name": "Vishwamitri",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  },
+  {
+    "slug": "wadi",
+    "name": "Wadi",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "waghodia-road",
+    "name": "Waghodia Road",
+    "type": "Urban Residential Area",
+    "isVadodara": true,
+    "distanceKm": 10,
+    "slaTime": "60\u201390 Minutes"
+  },
+  {
+    "slug": "warasiya",
+    "name": "Warasiya",
+    "type": "Regional Service Zone",
+    "isVadodara": false,
+    "distanceKm": 40,
+    "slaTime": "2\u20133 Hours"
+  }
 ]
