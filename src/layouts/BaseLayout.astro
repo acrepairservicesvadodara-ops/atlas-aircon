@@ -70,47 +70,44 @@ const fullTitle = title.includes('Atlas Aircon') ? title : `${title} | ${siteNam
   <link rel="icon" type="image/png" href="/favicon.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="/site.webmanifest" />
+
   <!-- Sitemap -->
   <link rel="sitemap" href="/sitemap-index.xml" />
 
   <!-- Schema.org -->
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "HVACBusiness",
-      "name": "Atlas Aircon",
-      "url": "https://www.atlasaircons.com",
-      "telephone": "+91-972-725-7141",
-      "email": "atlasaircon1@gmail.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Payal Complex, 27, Opp. M.S. University, Sarod, Sayajiganj",
-        "addressLocality": "Vadodara",
-        "addressRegion": "Gujarat",
-        "postalCode": "390005",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "22.3085221",
-        "longitude": "73.1858956"
-      },
-      "openingHours": ["Mo-Su 00:00-23:59"],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "342",
-        "bestRating": "5"
-      },
-      "hasMap": "https://www.google.com/maps?cid=3979236368659212909"
-    })}
-  </script>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "HVACBusiness",
+    "@id": "https://www.atlasaircons.com/#organization",
+    "name": "Atlas Aircon",
+    "url": "https://www.atlasaircons.com/",
+    "telephone": "+91-972-725-7141",
+    "email": "atlasaircon1@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Payal Complex, 27, Opp. M.S. University, Sarod, Sayajiganj",
+      "addressLocality": "Vadodara",
+      "addressRegion": "Gujarat",
+      "postalCode": "390005",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "22.3085221",
+      "longitude": "73.1858956"
+    },
+    "openingHours": ["Mo-Su 00:00-23:59"],
+    "hasMap": "https://www.google.com/maps?cid=3979236368659212909"
+  })} />
 
   <!-- Slot for page-specific head content -->
   <slot name="head" />
 </head>
 
 <body class="bg-pattern">
+  <a href="#main-content" class="skip-link">Skip to content</a>
   <Header />
 
   <main id="main-content">
@@ -150,6 +147,25 @@ const fullTitle = title.includes('Atlas Aircon') ? title : `${title} | ${siteNam
 </html>
 
 <style is:global>
+  /* Accessibility: skip link (visible on keyboard focus) + visible focus ring */
+  .skip-link {
+    position: absolute;
+    left: 8px;
+    top: -64px;
+    z-index: 10000;
+    padding: 12px 20px;
+    background: var(--color-gold);
+    color: var(--color-navy);
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: top 0.15s ease;
+  }
+  .skip-link:focus { top: 8px; }
+  :focus-visible { outline: 3px solid var(--color-gold-light); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  }
   /* WhatsApp Float Button */
   .whatsapp-float {
     display: none;

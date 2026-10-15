@@ -1,0 +1,103 @@
+{
+  "id": 8838,
+  "date": "2025-09-24T07:51:11",
+  "date_gmt": "2025-09-24T02:21:11",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=8838"
+  },
+  "modified": "2025-09-24T08:52:23",
+  "modified_gmt": "2025-09-24T03:22:23",
+  "slug": "return-policy",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/return-policy/",
+  "title": {
+    "rendered": "return policy"
+  },
+  "content": {
+    "rendered": "\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"720\" height=\"720\" src=\"https://atlasaircons.com/wp-content/uploads/2025/09/return-policy-720x720.webp\" alt=\"return policy\" class=\"wp-image-8841\" title=\"\" srcset=\"https://www.atlasaircons.com/wp-content/uploads/2025/09/return-policy-720x720.webp 720w, https://www.atlasaircons.com/wp-content/uploads/2025/09/return-policy-300x300.webp 300w, https://www.atlasaircons.com/wp-content/uploads/2025/09/return-policy-150x150.webp 150w, https://www.atlasaircons.com/wp-content/uploads/2025/09/return-policy-768x768.webp 768w, https://www.atlasaircons.com/wp-content/uploads/2025/09/return-policy-600x600.webp 600w, https://www.atlasaircons.com/wp-content/uploads/2025/09/return-policy-100x100.webp 100w, https://www.atlasaircons.com/wp-content/uploads/2025/09/return-policy.webp 1024w\" sizes=\"auto, (max-width: 720px) 100vw, 720px\" /><figcaption></figcaption></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Return and Refund Policy</h2>\n\n\n\n<p class=\"wp-block-paragraph\">At Atlas Aircon, customer satisfaction is our top priority. Our return and refund policy is designed to offer peace of mind for both product purchases and service jobs. Please read below for details.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Return Window</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Products can be returned within <strong>7 days</strong> of delivery. For services, issues must be reported within <strong>3 days</strong> of job completion.</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Product Eligibility</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Products must be <strong>unused</strong>, in original packaging, with all tags and accessories.</li>\n\n\n\n<li>Custom or special-order items are <strong>non-returnable</strong> unless defective.</li>\n\n\n\n<li>Used products, air conditioners installed/commissioned, or items damaged due to misuse are <strong>not eligible</strong> for return.</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Service Issues</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>If there is a <strong>service-related complaint</strong> (repair not resolved, installation fault), notify us within <strong>3 days</strong>. We will schedule a revisit or resolution at no additional cost.</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">How to Initiate a Return</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Contact us at <strong>+91-9327257141</strong> or email <strong><a href=\"mailto:info@atlasaircons.com\" target=\"_blank\" rel=\"noreferrer noopener\">info@atlasaircons.com</a></strong> with your order/service details and reason for return.</li>\n\n\n\n<li>A team member will guide you through the return or revisit process and issue a <strong>Return Authorization Number</strong> if required.</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Refunds and Exchanges</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>After inspection and approval, refunds will be processed within <strong>7 business days</strong> to the original payment method.</li>\n\n\n\n<li>Exchange is possible for eligible products or, where stock permits, replacement of defective items.</li>\n\n\n\n<li>Service issues are resolved with a corrective visit or, in rare cases, a partial refund.</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Shipping</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Customers are responsible for <strong>return shipping costs</strong> unless the item was defective or there was a shipping error.</li>\n\n\n\n<li>If a return is approved, we will provide the return address.</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Exceptions</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Custom-fabricated products and parts, consumables, and final sale items are not returnable unless defective.</li>\n\n\n\n<li>For manufacturer warranties, refer to the product documentation for claims after the return window.</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Contact Us</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li>For return requests, questions, or assistance, please contact:\n<ul class=\"wp-block-list\">\n<li><strong>Phone:</strong> +91-9727257141</li>\n\n\n\n<li><strong>Email:</strong> <a href=\"mailto:info@atlasaircons.com\" target=\"_blank\" rel=\"noreferrer noopener\">info@atlasaircons.com</a>, atlasaircon1@gmail.com </li>\n</ul>\n</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Return and Refund Policy At Atlas Aircon, customer satisfaction is our top priority. Our return and refund policy is designed to offer peace of mind for both product purchases and service jobs. Please read below for details. Return Window Product Eligibility Service Issues How to Initiate a Return Refunds and Exchanges Shipping Exceptions Contact Us",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 8841,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-8838",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/8838",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=8838"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/8838/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/8841"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=8838"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Internal search, filters and cart/account pages (no SEO value)
+Disallow: /*?s=
+Disallow: /search/
+Disallow: /*?*filter_*
+Disallow: /*?*sort_*
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+
+# AI / search crawlers allowed explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+Sitemap: https://www.atlasaircons.com/sitemap-index.xml

@@ -1,0 +1,103 @@
+{
+  "id": 3813,
+  "date": "2022-01-19T18:32:09",
+  "date_gmt": "2022-01-19T13:02:09",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=3813"
+  },
+  "modified": "2026-03-05T13:55:11",
+  "modified_gmt": "2026-03-05T08:25:11",
+  "slug": "ac-technician-jobs",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/ac-technician-jobs/",
+  "title": {
+    "rendered": "Jobs"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n[\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Organization\",\n    \"@id\": \"https://atlasaircons.com/#organization\",\n    \"name\": \"Atlas Aircons\",\n    \"url\": \"https://atlasaircons.com\",\n    \"logo\": \"https://atlasaircons.com/logo.png\",\n    \"sameAs\": [\n      \"https://atlasairconacrepairservice.blogspot.com\"\n    ]\n  },\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"JobPosting\",\n    \"title\": \"AC Technician - HVAC Repair Specialist\",\n    \"description\": \"Atlas Aircons is hiring skilled AC Technicians for service centers across Gujarat. Diagnose and repair Split, Window, and Central AC units. Perform routine maintenance and inspections.\",\n    \"identifier\": {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"Atlas Aircons Job ID\",\n      \"value\": \"AC-TECH-GUJ-001\"\n    },\n    \"datePosted\": \"2025-08-19\",\n    \"validThrough\": \"2025-12-31\",\n    \"employmentType\": \"FULL_TIME\",\n    \"hiringOrganization\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Atlas Aircons\",\n      \"sameAs\": \"https://atlasaircons.com\"\n    },\n    \"jobLocation\": [\n        {\"@type\": \"Place\", \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Vadodara\", \"addressRegion\": \"Gujarat\", \"addressCountry\": \"IN\"}},\n        {\"@type\": \"Place\", \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Ahmedabad\", \"addressRegion\": \"Gujarat\", \"addressCountry\": \"IN\"}}\n    ],\n    \"baseSalary\": {\n      \"@type\": \"MonetaryAmount\",\n      \"currency\": \"INR\",\n      \"value\": {\n        \"@type\": \"QuantitativeValue\",\n        \"minValue\": 216000,\n        \"maxValue\": 420000,\n        \"unitText\": \"YEAR\"\n      }\n    },\n    \"experienceRequirements\": {\"@type\": \"OccupationalExperienceRequirements\", \"monthsOfExperience\": \"24\"}\n  },\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"JobPosting\",\n    \"title\": \"Refrigerator Technician\",\n    \"description\": \"Repair and maintenance of domestic and commercial refrigerators. Gas filling, leak detection, and compressor issues.\",\n    \"identifier\": {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"Atlas Aircons Job ID\",\n      \"value\": \"FRIDGE-TECH-GUJ-003\"\n    },\n    \"datePosted\": \"2025-08-19\",\n    \"validThrough\": \"2025-12-31\",\n    \"employmentType\": \"FULL_TIME\",\n    \"hiringOrganization\": { \"@type\": \"Organization\", \"name\": \"Atlas Aircons\" },\n    \"jobLocation\": {\"@type\": \"Place\", \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Surat\", \"addressRegion\": \"Gujarat\", \"addressCountry\": \"IN\"}},\n    \"baseSalary\": {\n      \"@type\": \"MonetaryAmount\",\n      \"currency\": \"INR\",\n      \"value\": {\n        \"@type\": \"QuantitativeValue\",\n        \"minValue\": 192000,\n        \"maxValue\": 384000,\n        \"unitText\": \"YEAR\"\n      }\n    }\n  }\n]\n</script>\n\n<style>\n    /* Safely Scoped CSS - Prevents overriding your WordPress theme */\n    .atlas-careers-wrapper {\n        --primary: #2e7d32;\n        --primary-light: #4caf50;\n        --secondary: #1b5e20;\n        --accent: #ffc107;\n        --text: #333;\n        --bg: #f4f7f6;\n        --white: #ffffff;\n        \n        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; \n        background-color: var(--bg); \n        color: var(--text); \n        line-height: 1.6;\n        padding: 20px 0;\n    }\n\n    .atlas-careers-wrapper * { box-sizing: border-box; }\n    \n    .atlas-careers-wrapper .container { max-width: 1200px; margin: 0 auto; padding: 20px; }\n    \n    .atlas-careers-wrapper header.main-header { \n        text-align: center; \n        margin-bottom: 40px; \n        background: linear-gradient(135deg, var(--primary), var(--primary-light)); \n        color: white; \n        padding: 40px 20px; \n        border-radius: 15px;\n        box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n    }\n    .atlas-careers-wrapper header.main-header h1 { margin: 0; font-size: 2.5rem; letter-spacing: 1px; color: white; }\n    .atlas-careers-wrapper header.main-header p { font-size: 1.1rem; opacity: 0.9; margin-top: 10px; color: white; }\n\n    .atlas-careers-wrapper .job-title-main { \n        font-size: 1.8rem; \n        color: var(--secondary); \n        text-align: center; \n        margin-bottom: 30px; \n        font-weight: 800;\n    }\n\n    .atlas-careers-wrapper .jobs-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 25px; }\n    \n    .atlas-careers-wrapper .job-card { \n        background: var(--white); \n        padding: 30px; \n        border-radius: 12px; \n        border-top: 6px solid var(--primary); \n        box-shadow: 0 4px 6px rgba(0,0,0,0.05); \n        transition: transform 0.3s ease;\n        display: flex;\n        flex-direction: column;\n    }\n    .atlas-careers-wrapper .job-card:hover { transform: translateY(-5px); box-shadow: 0 8px 15px rgba(0,0,0,0.1); }\n    .atlas-careers-wrapper .job-card h3 { color: var(--primary); font-size: 1.4rem; margin-top: 0; border-bottom: 1px solid #eee; padding-bottom: 10px; }\n    \n    .atlas-careers-wrapper .job-meta { margin: 15px 0; font-size: 0.95rem; }\n    .atlas-careers-wrapper .job-meta-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #f9f9f9; }\n    .atlas-careers-wrapper .job-meta-item span:first-child { font-weight: 600; color: #666; }\n\n    .atlas-careers-wrapper .categories-section { margin-top: 50px; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }\n    .atlas-careers-wrapper .category-list { \n        display: grid; \n        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); \n        gap: 15px; \n        list-style: none; \n        padding: 0; \n        margin-top: 20px;\n    }\n    .atlas-careers-wrapper .category-item { \n        background: #f8f9fa; \n        padding: 12px 15px; \n        border-radius: 8px; \n        border-left: 4px solid var(--primary-light);\n        transition: 0.2s;\n    }\n    .atlas-careers-wrapper .category-item:hover { background: #e8f5e9; transform: scale(1.02); }\n    .atlas-careers-wrapper .category-item a { text-decoration: none; color: var(--text); font-weight: 500; }\n\n    .atlas-careers-wrapper .locations-section { margin-top: 40px; }\n    .atlas-careers-wrapper .locations-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }\n    .atlas-careers-wrapper .location-group { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }\n    .atlas-careers-wrapper .location-group h4 { color: var(--primary); margin-top: 0; border-bottom: 2px solid var(--accent); display: inline-block; }\n    .atlas-careers-wrapper .location-group ul { padding-left: 18px; margin-top: 10px; }\n    .atlas-careers-wrapper .location-group li { font-size: 0.9rem; margin-bottom: 4px; color: #555; }\n\n    .atlas-careers-wrapper .perks-section { \n        background: #fff3cd; \n        padding: 30px; \n        border-radius: 12px; \n        margin: 40px 0; \n        border-left: 8px solid var(--accent);\n    }\n    .atlas-careers-wrapper .perks-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; }\n    .atlas-careers-wrapper .perk-item { display: flex; align-items: center; gap: 10px; font-weight: 600; }\n\n    .atlas-careers-wrapper .contact-section { \n        background: linear-gradient(135deg, #e8f5e9, #c8e6c9); \n        padding: 50px 20px; \n        border-radius: 15px; \n        text-align: center; \n        margin-top: 50px; \n        border: 2px solid var(--primary); \n    }\n    .atlas-careers-wrapper .btn-group { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 25px; }\n    .atlas-careers-wrapper .apply-btn { \n        background-color: var(--primary); \n        color: white !important; \n        padding: 14px 28px; \n        border: none; \n        border-radius: 8px; \n        cursor: pointer; \n        font-size: 1rem; \n        font-weight: 700;\n        text-decoration: none;\n        transition: 0.3s;\n        box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n    }\n    .atlas-careers-wrapper .apply-btn:hover { background-color: var(--secondary); transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.15); }\n    .atlas-careers-wrapper .apply-btn.alt { background-color: #fff; color: var(--primary) !important; border: 2px solid var(--primary); }\n\n    @media (max-width: 768px) {\n        .atlas-careers-wrapper header.main-header h1 { font-size: 1.8rem; }\n        .atlas-careers-wrapper .jobs-container { grid-template-columns: 1fr; }\n        .atlas-careers-wrapper .apply-btn { width: 100%; text-align: center; }\n    }\n</style>\n\n<div class=\"atlas-careers-wrapper\">\n    <div class=\"container\">\n        <header class=\"main-header\">\n            <h1>Atlas Aircons</h1>\n            <p>Gujarat&#8217;s Trusted Home Appliance Service Partner Since 1996</p>\n        </header>\n\n        <main>\n            <h2 class=\"job-title-main\">Join Our Expert Technician Team in Gujarat</h2>\n\n            <section class=\"jobs-container\">\n                <article class=\"job-card\">\n                    <h3>🔧 AC Technician Specialist</h3>\n                    <p>Seeking experts for Split, Window, and Central HVAC repair &#038; installation.</p>\n                    <div class=\"job-meta\">\n                        <div class=\"job-meta-item\"><span>Education</span><span>ITI / Diploma</span></div>\n                        <div class=\"job-meta-item\"><span>Experience</span><span>2-3 Years</span></div>\n                        <div class=\"job-meta-item\"><span>Monthly Salary</span><span>₹18,000 &#8211; ₹35,000</span></div>\n                        <div class=\"job-meta-item\"><span>Type</span><span>Full Time</span></div>\n                    </div>\n                    <div style=\"margin-top:auto\">\n                        <p><small>Key Skills: Troubleshooting, Gas Charging, Installation, PCB Repair.</small></p>\n                    </div>\n                </article>\n\n                <article class=\"job-card\">\n                    <h3>🏭 HVAC Technician (Commercial)</h3>\n                    <p>Senior roles for VRF Systems, Chillers, and AHU maintenance.</p>\n                    <div class=\"job-meta\">\n                        <div class=\"job-meta-item\"><span>Education</span><span>ITI / Diploma HVAC</span></div>\n                        <div class=\"job-meta-item\"><span>Experience</span><span>3-5 Years</span></div>\n                        <div class=\"job-meta-item\"><span>Monthly Salary</span><span>₹25,000 &#8211; ₹50,000</span></div>\n                        <div class=\"job-meta-item\"><span>Type</span><span>Full Time</span></div>\n                    </div>\n                    <div style=\"margin-top:auto\">\n                        <p><small>Key Skills: VRF, Ducting, Industrial AHU, Copper Piping.</small></p>\n                    </div>\n                </article>\n\n                <article class=\"job-card\">\n                    <h3>🧊 Refrigerator Technician</h3>\n                    <p>Experts in domestic and commercial refrigeration &#038; deep freezers.</p>\n                    <div class=\"job-meta\">\n                        <div class=\"job-meta-item\"><span>Education</span><span>ITI Refrigeration</span></div>\n                        <div class=\"job-meta-item\"><span>Experience</span><span>2+ Years</span></div>\n                        <div class=\"job-meta-item\"><span>Monthly Salary</span><span>₹16,000 &#8211; ₹32,000</span></div>\n                        <div class=\"job-meta-item\"><span>Type</span><span>Full Time</span></div>\n                    </div>\n                    <div style=\"margin-top:auto\">\n                        <p><small>Key Skills: Single/Double Door, Side-by-Side, Compressor Repair.</small></p>\n                    </div>\n                </article>\n\n                <article class=\"job-card\">\n                    <h3>🧺 Washing Machine Expert</h3>\n                    <p>Service &#038; repair of Automatic and Semi-automatic machines.</p>\n                    <div class=\"job-meta\">\n                        <div class=\"job-meta-item\"><span>Education</span><span>ITI Electronics</span></div>\n                        <div class=\"job-meta-item\"><span>Experience</span><span>1-2 Years</span></div>\n                        <div class=\"job-meta-item\"><span>Monthly Salary</span><span>₹14,000 &#8211; ₹28,000</span></div>\n                        <div class=\"job-meta-item\"><span>Type</span><span>Full Time</span></div>\n                    </div>\n                    <div style=\"margin-top:auto\">\n                        <p><small>Key Skills: Front Load, Top Load, PCB Repair, Drum Balancing.</small></p>\n                    </div>\n                </article>\n            </section>\n\n            <section class=\"perks-section\">\n                <h3 style=\"margin-top:0\">🎁 Employee Benefits &#038; Perks:</h3>\n                <div class=\"perks-grid\">\n                    <div class=\"perk-item\">✅ Competitive Salary</div>\n                    <div class=\"perk-item\">💰 Performance Bonuses</div>\n                    <div class=\"perk-item\">🏥 Health Insurance</div>\n                    <div class=\"perk-item\">🚗 Service Vehicle Provided</div>\n                    <div class=\"perk-item\">📈 Rapid Career Growth</div>\n                    <div class=\"perk-item\">🎓 Advanced Technical Training</div>\n                </div>\n            </section>\n\n            <section class=\"locations-section\">\n                <h3>📍 Job Locations Across Gujarat:</h3>\n                <div class=\"locations-grid\">\n                    <div class=\"location-group\">\n                        <h4>Vadodara</h4>\n                        <ul><li>Manjusar</li><li>Waghodia</li><li>Padra</li><li>Savli</li></ul>\n                    </div>\n                    <div class=\"location-group\">\n                        <h4>Bharuch</h4>\n                        <ul><li>Dahej</li><li>Ankleshwar</li><li>Jhagadia</li><li>Panoli</li></ul>\n                    </div>\n                    <div class=\"location-group\">\n                        <h4>Ahmedabad</h4>\n                        <ul><li>Satellite</li><li>Naroda</li><li>Bopal</li><li>Sarkhej</li></ul>\n                    </div>\n                    <div class=\"location-group\">\n                        <h4>Surat</h4>\n                        <ul><li>Sachin</li><li>Hazira</li><li>Bardoli</li><li>Kamrej</li></ul>\n                    </div>\n                    <div class=\"location-group\">\n                        <h4>Anand</h4>\n                        <ul><li>Vidyanagar</li><li>Nadiad</li><li>Halol</li><li>Khambhat</li></ul>\n                    </div>\n                </div>\n            </section>\n\n            <section class=\"categories-section\">\n                <h3>Job Categories:</h3>\n                <ul class=\"category-list\">\n                    <li class=\"category-item\"><a href=\"#\">HVAC &#038; Air Conditioning Services</a></li>\n                    <li class=\"category-item\"><a href=\"#\">Commercial Cooling Systems</a></li>\n                    <li class=\"category-item\"><a href=\"#\">Domestic Appliance Repair</a></li>\n                    <li class=\"category-item\"><a href=\"#\">Industrial Maintenance</a></li>\n                    <li class=\"category-item\"><a href=\"#\">Customer Support &#038; Sales</a></li>\n                    <li class=\"category-item\"><a href=\"#\">Technical Training &#038; Safety</a></li>\n                </ul>\n            </section>\n\n            <section class=\"contact-section\">\n                <h2>🚀 Ready to Start Your Career?</h2>\n                <p>We are conducting immediate interviews for qualified candidates.</p>\n                <div class=\"btn-group\">\n                    <a href=\"tel:+919727257141\" class=\"apply-btn\">📞 Call for Interview</a>\n                    <a href=\"https://wa.me/919727257141\" class=\"apply-btn\" style=\"background-color: #25D366;\" target=\"_blank\" rel=\"noopener\">💬 WhatsApp Resume</a>\n                    <a href=\"mailto:jobs@atlasaircons.com\" class=\"apply-btn alt\">📧 Email Application</a>\n                </div>\n                <p style=\"margin-top:30px; font-weight:700; color: var(--secondary);\">\n                    📍 Visit us: 101 Corporate House, S.G. Highway, Ahmedabad, Gujarat.\n                </p>\n            </section>\n        </main>\n    </div>\n</div>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Atlas Aircons Gujarat&#8217;s Trusted Home Appliance Service Partner Since 1996 Join Our Expert Technician Team in Gujarat 🔧 AC Technician Specialist Seeking experts for Split, Window, and Central HVAC repair &#038; installation. EducationITI / Diploma Experience2-3 Years Monthly Salary₹18,000 &#8211; ₹35,000 TypeFull Time Key Skills: Troubleshooting, Gas Charging, Installation, PCB Repair. 🏭 HVAC Technician (Commercial) [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 3754,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-3813",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/3813",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=3813"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/3813/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/3754"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=3813"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

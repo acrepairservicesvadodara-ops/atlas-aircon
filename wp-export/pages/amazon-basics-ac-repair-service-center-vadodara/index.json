@@ -1,0 +1,103 @@
+{
+  "id": 7462,
+  "date": "2025-07-06T11:11:31",
+  "date_gmt": "2025-07-06T05:41:31",
+  "guid": {
+    "rendered": "https://atlasaircons.com/amazon-basics-ac-repair-service-center-vadodara/"
+  },
+  "modified": "2026-03-05T15:41:25",
+  "modified_gmt": "2026-03-05T10:11:25",
+  "slug": "amazon-basics-ac-repair-service-center-vadodara",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/amazon-basics-ac-repair-service-center-vadodara/",
+  "title": {
+    "rendered": "amazon basics AC Repair Service Center Vadodara"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Service\",\n      \"name\": \"Amazon Basics AC Repair Service Vadodara\",\n      \"provider\": {\n        \"@type\": \"LocalBusiness\",\n        \"name\": \"Atlas Aircon\",\n        \"image\": \"https://atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2.webp\",\n        \"telephone\": \"+91-9727257141\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"streetAddress\": \"Sayajigunj\",\n          \"addressLocality\": \"Vadodara\",\n          \"postalCode\": \"390005\",\n          \"addressCountry\": \"IN\"\n        }\n      },\n      \"areaServed\": { \"@type\": \"City\", \"name\": \"Vadodara\" },\n      \"description\": \"Specialized repair and maintenance for Amazon Basics Air Conditioners in Vadodara. 24/7 technical support and genuine parts.\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why is my Amazon Basics AC not cooling properly?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Common causes for Amazon Basics AC cooling issues include clogged filters, low refrigerant levels, or sensor errors like E1. Our technicians provide a deep power jet service to restore cooling instantly.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What are the Amazon Basics AC installation charges in Vadodara?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Standard Split AC installation starts at ₹1500, and Window AC installation starts at ₹700. Final quotes are provided after site inspection.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n</script>\n\n<style>\n    .amazon-basics-v2 { font-family: 'Inter', sans-serif; color: #333; }\n    .amazon-basics-v2 .hero-grad {\n        background: linear-gradient(135deg, #ffffff 0%, rgba(253, 184, 19, 0.1) 50%, rgba(212, 175, 55, 0.2) 100%);\n    }\n    .amazon-basics-v2 .btn-gold {\n        background-color: #D4AF37 !important;\n        color: white !important;\n        transition: 0.3s;\n        box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);\n    }\n    .amazon-basics-v2 .btn-gold:hover { background-color: #FDB813 !important; transform: translateY(-2px); }\n    .amazon-basics-v2 .btn-dark {\n        background-color: #36454F !important;\n        color: white !important;\n        transition: 0.3s;\n    }\n    .amazon-basics-v2 .gold-text { color: #D4AF37; }\n    .amazon-basics-v2 .faq-v2-ans {\n        max-height: 0;\n        overflow: hidden;\n        transition: max-height 0.5s ease;\n    }\n    .amazon-basics-v2 details[open] .faq-v2-ans { max-height: 500px; }\n    .amazon-basics-v2 summary { list-style: none; cursor: pointer; outline: none; }\n    .amazon-basics-v2 summary::-webkit-details-marker { display: none; }\n    \n    #ab-popup-overlay {\n        position: fixed; top: 0; left: 0; width: 100%; height: 100%;\n        background: rgba(0,0,0,0.6); z-index: 100000; display: none;\n        align-items: center; justify-content: center;\n    }\n    #ab-popup-overlay.active { display: flex; }\n</style>\n\n<div class=\"amazon-basics-v2 bg-gray-50 leading-relaxed\">\n\n    <section class=\"hero-grad py-16 md:py-24 px-6\">\n        <div class=\"max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center\">\n            <div class=\"text-center md:text-left\">\n                <h1 class=\"text-4xl md:text-6xl font-extrabold text-gray-800 leading-tight mb-6\">\n                    Technical <span class=\"gold-text\">Amazon Basics AC</span> Repair in Vadodara\n                </h1>\n                <p class=\"text-lg text-gray-600 mb-8\">\n                    Is your Amazon Basics AC showing <strong>E1, E6, or E5 errors</strong>? Don&#8217;t let a minor circuit glitch turn into a major compressor failure. We provide 24/7 technical support and deep-jet cleaning across Vadodara.\n                </p>\n                <div class=\"flex flex-col sm:flex-row gap-4 justify-center md:justify-start\">\n                    <a href=\"tel:+919727257141\" class=\"btn-gold px-8 py-4 rounded-full font-bold text-lg text-center\">\n                        <i class=\"fas fa-bolt mr-2\"></i> Book Repair Now\n                    </a>\n                    <a href=\"https://wa.me/919727257141\" class=\"btn-dark px-8 py-4 rounded-full font-bold text-lg text-center\" target=\"_blank\" rel=\"noopener\">\n                        <i class=\"fab fa-whatsapp mr-2\"></i> WhatsApp Support\n                    </a>\n                </div>\n            </div>\n            <div class=\"relative\">\n                <img decoding=\"async\" class=\"rounded-3xl shadow-2xl w-full border-4 border-white\" src=\"https://atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2.webp\" alt=\"Amazon Basics AC Repair Service Center\" title=\"\">\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-white px-6\">\n        <div class=\"max-w-4xl mx-auto text-center\">\n            <h2 class=\"text-3xl md:text-4xl font-bold text-gray-800 mb-8\">Specialized Knowledge for Modern Inverters</h2>\n            <p class=\"text-gray-600 text-lg mb-6\">\n                Amazon Basics ACs are efficient, but their <strong>Inverter PCBs</strong> are highly sensitive to Vadodara&#8217;s voltage fluctuations and the heavy dust near GIDC areas. Standard mechanics often misdiagnose board issues as gas leakage.\n            </p>\n            <p class=\"text-gray-600 text-lg\">\n                At <strong>Atlas Aircon</strong>, we use specialized diagnostic tools to check sensor resistance and circuit health first. This ensures you only pay for the actual repair—no unnecessary gas refills or parts replacements.\n            </p>\n        </div>\n    </section>\n\n    <section class=\"py-16 px-6 bg-gray-50\">\n        <div class=\"max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8\">\n            <div class=\"bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-yellow-500 transition-all\">\n                <div class=\"text-4xl mb-4 gold-text\"><i class=\"fas fa-microchip\"></i></div>\n                <h3 class=\"text-xl font-bold mb-2\">PCB Board Recovery</h3>\n                <p class=\"text-gray-500 text-sm\">Component-level repair for Amazon Basics inverter boards to save you from expensive full replacements.</p>\n            </div>\n            <div class=\"bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-yellow-500 transition-all\">\n                <div class=\"text-4xl mb-4 gold-text\"><i class=\"fas fa-gas-pump\"></i></div>\n                <h3 class=\"text-xl font-bold mb-2\">Genuine Gas Charging</h3>\n                <p class=\"text-gray-500 text-sm\">Vacuumized charging of R32 or R410A refrigerant for maximum cooling performance.</p>\n            </div>\n            <div class=\"bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-yellow-500 transition-all\">\n                <div class=\"text-4xl mb-4 gold-text\"><i class=\"fas fa-shower\"></i></div>\n                <h3 class=\"text-xl font-bold mb-2\">Power Jet Cleaning</h3>\n                <p class=\"text-gray-500 text-sm\">High-pressure foam wash to clear choked coils that cause the common &#8216;CF&#8217; error code.</p>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-white px-6\">\n        <div class=\"max-w-4xl mx-auto\">\n            <h2 class=\"text-3xl font-bold text-center mb-10\">Standard Service Tariff</h2>\n            <div class=\"bg-gray-50 rounded-2xl overflow-hidden shadow-lg border border-gray-200\">\n                <div class=\"p-6 border-b flex justify-between font-bold text-gray-700\">\n                    <span>Split AC Installation</span> <span class=\"gold-text\">₹1500+</span>\n                </div>\n                <div class=\"p-6 border-b flex justify-between font-bold text-gray-700\">\n                    <span>Inverter PCB Repair</span> <span class=\"gold-text\">₹2500+</span>\n                </div>\n                <div class=\"p-6 border-b flex justify-between font-bold text-gray-700\">\n                    <span>Jet Cleaning (Deep)</span> <span class=\"gold-text\">₹599</span>\n                </div>\n                <div class=\"p-6 flex justify-between font-bold text-gray-700\">\n                    <span>Gas Leak Find &#038; Fix</span> <span class=\"gold-text\">₹2500+</span>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 px-6 bg-gray-50\">\n        <div class=\"max-w-4xl mx-auto\">\n            <h2 class=\"text-3xl font-bold text-center mb-12\">Amazon Basics AC Help</h2>\n            <div class=\"space-y-4\">\n                <details class=\"bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm\">\n                    <summary class=\"p-6 font-bold flex justify-between items-center\">\n                        Why is my AC showing &#8216;E1&#8242; or &#8217;21&#8217; error?\n                        <i class=\"fas fa-chevron-down gold-text transition-transform\"></i>\n                    </summary>\n                    <div class=\"faq-v2-ans px-6 text-gray-600\">\n                        This usually indicates a Room Temperature Sensor error. Our mechanics can replace the faulty sensor on-site to restore cooling immediately.\n                    </div>\n                </details>\n                <details class=\"bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm\">\n                    <summary class=\"p-6 font-bold flex justify-between items-center\">\n                        Are you an official Amazon Basics service center?\n                        <i class=\"fas fa-chevron-down gold-text transition-transform\"></i>\n                    </summary>\n                    <div class=\"faq-v2-ans px-6 text-gray-600\">\n                        We are an <strong>independent specialized center</strong>. This allows us to provide faster same-day service and component-level board repairs that official centers often skip.\n                    </div>\n                </details>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-12 bg-yellow-50 px-6 border-t border-yellow-200\">\n        <div class=\"max-w-4xl mx-auto text-center text-sm text-gray-600\">\n            <strong>Disclaimer:</strong> Atlas Aircon is an independent repair service. We are not affiliated with, authorized by, or endorsed by Amazon. All trademarks belong to their respective owners.\n        </div>\n    </section>\n\n</div>\n\n<div id=\"ab-popup-overlay\">\n    <div class=\"bg-white p-8 rounded-2xl shadow-2xl relative max-w-sm w-full mx-6\">\n        <button id=\"ab-popup-close\" class=\"absolute top-4 right-4 text-2xl text-gray-400\">&times;</button>\n        <div class=\"text-center\">\n            <h3 class=\"text-2xl font-bold mb-2\">Need a <span class=\"gold-text\">Fast Quote?</span></h3>\n            <p class=\"text-gray-500 text-sm mb-6\">Don&#8217;t wait in the heat. Message our engineers directly.</p>\n            <a href=\"https://wa.me/919727257141\" class=\"bg-green-500 text-white font-bold py-3 px-6 rounded-xl block w-full shadow-lg hover:bg-green-600 transition mb-4\" target=\"_blank\" rel=\"noopener\">\n                WhatsApp Quote\n            </a>\n            <a href=\"tel:+919727257141\" class=\"text-blue-600 font-bold hover:underline\">Or Call Now</a>\n        </div>\n    </div>\n</div>\n\n<div id=\"ab-min-btn\" class=\"fixed bottom-6 right-6 w-14 h-14 bg-yellow-600 text-white rounded-full flex items-center justify-center shadow-2xl cursor-pointer z-[10000]\">\n    <i class=\"fas fa-comment-dots text-2xl\"></i>\n</div>\n\n<script>\n    // FAQ Toggle\n    document.querySelectorAll('.amazon-basics-v2 details').forEach((el) => {\n        el.addEventListener('toggle', function() {\n            const content = this.querySelector('.faq-v2-ans');\n            if (this.open) {\n                content.style.maxHeight = content.scrollHeight + \"px\";\n            } else {\n                content.style.maxHeight = \"0px\";\n            }\n        });\n    });\n\n    // Popup Logic\n    const overlay = document.getElementById('ab-popup-overlay');\n    const minBtn = document.getElementById('ab-min-btn');\n    const closeBtn = document.getElementById('ab-popup-close');\n\n    const openPopup = () => { overlay.classList.add('active'); minBtn.style.display = 'none'; };\n    const closePopup = () => { overlay.classList.remove('active'); minBtn.style.display = 'flex'; };\n\n    minBtn.addEventListener('click', openPopup);\n    closeBtn.addEventListener('click', closePopup);\n\n    // Auto-show popup after 60s\n    setTimeout(() => { if(!sessionStorage.getItem('ab-p')) { openPopup(); sessionStorage.setItem('ab-p', '1'); } }, 60000);\n</script>\n\n\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Technical Amazon Basics AC Repair in Vadodara Is your Amazon Basics AC showing E1, E6, or E5 errors? Don&#8217;t let a minor circuit glitch turn into a major compressor failure. We provide 24/7 technical support and deep-jet cleaning across Vadodara. Book Repair Now WhatsApp Support Specialized Knowledge for Modern Inverters Amazon Basics ACs are efficient, [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 7256,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-7462",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/7462",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=7462"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/7462/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/7256"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=7462"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

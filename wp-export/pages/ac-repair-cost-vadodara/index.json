@@ -1,0 +1,103 @@
+{
+  "id": 3278,
+  "date": "2019-03-15T15:54:37",
+  "date_gmt": "2019-03-15T10:24:37",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=3278"
+  },
+  "modified": "2026-03-05T13:39:00",
+  "modified_gmt": "2026-03-05T08:09:00",
+  "slug": "ac-repair-cost-vadodara",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/ac-repair-cost-vadodara/",
+  "title": {
+    "rendered": "Price List"
+  },
+  "content": {
+    "rendered": "\n<p class=\"wp-block-paragraph\"><!-- Pricing Section --></p>\n\n\n\n<section id=\"pricing\" class=\"py-12\">\n<div class=\"container mx-auto px-4\"><!-- Tab Buttons -->\n<div class=\"flex flex-wrap justify-center gap-2 mb-8\"><button id=\"btn-non-inverter\" class=\"tab-button tab-active border-2 border-slate-200 px-4 py-2 rounded-full text-sm font-semibold transition-all\">Non-Inverter AC</button> <button id=\"btn-inverter\" class=\"tab-button border-2 border-slate-200 px-4 py-2 rounded-full text-sm font-semibold transition-all bg-white\">Inverter AC</button> <button id=\"btn-hvac\" class=\"tab-button border-2 border-slate-200 px-4 py-2 rounded-full text-sm font-semibold transition-all bg-white\">HVAC / Ductable</button> <button id=\"btn-fridge\" class=\"tab-button border-2 border-slate-200 px-4 py-2 rounded-full text-sm font-semibold transition-all bg-white\">Refrigerator</button> <button id=\"btn-cooler\" class=\"tab-button border-2 border-slate-200 px-4 py-2 rounded-full text-sm font-semibold transition-all bg-white\">Air Cooler</button></div>\n<div class=\"max-w-5xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200\">\n<div class=\"bg-slate-800 text-white px-6 py-4 flex justify-between items-center\"><span class=\"text-xs font-bold uppercase tracking-widest\">Service Description</span> <span class=\"text-xs font-bold uppercase tracking-widest text-right\">Rate (INR)</span></div>\n<p><!-- NON-INVERTER TABLE --></p>\n<div id=\"tab-non-inverter\" class=\"tab-content\">\n<div class=\"table-container\">\n<table class=\"w-full text-sm\">\n<tbody class=\"divide-y divide-slate-200\">\n<tr class=\"bg-blue-600 text-white font-bold\">\n<td class=\"px-6 py-2\" colspan=\"2\">CORE SERVICES &amp; GAS</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Split AC Jet Pump Service</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 350</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Installation of Air-conditioner</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 1,400</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Dismantling of Air Conditioners</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 550</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Dismantle Service &amp; Water Service</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 1,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Gas Charging 1.0 Ton (R22/M22)</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 1,800</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Gas Charging 1.5 Ton (R22/M22)</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 2,000</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Gas Charging 2.0 Ton (R22/M22)</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 2,400</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Gas Charging 2.5 Ton (R22/M22)</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 3,180</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Gas Charging 3.0 Ton (R22/M22)</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 3,850</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Pressure Testing &amp; Vaccumizing</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 495</td>\n</tr>\n<tr class=\"bg-blue-50 font-bold\">\n<td class=\"px-6 py-2 text-blue-700 italic underline\" colspan=\"2\">RUNNING CAPACITORS</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">2.5 Mfd Capacitor</td>\n<td class=\"px-6 py-3 text-right\">₹ 180</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">3.0 Mfd Capacitor</td>\n<td class=\"px-6 py-3 text-right\">₹ 250</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">4.0 Mfd Capacitor</td>\n<td class=\"px-6 py-3 text-right\">₹ 385</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">6.0 Mfd Capacitor</td>\n<td class=\"px-6 py-3 text-right\">₹ 430</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">36 Mfd Capacitor</td>\n<td class=\"px-6 py-3 text-right\">₹ 480</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">45 Mfd Capacitor</td>\n<td class=\"px-6 py-3 text-right\">₹ 550</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">60 Mfd Capacitor</td>\n<td class=\"px-6 py-3 text-right\">₹ 690</td>\n</tr>\n<tr class=\"bg-blue-50 font-bold\">\n<td class=\"px-6 py-2 text-blue-700 italic underline\" colspan=\"2\">STARTING CAPACITORS</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">60-80 Mfd</td>\n<td class=\"px-6 py-3 text-right\">₹ 480</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">80-100 Mfd</td>\n<td class=\"px-6 py-3 text-right\">₹ 550</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">100-120 Mfd</td>\n<td class=\"px-6 py-3 text-right\">₹ 620</td>\n</tr>\n<tr class=\"bg-blue-50 font-bold\">\n<td class=\"px-6 py-2 text-blue-700 italic underline\" colspan=\"2\">COMPRESSORS &amp; MECHANICAL</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor Replacement Labor (up to 2 Ton)</td>\n<td class=\"px-6 py-3 text-right\">₹ 495</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 1.0 Ton &amp; Below</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 5,950</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 1.5 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 6,980</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 2.0 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 7,950</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 2.5 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 17,950</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 3.0 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 20,900</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Fan Motor Repairing (Outdoor)</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,900</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Indoor Motor Repairing</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,850</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Fan Blade for ODU</td>\n<td class=\"px-6 py-3 text-right\">₹ 2,050</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Blower Indoor</td>\n<td class=\"px-6 py-3 text-right\">₹ 2,150</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Condensing Coil 1.0 Ton / 1.5 Ton / 2.0 Ton</td>\n<td class=\"px-6 py-3 text-right\">₹ 4,500 &#8211; 5,800</td>\n</tr>\n<tr class=\"bg-blue-50 font-bold\">\n<td class=\"px-6 py-2 text-blue-700 italic underline\" colspan=\"2\">ELECTRONICS &amp; PIPING</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Circuit PCB Repairing (Split AC)</td>\n<td class=\"px-6 py-3 text-right\">₹ 2,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Display PCB Repair / New</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,550 / 2,800</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Universal Remote Handset</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,450</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">AC Wiring</td>\n<td class=\"px-6 py-3 text-right\">₹ 350</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Copper Pipe with Insulation (per ft)</td>\n<td class=\"px-6 py-3 text-right\">₹ 300</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Insulated Drain Pipe (per ft)</td>\n<td class=\"px-6 py-3 text-right\">₹ 80</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<p><!-- INVERTER TABLE --></p>\n<div id=\"tab-inverter\" class=\"tab-content hidden\">\n<div class=\"table-container\">\n<table class=\"w-full text-sm\">\n<tbody class=\"divide-y divide-slate-200\">\n<tr class=\"bg-blue-600 text-white font-bold\">\n<td class=\"px-6 py-2\" colspan=\"2\">GAS CHARGING (R404, R410, R32, R407)</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">1.0 Ton &amp; Below</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 3,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">1.5 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 4,000</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">2.0 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 4,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">2.5 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 5,000</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">3.0 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 5,500</td>\n</tr>\n<tr class=\"bg-blue-50 font-bold\">\n<td class=\"px-6 py-2 text-blue-700 italic underline\" colspan=\"2\">INVERTER COMPRESSORS</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 1.0 Ton &amp; Below</td>\n<td class=\"px-6 py-3 text-right\">₹ 10,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 1.5 Ton</td>\n<td class=\"px-6 py-3 text-right\">₹ 13,250</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 2.0 Ton</td>\n<td class=\"px-6 py-3 text-right\">₹ 15,600</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 2.5 Ton</td>\n<td class=\"px-6 py-3 text-right\">₹ 20,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 3.0 Ton</td>\n<td class=\"px-6 py-3 text-right\">₹ 25,000</td>\n</tr>\n<tr class=\"bg-blue-50 font-bold\">\n<td class=\"px-6 py-2 text-blue-700 italic underline\" colspan=\"2\">PARTS &amp; ELECTRONICS</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Circuit PCB Repairing</td>\n<td class=\"px-6 py-3 text-right\">₹ 7,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Display PCB Repair / New</td>\n<td class=\"px-6 py-3 text-right\">₹ 7,500 / 14,250</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Fan Blade for ODU</td>\n<td class=\"px-6 py-3 text-right\">₹ 3,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Indoor Blower</td>\n<td class=\"px-6 py-3 text-right\">₹ 3,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Auto Lower Motor</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,320</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<p><!-- HVAC / DUCTABLE TABLE --></p>\n<div id=\"tab-hvac\" class=\"tab-content hidden\">\n<div class=\"table-container\">\n<table class=\"w-full text-sm\">\n<tbody class=\"divide-y divide-slate-200\">\n<tr class=\"bg-slate-700 text-white font-bold\">\n<td class=\"px-6 py-2\" colspan=\"2\">HEAVY DUTY GAS CHARGING</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Up to 2.0 Ton</td>\n<td class=\"px-6 py-3 text-right\">₹ 3,000</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">5.5 Ton</td>\n<td class=\"px-6 py-3 text-right\">₹ 7,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">7.5 Ton</td>\n<td class=\"px-6 py-3 text-right\">₹ 8,600</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">8.5 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 10,000</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">11.0 Ton</td>\n<td class=\"px-6 py-3 text-right font-bold\">₹ 13,500</td>\n</tr>\n<tr class=\"bg-slate-50 font-bold\">\n<td class=\"px-6 py-2 text-slate-800 italic underline\" colspan=\"2\">INDUSTRIAL COMPONENTS</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor 5.5 Ton Replacement</td>\n<td class=\"px-6 py-3 text-right\">₹ 34,950</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor Replacement Labor (Heavy)</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,100</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Sub Zero Temperature Controller</td>\n<td class=\"px-6 py-3 text-right\">₹ 4,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Magnetic Contactor 3 Phase</td>\n<td class=\"px-6 py-3 text-right\">₹ 3,200</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Dryer Filter (3/8 to 5/8)</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,890 &#8211; 3,200</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">AHU / Duct Cleaning</td>\n<td class=\"px-6 py-3 text-right\">As per Quote</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<p><!-- REFRIGERATOR TABLE --></p>\n<div id=\"tab-fridge\" class=\"tab-content hidden\">\n<div class=\"table-container\">\n<table class=\"w-full text-sm\">\n<tbody class=\"divide-y divide-slate-200\">\n<tr class=\"bg-blue-600 text-white font-bold\">\n<td class=\"px-6 py-2\" colspan=\"2\">FRIDGE GAS &amp; COMPRESSOR</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Single Door Gas Charging</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,200</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Double Door Gas Charging</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,800</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor Single Door (up to 190L)</td>\n<td class=\"px-6 py-3 text-right\">₹ 4,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Compressor Double Door (up to 260L)</td>\n<td class=\"px-6 py-3 text-right\">₹ 6,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Thermostat / Relay replacement</td>\n<td class=\"px-6 py-3 text-right\">₹ 715 &#8211; 825</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<p><!-- AIR COOLER TABLE --></p>\n<div id=\"tab-cooler\" class=\"tab-content hidden\">\n<div class=\"table-container\">\n<table class=\"w-full text-sm\">\n<tbody class=\"divide-y divide-slate-200\">\n<tr class=\"bg-blue-600 text-white font-bold\">\n<td class=\"px-6 py-2\" colspan=\"2\">COOLER REPAIR PRICE</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Grass Filter Replacement</td>\n<td class=\"px-6 py-3 text-right\">₹ 950</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Honeycomb Filter Replacement</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">PCB Repair / New</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,500 / 2,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Motor Repair / New</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,500 / 2,750</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Water Pump (Small / Big)</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,000 / 1,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Fan Blade</td>\n<td class=\"px-6 py-3 text-right\">₹ 1,500</td>\n</tr>\n<tr>\n<td class=\"px-6 py-3\">Cooler Wiring</td>\n<td class=\"px-6 py-3 text-right\">₹ 500</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n<p><!-- Call to Action Card --></p>\n<div class=\"max-w-5xl mx-auto mt-12 bg-blue-600 rounded-2xl p-8 text-white text-center shadow-2xl\">\n<h3 class=\"text-2xl font-bold mb-4\">Ready to Book Your Service?</h3>\n<p class=\"mb-6 opacity-90\">Same-day service available across Vadodara. Call our expert technicians now.</p>\n<div class=\"flex flex-col md:flex-row justify-center gap-4\"><a class=\"bg-white text-blue-700 px-8 py-3 rounded-full font-bold text-lg hover:scale-105 transition-transform\" href=\"tel:+919727257141\">+91-9727257141</a>\n<div class=\"flex items-center justify-center gap-2\"><span class=\"text-sm\">Available Today</span></div>\n</div>\n</div>\n</div>\n</section>\n\n\n\n<p class=\"wp-block-paragraph\"><script><br />\n        function switchTab(tabId) {<br />\n            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.add('hidden'));<br />\n            document.getElementById('tab-' + tabId).classList.remove('hidden');<br />\n            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('tab-active'));<br />\n            document.getElementById('btn-' + tabId).classList.add('tab-active');<br />\n        }<br />\n    </script></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Non-Inverter AC Inverter AC HVAC / Ductable Refrigerator Air Cooler Service Description Rate (INR) CORE SERVICES &amp; GAS Split AC Jet Pump Service ₹ 350 Installation of Air-conditioner ₹ 1,400 Dismantling of Air Conditioners ₹ 550 Dismantle Service &amp; Water Service ₹ 1,500 Gas Charging 1.0 Ton (R22/M22) ₹ 1,800 Gas Charging 1.5 Ton (R22/M22) [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 4396,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-3278",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/3278",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=3278"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/3278/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/4396"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=3278"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

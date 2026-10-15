@@ -1,0 +1,103 @@
+{
+  "id": 9438,
+  "date": "2026-01-27T10:42:55",
+  "date_gmt": "2026-01-27T05:12:55",
+  "guid": {
+    "rendered": "https://atlasaircons.com/hitachi-ac-service-center-kheda/"
+  },
+  "modified": "2026-01-27T10:42:55",
+  "modified_gmt": "2026-01-27T05:12:55",
+  "slug": "hitachi-ac-service-center-kheda",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/hitachi-ac-service-center-kheda/",
+  "title": {
+    "rendered": "hitachi ac service center kheda"
+  },
+  "content": {
+    "rendered": "<div class=\"atlas-purified-matrix\"><style>\n        :root {\n            --blue: #004aad;\n            --green: #28a745;\n            --yellow: #ffc107;\n            --black: #212529;\n            --white: #ffffff;\n            --light-gray: #f8f9fa;\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            scroll-behavior: smooth;\n        }\n\n        body {\n            background-color: var(--white);\n            color: var(--black);\n            line-height: 1.6;\n        }\n\n        /* Warning Banner */\n        .warning-banner {\n            background-color: #ff0000;\n            color: #ffffff;\n            text-align: center;\n            padding: 12px;\n            font-weight: bold;\n            font-size: 14px;\n            text-transform: uppercase;\n            letter-spacing: 1px;\n        }\n\n        /* Header & Navigation */\n        header {\n            background: var(--white);\n            box-shadow: 0 2px 10px rgba(0,0,0,0.1);\n            position: sticky;\n            top: 0;\n            z-index: 1000;\n        }\n\n        nav {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            padding: 15px 5%;\n            max-width: 1400px;\n            margin: 0 auto;\n        }\n\n        .logo img {\n            height: 60px;\n        }\n\n        .nav-links {\n            display: flex;\n            list-style: none;\n            gap: 20px;\n        }\n\n        .nav-links li a {\n            text-decoration: none;\n            color: var(--black);\n            font-weight: 600;\n            font-size: 14px;\n            transition: color 0.3s;\n        }\n\n        .nav-links li a:hover {\n            color: var(--blue);\n        }\n\n        /* Hero Banner */\n        .hero {\n            background: linear-gradient(rgba(0, 74, 173, 0.85), rgba(0, 74, 173, 0.85)), url('https://atlasaircons.com/wp-content/uploads/2025/07/ac-repair-in-vadodara.webp');\n            background-size: cover;\n            background-position: center;\n            height: 75vh;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            text-align: center;\n            color: var(--white);\n            padding: 0 20px;\n        }\n\n        .hero h1 {\n            font-size: 3.5rem;\n            margin-bottom: 20px;\n            color: var(--yellow);\n        }\n\n        .btn-whatsapp {\n            background-color: var(--green);\n            color: var(--white);\n            padding: 15px 35px;\n            border-radius: 50px;\n            text-decoration: none;\n            font-weight: bold;\n            display: flex;\n            align-items: center;\n            gap: 10px;\n            font-size: 1.1rem;\n            transition: transform 0.3s;\n            margin-top: 20px;\n        }\n\n        .btn-whatsapp:hover {\n            transform: scale(1.05);\n        }\n\n        /* Content Sections */\n        section {\n            padding: 80px 5%;\n            max-width: 1400px;\n            margin: 0 auto;\n        }\n\n        h2 {\n            font-size: 2.5rem;\n            margin-bottom: 30px;\n            color: var(--blue);\n            text-align: center;\n            border-bottom: 4px solid var(--yellow);\n            display: inline-block;\n            padding-bottom: 10px;\n        }\n\n        .disclaimer-box {\n            background: #fff3cd;\n            border-left: 8px solid var(--yellow);\n            padding: 30px;\n            margin: 20px 0;\n            border-radius: 5px;\n        }\n\n        .grid-3 {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 30px;\n        }\n\n        .card {\n            background: var(--light-gray);\n            padding: 30px;\n            border-radius: 12px;\n            border-top: 5px solid var(--blue);\n            transition: 0.4s;\n            box-shadow: 0 4px 6px rgba(0,0,0,0.05);\n        }\n\n        .card:hover {\n            transform: translateY(-10px);\n            box-shadow: 0 10px 20px rgba(0,0,0,0.1);\n        }\n\n        /* Pros/Cons */\n        .pros-cons-container {\n            display: grid;\n            grid-template-columns: 1fr 1fr;\n            gap: 40px;\n        }\n\n        .pros-list { background: #e8f5e9; padding: 30px; border-radius: 15px; border: 1px solid #c8e6c9; }\n        .cons-list { background: #ffebee; padding: 30px; border-radius: 15px; border: 1px solid #ffcdd2; }\n\n        .list-style-none { list-style: none; }\n        .list-style-none li { margin-bottom: 12px; position: relative; padding-left: 25px; }\n        .list-style-none li::before { content: \"✓\"; position: absolute; left: 0; color: var(--green); font-weight: bold; }\n        .cons-list .list-style-none li::before { content: \"!\"; color: #d32f2f; }\n\n        /* Areas */\n        .areas-list {\n            column-count: 4;\n            column-gap: 30px;\n            font-size: 14px;\n            background: #f8f9fa;\n            padding: 30px;\n            border-radius: 15px;\n            border: 1px solid #dee2e6;\n        }\n\n        .table-container {\n            overflow-x: auto;\n            margin: 30px 0;\n        }\n\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            background: white;\n        }\n\n        th, td {\n            border: 1px solid #dee2e6;\n            padding: 15px;\n            text-align: left;\n        }\n\n        th { background: var(--blue); color: white; text-transform: uppercase; font-size: 14px; }\n\n        footer {\n            background: var(--black);\n            color: white;\n            padding: 60px 5%;\n            text-align: center;\n        }\n\n        .footer-links {\n            display: flex;\n            justify-content: center;\n            flex-wrap: wrap;\n            gap: 20px;\n            margin-bottom: 30px;\n        }\n\n        .footer-links a { color: var(--yellow); text-decoration: none; font-weight: 500; }\n\n        .focus-keyword { font-weight: bold; color: var(--blue); }\n\n        @media (max-width: 992px) {\n            .areas-list { column-count: 2; }\n        }\n\n        @media (max-width: 768px) {\n            .hero h1 { font-size: 2.2rem; }\n            .pros-cons-container { grid-template-columns: 1fr; }\n            .areas-list { column-count: 1; }\n        }\n    </style>\n<script type=\"application/ld+json\">\n    {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"Service\",\n      \"serviceType\": \"AC Repair & Service Kheda\",\n      \"provider\": {\n        \"@type\": \"LocalBusiness\",\n        \"name\": \"Atlas Aircon Kheda\",\n        \"image\": \"https://atlasaircons.com/wp-content/uploads/2019/03/cropped-AtlasAircon-Logo.png\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"streetAddress\": \"Kheda District Service\",\n          \"addressLocality\": \"Nadiad\",\n          \"addressRegion\": \"Gujarat\",\n          \"postalCode\": \"387001\",\n          \"addressCountry\": \"IN\"\n        },\n        \"telephone\": \"+919727257141\"\n      },\n      \"areaServed\": [\n        \"Nadiad\", \"Kheda Town\", \"Kapadvanj\", \"Matar\", \"Mehmedabad\", \n        \"Dakor\", \"Thasra\", \"Mahudha\", \"Vaso\", \"Kathlal\", \"Galteshwar\"\n      ],\n      \"aggregateRating\": {\n        \"@type\": \"AggregateRating\",\n        \"ratingValue\": \"4.9\",\n        \"reviewCount\": \"1450\"\n      }\n    }\n    </script>\n\n\n\n\n<body>\n\n    <div class=\"warning-banner\">\n        Important Notice: We are an independent &#038; unauthorised service center. We repair out-of-warranty products only with our own service guarantee across Kheda District.\n    </div>\n\n    <header>\n        <nav>\n            <div class=\"logo\">\n                <a href=\"/home\">\n                    <img decoding=\"async\" src=\"https://atlasaircons.com/wp-content/uploads/2019/03/cropped-AtlasAircon-Logo.png\" alt=\"Atlas Aircon Logo\" title=\"\">\n                </a>\n            </div>\n            <ul class=\"nav-links\">\n                <li><a href=\"/home\">Home</a></li>\n                <li><a href=\"/ac-service-center-anand\">Anand</a></li>\n                <li><a href=\"/ac-service-kheda\">kheda</a></li>\n                <li><a href=\"/ac-service-center-godhra\">Godhra</a></li>\n                <li><a href=\"/shop\">Shop</a></li>\n                <li><a href=\"/locations\">Gujarat Locations</a></li>\n                <li><a href=\"/contact-us\">Contact</a></li>\n            </ul>\n        </nav>\n    </header>\n\n    <div class=\"hero\">\n        <h1>hitachi ac service center Kheda</h1>\n        <p>Expert Independent Cooling Solutions for Nadiad and Kheda District. Professional Out-of-Warranty Repairs with Local Workmanship Guarantee for Homes and GIDC.</p>\n        <a href=\"https://wa.me/919727257141\" class=\"btn-whatsapp\" target=\"_blank\" rel=\"noopener\">\n            Click to Chat for Instant AC Service in Kheda\n        </a>\n    </div>\n\n    <section id=\"disclaimer\">\n        <div class=\"disclaimer-box\">\n            <h3>Service Disclaimer for Kheda &#038; Nadiad Customers</h3>\n            <p><strong>Atlas Aircon</strong> operates as an <strong>independent and unauthorised service provider</strong> within the Kheda district. We specialize exclusively in providing high-quality technical repair and maintenance for <strong>out-of-warranty</strong> cooling systems. We are not an official brand partner of hitachi. If your unit is currently covered by a manufacturer&#8217;s official warranty, we recommend contacting their authorized channels. Every repair performed by Atlas Aircon in Kheda comes with our <strong>exclusive service guarantee</strong> on labor and spare parts.</p>\n        </div>\n    </section>\n\n    <section id=\"introduction\">\n        <div class=\"section-header\">\n            <h2>The Premier <span class=\"focus-keyword\">hitachi ac service center Kheda</span></h2>\n        </div>\n        <p>Kheda district, the agricultural heartland of Gujarat, faces unique challenges when it comes to air conditioning maintenance. From the bustling streets of Nadiad to the pilgrimage hub of Dakor, the need for reliable cooling is paramount. As the region&#8217;s leading <span class=\"focus-keyword\">hitachi ac service center Kheda</span>, Atlas Aircon ensures that your cooling infrastructure remains robust. We understand the specific environmental factors in Kheda—high agricultural dust in Matar and industrial emissions in Nadiad GIDC—that can clog your AC filters and reduce efficiency. Our <strong>professional AC technicians in Kheda</strong> are trained to handle these local conditions with precision.</p>\n\n        <p>We provide a wide-reaching network of experts delivering <strong>split AC repair Nadiad</strong> for residential complexes and heavy-duty <strong>HVAC repair Kheda</strong> for commercial establishments and dairy processing units. Our reach extends deep into the local industrial belts, offering <strong>panel AC service</strong> and chiller overhauling for manufacturing units in Nadiad GIDC and Vaso. We prioritize rapid response times, ensuring that Kheda&#8217;s homes and factories stay cool even during the peak summer months. Our mission is district-wide cooling excellence delivered with transparency, integrity, and a 100% human-centric service approach.</p>\n\n        <div class=\"image-container\" style=\"text-align: center; margin: 40px 0;\">\n            <img decoding=\"async\" src=\"https://atlasaircons.com/wp-content/uploads/2025/07/ac-repair-in-vadodara.webp\" alt=\"hitachi ac service center Kheda district cooling solutions\" style=\"max-width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);\" title=\"\">\n        </div>\n    </section>\n\n    <section id=\"pros-cons\">\n        <div class=\"section-header\">\n            <h2>Why Choose Our Kheda Expert Network?</h2>\n        </div>\n        <div class=\"pros-cons-container\">\n            <div class=\"pros-list\">\n                <h3>7 Key Advantages (Pros)</h3>\n                <ul class=\"list-style-none\">\n                    <li><strong>Local Expertise:</strong> Deep technical knowledge of Kheda&#8217;s specific town layouts and power conditions.</li>\n                    <li><strong>Nadiad GIDC Focus:</strong> Dedicated teams for industrial AC maintenance in Nadiad&#8217;s primary industrial zone.</li>\n                    <li><strong>Out-of-Warranty Care:</strong> The most reliable alternative for units no longer covered by official warranty.</li>\n                    <li><strong>Cost-Effective:</strong> Component-level repairs designed to save Kheda residents from high replacement costs.</li>\n                    <li><strong>Genuine Spares:</strong> High-standard spares used to match original hitachi cooling performance.</li>\n                    <li><strong>Swift Response:</strong> Mobile technician units available across Nadiad, Kheda Town, and Kapadvanj.</li>\n                    <li><strong>Workmanship Guarantee:</strong> Every service is backed by our Atlas Aircon Kheda satisfaction pledge.</li>\n                </ul>\n            </div>\n            <div class=\"cons-list\">\n                <h3>Kheda Service Limitations (Cons)</h3>\n                <ul class=\"list-style-none\">\n                    <li><strong>Independent Agency:</strong> We are not a hitachi manufacturer-authorised outlet.</li>\n                    <li><strong>Warranty Cancellation:</strong> Using our service will void any existing manufacturer brand warranties.</li>\n                    <li><strong>Paid Services Only:</strong> We cannot process official brand free service coupons or AMC cards.</li>\n                    <li><strong>Brand Reference:</strong> Brand names are used only for identifying technical repair competency.</li>\n                    <li><strong>Rural Travel Fees:</strong> Visits to extremely remote agricultural fields in Matar may have travel fees.</li>\n                    <li><strong>PCB Parts Timing:</strong> Rare inverter-based PCB parts may require 48 hours for local delivery.</li>\n                    <li><strong>Inspection Charge:</strong> A small visit charge applies if you decide not to proceed with repairs.</li>\n                </ul>\n            </div>\n        </div>\n    </section>\n\n    <section id=\"repair-types\">\n        <div class=\"section-header\">\n            <h2>Major Cooling Units We Service in Nadiad &#038; Kheda</h2>\n        </div>\n        <div class=\"grid-3\">\n            <div class=\"card\">\n                <h3>Residential Air Conditioning</h3>\n                <p>Expert <strong>Split AC</strong> and <strong>Window AC</strong> repairs in Nadiad. We specialize in deep jet chemical washing and R32/R410A gas charging.</p>\n                <a href=\"/split-ac-service-kheda\" style=\"color: var(--blue); font-weight: bold; text-decoration: none;\">View Residential</a>\n            </div>\n            <div class=\"card\">\n                <h3>Commercial HVAC Systems</h3>\n                <p>Complete maintenance for <strong>Cassette ACs</strong> and <strong>Ductable Units</strong> for Kheda&#8217;s banks, offices, and showrooms.</p>\n                <a href=\"/central-ac-repair-services-kheda\" style=\"color: var(--blue); font-weight:\n</div>",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Important Notice: We are an independent &#038; unauthorised service center. We repair out-of-warranty products only with our own service guarantee across Kheda District. Home Anand kheda Godhra Shop Gujarat Locations Contact hitachi ac service center Kheda Expert Independent Cooling Solutions for Nadiad and Kheda District. Professional Out-of-Warranty Repairs with Local Workmanship Guarantee for Homes and [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 9076,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-9438",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/9438",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=9438"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/9438/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/9076"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=9438"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

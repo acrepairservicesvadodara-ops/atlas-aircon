@@ -1,0 +1,96 @@
+{
+  "id": 9046,
+  "date": "2025-10-14T19:06:56",
+  "date_gmt": "2025-10-14T13:36:56",
+  "guid": {
+    "rendered": "https://atlasaircons.com/register/"
+  },
+  "modified": "2025-10-14T19:06:56",
+  "modified_gmt": "2025-10-14T13:36:56",
+  "slug": "register",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/register/",
+  "title": {
+    "rendered": "Register"
+  },
+  "content": {
+    "rendered": "[appointment_register_form]",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "[appointment_register_form]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-9046",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/9046",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=9046"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/9046/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=9046"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": 3963,
+  "date": "2022-12-09T09:13:36",
+  "date_gmt": "2022-12-09T03:43:36",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=3963"
+  },
+  "modified": "2026-03-05T15:08:06",
+  "modified_gmt": "2026-03-05T09:38:06",
+  "slug": "ac-repair-servicing-in-daman",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/ac-repair-servicing-in-daman/",
+  "title": {
+    "rendered": "Ac Repair Servicing in Daman | Call Us 4 Free Estimate"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"LocalBusiness\",\n      \"name\": \"Atlas Aircon Daman - AC Repair Servicing\",\n      \"image\": \"https://atlasaircons.com/wp-content/uploads/2019/03/cropped-AtlasAircon-Logo.png\",\n      \"@id\": \"https://atlasaircons.com/ac-repair-servicing-in-daman/#business\",\n      \"url\": \"https://atlasaircons.com/ac-repair-servicing-in-daman/\",\n      \"telephone\": \"+91-9727257141\",\n      \"priceRange\": \"₹₹\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"Main Market Road\",\n        \"addressLocality\": \"Daman\",\n        \"postalCode\": \"396210\",\n        \"addressRegion\": \"Daman and Diu\",\n        \"addressCountry\": \"IN\"\n      },\n      \"geo\": {\n        \"@type\": \"GeoCoordinates\",\n        \"latitude\": 20.4283,\n        \"longitude\": 72.8539\n      },\n      \"openingHoursSpecification\": {\n        \"@type\": \"OpeningHoursSpecification\",\n        \"dayOfWeek\": [\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\n        \"opens\": \"00:00\",\n        \"closes\": \"23:59\"\n      },\n      \"areaServed\": [\n        {\"@type\": \"Place\", \"name\": \"Nani Daman\"},\n        {\"@type\": \"Place\", \"name\": \"Moti Daman\"},\n        {\"@type\": \"Place\", \"name\": \"Bhimpore\"},\n        {\"@type\": \"Place\", \"name\": \"Dabhel\"},\n        {\"@type\": \"Place\", \"name\": \"Kachigam\"},\n        {\"@type\": \"Place\", \"name\": \"Kadaiya\"}\n      ],\n      \"description\": \"Trusted partner for AC repair, servicing, and installation across Daman. 24-hour emergency support and affordable AMC plans.\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much does AC repair cost in Daman?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"The AC repair charges in Daman vary. A basic service visit starts between ₹400 - ₹800. We provide a free estimate before starting work.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do you offer emergency AC repair in Daman?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes, we provide 24-hour emergency AC repair services across Daman, including Nani Daman and Moti Daman.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n</script>\n\n<style>\n    .daman-container { font-family: 'Inter', sans-serif; }\n    \n    .daman-hero {\n        background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('https://atlasaircons.com/wp-content/uploads/2022/01/ac-repair-in-Vapi.jpg');\n        background-size: cover;\n        background-position: center;\n        min-height: 60vh;\n    }\n    \n    .daman-cta {\n        transition: all 0.3s ease;\n        box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.4);\n    }\n    .daman-cta:hover { transform: translateY(-2px); box-shadow: 0 20px 25px -5px rgba(37, 99, 235, 0.5); }\n\n    .brand-grid {\n        display: grid;\n        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));\n        gap: 1rem;\n    }\n\n    .daman-faq details summary { list-style: none; outline: none; cursor: pointer; }\n    .daman-faq details summary::-webkit-details-marker { display: none; }\n    \n    .faq-v-content {\n        max-height: 0;\n        overflow: hidden;\n        transition: max-height 0.4s ease-out;\n    }\n    details[open] .faq-v-content { max-height: 500px; }\n</style>\n\n<div class=\"daman-container bg-gray-50 text-gray-800 antialiased\">\n    \n    <section class=\"daman-hero text-white flex items-center justify-center py-20 md:py-32\">\n        <div class=\"max-w-5xl mx-auto px-6 text-center\">\n            <h1 class=\"text-4xl md:text-6xl font-extrabold leading-tight mb-6\">\n                AC Repair &#038; Servicing in <span class=\"text-blue-400\">Daman</span>\n            </h1>\n            <p class=\"text-lg md:text-xl mb-10 text-gray-300 max-w-2xl mx-auto font-light\">\n                Fast, Reliable &#038; Affordable Air Conditioner Service. Available 24/7 for homes and industries across Daman.\n            </p>\n            <div class=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a href=\"tel:+919727257141\" class=\"daman-cta bg-blue-600 text-white font-bold py-4 px-8 rounded-xl text-lg flex items-center justify-center\">\n                    <i class=\"fa-solid fa-phone-alt mr-3\"></i> +91-97272-57141\n                </a>\n                <a href=\"https://wa.me/919727257141\" class=\"bg-white text-blue-900 font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:bg-gray-100 flex items-center justify-center transition\" target=\"_blank\" rel=\"noopener\">\n                    <i class=\"fab fa-whatsapp mr-3 text-green-500\"></i> WhatsApp Help\n                </a>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-white\">\n        <div class=\"max-w-7xl mx-auto px-6\">\n            <div class=\"text-center mb-16\">\n                <h2 class=\"text-3xl md:text-4xl font-bold text-gray-900\">Complete Daman Cooling Solutions</h2>\n                <div class=\"w-20 h-1 bg-blue-600 mx-auto mt-4\"></div>\n            </div>\n            \n            <div class=\"grid md:grid-cols-2 lg:grid-cols-3 gap-8\">\n                <div class=\"p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:border-blue-500 transition-all group\">\n                    <i class=\"fa-solid fa-screwdriver-wrench text-4xl text-blue-600 mb-6 block\"></i>\n                    <h3 class=\"text-xl font-bold mb-3 group-hover:text-blue-600 transition\">AC Repair Daman</h3>\n                    <p class=\"text-gray-600 text-sm leading-relaxed mb-4\">Fixing Split, Window, and Inverter AC issues. Expert troubleshooting for E1, E6, and cooling failures.</p>\n                    <span class=\"text-blue-700 font-bold\">Visit Charge: ₹249</span>\n                </div>\n\n                <div class=\"p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:border-blue-500 transition-all group\">\n                    <i class=\"fa-solid fa-fill-drip text-4xl text-blue-600 mb-6 block\"></i>\n                    <h3 class=\"text-xl font-bold mb-3 group-hover:text-blue-600 transition\">AC Gas Filling</h3>\n                    <p class=\"text-gray-600 text-sm leading-relaxed mb-4\">Leak detection and authentic R32/R410A gas refilling to restore freezing cooling in minutes.</p>\n                    <span class=\"text-blue-700 font-bold\">Starts @ ₹2299</span>\n                </div>\n\n                <div class=\"p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:border-blue-500 transition-all group\">\n                    <i class=\"fa-solid fa-calendar-check text-4xl text-blue-600 mb-6 block\"></i>\n                    <h3 class=\"text-xl font-bold mb-3 group-hover:text-blue-600 transition\">AC Maintenance (AMC)</h3>\n                    <p class=\"text-gray-600 text-sm leading-relaxed mb-4\">Annual maintenance contracts for Daman residents and hotels to prevent sudden summer breakdowns.</p>\n                    <span class=\"text-blue-700 font-bold\">Domestic: ₹500/yr</span>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-gray-50\">\n        <div class=\"max-w-4xl mx-auto px-6\">\n            <h2 class=\"text-3xl font-bold text-center mb-10\">Daman AC <span class=\"text-blue-600\">Service Charges</span></h2>\n            <div class=\"bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200\">\n                <table class=\"w-full text-left\">\n                    <thead class=\"bg-blue-600 text-white\">\n                        <tr><th class=\"p-5\">Intervention</th><th class=\"p-5 text-right\">Estimated Cost</th></tr>\n                    </thead>\n                    <tbody class=\"divide-y divide-gray-100\">\n                        <tr><td class=\"p-5\">Window AC Service</td><td class=\"p-5 text-right font-bold text-blue-700\">₹399+</td></tr>\n                        <tr><td class=\"p-5\">Split AC Service</td><td class=\"p-5 text-right font-bold text-blue-700\">₹499+</td></tr>\n                        <tr><td class=\"p-5\">AC Installation (Daman)</td><td class=\"p-5 text-right font-bold text-blue-700\">₹1199+</td></tr>\n                        <tr><td class=\"p-5\">Visiting / Inspection</td><td class=\"p-5 text-right font-bold text-blue-700\">₹249*</td></tr>\n                    </tbody>\n                </table>\n            </div>\n            <p class=\"text-center text-xs text-gray-500 mt-4\">*Visiting charge is waived off if you proceed with the repair.</p>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-white daman-faq\">\n        <div class=\"max-w-4xl mx-auto px-6\">\n            <h2 class=\"text-3xl font-bold text-center mb-12\">Frequently Asked Questions</h2>\n            <div class=\"space-y-4\">\n                <details class=\"group border border-gray-200 rounded-xl overflow-hidden\">\n                    <summary class=\"flex justify-between items-center p-6 font-bold cursor-pointer hover:bg-gray-50\">\n                        How quickly can you reach Moti Daman?\n                        <i class=\"fa-solid fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform\"></i>\n                    </summary>\n                    <div class=\"faq-v-content p-6 pt-0 text-gray-600 bg-gray-50/50\">\n                        For areas like Moti Daman, Nani Daman, and Dabhel, our engineering squad typically arrives within 60 to 90 minutes.\n                    </div>\n                </details>\n                \n                <details class=\"group border border-gray-200 rounded-xl overflow-hidden\">\n                    <summary class=\"flex justify-between items-center p-6 font-bold cursor-pointer hover:bg-gray-50\">\n                        Do you provide spare part warranty in Daman?\n                        <i class=\"fa-solid fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform\"></i>\n                    </summary>\n                    <div class=\"faq-v-content p-6 pt-0 text-gray-600 bg-gray-50/50\">\n                        Yes, Atlas Aircon uses 100% genuine spare parts and provides a standard warranty on all components replaced during the AC repair.\n                    </div>\n                </details>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"bg-blue-600 py-12 text-center text-white\">\n        <div class=\"max-w-5xl mx-auto px-6\">\n            <h2 class=\"text-3xl font-extrabold mb-4\">Searching for AC Repair Near Me in Daman?</h2>\n            <p class=\"mb-8 opacity-90\">Get expert technicians at your doorstep in Bhimpore, Kachigam, and Kadaiya.</p>\n            <a href=\"tel:+919727257141\" class=\"bg-white text-blue-700 font-black px-10 py-4 rounded-full uppercase tracking-widest hover:scale-105 transition transform\">Book Instant Repair</a>\n        </div>\n    </section>\n</div>\n\n<script>\n    document.querySelectorAll('.daman-faq details').forEach((el) => {\n        el.addEventListener('toggle', function() {\n            const content = this.querySelector('.faq-v-content');\n            if (this.open) {\n                content.style.maxHeight = content.scrollHeight + \"px\";\n            } else {\n                content.style.maxHeight = \"0px\";\n            }\n        });\n    });\n</script>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "AC Repair &#038; Servicing in Daman Fast, Reliable &#038; Affordable Air Conditioner Service. Available 24/7 for homes and industries across Daman. +91-97272-57141 WhatsApp Help Complete Daman Cooling Solutions AC Repair Daman Fixing Split, Window, and Inverter AC issues. Expert troubleshooting for E1, E6, and cooling failures. Visit Charge: ₹249 AC Gas Filling Leak detection and [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-3963",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/3963",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=3963"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/3963/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=3963"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

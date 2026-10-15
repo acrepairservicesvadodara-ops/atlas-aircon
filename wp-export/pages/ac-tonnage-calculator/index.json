@@ -1,0 +1,96 @@
+{
+  "id": 10768,
+  "date": "2026-02-11T08:31:10",
+  "date_gmt": "2026-02-11T03:01:10",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=10768"
+  },
+  "modified": "2026-02-11T08:31:14",
+  "modified_gmt": "2026-02-11T03:01:14",
+  "slug": "ac-tonnage-calculator",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/ac-tonnage-calculator/",
+  "title": {
+    "rendered": "AC Size Calculator"
+  },
+  "content": {
+    "rendered": "\n<div class=\"atlas-tonnage-container\">\n    <div class=\"ton-header\">\n        <i class=\"fas fa-ruler-combined\"></i>\n        <h2>Find Your Perfect AC Size</h2>\n        <p>Don&#8217;t buy the wrong AC. Calculate the exact tonnage for your room.</p>\n    </div>\n\n    <div class=\"ton-body\">\n        <div class=\"ton-group\">\n            <label>Room Length (Feet)</label>\n            <input type=\"number\" id=\"room-len\" placeholder=\"e.g. 12\" oninput=\"calculateTonnage()\">\n        </div>\n        <div class=\"ton-group\">\n            <label>Room Width (Feet)</label>\n            <input type=\"number\" id=\"room-wid\" placeholder=\"e.g. 14\" oninput=\"calculateTonnage()\">\n        </div>\n\n        <div class=\"ton-group\">\n            <label>Sunlight Exposure</label>\n            <select id=\"sunlight\" onchange=\"calculateTonnage()\">\n                <option value=\"1\">Normal / Shadow</option>\n                <option value=\"1.2\">High Sunlight (Top Floor/Glass)</option>\n            </select>\n        </div>\n\n        <div id=\"ton-result\" class=\"ton-result\">\n            <p>Your Room Area: <span id=\"area-display\">0</span> sq ft</p>\n            <div class=\"final-rec\">\n                <span>You Need:</span>\n                <strong id=\"final-ton\">0.0 Ton</strong>\n            </div>\n            <p class=\"citation\">Expert Recommendation by <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com\">Atlas Aircon</a></p>\n        </div>\n    </div>\n</div>\n\n<style>\n    /* TITANIUM STYLES */\n    .atlas-tonnage-container {\n        background: #fff;\n        border: 1px solid #e2e8f0;\n        border-radius: 16px;\n        max-width: 450px;\n        margin: 40px auto;\n        box-shadow: 0 20px 40px rgba(0,0,0,0.08);\n        font-family: system-ui, -apple-system, sans-serif;\n        overflow: hidden;\n    }\n    .ton-header {\n        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);\n        color: white;\n        padding: 25px;\n        text-align: center;\n    }\n    .ton-header i { font-size: 32px; color: #22d3ee; margin-bottom: 10px; display:block; }\n    .ton-header h2 { margin: 0 0 5px; font-size: 22px; color:white; }\n    .ton-header p { margin: 0; font-size: 13px; opacity: 0.8; }\n    \n    .ton-body { padding: 30px; }\n    .ton-group { margin-bottom: 20px; }\n    .ton-group label { display: block; font-weight: 700; font-size: 13px; color: #334155; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }\n    .ton-group input, .ton-group select { \n        width: 100%; padding: 12px; border: 2px solid #e2e8f0; \n        border-radius: 8px; font-weight: bold; color: #0f172a; outline: none; transition: 0.2s;\n    }\n    .ton-group input:focus, .ton-group select:focus { border-color: #0ea5e9; }\n    \n    .ton-result {\n        background: #f0f9ff;\n        padding: 20px;\n        border-radius: 12px;\n        text-align: center;\n        margin-top: 20px;\n        border: 1px solid #bae6fd;\n        display: none; /* Hidden by default */\n    }\n    .final-rec { margin: 15px 0; }\n    .final-rec span { display: block; font-size: 12px; color: #64748b; font-weight: bold; text-transform: uppercase; }\n    .final-rec strong { font-size: 36px; color: #0ea5e9; font-weight: 900; line-height: 1; }\n    .citation { font-size: 10px; color: #94a3b8; margin-top: 10px; }\n    .citation a { color: #0f172a; text-decoration: none; font-weight: bold; }\n</style>\n\n<script>\n    function calculateTonnage() {\n        const len = parseFloat(document.getElementById('room-len').value) || 0;\n        const wid = parseFloat(document.getElementById('room-wid').value) || 0;\n        const sun = parseFloat(document.getElementById('sunlight').value);\n        \n        if (len > 0 && wid > 0) {\n            const area = len * wid;\n            document.getElementById('area-display').innerText = area;\n            \n            // Formula: (Area * 20 BTU) * Sunlight Factor\n            // 1 Ton = 12,000 BTU\n            let btu = area * 20 * sun;\n            let ton = 0;\n\n            if (btu <= 12000) ton = 1.0;\n            else if (btu <= 18000) ton = 1.5;\n            else if (btu <= 24000) ton = 2.0;\n            else ton = 2.5;\n\n            // Update UI\n            document.getElementById('final-ton').innerText = ton + \" Ton\";\n            document.getElementById('ton-result').style.display = 'block';\n        }\n    }\n</script>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Find Your Perfect AC Size Don&#8217;t buy the wrong AC. Calculate the exact tonnage for your room. Room Length (Feet) Room Width (Feet) Sunlight Exposure Normal / Shadow High Sunlight (Top Floor/Glass) Your Room Area: 0 sq ft You Need: 0.0 Ton Expert Recommendation by Atlas Aircon",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-10768",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/10768",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=10768"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/10768/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=10768"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

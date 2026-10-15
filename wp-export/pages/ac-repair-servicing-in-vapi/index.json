@@ -1,0 +1,103 @@
+{
+  "id": 3961,
+  "date": "2022-12-09T09:06:11",
+  "date_gmt": "2022-12-09T03:36:11",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=3961"
+  },
+  "modified": "2026-03-05T15:05:01",
+  "modified_gmt": "2026-03-05T09:35:01",
+  "slug": "ac-repair-servicing-in-vapi",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/ac-repair-servicing-in-vapi/",
+  "title": {
+    "rendered": "Ac repair Servicing in Vapi | 100% Guaranteed Ac Service Repair"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"VideoObject\",\n      \"name\": \"AC Repair in Vapi & Vadodara - Best AC Service - Atlas Aircon\",\n      \"description\": \"Atlas Aircon provides Best AC Installation, Repair, and AMC services in Vapi and Vadodara, Gujarat.\",\n      \"thumbnailUrl\": [\"https://img.youtube.com/vi/uX14FKZyDuc/maxresdefault.jpg\"],\n      \"uploadDate\": \"2017-02-26T00:00:00+05:30\",\n      \"duration\": \"PT1M32S\",\n      \"embedUrl\": \"https://www.youtube.com/embed/uX14FKZyDuc\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What type of air conditioners are repaired by Atlas Aircon in Vapi?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"We repair all types of air conditioners including Split AC, Window AC, Central AC, VRF systems, and cassette ACs for both residential and commercial clients in Vapi.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is a warranty provided on AC repair services in Vapi?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes, Atlas Aircon provides a warranty on all repair work and any genuine spare parts replaced, ensuring long-term peace of mind for our Vapi customers.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n</script>\n\n<script>\n    window.tailwind.config = {\n        theme: {\n            extend: {\n                colors: {\n                    brand: {\n                        yellow: '#fbd232',\n                        dark: '#111111',\n                        gray: '#1d2633',\n                        light: '#f4f4f5'\n                    }\n                },\n                animation: {\n                    'marquee': 'marquee 25s linear infinite',\n                },\n                keyframes: {\n                    marquee: {\n                        '0%': { transform: 'translateX(100%)' },\n                        '100%': { transform: 'translateX(-100%)' },\n                    }\n                }\n            }\n        }\n    }\n</script>\n\n<style>\n    .atlas-vapi-wrapper { font-family: 'Open Sans', sans-serif; }\n    .atlas-vapi-wrapper h1, .atlas-vapi-wrapper h2, .atlas-vapi-wrapper h3 { font-family: 'Montserrat', sans-serif; }\n    \n    .atlas-vapi-wrapper details > summary { list-style: none; outline: none; }\n    .atlas-vapi-wrapper details > summary::-webkit-details-marker { display: none; }\n    \n    .vapi-marquee { border-bottom: 4px solid #111111; }\n    .glass-panel { background: rgba(17, 17, 17, 0.85); backdrop-filter: blur(10px); }\n    \n    .faq-content-vapi {\n        max-height: 0;\n        overflow: hidden;\n        transition: max-height 0.4s ease-out;\n    }\n    details[open] .faq-content-vapi { max-height: 500px; }\n    \n    .vapi-hero {\n        min-height: 80vh;\n        background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.8)), url('https://atlasaircons.com/wp-content/uploads/2022/01/ac-repair-in-Vapi.jpg');\n        background-size: cover;\n        background-position: center;\n    }\n</style>\n\n<div class=\"atlas-vapi-wrapper bg-gray-50 text-gray-700 antialiased\">\n\n    <section class=\"relative vapi-hero flex items-center justify-center overflow-hidden\">\n        <div class=\"relative z-10 text-center px-4 max-w-4xl mx-auto\">\n            <span class=\"inline-block py-1 px-3 rounded-full bg-brand-yellow/20 text-brand-yellow text-sm font-bold tracking-widest mb-4 uppercase border border-brand-yellow/50\">Since 1996</span>\n            <h1 class=\"text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg\">\n                Best AC Repair Servicing in <span class=\"text-brand-yellow\">Vapi</span>\n            </h1>\n            <p class=\"text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto font-light leading-relaxed\">\n                Atlas Aircon provides professional <strong>AC service in Vapi, Gujarat</strong>. Guaranteed work by trained technicians using 100% genuine parts.\n            </p>\n            <div class=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a href=\"tel:+919727257141\" class=\"bg-brand-yellow text-brand-dark px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transition shadow-lg\">\n                    <i class=\"fas fa-phone-alt mr-2\"></i> +91-97272-57141\n                </a>\n                <a href=\"https://wa.me/919727257141\" class=\"bg-white text-brand-dark px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition shadow-lg\" target=\"_blank\" rel=\"noopener\">\n                    <i class=\"fab fa-whatsapp mr-2\"></i> WhatsApp Now\n                </a>\n            </div>\n        </div>\n    </section>\n\n    <div class=\"bg-brand-yellow text-brand-dark py-3 overflow-hidden flex whitespace-nowrap vapi-marquee\">\n        <div class=\"animate-marquee font-bold tracking-wide uppercase text-sm\">\n            <span class=\"mx-4\">• AC Service Vapi</span>\n            <span class=\"mx-4\">• AC Installation Vapi</span>\n            <span class=\"mx-4\">• Best AC Repair Vapi</span>\n            <span class=\"mx-4\">• AC Gas Filling Vapi</span>\n            <span class=\"mx-4\">• Commercial AC Service</span>\n            <span class=\"mx-4\">• Split AC Repair Vapi</span>\n            <span class=\"mx-4\">• Refrigerator Repair Vapi</span>\n        </div>\n    </div>\n\n    <section class=\"py-16 bg-white\">\n        <div class=\"max-w-7xl mx-auto px-4\">\n            <div class=\"flex flex-col lg:flex-row gap-12 items-center\">\n                <div class=\"lg:w-7/12\">\n                    <h2 class=\"text-4xl font-bold text-brand-dark mb-6\">Expert AC Service in <span class=\"text-brand-yellow\">Vapi</span></h2>\n                    <p class=\"text-gray-600 mb-6 leading-relaxed\">\n                        Established to bridge the gap in quality HVAC maintenance, Atlas Aircon is now Vapi&#8217;s leading service provider. We offer comprehensive <strong>home AC service in Vapi</strong> including maintenance, complex repairs, and precision installation.\n                    </p>\n                    <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4\">\n                        <div class=\"bg-brand-light p-4 rounded-lg border-l-4 border-brand-yellow\">\n                            <p class=\"text-sm font-bold\"><i class=\"fas fa-check-circle text-brand-yellow mr-2\"></i> 25+ Years Industrial Experience</p>\n                        </div>\n                        <div class=\"bg-brand-light p-4 rounded-lg border-l-4 border-brand-yellow\">\n                            <p class=\"text-sm font-bold\"><i class=\"fas fa-check-circle text-brand-yellow mr-2\"></i> 24/7 Emergency Support</p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"lg:w-5/12 w-full\">\n                    <div class=\"rounded-2xl overflow-hidden shadow-2xl aspect-video bg-black\">\n                        <iframe class=\"w-full h-full\" src=\"https://www.youtube.com/embed/uX14FKZyDuc\" title=\"Atlas Aircon AC Service\" frameborder=\"0\" allowfullscreen></iframe>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-gray-50\">\n        <div class=\"max-w-7xl mx-auto px-4 text-center\">\n            <h2 class=\"text-4xl font-bold text-brand-dark mb-10\">Vapi AC Service <span class=\"text-brand-yellow\">Price List</span></h2>\n            <div class=\"grid grid-cols-1 md:grid-cols-3 gap-8\">\n                <div class=\"bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:border-brand-yellow transition\">\n                    <h3 class=\"text-xl font-bold mb-4\">Domestic AMC</h3>\n                    <div class=\"text-4xl font-black text-brand-dark mb-6\">₹500<span class=\"text-sm text-gray-400\">/Year</span></div>\n                    <ul class=\"text-left space-y-3 mb-8 text-sm\">\n                        <li><i class=\"fas fa-check text-green-500 mr-2\"></i> 3 Routine Services</li>\n                        <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Emergency Attendance</li>\n                        <li><i class=\"fas fa-times text-red-500 mr-2\"></i> Parts Extra</li>\n                    </ul>\n                    <a href=\"tel:+919727257141\" class=\"block w-full py-3 bg-brand-dark text-white rounded-lg font-bold\">Book Now</a>\n                </div>\n                <div class=\"bg-white p-8 rounded-2xl shadow-xl border-2 border-brand-yellow transform scale-105\">\n                    <span class=\"bg-brand-yellow text-xs font-bold px-3 py-1 rounded-full uppercase\">Most Popular</span>\n                    <h3 class=\"text-xl font-bold mt-4 mb-4\">Corporate AMC</h3>\n                    <div class=\"text-4xl font-black text-brand-dark mb-6\">₹300<span class=\"text-sm text-gray-400\">/TR</span></div>\n                    <ul class=\"text-left space-y-3 mb-8 text-sm\">\n                        <li><i class=\"fas fa-check text-brand-yellow mr-2\"></i> Industry Grade Cleaning</li>\n                        <li><i class=\"fas fa-check text-brand-yellow mr-2\"></i> Priority Dispatch</li>\n                        <li><i class=\"fas fa-check text-brand-yellow mr-2\"></i> Custom Reporting</li>\n                    </ul>\n                    <a href=\"tel:+919727257141\" class=\"block w-full py-3 bg-brand-yellow text-brand-dark rounded-lg font-bold\">Get Quote</a>\n                </div>\n                <div class=\"bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:border-brand-yellow transition\">\n                    <h3 class=\"text-xl font-bold mb-4\">Fridge Repair</h3>\n                    <div class=\"text-4xl font-black text-brand-dark mb-6\">₹500<span class=\"text-sm text-gray-400\">/Visit</span></div>\n                    <ul class=\"text-left space-y-3 mb-8 text-sm\">\n                        <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Gas Leak Check</li>\n                        <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Compressor Testing</li>\n                        <li><i class=\"fas fa-check text-green-500 mr-2\"></i> On-site Repair</li>\n                    </ul>\n                    <a href=\"tel:+919727257141\" class=\"block w-full py-3 bg-brand-dark text-white rounded-lg font-bold\">Book Now</a>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-white\">\n        <div class=\"max-w-4xl mx-auto px-4\">\n            <h2 class=\"text-3xl font-bold text-center mb-10\">Frequently Asked <span class=\"text-brand-yellow\">Questions</span></h2>\n            <div class=\"space-y-4\">\n                <details class=\"bg-gray-50 rounded-xl border border-gray-200 overflow-hidden\">\n                    <summary class=\"p-6 font-bold flex justify-between items-center cursor-pointer\">\n                        How much does AC repair cost in Vapi?\n                        <i class=\"fas fa-chevron-down text-brand-yellow\"></i>\n                    </summary>\n                    <div class=\"faq-content-vapi p-6 pt-0 text-gray-600 border-t border-gray-200\">\n                        General inspection starts at ₹350. Final cost depends on the type of AC (Split/Window) and whether any parts like capacitors or sensors need replacement.\n                    </div>\n                </details>\n                <details class=\"bg-gray-50 rounded-xl border border-gray-200 overflow-hidden\">\n                    <summary class=\"p-6 font-bold flex justify-between items-center cursor-pointer\">\n                        Do you provide emergency 24/7 service in Vapi?\n                        <i class=\"fas fa-chevron-down text-brand-yellow\"></i>\n                    </summary>\n                    <div class=\"faq-content-vapi p-6 pt-0 text-gray-600 border-t border-gray-200\">\n                        Yes, Atlas Aircon provides 24/7 emergency AC repair services for both industrial GIDC units and residential homes in Vapi.\n                    </div>\n                </details>\n            </div>\n        </div>\n    </section>\n\n</div>\n\n<script>\n    document.querySelectorAll('.atlas-vapi-wrapper details').forEach((el) => {\n        el.addEventListener('toggle', function() {\n            const content = this.querySelector('.faq-content-vapi');\n            if (this.open) {\n                content.style.maxHeight = content.scrollHeight + \"px\";\n            } else {\n                content.style.maxHeight = \"0px\";\n            }\n        });\n    });\n</script>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Since 1996 Best AC Repair Servicing in Vapi Atlas Aircon provides professional AC service in Vapi, Gujarat. Guaranteed work by trained technicians using 100% genuine parts. +91-97272-57141 WhatsApp Now • AC Service Vapi • AC Installation Vapi • Best AC Repair Vapi • AC Gas Filling Vapi • Commercial AC Service • Split AC Repair [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 10959,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-3961",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/3961",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=3961"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/3961/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/10959"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=3961"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

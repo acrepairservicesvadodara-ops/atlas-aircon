@@ -1,0 +1,103 @@
+{
+  "id": 9183,
+  "date": "2026-01-26T09:22:02",
+  "date_gmt": "2026-01-26T03:52:02",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=9183"
+  },
+  "modified": "2026-03-05T15:30:21",
+  "modified_gmt": "2026-03-05T10:00:21",
+  "slug": "ac-service-vadodara",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/ac-service-vadodara/",
+  "title": {
+    "rendered": "ac service vadodara"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"HVACBusiness\",\n      \"@id\": \"https://atlasaircons.com/#localbusiness\",\n      \"name\": \"Atlas Aircon\",\n      \"image\": \"https://atlasaircons.com/wp-content/uploads/2019/03/cropped-AtlasAircon-Logo.png\",\n      \"telephone\": \"+91 97272 57141\",\n      \"priceRange\": \"₹399 - ₹25000\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"27 Payal Complex, Sayajigunj\",\n        \"addressLocality\": \"Vadodara\",\n        \"postalCode\": \"390005\",\n        \"addressCountry\": \"IN\"\n      }\n    }\n  ]\n}\n</script>\n\n<style>\n    .atlas-human-wrapper { font-family: 'Inter', sans-serif; }\n    .atlas-human-wrapper .hero-bg { \n        background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('https://atlasaircons.com/wp-content/uploads/2025/10/Split-Air-Conditioner.webp');\n        background-size: cover; background-position: center;\n    }\n    .atlas-human-wrapper .highlight-text { color: #f59e0b; }\n    .atlas-human-wrapper .btn-call { background-color: #ea580c; transition: 0.3s; }\n    .atlas-human-wrapper .btn-call:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(234, 88, 12, 0.4); }\n    .atlas-human-wrapper .service-box { border-bottom: 4px solid transparent; transition: 0.3s; }\n    .atlas-human-wrapper .service-box:hover { border-bottom-color: #ea580c; background: #fff; transform: translateY(-5px); }\n</style>\n\n<div class=\"atlas-human-wrapper bg-slate-50 text-slate-900 leading-relaxed\">\n\n    <section class=\"hero-bg text-white py-16 md:py-28 px-6 text-center\">\n        <div class=\"max-w-5xl mx-auto\">\n            <span class=\"bg-orange-600 text-xs font-bold px-4 py-1 rounded-full uppercase tracking-widest mb-4 inline-block\">Engineering Experts in Vadodara</span>\n            <h1 class=\"text-4xl md:text-7xl font-black mb-6 leading-tight\">\n                Tired of Fake <br><span class=\"highlight-text\">AC Service Promises?</span>\n            </h1>\n            <p class=\"text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto font-light\">\n                We don&#8217;t just &#8220;clean filters.&#8221; We execute deep technical overhauls to stop leaks and cut your power bills in <strong>Vadodara</strong>. Honest work, zero hidden charges.\n            </p>\n            <div class=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a href=\"tel:+919727257141\" class=\"btn-call text-white px-10 py-5 rounded-xl font-black text-xl flex items-center justify-center shadow-2xl\">\n                    <i class=\"fas fa-phone-alt mr-3\"></i> Call Engineer Directly\n                </a>\n                <a href=\"https://wa.me/919727257141\" class=\"bg-white text-slate-900 px-10 py-5 rounded-xl font-black text-xl flex items-center justify-center hover:bg-slate-100 transition shadow-xl\" target=\"_blank\" rel=\"noopener\">\n                    <i class=\"fab fa-whatsapp mr-3 text-green-500\"></i> WhatsApp Now\n                </a>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-20 px-6 bg-white\">\n        <div class=\"max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center\">\n            <div>\n                <h2 class=\"text-3xl md:text-5xl font-black text-slate-900 mb-8 leading-tight\">\n                    Why Baroda’s Hard Water &#038; <span class=\"highlight-text\">Industrial Dust</span> Kill Your AC\n                </h2>\n                <div class=\"space-y-6 text-lg text-slate-600\">\n                    <p>\n                        Most people think a simple water spray is enough. In <strong>Vadodara</strong>, especially near GIDC areas like Makarpura or Nandesari, your AC deals with heavy particulate matter and chemical soot. \n                    </p>\n                    <p class=\"font-bold text-slate-800\">\n                        A standard service doesn&#8217;t touch the &#8220;Coil Choke.&#8221;\n                    </p>\n                    <p>\n                        Over time, this grime becomes like cement. It makes your compressor work twice as hard, spiking your MGVCL bill and eventually burning out the motor. At <strong>Atlas Aircon</strong>, we use high-pressure Power Jets and non-corrosive chemicals that actually dissolve this buildup, giving you &#8220;new machine&#8221; cooling levels instantly.\n                    </p>\n                </div>\n            </div>\n            <div class=\"grid grid-cols-1 gap-6\">\n                <div class=\"p-8 bg-slate-50 rounded-2xl border border-slate-100 service-box\">\n                    <h3 class=\"text-xl font-bold mb-2\">Deep Power Jet Wash</h3>\n                    <p class=\"text-slate-600 text-sm\">We use 120-bar pressure pumps. It flushes out the hidden fungus and slime that normal service misses. Perfect for heavy-use homes.</p>\n                </div>\n                <div class=\"p-8 bg-slate-50 rounded-2xl border border-slate-100 service-box\">\n                    <h3 class=\"text-xl font-bold mb-2\">Nitrogen Leak Testing</h3>\n                    <p class=\"text-slate-600 text-sm\">Gas low again? We don&#8217;t just refill. We use pressurized Nitrogen to find the exact pinhole leak in the copper tube, weld it, and then fill gas.</p>\n                </div>\n                <div class=\"p-8 bg-slate-50 rounded-2xl border border-slate-100 service-box\">\n                    <h3 class=\"text-xl font-bold mb-2\">PCB Motherboard Recovery</h3>\n                    <p class=\"text-slate-600 text-sm\">Inverter AC not starting? Don&#8217;t spend ₹8,000 on a new board. Our engineers repair faulty sensors and capacitors at a fraction of the cost.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-20 px-6 bg-slate-900 text-white\">\n        <div class=\"max-w-4xl mx-auto text-center\">\n            <h2 class=\"text-3xl md:text-5xl font-black mb-10\">Straight Talk On <span class=\"highlight-text\">Pricing</span></h2>\n            <div class=\"bg-slate-800 rounded-3xl overflow-hidden border border-slate-700 shadow-2xl\">\n                <div class=\"p-6 border-b border-slate-700 flex justify-between items-center hover:bg-slate-700/50 transition\">\n                    <span class=\"font-bold md:text-xl\">Split AC Jet Service</span>\n                    <span class=\"font-black text-2xl highlight-text\">₹599</span>\n                </div>\n                <div class=\"p-6 border-b border-slate-700 flex justify-between items-center hover:bg-slate-700/50 transition\">\n                    <span class=\"font-bold md:text-xl\">Window AC Service</span>\n                    <span class=\"font-black text-2xl highlight-text\">₹399</span>\n                </div>\n                <div class=\"p-6 border-b border-slate-700 flex justify-between items-center hover:bg-slate-700/50 transition\">\n                    <span class=\"font-bold md:text-xl\">Gas Filling (Complete)</span>\n                    <span class=\"font-black text-2xl highlight-text\">₹2500+</span>\n                </div>\n                <div class=\"p-6 flex justify-between items-center hover:bg-slate-700/50 transition\">\n                    <span class=\"font-bold md:text-xl\">AC Installation (Baroda)</span>\n                    <span class=\"font-black text-2xl highlight-text\">₹1200+</span>\n                </div>\n            </div>\n            <p class=\"mt-8 text-slate-400 italic\">&#8220;We provide a 3-month guarantee on all parts we replace. If it fails, we fix it for free.&#8221;</p>\n        </div>\n    </section>\n\n    <section class=\"py-20 px-6 bg-white border-t border-slate-200\">\n        <div class=\"max-w-7xl mx-auto text-center\">\n            <h2 class=\"text-3xl font-black text-slate-900 mb-12\">Technicians Ready in Your Area</h2>\n            <div class=\"flex flex-wrap justify-center gap-3\">\n                <span class=\"px-6 py-2 bg-slate-100 rounded-full text-xs font-black uppercase text-slate-600 border border-slate-200\">Alkapuri</span>\n                <span class=\"px-6 py-2 bg-slate-100 rounded-full text-xs font-black uppercase text-slate-600 border border-slate-200\">Sayajigunj</span>\n                <span class=\"px-6 py-2 bg-slate-100 rounded-full text-xs font-black uppercase text-slate-600 border border-slate-200\">Makarpura</span>\n                <span class=\"px-6 py-2 bg-slate-100 rounded-full text-xs font-black uppercase text-slate-600 border border-slate-200\">Gotri</span>\n                <span class=\"px-6 py-2 bg-slate-100 rounded-full text-xs font-black uppercase text-slate-600 border border-slate-200\">Karelibaug</span>\n                <span class=\"px-6 py-2 bg-slate-100 rounded-full text-xs font-black uppercase text-slate-600 border border-slate-200\">Waghodia Road</span>\n                <span class=\"px-6 py-2 bg-slate-100 rounded-full text-xs font-black uppercase text-slate-600 border border-slate-200\">Vasna Road</span>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"bg-orange-600 py-12 px-6 text-center text-white\">\n        <h2 class=\"text-3xl font-black mb-4\">Don&#8217;t Wait For The Compressor To Die</h2>\n        <p class=\"mb-8 opacity-90 max-w-xl mx-auto font-medium\">A ₹599 service today can save you a ₹12,000 compressor tomorrow. Call Mehfuz Shahid&#8217;s team now.</p>\n        <a href=\"tel:+919727257141\" class=\"bg-white text-orange-600 px-12 py-4 rounded-full font-black text-xl uppercase tracking-tighter hover:scale-105 transition transform\">Request Dispatch</a>\n    </section>\n\n</div>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Engineering Experts in Vadodara Tired of Fake AC Service Promises? We don&#8217;t just &#8220;clean filters.&#8221; We execute deep technical overhauls to stop leaks and cut your power bills in Vadodara. Honest work, zero hidden charges. Call Engineer Directly WhatsApp Now Why Baroda’s Hard Water &#038; Industrial Dust Kill Your AC Most people think a simple [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 9076,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-9183",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/9183",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=9183"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/9183/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/9076"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=9183"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

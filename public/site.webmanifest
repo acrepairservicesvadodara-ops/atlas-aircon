@@ -1,0 +1,13 @@
+{
+  "name": "Atlas Aircon",
+  "short_name": "Atlas Aircon",
+  "description": "AC repair, service, installation and industrial HVAC in Vadodara and Gujarat.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#060D1A",
+  "theme_color": "#06B6D4",
+  "icons": [
+    { "src": "/favicon.png", "sizes": "any", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

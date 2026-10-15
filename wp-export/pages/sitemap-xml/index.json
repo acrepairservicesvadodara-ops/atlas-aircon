@@ -1,0 +1,96 @@
+{
+  "id": 4672,
+  "date": "2024-01-02T20:54:07",
+  "date_gmt": "2024-01-02T15:24:07",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=4672"
+  },
+  "modified": "2026-03-05T15:44:40",
+  "modified_gmt": "2026-03-05T10:14:40",
+  "slug": "sitemap-xml",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/sitemap-xml/",
+  "title": {
+    "rendered": "Sitemap xml"
+  },
+  "content": {
+    "rendered": "\n<h2 class=\"wp-block-heading\">Site Map</h2>\n\n\n\n<style>\n    .atlas-sitemap-v2 { font-family: 'Inter', sans-serif; }\n    \n    .atlas-sitemap-v2 .section-content {\n        max-height: 0;\n        overflow: hidden;\n        transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);\n    }\n    \n    /* Active class for JS toggle */\n    .atlas-sitemap-v2 .section-active {\n        max-height: 5000px; /* Accommodates long lists */\n    }\n\n    .atlas-sitemap-v2 .link-card {\n        transition: all 0.2s ease-in-out;\n        border: 1px solid #e5e7eb;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n    }\n    \n    .atlas-sitemap-v2 .link-card:hover {\n        transform: translateY(-3px);\n        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);\n        border-color: #2563eb;\n        background-color: #eff6ff;\n    }\n\n    .atlas-sitemap-v2 .xml-preview {\n        background-color: #0f172a;\n        color: #94a3b8;\n        font-family: 'Courier New', monospace;\n        padding: 1.5rem;\n        border-radius: 0.75rem;\n        overflow-x: auto;\n        font-size: 0.875rem;\n    }\n    \n    .atlas-sitemap-v2 .chevron-icon {\n        transition: transform 0.3s ease;\n    }\n    .atlas-sitemap-v2 .rotate-180 { transform: rotate(180deg); }\n</style>\n\n<div class=\"atlas-sitemap-v2 bg-slate-50 text-slate-900 leading-relaxed min-h-screen pb-20\">\n    <div class=\"max-w-7xl mx-auto p-4 md:p-8\">\n        \n        <header class=\"text-center mb-12\">\n            <h1 class=\"text-4xl md:text-5xl font-black text-slate-900 mb-4\">Website <span class=\"text-blue-600\">Sitemap</span></h1>\n            <p class=\"text-slate-500 text-lg\">Quickly navigate all repair services and locations across Gujarat.</p>\n            <div class=\"mt-4 inline-block bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest\">\n                Last Sync: March 2026\n            </div>\n        </header>\n\n        <div class=\"mb-12 sticky top-4 z-[999]\">\n            <div class=\"relative max-w-2xl mx-auto\">\n                <input type=\"text\" id=\"sitemap-search\" placeholder=\"Search pages (e.g. 'Carrier', 'Anand', 'Pricing')...\" \n                       class=\"w-full p-5 pl-14 text-lg border-2 border-white rounded-2xl shadow-xl focus:outline-none focus:border-blue-600 transition bg-white/90 backdrop-blur-md\">\n                <i class=\"fas fa-search absolute left-5 top-1/2 -translate-y-1/2 text-slate-400 text-xl\"></i>\n            </div>\n        </div>\n\n        <main class=\"space-y-6\" id=\"sitemap-container\">\n            </main>\n\n        <section class=\"mt-12 bg-white p-8 rounded-3xl border border-slate-200 shadow-sm\">\n            <h2 class=\"text-xl font-bold mb-4 flex items-center gap-2\">\n                <i class=\"fas fa-code text-blue-600\"></i> Technical XML Sitemap\n            </h2>\n            <p class=\"text-slate-500 text-sm mb-6\">Search engines use the raw XML format for indexing. You can access the machine-readable version at <code>atlasaircons.com/sitemap.xml</code></p>\n            <div class=\"xml-preview\">\n                &lt;urlset xmlns=&#8221;http://www.sitemaps.org/schemas/sitemap/0.9&#8243;&gt;<br>\n                &nbsp;&nbsp;&lt;url&gt;<br>\n                &nbsp;&nbsp;&nbsp;&nbsp;&lt;loc&gt;https://atlasaircons.com/&lt;/loc&gt;<br>\n                &nbsp;&nbsp;&nbsp;&nbsp;&lt;priority&gt;1.0&lt;/priority&gt;<br>\n                &nbsp;&nbsp;&lt;/url&gt;<br>\n                &lt;/urlset&gt;\n            </div>\n        </section>\n    </div>\n</div>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', () => {\n    const sitemapLinks = [\n        { href: \"https://atlasaircons.com/\", title: \"Home - Expert AC Service\", cat: \"Main\" },\n        { href: \"/about-us/\", title: \"About Mehfuz Shahid & Atlas\", cat: \"Main\" },\n        { href: \"/contact/\", title: \"Contact Engineering Support\", cat: \"Main\" },\n        { href: \"/ac-repair-cost-vadodara/\", title: \"Official Price List 2026\", cat: \"Services\" },\n        { href: \"/ac-repair-in-vadodara.html\", title: \"AC Repair Vadodara\", cat: \"Locations\" },\n        { href: \"/ac-repair-in-bharuch.html\", title: \"AC Repair Bharuch\", cat: \"Locations\" },\n        { href: \"/ac-repair-in-anand.html\", title: \"AC Repair Anand\", cat: \"Locations\" },\n        { href: \"/ac-repair-in-surat.html\", title: \"AC Repair Surat\", cat: \"Locations\" },\n        { href: \"/ac-repair-in-ahmedabad.html\", title: \"AC Repair Ahmedabad\", cat: \"Locations\" },\n        { href: \"/carrier-ac-service-center-vadodara/\", title: \"Carrier AC Service\", cat: \"Brands\" },\n        { href: \"/blue-star-ac-repair-service-center-vadodara/\", title: \"Blue Star AC Repair\", cat: \"Brands\" },\n        { href: \"/amazon-basics-ac-repair-service-center-vadodara/\", title: \"Amazon Basics AC Repair\", cat: \"Brands\" },\n        { href: \"/inverter-air-conditioner-pcb-repair/\", title: \"Inverter PCB Recovery\", cat: \"Technical\" },\n        { href: \"/franchise-opportunity/\", title: \"Franchise Partnership\", cat: \"Business\" },\n        { href: \"/ac-repair-servicing-in-vapi/\", title: \"AC Service Vapi\", cat: \"Locations\" },\n        { href: \"/ac-repair-servicing-in-daman/\", title: \"AC Service Daman\", cat: \"Locations\" }\n    ];\n\n    const container = document.getElementById('sitemap-container');\n    const categories = [...new Set(sitemapLinks.map(link => link.cat))];\n\n    // Render Categories\n    categories.forEach(cat => {\n        const catLinks = sitemapLinks.filter(l => l.cat === cat);\n        const section = document.createElement('section');\n        section.className = \"bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm sitemap-section\";\n        \n        section.innerHTML = `\n            <div class=\"section-header p-6 flex justify-between items-center cursor-pointer hover:bg-slate-50 transition\" onclick=\"toggleSitemapSection(this)\">\n                <h2 class=\"text-xl font-bold text-slate-800\">${cat} Pages (${catLinks.length})</h2>\n                <i class=\"fas fa-chevron-down text-blue-600 chevron-icon\"></i>\n            </div>\n            <div class=\"section-content section-active p-6 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4\">\n                ${catLinks.map(link => `\n                    <a href=\"${link.href}\" class=\"link-card p-4 rounded-xl\">\n                        <span class=\"font-bold text-slate-800\">${link.title}</span>\n                        <span class=\"text-xs text-blue-500 mt-1 truncate\">${link.href}</span>\n                    </a>\n                `).join('')}\n            </div>\n        `;\n        container.appendChild(section);\n    });\n\n    // Toggle Function\n    window.toggleSitemapSection = (header) => {\n        const content = header.nextElementSibling;\n        const icon = header.querySelector('.chevron-icon');\n        content.classList.toggle('section-active');\n        icon.classList.toggle('rotate-180');\n    };\n\n    // Search Logic\n    const searchInput = document.getElementById('sitemap-search');\n    searchInput.addEventListener('input', (e) => {\n        const term = e.target.value.toLowerCase();\n        document.querySelectorAll('.link-card').forEach(card => {\n            const text = card.innerText.toLowerCase();\n            const parentSection = card.closest('.sitemap-section');\n            \n            if(text.includes(term)) {\n                card.style.display = 'flex';\n            } else {\n                card.style.display = 'none';\n            }\n\n            // Auto-expand sections with matches\n            const hasMatch = parentSection.querySelectorAll('.link-card[style=\"display: flex;\"]').length > 0;\n            const content = parentSection.querySelector('.section-content');\n            if(term.length > 0 && hasMatch) {\n                content.classList.add('section-active');\n            }\n        });\n    });\n});\n</script>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Site Map Website Sitemap Quickly navigate all repair services and locations across Gujarat. Last Sync: March 2026 Technical XML Sitemap Search engines use the raw XML format for indexing. You can access the machine-readable version at atlasaircons.com/sitemap.xml &lt;urlset xmlns=&#8221;http://www.sitemaps.org/schemas/sitemap/0.9&#8243;&gt; &nbsp;&nbsp;&lt;url&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;loc&gt;https://atlasaircons.com/&lt;/loc&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;priority&gt;1.0&lt;/priority&gt; &nbsp;&nbsp;&lt;/url&gt; &lt;/urlset&gt;",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-4672",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/4672",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=4672"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/4672/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=4672"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "id": 9007,
+  "date": "2025-10-12T10:47:38",
+  "date_gmt": "2025-10-12T05:17:38",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?p=9007"
+  },
+  "modified": "2025-10-12T10:47:38",
+  "modified_gmt": "2025-10-12T05:17:38",
+  "slug": "emergency-ac-repairing-service",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.atlasaircons.com/emergency-ac-repairing-service/",
+  "title": {
+    "rendered": "emergency ac repairing service"
+  },
+  "content": {
+    "rendered": "<!-- Blog Post HTML for Atlas Aircon 24 Hour AC Repair & AMC Services -->\r\n\r\n<!-- SEO Meta Tags -->\r\n\r\n<!-- Social Media Meta Tags (Open Graph) -->\r\n\r\n<!-- Twitter Card Meta Tags -->\r\n\r\n<!-- Tailwind CSS -->\r\n<script src=\"https://cdn.tailwindcss.com\"></script>\r\n\r\n<!-- Font Awesome for Icons -->\r\n\r\n<style>\r\n        body {<br />            font-family: 'Inter', sans-serif;<br />        }<br />        .service-card, .pro-card {<br />            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;<br />        }<br />        .service-card:hover, .pro-card:hover {<br />            transform: translateY(-5px);<br />            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);<br />        }<br />        .gradient-text {<br />            background: linear-gradient(to right, #3b82f6, #1e40af);<br />            -webkit-background-clip: text;<br />            -webkit-text-fill-color: transparent;<br />        }<br />        .hero-bg {<br />             background-color: #f0f8ff;<br />             background-image: radial-gradient(circle at top right, #3b82f622, transparent 60%), radial-gradient(circle at bottom left, #1e40af1f, transparent 50%);<br />        }<br />    </style>\r\n\r\n<!-- JSON-LD Schema Markup -->\r\n<script type=\"application/ld+json\">\r\n    {\r\n      \"@context\": \"https://schema.org\",\r\n      \"@type\": \"WebPage\",\r\n      \"name\": \"Unbeatable 24/7 AC Repair: Fix 15+ Problems Instantly with Atlas Aircon!\",\r\n      \"description\": \"Facing AC issues? Get lightning-fast, 24-hour emergency AC repair and AMC services in Vadodara, Ahmedabad, Surat & across Gujarat. Atlas Aircon fixes AC noise, leaks, smells & more. Call +91-97272-57141 for instant help!\",\r\n      \"url\": \"https://atlasaircons.com/emergency-ac-repairing-service/\",\r\n      \"publisher\": {\r\n        \"@type\": \"Organization\",\r\n        \"name\": \"Atlas Aircon\",\r\n        \"logo\": {\r\n          \"@type\": \"ImageObject\",\r\n          \"url\": \"https://atlasaircons.com/path-to-your-logo.png\"\r\n        }\r\n      }\r\n    }\r\n    </script>\r\n<script type=\"application/ld+json\">\r\n    {\r\n      \"@context\": \"https://schema.org\",\r\n      \"@type\": \"LocalBusiness\",\r\n      \"name\": \"Atlas Aircon\",\r\n      \"image\": [\r\n        \"https://atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing.webp\",\r\n        \"https://atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing.webp\",\r\n        \"https://atlasaircons.com/wp-content/uploads/2025/10/24X7-ac-repairing.webp\"\r\n      ],\r\n      \"@id\": \"https://atlasaircons.com\",\r\n      \"url\": \"https://atlasaircons.com/emergency-ac-repairing-service/\",\r\n      \"telephone\": \"+91-97272-57141\",\r\n      \"priceRange\": \"₹₹\",\r\n      \"address\": {\r\n        \"@type\": \"PostalAddress\",\r\n        \"streetAddress\": \"Sayajigunj\",\r\n        \"addressLocality\": \"Vadodara\",\r\n        \"postalCode\": \"390005\",\r\n        \"addressRegion\": \"Gujarat\",\r\n        \"addressCountry\": \"IN\"\r\n      },\r\n       \"review\": {\r\n        \"@type\": \"Review\",\r\n        \"reviewRating\": {\r\n          \"@type\": \"Rating\",\r\n          \"ratingValue\": \"4.9\",\r\n          \"bestRating\": \"5\"\r\n        },\r\n        \"author\": {\r\n          \"@type\": \"Person\",\r\n          \"name\": \"R. Patel\"\r\n        },\r\n        \"reviewBody\": \"Atlas Aircon provided fast and professional emergency AC repair. Highly recommended!\"\r\n      },\r\n      \"geo\": {\r\n        \"@type\": \"GeoCoordinates\",\r\n        \"latitude\": 22.3103, \r\n        \"longitude\": 73.1852\r\n      },\r\n      \"openingHoursSpecification\": {\r\n        \"@type\": \"OpeningHoursSpecification\",\r\n        \"dayOfWeek\": [\r\n          \"Monday\",\r\n          \"Tuesday\",\r\n          \"Wednesday\",\r\n          \"Thursday\",\r\n          \"Friday\",\r\n          \"Saturday\",\r\n          \"Sunday\"\r\n        ],\r\n        \"opens\": \"00:00\",\r\n        \"closes\": \"23:59\"\r\n      },\r\n      \"sameAs\": [\r\n        \"https://www.facebook.com/atlasaircon\",\r\n        \"https://www.instagram.com/atlasaircon\"\r\n      ],\r\n      \"department\": [\r\n        {\r\n          \"@type\": \"Service\",\r\n          \"name\": \"24 Hour AC Repair\",\r\n          \"serviceType\": \"Emergency AC Repair\",\r\n          \"description\": \"Immediate 24/7 AC repair services for all brands and models. We fix breakdowns anytime, day or night.\",\r\n          \"areaServed\": {\r\n            \"@type\": \"AdministrativeArea\",\r\n            \"name\": \"Gujarat\"\r\n          },\r\n          \"provider\": {\r\n            \"@type\": \"LocalBusiness\",\r\n            \"name\": \"Atlas Aircon\"\r\n          }\r\n        },\r\n        {\r\n          \"@type\": \"Service\",\r\n          \"name\": \"AC Annual Maintenance Contract (AMC)\",\r\n          \"serviceType\": \"AC Maintenance\",\r\n          \"description\": \"Comprehensive AC AMC plans for residential, commercial, and central air conditioners to ensure peak performance.\",\r\n          \"areaServed\": {\r\n            \"@type\": \"AdministrativeArea\",\r\n            \"name\": \"Gujarat\"\r\n          },\r\n          \"provider\": {\r\n            \"@type\": \"LocalBusiness\",\r\n            \"name\": \"Atlas Aircon\"\r\n          }\r\n        },\r\n        {\r\n          \"@type\": \"Service\",\r\n          \"name\": \"AC Installation Services\",\r\n          \"serviceType\": \"AC Installation\",\r\n          \"description\": \"Professional installation for all types of ACs including Voltas, Daikin, Hitachi, and more.\",\r\n          \"areaServed\": [\r\n             { \"@type\": \"City\", \"name\": \"Vadodara\" },\r\n             { \"@type\": \"City\", \"name\": \"Ahmedabad\" },\r\n             { \"@type\": \"City\", \"name\": \"Surat\" }\r\n          ],\r\n          \"provider\": {\r\n            \"@type\": \"LocalBusiness\",\r\n            \"name\": \"Atlas Aircon\"\r\n          }\r\n        }\r\n      ]\r\n    }\r\n    </script>\r\n<script type=\"application/ld+json\">\r\n    {\r\n        \"@context\": \"https://schema.org\",\r\n        \"@type\": \"BreadcrumbList\",\r\n        \"itemListElement\": [{\r\n            \"@type\": \"ListItem\",\r\n            \"position\": 1,\r\n            \"name\": \"Home\",\r\n            \"item\": \"https://atlasaircons.com/\"\r\n        },{\r\n            \"@type\": \"ListItem\",\r\n            \"position\": 2,\r\n            \"name\": \"Emergency AC Repairing Service\",\r\n            \"item\": \"https://atlasaircons.com/emergency-ac-repairing-service/\"\r\n        }]\r\n    }\r\n    </script>\r\n<script type=\"application/ld+json\">\r\n    {\r\n      \"@context\": \"https://schema.org\",\r\n      \"@type\": \"FAQPage\",\r\n      \"mainEntity\": [{\r\n        \"@type\": \"Question\",\r\n        \"name\": \"How much are your AC AMC charges?\",\r\n        \"acceptedAnswer\": {\r\n          \"@type\": \"Answer\",\r\n          \"text\": \"Our AC AMC charges are highly competitive and depend on the type and number of AC units. A basic plan for a split AC starts from ₹2500 per year. Please call us at +91-97272-57141 for a custom quote.\"\r\n        }\r\n      },{\r\n        \"@type\": \"Question\",\r\n        \"name\": \"Do you provide emergency AC repair in Vadodara at night?\",\r\n        \"acceptedAnswer\": {\r\n          \"@type\": \"Answer\",\r\n          \"text\": \"Yes, we provide 24 hour AC repair across all our service locations including Vadodara, Ahmedabad, and Surat. Our technicians are available 24/7, 365 days a year for any AC emergency.\"\r\n        }\r\n      },{\r\n        \"@type\": \"Question\",\r\n        \"name\": \"What are the Hitachi AC gas filling charges?\",\r\n        \"acceptedAnswer\": {\r\n          \"@type\": \"Answer\",\r\n          \"text\": \"The Hitachi AC gas filling charges can vary based on the AC model and the type of refrigerant required. On average, it ranges from ₹1500 to ₹4500. We guarantee genuine refrigerants and transparent pricing.\"\r\n        }\r\n      }]\r\n    }\r\n    </script>\r\n\r\n<main class=\"container mx-auto px-4 py-8 md:py-12\">\r\n<!-- Main Title and Intro --></main><section class=\"text-center mb-12 hero-bg py-12 rounded-3xl\">\r\n<h1 class=\"text-4xl md:text-5xl font-extrabold mb-4 gradient-text\"><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing.webp\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-9004 size-full\" src=\"https://atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing.webp\" alt=\"emergency ac repairing service\" width=\"1024\" height=\"1024\" title=\"\" srcset=\"https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing.webp 1024w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing-300x300.webp 300w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing-720x720.webp 720w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing-150x150.webp 150w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing-768x768.webp 768w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing-600x600.webp 600w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing-100x100.webp 100w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></a>AC Trouble? We&#8217;ve Got the Ultimate Fix, 24/7 Emergency Ac Repairing Service!</h1>\r\n<p class=\"max-w-3xl mx-auto text-lg text-gray-600\">Don&#8217;t let a broken AC ruin your day (or night). Atlas Aircon provides unbeatable, round-the-clock emergency AC repair, maintenance, and installation services across Gujarat. Your comfort is just one call away.</p>\r\n\r\n</section><!-- Call to Action Bar -->\r\n<div class=\"bg-blue-600 text-white p-6 rounded-2xl shadow-lg text-center mb-16 flex flex-col md:flex-row justify-around items-center gap-4\">\r\n<h2 class=\"text-2xl font-bold\">Need an AC Mechanic Now?</h2>\r\n<p class=\"text-lg\">Expert help is available 24 hours a day!</p>\r\n<a class=\"bg-white text-blue-600 font-bold py-3 px-6 rounded-xl text-lg hover:bg-gray-200 transition-colors duration-300 shadow-md\" href=\"tel:+919727257141\">\r\n<i class=\"fas fa-phone mr-2\"></i>Call +91-97272-57141\r\n</a>\r\n\r\n</div>\r\n<!-- Why Choose Us (Pros) -->\r\n\r\n<section class=\"mb-16\">\r\n<h2 class=\"text-3xl font-bold text-center mb-8 gradient-text\">Why Choose Atlas Aircon?</h2>\r\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center\">\r\n<div class=\"pro-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold mb-2\">24/7 Availability</h3>\r\nWe&#8217;re always open. Our emergency AC repair team is ready day and night.\r\n\r\n</div>\r\n<div class=\"pro-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold mb-2\">Expert Technicians</h3>\r\nOur certified mechanics can handle any brand, any problem, big or small.\r\n\r\n</div>\r\n<div class=\"pro-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold mb-2\">Transparent Pricing</h3>\r\nNo hidden fees. We provide clear costs for services like Hitachi AC gas filling charges.\r\n\r\n</div>\r\n<div class=\"pro-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold mb-2\">Wide Service Area</h3>\r\nFrom <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/ac-repair-in-vadodara.html\">Vadodara</a> to Vapi, we have an AC mechanic available now near you.\r\n\r\n</div>\r\n</div>\r\n</section><!-- Common AC Problems Solved -->\r\n\r\n<section class=\"mb-16\">\r\n<h2 class=\"text-3xl font-bold text-center mb-8 gradient-text\">We Solve All Common AC Issues Instantly</h2>\r\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n<h3 class=\"text-xl font-bold\">AC Not Working Help</h3>\r\n</div>\r\nIf your AC is dead, we provide a fast and effective AC not working help service to diagnose and fix the root cause.\r\n\r\n</div>\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold\">Loud Noise Repair</h3>\r\n</div>\r\nIs your AC making a loud noise? We fix issues with fans and motors to restore quiet operation.\r\n\r\n</div>\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold\">Water Leakage Solution</h3>\r\n</div>\r\nNotice AC leaking water from the indoor unit? We provide a quick, clean solution to prevent water damage.\r\n\r\n</div>\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold\">Ice on Pipe Solution</h3>\r\n</div>\r\nAn AC ice formation on pipe solution is critical. Our experts fix the underlying issue for long-term results.\r\n\r\n</div>\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold\">Bad Smell Solution</h3>\r\n</div>\r\nA musty or AC bad smell? Our deep cleaning services eliminate odors at the source for fresh, clean air.\r\n\r\n</div>\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold\">Loud Noise Repair</h3>\r\n</div>\r\nIs your **AC making a loud noise**? We fix issues with fans and motors to restore quiet operation.\r\n\r\n</div>\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold\">Water Leakage Solution</h3>\r\n</div>\r\nNotice **AC leaking water from the indoor unit**? We provide a quick, clean solution to prevent water damage.\r\n\r\n</div>\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold\">Ice on Pipe Solution</h3>\r\n</div>\r\nAn **AC ice formation on pipe solution** is critical. Our experts fix the underlying issue for long-term results.\r\n\r\n</div>\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold\">Bad Smell Solution</h3>\r\n</div>\r\nA musty or **AC bad smell**? Our deep cleaning services eliminate odors at the source for fresh, clean air.\r\n\r\n</div>\r\n<div class=\"service-card bg-white p-6 rounded-2xl shadow-md border border-gray-100\">\r\n<div class=\"flex items-center text-blue-600 mb-3\">\r\n\r\n&nbsp;\r\n<h3 class=\"text-xl font-bold\">Window AC Services</h3>\r\n</div>\r\nWe provide specialized repair and maintenance for all models, including comprehensive <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-blue-700 font-semibold hover:underline\" href=\"https://atlasaircons.com/services/ac-repair/window-air-conditioner-services.html\">window air conditioner services</a>.\r\n\r\n</div>\r\n</div>\r\n</section><!-- AC AMC and Installation Section -->\r\n\r\n<section class=\"bg-white p-8 rounded-2xl shadow-lg mb-16\">\r\n<h2 class=\"text-3xl font-bold text-center mb-8 gradient-text\"><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing.webp\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-9003 size-full\" src=\"https://atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing.webp\" alt=\"emergency ac repairing\" width=\"1024\" height=\"1024\" title=\"\" srcset=\"https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing.webp 1024w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing-300x300.webp 300w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing-720x720.webp 720w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing-150x150.webp 150w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing-768x768.webp 768w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing-600x600.webp 600w, https://www.atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing-100x100.webp 100w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /></a></h2>\r\n<h2 class=\"text-3xl font-bold text-center mb-8 gradient-text\">AMC Plans &amp; Installation Services</h2>\r\n<div class=\"grid grid-cols-1 md:grid-cols-2 gap-8\">\r\n<div>\r\n<h3 class=\"text-2xl font-semibold mb-4 flex items-center\"><i class=\"fas fa-calendar-check text-blue-600 mr-3\"></i>Annual Maintenance Contracts (AMC)</h3>\r\n<p class=\"mb-4\">Get the best AC AMC plan to prolong your AC&#8217;s life and save on future repairs. We offer customized plans for every need, from residential AC AMC near me to large commercial AC maintenance contracts.</p>\r\n\r\n<ul class=\"space-y-2\">\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>Learn more about our main <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-blue-700 font-semibold hover:underline\" href=\"https://atlasaircons.com/\">AC services</a>.</li>\r\n</ul>\r\n</div>\r\n<div>\r\n<h3 class=\"text-2xl font-semibold mb-4 flex items-center\"><i class=\"fas fa-tools text-blue-600 mr-3\"></i>Expert Installation &amp; Brand Services</h3>\r\n<p class=\"mb-4\">Perfect installation is key to performance. We handle all major brands, offering Voltas AC installation, Samsung split AC repair, and services from our expert Daikin AC service center near me.</p>\r\n\r\n<ul class=\"space-y-2\">\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-star text-yellow-500 mt-1 mr-2\"></i>See details on our <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-blue-700 font-semibold hover:underline\" href=\"https://atlasaircons.com/emergency-ac-repairing/\">emergency repairing</a> page.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n</section><!-- Pros and Cons -->\r\n\r\n<section class=\"mb-16\">\r\n<div class=\"grid grid-cols-1 md:grid-cols-2 gap-8\">\r\n<div class=\"bg-green-100 border-l-4 border-green-500 p-6 rounded-r-lg\">\r\n<h3 class=\"text-2xl font-bold text-green-800 mb-4\">Pros of Regular AC Service</h3>\r\n<ul class=\"space-y-3\">\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-check text-green-600 mr-3 mt-1\"></i> Increased energy efficiency &amp; lower electricity bills.</li>\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-check text-green-600 mr-3 mt-1\"></i> Extended lifespan of your AC unit.</li>\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-check text-green-600 mr-3 mt-1\"></i> Improved air quality and healthier environment.</li>\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-check text-green-600 mr-3 mt-1\"></i> Prevents costly and unexpected breakdowns.</li>\r\n</ul>\r\n</div>\r\n<div class=\"bg-red-100 border-l-4 border-red-500 p-6 rounded-r-lg\">\r\n<h3 class=\"text-2xl font-bold text-red-800 mb-4\">Cons of Neglecting AC Care</h3>\r\n<ul class=\"space-y-3\">\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-times text-red-600 mr-3 mt-1\"></i> Higher energy consumption and expensive bills.</li>\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-times text-red-600 mr-3 mt-1\"></i> Frequent breakdowns, especially during peak summer.</li>\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-times text-red-600 mr-3 mt-1\"></i> Poor air quality, leading to allergies and health issues.</li>\r\n \t<li class=\"flex items-start\"><i class=\"fas fa-times text-red-600 mr-3 mt-1\"></i> Reduced lifespan and need for premature replacement.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n</section><!-- Price List Section -->\r\n\r\n<section class=\"mb-16\">\r\n<h2 class=\"text-3xl font-bold text-center mb-8 gradient-text\"><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2.webp\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-large wp-image-7258\" src=\"https://atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2-720x720.webp\" alt=\"air conditioner ac service charges in vadodara\" width=\"640\" height=\"640\" title=\"\" srcset=\"https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2-720x720.webp 720w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2-300x300.webp 300w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2-150x150.webp 150w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2-768x768.webp 768w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2-1536x1536.webp 1536w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2.webp 2048w\" sizes=\"auto, (max-width: 640px) 100vw, 640px\" /></a></h2>\r\n<h2 class=\"text-3xl font-bold text-center mb-8 gradient-text\"><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/affordable-and-expert-ac-repair-service/\">Transparent Pricing (Indicative Charges)</a></h2>\r\n<div class=\"overflow-x-auto bg-white rounded-2xl shadow-lg p-4\">\r\n<table class=\"w-full text-left\">\r\n<thead class=\"bg-gray-100\">\r\n<tr>\r\n<th class=\"p-4 font-semibold text-lg\">Service</th>\r\n<th class=\"p-4 font-semibold text-lg\">Price (INR)</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr class=\"border-b\">\r\n<td class=\"p-4\">AC General Service (Split/Window)</td>\r\n<td class=\"p-4 font-medium\">₹499 onwards</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"p-4\">AC Gas Filling / Top-up</td>\r\n<td class=\"p-4 font-medium\">₹1500 &#8211; ₹4500</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"p-4\">Voltas AC Installation / Uninstallation</td>\r\n<td class=\"p-4 font-medium\">₹1200 / ₹700</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"p-4\">Split AC Annual Maintenance Contract</td>\r\n<td class=\"p-4 font-medium\">₹2500 onwards</td>\r\n</tr>\r\n<tr>\r\n<td class=\"p-4\">AC Repair &amp; Inspection Charges</td>\r\n<td class=\"p-4 font-medium\">₹299 (Adjustable in final bill)</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p class=\"text-center text-sm text-gray-500 mt-4\">*Prices are estimates and may vary based on the specific issue, AC model, and location. Final price after inspection.</p>\r\n\r\n</div>\r\n</section><!-- Service Area Section -->\r\n\r\n<section class=\"bg-white p-8 rounded-2xl shadow-lg mb-16 text-center\"><i class=\"fas fa-map-marked-alt text-blue-600 fa-3x mb-4\"></i>\r\n<h2 class=\"text-3xl font-bold mb-4\">Serving Across Gujarat &amp; India</h2>\r\n<p class=\"text-gray-600 mb-6 max-w-4xl mx-auto\">Our head office is in Vadodara, but our expert AC mechanics are available in your city. We are expanding rapidly across India to bring trusted AC services to your doorstep.</p>\r\n\r\n<div class=\"flex flex-wrap justify-center gap-3\"><span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Vadodara</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Ahmedabad</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Nadiad</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Anand</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Karjan</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Palej</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Bharuch</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Ankleshwar</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Dahej</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Surat</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Vapi</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Valsad</span>\r\n<span class=\"bg-blue-100 text-blue-800 font-medium py-2 px-4 rounded-full\">Daman</span>\r\n<span class=\"bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded-full\">All of Gujarat</span></div>\r\n</section><!-- FAQ Section -->\r\n\r\n<section>\r\n<h2 class=\"text-3xl font-bold text-center mb-8 gradient-text\"><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/wp-content/uploads/2025/04/faq-frequently-asked-questions-text-on-notebook-2025-03-12-22-12-54-utc.webp\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-large wp-image-5435\" src=\"https://atlasaircons.com/wp-content/uploads/2025/04/faq-frequently-asked-questions-text-on-notebook-2025-03-12-22-12-54-utc-1200x675.webp\" alt=\"question and answer\" width=\"640\" height=\"360\" title=\"\" srcset=\"https://www.atlasaircons.com/wp-content/uploads/2025/04/faq-frequently-asked-questions-text-on-notebook-2025-03-12-22-12-54-utc-1200x675.webp 1200w, https://www.atlasaircons.com/wp-content/uploads/2025/04/faq-frequently-asked-questions-text-on-notebook-2025-03-12-22-12-54-utc-300x169.webp 300w, https://www.atlasaircons.com/wp-content/uploads/2025/04/faq-frequently-asked-questions-text-on-notebook-2025-03-12-22-12-54-utc-768x432.webp 768w, https://www.atlasaircons.com/wp-content/uploads/2025/04/faq-frequently-asked-questions-text-on-notebook-2025-03-12-22-12-54-utc-1536x864.webp 1536w, https://www.atlasaircons.com/wp-content/uploads/2025/04/faq-frequently-asked-questions-text-on-notebook-2025-03-12-22-12-54-utc.webp 1920w\" sizes=\"auto, (max-width: 640px) 100vw, 640px\" /></a>Frequently Asked Questions</h2>\r\n<div class=\"space-y-4 max-w-4xl mx-auto\"><details class=\"bg-white p-6 rounded-xl shadow-sm cursor-pointer\"><summary class=\"font-semibold text-lg\">How much are your AC AMC charges?</summary>\r\n<p class=\"mt-4 text-gray-600\">Our AC AMC charges are highly competitive and depend on the type and number of AC units. A basic plan for a split AC starts from ₹2500 per year. Please call us at <a class=\"text-blue-600 font-bold\" href=\"http://wa.me/919727257141\" target=\"_blank\" rel=\"noopener\">+91-97272-57141</a> for a custom quote.</p>\r\n\r\n</details><details class=\"bg-white p-6 rounded-xl shadow-sm cursor-pointer\"><summary class=\"font-semibold text-lg\">Do you provide emergency AC repair in Vadodara at night?</summary>\r\n<p class=\"mt-4 text-gray-600\">Yes, we provide 24 hour AC repair across all our service locations including Vadodara, Ahmedabad, and Surat. Our technicians are available 24/7, 365 days a year for any AC emergency.</p>\r\n\r\n</details><details class=\"bg-white p-6 rounded-xl shadow-sm cursor-pointer\"><summary class=\"font-semibold text-lg\">What are the Hitachi AC gas filling charges?</summary>\r\n<p class=\"mt-4 text-gray-600\">The Hitachi AC gas filling charges can vary based on the AC model and the type of refrigerant required. On average, it ranges from ₹1500 to ₹4500. We guarantee genuine refrigerants and transparent pricing.</p>\r\n\r\n</details><details class=\"bg-white p-6 rounded-xl shadow-sm cursor-pointer\"><summary class=\"font-semibold text-lg\">An AC mechanic is available now near me?</summary>\r\n<p class=\"mt-4 text-gray-600\">Absolutely! We have a large team of technicians strategically located across our service areas. When you call, we dispatch the nearest available mechanic to ensure the quickest response time. An AC mechanic available now is always our priority.</p>\r\n\r\n</details></div>\r\n</section><article>\r\n<h2><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/wp-content/uploads/2025/04/calculator-pen-and-paper-money-with-the-word-cost-2025-03-05-11-57-32-utc.webp\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-large wp-image-5432\" src=\"https://atlasaircons.com/wp-content/uploads/2025/04/calculator-pen-and-paper-money-with-the-word-cost-2025-03-05-11-57-32-utc-1200x675.webp\" alt=\"price list\" width=\"640\" height=\"360\" title=\"\" srcset=\"https://www.atlasaircons.com/wp-content/uploads/2025/04/calculator-pen-and-paper-money-with-the-word-cost-2025-03-05-11-57-32-utc-1200x675.webp 1200w, https://www.atlasaircons.com/wp-content/uploads/2025/04/calculator-pen-and-paper-money-with-the-word-cost-2025-03-05-11-57-32-utc-300x169.webp 300w, https://www.atlasaircons.com/wp-content/uploads/2025/04/calculator-pen-and-paper-money-with-the-word-cost-2025-03-05-11-57-32-utc-768x432.webp 768w, https://www.atlasaircons.com/wp-content/uploads/2025/04/calculator-pen-and-paper-money-with-the-word-cost-2025-03-05-11-57-32-utc-1536x864.webp 1536w, https://www.atlasaircons.com/wp-content/uploads/2025/04/calculator-pen-and-paper-money-with-the-word-cost-2025-03-05-11-57-32-utc.webp 1920w\" sizes=\"auto, (max-width: 640px) 100vw, 640px\" /></a></h2>\r\n<h2>🚀 Ultimate 24 Hour Emergency AC Repairing Service &amp; Best AMC Charges in Vadodara | Atlas Aircon</h2>\r\n<strong>Looking for reliable 24 hour AC repair services?</strong> Atlas Aircon offers expert solutions for all your air conditioning needs in Vadodara and Gujarat with transparent charges and trusted technicians.\r\n\r\n<section>\r\n<h2>🔧 24 Hour Emergency AC Repairing Services</h2>\r\n<ul>\r\n \t<li>Immediate repairs for <strong>AC not cooling</strong>, not working or sudden breakdown.</li>\r\n \t<li>Available 24/7 in Vadodara, Ahmedabad, Surat &amp; Gujarat.</li>\r\n \t<li>Certified AMC plans with genuine parts and warranty.</li>\r\n</ul>\r\n<em>Do:</em> Call us now at <a href=\"tel:+919727257141\">+91-97272-57141</a> for emergency support.\r\n<em>Don&#8217;t:</em> Attempt DIY electrical repairs.\r\n\r\n</section><section>\r\n<h2>🔄 AC AMC Charges &amp; Plans</h2>\r\nAnnual Maintenance Contract charges vary from <strong>₹2,600 to ₹5,000</strong> based on the AC type and brand.\r\n<ul>\r\n \t<li>Basic Plan: Cleaning &amp; inspection</li>\r\n \t<li>Comprehensive Plan: Includes parts replacement and repairs</li>\r\n \t<li>Ideal for Split AC, Central AC, and Commercial AC</li>\r\n</ul>\r\n<strong>Benefits:</strong> Prevents major repairs and extends AC lifespan.\r\n\r\n</section><section>\r\n<h2>🌬️ AC Bad Smell Solution</h2>\r\n<ul>\r\n \t<li>Caused by dirty filters, mold growth on coils, or clogged drain lines.</li>\r\n \t<li>Regular cleaning and filter replacement remove odors.</li>\r\n \t<li>Use AC odor neutralizers for freshness.</li>\r\n</ul>\r\n<em>Do:</em> Schedule deep cleaning every 6 months.\r\n<em>Don&#8217;t:</em> Ignore persistent smells that may harm health.\r\n\r\n</section><section>\r\n<h2>❄️ AC Ice Formation on Pipe Fix</h2>\r\n<ul>\r\n \t<li>Ice buildup often due to restricted airflow or low refrigerant.</li>\r\n \t<li>Repair leaks and recharge refrigerant to fix freezing issues.</li>\r\n \t<li>Proper pipe insulation prevents recurrence.</li>\r\n</ul>\r\n<em>Do:</em> Contact our technician for professional refrigerant refilling.\r\n<em>Don&#8217;t:</em> Use AC when ice is visibly formed on pipes.\r\n\r\n</section><section>\r\n<h2>💧 AC Leaking Water from Indoor Unit</h2>\r\n<ul>\r\n \t<li>Common issues include clogged drain, frozen coils, damaged condensate pan.</li>\r\n \t<li>Regular drain pipe cleaning recommended every 6 months.</li>\r\n \t<li>Timely repairs prevent water damage to interiors.</li>\r\n</ul>\r\n<em>Do:</em> Use wet/dry vacuum to clear blockage.\r\n<em>Don&#8217;t:</em> Let water drip unchecked causing damage.\r\n\r\n</section><section>\r\n<h2>🔊 AC Making Loud Noise Repair</h2>\r\n<ul>\r\n \t<li>Causes include loose screws, dirty condenser, worn fan motor bearings.</li>\r\n \t<li>Annual maintenance can prevent noise escalation.</li>\r\n \t<li>Lubricate bearings and tighten screws promptly.</li>\r\n</ul>\r\n<em>Do:</em> Inspect even if AC sounds normal.\r\n<em>Don&#8217;t:</em> Ignore sudden loud noises.\r\n\r\n</section><section>\r\n<h2>🛠️ AC Mechanic Available Now</h2>\r\n24&#215;7 availability of experienced mechanics for all major brands.\r\n\r\n<strong>Contact:</strong> <a href=\"tel:+919727257141\">+91-97272-57141</a>\r\n\r\n</section><section>\r\n<h2>⚡ AC Not Working Help</h2>\r\n<ul>\r\n \t<li>Basic checks: power, remote, thermostat, fuses.</li>\r\n \t<li>Professional inspection if basic fixes don&#8217;t resolve issue.</li>\r\n</ul>\r\n<em>Do:</em> Check power source and remote batteries.\r\n<em>Don&#8217;t:</em> Force the unit to operate.\r\n\r\n</section><section>\r\n<h2>📋 Annual Maintenance Contract (AMC) for Split AC</h2>\r\nPeriodic cleaning, gas refill, and tune-up to sustain performance and extend AC life.\r\n\r\n</section><section>\r\n<h2>⭐ Best AC AMC Plan</h2>\r\n<ul>\r\n \t<li>Comprehensive services covering labor, parts, priority calls.</li>\r\n \t<li>Discounts on repairs &amp; emergency support.</li>\r\n \t<li>Plans suited for residential and commercial setups.</li>\r\n</ul>\r\n</section><section>\r\n<h2>Carrier, Central &amp; Commercial AC Maintenance</h2>\r\n<ul>\r\n \t<li>Full service for large systems including duct cleaning, compressor check, calibration.</li>\r\n \t<li>Expertise from Atlas Aircon ensures reliable operation.</li>\r\n</ul>\r\n</section><section>\r\n<h2>Brand Specific Service &amp; Pricing</h2>\r\n<ul>\r\n \t<li>Hitachi Gas Filling Charges: ₹2,000 &#8211; ₹3,700</li>\r\n \t<li>Samsung Split AC Repair: PCB, compressor, priced per issue.</li>\r\n \t<li>Voltas AC Installation: Starting from ₹750 (standard fitment).</li>\r\n</ul>\r\n</section><section>\r\n<h2>Do’s and Don’ts for AC Care</h2>\r\n<ul>\r\n \t<li>Do clean AC filters regularly every 3-6 months.</li>\r\n \t<li>Don’t ignore leaks or unusual noises.</li>\r\n \t<li>Do invest in AMC to avoid costly repairs.</li>\r\n \t<li>Don’t use harsh chemicals on AC parts yourself.</li>\r\n</ul>\r\n</section><section>\r\n<h2>Frequently Asked Questions (FAQs)</h2>\r\n<dl>\r\n \t<dt>How often should I service my AC?</dt>\r\n \t<dd>At least twice a year or before summer for best performance.</dd>\r\n \t<dt>Why is my AC leaking water only indoors?</dt>\r\n \t<dd>It is commonly caused by clogged drain pipes or melting frozen coils.</dd>\r\n \t<dt>What does AMC cover?</dt>\r\n \t<dd>Regular cleaning, inspection, refrigerant top-up, and minor repairs.</dd>\r\n</dl>\r\n</section><footer>Contact Atlas Aircon for trusted 24 hour AC repair &amp; AMC services in Vadodara.\r\nPhone: <a href=\"tel:+919727257141\">+91-97272-57141</a></footer></article><!-- Structured Data JSON-LD -->\r\n\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"LocalBusiness\",\r\n  \"name\": \"Atlas Aircon\",\r\n  \"image\": [\r\n    \"https://atlasaircons.com/wp-content/uploads/2025/10/emergency-ac-repairing.webp\",\r\n    \"https://atlasaircons.com/wp-content/uploads/2025/10/emergency-24hrs-7-days-ac-repairing.webp\",\r\n    \"https://atlasaircons.com/wp-content/uploads/2025/10/24X7-ac-repairing.webp\"\r\n  ],\r\n  \"telephone\": \"+91-97272-57141\",\r\n  \"address\": {\r\n    \"@type\": \"PostalAddress\",\r\n    \"streetAddress\": \"Sayajigunj\",\r\n    \"addressLocality\": \"Vadodara\",\r\n    \"postalCode\": \"390005\",\r\n    \"addressRegion\": \"Gujarat\",\r\n    \"addressCountry\": \"IN\"\r\n  },\r\n  \"url\": \"https://atlasaircons.com/emergency-ac-repairing-service/\",\r\n  \"description\": \"Atlas Aircon provides best 24 hour AC repair and AMC services including emergency repair, maintenance, bad smell solutions, ice formation fixes and servicing for major brands in Vadodara and Gujarat.\",\r\n  \"areaServed\": {\r\n    \"@type\": \"City\",\r\n    \"name\": \"Vadodara\"\r\n  },\r\n  \"openingHours\": \"Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59\",\r\n  \"sameAs\": [\r\n    \"https://www.facebook.com/atlasaircons\",\r\n    \"https://www.instagram.com/atlasaircons\"\r\n  ],\r\n  \"priceRange\": \"₹₹\"\r\n}\r\n</script>",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "AC Trouble? We&#8217;ve Got the Ultimate Fix, 24/7 Emergency Ac Repairing Service! Don&#8217;t let a broken AC ruin your day (or night). Atlas Aircon provides unbeatable, round-the-clock emergency AC repair, maintenance, and installation services across Gujarat. Your comfort is just one call away. Need an AC Mechanic Now? Expert help is available 24 hours a [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 9005,
+  "comment_status": "open",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "categories": [
+    98,
+    686,
+    1
+  ],
+  "tags": [
+    6056,
+    6075,
+    6057,
+    6058,
+    6110,
+    581,
+    1229,
+    6116,
+    857,
+    6098,
+    6059,
+    6074,
+    6114,
+    6060,
+    6094,
+    6061,
+    6062,
+    6083,
+    6100,
+    6090,
+    6063,
+    6117,
+    6118,
+    6125,
+    6087,
+    2790,
+    180,
+    6072,
+    6101,
+    6092,
+    6119,
+    1097,
+    6115,
+    6099,
+    4875,
+    6126,
+    175,
+    6121,
+    6093,
+    6102,
+    6064,
+    6095,
+    788,
+    6065,
+    6108,
+    6084,
+    6096,
+    6079,
+    6066,
+    6107,
+    831,
+    6081,
+    6067,
+    6080,
+    6077,
+    4222,
+    6103,
+    1485,
+    6073,
+    6123,
+    6086,
+    6068,
+    6078,
+    6105,
+    6111,
+    6120,
+    6113,
+    6112,
+    6109,
+    6097,
+    6069,
+    6085,
+    1486,
+    6082,
+    6106,
+    6070,
+    6127,
+    6088,
+    6122,
+    6124,
+    6091,
+    6071,
+    6076,
+    6104,
+    6128,
+    6089
+  ],
+  "class_list": [
+    "post-9007",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-ac-repair-service",
+    "category-home-appliance-repair-service",
+    "category-uncategorized",
+    "tag-24-hour-ac-repair",
+    "tag-24-7-ac-help-nadiad",
+    "tag-ac-amc-charges",
+    "tag-ac-bad-smell-solution",
+    "tag-ac-check-up-service",
+    "tag-ac-compressor-repair",
+    "tag-ac-condenser-cleaning",
+    "tag-ac-coolant-refill",
+    "tag-ac-filter-cleaning",
+    "tag-ac-gas-filling-price",
+    "tag-ac-ice-formation-on-pipe-solution",
+    "tag-ac-installation-anand",
+    "tag-ac-installation-services",
+    "tag-ac-leaking-water-from-indoor-unit",
+    "tag-ac-maintenance-contract-price",
+    "tag-ac-making-loud-noise-repair",
+    "tag-ac-mechanic-available-now",
+    "tag-ac-mechanic-near-me-vapi",
+    "tag-ac-noise-problem-solution",
+    "tag-ac-not-cooling",
+    "tag-ac-not-working-help",
+    "tag-ac-pcb-repair",
+    "tag-ac-remote-not-working",
+    "tag-ac-repair-booking-online",
+    "tag-ac-repair-india",
+    "tag-ac-repair-near-me",
+    "tag-ac-repair-vadodara",
+    "tag-ac-service-ahmedabad",
+    "tag-ac-servicing-charges",
+    "tag-ac-technician-now",
+    "tag-ac-thermostat-issue",
+    "tag-ac-tune-up",
+    "tag-ac-uninstallation-charges",
+    "tag-ac-water-leak-fix",
+    "tag-affordable-ac-repair",
+    "tag-air-conditioner-amc-cost",
+    "tag-air-conditioner-repair",
+    "tag-air-conditioning-maintenance-gujarat",
+    "tag-aircon-service",
+    "tag-annual-ac-service-plan",
+    "tag-annual-maintenance-contract-for-split-ac",
+    "tag-atlas-aircon-services",
+    "tag-atlas-aircon-vadodara",
+    "tag-best-ac-amc-plan",
+    "tag-best-ac-amc-plan-india",
+    "tag-best-ac-amc-valsad",
+    "tag-best-ac-repair-service",
+    "tag-carrier-ac-amc-ankleshwar",
+    "tag-carrier-ac-maintenance-services",
+    "tag-carrier-ac-service-surat",
+    "tag-central-ac-maintenance-services",
+    "tag-central-ac-repair-jhagadia",
+    "tag-commercial-ac-maintenance-contract",
+    "tag-commercial-ac-maintenance-dahej",
+    "tag-daikin-ac-repair-palej",
+    "tag-daikin-ac-service-center-near-me",
+    "tag-daikin-service-center-vadodara",
+    "tag-emergency-ac-repair",
+    "tag-emergency-ac-repair-surat",
+    "tag-expert-ac-technician",
+    "tag-gujarat-ac-repair",
+    "tag-hitachi-ac-gas-filling-charges",
+    "tag-hitachi-ac-service-bharuch",
+    "tag-hitachi-ac-service-near-me",
+    "tag-home-ac-repair",
+    "tag-hvac-repair-services",
+    "tag-industrial-ac-services",
+    "tag-office-ac-maintenance",
+    "tag-quick-ac-service",
+    "tag-reliable-ac-mechanic",
+    "tag-residential-ac-amc-near-me",
+    "tag-residential-ac-service-daman",
+    "tag-same-day-ac-repair",
+    "tag-samsung-ac-gas-filling-rajpipla",
+    "tag-samsung-ac-repair-ahmedabad",
+    "tag-samsung-split-ac-repair",
+    "tag-split-ac-amc-charges",
+    "tag-split-ac-repair-cost",
+    "tag-top-ac-service-company",
+    "tag-trusted-ac-repair",
+    "tag-urgent-ac-mechanic",
+    "tag-voltas-ac-installation",
+    "tag-voltas-ac-service-karjan",
+    "tag-voltas-installation-charges",
+    "tag-window-ac-amc-plans",
+    "tag-window-ac-service-price"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/9007",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=9007"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/9007/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/9005"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=9007"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/categories?post=9007"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/tags?post=9007"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "id": 8723,
+  "date": "2025-07-30T10:27:42",
+  "date_gmt": "2025-07-30T04:57:42",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?p=8723"
+  },
+  "modified": "2025-07-30T10:27:42",
+  "modified_gmt": "2025-07-30T04:57:42",
+  "slug": "cold-room-repair-service-vadodara",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.atlasaircons.com/cold-room-repair-service-vadodara/",
+  "title": {
+    "rendered": "1 Cold Room Repair Service in Vadodara | Atlas Aircon | Same-Day Service"
+  },
+  "content": {
+    "rendered": "\r\n<p><script src=\"https://cdn.tailwindcss.com\"></script></p>\r\n\r\n<!-- Custom Styles -->\r\n<p><style>\r\n        body {\r\n            font-family: 'Inter', sans-serif;\r\n            background-color: #f8f9fa;\r\n        }\r\n        .hero-gradient {\r\n            background: linear-gradient(135deg, #FFD700 0%, #FFFFFF 50%, #FFD700 100%);\r\n        }\r\n        .btn-golden {\r\n            background-color: #FFD700;\r\n            color: #1a202c;\r\n            transition: all 0.3s ease;\r\n            box-shadow: 0 4px 15px 0 rgba(255, 215, 0, 0.5);\r\n        }\r\n        .btn-golden:hover {\r\n            background-color: #ffc700;\r\n            transform: translateY(-2px);\r\n            box-shadow: 0 6px 20px 0 rgba(255, 215, 0, 0.6);\r\n        }\r\n        .btn-dark {\r\n            background-color: #2d3748;\r\n            color: #ffffff;\r\n            transition: all 0.3s ease;\r\n        }\r\n        .btn-dark:hover {\r\n            background-color: #1a202c;\r\n        }\r\n        .sticky-cta {\r\n            position: fixed;\r\n            bottom: 0;\r\n            left: 0;\r\n            right: 0;\r\n            z-index: 40;\r\n        }\r\n        .section-title {\r\n            font-weight: 900;\r\n            color: #1a202c;\r\n            position: relative;\r\n            display: inline-block;\r\n            padding-bottom: 0.5rem;\r\n        }\r\n        .section-title::after {\r\n            content: '';\r\n            position: absolute;\r\n            bottom: 0;\r\n            left: 50%;\r\n            transform: translateX(-50%);\r\n            width: 60px;\r\n            height: 4px;\r\n            background-color: #FFD700;\r\n            border-radius: 2px;\r\n        }\r\n        .service-card {\r\n            transition: transform 0.3s ease, box-shadow 0.3s ease;\r\n        }\r\n        .service-card:hover {\r\n            transform: translateY(-10px);\r\n            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);\r\n        }\r\n        .area-tag {\r\n            background-color: #e2e8f0;\r\n            transition: all 0.3s ease;\r\n        }\r\n        .area-tag:hover {\r\n            background-color: #FFD700;\r\n            color: #1a202c;\r\n            transform: scale(1.05);\r\n        }\r\n    </style></p>\r\n\r\n<!-- JSON-LD Schema Markup -->\r\n<p><script type=\"application/ld+json\">\r\n    {\r\n      \"@context\": \"https://schema.org\",\r\n      \"@graph\": [\r\n        {\r\n          \"@type\": \"LocalBusiness\",\r\n          \"name\": \"Atlas Aircon\",\r\n          \"image\": \"https://atlasaircons.com/wp-content/uploads/2022/01/cropped-Atlas-Aircon-Logo-1-192x192.png\",\r\n          \"@id\": \"https://atlasaircons.com/\",\r\n          \"url\": \"https://atlasaircons.com/cold-room-repair-service-vadodara\",\r\n          \"telephone\": \"+91-9727257141\",\r\n          \"email\": \"atlasaircon1@gmail.com\",\r\n          \"priceRange\": \"₹₹\",\r\n          \"address\": {\r\n            \"@type\": \"PostalAddress\",\r\n            \"streetAddress\": \"Serving All of Vadodara\",\r\n            \"addressLocality\": \"Vadodara\",\r\n            \"addressRegion\": \"GJ\",\r\n            \"postalCode\": \"390001\",\r\n            \"addressCountry\": \"IN\"\r\n          },\r\n          \"geo\": {\r\n            \"@type\": \"GeoCoordinates\",\r\n            \"latitude\": 22.3072,\r\n            \"longitude\": 73.1812\r\n          },\r\n          \"openingHoursSpecification\": [\r\n            {\r\n              \"@type\": \"OpeningHoursSpecification\",\r\n              \"dayOfWeek\": [\r\n                \"Monday\",\r\n                \"Tuesday\",\r\n                \"Wednesday\",\r\n                \"Thursday\",\r\n                \"Friday\",\r\n                \"Saturday\",\r\n                \"Sunday\"\r\n              ],\r\n              \"opens\": \"00:00\",\r\n              \"closes\": \"23:59\"\r\n            }\r\n          ],\r\n          \"sameAs\": [\r\n            \"https://www.facebook.com/atlasaircon\",\r\n            \"https://www.instagram.com/atlasaircon\"\r\n          ],\r\n          \"aggregateRating\": {\r\n            \"@type\": \"AggregateRating\",\r\n            \"ratingValue\": \"4.9\",\r\n            \"reviewCount\": \"250\"\r\n          },\r\n          \"review\": {\r\n              \"@type\": \"Review\",\r\n              \"author\": {\"@type\": \"Person\", \"name\": \"Rakesh Patel\"},\r\n              \"datePublished\": \"2024-07-15\",\r\n              \"reviewBody\": \"Atlas Aircon provided fast and professional cold room repair for my restaurant in Alkapuri. The technician was knowledgeable and fixed the issue within hours. Highly recommended!\",\r\n              \"reviewRating\": {\r\n                  \"@type\": \"Rating\",\r\n                  \"ratingValue\": \"5\"\r\n              }\r\n          }\r\n        },\r\n        {\r\n          \"@type\": \"HVACBusiness\",\r\n          \"name\": \"Atlas Aircon\",\r\n          \"mainEntityOfPage\": \"https://atlasaircons.com/cold-room-repair-service-vadodara\",\r\n          \"url\": \"https://atlasaircons.com/cold-room-repair-service-vadodara\",\r\n          \"telephone\": \"+91-9727257141\",\r\n          \"hasOfferCatalog\": {\r\n            \"@type\": \"OfferCatalog\",\r\n            \"name\": \"Cold Room Services\",\r\n            \"itemListElement\": [\r\n              {\r\n                \"@type\": \"Offer\",\r\n                \"itemOffered\": {\r\n                  \"@type\": \"Service\",\r\n                  \"name\": \"Cold Room Repair Service\",\r\n                  \"serviceType\": \"Cold Room Repair\",\r\n                  \"provider\": {\"@type\": \"LocalBusiness\", \"name\": \"Atlas Aircon\"},\r\n                  \"areaServed\": {\"@type\": \"City\", \"name\": \"Vadodara\"}\r\n                },\r\n                \"priceSpecification\": {\r\n                  \"@type\": \"PriceSpecification\",\r\n                  \"price\": \"500\",\r\n                  \"priceCurrency\": \"INR\",\r\n                  \"valueAddedTaxIncluded\": \"true\",\r\n                  \"description\": \"Inspection/Visit Charge\"\r\n                }\r\n              },\r\n              {\r\n                \"@type\": \"Offer\",\r\n                \"itemOffered\": {\r\n                  \"@type\": \"Service\",\r\n                  \"name\": \"Cold Room Gas Refilling\",\r\n                   \"serviceType\": \"Cold Room Gas Refilling\",\r\n                   \"provider\": {\"@type\": \"LocalBusiness\", \"name\": \"Atlas Aircon\"},\r\n                   \"areaServed\": {\"@type\": \"City\", \"name\": \"Vadodara\"}\r\n                },\r\n                \"priceSpecification\": {\r\n                  \"@type\": \"PriceSpecification\",\r\n                  \"price\": \"2500\",\r\n                  \"priceCurrency\": \"INR\",\r\n                  \"valueAddedTaxIncluded\": \"true\",\r\n                  \"description\": \"Starting price for gas refilling.\"\r\n                }\r\n              }\r\n            ]\r\n          }\r\n        },\r\n        {\r\n          \"@type\": \"BreadcrumbList\",\r\n          \"itemListElement\": [{\r\n            \"@type\": \"ListItem\",\r\n            \"position\": 1,\r\n            \"name\": \"Home\",\r\n            \"item\": \"https://atlasaircons.com\"\r\n          },{\r\n            \"@type\": \"ListItem\",\r\n            \"position\": 2,\r\n            \"name\": \"Cold Room Repair Service Vadodara\",\r\n            \"item\": \"https://atlasaircons.com/cold-room-repair-service-vadodara\"\r\n          }]\r\n        },\r\n        {\r\n          \"@type\": \"FAQPage\",\r\n          \"mainEntity\": [{\r\n            \"@type\": \"Question\",\r\n            \"name\": \"How much does COLD ROOM repair cost in Vadodara?\",\r\n            \"acceptedAnswer\": {\r\n              \"@type\": \"Answer\",\r\n              \"text\": \"Our basic inspection charge is ₹500. The final cost for cold room repair in Vadodara depends on the specific issue and parts required. We always provide a transparent, detailed quote before starting any work, ensuring no hidden costs.\"\r\n            }\r\n          },{\r\n            \"@type\": \"Question\",\r\n            \"name\": \"How quickly can you send a technician for cold room repair?\",\r\n            \"acceptedAnswer\": {\r\n              \"@type\": \"Answer\",\r\n              \"text\": \"We offer same-day emergency cold room service across most of Vadodara for calls received before 2 PM. Our goal is to minimize your downtime and get your operations back to normal as fast as possible.\"\r\n            }\r\n          },{\r\n            \"@type\": \"Question\",\r\n            \"name\": \"Do you repair all COLD ROOM brands and types?\",\r\n            \"acceptedAnswer\": {\r\n              \"@type\": \"Answer\",\r\n              \"text\": \"Yes, our expert technicians are trained to repair all major cold room brands including Blue Star, Carrier, Daikin, Voltas, and more. We service all types, from walk-in chillers and freezers to complex pharmaceutical cold rooms.\"\r\n            }\r\n          },{\r\n            \"@type\": \"Question\",\r\n            \"name\": \"Do you offer a warranty on your repairs?\",\r\n            \"acceptedAnswer\": {\r\n              \"@type\": \"Answer\",\r\n              \"text\": \"Absolutely. We provide a 30-day service guarantee on all our repair services and a 3-month warranty on spare parts to give you complete peace of mind.\"\r\n            }\r\n          }]\r\n        }\r\n      ]\r\n    }\r\n    </script></p>\r\n<main><!-- Hero Section -->\r\n<section class=\"hero-gradient relative overflow-hidden py-20 sm:py-24 lg:py-32\">\r\n<div class=\"container mx-auto px-4 sm:px-6 lg:px-8 relative z-10\">\r\n<div class=\"grid grid-cols-1 lg:grid-cols-2 gap-12 items-center\">\r\n<div class=\"text-center lg:text-left\">\r\n<h1 class=\"text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight\">Expert <span class=\"text-yellow-500\">Cold Room Repair</span> Service in Vadodara</h1>\r\n<p class=\"mt-6 text-lg sm:text-xl text-gray-700 max-w-xl mx-auto lg:mx-0\">Your business can&#8217;t afford downtime. We provide <strong>fast, reliable, and 24/7 emergency cold room repair service</strong> to keep your operations running smoothly. From <strong>walk-in cooler repair</strong> to <strong>industrial cold storage maintenance</strong>, our certified technicians are here to help.</p>\r\n<div class=\"mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start\"><a class=\"btn-golden text-lg font-bold py-4 px-8 rounded-full shadow-xl inline-block w-full sm:w-auto text-center\" href=\"tel:+919727257141\"> <i class=\"fas fa-phone-volume mr-2\"></i> Get Urgent Help Now </a> <a class=\"btn-dark text-lg font-bold py-4 px-8 rounded-full shadow-xl inline-block w-full sm:w-auto text-center\" href=\"#contact\"> <i class=\"fas fa-calendar-check mr-2\"></i> Book Service Online </a></div>\r\n</div>\r\n<div class=\"flex justify-center items-center\"><img decoding=\"async\" class=\"rounded-lg shadow-2xl w-full max-w-md transform hover:scale-105 transition-transform duration-500\" src=\"https://atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2.webp\" alt=\"Atlas Aircon Cold Room Repair Service Vehicle in Vadodara\" title=\"\"></div>\r\n</div>\r\n</div>\r\n</section>\r\n<!-- Trust Bar -->\r\n<section class=\"bg-gray-100 py-8\">\r\n<div class=\"container mx-auto px-4 sm:px-6 lg:px-8\">\r\n<h3 class=\"text-center text-sm font-bold text-gray-600 tracking-wider uppercase mb-6\">We Service All Major Cold Room Brands</h3>\r\n<div class=\"flex flex-wrap justify-center items-center gap-x-8 gap-y-4\"><img decoding=\"async\" class=\"h-10 opacity-70 hover:opacity-100 transition-opacity\" src=\"https://placehold.co/100x40/f0f0f0/333333?text=Blue+Star\" alt=\"Blue Star Cold Room Repair\" title=\"\"> <img decoding=\"async\" class=\"h-10 opacity-70 hover:opacity-100 transition-opacity\" src=\"https://placehold.co/100x40/f0f0f0/333333?text=Carrier\" alt=\"Carrier Cold Room Repair\" title=\"\"> <img decoding=\"async\" class=\"h-10 opacity-70 hover:opacity-100 transition-opacity\" src=\"https://placehold.co/100x40/f0f0f0/333333?text=Daikin\" alt=\"Daikin Cold Room Repair\" title=\"\"> <img decoding=\"async\" class=\"h-10 opacity-70 hover:opacity-100 transition-opacity\" src=\"https://placehold.co/100x40/f0f0f0/333333?text=Voltas\" alt=\"Voltas Cold Room Repair\" title=\"\"> <img decoding=\"async\" class=\"h-10 opacity-70 hover:opacity-100 transition-opacity\" src=\"https://placehold.co/100x40/f0f0f0/333333?text=LG\" alt=\"LG Cold Room Repair\" title=\"\"> <img decoding=\"async\" class=\"h-10 opacity-70 hover:opacity-100 transition-opacity\" src=\"https://placehold.co/100x40/f0f0f0/333333?text=Hitachi\" alt=\"Hitachi Cold Room Repair\" title=\"\"></div>\r\n</div>\r\n</section>\r\n<!-- Why Choose Us Section (E-E-A-T) -->\r\n<section class=\"py-20 bg-white\">\r\n<div class=\"container mx-auto px-4 sm:px-6 lg:px-8\">\r\n<div class=\"text-center mb-16\">\r\n<h2 class=\"text-4xl sm:text-5xl section-title\">Why Choose Atlas Aircon?</h2>\r\n<p class=\"mt-4 text-lg text-gray-600 max-w-3xl mx-auto\">When your <strong>cold storage</strong> fails, you need a partner you can trust. Here’s why we are <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/\">Vadodara&#8217;s #1 choice for <strong>cold room repair service</strong></a>.</p>\r\n</div>\r\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8\"><!-- Card 1: Experience -->\r\n<div class=\"bg-gray-50 p-8 rounded-xl shadow-lg text-center hover:bg-yellow-50 transition-all duration-300\">\r\n<div class=\"text-5xl text-yellow-500 mb-4\"> </div>\r\n<h3 class=\"text-xl font-bold text-gray-900 mb-2\">12+ Years of Experience</h3>\r\n<p class=\"text-gray-600\">Proudly serving Vadodara&#8217;s businesses for over a decade. We have the experience to handle any <strong>cold room breakdown service</strong> efficiently.</p>\r\n</div>\r\n<!-- Card 2: Expertise -->\r\n<div class=\"bg-gray-50 p-8 rounded-xl shadow-lg text-center hover:bg-yellow-50 transition-all duration-300\">\r\n<div class=\"text-5xl text-yellow-500 mb-4\"> </div>\r\n<h3 class=\"text-xl font-bold text-gray-900 mb-2\">Certified Technicians</h3>\r\n<p class=\"text-gray-600\">Our technicians are certified, skilled, and have an average of 8 years&#8217; hands-on experience as a <strong>cold room technician in Vadodara</strong>.</p>\r\n</div>\r\n<!-- Card 3: Guarantee -->\r\n<div class=\"bg-gray-50 p-8 rounded-xl shadow-lg text-center hover:bg-yellow-50 transition-all duration-300\">\r\n<div class=\"text-5xl text-yellow-500 mb-4\"> </div>\r\n<h3 class=\"text-xl font-bold text-gray-900 mb-2\">30-Day Service Guarantee</h3>\r\n<p class=\"text-gray-600\">We stand by our work. All our repairs come with a 30-day service guarantee for your complete peace of mind.</p>\r\n</div>\r\n<!-- Card 4: Pricing -->\r\n<div class=\"bg-gray-50 p-8 rounded-xl shadow-lg text-center hover:bg-yellow-50 transition-all duration-300\">\r\n<div class=\"text-5xl text-yellow-500 mb-4\"> </div>\r\n<h3 class=\"text-xl font-bold text-gray-900 mb-2\">Transparent Pricing</h3>\r\n<p class=\"text-gray-600\">No hidden costs. We provide a clear, upfront quote before any work begins. Honest service is our promise.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</section>\r\n<!-- Services Section -->\r\n<section class=\"py-20\">\r\n<div class=\"container mx-auto px-4 sm:px-6 lg:px-8\">\r\n<div class=\"text-center mb-16\">\r\n<h2 class=\"text-4xl sm:text-5xl section-title\">Our Cold Room Repair Service in Vadodara</h2>\r\n<p class=\"mt-4 text-lg text-gray-600 max-w-3xl mx-auto\">Facing an issue? We have the solution. We fix all common and complex cold room problems quickly and effectively.</p>\r\n</div>\r\n<div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8\"><!-- Service 1 -->\r\n<div class=\"bg-white rounded-lg shadow-lg overflow-hidden service-card\"><img decoding=\"async\" class=\"w-full h-56 object-cover\" src=\"https://atlasaircons.com/wp-content/uploads/2025/07/cold-room-repair-service.webp\" alt=\"Cold room not cooling repair service\" title=\"\">\r\n<div class=\"p-6\">\r\n<h3 class=\"text-xl font-bold mb-2\">Cold Room Not Cooling?</h3>\r\n<p class=\"text-gray-600 mb-4\">The most critical issue. Our technicians diagnose and fix the root cause, from compressor issues to refrigerant leaks.</p>\r\n<div class=\"text-lg font-bold text-yellow-600 mb-4\">Inspection: ₹500</div>\r\n<a class=\"font-bold text-gray-800 hover:text-yellow-600\" href=\"#contact\">Book a <strong>cold room not cooling Vadodara</strong> service <i class=\"fas fa-arrow-right ml-1\"></i></a></div>\r\n</div>\r\n<!-- Service 2 -->\r\n<div class=\"bg-white rounded-lg shadow-lg overflow-hidden service-card\"><img decoding=\"async\" class=\"w-full h-56 object-cover\" src=\"https://atlasaircons.com/wp-content/uploads/2025/07/Cold-Room-Gas-Charging.webp\" alt=\"Cold room gas filling service\" title=\"\">\r\n<div class=\"p-6\">\r\n<h3 class=\"text-xl font-bold mb-2\">Gas Leakage &amp; Refilling</h3>\r\n<p class=\"text-gray-600 mb-4\">We perform precise leak detection and use high-quality refrigerants for <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/cold-room-repair-in-vadodara/\"><strong>cold room gas filling Vadodara</strong>.</a></p>\r\n<div class=\"text-lg font-bold text-yellow-600 mb-4\">Starting from ₹2,500</div>\r\n<a class=\"font-bold text-gray-800 hover:text-yellow-600\" href=\"#contact\">Request <strong>refrigeration gas charging service</strong> <i class=\"fas fa-arrow-right ml-1\"></i></a></div>\r\n</div>\r\n<!-- Service 3 -->\r\n<div class=\"bg-white rounded-lg shadow-lg overflow-hidden service-card\"><img decoding=\"async\" class=\"w-full h-56 object-cover\" src=\"https://atlasaircons.com/wp-content/uploads/2025/07/cooling-coil-replacement.webp\" alt=\"Cold room evaporator coil repair\" title=\"\">\r\n<div class=\"p-6\">\r\n<h3 class=\"text-xl font-bold mb-2\">Ice Buildup &amp; Water Leaks</h3>\r\n<p class=\"text-gray-600 mb-4\">Excessive ice or water leaks indicate a problem. We fix drainage, defrost systems, and insulation issues.</p>\r\n<div class=\"text-lg font-bold text-yellow-600 mb-4\">Inspection: ₹500</div>\r\n<a class=\"font-bold text-gray-800 hover:text-yellow-600\" href=\"#contact\">Fix <strong>ice buildup in cold room</strong> now <i class=\"fas fa-arrow-right ml-1\"></i></a></div>\r\n</div>\r\n<!-- Service 4 -->\r\n<div class=\"bg-white rounded-lg shadow-lg overflow-hidden service-card\"><img decoding=\"async\" class=\"w-full h-56 object-cover\" src=\"https://placehold.co/600x400/e2e8f0/333333?text=Compressor+Repair\" alt=\"Cold room compressor repair\" title=\"\">\r\n<div class=\"p-6\">\r\n<h3 class=\"text-xl font-bold mb-2\">Compressor Repair/Replacement</h3>\r\n<p class=\"text-gray-600 mb-4\">The heart of your cold room. We handle everything from minor repairs to full <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/cold-room-repair-in-vadodara/\"><strong>cold room compressor replacement Vadodara</strong></a>.</p>\r\n<div class=\"text-lg font-bold text-yellow-600 mb-4\">Call for Quote</div>\r\n<a class=\"font-bold text-gray-800 hover:text-yellow-600\" href=\"tel:+919727257141\">Get a quote for <strong>compressor repair</strong> <i class=\"fas fa-arrow-right ml-1\"></i></a></div>\r\n</div>\r\n<!-- Service 5 -->\r\n<div class=\"bg-white rounded-lg shadow-lg overflow-hidden service-card\"><img decoding=\"async\" class=\"w-full h-56 object-cover\" src=\"https://placehold.co/600x400/e2e8f0/333333?text=Installation+Service\" alt=\"Cold room installation service\" title=\"\">\r\n<div class=\"p-6\">\r\n<h3 class=\"text-xl font-bold mb-2\">Installation &amp; Commissioning</h3>\r\n<p class=\"text-gray-600 mb-4\">Expert <strong>industrial cold room installation</strong> and setup. We ensure your new system runs at peak efficiency from day one.</p>\r\n<div class=\"text-lg font-bold text-yellow-600 mb-4\">Free Consultation</div>\r\n<a class=\"font-bold text-gray-800 hover:text-yellow-600\" href=\"#contact\">Plan your <strong>cold room installation Vadodara</strong> <i class=\"fas fa-arrow-right ml-1\"></i></a></div>\r\n</div>\r\n<!-- Service 6 -->\r\n<div class=\"bg-white rounded-lg shadow-lg overflow-hidden service-card\"><img decoding=\"async\" class=\"w-full h-56 object-cover\" src=\"https://placehold.co/600x400/e2e8f0/333333?text=AMC+Service\" alt=\"Cold room AMC service\" title=\"\">\r\n<div class=\"p-6\">\r\n<h3 class=\"text-xl font-bold mb-2\">Annual Maintenance (AMC)</h3>\r\n<p class=\"text-gray-600 mb-4\">Prevent costly breakdowns with our <strong>cold room AMC service Vadodara</strong>. Regular checks keep your unit efficient and reliable.</p>\r\n<div class=\"text-lg font-bold text-yellow-600 mb-4\">Custom Plans</div>\r\n<a class=\"font-bold text-gray-800 hover:text-yellow-600\" href=\"#contact\">Enquire about <strong>preventive maintenance</strong> <i class=\"fas fa-arrow-right ml-1\"></i></a></div>\r\n</div>\r\n</div>\r\n</div>\r\n</section>\r\n<!-- Areas We Serve Section -->\r\n<section class=\"py-20 bg-white\">\r\n<div class=\"container mx-auto px-4 sm:px-6 lg:px-8\">\r\n<div class=\"text-center mb-16\">\r\n<h2 class=\"text-4xl sm:text-5xl section-title\">Serving Every Corner of Vadodara</h2>\r\n<p class=\"mt-4 text-lg text-gray-600 max-w-3xl mx-auto\">No matter where your business is located in Vadodara, our technicians can reach you. We offer prompt <strong>cold room repair near me</strong> service across the entire city and surrounding GIDC areas.</p>\r\n</div>\r\n<div class=\"flex flex-wrap justify-center gap-3 text-center\"><span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Alkapuri</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Manjalpur</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Gotri</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Nizampura</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Fatehgunj</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Akota</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Waghodia Road</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full font-bold text-yellow-700\">Makarpura GIDC</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Nandesari GIDC</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Por-Ramangamdi GIDC</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Savli (Manjusar) GIDC</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Karelibaug</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Tarsali</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">Bhayli</span> <span class=\"area-tag font-semibold py-2 px-4 rounded-full\">And all surrounding neighborhoods!</span></div>\r\n<div class=\"text-center mt-8\"><a id=\"show-all-areas\" class=\"font-bold text-yellow-600 hover:underline\" href=\"#all-areas\">Show All 100+ Service Locations <i class=\"fas fa-chevron-down ml-1\"></i></a></div>\r\n<div id=\"all-areas-list\" class=\"hidden mt-8 flex flex-wrap justify-center gap-2 text-sm text-gray-600\"><!-- Dynamically populated or statically listed --> <span class=\"area-tag text-xs py-1 px-2 rounded-full\">Ajwa Road</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Akota</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Alkapuri</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Asoj</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Atladara</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Bajwa</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Baranpura</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Bhayli</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Bill</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Chhani</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Dabhoi Road</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Dandia Bazar</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Danteshwar</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Dashrath</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Diwalipura</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Fatehganj</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Gorwa</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Gotri</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Harni</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Jetalpur road</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Karelibaug</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Makarpura GIDC</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Maneja</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Manjalpur</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Muj Mahuda</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Nandesari GIDC</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">New VIP Road</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Nizampura</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Old Padra Road</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Padra</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Race Course</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Ranoli GIDC</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Sama</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Savli (Manjusar) GIDC</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Sayajigunj</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Subhanpura</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Tandalja</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Tarsali</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Vadsar</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Vasna-Bhayli Road</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Waghodia GIDC</span><span class=\"area-tag text-xs py-1 px-2 rounded-full\">Waghodia Road</span></div>\r\n</div>\r\n</section>\r\n<!-- Testimonials Section -->\r\n<section class=\"py-20\">\r\n<div class=\"container mx-auto px-4 sm:px-6 lg:px-8\">\r\n<div class=\"text-center mb-16\">\r\n<h2 class=\"text-4xl sm:text-5xl section-title\">What Our Clients Say</h2>\r\n<p class=\"mt-4 text-lg text-gray-600 max-w-3xl mx-auto\">Our commitment to quality service is reflected in the words of our satisfied customers.</p>\r\n</div>\r\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">\r\n<div class=\"bg-white p-8 rounded-xl shadow-lg\">\r\n<div class=\"flex items-center mb-4\"><img decoding=\"async\" class=\"w-12 h-12 rounded-full mr-4\" src=\"https://placehold.co/50x50/FFD700/000000?text=RP\" alt=\"Rakesh Patel\" title=\"\">\r\n<div>\r\n<h4 class=\"font-bold text-gray-900\">Rakesh Patel</h4>\r\n<p class=\"text-sm text-gray-500\">Restaurant Owner, Alkapuri</p>\r\n</div>\r\n</div>\r\n<div class=\"text-yellow-400 mb-2\"> </div>\r\n<p class=\"text-gray-600\">&#8220;<strong>Atlas Aircon</strong> is a lifesaver! Our <strong>walk-in cooler</strong> broke down during a busy weekend. Their technician arrived within 2 hours and fixed the <strong>compressor issue</strong> promptly. Truly the <strong>best cold room company in Vadodara</strong>.&#8221;</p>\r\n</div>\r\n<div class=\"bg-white p-8 rounded-xl shadow-lg\">\r\n<div class=\"flex items-center mb-4\"><img decoding=\"async\" class=\"w-12 h-12 rounded-full mr-4\" src=\"https://placehold.co/50x50/FFD700/000000?text=AS\" alt=\"Anjali Shah\" title=\"\">\r\n<div>\r\n<h4 class=\"font-bold text-gray-900\">Anjali Shah</h4>\r\n<p class=\"text-sm text-gray-500\">Pharma Unit Head, Makarpura GIDC</p>\r\n</div>\r\n</div>\r\n<div class=\"text-yellow-400 mb-2\"> </div>\r\n<p class=\"text-gray-600\">&#8220;We rely on Atlas Aircon for our <strong>cold room AMC service</strong>. Their preventive maintenance is thorough and has saved us from unexpected breakdowns. Their <strong>refrigeration technician near Makarpura GIDC</strong> is always professional.&#8221;</p>\r\n</div>\r\n<div class=\"bg-white p-8 rounded-xl shadow-lg\">\r\n<div class=\"flex items-center mb-4\"><img decoding=\"async\" class=\"w-12 h-12 rounded-full mr-4\" src=\"https://placehold.co/50x50/FFD700/000000?text=VS\" alt=\"Vikram Singh\" title=\"\">\r\n<div>\r\n<h4 class=\"font-bold text-gray-900\">Vikram Singh</h4>\r\n<p class=\"text-sm text-gray-500\">Dairy Manager, Waghodia Road</p>\r\n</div>\r\n</div>\r\n<div class=\"text-yellow-400 mb-2\"> </div>\r\n<p class=\"text-gray-600\">&#8220;We had an <strong>urgent refrigeration repair</strong> need. The team responded quickly and handled the <strong>refrigeration unit repair in Vadodara</strong> efficiently. Their pricing was transparent and fair. Highly recommend their services.&#8221;</p>\r\n</div>\r\n</div>\r\n</div>\r\n</section>\r\n<!-- FAQ Section -->\r\n<section class=\"py-20 bg-white\">\r\n<div class=\"container mx-auto px-4 sm:px-6 lg:px-8\">\r\n<div class=\"text-center mb-16\">\r\n<h2 class=\"text-4xl sm:text-5xl section-title\">Frequently Asked Questions</h2>\r\n<p class=\"mt-4 text-lg text-gray-600 max-w-3xl mx-auto\">Got questions? We&#8217;ve got answers. Here are some common queries about our <strong>cold room repair services</strong>.</p>\r\n</div>\r\n<div class=\"max-w-4xl mx-auto space-y-4\">\r\n<div class=\"bg-gray-50 rounded-lg\"><button class=\"w-full flex justify-between items-center text-left text-lg font-semibold p-6\"> How much does COLD ROOM repair cost in Vadodara? <i class=\"fas\"></i> </button>\r\n<div class=\"p-6 pt-0 text-gray-600\">\r\n<p>Our basic inspection charge is ₹500. The final cost for <strong>cold room repair in Vadodara</strong> depends on the specific issue and parts required. We always provide a transparent, detailed quote before starting any work, ensuring no hidden costs.</p>\r\n</div>\r\n</div>\r\n<div class=\"bg-gray-50 rounded-lg\"><button class=\"w-full flex justify-between items-center text-left text-lg font-semibold p-6\"> How quickly can you send a technician for cold room repair? <i class=\"fas\"></i> </button>\r\n<div class=\"p-6 pt-0 text-gray-600\">\r\n<p>We offer <strong>same-day emergency cold room service</strong> across most of Vadodara for calls received before 2 PM. Our goal is to minimize your downtime and get your operations back to normal as fast as possible.</p>\r\n</div>\r\n</div>\r\n<div class=\"bg-gray-50 rounded-lg\"><button class=\"w-full flex justify-between items-center text-left text-lg font-semibold p-6\"> Do you repair all COLD ROOM brands and types? <i class=\"fas\"></i> </button>\r\n<div class=\"p-6 pt-0 text-gray-600\">\r\n<p>Yes, our expert technicians are trained to repair all major cold room brands including Blue Star, Carrier, Daikin, Voltas, and more. We service all types, from <strong>walk-in chillers</strong> and <strong>freezers</strong> to complex <strong>pharmaceutical cold rooms</strong>.</p>\r\n</div>\r\n</div>\r\n<div class=\"bg-gray-50 rounded-lg\"><button class=\"w-full flex justify-between items-center text-left text-lg font-semibold p-6\"> Do you offer a warranty on your repairs? <i class=\"fas\"></i> </button>\r\n<div class=\"p-6 pt-0 text-gray-600\">\r\n<p>Absolutely. We provide a <strong>30-day service guarantee</strong> on all our repair services and a <strong>3-month warranty on spare parts</strong> to give you complete peace of mind.</p>\r\n</div>\r\n</div>\r\n<div class=\"bg-gray-50 rounded-lg\"><button class=\"w-full flex justify-between items-center text-left text-lg font-semibold p-6\"> What should I do if my cold room is leaking water? <i class=\"fas\"></i> </button>\r\n<div class=\"p-6 pt-0 text-gray-600\">\r\n<p>If your <strong>cold room is leaking water</strong>, it could be due to a clogged drain line, a faulty door seal, or incorrect defrost cycles. It&#8217;s best to call a professional technician immediately to prevent product damage and safety hazards. We can diagnose and resolve the issue quickly.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</section>\r\n<!-- Contact Section -->\r\n<section id=\"contact\" class=\"py-20 bg-gray-900 text-white\">\r\n<div class=\"container mx-auto px-4 sm:px-6 lg:px-8\">\r\n<div class=\"text-center mb-16\">\r\n<h2 class=\"text-4xl sm:text-5xl section-title\" style=\"color: white; --after-bg: #FFD700;\">Get a Free Quote Today!</h2>\r\n<p class=\"mt-4 text-lg text-gray-300 max-w-3xl mx-auto\">Ready to get your cold room fixed? Contact us now for fast, professional service. We&#8217;re available 24/7 for <strong>emergency cold room repair in Vadodara</strong>.</p>\r\n</div>\r\n<div class=\"grid grid-cols-1 lg:grid-cols-2 gap-12\">\r\n<div class=\"bg-gray-800 p-8 rounded-lg\">\r\n<h3 class=\"text-2xl font-bold mb-6 text-yellow-400\">Book Your Service</h3>\r\n<form action=\"#\" method=\"POST\">\r\n<div class=\"mb-4\"><label class=\"block mb-2 font-semibold\" for=\"name\">Name</label> <input id=\"name\" class=\"w-full p-3 rounded bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-500\" name=\"name\" required=\"\" type=\"text\" /></div>\r\n<div class=\"mb-4\"><label class=\"block mb-2 font-semibold\" for=\"phone\">Phone Number</label> <input id=\"phone\" class=\"w-full p-3 rounded bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-500\" name=\"phone\" required=\"\" type=\"tel\" /></div>\r\n<div class=\"mb-6\"><label class=\"block mb-2 font-semibold\" for=\"service\">Service Needed</label> <textarea id=\"service\" class=\"w-full p-3 rounded bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-yellow-500\" name=\"service\" rows=\"4\" placeholder=\"e.g., Cold room not cooling, need gas filling...\"></textarea></div>\r\n<button class=\"w-full btn-golden font-bold py-3 px-6 rounded-lg text-lg\" type=\"submit\">Submit Request</button></form></div>\r\n<div class=\"space-y-8\">\r\n<div>\r\n<h3 class=\"text-2xl font-bold mb-4 text-yellow-400\">Contact Information</h3>\r\n<div class=\"space-y-4 text-lg\">\r\n<p><i class=\"fas fa-phone-alt text-yellow-400 w-6\"></i> <a class=\"hover:underline\" href=\"tel:+919727257141\"><strong>Call Us:</strong> +91-9727257141</a></p>\r\n<p><i class=\"fas fa-envelope text-yellow-400 w-6\"></i> <a class=\"hover:underline\" href=\"mailto:atlasaircon1@gmail.com\"><strong>Email Us:</strong> atlasaircon1@gmail.com</a></p>\r\n<p><i class=\"fas fa-map-marker-alt text-yellow-400 w-6\"></i> <strong>Service Area:</strong> Vadodara, Gujarat, India</p>\r\n</div>\r\n</div>\r\n<div><iframe loading=\"lazy\" class=\"rounded-lg\" style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118104.20953043292!2d73.12653774335937!3d22.310699400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc2ab96a3a355%3A0x41a5a92a9958319e!2sVadodara%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1678886565345!5m2!1sen!2sin\" width=\"100%\" height=\"250\" allowfullscreen=\"allowfullscreen\"></iframe></div>\r\n</div>\r\n</div>\r\n</div>\r\n</section>\r\n</main><!-- Sticky Call To Action on Mobile -->\r\n<div class=\"sticky-cta bg-gray-900 p-2 flex justify-around items-center md:hidden\"><a class=\"flex-1 text-center bg-green-500 text-white font-bold py-3 px-4 rounded-lg text-lg\" href=\"tel:+919727257141\"> <i class=\"fas fa-phone-alt\"></i> Call Now </a> <a class=\"flex-1 text-center bg-green-600 text-white font-bold py-3 px-4 rounded-lg ml-2 text-lg\" href=\"https://wa.me/919727257141\" target=\"_blank\" rel=\"noopener\"> <i class=\"fab fa-whatsapp\"></i> WhatsApp </a></div>\r\n<p><script src=\"https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js\" defer></script> <script>\r\n        document.addEventListener('DOMContentLoaded', function() {\r\n            // \"Show All Areas\" Toggle\r\n            const showAllAreasButton = document.getElementById('show-all-areas');\r\n            const allAreasList = document.getElementById('all-areas-list');\r\n            showAllAreasButton.addEventListener('click', (e) => {\r\n                e.preventDefault();\r\n                allAreasList.classList.toggle('hidden');\r\n                if (!allAreasList.classList.contains('hidden')) {\r\n                    showAllAreasButton.innerHTML = 'Show Fewer Locations <i class=\"fas fa-chevron-up ml-1\"></i>';\r\n                } else {\r\n                    showAllAreasButton.innerHTML = 'Show All 100+ Service Locations <i class=\"fas fa-chevron-down ml-1\"></i>';\r\n                }\r\n            });\r\n        });\r\n    </script></p>\r\n\r\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Expert Cold Room Repair Service in Vadodara Your business can&#8217;t afford downtime. We provide fast, reliable, and 24/7 emergency cold room repair service to keep your operations running smoothly. From walk-in cooler repair to industrial cold storage maintenance, our certified technicians are here to help. Get Urgent Help Now Book Service Online We Service All [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 8720,
+  "comment_status": "open",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "categories": [
+    1
+  ],
+  "tags": [
+    5378,
+    5369,
+    5353,
+    5373,
+    5342,
+    5354,
+    5388,
+    1023,
+    5360,
+    5348,
+    5358,
+    5345,
+    5349,
+    1061,
+    5343,
+    1016,
+    5362,
+    5335,
+    5341,
+    5350,
+    5344,
+    5363,
+    5339,
+    1015,
+    5334,
+    5374,
+    5336,
+    5333,
+    5365,
+    5337,
+    5346,
+    5371,
+    5340,
+    5364,
+    5361,
+    5355,
+    5338,
+    5366,
+    5357,
+    5351,
+    5347,
+    5352,
+    5367,
+    5385,
+    5359,
+    5376,
+    5379,
+    4943,
+    5356,
+    5370,
+    5390,
+    5389,
+    5400,
+    5377,
+    5394,
+    5368,
+    5395,
+    5409,
+    5401,
+    5391,
+    5407,
+    5375,
+    5382,
+    5392,
+    5372,
+    5403,
+    5386,
+    5387,
+    5397,
+    5381,
+    5380,
+    1018,
+    5402,
+    5398,
+    5410,
+    5414,
+    5383,
+    5405,
+    5384,
+    5413,
+    5406,
+    5411,
+    5396,
+    5393,
+    5399,
+    5408,
+    5404,
+    5412
+  ],
+  "class_list": [
+    "post-8723",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-uncategorized",
+    "tag-24-7-walk-in-cooler-repair",
+    "tag-24-7-walk-in-cooler-repair-vadodara",
+    "tag-best-cold-room-company-in-vadodara",
+    "tag-buy-cold-room-spare-parts-vadodara",
+    "tag-cold-room-amc-service-vadodara-annual-maintenance-contract",
+    "tag-cold-room-breakdown-service-vadodara",
+    "tag-cold-room-compressor-not-starting",
+    "tag-cold-room-compressor-repair",
+    "tag-cold-room-compressor-repair-vadodara",
+    "tag-cold-room-compressor-replacement-vadodara",
+    "tag-cold-room-door-repair",
+    "tag-cold-room-gas-filling-vadodara",
+    "tag-cold-room-installation-cost-in-vadodara",
+    "tag-cold-room-installation-vadodara",
+    "tag-cold-room-leaking-water",
+    "tag-cold-room-maintenance-services",
+    "tag-cold-room-making-noise",
+    "tag-cold-room-not-cooling",
+    "tag-cold-room-not-cooling-vadodara",
+    "tag-cold-room-panel-replacement",
+    "tag-cold-room-panel-replacement-gujarat",
+    "tag-cold-room-repair-near-me",
+    "tag-cold-room-repair-service",
+    "tag-cold-room-repair-vadodara",
+    "tag-cold-room-service-near-makarpura-gidc",
+    "tag-cold-room-service-near-me",
+    "tag-cold-room-setup-and-commissioning",
+    "tag-cold-room-spare-parts",
+    "tag-cold-room-spare-parts-vadodara",
+    "tag-cold-room-technician",
+    "tag-cold-room-technician-in-vadodara",
+    "tag-cold-storage-breakdown-service-vadodara",
+    "tag-cold-storage-company-in-vadodara",
+    "tag-cold-storage-condenser-replacement",
+    "tag-cold-storage-condenser-unit-service",
+    "tag-cold-storage-door-gasket-supplier-vadodara",
+    "tag-cold-storage-installation",
+    "tag-cold-storage-maintenance-vadodara",
+    "tag-cold-storage-repair-company-in-vadodara",
+    "tag-cold-storage-setup-cost-gujarat",
+    "tag-commercial-cold-room-price-in-vadodara",
+    "tag-commercial-cold-storage-setup-price",
+    "tag-commercial-refrigeration-repair",
+    "tag-commercial-refrigeration-repair-services-gujarat",
+    "tag-commercial-refrigerator-service-contract",
+    "tag-emergency-cold-room-repair-vadodara",
+    "tag-emergency-cold-room-service",
+    "tag-evaporator-coil-repair",
+    "tag-fast-refrigeration-repair-gidc-vadodara",
+    "tag-faulty-cold-room-thermostat",
+    "tag-fix-my-broken-cold-room",
+    "tag-ice-buildup-in-cold-room",
+    "tag-ice-buildup-in-cold-room-fix-vadodara",
+    "tag-industrial-cold-room-installation",
+    "tag-industrial-cold-room-installers-vadodara",
+    "tag-local-cold-room-installation-company",
+    "tag-new-walk-in-cooler-in-vadodara",
+    "tag-preventive-maintenance-for-cold-storage-gujarat",
+    "tag-puf-panel-cold-room-installation-vadodara",
+    "tag-puf-panel-cold-room-installers-vadodara",
+    "tag-refrigeration-gas-charging-service-in-vadodara",
+    "tag-refrigeration-repair-waghodia-road",
+    "tag-refrigeration-services-gidc-vadodara",
+    "tag-refrigeration-technician-near-makarpura-gidc",
+    "tag-refrigeration-unit-repair",
+    "tag-refrigeration-unit-repair-in-vadodara",
+    "tag-same-day-cold-room-repair-in-gujarat",
+    "tag-thermostat-replacement-for-cold-room",
+    "tag-urgent-cold-storage-repair-in-vadodara",
+    "tag-urgent-refrigeration-repair",
+    "tag-urgent-refrigeration-repair-gidc-vadodara",
+    "tag-vadodara-cold-storage-repair",
+    "tag-walk-in-cooler-door-replacement-vadodara",
+    "tag-walk-in-cooler-fan-motor-repair",
+    "tag-walk-in-cooler-parts-replacement",
+    "tag-walk-in-cooler-repair",
+    "tag-walk-in-cooler-vadodara",
+    "tag-walk-in-freezer-door-gasket-replacement",
+    "tag-walk-in-freezer-installation-company",
+    "tag-walk-in-freezer-leaking-water-gujarat",
+    "tag-walk-in-freezer-manufacturers-gujarat",
+    "tag-walk-in-freezer-not-working-vadodara",
+    "tag-walk-in-freezer-repair",
+    "tag-walk-in-freezer-service-in-vadodara",
+    "tag-walk-in-freezer-temperature-problem",
+    "tag-walk-in-freezer-thermostat-price",
+    "tag-5404",
+    "tag-----walk-in-cooler-service"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/8723",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=8723"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/8723/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/8720"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=8723"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/categories?post=8723"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/tags?post=8723"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": 5495,
+  "date": "2025-05-08T08:43:29",
+  "date_gmt": "2025-05-08T03:13:29",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=5495"
+  },
+  "modified": "2026-03-05T15:50:33",
+  "modified_gmt": "2026-03-05T10:20:33",
+  "slug": "privacy-policy",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/privacy-policy/",
+  "title": {
+    "rendered": "Privacy Policy"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://atlasaircons.com/privacy-policy/#webpage\",\n      \"url\": \"https://atlasaircons.com/privacy-policy/\",\n      \"name\": \"Privacy Policy - Atlas Aircon Gujarat\",\n      \"description\": \"Our commitment to protecting your data while providing expert AC, Fridge, and Washing Machine repairs in Gujarat.\",\n      \"breadcrumb\": {\n        \"@type\": \"BreadcrumbList\",\n        \"itemListElement\": [\n          { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://atlasaircons.com/\" },\n          { \"@type\": \"ListItem\", \"position\": 2, \"name\": \"Privacy Policy\" }\n        ]\n      }\n    }\n  ]\n}\n</script>\n\n<style>\n    .privacy-v2 { font-family: 'Inter', sans-serif; }\n    .privacy-v2 .hero-bg {\n        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);\n        position: relative;\n        overflow: hidden;\n    }\n    .privacy-v2 .section-card {\n        background: white;\n        border: 1px solid #e2e8f0;\n        border-radius: 1.5rem;\n        padding: 2rem;\n        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);\n        margin-bottom: 2rem;\n    }\n    .privacy-v2 h2 { color: #0f172a; font-weight: 800; }\n    .privacy-v2 h3 { color: #1e40af; font-weight: 700; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }\n    .privacy-v2 p { color: #475569; margin-bottom: 1rem; }\n    .privacy-v2 .brand-strip {\n        filter: grayscale(100%);\n        opacity: 0.6;\n        transition: 0.3s;\n    }\n    .privacy-v2 .brand-strip:hover { filter: grayscale(0%); opacity: 1; }\n</style>\n\n<div class=\"privacy-v2 bg-slate-50 leading-relaxed pb-20\">\n\n    <section class=\"hero-bg pt-20 pb-16 px-6 text-white text-center\">\n        <div class=\"max-w-4xl mx-auto\">\n            <h1 class=\"text-4xl md:text-6xl font-black tracking-tight mb-4\">\n                Data <span class=\"text-blue-400\">Protection</span> Policy\n            </h1>\n            <p class=\"text-lg text-slate-300 mb-8 max-w-2xl mx-auto\">\n                At Atlas Aircon, your trust is as important as your appliance&#8217;s health. We ensure complete transparency regarding how we handle your information across Gujarat.\n            </p>\n            <div class=\"flex flex-wrap justify-center gap-4\">\n                 <a href=\"tel:+919727257141\" class=\"bg-blue-600 px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition\">\n                    <i class=\"fas fa-phone-alt mr-2\"></i> Support Line\n                </a>\n                <a href=\"https://wa.me/919727257141\" class=\"bg-green-600 px-8 py-3 rounded-full font-bold hover:bg-green-700 transition\" target=\"_blank\" rel=\"noopener\">\n                    <i class=\"fab fa-whatsapp mr-2\"></i> WhatsApp\n                </a>\n            </div>\n        </div>\n    </section>\n\n    <main class=\"max-w-5xl mx-auto px-6 -mt-10 relative z-10\">\n        \n        <div class=\"section-card\">\n            <h2 class=\"text-2xl md:text-3xl mb-6\">Our Commitment to Users</h2>\n            <p>\n                Whether you are booking a specialized <strong>Blue Star AC repair</strong> in Vadodara or a <strong>Samsung fridge service</strong> in Ahmedabad, your contact details and address are never shared with marketing agencies. We use your data strictly to facilitate technical dispatch and service tracking.\n            </p>\n            <p class=\"font-bold text-slate-900\">Official URL: https://atlasaircons.com</p>\n        </div>\n\n        <div class=\"grid md:grid-cols-2 gap-8 mb-12\">\n            <div class=\"bg-blue-50 p-8 rounded-3xl border border-blue-100\">\n                <h3 class=\"text-blue-900\"><i class=\"fas fa-shield-check\"></i> Security Protocols</h3>\n                <ul class=\"space-y-3 text-sm text-slate-700 font-medium\">\n                    <li class=\"flex gap-2\"><i class=\"fas fa-check text-green-500\"></i> Encrypted server-side data processing.</li>\n                    <li class=\"flex gap-2\"><i class=\"fas fa-check text-green-500\"></i> Regular purging of temporary service cookies.</li>\n                    <li class=\"flex gap-2\"><i class=\"fas fa-check text-green-500\"></i> Secure technician verification systems.</li>\n                </ul>\n            </div>\n            <div class=\"bg-red-50 p-8 rounded-3xl border border-red-100\">\n                <h3 class=\"text-red-900\"><i class=\"fas fa-user-slash\"></i> What We Never Do</h3>\n                <ul class=\"space-y-3 text-sm text-slate-700 font-medium\">\n                    <li class=\"flex gap-2\"><i class=\"fas fa-times text-red-500\"></i> No selling of customer phone lists.</li>\n                    <li class=\"flex gap-2\"><i class=\"fas fa-times text-red-500\"></i> No aggressive GPS tracking of site visitors.</li>\n                    <li class=\"flex gap-2\"><i class=\"fas fa-times text-red-500\"></i> No storage of sensitive payment credentials.</li>\n                </ul>\n            </div>\n        </div>\n\n        <div class=\"space-y-10\">\n            <section>\n                <h3 class=\"text-xl font-bold text-slate-900\"><i class=\"fas fa-camera text-blue-600\"></i> Media and Image Uploads</h3>\n                <p>\n                    When sending us photos of your <strong>AC error codes</strong> or faulty appliance parts via the website, please avoid images with embedded GPS location data (EXIF data). This protects your residential privacy from public extraction.\n                </p>\n            </section>\n\n            <section>\n                <h3 class=\"text-xl font-bold text-slate-900\"><i class=\"fas fa-cookie-bite text-blue-600\"></i> Cookie Utilization</h3>\n                <p>\n                    Our site uses cookies for your convenience. If you leave a review or query, we may save your name and email so you don’t have to re-type them for your next repair booking. These last for one year. Standard login cookies last for 48 hours unless &#8220;Remember Me&#8221; is selected.\n                </p>\n            </section>\n\n            <section>\n                <h3 class=\"text-xl font-bold text-slate-900\"><i class=\"fas fa-map-marked-alt text-blue-600\"></i> Third-Party Content</h3>\n                <p>\n                    We may embed maps (Google Maps) to show you our <strong>service centers in Gujarat</strong> or YouTube videos for technical guides. These platforms may collect data regarding your interaction if you are currently logged into their services.\n                </p>\n            </section>\n\n            <section class=\"bg-white p-8 rounded-3xl shadow-sm border border-slate-200\">\n                <h3 class=\"text-xl font-bold text-slate-900\"><i class=\"fas fa-user-shield text-blue-600\"></i> Your Rights Over Your Data</h3>\n                <p>\n                    You have the right to request a copy of the personal data we hold about you or request that we erase it. This excludes any data we are required to keep for legal, administrative, or engineering service history purposes.\n                </p>\n                <a href=\"mailto:atlasaircon1@gmail.com\" class=\"text-blue-600 font-bold hover:underline\">Email Data Request ➔</a>\n            </section>\n        </div>\n    </main>\n\n    <div class=\"max-w-7xl mx-auto px-6 pt-20\">\n        <div class=\"flex flex-wrap justify-center gap-8 brand-strip\">\n            <span class=\"font-black text-slate-400\">VOLTAS</span>\n            <span class=\"font-black text-slate-400\">SAMSUNG</span>\n            <span class=\"font-black text-slate-400\">DAIKIN</span>\n            <span class=\"font-black text-slate-400\">CARRIER</span>\n            <span class=\"font-black text-slate-400\">LG</span>\n        </div>\n    </div>\n\n</div>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Data Protection Policy At Atlas Aircon, your trust is as important as your appliance&#8217;s health. We ensure complete transparency regarding how we handle your information across Gujarat. Support Line WhatsApp Our Commitment to Users Whether you are booking a specialized Blue Star AC repair in Vadodara or a Samsung fridge service in Ahmedabad, your contact [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-5495",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/5495",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=5495"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/5495/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=5495"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": 10713,
+  "date": "2026-02-07T09:31:05",
+  "date_gmt": "2026-02-07T04:01:05",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=10713"
+  },
+  "modified": "2026-02-07T09:31:10",
+  "modified_gmt": "2026-02-07T04:01:10",
+  "slug": "service-areas",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/service-areas/",
+  "title": {
+    "rendered": "Service Areas"
+  },
+  "content": {
+    "rendered": "\n<div class=\"bg-slate-50 py-12\">\n    <div class=\"container mx-auto px-4\">\n        <h1 class=\"text-4xl font-black text-slate-900 text-center mb-12 uppercase\">Atlas Aircon <span class=\"text-cyan-600\">Deployment Zones</span></h1>\n        \n        <div class=\"grid md:grid-cols-3 gap-8\">\n            <div class=\"bg-white p-8 rounded-xl shadow-lg border-t-4 border-cyan-500\">\n                <h3 class=\"text-xl font-bold text-slate-900 mb-4 uppercase\"><i class=\"fas fa-industry text-cyan-500 mr-2\"></i> Industrial GIDC</h3>\n                <ul class=\"space-y-2 text-slate-600\">\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Makarpura GIDC (Zone A &#038; B)</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Nandesari (Chemical Zone)</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Por &#038; Ramangamdi</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Savli Manjusar</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Waghodia GIDC</li>\n                </ul>\n                <p class=\"text-xs text-slate-400 mt-4\">*45-Min Emergency Response Available</p>\n            </div>\n\n            <div class=\"bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600\">\n                <h3 class=\"text-xl font-bold text-slate-900 mb-4 uppercase\"><i class=\"fas fa-home text-blue-600 mr-2\"></i> Vadodara City</h3>\n                <ul class=\"space-y-2 text-slate-600\">\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Alkapuri &#038; Race Course</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Old Padra Road (OP Road)</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Vasna &#038; Bhayli</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Karelibaug &#038; Sama</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Manjalpur &#038; Maneja</li>\n                </ul>\n                <p class=\"text-xs text-slate-400 mt-4\">*Same-Day Home Service</p>\n            </div>\n\n            <div class=\"bg-white p-8 rounded-xl shadow-lg border-t-4 border-slate-800\">\n                <h3 class=\"text-xl font-bold text-slate-900 mb-4 uppercase\"><i class=\"fas fa-map-marked-alt text-slate-800 mr-2\"></i> Gujarat Region</h3>\n                <ul class=\"space-y-2 text-slate-600\">\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Anand &#038; Vidyanagar</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Bharuch (Dahej GIDC)</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Halol (Auto Zone)</li>\n                    <li><i class=\"fas fa-check text-green-500 mr-2\"></i> Karjan</li>\n                </ul>\n                <p class=\"text-xs text-slate-400 mt-4\">*By Appointment Only (AMC Clients)</p>\n            </div>\n        </div>\n\n        <div class=\"text-center mt-12\">\n            <a href=\"tel:+919727257141\" class=\"bg-slate-900 text-white px-8 py-4 rounded-full font-bold uppercase tracking-widest hover:bg-cyan-500 hover:text-slate-900 transition\">\n                Check My Location Availability\n            </a>\n        </div>\n    </div>\n</div>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Atlas Aircon Deployment Zones Industrial GIDC Makarpura GIDC (Zone A &#038; B) Nandesari (Chemical Zone) Por &#038; Ramangamdi Savli Manjusar Waghodia GIDC *45-Min Emergency Response Available Vadodara City Alkapuri &#038; Race Course Old Padra Road (OP Road) Vasna &#038; Bhayli Karelibaug &#038; Sama Manjalpur &#038; Maneja *Same-Day Home Service Gujarat Region Anand &#038; Vidyanagar Bharuch [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-10713",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/10713",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=10713"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/10713/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=10713"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

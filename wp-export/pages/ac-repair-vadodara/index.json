@@ -1,0 +1,103 @@
+{
+  "id": 9150,
+  "date": "2026-01-26T07:47:31",
+  "date_gmt": "2026-01-26T02:17:31",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=9150"
+  },
+  "modified": "2026-03-05T15:32:08",
+  "modified_gmt": "2026-03-05T10:02:08",
+  "slug": "ac-repair-vadodara",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/ac-repair-vadodara/",
+  "title": {
+    "rendered": "ac repair vadodara"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"HVACBusiness\",\n      \"@id\": \"https://atlasaircons.com/#localbusiness\",\n      \"name\": \"Atlas Aircon\",\n      \"image\": \"https://atlasaircons.com/wp-content/uploads/2019/03/cropped-AtlasAircon-Logo.png\",\n      \"telephone\": \"+91 97272 57141\",\n      \"email\": \"atlasaircon1@gmail.com\",\n      \"url\": \"https://atlasaircons.com/\",\n      \"priceRange\": \"₹399 - ₹25000\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"27 Payal Complex, Sayajigunj\",\n        \"addressLocality\": \"Vadodara\",\n        \"postalCode\": \"390005\",\n        \"addressCountry\": \"IN\"\n      },\n      \"aggregateRating\": {\n        \"@type\": \"AggregateRating\",\n        \"ratingValue\": \"4.9\",\n        \"reviewCount\": \"1248\"\n      }\n    }\n  ]\n}\n</script>\n\n<style>\n    .v-service-wrapper { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }\n    .v-service-wrapper .hero-grad { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #ea580c 100%); }\n    .v-service-wrapper .v-section-title { position: relative; padding-bottom: 1rem; margin-bottom: 2rem; }\n    .v-service-wrapper .v-section-title::after { \n        content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); \n        width: 80px; height: 4px; background: #ea580c; border-radius: 2px; \n    }\n    .v-service-wrapper .loc-tag { transition: 0.2s; border: 1px solid #e2e8f0; }\n    .v-service-wrapper .loc-tag:hover { border-color: #ea580c; background-color: #fff7ed; transform: translateY(-2px); }\n    .calc-box-result { margin-top: 1rem; padding: 1rem; border-radius: 0.5rem; text-align: center; display: none; }\n</style>\n\n<div class=\"v-service-wrapper bg-slate-50 text-slate-900 leading-relaxed\">\n    \n    <div class=\"bg-slate-950 text-white py-2 text-xs font-bold uppercase tracking-tighter\">\n        <div class=\"max-w-7xl mx-auto px-6 flex justify-between items-center\">\n            <span class=\"flex items-center gap-2\">\n                <span class=\"bg-red-500 w-2 h-2 rounded-full animate-pulse\"></span>\n                Baroda Emergency Line: <strong class=\"text-yellow-400\">+91 97272 57141</strong>\n            </span>\n            <div class=\"flex items-center gap-3\">\n                <span class=\"hidden sm:inline bg-white/10 px-2 py-0.5 rounded\" id=\"reading-time-display\">⏱️ Calculating&#8230;</span>\n                <span class=\"bg-yellow-500 text-slate-950 px-2 py-0.5 rounded\">2026 Updated</span>\n            </div>\n        </div>\n    </div>\n\n    <header class=\"hero-grad text-white py-16 md:py-24 px-6 relative overflow-hidden\">\n        <div class=\"max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10\">\n            <div>\n                <h1 class=\"text-4xl md:text-6xl font-black mb-6 leading-tight\">\n                    Real <span class=\"text-yellow-400\">AC Repair <span class=\"dynamic-loc\">Vadodara</span></span> — No Fake Promises.\n                </h1>\n                <p class=\"text-lg md:text-xl mb-8 text-blue-100 leading-relaxed\">\n                    Stop wasting money on simple &#8220;filter cleaning&#8221; that doesn&#8217;t fix your cooling. We provide deep technical overhauls, Nitrogen leak testing, and PCB repairs for <strong class=\"dynamic-loc\">Vadodara</strong> homes and GIDC plants.\n                </p>\n                <div class=\"flex flex-col sm:flex-row gap-4\">\n                    <a href=\"tel:+919727257141\" class=\"bg-orange-600 text-white px-8 py-4 rounded-xl font-black text-lg text-center hover:bg-orange-700 transition shadow-xl transform hover:-translate-y-1\">\n                        Call Dispatch Now\n                    </a>\n                    <a href=\"#buy-sell\" class=\"bg-white/10 backdrop-blur-md border-2 border-white/50 text-white px-8 py-4 rounded-xl font-bold text-lg text-center hover:bg-white hover:text-slate-900 transition\">\n                        Sell Your Old AC\n                    </a>\n                </div>\n            </div>\n            <div class=\"hidden lg:block\">\n                <img decoding=\"async\" src=\"https://atlasaircons.com/wp-content/uploads/2025/10/Split-Air-Conditioner.webp\" alt=\"AC Service Vadodara\" class=\"rounded-3xl shadow-2xl border-4 border-white/20 transform rotate-2\" title=\"\">\n            </div>\n        </div>\n    </header>\n\n    <section class=\"py-16 px-6 bg-white\">\n        <div class=\"max-w-4xl mx-auto\">\n            <h2 class=\"text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center v-section-title\">The Truth About AC &#8220;Apps&#8221;</h2>\n            <p class=\"text-lg text-slate-600 mb-6 text-justify\">\n                Giant aggregator apps send unverified daily-wagers to your house. They want to finish the job in 20 minutes and leave. If your AC gas leaks again in 10 days, those apps won&#8217;t help you.\n            </p>\n            <p class=\"text-lg text-slate-600 mb-6 text-justify font-bold\">\n                Atlas Aircon is a local engineering firm, not a booking office.\n            </p>\n            <p class=\"text-lg text-slate-600 text-justify\">\n                Our in-house mechanics live in <span class=\"dynamic-loc\">Vadodara</span>. We use 120-bar Power Jets because we know Baroda&#8217;s dust is thick. We use Nitrogen testing because we know standard soap-water checks miss 40% of leaks. When we fix your machine, we stand by it for 90 days. No excuses.\n            </p>\n        </div>\n    </section>\n\n    <section class=\"py-16 px-6 bg-slate-50 border-t border-slate-200\">\n        <div class=\"max-w-7xl mx-auto\">\n            <h2 class=\"text-3xl md:text-5xl font-black text-center v-section-title\">Industrial Grade Repair</h2>\n            <div class=\"grid md:grid-cols-3 gap-8\">\n                <div class=\"p-8 rounded-2xl bg-white border border-slate-200 hover:border-orange-500 transition-all shadow-sm\">\n                    <div class=\"w-12 h-12 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center mb-4\">\n                        <i class=\"fas fa-bolt text-xl\"></i>\n                    </div>\n                    <h3 class=\"text-xl font-black mb-2\">Power Jet Deep Service</h3>\n                    <p class=\"text-slate-500 text-sm mb-4\">We flush the mud out of your cooling coils to stop water dripping and high bills.</p>\n                    <span class=\"text-orange-600 font-bold\">Starts @ ₹599</span>\n                </div>\n                <div class=\"p-8 rounded-2xl bg-white border border-slate-200 hover:border-blue-500 transition-all shadow-sm\">\n                    <div class=\"w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4\">\n                        <i class=\"fas fa-gas-pump text-xl\"></i>\n                    </div>\n                    <h3 class=\"text-xl font-black mb-2\">Leak Find &#038; Gas Refill</h3>\n                    <p class=\"text-slate-500 text-sm mb-4\">Finding the leak is more important than filling the gas. We weld, vacuum, then fill.</p>\n                    <span class=\"text-blue-600 font-bold\">Starts @ ₹2500</span>\n                </div>\n                <div class=\"p-8 rounded-2xl bg-white border border-slate-200 hover:border-yellow-600 transition-all shadow-sm\">\n                    <div class=\"w-12 h-12 bg-yellow-100 text-yellow-600 rounded-lg flex items-center justify-center mb-4\">\n                        <i class=\"fas fa-microchip text-xl\"></i>\n                    </div>\n                    <h3 class=\"text-xl font-black mb-2\">Inverter PCB Repair</h3>\n                    <p class=\"text-slate-500 text-sm mb-4\">Don&#8217;t buy a new board for ₹8000. We fix 85% of faulty boards at half the price.</p>\n                    <span class=\"text-yellow-600 font-bold\">Component Repair</span>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section id=\"buy-sell\" class=\"py-16 px-6 bg-slate-950 text-white\">\n        <div class=\"max-w-7xl mx-auto text-center\">\n            <h2 class=\"text-3xl md:text-5xl font-black mb-6\">Baroda&#8217;s Biggest Scrap AC Buyer</h2>\n            <p class=\"text-slate-400 max-w-2xl mx-auto mb-12\">Is your AC rusted, dead, or too expensive to fix? We buy scrap machines for cash and handle uninstallation for free.</p>\n            <div class=\"grid md:grid-cols-2 gap-8\">\n                <div class=\"p-8 bg-slate-900 rounded-3xl border border-slate-800 text-left\">\n                    <h3 class=\"text-2xl font-bold mb-4 text-orange-400\">Sell Old Working AC</h3>\n                    <p class=\"text-slate-400 mb-6\">Upgrading to a 5-star inverter? Get the highest market value for your working second-hand machine. Direct cash on the spot.</p>\n                    <a href=\"https://wa.me/919727257141?text=I want to sell my working AC\" class=\"bg-orange-600 px-6 py-3 rounded-lg font-bold inline-block\" target=\"_blank\" rel=\"noopener\">Check Price</a>\n                </div>\n                <div class=\"p-8 bg-slate-900 rounded-3xl border border-slate-800 text-left\">\n                    <h3 class=\"text-2xl font-bold mb-4 text-red-500\">Sell Dead Scrap AC</h3>\n                    <p class=\"text-slate-400 mb-6\">Completely seized compressor? Leaking cabinet? We buy junk ACs for parts and recycling. Fast pickup from any floor.</p>\n                    <a href=\"https://wa.me/919727257141?text=I want to sell my scrap AC\" class=\"bg-red-600 px-6 py-3 rounded-lg font-bold inline-block\" target=\"_blank\" rel=\"noopener\">Sell Today</a>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 px-6 bg-white\">\n        <div class=\"max-w-7xl mx-auto\">\n            <h2 class=\"text-3xl font-black text-center mb-12 v-section-title\">Technical Planning Tools</h2>\n            <div class=\"grid md:grid-cols-2 gap-10\">\n                <div class=\"bg-slate-50 p-8 rounded-3xl border border-slate-200\">\n                    <h3 class=\"text-xl font-bold mb-6 text-slate-800\"><i class=\"fas fa-plug text-orange-600 mr-2\"></i> Monthly Power Bill Estimator</h3>\n                    <div class=\"space-y-4\">\n                        <select id=\"acPowerType\" class=\"w-full p-4 border rounded-xl outline-none\">\n                            <option value=\"1.2\">1.5 Ton Normal AC (~1.2 Unit/Hr)</option>\n                            <option value=\"0.8\">1.5 Ton Inverter AC (~0.8 Unit/Hr)</option>\n                        </select>\n                        <input type=\"number\" id=\"dailyHours\" class=\"w-full p-4 border rounded-xl outline-none\" placeholder=\"Daily Usage (Hours)\">\n                        <button onclick=\"calculatePowerCost()\" class=\"w-full bg-orange-600 text-white font-black py-4 rounded-xl hover:bg-orange-700 transition\">Forecast Bill</button>\n                        <div id=\"powerResult\" class=\"calc-box-result bg-orange-50 text-orange-900 border border-orange-200 font-bold\"></div>\n                    </div>\n                </div>\n                <div class=\"bg-slate-50 p-8 rounded-3xl border border-slate-200\">\n                    <h3 class=\"text-xl font-bold mb-6 text-slate-800\"><i class=\"fas fa-industry text-blue-600 mr-2\"></i> GIDC Chiller Load Calculator</h3>\n                    <div class=\"grid grid-cols-2 gap-4 mb-4\">\n                        <input type=\"number\" id=\"flowRate\" class=\"p-4 border rounded-xl\" placeholder=\"Water Flow (GPM)\">\n                        <input type=\"number\" id=\"tempDelta\" class=\"p-4 border rounded-xl\" placeholder=\"Temp Diff (°F)\">\n                    </div>\n                    <button onclick=\"calculateChiller()\" class=\"w-full bg-slate-900 text-white font-black py-4 rounded-xl hover:bg-slate-800 transition\">Compute Tons</button>\n                    <div id=\"chillerResult\" class=\"calc-box-result bg-blue-50 text-blue-900 border border-blue-200 font-bold\"></div>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 px-6 bg-slate-50\">\n        <div class=\"max-w-7xl mx-auto\">\n            <h2 class=\"text-3xl font-black text-center mb-10\">Dispatch Units Active In:</h2>\n            <div id=\"residential-area-grid\" class=\"grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-3\">\n                </div>\n        </div>\n    </section>\n\n</div>\n\n<script>\n    // 1. DYNAMIC LOCATION ROUTER\n    const urlParams = new URLSearchParams(window.location.search);\n    const locName = urlParams.get('loc') || 'Vadodara';\n    document.querySelectorAll('.dynamic-loc').forEach(el => el.textContent = locName);\n\n    // 2. LOCATION GRID GENERATOR\n    const neighbourhoods = [\"Alkapuri\", \"Akota\", \"Makarpura\", \"Sayajigunj\", \"Gotri\", \"Karelibaug\", \"Sama\", \"Nizampura\", \"Vasna\", \"Tarsali\", \"Manjalpur\", \"Atladara\"];\n    const gridEl = document.getElementById('residential-area-grid');\n    if(gridEl) {\n        neighbourhoods.forEach(n => {\n            const span = document.createElement('a');\n            span.href = `?loc=${n}#main-content`;\n            span.className = 'loc-tag p-3 bg-white text-center rounded-xl text-xs font-black uppercase text-slate-700 shadow-sm';\n            span.textContent = n;\n            gridEl.appendChild(span);\n        });\n    }\n\n    // 3. HUMAN CALCULATORS\n    function calculatePowerCost() {\n        const kw = parseFloat(document.getElementById('acPowerType').value);\n        const hours = parseFloat(document.getElementById('dailyHours').value);\n        const res = document.getElementById('powerResult');\n        if(!hours) return;\n        const bill = Math.round(kw * hours * 30 * 8.50); // Using 8.5 Rs/unit avg\n        res.innerHTML = `Est. Monthly Electricity: ₹${bill.toLocaleString()}`;\n        res.style.display = 'block';\n    }\n\n    function calculateChiller() {\n        const gpm = parseFloat(document.getElementById('flowRate').value);\n        const delta = parseFloat(document.getElementById('tempDelta').value);\n        const res = document.getElementById('chillerResult');\n        if(!gpm || !delta) return;\n        const tonnage = (gpm * delta) / 24;\n        res.innerHTML = `Minimum Required: ${tonnage.toFixed(1)} Tons`;\n        res.style.display = 'block';\n    }\n\n    // 4. READING TIME\n    const text = document.body.innerText;\n    const time = Math.ceil(text.split(/\\s+/).length / 200);\n    document.getElementById('reading-time-display').textContent = `⏱️ ${time} Min Read`;\n</script>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Baroda Emergency Line: +91 97272 57141 ⏱️ Calculating&#8230; 2026 Updated Real AC Repair Vadodara — No Fake Promises. Stop wasting money on simple &#8220;filter cleaning&#8221; that doesn&#8217;t fix your cooling. We provide deep technical overhauls, Nitrogen leak testing, and PCB repairs for Vadodara homes and GIDC plants. Call Dispatch Now Sell Your Old AC The [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 9004,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-9150",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/9150",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=9150"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/9150/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/9004"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=9150"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

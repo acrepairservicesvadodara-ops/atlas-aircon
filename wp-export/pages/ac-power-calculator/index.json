@@ -1,0 +1,103 @@
+{
+  "id": 10766,
+  "date": "2026-02-11T07:14:56",
+  "date_gmt": "2026-02-11T01:44:56",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=10766"
+  },
+  "modified": "2026-02-11T07:16:11",
+  "modified_gmt": "2026-02-11T01:46:11",
+  "slug": "ac-power-calculator",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/ac-power-calculator/",
+  "title": {
+    "rendered": "AC Power Cost Calculator"
+  },
+  "content": {
+    "rendered": "\n<div class=\"atlas-calculator-container\">\n    <div class=\"calc-header\">\n        <i class=\"fas fa-bolt\"></i>\n        <h2>AC Energy Cost Estimator</h2>\n        <p>Calculate your monthly electricity bill based on AC usage.</p>\n    </div>\n\n    <div class=\"calc-body\">\n        <div class=\"calc-group\">\n            <label>AC Size (Tons)</label>\n            <select id=\"ac-ton\">\n                <option value=\"1000\">1.0 Ton (Non-Inverter)</option>\n                <option value=\"800\">1.0 Ton (Inverter)</option>\n                <option value=\"1500\">1.5 Ton (Non-Inverter)</option>\n                <option value=\"1100\" selected>1.5 Ton (Inverter)</option>\n                <option value=\"2000\">2.0 Ton (Non-Inverter)</option>\n                <option value=\"1600\">2.0 Ton (Inverter)</option>\n            </select>\n        </div>\n\n        <div class=\"calc-group\">\n            <label>Hours Used Per Day</label>\n            <input type=\"range\" id=\"ac-hours\" min=\"1\" max=\"24\" value=\"8\" oninput=\"this.nextElementSibling.value = this.value\">\n            <output>8</output> Hours\n        </div>\n\n        <div class=\"calc-group\">\n            <label>Electricity Rate (₹/Unit)</label>\n            <input type=\"number\" id=\"ac-rate\" value=\"7.50\" step=\"0.1\">\n        </div>\n\n        <button onclick=\"calculateBill()\" class=\"calc-btn\">Calculate Savings</button>\n    </div>\n\n    <div id=\"calc-result\" class=\"calc-result\" style=\"display:none;\">\n        <div class=\"result-box\">\n            <span>Daily Cost</span>\n            <strong id=\"daily-cost\">₹0</strong>\n        </div>\n        <div class=\"result-box highlight\">\n            <span>Monthly Bill (Est.)</span>\n            <strong id=\"monthly-cost\">₹0</strong>\n        </div>\n        <p class=\"citation\">Source: <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com\">Atlas Aircon Experts</a></p>\n    </div>\n</div>\n\n<style>\n    /* TITANIUM STYLES FOR CALCULATOR */\n    .atlas-calculator-container {\n        background: #fff;\n        border: 1px solid #e2e8f0;\n        border-radius: 12px;\n        max-width: 500px;\n        margin: 40px auto;\n        box-shadow: 0 10px 25px rgba(0,0,0,0.05);\n        font-family: system-ui, -apple-system, sans-serif;\n        overflow: hidden;\n    }\n    .calc-header {\n        background: #0f172a;\n        color: white;\n        padding: 20px;\n        text-align: center;\n    }\n    .calc-header h2 { margin: 10px 0 5px; font-size: 20px; color:white; }\n    .calc-header i { font-size: 30px; color: #22d3ee; }\n    .calc-header p { margin: 0; font-size: 12px; opacity: 0.8; }\n    \n    .calc-body { padding: 25px; }\n    .calc-group { margin-bottom: 20px; }\n    .calc-group label { display: block; font-weight: 700; font-size: 13px; color: #334155; margin-bottom: 8px; }\n    .calc-group select, .calc-group input[type=\"number\"] { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; font-weight: bold; }\n    .calc-group input[type=\"range\"] { width: 70%; vertical-align: middle; }\n    \n    .calc-btn {\n        width: 100%;\n        background: #0ea5e9;\n        color: white;\n        border: none;\n        padding: 15px;\n        font-weight: 800;\n        border-radius: 8px;\n        cursor: pointer;\n        text-transform: uppercase;\n        letter-spacing: 1px;\n        transition: 0.2s;\n    }\n    .calc-btn:hover { background: #0284c7; transform: translateY(-2px); }\n    \n    .calc-result {\n        background: #f8fafc;\n        padding: 20px;\n        border-top: 1px solid #e2e8f0;\n        animation: fadeIn 0.5s;\n    }\n    .result-box { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 14px; }\n    .result-box.highlight { background: #dcfce7; padding: 10px; border-radius: 6px; color: #166534; }\n    .citation { font-size: 10px; text-align: center; margin-top: 15px; color: #94a3b8; }\n    \n    @keyframes fadeIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }\n</style>\n\n<script>\n    function calculateBill() {\n        const watts = parseFloat(document.getElementById('ac-ton').value);\n        const hours = parseFloat(document.getElementById('ac-hours').value);\n        const rate = parseFloat(document.getElementById('ac-rate').value);\n        \n        // Calculation: (Watts * Hours) / 1000 = Units per Day\n        const dailyUnits = (watts * hours) / 1000;\n        const dailyCost = dailyUnits * rate;\n        const monthlyCost = dailyCost * 30;\n        \n        // Animate Numbers\n        document.getElementById('daily-cost').innerText = \"₹\" + dailyCost.toFixed(0);\n        document.getElementById('monthly-cost').innerText = \"₹\" + monthlyCost.toFixed(0);\n        \n        document.getElementById('calc-result').style.display = 'block';\n    }\n</script>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "AC Energy Cost Estimator Calculate your monthly electricity bill based on AC usage. AC Size (Tons) 1.0 Ton (Non-Inverter) 1.0 Ton (Inverter) 1.5 Ton (Non-Inverter) 1.5 Ton (Inverter) 2.0 Ton (Non-Inverter) 2.0 Ton (Inverter) Hours Used Per Day 8 Hours Electricity Rate (₹/Unit) Calculate Savings Daily Cost ₹0 Monthly Bill (Est.) ₹0 Source: Atlas Aircon [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 5432,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-10766",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/10766",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=10766"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/10766/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/5432"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=10766"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

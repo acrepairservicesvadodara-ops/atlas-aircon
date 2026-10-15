@@ -1,0 +1,103 @@
+{
+  "id": 7464,
+  "date": "2025-07-06T11:11:34",
+  "date_gmt": "2025-07-06T05:41:34",
+  "guid": {
+    "rendered": "https://atlasaircons.com/carrier-ac-repair-service-center-vadodara/"
+  },
+  "modified": "2026-03-05T15:02:53",
+  "modified_gmt": "2026-03-05T09:32:53",
+  "slug": "carrier-ac-repair-service-center-vadodara",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/carrier-ac-repair-service-center-vadodara/",
+  "title": {
+    "rendered": "carrier AC Repair Service Center Vadodara"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Service\",\n      \"name\": \"Carrier AC Repair and Installation Vadodara\",\n      \"provider\": {\n        \"@type\": \"LocalBusiness\",\n        \"name\": \"Atlas Aircon\",\n        \"image\": \"https://atlasaircons.com/wp-content/uploads/2019/03/cropped-AtlasAircon-Logo.png\",\n        \"telephone\": \"+91-9727257141\",\n        \"priceRange\": \"₹₹\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"streetAddress\": \"27, Payal Complex, Sayajigunj\",\n          \"addressLocality\": \"Vadodara\",\n          \"postalCode\": \"390005\",\n          \"addressCountry\": \"IN\"\n        }\n      },\n      \"areaServed\": { \"@type\": \"City\", \"name\": \"Vadodara\" },\n      \"hasOfferCatalog\": {\n        \"@type\": \"OfferCatalog\",\n        \"name\": \"Carrier AC Service Price List\",\n        \"itemListElement\": [\n          { \"@type\": \"Offer\", \"itemOffered\": { \"@type\": \"Service\", \"name\": \"Carrier Split AC Installation\" }, \"price\": \"1500\", \"priceCurrency\": \"INR\" },\n          { \"@type\": \"Offer\", \"itemOffered\": { \"@type\": \"Service\", \"name\": \"Carrier AC Gas Filling\" }, \"price\": \"2500\", \"priceCurrency\": \"INR\" },\n          { \"@type\": \"Offer\", \"itemOffered\": { \"@type\": \"Service\", \"name\": \"Carrier AC PCB Repair\" }, \"price\": \"1500\", \"priceCurrency\": \"INR\" }\n        ]\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What are the Carrier AC installation charges in Vadodara?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Atlas Aircon provides Carrier Split AC installation starting from ₹1500 and Window AC installation from ₹700 in Vadodara.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do you provide emergency Carrier AC repair in Vadodara?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes, we offer 24/7 emergency repair services for Carrier air conditioners across Vadodara including Alkapuri and Makarpura.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n</script>\n\n<style>\n    :root {\n        --atlas-gold: #D4AF37; \n        --atlas-dark: #36454F;\n        --atlas-accent: #FDB813;\n    }\n    .hero-gradient {\n        background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(253, 184, 19, 0.1) 50%, rgba(212, 175, 55, 0.2) 100%);\n    }\n    .btn-atlas-gold {\n        background-color: var(--atlas-gold) !important;\n        color: white !important;\n        transition: all 0.3s ease;\n        box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);\n        display: inline-block;\n        text-decoration: none !important;\n        border-radius: 8px;\n    }\n    .btn-atlas-gold:hover {\n        background-color: var(--atlas-accent) !important;\n        transform: translateY(-2px);\n    }\n    .btn-atlas-dark {\n        background-color: var(--atlas-dark) !important;\n        color: white !important;\n        display: inline-block;\n        text-decoration: none !important;\n        border-radius: 8px;\n    }\n    .atlas-title {\n        font-weight: 700;\n        color: var(--atlas-dark);\n    }\n    .gold-text { color: var(--atlas-gold); }\n    \n    .atlas-faq details summary { list-style: none; outline: none; cursor: pointer; }\n    .atlas-faq details summary::-webkit-details-marker { display: none; }\n    .faq-ans {\n        max-height: 0;\n        overflow: hidden;\n        transition: max-height 0.4s ease-out;\n    }\n    .atlas-faq details[open] .faq-ans { max-height: 500px; }\n    \n    /* Ensure images dont break layout */\n    .atlas-img { width: 100%; border-radius: 1rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }\n</style>\n\n<div class=\"atlas-content-wrapper\">\n    <section class=\"hero-gradient border-b border-gray-100 py-12 md:py-20\">\n        <div class=\"max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center\">\n            <div class=\"text-center md:text-left\">\n                <div class=\"inline-block px-4 py-1 rounded-full bg-yellow-100 text-yellow-700 font-bold text-sm mb-4\">\n                    #1 Carrier AC Specialists Vadodara\n                </div>\n                <h1 class=\"text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight mb-6\">\n                    Expert <span class=\"gold-text\">Carrier AC Repair</span> Service Center\n                </h1>\n                <p class=\"text-lg text-gray-600 mb-8\">\n                    Certified technicians for <strong>Carrier AC repair Vadodara</strong>. Specialists in gas charging, <strong>Carrier PCB repair</strong>, and professional installation with a 3-month guarantee.\n                </p>\n                <div class=\"flex flex-col sm:flex-row gap-4\">\n                    <a class=\"btn-atlas-gold px-8 py-4 text-lg font-bold text-center\" href=\"tel:+919727257141\">\n                        <i class=\"fas fa-phone-alt mr-2\"></i> Call Command\n                    </a>\n                    <a class=\"btn-atlas-dark px-8 py-4 text-lg font-bold text-center\" href=\"https://wa.me/919727257141\" target=\"_blank\" rel=\"noopener\">\n                        <i class=\"fab fa-whatsapp mr-2\"></i> Priority WhatsApp\n                    </a>\n                </div>\n            </div>\n            <div>\n                <img decoding=\"async\" class=\"atlas-img\" src=\"https://atlasaircons.com/wp-content/uploads/2025/07/Atlas-Aircon-Vehicle-2.webp\" alt=\"Carrier AC Service Vadodara\" title=\"\">\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-white\">\n        <div class=\"max-w-7xl mx-auto px-4\">\n            <div class=\"text-center mb-12\">\n                <h2 class=\"atlas-title text-3xl md:text-4xl\">Our <span class=\"gold-text\">Carrier Expertise</span></h2>\n                <p class=\"text-gray-500 mt-2\">Professional interventions for all Carrier residential &#038; industrial units</p>\n            </div>\n            <div class=\"grid grid-cols-1 md:grid-cols-3 gap-8\">\n                <div class=\"p-6 rounded-xl bg-gray-50 border border-gray-100 hover:border-yellow-500 transition-all\">\n                    <div class=\"w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center text-white mb-4\">\n                        <i class=\"fas fa-tools text-xl\"></i>\n                    </div>\n                    <h3 class=\"text-xl font-bold mb-2\">Technical Repair</h3>\n                    <p class=\"text-gray-600 text-sm mb-4\">Solving no-cooling, sensor errors (E1, E6), and compressor startups.</p>\n                    <span class=\"font-bold gold-text\">Starts @ ₹399</span>\n                </div>\n                <div class=\"p-6 rounded-xl bg-gray-50 border border-gray-100 hover:border-yellow-500 transition-all\">\n                    <div class=\"w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center text-white mb-4\">\n                        <i class=\"fas fa-gas-pump text-xl\"></i>\n                    </div>\n                    <h3 class=\"text-xl font-bold mb-2\">Authentic Gas Filling</h3>\n                    <p class=\"text-gray-600 text-sm mb-4\">Leak detection followed by genuine R32 or R410A refrigerant charging.</p>\n                    <span class=\"font-bold gold-text\">Starts @ ₹2500</span>\n                </div>\n                <div class=\"p-6 rounded-xl bg-gray-50 border border-gray-100 hover:border-yellow-500 transition-all\">\n                    <div class=\"w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center text-white mb-4\">\n                        <i class=\"fas fa-microchip text-xl\"></i>\n                    </div>\n                    <h3 class=\"text-xl font-bold mb-2\">Inverter PCB Repair</h3>\n                    <p class=\"text-gray-600 text-sm mb-4\">Component-level repair for Carrier inverter motherboards to save costs.</p>\n                    <span class=\"font-bold gold-text\">Starts @ ₹1500</span>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-gray-50\">\n        <div class=\"max-w-4xl mx-auto px-4\">\n            <h2 class=\"atlas-title text-3xl text-center mb-10\">Carrier <span class=\"gold-text\">Service Tariff</span></h2>\n            <div class=\"bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200\">\n                <table class=\"w-full text-left\">\n                    <thead class=\"bg-gray-800 text-white\">\n                        <tr><th class=\"p-4\">Intervention</th><th class=\"p-4 text-right\">Standard Rate</th></tr>\n                    </thead>\n                    <tbody class=\"divide-y divide-gray-100\">\n                        <tr><td class=\"p-4\">Carrier Split AC Installation</td><td class=\"p-4 text-right font-bold gold-text\">₹1500 &#8211; 2500</td></tr>\n                        <tr><td class=\"p-4\">Carrier Window AC Installation</td><td class=\"p-4 text-right font-bold gold-text\">₹700 &#8211; 1000</td></tr>\n                        <tr><td class=\"p-4\">Carrier Inverter Gas Charging</td><td class=\"p-4 text-right font-bold gold-text\">₹2500 &#8211; 4500</td></tr>\n                        <tr><td class=\"p-4\">Carrier Jet Pump Deep Service</td><td class=\"p-4 text-right font-bold gold-text\">₹999</td></tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-16 bg-white atlas-faq\">\n        <div class=\"max-w-3xl mx-auto px-4\">\n            <h2 class=\"atlas-title text-3xl text-center mb-10\">Carrier <span class=\"gold-text\">Support FAQ</span></h2>\n            <div class=\"space-y-4\">\n                <div class=\"border border-gray-200 rounded-lg\">\n                    <details class=\"group\">\n                        <summary class=\"p-4 font-bold flex justify-between items-center\">\n                            Why is my Carrier AC showing &#8216;CF&#8217;?\n                            <i class=\"fas fa-chevron-down text-yellow-500 group-open:rotate-180 transition-transform\"></i>\n                        </summary>\n                        <div class=\"faq-ans px-4 pb-4 text-gray-600\">\n                            The &#8216;CF&#8217; code is a Filter Clean reminder. Clean your filters or book our <strong>Jet Pump Cleaning</strong> service to reset and improve cooling.\n                        </div>\n                    </details>\n                </div>\n                <div class=\"border border-gray-200 rounded-lg\">\n                    <details class=\"group\">\n                        <summary class=\"p-4 font-bold flex justify-between items-center\">\n                            Is Atlas Aircon an authorized Carrier center?\n                            <i class=\"fas fa-chevron-down text-yellow-500 group-open:rotate-180 transition-transform\"></i>\n                        </summary>\n                        <div class=\"faq-ans px-4 pb-4 text-gray-600\">\n                            We are an <strong>independent specialized center</strong>. We provide faster response times and more affordable component-level repairs than official branded centers while using genuine parts.\n                        </div>\n                    </details>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-12 bg-yellow-50 border-t border-yellow-100\">\n        <div class=\"max-w-4xl mx-auto px-4 text-center\">\n            <p class=\"text-xs text-gray-500 uppercase tracking-widest mb-2 font-bold\">Legal Disclaimer</p>\n            <p class=\"text-sm text-gray-600 leading-relaxed\">\n                Atlas Aircon is an independent third-party repair service provider. We are not affiliated with, authorized by, or endorsed by Carrier. All product names, logos, and brands are property of their respective owners.\n            </p>\n        </div>\n    </section>\n</div>\n\n<script>\n    // Smooth FAQ Toggle\n    document.querySelectorAll('.atlas-faq details').forEach((el) => {\n        el.addEventListener('toggle', function() {\n            const content = this.querySelector('.faq-ans');\n            if (this.open) {\n                content.style.maxHeight = content.scrollHeight + \"px\";\n            } else {\n                content.style.maxHeight = \"0px\";\n            }\n        });\n    });\n</script>\n\n\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "#1 Carrier AC Specialists Vadodara Expert Carrier AC Repair Service Center Certified technicians for Carrier AC repair Vadodara. Specialists in gas charging, Carrier PCB repair, and professional installation with a 3-month guarantee. Call Command Priority WhatsApp Our Carrier Expertise Professional interventions for all Carrier residential &#038; industrial units Technical Repair Solving no-cooling, sensor errors (E1, [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 7256,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-7464",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/7464",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=7464"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/7464/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/7256"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=7464"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

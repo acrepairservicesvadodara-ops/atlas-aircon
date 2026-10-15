@@ -1,0 +1,6834 @@
+[
+  {
+    "type": "pages",
+    "id": 11236,
+    "path": "/",
+    "slug": "home",
+    "title": "home page"
+  },
+  {
+    "type": "pages",
+    "id": 10768,
+    "path": "/ac-tonnage-calculator/",
+    "slug": "ac-tonnage-calculator",
+    "title": "AC Size Calculator"
+  },
+  {
+    "type": "pages",
+    "id": 10766,
+    "path": "/ac-power-calculator/",
+    "slug": "ac-power-calculator",
+    "title": "AC Power Cost Calculator"
+  },
+  {
+    "type": "pages",
+    "id": 10713,
+    "path": "/service-areas/",
+    "slug": "service-areas",
+    "title": "Service Areas"
+  },
+  {
+    "type": "pages",
+    "id": 10013,
+    "path": "/window-ac-service-valsad/",
+    "slug": "window-ac-service-valsad",
+    "title": "window ac service valsad"
+  },
+  {
+    "type": "pages",
+    "id": 10010,
+    "path": "/window-ac-service-surat/",
+    "slug": "window-ac-service-surat",
+    "title": "window ac service surat"
+  },
+  {
+    "type": "pages",
+    "id": 10008,
+    "path": "/window-ac-service-rajpipla/",
+    "slug": "window-ac-service-rajpipla",
+    "title": "Window AC Service Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 10006,
+    "path": "/window-ac-service-rajkot/",
+    "slug": "window-ac-service-rajkot",
+    "title": "window ac service rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 10004,
+    "path": "/window-ac-service-morbi/",
+    "slug": "window-ac-service-morbi",
+    "title": "window ac service morbi"
+  },
+  {
+    "type": "pages",
+    "id": 10002,
+    "path": "/window-ac-service-kheda/",
+    "slug": "window-ac-service-kheda",
+    "title": "window ac service kheda"
+  },
+  {
+    "type": "pages",
+    "id": 10000,
+    "path": "/window-ac-service-gujarat/",
+    "slug": "window-ac-service-gujarat",
+    "title": "Window AC Service Gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9998,
+    "path": "/window-ac-service-godhra/",
+    "slug": "window-ac-service-godhra",
+    "title": "Window AC Service Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9996,
+    "path": "/window-ac-service-daman/",
+    "slug": "window-ac-service-daman",
+    "title": "window ac service daman"
+  },
+  {
+    "type": "pages",
+    "id": 9994,
+    "path": "/window-ac-service-bharuch/",
+    "slug": "window-ac-service-bharuch",
+    "title": "Window AC Service Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9992,
+    "path": "/window-ac-service-anand/",
+    "slug": "window-ac-service-anand",
+    "title": "window ac service anand"
+  },
+  {
+    "type": "pages",
+    "id": 9990,
+    "path": "/window-ac-service-ahmedabad/",
+    "slug": "window-ac-service-ahmedabad",
+    "title": "Window AC Service Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9987,
+    "path": "/window-ac-service-vadodara/",
+    "slug": "window-ac-service-vadodara",
+    "title": "Window AC Service Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9985,
+    "path": "/water-cooler-repair-services-valsad/",
+    "slug": "water-cooler-repair-services-valsad",
+    "title": "Water Cooler Repair Services Valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9983,
+    "path": "/water-cooler-repair-services-surat/",
+    "slug": "water-cooler-repair-services-surat",
+    "title": "Water Cooler Repair services Surat"
+  },
+  {
+    "type": "pages",
+    "id": 9981,
+    "path": "/water-cooler-repair-services-rajpipla/",
+    "slug": "water-cooler-repair-services-rajpipla",
+    "title": "Water Cooler Repair Services Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9978,
+    "path": "/water-cooler-repair-services-rajkot/",
+    "slug": "water-cooler-repair-services-rajkot",
+    "title": "Water Cooler Repair services Rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9976,
+    "path": "/water-cooler-repair-services-morbi/",
+    "slug": "water-cooler-repair-services-morbi",
+    "title": "Water Cooler Repair Services Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9974,
+    "path": "/water-cooler-repair-services-kheda/",
+    "slug": "water-cooler-repair-services-kheda",
+    "title": "Water Cooler Repair Services Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9972,
+    "path": "/water-cooler-repair-services-gujarat/",
+    "slug": "water-cooler-repair-services-gujarat",
+    "title": "Water Cooler Repair Services Gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9970,
+    "path": "/water-cooler-repair-services-godhra/",
+    "slug": "water-cooler-repair-services-godhra",
+    "title": "Water Cooler Repair Services Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9968,
+    "path": "/water-cooler-repair-services-daman/",
+    "slug": "water-cooler-repair-services-daman",
+    "title": "Water Cooler Repair Services Daman"
+  },
+  {
+    "type": "pages",
+    "id": 9966,
+    "path": "/water-cooler-repair-services-bharuch/",
+    "slug": "water-cooler-repair-services-bharuch",
+    "title": "Water Cooler Repair Services Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9964,
+    "path": "/water-cooler-repair-services-anand/",
+    "slug": "water-cooler-repair-services-anand",
+    "title": "water cooler repair services anand"
+  },
+  {
+    "type": "pages",
+    "id": 9962,
+    "path": "/water-cooler-repair-services-ahmedabad/",
+    "slug": "water-cooler-repair-services-ahmedabad",
+    "title": "water cooler repair services ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9960,
+    "path": "/water-cooler-repair-services-vadodara/",
+    "slug": "water-cooler-repair-services-vadodara",
+    "title": "water cooler repair services vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9958,
+    "path": "/split-ac-service-valsad/",
+    "slug": "split-ac-service-valsad",
+    "title": "split ac service valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9956,
+    "path": "/split-ac-service-surat/",
+    "slug": "split-ac-service-surat",
+    "title": "split ac service surat"
+  },
+  {
+    "type": "pages",
+    "id": 9954,
+    "path": "/split-ac-service-rajpipla/",
+    "slug": "split-ac-service-rajpipla",
+    "title": "split ac service rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9952,
+    "path": "/split-ac-service-rajkot/",
+    "slug": "split-ac-service-rajkot",
+    "title": "split ac service rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9949,
+    "path": "/split-ac-service-morbi/",
+    "slug": "split-ac-service-morbi",
+    "title": "split ac service morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9947,
+    "path": "/split-ac-service-kheda/",
+    "slug": "split-ac-service-kheda",
+    "title": "split ac service kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9945,
+    "path": "/split-ac-service-gujarat/",
+    "slug": "split-ac-service-gujarat",
+    "title": "split ac service gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9943,
+    "path": "/split-ac-service-godhra/",
+    "slug": "split-ac-service-godhra",
+    "title": "split ac service godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9941,
+    "path": "/split-ac-service-daman/",
+    "slug": "split-ac-service-daman",
+    "title": "split ac service daman"
+  },
+  {
+    "type": "pages",
+    "id": 9939,
+    "path": "/split-ac-service-bharuch/",
+    "slug": "split-ac-service-bharuch",
+    "title": "split ac service bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9937,
+    "path": "/split-ac-service-anand/",
+    "slug": "split-ac-service-anand",
+    "title": "split ac service anand"
+  },
+  {
+    "type": "pages",
+    "id": 9935,
+    "path": "/split-ac-service-ahmedabad/",
+    "slug": "split-ac-service-ahmedabad",
+    "title": "Split AC Service Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9931,
+    "path": "/split-ac-service-vadodara/",
+    "slug": "split-ac-service-vadodara",
+    "title": "split ac service vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9929,
+    "path": "/refrigerator-service-center-valsad/",
+    "slug": "refrigerator-service-center-valsad",
+    "title": "Refrigerator Service center Valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9927,
+    "path": "/refrigerator-service-center-surat/",
+    "slug": "refrigerator-service-center-surat",
+    "title": "Refrigerator service center Surat"
+  },
+  {
+    "type": "pages",
+    "id": 9924,
+    "path": "/refrigerator-service-center-rajpipla/",
+    "slug": "refrigerator-service-center-rajpipla",
+    "title": "refrigerator service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9922,
+    "path": "/refrigerator-service-center-rajkot/",
+    "slug": "refrigerator-service-center-rajkot",
+    "title": "refrigerator service center Rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9920,
+    "path": "/refrigerator-service-center-morbi/",
+    "slug": "refrigerator-service-center-morbi",
+    "title": "refrigerator service center Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9918,
+    "path": "/refrigerator-service-center-kheda/",
+    "slug": "refrigerator-service-center-kheda",
+    "title": "refrigerator service center Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9916,
+    "path": "/refrigerator-service-center-gujarat/",
+    "slug": "refrigerator-service-center-gujarat",
+    "title": "refrigerator service center Gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9914,
+    "path": "/refrigerator-service-center-godhra/",
+    "slug": "refrigerator-service-center-godhra",
+    "title": "refrigerator service center Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9912,
+    "path": "/refrigerator-service-center-daman/",
+    "slug": "refrigerator-service-center-daman",
+    "title": "refrigerator service center Daman"
+  },
+  {
+    "type": "pages",
+    "id": 9910,
+    "path": "/refrigerator-service-center-bharuch/",
+    "slug": "refrigerator-service-center-bharuch",
+    "title": "refrigerator service center Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9908,
+    "path": "/refrigerator-service-center-anand/",
+    "slug": "refrigerator-service-center-anand",
+    "title": "refrigerator service center Anand"
+  },
+  {
+    "type": "pages",
+    "id": 9906,
+    "path": "/refrigerator-service-center-ahmedabad/",
+    "slug": "refrigerator-service-center-ahmedabad",
+    "title": "refrigerator service center Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9904,
+    "path": "/refrigerator-service-center-vadodara/",
+    "slug": "refrigerator-service-center-vadodara",
+    "title": "refrigerator service center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9902,
+    "path": "/refrigerator-repair-services-valsad/",
+    "slug": "refrigerator-repair-services-valsad",
+    "title": "refrigerator repair services valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9900,
+    "path": "/refrigerator-repair-services-surat/",
+    "slug": "refrigerator-repair-services-surat",
+    "title": "refrigerator repair services surat"
+  },
+  {
+    "type": "pages",
+    "id": 9898,
+    "path": "/refrigerator-repair-services-rajpipla/",
+    "slug": "refrigerator-repair-services-rajpipla",
+    "title": "refrigerator repair services rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9896,
+    "path": "/refrigerator-repair-services-rajkot/",
+    "slug": "refrigerator-repair-services-rajkot",
+    "title": "refrigerator repair services rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9894,
+    "path": "/refrigerator-repair-services-morbi/",
+    "slug": "refrigerator-repair-services-morbi",
+    "title": "refrigerator repair services morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9892,
+    "path": "/refrigerator-repair-services-kheda/",
+    "slug": "refrigerator-repair-services-kheda",
+    "title": "refrigerator repair services kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9888,
+    "path": "/refrigerator-repair-services-gujarat/",
+    "slug": "refrigerator-repair-services-gujarat",
+    "title": "refrigerator repair services gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9884,
+    "path": "/refrigerator-repair-services-godhra/",
+    "slug": "refrigerator-repair-services-godhra",
+    "title": "refrigerator repair services godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9882,
+    "path": "/refrigerator-repair-services-daman/",
+    "slug": "refrigerator-repair-services-daman",
+    "title": "refrigerator repair services daman"
+  },
+  {
+    "type": "pages",
+    "id": 9880,
+    "path": "/refrigerator-repair-services-bharuch/",
+    "slug": "refrigerator-repair-services-bharuch",
+    "title": "refrigerator repair services bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9878,
+    "path": "/refrigerator-repair-services-anand/",
+    "slug": "refrigerator-repair-services-anand",
+    "title": "refrigerator repair services anand"
+  },
+  {
+    "type": "pages",
+    "id": 9876,
+    "path": "/refrigerator-repair-services-ahmedabad/",
+    "slug": "refrigerator-repair-services-ahmedabad",
+    "title": "refrigerator repair services ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9874,
+    "path": "/refrigerator-repair-services-vadodara/",
+    "slug": "refrigerator-repair-services-vadodara",
+    "title": "refrigerator repair services vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9871,
+    "path": "/solar-panel-repair-vadodara/",
+    "slug": "solar-panel-repair-vadodara",
+    "title": "solar panel repair vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9863,
+    "path": "/geyser-repair-vadodara-2/",
+    "slug": "geyser-repair-vadodara-2",
+    "title": "geyser repair vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9858,
+    "path": "/refrigerated-truck-repair-godhra/",
+    "slug": "refrigerated-truck-repair-godhra",
+    "title": "Refrigerated truck repair Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9856,
+    "path": "/refrigerated-truck-repair-daman/",
+    "slug": "refrigerated-truck-repair-daman",
+    "title": "Refrigerated truck repair Daman"
+  },
+  {
+    "type": "pages",
+    "id": 9854,
+    "path": "/refrigerated-truck-repair-bharuch/",
+    "slug": "refrigerated-truck-repair-bharuch",
+    "title": "Refrigerated truck repair Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9852,
+    "path": "/refrigerated-truck-repair-anand/",
+    "slug": "refrigerated-truck-repair-anand",
+    "title": "Refrigerated truck repair Anand"
+  },
+  {
+    "type": "pages",
+    "id": 9849,
+    "path": "/refrigerated-truck-repair-ahmedabad/",
+    "slug": "refrigerated-truck-repair-ahmedabad",
+    "title": "Refrigerated truck repair Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9847,
+    "path": "/refrigerated-truck-repair-vadodara/",
+    "slug": "refrigerated-truck-repair-vadodara",
+    "title": "refrigerated truck repair vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9841,
+    "path": "/panel-ac-service-valsad/",
+    "slug": "panel-ac-service-valsad",
+    "title": "panel ac service valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9839,
+    "path": "/panel-ac-service-surat/",
+    "slug": "panel-ac-service-surat",
+    "title": "panel ac service surat"
+  },
+  {
+    "type": "pages",
+    "id": 9837,
+    "path": "/panel-ac-service-rajpipla/",
+    "slug": "panel-ac-service-rajpipla",
+    "title": "panel ac service rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9835,
+    "path": "/panel-ac-service-rajkot/",
+    "slug": "panel-ac-service-rajkot",
+    "title": "panel ac service rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9833,
+    "path": "/panel-ac-service-morbi/",
+    "slug": "panel-ac-service-morbi",
+    "title": "panel ac service morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9831,
+    "path": "/panel-ac-service-kheda/",
+    "slug": "panel-ac-service-kheda",
+    "title": "panel ac service kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9829,
+    "path": "/panel-ac-service-gujarat/",
+    "slug": "panel-ac-service-gujarat",
+    "title": "panel ac service gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9827,
+    "path": "/panel-ac-service-godhra/",
+    "slug": "panel-ac-service-godhra",
+    "title": "panel ac service godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9824,
+    "path": "/panel-ac-service-daman/",
+    "slug": "panel-ac-service-daman",
+    "title": "panel ac service daman"
+  },
+  {
+    "type": "pages",
+    "id": 9822,
+    "path": "/panel-ac-service-bharuch/",
+    "slug": "panel-ac-service-bharuch",
+    "title": "panel ac service bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9818,
+    "path": "/panel-ac-service-anand/",
+    "slug": "panel-ac-service-anand",
+    "title": "panel ac service anand"
+  },
+  {
+    "type": "pages",
+    "id": 9816,
+    "path": "/panel-ac-service-ahmedabad/",
+    "slug": "panel-ac-service-ahmedabad",
+    "title": "panel ac service ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9811,
+    "path": "/panel-ac-service-vadodara/",
+    "slug": "panel-ac-service-vadodara",
+    "title": "panel ac service vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9807,
+    "path": "/package-ac-service-valsad/",
+    "slug": "package-ac-service-valsad",
+    "title": "package ac service valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9805,
+    "path": "/package-ac-service-surat/",
+    "slug": "package-ac-service-surat",
+    "title": "package ac service surat"
+  },
+  {
+    "type": "pages",
+    "id": 9803,
+    "path": "/package-ac-service-rajpipla/",
+    "slug": "package-ac-service-rajpipla",
+    "title": "package ac service rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9801,
+    "path": "/package-ac-service-rajkot/",
+    "slug": "package-ac-service-rajkot",
+    "title": "package ac service rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9799,
+    "path": "/package-ac-service-morbi/",
+    "slug": "package-ac-service-morbi",
+    "title": "package ac service morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9797,
+    "path": "/package-ac-service-kheda/",
+    "slug": "package-ac-service-kheda",
+    "title": "package ac service kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9795,
+    "path": "/package-ac-service-gujarat/",
+    "slug": "package-ac-service-gujarat",
+    "title": "package ac service gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9793,
+    "path": "/package-ac-service-godhra/",
+    "slug": "package-ac-service-godhra",
+    "title": "package ac service godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9791,
+    "path": "/package-ac-service-daman/",
+    "slug": "package-ac-service-daman",
+    "title": "package ac service daman"
+  },
+  {
+    "type": "pages",
+    "id": 9789,
+    "path": "/package-ac-service-bharuch/",
+    "slug": "package-ac-service-bharuch",
+    "title": "package ac service bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9787,
+    "path": "/package-ac-service-anand/",
+    "slug": "package-ac-service-anand",
+    "title": "package ac service anand"
+  },
+  {
+    "type": "pages",
+    "id": 9785,
+    "path": "/package-ac-service-ahmedabad/",
+    "slug": "package-ac-service-ahmedabad",
+    "title": "package ac service ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9778,
+    "path": "/package-ac-service-vadodara-2/",
+    "slug": "package-ac-service-vadodara-2",
+    "title": "package ac service vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9776,
+    "path": "/hvac-repair-services-valsad/",
+    "slug": "hvac-repair-services-valsad",
+    "title": "hvac repair services valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9774,
+    "path": "/hvac-repair-services-surat/",
+    "slug": "hvac-repair-services-surat",
+    "title": "hvac repair services surat"
+  },
+  {
+    "type": "pages",
+    "id": 9772,
+    "path": "/hvac-repair-services-rajpipla/",
+    "slug": "hvac-repair-services-rajpipla",
+    "title": "hvac repair services rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9770,
+    "path": "/hvac-repair-services-rajkot/",
+    "slug": "hvac-repair-services-rajkot",
+    "title": "hvac repair services rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9768,
+    "path": "/hvac-repair-services-morbi/",
+    "slug": "hvac-repair-services-morbi",
+    "title": "hvac repair services morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9766,
+    "path": "/hvac-repair-services-kheda/",
+    "slug": "hvac-repair-services-kheda",
+    "title": "hvac repair services kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9764,
+    "path": "/hvac-repair-services-gujarat/",
+    "slug": "hvac-repair-services-gujarat",
+    "title": "hvac repair services gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9762,
+    "path": "/hvac-repair-services-godhra/",
+    "slug": "hvac-repair-services-godhra",
+    "title": "HVAC Repair Services Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9760,
+    "path": "/hvac-repair-services-daman/",
+    "slug": "hvac-repair-services-daman",
+    "title": "hvac repair services daman"
+  },
+  {
+    "type": "pages",
+    "id": 9758,
+    "path": "/hvac-repair-services-bharuch/",
+    "slug": "hvac-repair-services-bharuch",
+    "title": "hvac repair services bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9756,
+    "path": "/hvac-repair-services-anand/",
+    "slug": "hvac-repair-services-anand",
+    "title": "hvac repair services anand"
+  },
+  {
+    "type": "pages",
+    "id": 9754,
+    "path": "/hvac-repair-services-ahmedabad/",
+    "slug": "hvac-repair-services-ahmedabad",
+    "title": "HVAC repair services Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9752,
+    "path": "/hvac-repair-services-vadodara/",
+    "slug": "hvac-repair-services-vadodara",
+    "title": "HVAC repair services Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9748,
+    "path": "/ducting-repair-services-valsad/",
+    "slug": "ducting-repair-services-valsad",
+    "title": "ducting repair services Valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9746,
+    "path": "/ducting-repair-services-surat/",
+    "slug": "ducting-repair-services-surat",
+    "title": "ducting repair services Surat"
+  },
+  {
+    "type": "pages",
+    "id": 9744,
+    "path": "/ducting-repair-services-rajpipla/",
+    "slug": "ducting-repair-services-rajpipla",
+    "title": "ducting repair services Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9742,
+    "path": "/ducting-repair-services-rajkot/",
+    "slug": "ducting-repair-services-rajkot",
+    "title": "ducting repair services Rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9740,
+    "path": "/ducting-repair-services-morbi/",
+    "slug": "ducting-repair-services-morbi",
+    "title": "ducting repair services Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9738,
+    "path": "/ducting-repair-services-kheda/",
+    "slug": "ducting-repair-services-kheda",
+    "title": "ducting repair services Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9736,
+    "path": "/ducting-repair-services-gujarat/",
+    "slug": "ducting-repair-services-gujarat",
+    "title": "Ducting Repair services Gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9734,
+    "path": "/ducting-repair-services-godhra/",
+    "slug": "ducting-repair-services-godhra",
+    "title": "Ducting Repair services Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9731,
+    "path": "/ducting-repair-services-daman/",
+    "slug": "ducting-repair-services-daman",
+    "title": "Ducting Repair services Daman"
+  },
+  {
+    "type": "pages",
+    "id": 9729,
+    "path": "/ducting-repair-services-bharuch/",
+    "slug": "ducting-repair-services-bharuch",
+    "title": "Ducting Repair services Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9727,
+    "path": "/ducting-repair-services-anand/",
+    "slug": "ducting-repair-services-anand",
+    "title": "ducting repair services Anand"
+  },
+  {
+    "type": "pages",
+    "id": 9725,
+    "path": "/ducting-repair-services-ahmedabad/",
+    "slug": "ducting-repair-services-ahmedabad",
+    "title": "ducting repair services Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9723,
+    "path": "/ducting-repair-services-vadodara/",
+    "slug": "ducting-repair-services-vadodara",
+    "title": "Ducting Repair services Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9718,
+    "path": "/ductable-ac-service-valsad/",
+    "slug": "ductable-ac-service-valsad",
+    "title": "Ductable AC Service Valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9716,
+    "path": "/ductable-ac-service-surat/",
+    "slug": "ductable-ac-service-surat",
+    "title": "Ductable AC Service Surat"
+  },
+  {
+    "type": "pages",
+    "id": 9714,
+    "path": "/ductable-ac-service-rajpipla/",
+    "slug": "ductable-ac-service-rajpipla",
+    "title": "Ductable AC service Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9712,
+    "path": "/ductable-ac-service-rajkot/",
+    "slug": "ductable-ac-service-rajkot",
+    "title": "Ductable AC Service Rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9710,
+    "path": "/ductable-ac-service-morbi/",
+    "slug": "ductable-ac-service-morbi",
+    "title": "Ductable AC service Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9708,
+    "path": "/ductable-ac-service-kheda/",
+    "slug": "ductable-ac-service-kheda",
+    "title": "Ductable AC Service Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9706,
+    "path": "/ductable-ac-service-gujarat/",
+    "slug": "ductable-ac-service-gujarat",
+    "title": "Ductable AC Service Gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9704,
+    "path": "/ductable-ac-service-godhra/",
+    "slug": "ductable-ac-service-godhra",
+    "title": "Ductable AC Service Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9702,
+    "path": "/ductable-ac-service-daman/",
+    "slug": "ductable-ac-service-daman",
+    "title": "Ductable AC service Daman"
+  },
+  {
+    "type": "pages",
+    "id": 9700,
+    "path": "/ductable-ac-service-bharuch/",
+    "slug": "ductable-ac-service-bharuch",
+    "title": "Ductable AC service Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9698,
+    "path": "/ductable-ac-service-anand/",
+    "slug": "ductable-ac-service-anand",
+    "title": "Ductable AC Service Anand"
+  },
+  {
+    "type": "pages",
+    "id": 9696,
+    "path": "/ductable-ac-service-ahmedabad/",
+    "slug": "ductable-ac-service-ahmedabad",
+    "title": "Ductable AC Service Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9692,
+    "path": "/ductable-ac-service-vadodara-2/",
+    "slug": "ductable-ac-service-vadodara-2",
+    "title": "Ductable AC Service Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9688,
+    "path": "/deep-freezer-repair-services-valsad/",
+    "slug": "deep-freezer-repair-services-valsad",
+    "title": "Deep Freezer Repair services Valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9686,
+    "path": "/deep-freezer-repair-services-surat/",
+    "slug": "deep-freezer-repair-services-surat",
+    "title": "deep freezer repair services Surat"
+  },
+  {
+    "type": "pages",
+    "id": 9684,
+    "path": "/deep-freezer-repair-services-rajpipla/",
+    "slug": "deep-freezer-repair-services-rajpipla",
+    "title": "deep freezer repair services Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9682,
+    "path": "/deep-freezer-repair-services-rajkot/",
+    "slug": "deep-freezer-repair-services-rajkot",
+    "title": "deep freezer repair services Rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9680,
+    "path": "/deep-freezer-repair-services-morbi/",
+    "slug": "deep-freezer-repair-services-morbi",
+    "title": "deep freezer repair services Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9678,
+    "path": "/deep-freezer-repair-services-kheda/",
+    "slug": "deep-freezer-repair-services-kheda",
+    "title": "Deep Freezer Repair services Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9676,
+    "path": "/deep-freezer-repair-service-gujarat/",
+    "slug": "deep-freezer-repair-service-gujarat",
+    "title": "deep freezer repair service gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9674,
+    "path": "/deep-freezer-repair-services-godhra/",
+    "slug": "deep-freezer-repair-services-godhra",
+    "title": "deep freezer repair services Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9671,
+    "path": "/deep-freezer-repair-services-daman/",
+    "slug": "deep-freezer-repair-services-daman",
+    "title": "Deep Freezer Repair services Daman"
+  },
+  {
+    "type": "pages",
+    "id": 9669,
+    "path": "/deep-freezer-repair-services-bharuch/",
+    "slug": "deep-freezer-repair-services-bharuch",
+    "title": "deep freezer repair services Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9667,
+    "path": "/deep-freezer-repair-services-anand/",
+    "slug": "deep-freezer-repair-services-anand",
+    "title": "deep freezer repair services Anand"
+  },
+  {
+    "type": "pages",
+    "id": 9665,
+    "path": "/deep-freezer-repair-services-ahmedabad/",
+    "slug": "deep-freezer-repair-services-ahmedabad",
+    "title": "deep freezer repair services Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9663,
+    "path": "/deep-freezer-repair-services-vadodara-2/",
+    "slug": "deep-freezer-repair-services-vadodara-2",
+    "title": "deep freezer repair services Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9657,
+    "path": "/cold-room-repair-services-valsad/",
+    "slug": "cold-room-repair-services-valsad",
+    "title": "cold room repair services Valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9654,
+    "path": "/cold-room-repair-services-surat/",
+    "slug": "cold-room-repair-services-surat",
+    "title": "cold room repair services surat"
+  },
+  {
+    "type": "pages",
+    "id": 9652,
+    "path": "/cold-room-repair-services-rajpipla/",
+    "slug": "cold-room-repair-services-rajpipla",
+    "title": "cold room repair services Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9650,
+    "path": "/cold-room-repair-services-rajkot/",
+    "slug": "cold-room-repair-services-rajkot",
+    "title": "cold room repair services Rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9648,
+    "path": "/cold-room-repair-services-morbi/",
+    "slug": "cold-room-repair-services-morbi",
+    "title": "cold room repair services Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9646,
+    "path": "/cold-room-repair-services-kheda/",
+    "slug": "cold-room-repair-services-kheda",
+    "title": "cold room repair services Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9644,
+    "path": "/cold-room-repair-services-gujarat/",
+    "slug": "cold-room-repair-services-gujarat",
+    "title": "cold room repair services Gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9642,
+    "path": "/cold-room-repair-services-godhra/",
+    "slug": "cold-room-repair-services-godhra",
+    "title": "cold room repair services Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9639,
+    "path": "/cold-room-repair-services-daman/",
+    "slug": "cold-room-repair-services-daman",
+    "title": "cold room repair services Daman"
+  },
+  {
+    "type": "pages",
+    "id": 9637,
+    "path": "/cold-room-repair-services-anand/",
+    "slug": "cold-room-repair-services-anand",
+    "title": "cold room repair services Anand"
+  },
+  {
+    "type": "pages",
+    "id": 9634,
+    "path": "/cold-room-repair-services-bharuch/",
+    "slug": "cold-room-repair-services-bharuch",
+    "title": "cold room repair services Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9632,
+    "path": "/cold-room-repair-services-ahmedabad/",
+    "slug": "cold-room-repair-services-ahmedabad",
+    "title": "cold room repair services Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9630,
+    "path": "/cold-room-repair-services-vadodara/",
+    "slug": "cold-room-repair-services-vadodara",
+    "title": "cold room repair services Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9628,
+    "path": "/chiller-repair-services-valsad/",
+    "slug": "chiller-repair-services-valsad",
+    "title": "Chiller Repair Services Valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9626,
+    "path": "/chiller-repair-services-surat/",
+    "slug": "chiller-repair-services-surat",
+    "title": "Chiller Repair Services Surat"
+  },
+  {
+    "type": "pages",
+    "id": 9624,
+    "path": "/chiller-repair-services-rajpipla/",
+    "slug": "chiller-repair-services-rajpipla",
+    "title": "Chiller Repair Services Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9622,
+    "path": "/chiller-repair-services-rajkot/",
+    "slug": "chiller-repair-services-rajkot",
+    "title": "Chiller Repair Services Rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9620,
+    "path": "/chiller-repair-services-morbi/",
+    "slug": "chiller-repair-services-morbi",
+    "title": "Chiller Repair Services Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9618,
+    "path": "/chiller-repair-services-kheda/",
+    "slug": "chiller-repair-services-kheda",
+    "title": "Chiller Repair Services Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9616,
+    "path": "/chiller-repair-services-gujarat/",
+    "slug": "chiller-repair-services-gujarat",
+    "title": "Chiller Repair Services Gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9614,
+    "path": "/chiller-repair-services-godhra/",
+    "slug": "chiller-repair-services-godhra",
+    "title": "Chiller Repair Services Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9612,
+    "path": "/chiller-repair-services-daman/",
+    "slug": "chiller-repair-services-daman",
+    "title": "Chiller Repair Services Daman"
+  },
+  {
+    "type": "pages",
+    "id": 9610,
+    "path": "/chiller-repair-services-bharuch/",
+    "slug": "chiller-repair-services-bharuch",
+    "title": "Chiller Repair Services Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9607,
+    "path": "/chiller-repair-services-anand/",
+    "slug": "chiller-repair-services-anand",
+    "title": "Chiller Repair Services Anand"
+  },
+  {
+    "type": "pages",
+    "id": 9605,
+    "path": "/chiller-repair-services-ahmedabad/",
+    "slug": "chiller-repair-services-ahmedabad",
+    "title": "chiller repair services ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9603,
+    "path": "/chiller-repair-services-vadodara/",
+    "slug": "chiller-repair-services-vadodara",
+    "title": "chiller repair services vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9600,
+    "path": "/central-ac-repair-services-valsad/",
+    "slug": "central-ac-repair-services-valsad",
+    "title": "Central AC Repair Services Valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9598,
+    "path": "/central-ac-repair-services-surat/",
+    "slug": "central-ac-repair-services-surat",
+    "title": "Central AC Repair Services Surat"
+  },
+  {
+    "type": "pages",
+    "id": 9596,
+    "path": "/central-ac-repair-services-rajpipla/",
+    "slug": "central-ac-repair-services-rajpipla",
+    "title": "Central AC Repair Services Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9593,
+    "path": "/central-ac-repair-services-rajkot/",
+    "slug": "central-ac-repair-services-rajkot",
+    "title": "central ac repair services rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9591,
+    "path": "/central-ac-repair-services-morbi/",
+    "slug": "central-ac-repair-services-morbi",
+    "title": "Central AC Repair Services Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9589,
+    "path": "/central-ac-repair-services-kheda/",
+    "slug": "central-ac-repair-services-kheda",
+    "title": "Central AC Repair Services Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9587,
+    "path": "/central-ac-repair-services-gujarat/",
+    "slug": "central-ac-repair-services-gujarat",
+    "title": "central ac repair services gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9585,
+    "path": "/central-ac-repair-services-godhra/",
+    "slug": "central-ac-repair-services-godhra",
+    "title": "central ac repair services godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9583,
+    "path": "/central-ac-repair-services-daman/",
+    "slug": "central-ac-repair-services-daman",
+    "title": "Central AC Repair services Daman"
+  },
+  {
+    "type": "pages",
+    "id": 9581,
+    "path": "/central-ac-repair-services-bharuch/",
+    "slug": "central-ac-repair-services-bharuch",
+    "title": "central ac repair services bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9579,
+    "path": "/central-ac-repair-services-anand/",
+    "slug": "central-ac-repair-services-anand",
+    "title": "central ac repair services anand"
+  },
+  {
+    "type": "pages",
+    "id": 9577,
+    "path": "/central-ac-repair-services-ahmedabad/",
+    "slug": "central-ac-repair-services-ahmedabad",
+    "title": "central ac repair services ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9573,
+    "path": "/central-ac-repair-services-vadodara/",
+    "slug": "central-ac-repair-services-vadodara",
+    "title": "central ac repair services vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9571,
+    "path": "/cassette-ac-service-valsad/",
+    "slug": "cassette-ac-service-valsad",
+    "title": "cassette ac service valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9569,
+    "path": "/cassette-ac-service-surat/",
+    "slug": "cassette-ac-service-surat",
+    "title": "cassette ac service surat"
+  },
+  {
+    "type": "pages",
+    "id": 9567,
+    "path": "/cassette-ac-service-rajpipla/",
+    "slug": "cassette-ac-service-rajpipla",
+    "title": "cassette ac service rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9565,
+    "path": "/cassette-ac-service-rajkot/",
+    "slug": "cassette-ac-service-rajkot",
+    "title": "Cassette AC Service Rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9563,
+    "path": "/cassette-ac-service-morbi/",
+    "slug": "cassette-ac-service-morbi",
+    "title": "Cassette AC Service Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9561,
+    "path": "/cassette-ac-service-kheda/",
+    "slug": "cassette-ac-service-kheda",
+    "title": "Cassette AC Service Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9559,
+    "path": "/cassette-ac-service-gujarat/",
+    "slug": "cassette-ac-service-gujarat",
+    "title": "cassette ac service gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9555,
+    "path": "/cassette-ac-service-godhra/",
+    "slug": "cassette-ac-service-godhra",
+    "title": "cassette ac service godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9550,
+    "path": "/cassette-ac-service-daman/",
+    "slug": "cassette-ac-service-daman",
+    "title": "cassette ac service daman"
+  },
+  {
+    "type": "pages",
+    "id": 9548,
+    "path": "/cassette-ac-service-bharuch/",
+    "slug": "cassette-ac-service-bharuch",
+    "title": "Cassette AC Service Bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9546,
+    "path": "/cassette-ac-service-anand/",
+    "slug": "cassette-ac-service-anand",
+    "title": "Cassette AC Service Anand"
+  },
+  {
+    "type": "pages",
+    "id": 9544,
+    "path": "/cassette-ac-service-ahmedabad/",
+    "slug": "cassette-ac-service-ahmedabad",
+    "title": "Cassette AC Service Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9541,
+    "path": "/cassette-ac-service-vadodara/",
+    "slug": "cassette-ac-service-vadodara",
+    "title": "cassette ac service vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9540,
+    "path": "/york-ac-service-center-valsad/",
+    "slug": "york-ac-service-center-valsad",
+    "title": "york ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9539,
+    "path": "/voltas-ac-service-center-valsad/",
+    "slug": "voltas-ac-service-center-valsad",
+    "title": "voltas ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9538,
+    "path": "/samsung-ac-service-center-valsad/",
+    "slug": "samsung-ac-service-center-valsad",
+    "title": "samsung ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9537,
+    "path": "/panasonic-ac-service-center-valsad/",
+    "slug": "panasonic-ac-service-center-valsad",
+    "title": "panasonic ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9536,
+    "path": "/onida-ac-service-center-valsad/",
+    "slug": "onida-ac-service-center-valsad",
+    "title": "onida ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9535,
+    "path": "/o-general-ac-service-center-valsad/",
+    "slug": "o-general-ac-service-center-valsad",
+    "title": "o general ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9534,
+    "path": "/mitsubishi-ac-service-center-valsad/",
+    "slug": "mitsubishi-ac-service-center-valsad",
+    "title": "mitsubishi ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9533,
+    "path": "/lg-ac-service-center-valsad/",
+    "slug": "lg-ac-service-center-valsad",
+    "title": "lg ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9532,
+    "path": "/kelvinator-ac-service-center-valsad/",
+    "slug": "kelvinator-ac-service-center-valsad",
+    "title": "kelvinator ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9531,
+    "path": "/hitachi-ac-service-center-valsad/",
+    "slug": "hitachi-ac-service-center-valsad",
+    "title": "hitachi ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9530,
+    "path": "/haier-ac-service-center-valsad/",
+    "slug": "haier-ac-service-center-valsad",
+    "title": "haier ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9529,
+    "path": "/electrolux-ac-service-center-valsad/",
+    "slug": "electrolux-ac-service-center-valsad",
+    "title": "electrolux ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9528,
+    "path": "/daikin-ac-service-center-valsad/",
+    "slug": "daikin-ac-service-center-valsad",
+    "title": "daikin ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9527,
+    "path": "/carrier-ac-service-center-valsad/",
+    "slug": "carrier-ac-service-center-valsad",
+    "title": "carrier ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9526,
+    "path": "/blue-star-ac-service-center-valsad/",
+    "slug": "blue-star-ac-service-center-valsad",
+    "title": "blue star ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9522,
+    "path": "/york-ac-service-center-surat/",
+    "slug": "york-ac-service-center-surat",
+    "title": "york ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9521,
+    "path": "/voltas-ac-service-center-surat/",
+    "slug": "voltas-ac-service-center-surat",
+    "title": "voltas ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9520,
+    "path": "/samsung-ac-service-center-surat/",
+    "slug": "samsung-ac-service-center-surat",
+    "title": "samsung ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9519,
+    "path": "/panasonic-ac-service-center-surat/",
+    "slug": "panasonic-ac-service-center-surat",
+    "title": "panasonic ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9518,
+    "path": "/onida-ac-service-center-surat/",
+    "slug": "onida-ac-service-center-surat",
+    "title": "onida ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9517,
+    "path": "/o-general-ac-service-center-surat/",
+    "slug": "o-general-ac-service-center-surat",
+    "title": "o general ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9516,
+    "path": "/mitsubishi-ac-service-center-surat/",
+    "slug": "mitsubishi-ac-service-center-surat",
+    "title": "mitsubishi ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9515,
+    "path": "/lg-ac-service-center-surat/",
+    "slug": "lg-ac-service-center-surat",
+    "title": "lg ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9514,
+    "path": "/kelvinator-ac-service-center-surat/",
+    "slug": "kelvinator-ac-service-center-surat",
+    "title": "kelvinator ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9513,
+    "path": "/hitachi-ac-service-center-surat/",
+    "slug": "hitachi-ac-service-center-surat",
+    "title": "hitachi ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9512,
+    "path": "/haier-ac-service-center-surat/",
+    "slug": "haier-ac-service-center-surat",
+    "title": "haier ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9511,
+    "path": "/electrolux-ac-service-center-surat/",
+    "slug": "electrolux-ac-service-center-surat",
+    "title": "electrolux ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9510,
+    "path": "/daikin-ac-service-center-surat/",
+    "slug": "daikin-ac-service-center-surat",
+    "title": "daikin ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9509,
+    "path": "/carrier-ac-service-center-surat/",
+    "slug": "carrier-ac-service-center-surat",
+    "title": "carrier ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9508,
+    "path": "/blue-star-ac-service-center-surat/",
+    "slug": "blue-star-ac-service-center-surat",
+    "title": "blue star ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9504,
+    "path": "/york-ac-service-center-rajpipla/",
+    "slug": "york-ac-service-center-rajpipla",
+    "title": "york ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9503,
+    "path": "/voltas-ac-service-center-rajpipla/",
+    "slug": "voltas-ac-service-center-rajpipla",
+    "title": "voltas ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9502,
+    "path": "/samsung-ac-service-center-rajpipla/",
+    "slug": "samsung-ac-service-center-rajpipla",
+    "title": "samsung ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9501,
+    "path": "/panasonic-ac-service-center-rajpipla/",
+    "slug": "panasonic-ac-service-center-rajpipla",
+    "title": "panasonic ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9500,
+    "path": "/onida-ac-service-center-rajpipla/",
+    "slug": "onida-ac-service-center-rajpipla",
+    "title": "onida ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9499,
+    "path": "/o-general-ac-service-center-rajpipla/",
+    "slug": "o-general-ac-service-center-rajpipla",
+    "title": "o general ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9498,
+    "path": "/mitsubishi-ac-service-center-rajpipla/",
+    "slug": "mitsubishi-ac-service-center-rajpipla",
+    "title": "mitsubishi ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9497,
+    "path": "/lg-ac-service-center-rajpipla/",
+    "slug": "lg-ac-service-center-rajpipla",
+    "title": "lg ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9496,
+    "path": "/kelvinator-ac-service-center-rajpipla/",
+    "slug": "kelvinator-ac-service-center-rajpipla",
+    "title": "kelvinator ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9495,
+    "path": "/hitachi-ac-service-center-rajpipla/",
+    "slug": "hitachi-ac-service-center-rajpipla",
+    "title": "hitachi ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9494,
+    "path": "/haier-ac-service-center-rajpipla/",
+    "slug": "haier-ac-service-center-rajpipla",
+    "title": "haier ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9493,
+    "path": "/electrolux-ac-service-center-rajpipla/",
+    "slug": "electrolux-ac-service-center-rajpipla",
+    "title": "electrolux ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9492,
+    "path": "/daikin-ac-service-center-rajpipla/",
+    "slug": "daikin-ac-service-center-rajpipla",
+    "title": "daikin ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9491,
+    "path": "/carrier-ac-service-center-rajpipla/",
+    "slug": "carrier-ac-service-center-rajpipla",
+    "title": "carrier ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9490,
+    "path": "/blue-star-ac-service-center-rajpipla/",
+    "slug": "blue-star-ac-service-center-rajpipla",
+    "title": "blue star ac service center Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9486,
+    "path": "/york-ac-service-center-rajkot/",
+    "slug": "york-ac-service-center-rajkot",
+    "title": "york ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9485,
+    "path": "/voltas-ac-service-center-rajkot/",
+    "slug": "voltas-ac-service-center-rajkot",
+    "title": "voltas ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9484,
+    "path": "/samsung-ac-service-center-rajkot/",
+    "slug": "samsung-ac-service-center-rajkot",
+    "title": "samsung ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9483,
+    "path": "/panasonic-ac-service-center-rajkot/",
+    "slug": "panasonic-ac-service-center-rajkot",
+    "title": "panasonic ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9482,
+    "path": "/onida-ac-service-center-rajkot/",
+    "slug": "onida-ac-service-center-rajkot",
+    "title": "onida ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9481,
+    "path": "/o-general-ac-service-center-rajkot/",
+    "slug": "o-general-ac-service-center-rajkot",
+    "title": "o general ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9480,
+    "path": "/mitsubishi-ac-service-center-rajkot/",
+    "slug": "mitsubishi-ac-service-center-rajkot",
+    "title": "mitsubishi ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9479,
+    "path": "/lg-ac-service-center-rajkot/",
+    "slug": "lg-ac-service-center-rajkot",
+    "title": "lg ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9478,
+    "path": "/kelvinator-ac-service-center-rajkot/",
+    "slug": "kelvinator-ac-service-center-rajkot",
+    "title": "kelvinator ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9477,
+    "path": "/hitachi-ac-service-center-rajkot/",
+    "slug": "hitachi-ac-service-center-rajkot",
+    "title": "hitachi ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9476,
+    "path": "/haier-ac-service-center-rajkot/",
+    "slug": "haier-ac-service-center-rajkot",
+    "title": "haier ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9475,
+    "path": "/electrolux-ac-service-center-rajkot/",
+    "slug": "electrolux-ac-service-center-rajkot",
+    "title": "electrolux ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9474,
+    "path": "/daikin-ac-service-center-rajkot/",
+    "slug": "daikin-ac-service-center-rajkot",
+    "title": "daikin ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9473,
+    "path": "/carrier-ac-service-center-rajkot/",
+    "slug": "carrier-ac-service-center-rajkot",
+    "title": "carrier ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9472,
+    "path": "/blue-star-ac-service-center-rajkot/",
+    "slug": "blue-star-ac-service-center-rajkot",
+    "title": "blue star ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9465,
+    "path": "/york-ac-service-center-morbi/",
+    "slug": "york-ac-service-center-morbi",
+    "title": "york ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9464,
+    "path": "/voltas-ac-service-center-morbi/",
+    "slug": "voltas-ac-service-center-morbi",
+    "title": "voltas ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9463,
+    "path": "/samsung-ac-service-center-morbi/",
+    "slug": "samsung-ac-service-center-morbi",
+    "title": "samsung ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9462,
+    "path": "/panasonic-ac-service-center-morbi/",
+    "slug": "panasonic-ac-service-center-morbi",
+    "title": "panasonic ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9461,
+    "path": "/onida-ac-service-center-morbi/",
+    "slug": "onida-ac-service-center-morbi",
+    "title": "onida ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9460,
+    "path": "/o-general-ac-service-center-morbi/",
+    "slug": "o-general-ac-service-center-morbi",
+    "title": "o general ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9459,
+    "path": "/mitsubishi-ac-service-center-morbi/",
+    "slug": "mitsubishi-ac-service-center-morbi",
+    "title": "mitsubishi ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9458,
+    "path": "/lg-ac-service-center-morbi/",
+    "slug": "lg-ac-service-center-morbi",
+    "title": "lg ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9457,
+    "path": "/kelvinator-ac-service-center-morbi/",
+    "slug": "kelvinator-ac-service-center-morbi",
+    "title": "kelvinator ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9456,
+    "path": "/hitachi-ac-service-center-morbi/",
+    "slug": "hitachi-ac-service-center-morbi",
+    "title": "hitachi ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9455,
+    "path": "/haier-ac-service-center-morbi/",
+    "slug": "haier-ac-service-center-morbi",
+    "title": "haier ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9454,
+    "path": "/electrolux-ac-service-center-morbi/",
+    "slug": "electrolux-ac-service-center-morbi",
+    "title": "electrolux ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9453,
+    "path": "/daikin-ac-service-center-morbi/",
+    "slug": "daikin-ac-service-center-morbi",
+    "title": "daikin ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9452,
+    "path": "/carrier-ac-service-center-morbi/",
+    "slug": "carrier-ac-service-center-morbi",
+    "title": "carrier ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9451,
+    "path": "/blue-star-ac-service-center-morbi/",
+    "slug": "blue-star-ac-service-center-morbi",
+    "title": "blue star ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9447,
+    "path": "/york-ac-service-center-kheda/",
+    "slug": "york-ac-service-center-kheda",
+    "title": "york ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9446,
+    "path": "/voltas-ac-service-center-kheda/",
+    "slug": "voltas-ac-service-center-kheda",
+    "title": "voltas ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9445,
+    "path": "/samsung-ac-service-center-kheda/",
+    "slug": "samsung-ac-service-center-kheda",
+    "title": "samsung ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9444,
+    "path": "/panasonic-ac-service-center-kheda/",
+    "slug": "panasonic-ac-service-center-kheda",
+    "title": "panasonic ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9443,
+    "path": "/onida-ac-service-center-kheda/",
+    "slug": "onida-ac-service-center-kheda",
+    "title": "onida ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9442,
+    "path": "/o-general-ac-service-center-kheda/",
+    "slug": "o-general-ac-service-center-kheda",
+    "title": "o general ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9441,
+    "path": "/mitsubishi-ac-service-center-kheda/",
+    "slug": "mitsubishi-ac-service-center-kheda",
+    "title": "mitsubishi ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9440,
+    "path": "/lg-ac-service-center-kheda/",
+    "slug": "lg-ac-service-center-kheda",
+    "title": "lg ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9439,
+    "path": "/kelvinator-ac-service-center-kheda/",
+    "slug": "kelvinator-ac-service-center-kheda",
+    "title": "kelvinator ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9438,
+    "path": "/hitachi-ac-service-center-kheda/",
+    "slug": "hitachi-ac-service-center-kheda",
+    "title": "hitachi ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9437,
+    "path": "/haier-ac-service-center-kheda/",
+    "slug": "haier-ac-service-center-kheda",
+    "title": "haier ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9436,
+    "path": "/electrolux-ac-service-center-kheda/",
+    "slug": "electrolux-ac-service-center-kheda",
+    "title": "electrolux ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9435,
+    "path": "/daikin-ac-service-center-kheda/",
+    "slug": "daikin-ac-service-center-kheda",
+    "title": "daikin ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9434,
+    "path": "/carrier-ac-service-center-kheda/",
+    "slug": "carrier-ac-service-center-kheda",
+    "title": "carrier ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9433,
+    "path": "/blue-star-ac-service-center-kheda/",
+    "slug": "blue-star-ac-service-center-kheda",
+    "title": "blue star ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9430,
+    "path": "/york-ac-service-center-gujarat/",
+    "slug": "york-ac-service-center-gujarat",
+    "title": "york ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9429,
+    "path": "/voltas-ac-service-center-gujarat/",
+    "slug": "voltas-ac-service-center-gujarat",
+    "title": "voltas ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9428,
+    "path": "/samsung-ac-service-center-gujarat/",
+    "slug": "samsung-ac-service-center-gujarat",
+    "title": "samsung ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9427,
+    "path": "/panasonic-ac-service-center-gujarat/",
+    "slug": "panasonic-ac-service-center-gujarat",
+    "title": "panasonic ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9426,
+    "path": "/onida-ac-service-center-gujarat/",
+    "slug": "onida-ac-service-center-gujarat",
+    "title": "onida ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9425,
+    "path": "/o-general-ac-service-center-gujarat/",
+    "slug": "o-general-ac-service-center-gujarat",
+    "title": "o general ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9424,
+    "path": "/mitsubishi-ac-service-center-gujarat/",
+    "slug": "mitsubishi-ac-service-center-gujarat",
+    "title": "mitsubishi ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9423,
+    "path": "/lg-ac-service-center-gujarat/",
+    "slug": "lg-ac-service-center-gujarat",
+    "title": "lg ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9422,
+    "path": "/kelvinator-ac-service-center-gujarat/",
+    "slug": "kelvinator-ac-service-center-gujarat",
+    "title": "kelvinator ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9421,
+    "path": "/hitachi-ac-service-center-gujarat/",
+    "slug": "hitachi-ac-service-center-gujarat",
+    "title": "hitachi ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9420,
+    "path": "/haier-ac-service-center-gujarat/",
+    "slug": "haier-ac-service-center-gujarat",
+    "title": "haier ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9419,
+    "path": "/electrolux-ac-service-center-gujarat/",
+    "slug": "electrolux-ac-service-center-gujarat",
+    "title": "electrolux ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9418,
+    "path": "/daikin-ac-service-center-gujarat/",
+    "slug": "daikin-ac-service-center-gujarat",
+    "title": "daikin ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9417,
+    "path": "/carrier-ac-service-center-gujarat/",
+    "slug": "carrier-ac-service-center-gujarat",
+    "title": "carrier ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9416,
+    "path": "/blue-star-ac-service-center-gujarat/",
+    "slug": "blue-star-ac-service-center-gujarat",
+    "title": "blue star ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9413,
+    "path": "/york-ac-service-center-godhra/",
+    "slug": "york-ac-service-center-godhra",
+    "title": "york ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9412,
+    "path": "/voltas-ac-service-center-godhra/",
+    "slug": "voltas-ac-service-center-godhra",
+    "title": "voltas ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9411,
+    "path": "/samsung-ac-service-center-godhra/",
+    "slug": "samsung-ac-service-center-godhra",
+    "title": "samsung ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9410,
+    "path": "/panasonic-ac-service-center-godhra/",
+    "slug": "panasonic-ac-service-center-godhra",
+    "title": "panasonic ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9409,
+    "path": "/onida-ac-service-center-godhra/",
+    "slug": "onida-ac-service-center-godhra",
+    "title": "onida ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9408,
+    "path": "/o-general-ac-service-center-godhra/",
+    "slug": "o-general-ac-service-center-godhra",
+    "title": "o general ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9407,
+    "path": "/mitsubishi-ac-service-center-godhra/",
+    "slug": "mitsubishi-ac-service-center-godhra",
+    "title": "mitsubishi ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9406,
+    "path": "/lg-ac-service-center-godhra/",
+    "slug": "lg-ac-service-center-godhra",
+    "title": "lg ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9405,
+    "path": "/kelvinator-ac-service-center-godhra/",
+    "slug": "kelvinator-ac-service-center-godhra",
+    "title": "kelvinator ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9404,
+    "path": "/hitachi-ac-service-center-godhra/",
+    "slug": "hitachi-ac-service-center-godhra",
+    "title": "hitachi ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9403,
+    "path": "/haier-ac-service-center-godhra/",
+    "slug": "haier-ac-service-center-godhra",
+    "title": "haier ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9402,
+    "path": "/electrolux-ac-service-center-godhra/",
+    "slug": "electrolux-ac-service-center-godhra",
+    "title": "electrolux ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9401,
+    "path": "/daikin-ac-service-center-godhra/",
+    "slug": "daikin-ac-service-center-godhra",
+    "title": "daikin ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9400,
+    "path": "/carrier-ac-service-center-godhra/",
+    "slug": "carrier-ac-service-center-godhra",
+    "title": "carrier ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9399,
+    "path": "/blue-star-ac-service-center-godhra/",
+    "slug": "blue-star-ac-service-center-godhra",
+    "title": "blue star ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9395,
+    "path": "/york-ac-service-center-daman/",
+    "slug": "york-ac-service-center-daman",
+    "title": "york ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9394,
+    "path": "/voltas-ac-service-center-daman/",
+    "slug": "voltas-ac-service-center-daman",
+    "title": "voltas ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9393,
+    "path": "/samsung-ac-service-center-daman/",
+    "slug": "samsung-ac-service-center-daman",
+    "title": "samsung ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9392,
+    "path": "/panasonic-ac-service-center-daman/",
+    "slug": "panasonic-ac-service-center-daman",
+    "title": "panasonic ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9391,
+    "path": "/onida-ac-service-center-daman/",
+    "slug": "onida-ac-service-center-daman",
+    "title": "onida ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9390,
+    "path": "/o-general-ac-service-center-daman/",
+    "slug": "o-general-ac-service-center-daman",
+    "title": "o general ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9389,
+    "path": "/mitsubishi-ac-service-center-daman/",
+    "slug": "mitsubishi-ac-service-center-daman",
+    "title": "mitsubishi ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9388,
+    "path": "/lg-ac-service-center-daman/",
+    "slug": "lg-ac-service-center-daman",
+    "title": "lg ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9387,
+    "path": "/kelvinator-ac-service-center-daman/",
+    "slug": "kelvinator-ac-service-center-daman",
+    "title": "kelvinator ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9386,
+    "path": "/hitachi-ac-service-center-daman/",
+    "slug": "hitachi-ac-service-center-daman",
+    "title": "hitachi ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9385,
+    "path": "/haier-ac-service-center-daman/",
+    "slug": "haier-ac-service-center-daman",
+    "title": "haier ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9384,
+    "path": "/electrolux-ac-service-center-daman/",
+    "slug": "electrolux-ac-service-center-daman",
+    "title": "electrolux ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9383,
+    "path": "/daikin-ac-service-center-daman/",
+    "slug": "daikin-ac-service-center-daman",
+    "title": "daikin ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9382,
+    "path": "/carrier-ac-service-center-daman/",
+    "slug": "carrier-ac-service-center-daman",
+    "title": "carrier ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9381,
+    "path": "/blue-star-ac-service-center-daman/",
+    "slug": "blue-star-ac-service-center-daman",
+    "title": "blue star ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9376,
+    "path": "/york-ac-service-center-bharuch/",
+    "slug": "york-ac-service-center-bharuch",
+    "title": "york ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9375,
+    "path": "/voltas-ac-service-center-bharuch/",
+    "slug": "voltas-ac-service-center-bharuch",
+    "title": "voltas ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9374,
+    "path": "/samsung-ac-service-center-bharuch/",
+    "slug": "samsung-ac-service-center-bharuch",
+    "title": "samsung ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9373,
+    "path": "/panasonic-ac-service-center-bharuch/",
+    "slug": "panasonic-ac-service-center-bharuch",
+    "title": "panasonic ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9372,
+    "path": "/onida-ac-service-center-bharuch/",
+    "slug": "onida-ac-service-center-bharuch",
+    "title": "onida ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9371,
+    "path": "/o-general-ac-service-center-bharuch/",
+    "slug": "o-general-ac-service-center-bharuch",
+    "title": "o general ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9370,
+    "path": "/mitsubishi-ac-service-center-bharuch/",
+    "slug": "mitsubishi-ac-service-center-bharuch",
+    "title": "mitsubishi ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9369,
+    "path": "/lg-ac-service-center-bharuch/",
+    "slug": "lg-ac-service-center-bharuch",
+    "title": "lg ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9368,
+    "path": "/kelvinator-ac-service-center-bharuch/",
+    "slug": "kelvinator-ac-service-center-bharuch",
+    "title": "kelvinator ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9367,
+    "path": "/hitachi-ac-service-center-bharuch/",
+    "slug": "hitachi-ac-service-center-bharuch",
+    "title": "hitachi ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9366,
+    "path": "/haier-ac-service-center-bharuch/",
+    "slug": "haier-ac-service-center-bharuch",
+    "title": "haier ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9365,
+    "path": "/electrolux-ac-service-center-bharuch/",
+    "slug": "electrolux-ac-service-center-bharuch",
+    "title": "electrolux ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9364,
+    "path": "/daikin-ac-service-center-bharuch/",
+    "slug": "daikin-ac-service-center-bharuch",
+    "title": "daikin ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9363,
+    "path": "/carrier-ac-service-center-bharuch/",
+    "slug": "carrier-ac-service-center-bharuch",
+    "title": "carrier ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9362,
+    "path": "/blue-star-ac-service-center-bharuch/",
+    "slug": "blue-star-ac-service-center-bharuch",
+    "title": "blue star ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9359,
+    "path": "/york-ac-service-center-anand/",
+    "slug": "york-ac-service-center-anand",
+    "title": "york ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9358,
+    "path": "/voltas-ac-service-center-anand/",
+    "slug": "voltas-ac-service-center-anand",
+    "title": "voltas ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9357,
+    "path": "/samsung-ac-service-center-anand/",
+    "slug": "samsung-ac-service-center-anand",
+    "title": "samsung ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9356,
+    "path": "/panasonic-ac-service-center-anand/",
+    "slug": "panasonic-ac-service-center-anand",
+    "title": "panasonic ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9355,
+    "path": "/onida-ac-service-center-anand/",
+    "slug": "onida-ac-service-center-anand",
+    "title": "onida ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9354,
+    "path": "/o-general-ac-service-center-anand/",
+    "slug": "o-general-ac-service-center-anand",
+    "title": "o general ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9353,
+    "path": "/mitsubishi-ac-service-center-anand/",
+    "slug": "mitsubishi-ac-service-center-anand",
+    "title": "mitsubishi ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9352,
+    "path": "/lg-ac-service-center-anand/",
+    "slug": "lg-ac-service-center-anand",
+    "title": "lg ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9351,
+    "path": "/kelvinator-ac-service-center-anand/",
+    "slug": "kelvinator-ac-service-center-anand",
+    "title": "kelvinator ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9350,
+    "path": "/hitachi-ac-service-center-anand/",
+    "slug": "hitachi-ac-service-center-anand",
+    "title": "hitachi ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9349,
+    "path": "/haier-ac-service-center-anand/",
+    "slug": "haier-ac-service-center-anand",
+    "title": "haier ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9348,
+    "path": "/electrolux-ac-service-center-anand/",
+    "slug": "electrolux-ac-service-center-anand",
+    "title": "electrolux ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9347,
+    "path": "/daikin-ac-service-center-anand/",
+    "slug": "daikin-ac-service-center-anand",
+    "title": "daikin ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9346,
+    "path": "/carrier-ac-service-center-anand/",
+    "slug": "carrier-ac-service-center-anand",
+    "title": "carrier ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9345,
+    "path": "/blue-star-ac-service-center-anand/",
+    "slug": "blue-star-ac-service-center-anand",
+    "title": "blue star ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9342,
+    "path": "/york-ac-service-center-ahmedabad/",
+    "slug": "york-ac-service-center-ahmedabad",
+    "title": "york ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9341,
+    "path": "/voltas-ac-service-center-ahmedabad/",
+    "slug": "voltas-ac-service-center-ahmedabad",
+    "title": "voltas ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9340,
+    "path": "/samsung-ac-service-center-ahmedabad/",
+    "slug": "samsung-ac-service-center-ahmedabad",
+    "title": "samsung ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9339,
+    "path": "/panasonic-ac-service-center-ahmedabad/",
+    "slug": "panasonic-ac-service-center-ahmedabad",
+    "title": "panasonic ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9338,
+    "path": "/onida-ac-service-center-ahmedabad/",
+    "slug": "onida-ac-service-center-ahmedabad",
+    "title": "onida ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9337,
+    "path": "/o-general-ac-service-center-ahmedabad/",
+    "slug": "o-general-ac-service-center-ahmedabad",
+    "title": "o general ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9336,
+    "path": "/mitsubishi-ac-service-center-ahmedabad/",
+    "slug": "mitsubishi-ac-service-center-ahmedabad",
+    "title": "mitsubishi ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9335,
+    "path": "/lg-ac-service-center-ahmedabad/",
+    "slug": "lg-ac-service-center-ahmedabad",
+    "title": "lg ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9334,
+    "path": "/kelvinator-ac-service-center-ahmedabad/",
+    "slug": "kelvinator-ac-service-center-ahmedabad",
+    "title": "kelvinator ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9333,
+    "path": "/hitachi-ac-service-center-ahmedabad/",
+    "slug": "hitachi-ac-service-center-ahmedabad",
+    "title": "hitachi ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9332,
+    "path": "/haier-ac-service-center-ahmedabad/",
+    "slug": "haier-ac-service-center-ahmedabad",
+    "title": "haier ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9331,
+    "path": "/electrolux-ac-service-center-ahmedabad/",
+    "slug": "electrolux-ac-service-center-ahmedabad",
+    "title": "electrolux ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9330,
+    "path": "/daikin-ac-service-center-ahmedabad/",
+    "slug": "daikin-ac-service-center-ahmedabad",
+    "title": "daikin ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9329,
+    "path": "/carrier-ac-service-center-ahmedabad/",
+    "slug": "carrier-ac-service-center-ahmedabad",
+    "title": "carrier ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9328,
+    "path": "/blue-star-ac-service-center-ahmedabad/",
+    "slug": "blue-star-ac-service-center-ahmedabad",
+    "title": "blue star ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9325,
+    "path": "/york-ac-service-center-vadodara/",
+    "slug": "york-ac-service-center-vadodara",
+    "title": "york ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9324,
+    "path": "/voltas-ac-service-center-vadodara/",
+    "slug": "voltas-ac-service-center-vadodara",
+    "title": "voltas ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9323,
+    "path": "/samsung-ac-service-center-vadodara/",
+    "slug": "samsung-ac-service-center-vadodara",
+    "title": "samsung ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9322,
+    "path": "/panasonic-ac-service-center-vadodara/",
+    "slug": "panasonic-ac-service-center-vadodara",
+    "title": "panasonic ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9321,
+    "path": "/onida-ac-service-center-vadodara/",
+    "slug": "onida-ac-service-center-vadodara",
+    "title": "onida ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9320,
+    "path": "/o-general-ac-service-center-vadodara/",
+    "slug": "o-general-ac-service-center-vadodara",
+    "title": "o general ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9319,
+    "path": "/mitsubishi-ac-service-center-vadodara/",
+    "slug": "mitsubishi-ac-service-center-vadodara",
+    "title": "mitsubishi ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9318,
+    "path": "/lg-ac-service-center-vadodara/",
+    "slug": "lg-ac-service-center-vadodara",
+    "title": "lg ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9317,
+    "path": "/kelvinator-ac-service-center-vadodara/",
+    "slug": "kelvinator-ac-service-center-vadodara",
+    "title": "kelvinator ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9316,
+    "path": "/hitachi-ac-service-center-vadodara/",
+    "slug": "hitachi-ac-service-center-vadodara",
+    "title": "hitachi ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9315,
+    "path": "/haier-ac-service-center-vadodara/",
+    "slug": "haier-ac-service-center-vadodara",
+    "title": "haier ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9314,
+    "path": "/electrolux-ac-service-center-vadodara/",
+    "slug": "electrolux-ac-service-center-vadodara",
+    "title": "electrolux ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9313,
+    "path": "/daikin-ac-service-center-vadodara/",
+    "slug": "daikin-ac-service-center-vadodara",
+    "title": "daikin ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9312,
+    "path": "/carrier-ac-service-center-vadodara/",
+    "slug": "carrier-ac-service-center-vadodara",
+    "title": "carrier ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9311,
+    "path": "/blue-star-ac-service-center-vadodara/",
+    "slug": "blue-star-ac-service-center-vadodara",
+    "title": "blue star ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9307,
+    "path": "/annual-maintenance-contract/",
+    "slug": "annual-maintenance-contract",
+    "title": "Annual Maintenance Contract"
+  },
+  {
+    "type": "pages",
+    "id": 9305,
+    "path": "/air-handling-unit-services-valsad/",
+    "slug": "air-handling-unit-services-valsad",
+    "title": "Air Handling Unit Services Valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9303,
+    "path": "/air-handling-unit-services-surat/",
+    "slug": "air-handling-unit-services-surat",
+    "title": "Air Handling Unit Services Surat"
+  },
+  {
+    "type": "pages",
+    "id": 9301,
+    "path": "/air-handling-unit-services-rajpipla/",
+    "slug": "air-handling-unit-services-rajpipla",
+    "title": "Air Handling Unit services Rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9299,
+    "path": "/air-handling-unit-services-rajkot/",
+    "slug": "air-handling-unit-services-rajkot",
+    "title": "Air Handling Unit Services Rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9297,
+    "path": "/air-handling-unit-services-morbi/",
+    "slug": "air-handling-unit-services-morbi",
+    "title": "Air Handling Unit Services Morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9295,
+    "path": "/air-handling-unit-services-kheda/",
+    "slug": "air-handling-unit-services-kheda",
+    "title": "Air Handling Unit Services Kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9293,
+    "path": "/air-handling-unit-services-gujarat/",
+    "slug": "air-handling-unit-services-gujarat",
+    "title": "air handling unit services gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9291,
+    "path": "/air-handling-unit-services-godhra/",
+    "slug": "air-handling-unit-services-godhra",
+    "title": "Air Handling Unit Services Godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9289,
+    "path": "/air-handling-unit-services-daman/",
+    "slug": "air-handling-unit-services-daman",
+    "title": "air handling unit services daman"
+  },
+  {
+    "type": "pages",
+    "id": 9287,
+    "path": "/air-handling-unit-services-bharuch/",
+    "slug": "air-handling-unit-services-bharuch",
+    "title": "air handling unit services bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9283,
+    "path": "/air-handling-unit-services-anand/",
+    "slug": "air-handling-unit-services-anand",
+    "title": "air handling unit services anand"
+  },
+  {
+    "type": "pages",
+    "id": 9280,
+    "path": "/air-handling-unit-services-ahmedabad/",
+    "slug": "air-handling-unit-services-ahmedabad",
+    "title": "Air Handling Unit Services Ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9277,
+    "path": "/air-handling-unit-services-vadodara/",
+    "slug": "air-handling-unit-services-vadodara",
+    "title": "air handling unit services vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9275,
+    "path": "/air-cooler-repair-services-valsad/",
+    "slug": "air-cooler-repair-services-valsad",
+    "title": "air cooler repair services valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9273,
+    "path": "/air-cooler-repair-services-surat/",
+    "slug": "air-cooler-repair-services-surat",
+    "title": "air cooler repair services surat"
+  },
+  {
+    "type": "pages",
+    "id": 9271,
+    "path": "/air-cooler-repair-services-rajpipla/",
+    "slug": "air-cooler-repair-services-rajpipla",
+    "title": "air cooler repair services rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9269,
+    "path": "/air-cooler-repair-services-rajkot/",
+    "slug": "air-cooler-repair-services-rajkot",
+    "title": "air cooler repair services rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9267,
+    "path": "/air-cooler-repair-services-morbi/",
+    "slug": "air-cooler-repair-services-morbi",
+    "title": "air cooler repair services morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9265,
+    "path": "/air-cooler-repair-services-kheda/",
+    "slug": "air-cooler-repair-services-kheda",
+    "title": "air cooler repair services kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9263,
+    "path": "/air-cooler-repair-services-gujarat/",
+    "slug": "air-cooler-repair-services-gujarat",
+    "title": "air cooler repair services gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9261,
+    "path": "/air-cooler-repair-services-godhra/",
+    "slug": "air-cooler-repair-services-godhra",
+    "title": "air cooler repair services godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9259,
+    "path": "/air-cooler-repair-services-daman/",
+    "slug": "air-cooler-repair-services-daman",
+    "title": "air cooler repair services daman"
+  },
+  {
+    "type": "pages",
+    "id": 9257,
+    "path": "/air-cooler-repair-services-bharuch/",
+    "slug": "air-cooler-repair-services-bharuch",
+    "title": "air cooler repair services bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9255,
+    "path": "/air-cooler-repair-services-anand/",
+    "slug": "air-cooler-repair-services-anand",
+    "title": "air cooler repair services anand"
+  },
+  {
+    "type": "pages",
+    "id": 9247,
+    "path": "/air-cooler-repair-services-ahmedabad/",
+    "slug": "air-cooler-repair-services-ahmedabad",
+    "title": "air cooler repair services ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9245,
+    "path": "/air-cooler-repair-services-vadodara/",
+    "slug": "air-cooler-repair-services-vadodara",
+    "title": "air cooler repair services vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9240,
+    "path": "/ac-service-center-valsad/",
+    "slug": "ac-service-center-valsad",
+    "title": "ac service center valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9238,
+    "path": "/ac-service-center-surat/",
+    "slug": "ac-service-center-surat",
+    "title": "ac service center surat"
+  },
+  {
+    "type": "pages",
+    "id": 9236,
+    "path": "/ac-service-center-rajpipla/",
+    "slug": "ac-service-center-rajpipla",
+    "title": "ac service center rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9234,
+    "path": "/ac-service-center-rajkot/",
+    "slug": "ac-service-center-rajkot",
+    "title": "ac service center rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9232,
+    "path": "/ac-service-center-morbi/",
+    "slug": "ac-service-center-morbi",
+    "title": "ac service center morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9230,
+    "path": "/ac-service-center-kheda/",
+    "slug": "ac-service-center-kheda",
+    "title": "ac service center kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9228,
+    "path": "/ac-service-center-gujarat/",
+    "slug": "ac-service-center-gujarat",
+    "title": "ac service center gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9226,
+    "path": "/ac-service-center-godhra/",
+    "slug": "ac-service-center-godhra",
+    "title": "ac service center godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9224,
+    "path": "/ac-service-center-daman/",
+    "slug": "ac-service-center-daman",
+    "title": "ac service center daman"
+  },
+  {
+    "type": "pages",
+    "id": 9222,
+    "path": "/ac-service-center-bharuch/",
+    "slug": "ac-service-center-bharuch",
+    "title": "ac service center bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9220,
+    "path": "/ac-service-center-anand/",
+    "slug": "ac-service-center-anand",
+    "title": "ac service center anand"
+  },
+  {
+    "type": "pages",
+    "id": 9218,
+    "path": "/ac-service-center-ahmedabad/",
+    "slug": "ac-service-center-ahmedabad",
+    "title": "ac service center ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9216,
+    "path": "/ac-service-center-vadodara-2/",
+    "slug": "ac-service-center-vadodara-2",
+    "title": "ac service center vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9211,
+    "path": "/ac-service-valsad/",
+    "slug": "ac-service-valsad",
+    "title": "ac service valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9209,
+    "path": "/ac-service-surat/",
+    "slug": "ac-service-surat",
+    "title": "ac service surat"
+  },
+  {
+    "type": "pages",
+    "id": 9207,
+    "path": "/ac-service-rajpipla/",
+    "slug": "ac-service-rajpipla",
+    "title": "ac service rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9205,
+    "path": "/ac-service-rajkot/",
+    "slug": "ac-service-rajkot",
+    "title": "ac service rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9203,
+    "path": "/ac-service-morbi/",
+    "slug": "ac-service-morbi",
+    "title": "ac service morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9201,
+    "path": "/ac-service-kheda/",
+    "slug": "ac-service-kheda",
+    "title": "ac service kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9198,
+    "path": "/ac-service-gujarat/",
+    "slug": "ac-service-gujarat",
+    "title": "ac service gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9195,
+    "path": "/ac-service-godhra/",
+    "slug": "ac-service-godhra",
+    "title": "ac service godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9193,
+    "path": "/ac-service-daman/",
+    "slug": "ac-service-daman",
+    "title": "ac service daman"
+  },
+  {
+    "type": "pages",
+    "id": 9191,
+    "path": "/ac-service-bharuch/",
+    "slug": "ac-service-bharuch",
+    "title": "ac service bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9189,
+    "path": "/ac-service-anand/",
+    "slug": "ac-service-anand",
+    "title": "ac service anand"
+  },
+  {
+    "type": "pages",
+    "id": 9187,
+    "path": "/ac-service-ahmedabad/",
+    "slug": "ac-service-ahmedabad",
+    "title": "ac service ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9183,
+    "path": "/ac-service-vadodara/",
+    "slug": "ac-service-vadodara",
+    "title": "ac service vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9178,
+    "path": "/ac-repair-valsad/",
+    "slug": "ac-repair-valsad",
+    "title": "ac repair valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9176,
+    "path": "/ac-repair-surat/",
+    "slug": "ac-repair-surat",
+    "title": "ac repair surat"
+  },
+  {
+    "type": "pages",
+    "id": 9173,
+    "path": "/ac-repair-rajpipla/",
+    "slug": "ac-repair-rajpipla",
+    "title": "ac repair rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9171,
+    "path": "/ac-repair-rajkot/",
+    "slug": "ac-repair-rajkot",
+    "title": "ac repair rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9169,
+    "path": "/ac-repair-godhra/",
+    "slug": "ac-repair-godhra",
+    "title": "ac repair godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9167,
+    "path": "/ac-repair-morbi/",
+    "slug": "ac-repair-morbi",
+    "title": "ac repair morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9165,
+    "path": "/ac-repair-kheda/",
+    "slug": "ac-repair-kheda",
+    "title": "ac repair kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9163,
+    "path": "/ac-repair-gujarat/",
+    "slug": "ac-repair-gujarat",
+    "title": "ac repair gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9161,
+    "path": "/ac-repair-daman/",
+    "slug": "ac-repair-daman",
+    "title": "ac repair daman"
+  },
+  {
+    "type": "pages",
+    "id": 9158,
+    "path": "/ac-repair-bharuch/",
+    "slug": "ac-repair-bharuch",
+    "title": "ac repair bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9155,
+    "path": "/ac-repair-anand/",
+    "slug": "ac-repair-anand",
+    "title": "ac repair anand"
+  },
+  {
+    "type": "pages",
+    "id": 9153,
+    "path": "/ac-repair-ahmedabad/",
+    "slug": "ac-repair-ahmedabad",
+    "title": "ac repair ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9150,
+    "path": "/ac-repair-vadodara/",
+    "slug": "ac-repair-vadodara",
+    "title": "ac repair vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9148,
+    "path": "/ac-installation-valsad/",
+    "slug": "ac-installation-valsad",
+    "title": "ac installation valsad"
+  },
+  {
+    "type": "pages",
+    "id": 9139,
+    "path": "/ac-installation-surat/",
+    "slug": "ac-installation-surat",
+    "title": "ac installation surat"
+  },
+  {
+    "type": "pages",
+    "id": 9137,
+    "path": "/ac-installation-rajpipla/",
+    "slug": "ac-installation-rajpipla",
+    "title": "ac installation rajpipla"
+  },
+  {
+    "type": "pages",
+    "id": 9134,
+    "path": "/ac-installation-rajkot/",
+    "slug": "ac-installation-rajkot",
+    "title": "ac installation rajkot"
+  },
+  {
+    "type": "pages",
+    "id": 9132,
+    "path": "/ac-installation-godhra/",
+    "slug": "ac-installation-godhra",
+    "title": "ac installation godhra"
+  },
+  {
+    "type": "pages",
+    "id": 9128,
+    "path": "/ac-installation-morbi/",
+    "slug": "ac-installation-morbi",
+    "title": "ac installation morbi"
+  },
+  {
+    "type": "pages",
+    "id": 9126,
+    "path": "/ac-installation-kheda/",
+    "slug": "ac-installation-kheda",
+    "title": "ac installation kheda"
+  },
+  {
+    "type": "pages",
+    "id": 9124,
+    "path": "/ac-installation-gujarat/",
+    "slug": "ac-installation-gujarat",
+    "title": "ac installation gujarat"
+  },
+  {
+    "type": "pages",
+    "id": 9122,
+    "path": "/ac-installation-daman/",
+    "slug": "ac-installation-daman",
+    "title": "ac installation daman"
+  },
+  {
+    "type": "pages",
+    "id": 9118,
+    "path": "/ac-installation-bharuch/",
+    "slug": "ac-installation-bharuch",
+    "title": "ac installation bharuch"
+  },
+  {
+    "type": "pages",
+    "id": 9116,
+    "path": "/ac-installation-anand/",
+    "slug": "ac-installation-anand",
+    "title": "ac installation anand"
+  },
+  {
+    "type": "pages",
+    "id": 9110,
+    "path": "/ac-installation-ahmedabad/",
+    "slug": "ac-installation-ahmedabad",
+    "title": "ac installation ahmedabad"
+  },
+  {
+    "type": "pages",
+    "id": 9087,
+    "path": "/ac-installation-vadodara/",
+    "slug": "ac-installation-vadodara",
+    "title": "ac installation vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 9048,
+    "path": "/abp-bookings/",
+    "slug": "abp-bookings",
+    "title": "Bookings"
+  },
+  {
+    "type": "pages",
+    "id": 9047,
+    "path": "/book-appointment/",
+    "slug": "book-appointment",
+    "title": "Book Appointment"
+  },
+  {
+    "type": "pages",
+    "id": 9046,
+    "path": "/register/",
+    "slug": "register",
+    "title": "Register"
+  },
+  {
+    "type": "pages",
+    "id": 8838,
+    "path": "/return-policy/",
+    "slug": "return-policy",
+    "title": "return policy"
+  },
+  {
+    "type": "pages",
+    "id": 8825,
+    "path": "/my-account/",
+    "slug": "my-account",
+    "title": "My account"
+  },
+  {
+    "type": "pages",
+    "id": 8824,
+    "path": "/checkout/",
+    "slug": "checkout",
+    "title": "Checkout"
+  },
+  {
+    "type": "pages",
+    "id": 8823,
+    "path": "/cart/",
+    "slug": "cart",
+    "title": "Cart"
+  },
+  {
+    "type": "pages",
+    "id": 8822,
+    "path": "/shop/",
+    "slug": "shop",
+    "title": "Shop"
+  },
+  {
+    "type": "pages",
+    "id": 8735,
+    "path": "/washing-machine-repair-vadodara/",
+    "slug": "washing-machine-repair-vadodara",
+    "title": "washing machine repair vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 8732,
+    "path": "/ac-repair-panoli-gidc-ankleshwar/",
+    "slug": "ac-repair-panoli-gidc-ankleshwar",
+    "title": "#1 HVAC &amp; AC Repair Panoli GIDC, Ankleshwar | Atlas Aircon"
+  },
+  {
+    "type": "pages",
+    "id": 8713,
+    "path": "/ac-service-in-ektanagar-kevadia-colony-narmada/",
+    "slug": "ac-service-in-ektanagar-kevadia-colony-narmada",
+    "title": "ac service in ektanagar-kevadia-colony-narmada"
+  },
+  {
+    "type": "pages",
+    "id": 8712,
+    "path": "/ac-service-in-poicha-gidc/",
+    "slug": "ac-service-in-poicha-gidc",
+    "title": "ac service in poicha-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8711,
+    "path": "/ac-service-in-warasiya/",
+    "slug": "ac-service-in-warasiya",
+    "title": "ac service in warasiya"
+  },
+  {
+    "type": "pages",
+    "id": 8710,
+    "path": "/ac-service-in-waghodia-road/",
+    "slug": "ac-service-in-waghodia-road",
+    "title": "ac service in waghodia-road"
+  },
+  {
+    "type": "pages",
+    "id": 8709,
+    "path": "/ac-service-in-waghodia-gidc/",
+    "slug": "ac-service-in-waghodia-gidc",
+    "title": "ac service in waghodia-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8708,
+    "path": "/ac-service-in-wadi/",
+    "slug": "ac-service-in-wadi",
+    "title": "ac service in wadi"
+  },
+  {
+    "type": "pages",
+    "id": 8707,
+    "path": "/ac-service-in-vishwamitri/",
+    "slug": "ac-service-in-vishwamitri",
+    "title": "ac service in vishwamitri"
+  },
+  {
+    "type": "pages",
+    "id": 8706,
+    "path": "/ac-service-in-virod/",
+    "slug": "ac-service-in-virod",
+    "title": "ac service in virod"
+  },
+  {
+    "type": "pages",
+    "id": 8705,
+    "path": "/ac-service-in-vip-road/",
+    "slug": "ac-service-in-vip-road",
+    "title": "ac service in vip-road"
+  },
+  {
+    "type": "pages",
+    "id": 8704,
+    "path": "/ac-service-in-vemali/",
+    "slug": "ac-service-in-vemali",
+    "title": "ac service in vemali"
+  },
+  {
+    "type": "pages",
+    "id": 8703,
+    "path": "/ac-service-in-vasna-bhayli-road/",
+    "slug": "ac-service-in-vasna-bhayli-road",
+    "title": "ac service in vasna-bhayli-road"
+  },
+  {
+    "type": "pages",
+    "id": 8702,
+    "path": "/ac-service-in-vasna-road/",
+    "slug": "ac-service-in-vasna-road",
+    "title": "ac service in vasna-road"
+  },
+  {
+    "type": "pages",
+    "id": 8701,
+    "path": "/ac-service-in-vasna/",
+    "slug": "ac-service-in-vasna",
+    "title": "ac service in vasna"
+  },
+  {
+    "type": "pages",
+    "id": 8700,
+    "path": "/ac-service-in-vasant-vihar/",
+    "slug": "ac-service-in-vasant-vihar",
+    "title": "ac service in vasant-vihar"
+  },
+  {
+    "type": "pages",
+    "id": 8699,
+    "path": "/ac-service-in-varsada/",
+    "slug": "ac-service-in-varsada",
+    "title": "ac service in varsada"
+  },
+  {
+    "type": "pages",
+    "id": 8698,
+    "path": "/ac-service-in-varnama/",
+    "slug": "ac-service-in-varnama",
+    "title": "ac service in varnama"
+  },
+  {
+    "type": "pages",
+    "id": 8697,
+    "path": "/ac-service-in-vadsar/",
+    "slug": "ac-service-in-vadsar",
+    "title": "ac service in vadsar"
+  },
+  {
+    "type": "pages",
+    "id": 8696,
+    "path": "/ac-service-in-vadiwadi/",
+    "slug": "ac-service-in-vadiwadi",
+    "title": "ac service in vadiwadi"
+  },
+  {
+    "type": "pages",
+    "id": 8695,
+    "path": "/ac-service-in-undera/",
+    "slug": "ac-service-in-undera",
+    "title": "ac service in undera"
+  },
+  {
+    "type": "pages",
+    "id": 8694,
+    "path": "/ac-service-in-tulsidham-char-rasta/",
+    "slug": "ac-service-in-tulsidham-char-rasta",
+    "title": "ac service in tulsidham-char-rasta"
+  },
+  {
+    "type": "pages",
+    "id": 8693,
+    "path": "/ac-service-in-tp-13/",
+    "slug": "ac-service-in-tp-13",
+    "title": "ac service in tp-13"
+  },
+  {
+    "type": "pages",
+    "id": 8692,
+    "path": "/ac-service-in-timbi/",
+    "slug": "ac-service-in-timbi",
+    "title": "ac service in timbi"
+  },
+  {
+    "type": "pages",
+    "id": 8691,
+    "path": "/ac-service-in-tilakwada-dashrath/",
+    "slug": "ac-service-in-tilakwada-dashrath",
+    "title": "ac service in tilakwada-dashrath"
+  },
+  {
+    "type": "pages",
+    "id": 8690,
+    "path": "/ac-service-in-tarsali/",
+    "slug": "ac-service-in-tarsali",
+    "title": "ac service in tarsali"
+  },
+  {
+    "type": "pages",
+    "id": 8689,
+    "path": "/ac-service-in-tandalja/",
+    "slug": "ac-service-in-tandalja",
+    "title": "ac service in tandalja"
+  },
+  {
+    "type": "pages",
+    "id": 8688,
+    "path": "/ac-service-in-susen-char-rasta/",
+    "slug": "ac-service-in-susen-char-rasta",
+    "title": "ac service in susen-char-rasta"
+  },
+  {
+    "type": "pages",
+    "id": 8687,
+    "path": "/ac-service-in-susan-char-rasta/",
+    "slug": "ac-service-in-susan-char-rasta",
+    "title": "ac service in susan-char-rasta"
+  },
+  {
+    "type": "pages",
+    "id": 8686,
+    "path": "/ac-service-in-suryanagar/",
+    "slug": "ac-service-in-suryanagar",
+    "title": "ac service in suryanagar"
+  },
+  {
+    "type": "pages",
+    "id": 8685,
+    "path": "/ac-service-in-sunpharma-road/",
+    "slug": "ac-service-in-sunpharma-road",
+    "title": "ac service in sunpharma-road"
+  },
+  {
+    "type": "pages",
+    "id": 8684,
+    "path": "/ac-service-in-sundarpura/",
+    "slug": "ac-service-in-sundarpura",
+    "title": "ac service in sundarpura"
+  },
+  {
+    "type": "pages",
+    "id": 8683,
+    "path": "/ac-service-in-suncity-manjalpur/",
+    "slug": "ac-service-in-suncity-manjalpur",
+    "title": "ac service in suncity-manjalpur"
+  },
+  {
+    "type": "pages",
+    "id": 8682,
+    "path": "/ac-service-in-suncity-industrial-park/",
+    "slug": "ac-service-in-suncity-industrial-park",
+    "title": "ac service in suncity-industrial-park"
+  },
+  {
+    "type": "pages",
+    "id": 8681,
+    "path": "/ac-service-in-sun-pharma-road/",
+    "slug": "ac-service-in-sun-pharma-road",
+    "title": "ac service in sun-pharma-road"
+  },
+  {
+    "type": "pages",
+    "id": 8680,
+    "path": "/ac-service-in-sultanpura/",
+    "slug": "ac-service-in-sultanpura",
+    "title": "ac service in sultanpura"
+  },
+  {
+    "type": "pages",
+    "id": 8679,
+    "path": "/ac-service-in-subhanpura/",
+    "slug": "ac-service-in-subhanpura",
+    "title": "ac service in subhanpura"
+  },
+  {
+    "type": "pages",
+    "id": 8678,
+    "path": "/ac-service-in-sonarkui/",
+    "slug": "ac-service-in-sonarkui",
+    "title": "ac service in sonarkui"
+  },
+  {
+    "type": "pages",
+    "id": 8677,
+    "path": "/ac-service-in-soma-talav/",
+    "slug": "ac-service-in-soma-talav",
+    "title": "ac service in soma-talav"
+  },
+  {
+    "type": "pages",
+    "id": 8676,
+    "path": "/ac-service-in-sokhda/",
+    "slug": "ac-service-in-sokhda",
+    "title": "ac service in sokhda"
+  },
+  {
+    "type": "pages",
+    "id": 8675,
+    "path": "/ac-service-in-sisva/",
+    "slug": "ac-service-in-sisva",
+    "title": "ac service in sisva"
+  },
+  {
+    "type": "pages",
+    "id": 8674,
+    "path": "/ac-service-in-sindhrot/",
+    "slug": "ac-service-in-sindhrot",
+    "title": "ac service in sindhrot"
+  },
+  {
+    "type": "pages",
+    "id": 8673,
+    "path": "/ac-service-in-sikandarpura/",
+    "slug": "ac-service-in-sikandarpura",
+    "title": "ac service in sikandarpura"
+  },
+  {
+    "type": "pages",
+    "id": 8672,
+    "path": "/ac-service-in-siddharth-nagar/",
+    "slug": "ac-service-in-siddharth-nagar",
+    "title": "ac service in siddharth-nagar"
+  },
+  {
+    "type": "pages",
+    "id": 8671,
+    "path": "/ac-service-in-sherkhi/",
+    "slug": "ac-service-in-sherkhi",
+    "title": "ac service in sherkhi"
+  },
+  {
+    "type": "pages",
+    "id": 8670,
+    "path": "/ac-service-in-shah-industrial-park/",
+    "slug": "ac-service-in-shah-industrial-park",
+    "title": "ac service in shah-industrial-park"
+  },
+  {
+    "type": "pages",
+    "id": 8669,
+    "path": "/ac-service-in-sevasi/",
+    "slug": "ac-service-in-sevasi",
+    "title": "ac service in sevasi"
+  },
+  {
+    "type": "pages",
+    "id": 8668,
+    "path": "/ac-service-in-sayajipura/",
+    "slug": "ac-service-in-sayajipura",
+    "title": "ac service in sayajipura"
+  },
+  {
+    "type": "pages",
+    "id": 8667,
+    "path": "/ac-service-in-sayajigunj/",
+    "slug": "ac-service-in-sayajigunj",
+    "title": "ac service in sayajigunj"
+  },
+  {
+    "type": "pages",
+    "id": 8666,
+    "path": "/ac-service-in-savli-manjusar-gidc/",
+    "slug": "ac-service-in-savli-manjusar-gidc",
+    "title": "ac service in savli-manjusar-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8665,
+    "path": "/ac-service-in-sardar-estate/",
+    "slug": "ac-service-in-sardar-estate",
+    "title": "ac service in sardar-estate"
+  },
+  {
+    "type": "pages",
+    "id": 8664,
+    "path": "/ac-service-in-sarabhai-campus/",
+    "slug": "ac-service-in-sarabhai-campus",
+    "title": "ac service in sarabhai-campus"
+  },
+  {
+    "type": "pages",
+    "id": 8663,
+    "path": "/ac-service-in-sankheda-gidc/",
+    "slug": "ac-service-in-sankheda-gidc",
+    "title": "ac service in sankheda-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8662,
+    "path": "/ac-service-in-sankheda/",
+    "slug": "ac-service-in-sankheda",
+    "title": "ac service in sankheda"
+  },
+  {
+    "type": "pages",
+    "id": 8661,
+    "path": "/ac-service-in-sankarda/",
+    "slug": "ac-service-in-sankarda",
+    "title": "ac service in sankarda"
+  },
+  {
+    "type": "pages",
+    "id": 8660,
+    "path": "/ac-service-in-sangma/",
+    "slug": "ac-service-in-sangma",
+    "title": "ac service in sangma"
+  },
+  {
+    "type": "pages",
+    "id": 8659,
+    "path": "/ac-service-in-sangam-char-rasta/",
+    "slug": "ac-service-in-sangam-char-rasta",
+    "title": "ac service in sangam-char-rasta"
+  },
+  {
+    "type": "pages",
+    "id": 8658,
+    "path": "/ac-service-in-samta/",
+    "slug": "ac-service-in-samta",
+    "title": "ac service in samta"
+  },
+  {
+    "type": "pages",
+    "id": 8657,
+    "path": "/ac-service-in-samlaya/",
+    "slug": "ac-service-in-samlaya",
+    "title": "ac service in samlaya"
+  },
+  {
+    "type": "pages",
+    "id": 8656,
+    "path": "/ac-service-in-samiyala/",
+    "slug": "ac-service-in-samiyala",
+    "title": "ac service in samiyala"
+  },
+  {
+    "type": "pages",
+    "id": 8655,
+    "path": "/ac-service-in-sama-savli-road/",
+    "slug": "ac-service-in-sama-savli-road",
+    "title": "ac service in sama-savli-road"
+  },
+  {
+    "type": "pages",
+    "id": 8654,
+    "path": "/ac-service-in-sama/",
+    "slug": "ac-service-in-sama",
+    "title": "ac service in sama"
+  },
+  {
+    "type": "pages",
+    "id": 8653,
+    "path": "/ac-service-in-sakarda/",
+    "slug": "ac-service-in-sakarda",
+    "title": "ac service in sakarda"
+  },
+  {
+    "type": "pages",
+    "id": 8652,
+    "path": "/ac-service-in-raopura/",
+    "slug": "ac-service-in-raopura",
+    "title": "ac service in raopura"
+  },
+  {
+    "type": "pages",
+    "id": 8651,
+    "path": "/ac-service-in-ranoli-gidc/",
+    "slug": "ac-service-in-ranoli-gidc",
+    "title": "ac service in ranoli-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8650,
+    "path": "/ac-service-in-ranoli/",
+    "slug": "ac-service-in-ranoli",
+    "title": "ac service in ranoli"
+  },
+  {
+    "type": "pages",
+    "id": 8649,
+    "path": "/ac-service-in-raniya/",
+    "slug": "ac-service-in-raniya",
+    "title": "ac service in raniya"
+  },
+  {
+    "type": "pages",
+    "id": 8648,
+    "path": "/ac-service-in-raipura/",
+    "slug": "ac-service-in-raipura",
+    "title": "ac service in raipura"
+  },
+  {
+    "type": "pages",
+    "id": 8647,
+    "path": "/ac-service-in-race-course/",
+    "slug": "ac-service-in-race-course",
+    "title": "ac service in race-course"
+  },
+  {
+    "type": "pages",
+    "id": 8646,
+    "path": "/ac-service-in-punit-nagar/",
+    "slug": "ac-service-in-punit-nagar",
+    "title": "ac service in punit-nagar"
+  },
+  {
+    "type": "pages",
+    "id": 8645,
+    "path": "/ac-service-in-productivity-road/",
+    "slug": "ac-service-in-productivity-road",
+    "title": "ac service in productivity-road"
+  },
+  {
+    "type": "pages",
+    "id": 8644,
+    "path": "/ac-service-in-pratapnagar/",
+    "slug": "ac-service-in-pratapnagar",
+    "title": "ac service in pratapnagar"
+  },
+  {
+    "type": "pages",
+    "id": 8643,
+    "path": "/ac-service-in-pratapgunj/",
+    "slug": "ac-service-in-pratapgunj",
+    "title": "ac service in pratapgunj"
+  },
+  {
+    "type": "pages",
+    "id": 8642,
+    "path": "/ac-service-in-por-ramangamdi-gidc/",
+    "slug": "ac-service-in-por-ramangamdi-gidc",
+    "title": "ac service in por-ramangamdi-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8641,
+    "path": "/ac-service-in-poicha/",
+    "slug": "ac-service-in-poicha",
+    "title": "ac service in poicha"
+  },
+  {
+    "type": "pages",
+    "id": 8640,
+    "path": "/ac-service-in-petrochemical-t-ship/",
+    "slug": "ac-service-in-petrochemical-t-ship",
+    "title": "ac service in petrochemical-t-ship"
+  },
+  {
+    "type": "pages",
+    "id": 8639,
+    "path": "/ac-service-in-patod/",
+    "slug": "ac-service-in-patod",
+    "title": "ac service in patod"
+  },
+  {
+    "type": "pages",
+    "id": 8638,
+    "path": "/ac-service-in-patarveni/",
+    "slug": "ac-service-in-patarveni",
+    "title": "ac service in patarveni"
+  },
+  {
+    "type": "pages",
+    "id": 8637,
+    "path": "/ac-service-in-pasa-bhai-park/",
+    "slug": "ac-service-in-pasa-bhai-park",
+    "title": "ac service in pasa-bhai-park"
+  },
+  {
+    "type": "pages",
+    "id": 8636,
+    "path": "/ac-service-in-parda-road/",
+    "slug": "ac-service-in-parda-road",
+    "title": "ac service in parda-road"
+  },
+  {
+    "type": "pages",
+    "id": 8635,
+    "path": "/ac-service-in-panigate/",
+    "slug": "ac-service-in-panigate",
+    "title": "ac service in panigate"
+  },
+  {
+    "type": "pages",
+    "id": 8634,
+    "path": "/ac-service-in-panchvati/",
+    "slug": "ac-service-in-panchvati",
+    "title": "ac service in panchvati"
+  },
+  {
+    "type": "pages",
+    "id": 8633,
+    "path": "/ac-service-in-palaswada/",
+    "slug": "ac-service-in-palaswada",
+    "title": "ac service in palaswada"
+  },
+  {
+    "type": "pages",
+    "id": 8632,
+    "path": "/ac-service-in-padra/",
+    "slug": "ac-service-in-padra",
+    "title": "ac service in padra"
+  },
+  {
+    "type": "pages",
+    "id": 8631,
+    "path": "/ac-service-in-padmala/",
+    "slug": "ac-service-in-padmala",
+    "title": "ac service in padmala"
+  },
+  {
+    "type": "pages",
+    "id": 8630,
+    "path": "/ac-service-in-old-padra-road/",
+    "slug": "ac-service-in-old-padra-road",
+    "title": "ac service in old-padra-road"
+  },
+  {
+    "type": "pages",
+    "id": 8629,
+    "path": "/ac-service-in-nizampura/",
+    "slug": "ac-service-in-nizampura",
+    "title": "ac service in nizampura"
+  },
+  {
+    "type": "pages",
+    "id": 8628,
+    "path": "/ac-service-in-new-vip-road/",
+    "slug": "ac-service-in-new-vip-road",
+    "title": "ac service in new-vip-road"
+  },
+  {
+    "type": "pages",
+    "id": 8627,
+    "path": "/ac-service-in-new-sama/",
+    "slug": "ac-service-in-new-sama",
+    "title": "ac service in new-sama"
+  },
+  {
+    "type": "pages",
+    "id": 8626,
+    "path": "/ac-service-in-new-karelibaug/",
+    "slug": "ac-service-in-new-karelibaug",
+    "title": "ac service in new-karelibaug"
+  },
+  {
+    "type": "pages",
+    "id": 8625,
+    "path": "/ac-service-in-new-ipcl-road/",
+    "slug": "ac-service-in-new-ipcl-road",
+    "title": "ac service in new-ipcl-road"
+  },
+  {
+    "type": "pages",
+    "id": 8624,
+    "path": "/ac-service-in-new-alkapuri/",
+    "slug": "ac-service-in-new-alkapuri",
+    "title": "ac service in new-alkapuri"
+  },
+  {
+    "type": "pages",
+    "id": 8623,
+    "path": "/ac-service-in-navapura/",
+    "slug": "ac-service-in-navapura",
+    "title": "ac service in navapura"
+  },
+  {
+    "type": "pages",
+    "id": 8622,
+    "path": "/ac-service-in-nava-ajva/",
+    "slug": "ac-service-in-nava-ajva",
+    "title": "ac service in nava-ajva"
+  },
+  {
+    "type": "pages",
+    "id": 8621,
+    "path": "/ac-service-in-nandesari-gidc/",
+    "slug": "ac-service-in-nandesari-gidc",
+    "title": "ac service in nandesari-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8620,
+    "path": "/ac-service-in-nandesari/",
+    "slug": "ac-service-in-nandesari",
+    "title": "ac service in nandesari"
+  },
+  {
+    "type": "pages",
+    "id": 8619,
+    "path": "/ac-service-in-nagarwada/",
+    "slug": "ac-service-in-nagarwada",
+    "title": "ac service in nagarwada"
+  },
+  {
+    "type": "pages",
+    "id": 8618,
+    "path": "/ac-service-in-muj-mahuda/",
+    "slug": "ac-service-in-muj-mahuda",
+    "title": "ac service in muj-mahuda"
+  },
+  {
+    "type": "pages",
+    "id": 8617,
+    "path": "/ac-service-in-moksi/",
+    "slug": "ac-service-in-moksi",
+    "title": "ac service in moksi"
+  },
+  {
+    "type": "pages",
+    "id": 8616,
+    "path": "/ac-service-in-mehsana-nagar/",
+    "slug": "ac-service-in-mehsana-nagar",
+    "title": "ac service in mehsana-nagar"
+  },
+  {
+    "type": "pages",
+    "id": 8615,
+    "path": "/ac-service-in-maretha/",
+    "slug": "ac-service-in-maretha",
+    "title": "ac service in maretha"
+  },
+  {
+    "type": "pages",
+    "id": 8614,
+    "path": "/ac-service-in-manjalpur/",
+    "slug": "ac-service-in-manjalpur",
+    "title": "ac service in manjalpur"
+  },
+  {
+    "type": "pages",
+    "id": 8613,
+    "path": "/ac-service-in-manisha-char-rasta/",
+    "slug": "ac-service-in-manisha-char-rasta",
+    "title": "ac service in manisha-char-rasta"
+  },
+  {
+    "type": "pages",
+    "id": 8612,
+    "path": "/ac-service-in-maneja/",
+    "slug": "ac-service-in-maneja",
+    "title": "ac service in maneja"
+  },
+  {
+    "type": "pages",
+    "id": 8611,
+    "path": "/ac-service-in-mandvi/",
+    "slug": "ac-service-in-mandvi",
+    "title": "ac service in mandvi"
+  },
+  {
+    "type": "pages",
+    "id": 8610,
+    "path": "/ac-service-in-managalpara/",
+    "slug": "ac-service-in-managalpara",
+    "title": "ac service in managalpara"
+  },
+  {
+    "type": "pages",
+    "id": 8609,
+    "path": "/ac-service-in-makrand-desai-road/",
+    "slug": "ac-service-in-makrand-desai-road",
+    "title": "ac service in makrand-desai-road"
+  },
+  {
+    "type": "pages",
+    "id": 8608,
+    "path": "/ac-service-in-makarpura-gidc/",
+    "slug": "ac-service-in-makarpura-gidc",
+    "title": "ac service in makarpura-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8607,
+    "path": "/ac-service-in-makarpura/",
+    "slug": "ac-service-in-makarpura",
+    "title": "ac service in makarpura"
+  },
+  {
+    "type": "pages",
+    "id": 8606,
+    "path": "/ac-service-in-makarand-desai-road/",
+    "slug": "ac-service-in-makarand-desai-road",
+    "title": "ac service in makarand-desai-road"
+  },
+  {
+    "type": "pages",
+    "id": 8605,
+    "path": "/ac-service-in-maharana-pratap-road/",
+    "slug": "ac-service-in-maharana-pratap-road",
+    "title": "ac service in maharana-pratap-road"
+  },
+  {
+    "type": "pages",
+    "id": 8604,
+    "path": "/ac-service-in-maharana-pratap-rd/",
+    "slug": "ac-service-in-maharana-pratap-rd",
+    "title": "ac service in maharana-pratap-rd"
+  },
+  {
+    "type": "pages",
+    "id": 8603,
+    "path": "/ac-service-in-mahapura/",
+    "slug": "ac-service-in-mahapura",
+    "title": "ac service in mahapura"
+  },
+  {
+    "type": "pages",
+    "id": 8602,
+    "path": "/ac-service-in-madhavpura/",
+    "slug": "ac-service-in-madhavpura",
+    "title": "ac service in madhavpura"
+  },
+  {
+    "type": "pages",
+    "id": 8601,
+    "path": "/ac-service-in-madanzampa/",
+    "slug": "ac-service-in-madanzampa",
+    "title": "ac service in madanzampa"
+  },
+  {
+    "type": "pages",
+    "id": 8600,
+    "path": "/ac-service-in-limda/",
+    "slug": "ac-service-in-limda",
+    "title": "ac service in limda"
+  },
+  {
+    "type": "pages",
+    "id": 8599,
+    "path": "/ac-service-in-limbda-apollo-tyres/",
+    "slug": "ac-service-in-limbda-apollo-tyres",
+    "title": "ac service in limbda-(apollo-tyres)"
+  },
+  {
+    "type": "pages",
+    "id": 8598,
+    "path": "/ac-service-in-laxmipura/",
+    "slug": "ac-service-in-laxmipura",
+    "title": "ac service in laxmipura"
+  },
+  {
+    "type": "pages",
+    "id": 8597,
+    "path": "/ac-service-in-lasundra/",
+    "slug": "ac-service-in-lasundra",
+    "title": "ac service in lasundra"
+  },
+  {
+    "type": "pages",
+    "id": 8596,
+    "path": "/ac-service-in-lamdapura/",
+    "slug": "ac-service-in-lamdapura",
+    "title": "ac service in lamdapura"
+  },
+  {
+    "type": "pages",
+    "id": 8595,
+    "path": "/ac-service-in-lalbaug/",
+    "slug": "ac-service-in-lalbaug",
+    "title": "ac service in lalbaug"
+  },
+  {
+    "type": "pages",
+    "id": 8594,
+    "path": "/ac-service-in-lalbagh/",
+    "slug": "ac-service-in-lalbagh",
+    "title": "ac service in lalbagh"
+  },
+  {
+    "type": "pages",
+    "id": 8593,
+    "path": "/ac-service-in-kundhela/",
+    "slug": "ac-service-in-kundhela",
+    "title": "ac service in kundhela"
+  },
+  {
+    "type": "pages",
+    "id": 8592,
+    "path": "/ac-service-in-krusha-nagar/",
+    "slug": "ac-service-in-krusha-nagar",
+    "title": "ac service in krusha-nagar"
+  },
+  {
+    "type": "pages",
+    "id": 8591,
+    "path": "/ac-service-in-krishna-industrial-park/",
+    "slug": "ac-service-in-krishna-industrial-park",
+    "title": "ac service in krishna-industrial-park"
+  },
+  {
+    "type": "pages",
+    "id": 8590,
+    "path": "/ac-service-in-koyali/",
+    "slug": "ac-service-in-koyali",
+    "title": "ac service in koyali"
+  },
+  {
+    "type": "pages",
+    "id": 8589,
+    "path": "/ac-service-in-kotambi/",
+    "slug": "ac-service-in-kotambi",
+    "title": "ac service in kotambi"
+  },
+  {
+    "type": "pages",
+    "id": 8588,
+    "path": "/ac-service-in-kishanwadi/",
+    "slug": "ac-service-in-kishanwadi",
+    "title": "ac service in kishanwadi"
+  },
+  {
+    "type": "pages",
+    "id": 8587,
+    "path": "/ac-service-in-kirti-mandir/",
+    "slug": "ac-service-in-kirti-mandir",
+    "title": "ac service in kirti-mandir"
+  },
+  {
+    "type": "pages",
+    "id": 8586,
+    "path": "/ac-service-in-khodiyar-nagar/",
+    "slug": "ac-service-in-khodiyar-nagar",
+    "title": "ac service in khodiyar-nagar"
+  },
+  {
+    "type": "pages",
+    "id": 8585,
+    "path": "/ac-service-in-kharkhadi/",
+    "slug": "ac-service-in-kharkhadi",
+    "title": "ac service in kharkhadi"
+  },
+  {
+    "type": "pages",
+    "id": 8584,
+    "path": "/ac-service-in-khandiwada/",
+    "slug": "ac-service-in-khandiwada",
+    "title": "ac service in khandiwada"
+  },
+  {
+    "type": "pages",
+    "id": 8583,
+    "path": "/ac-service-in-khanderao-market/",
+    "slug": "ac-service-in-khanderao-market",
+    "title": "ac service in khanderao-market"
+  },
+  {
+    "type": "pages",
+    "id": 8582,
+    "path": "/ac-service-in-khalipur/",
+    "slug": "ac-service-in-khalipur",
+    "title": "ac service in khalipur"
+  },
+  {
+    "type": "pages",
+    "id": 8581,
+    "path": "/ac-service-in-kelanpur/",
+    "slug": "ac-service-in-kelanpur",
+    "title": "ac service in kelanpur"
+  },
+  {
+    "type": "pages",
+    "id": 8580,
+    "path": "/ac-service-in-karodiya/",
+    "slug": "ac-service-in-karodiya",
+    "title": "ac service in karodiya"
+  },
+  {
+    "type": "pages",
+    "id": 8579,
+    "path": "/ac-service-in-karkhadi/",
+    "slug": "ac-service-in-karkhadi",
+    "title": "ac service in karkhadi"
+  },
+  {
+    "type": "pages",
+    "id": 8578,
+    "path": "/ac-service-in-karelibaug/",
+    "slug": "ac-service-in-karelibaug",
+    "title": "ac service in karelibaug"
+  },
+  {
+    "type": "pages",
+    "id": 8577,
+    "path": "/ac-service-in-karchiya/",
+    "slug": "ac-service-in-karchiya",
+    "title": "ac service in karchiya"
+  },
+  {
+    "type": "pages",
+    "id": 8576,
+    "path": "/ac-service-in-karali/",
+    "slug": "ac-service-in-karali",
+    "title": "ac service in karali"
+  },
+  {
+    "type": "pages",
+    "id": 8575,
+    "path": "/ac-service-in-karakhadi-gidc/",
+    "slug": "ac-service-in-karakhadi-gidc",
+    "title": "ac service in karakhadi-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8574,
+    "path": "/ac-service-in-karachiya/",
+    "slug": "ac-service-in-karachiya",
+    "title": "ac service in karachiya"
+  },
+  {
+    "type": "pages",
+    "id": 8573,
+    "path": "/ac-service-in-kapurai-village/",
+    "slug": "ac-service-in-kapurai-village",
+    "title": "ac service in kapurai-village"
+  },
+  {
+    "type": "pages",
+    "id": 8572,
+    "path": "/ac-service-in-kapurai/",
+    "slug": "ac-service-in-kapurai",
+    "title": "ac service in kapurai"
+  },
+  {
+    "type": "pages",
+    "id": 8571,
+    "path": "/ac-service-in-kamlapura/",
+    "slug": "ac-service-in-kamlapura",
+    "title": "ac service in kamlapura"
+  },
+  {
+    "type": "pages",
+    "id": 8570,
+    "path": "/ac-service-in-kalali/",
+    "slug": "ac-service-in-kalali",
+    "title": "ac service in kalali"
+  },
+  {
+    "type": "pages",
+    "id": 8569,
+    "path": "/ac-service-in-jetalpur-road/",
+    "slug": "ac-service-in-jetalpur-road",
+    "title": "ac service in jetalpur-road"
+  },
+  {
+    "type": "pages",
+    "id": 8568,
+    "path": "/ac-service-in-jesangpura/",
+    "slug": "ac-service-in-jesangpura",
+    "title": "ac service in jesangpura"
+  },
+  {
+    "type": "pages",
+    "id": 8567,
+    "path": "/ac-service-in-jarod/",
+    "slug": "ac-service-in-jarod",
+    "title": "ac service in jarod"
+  },
+  {
+    "type": "pages",
+    "id": 8566,
+    "path": "/ac-service-in-jambuva/",
+    "slug": "ac-service-in-jambuva",
+    "title": "ac service in jambuva"
+  },
+  {
+    "type": "pages",
+    "id": 8565,
+    "path": "/ac-service-in-jail-road/",
+    "slug": "ac-service-in-jail-road",
+    "title": "ac service in jail-road"
+  },
+  {
+    "type": "pages",
+    "id": 8564,
+    "path": "/ac-service-in-itola/",
+    "slug": "ac-service-in-itola",
+    "title": "ac service in itola"
+  },
+  {
+    "type": "pages",
+    "id": 8563,
+    "path": "/ac-service-in-hinglot/",
+    "slug": "ac-service-in-hinglot",
+    "title": "ac service in hinglot"
+  },
+  {
+    "type": "pages",
+    "id": 8562,
+    "path": "/ac-service-in-harni/",
+    "slug": "ac-service-in-harni",
+    "title": "ac service in harni"
+  },
+  {
+    "type": "pages",
+    "id": 8561,
+    "path": "/ac-service-in-haripura/",
+    "slug": "ac-service-in-haripura",
+    "title": "ac service in haripura"
+  },
+  {
+    "type": "pages",
+    "id": 8560,
+    "path": "/ac-service-in-gotri/",
+    "slug": "ac-service-in-gotri",
+    "title": "ac service in gotri"
+  },
+  {
+    "type": "pages",
+    "id": 8559,
+    "path": "/ac-service-in-gorwa-bidc/",
+    "slug": "ac-service-in-gorwa-bidc",
+    "title": "ac service in gorwa-bidc"
+  },
+  {
+    "type": "pages",
+    "id": 8558,
+    "path": "/ac-service-in-gorwa/",
+    "slug": "ac-service-in-gorwa",
+    "title": "ac service in gorwa"
+  },
+  {
+    "type": "pages",
+    "id": 8557,
+    "path": "/ac-service-in-gokalpura/",
+    "slug": "ac-service-in-gokalpura",
+    "title": "ac service in gokalpura"
+  },
+  {
+    "type": "pages",
+    "id": 8556,
+    "path": "/ac-service-in-garadhi/",
+    "slug": "ac-service-in-garadhi",
+    "title": "ac service in garadhi"
+  },
+  {
+    "type": "pages",
+    "id": 8555,
+    "path": "/ac-service-in-fertilizer-nagar/",
+    "slug": "ac-service-in-fertilizer-nagar",
+    "title": "ac service in fertilizer-nagar"
+  },
+  {
+    "type": "pages",
+    "id": 8554,
+    "path": "/ac-service-in-fatehpura/",
+    "slug": "ac-service-in-fatehpura",
+    "title": "ac service in fatehpura"
+  },
+  {
+    "type": "pages",
+    "id": 8553,
+    "path": "/ac-service-in-fatehganj/",
+    "slug": "ac-service-in-fatehganj",
+    "title": "ac service in fatehganj"
+  },
+  {
+    "type": "pages",
+    "id": 8552,
+    "path": "/ac-service-in-fartilizer-nagar/",
+    "slug": "ac-service-in-fartilizer-nagar",
+    "title": "ac service in fartilizer-nagar"
+  },
+  {
+    "type": "pages",
+    "id": 8551,
+    "path": "/ac-service-in-eshanya/",
+    "slug": "ac-service-in-eshanya",
+    "title": "ac service in eshanya"
+  },
+  {
+    "type": "pages",
+    "id": 8550,
+    "path": "/ac-service-in-eme/",
+    "slug": "ac-service-in-eme",
+    "title": "ac service in eme"
+  },
+  {
+    "type": "pages",
+    "id": 8549,
+    "path": "/ac-service-in-ellora-park/",
+    "slug": "ac-service-in-ellora-park",
+    "title": "ac service in ellora-park"
+  },
+  {
+    "type": "pages",
+    "id": 8548,
+    "path": "/ac-service-in-ekalbara/",
+    "slug": "ac-service-in-ekalbara",
+    "title": "ac service in ekalbara"
+  },
+  {
+    "type": "pages",
+    "id": 8547,
+    "path": "/ac-service-in-dumad/",
+    "slug": "ac-service-in-dumad",
+    "title": "ac service in dumad"
+  },
+  {
+    "type": "pages",
+    "id": 8546,
+    "path": "/ac-service-in-dodka/",
+    "slug": "ac-service-in-dodka",
+    "title": "ac service in dodka"
+  },
+  {
+    "type": "pages",
+    "id": 8545,
+    "path": "/ac-service-in-diwalipura/",
+    "slug": "ac-service-in-diwalipura",
+    "title": "ac service in diwalipura"
+  },
+  {
+    "type": "pages",
+    "id": 8544,
+    "path": "/ac-service-in-dhanora/",
+    "slug": "ac-service-in-dhanora",
+    "title": "ac service in dhanora"
+  },
+  {
+    "type": "pages",
+    "id": 8543,
+    "path": "/ac-service-in-dhaniavi/",
+    "slug": "ac-service-in-dhaniavi",
+    "title": "ac service in dhaniavi"
+  },
+  {
+    "type": "pages",
+    "id": 8542,
+    "path": "/ac-service-in-dena/",
+    "slug": "ac-service-in-dena",
+    "title": "ac service in dena"
+  },
+  {
+    "type": "pages",
+    "id": 8541,
+    "path": "/ac-service-in-dattapura/",
+    "slug": "ac-service-in-dattapura",
+    "title": "ac service in dattapura"
+  },
+  {
+    "type": "pages",
+    "id": 8540,
+    "path": "/ac-service-in-dashrath/",
+    "slug": "ac-service-in-dashrath",
+    "title": "ac service in dashrath"
+  },
+  {
+    "type": "pages",
+    "id": 8539,
+    "path": "/ac-service-in-darbar-chowkdi/",
+    "slug": "ac-service-in-darbar-chowkdi",
+    "title": "ac service in darbar-chowkdi"
+  },
+  {
+    "type": "pages",
+    "id": 8538,
+    "path": "/ac-service-in-darapura/",
+    "slug": "ac-service-in-darapura",
+    "title": "ac service in darapura"
+  },
+  {
+    "type": "pages",
+    "id": 8537,
+    "path": "/ac-service-in-danteshwar/",
+    "slug": "ac-service-in-danteshwar",
+    "title": "ac service in danteshwar"
+  },
+  {
+    "type": "pages",
+    "id": 8536,
+    "path": "/ac-service-in-dandia-bazar/",
+    "slug": "ac-service-in-dandia-bazar",
+    "title": "ac service in dandia-bazar"
+  },
+  {
+    "type": "pages",
+    "id": 8535,
+    "path": "/ac-service-in-dajipura/",
+    "slug": "ac-service-in-dajipura",
+    "title": "ac service in dajipura"
+  },
+  {
+    "type": "pages",
+    "id": 8534,
+    "path": "/ac-service-in-dabhoi-road/",
+    "slug": "ac-service-in-dabhoi-road",
+    "title": "ac service in dabhoi-road"
+  },
+  {
+    "type": "pages",
+    "id": 8533,
+    "path": "/ac-service-in-dabhoi-gidc/",
+    "slug": "ac-service-in-dabhoi-gidc",
+    "title": "ac service in dabhoi-gidc"
+  },
+  {
+    "type": "pages",
+    "id": 8532,
+    "path": "/ac-service-in-dabhasha/",
+    "slug": "ac-service-in-dabhasha",
+    "title": "ac service in dabhasha"
+  },
+  {
+    "type": "pages",
+    "id": 8531,
+    "path": "/ac-service-in-chipad/",
+    "slug": "ac-service-in-chipad",
+    "title": "ac service in chipad"
+  },
+  {
+    "type": "pages",
+    "id": 8530,
+    "path": "/ac-service-in-chhani-jakat-naka/",
+    "slug": "ac-service-in-chhani-jakat-naka",
+    "title": "ac service in chhani-jakat-naka"
+  },
+  {
+    "type": "pages",
+    "id": 8529,
+    "path": "/ac-service-in-chhani/",
+    "slug": "ac-service-in-chhani",
+    "title": "ac service in chhani"
+  },
+  {
+    "type": "pages",
+    "id": 8528,
+    "path": "/ac-service-in-chapad/",
+    "slug": "ac-service-in-chapad",
+    "title": "ac service in chapad"
+  },
+  {
+    "type": "pages",
+    "id": 8527,
+    "path": "/ac-service-in-champaner-road/",
+    "slug": "ac-service-in-champaner-road",
+    "title": "ac service in champaner-road"
+  },
+  {
+    "type": "pages",
+    "id": 8526,
+    "path": "/ac-service-in-brushellz-industrial-park/",
+    "slug": "ac-service-in-brushellz-industrial-park",
+    "title": "ac service in brushellz-industrial-park"
+  },
+  {
+    "type": "pages",
+    "id": 8525,
+    "path": "/ac-service-in-bill/",
+    "slug": "ac-service-in-bill",
+    "title": "ac service in bill"
+  },
+  {
+    "type": "pages",
+    "id": 8524,
+    "path": "/ac-service-in-bhayli-road/",
+    "slug": "ac-service-in-bhayli-road",
+    "title": "ac service in bhayli-road"
+  },
+  {
+    "type": "pages",
+    "id": 8523,
+    "path": "/ac-service-in-bhayli/",
+    "slug": "ac-service-in-bhayli",
+    "title": "ac service in bhayli"
+  },
+  {
+    "type": "pages",
+    "id": 8522,
+    "path": "/ac-service-in-bhadarva/",
+    "slug": "ac-service-in-bhadarva",
+    "title": "ac service in bhadarva"
+  },
+  {
+    "type": "pages",
+    "id": 8521,
+    "path": "/ac-service-in-bautha/",
+    "slug": "ac-service-in-bautha",
+    "title": "ac service in bautha"
+  },
+  {
+    "type": "pages",
+    "id": 8520,
+    "path": "/ac-service-in-baroda-dairy/",
+    "slug": "ac-service-in-baroda-dairy",
+    "title": "ac service in baroda-dairy"
+  },
+  {
+    "type": "pages",
+    "id": 8519,
+    "path": "/ac-service-in-baranpura/",
+    "slug": "ac-service-in-baranpura",
+    "title": "ac service in baranpura"
+  },
+  {
+    "type": "pages",
+    "id": 8518,
+    "path": "/ac-service-in-bakrol/",
+    "slug": "ac-service-in-bakrol",
+    "title": "ac service in bakrol"
+  },
+  {
+    "type": "pages",
+    "id": 8517,
+    "path": "/ac-service-in-bajwa/",
+    "slug": "ac-service-in-bajwa",
+    "title": "ac service in bajwa"
+  },
+  {
+    "type": "pages",
+    "id": 8516,
+    "path": "/ac-service-in-atladara/",
+    "slug": "ac-service-in-atladara",
+    "title": "ac service in atladara"
+  },
+  {
+    "type": "pages",
+    "id": 8515,
+    "path": "/ac-service-in-asoj/",
+    "slug": "ac-service-in-asoj",
+    "title": "ac service in asoj"
+  },
+  {
+    "type": "pages",
+    "id": 8514,
+    "path": "/ac-service-in-ankodiya/",
+    "slug": "ac-service-in-ankodiya",
+    "title": "ac service in ankodiya"
+  },
+  {
+    "type": "pages",
+    "id": 8513,
+    "path": "/ac-service-in-ankhol/",
+    "slug": "ac-service-in-ankhol",
+    "title": "ac service in ankhol"
+  },
+  {
+    "type": "pages",
+    "id": 8512,
+    "path": "/ac-service-in-anjesar/",
+    "slug": "ac-service-in-anjesar",
+    "title": "ac service in anjesar"
+  },
+  {
+    "type": "pages",
+    "id": 8511,
+    "path": "/ac-service-in-anagad/",
+    "slug": "ac-service-in-anagad",
+    "title": "ac service in anagad"
+  },
+  {
+    "type": "pages",
+    "id": 8510,
+    "path": "/ac-service-in-ampad/",
+    "slug": "ac-service-in-ampad",
+    "title": "ac service in ampad"
+  },
+  {
+    "type": "pages",
+    "id": 8509,
+    "path": "/ac-service-in-amodar/",
+    "slug": "ac-service-in-amodar",
+    "title": "ac service in amodar"
+  },
+  {
+    "type": "pages",
+    "id": 8508,
+    "path": "/ac-service-in-amarapura/",
+    "slug": "ac-service-in-amarapura",
+    "title": "ac service in amarapura"
+  },
+  {
+    "type": "pages",
+    "id": 8507,
+    "path": "/ac-service-in-amaliyara/",
+    "slug": "ac-service-in-amaliyara",
+    "title": "ac service in amaliyara"
+  },
+  {
+    "type": "pages",
+    "id": 8506,
+    "path": "/ac-service-in-alkapuri/",
+    "slug": "ac-service-in-alkapuri",
+    "title": "ac service in alkapuri"
+  },
+  {
+    "type": "pages",
+    "id": 8505,
+    "path": "/ac-service-in-alindra/",
+    "slug": "ac-service-in-alindra",
+    "title": "ac service in alindra"
+  },
+  {
+    "type": "pages",
+    "id": 8504,
+    "path": "/ac-service-in-alamgir/",
+    "slug": "ac-service-in-alamgir",
+    "title": "ac service in alamgir"
+  },
+  {
+    "type": "pages",
+    "id": 8503,
+    "path": "/ac-service-in-akota-garden/",
+    "slug": "ac-service-in-akota-garden",
+    "title": "ac service in akota-garden"
+  },
+  {
+    "type": "pages",
+    "id": 8502,
+    "path": "/ac-service-in-akota/",
+    "slug": "ac-service-in-akota",
+    "title": "ac service in akota"
+  },
+  {
+    "type": "pages",
+    "id": 8501,
+    "path": "/ac-service-in-ajwa-road/",
+    "slug": "ac-service-in-ajwa-road",
+    "title": "ac service in ajwa-road"
+  },
+  {
+    "type": "pages",
+    "id": 8500,
+    "path": "/ac-service-in-ajod/",
+    "slug": "ac-service-in-ajod",
+    "title": "ac service in ajod"
+  },
+  {
+    "type": "pages",
+    "id": 7510,
+    "path": "/york-ac-repair-service-center-vadodara/",
+    "slug": "york-ac-repair-service-center-vadodara",
+    "title": "york AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7509,
+    "path": "/whirlpool-ac-repair-service-center-vadodara/",
+    "slug": "whirlpool-ac-repair-service-center-vadodara",
+    "title": "whirlpool AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7508,
+    "path": "/voltas-ac-repair-service-center-vadodara/",
+    "slug": "voltas-ac-repair-service-center-vadodara",
+    "title": "voltas AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7507,
+    "path": "/videocon-ac-repair-service-center-vadodara/",
+    "slug": "videocon-ac-repair-service-center-vadodara",
+    "title": "videocon AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7506,
+    "path": "/vestar-ac-repair-service-center-vadodara/",
+    "slug": "vestar-ac-repair-service-center-vadodara",
+    "title": "vestar AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7505,
+    "path": "/trotec-ac-repair-service-center-vadodara/",
+    "slug": "trotec-ac-repair-service-center-vadodara",
+    "title": "trotec AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7504,
+    "path": "/trane-ac-repair-service-center-vadodara/",
+    "slug": "trane-ac-repair-service-center-vadodara",
+    "title": "trane AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7503,
+    "path": "/thermoelectric-ac-repair-service-center-vadodara/",
+    "slug": "thermoelectric-ac-repair-service-center-vadodara",
+    "title": "thermoelectric AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7502,
+    "path": "/tcl-ac-repair-service-center-vadodara/",
+    "slug": "tcl-ac-repair-service-center-vadodara",
+    "title": "tcl AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7501,
+    "path": "/siemens-ac-repair-service-center-vadodara/",
+    "slug": "siemens-ac-repair-service-center-vadodara",
+    "title": "siemens AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7500,
+    "path": "/sharp-ac-repair-service-center-vadodara/",
+    "slug": "sharp-ac-repair-service-center-vadodara",
+    "title": "sharp AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7499,
+    "path": "/schneider-electric-ac-repair-service-center-vadodara/",
+    "slug": "schneider-electric-ac-repair-service-center-vadodara",
+    "title": "schneider electric AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7498,
+    "path": "/sanden-ac-repair-service-center-vadodara/",
+    "slug": "sanden-ac-repair-service-center-vadodara",
+    "title": "sanden AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7497,
+    "path": "/samsung-ac-repair-service-center-vadodara/",
+    "slug": "samsung-ac-repair-service-center-vadodara",
+    "title": "samsung AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7496,
+    "path": "/re-connect-ac-repair-service-center-vadodara/",
+    "slug": "re-connect-ac-repair-service-center-vadodara",
+    "title": "re-connect AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7495,
+    "path": "/paundit-ac-repair-service-center-vadodara/",
+    "slug": "paundit-ac-repair-service-center-vadodara",
+    "title": "paundit AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7494,
+    "path": "/panasonic-ac-repair-service-center-vadodara/",
+    "slug": "panasonic-ac-repair-service-center-vadodara",
+    "title": "panasonic AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7493,
+    "path": "/ondia-ac-repair-service-center-vadodara/",
+    "slug": "ondia-ac-repair-service-center-vadodara",
+    "title": "ondia AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7492,
+    "path": "/o-general-ac-repair-service-center-vadodara/",
+    "slug": "o-general-ac-repair-service-center-vadodara",
+    "title": "o general AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7491,
+    "path": "/national-ac-repair-service-center-vadodara/",
+    "slug": "national-ac-repair-service-center-vadodara",
+    "title": "national AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7490,
+    "path": "/mitsubishi-ac-repair-service-center-vadodara/",
+    "slug": "mitsubishi-ac-repair-service-center-vadodara",
+    "title": "mitsubishi AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7488,
+    "path": "/lloyd-ac-repair-service-center-vadodara/",
+    "slug": "lloyd-ac-repair-service-center-vadodara",
+    "title": "lloyd AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7487,
+    "path": "/liugong-ac-repair-service-center-vadodara/",
+    "slug": "liugong-ac-repair-service-center-vadodara",
+    "title": "liugong AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7486,
+    "path": "/liebert-ac-repair-service-center-vadodara/",
+    "slug": "liebert-ac-repair-service-center-vadodara",
+    "title": "liebert AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7485,
+    "path": "/lg-ac-repair-service-center-vadodara/",
+    "slug": "lg-ac-repair-service-center-vadodara",
+    "title": "lg AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7484,
+    "path": "/kenstar-ac-repair-service-center-vadodara/",
+    "slug": "kenstar-ac-repair-service-center-vadodara",
+    "title": "kenstar AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7483,
+    "path": "/kelvinator-ac-repair-service-center-vadodara/",
+    "slug": "kelvinator-ac-repair-service-center-vadodara",
+    "title": "kelvinator AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7482,
+    "path": "/intec-ac-repair-service-center-vadodara/",
+    "slug": "intec-ac-repair-service-center-vadodara",
+    "title": "intec AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7481,
+    "path": "/infocool-ac-repair-service-center-vadodara/",
+    "slug": "infocool-ac-repair-service-center-vadodara",
+    "title": "infocool AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7480,
+    "path": "/ifb-ac-repair-service-center-vadodara/",
+    "slug": "ifb-ac-repair-service-center-vadodara",
+    "title": "ifb AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7479,
+    "path": "/hitachi-ac-repair-service-center-vadodara/",
+    "slug": "hitachi-ac-repair-service-center-vadodara",
+    "title": "hitachi AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7478,
+    "path": "/hi-sense-ac-repair-service-center-vadodara/",
+    "slug": "hi-sense-ac-repair-service-center-vadodara",
+    "title": "hi sense AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7477,
+    "path": "/himalaya-ac-repair-service-center-vadodara/",
+    "slug": "himalaya-ac-repair-service-center-vadodara",
+    "title": "himalaya AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7476,
+    "path": "/highcool-ac-repair-service-center-vadodara/",
+    "slug": "highcool-ac-repair-service-center-vadodara",
+    "title": "highcool AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7475,
+    "path": "/haier-ac-repair-service-center-vadodara/",
+    "slug": "haier-ac-repair-service-center-vadodara",
+    "title": "haier AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7474,
+    "path": "/gree-ac-repair-service-center-vadodara/",
+    "slug": "gree-ac-repair-service-center-vadodara",
+    "title": "gree AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7473,
+    "path": "/godrej-ac-repair-service-center-vadodara/",
+    "slug": "godrej-ac-repair-service-center-vadodara",
+    "title": "godrej AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7472,
+    "path": "/friin-ac-repair-service-center-vadodara/",
+    "slug": "friin-ac-repair-service-center-vadodara",
+    "title": "friin AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7471,
+    "path": "/frigidaire-ac-repair-service-center-vadodara/",
+    "slug": "frigidaire-ac-repair-service-center-vadodara",
+    "title": "frigidaire AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7470,
+    "path": "/emerson-ac-repair-service-center-vadodara/",
+    "slug": "emerson-ac-repair-service-center-vadodara",
+    "title": "emerson AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7469,
+    "path": "/dimplex-ac-repair-service-center-vadodara/",
+    "slug": "dimplex-ac-repair-service-center-vadodara",
+    "title": "dimplex AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7468,
+    "path": "/daikin-ac-repair-service-center-vadodara/",
+    "slug": "daikin-ac-repair-service-center-vadodara",
+    "title": "daikin AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7467,
+    "path": "/cruise-ac-repair-service-center-vadodara/",
+    "slug": "cruise-ac-repair-service-center-vadodara",
+    "title": "cruise AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7466,
+    "path": "/croma-ac-repair-service-center-vadodara/",
+    "slug": "croma-ac-repair-service-center-vadodara",
+    "title": "croma AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7465,
+    "path": "/coolair-ac-repair-service-center-vadodara/",
+    "slug": "coolair-ac-repair-service-center-vadodara",
+    "title": "coolair AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7464,
+    "path": "/carrier-ac-repair-service-center-vadodara/",
+    "slug": "carrier-ac-repair-service-center-vadodara",
+    "title": "carrier AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7463,
+    "path": "/blue-star-ac-repair-service-center-vadodara/",
+    "slug": "blue-star-ac-repair-service-center-vadodara",
+    "title": "blue star AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 7462,
+    "path": "/amazon-basics-ac-repair-service-center-vadodara/",
+    "slug": "amazon-basics-ac-repair-service-center-vadodara",
+    "title": "amazon basics AC Repair Service Center Vadodara"
+  },
+  {
+    "type": "pages",
+    "id": 5495,
+    "path": "/privacy-policy/",
+    "slug": "privacy-policy",
+    "title": "Privacy Policy"
+  },
+  {
+    "type": "pages",
+    "id": 4857,
+    "path": "/hitachi-ac-service-center-in-kala-ghoda/",
+    "slug": "hitachi-ac-service-center-in-kala-ghoda",
+    "title": "Kala Ghoda&#8217;s Elite Hitachi AC Service Center: Precision Repairs for Instant Cooling Bliss!"
+  },
+  {
+    "type": "pages",
+    "id": 4853,
+    "path": "/haier-air-conditioner-service-center/",
+    "slug": "haier-air-conditioner-service-center",
+    "title": "Vidyanagar&#8217;s Premier Haier AC Service Center: Swift Repairs for Optimal Cooling Comfort!"
+  },
+  {
+    "type": "pages",
+    "id": 4842,
+    "path": "/haier-ac-service-center-in-tandalja/",
+    "slug": "haier-ac-service-center-in-tandalja",
+    "title": "Revitalize Your Comfort: Premier Haier AC Service Center in Tandalja Ensures Peak Cooling Performance!"
+  },
+  {
+    "type": "pages",
+    "id": 4839,
+    "path": "/haier-ac-service-center-in-rc-dutt-road/",
+    "slug": "haier-ac-service-center-in-rc-dutt-road",
+    "title": "Haier AC Service Center In Rc Dutt Road"
+  },
+  {
+    "type": "pages",
+    "id": 4833,
+    "path": "/haier-ac-service-center-in-race-course/",
+    "slug": "haier-ac-service-center-in-race-course",
+    "title": "Haier AC Service Center in Race Course"
+  },
+  {
+    "type": "pages",
+    "id": 4831,
+    "path": "/haier-ac-service-center-in-manjalpur/",
+    "slug": "haier-ac-service-center-in-manjalpur",
+    "title": "Haier AC Service Center in Manjalpur"
+  },
+  {
+    "type": "pages",
+    "id": 4828,
+    "path": "/haier-ac-service-center-in-harni/",
+    "slug": "haier-ac-service-center-in-harni",
+    "title": "Haier AC Service Center in Harni"
+  },
+  {
+    "type": "pages",
+    "id": 4823,
+    "path": "/haier-ac-service-center-in-fatehgunj/",
+    "slug": "haier-ac-service-center-in-fatehgunj",
+    "title": "Haier AC Service Center in Fatehgunj"
+  },
+  {
+    "type": "pages",
+    "id": 4820,
+    "path": "/electrolux-ac-service-center-in-sayajigunj/",
+    "slug": "electrolux-ac-service-center-in-sayajigunj",
+    "title": "Electrolux AC Service Center in Sayajigunj"
+  },
+  {
+    "type": "pages",
+    "id": 4817,
+    "path": "/electrolux-ac-service-center-in-padra/",
+    "slug": "electrolux-ac-service-center-in-padra",
+    "title": "Electrolux AC Service Center in Padra"
+  },
+  {
+    "type": "pages",
+    "id": 4813,
+    "path": "/electrolux-ac-service-center-in-jetalpur/",
+    "slug": "electrolux-ac-service-center-in-jetalpur",
+    "title": "Electrolux AC Service Center in Jetalpur"
+  },
+  {
+    "type": "pages",
+    "id": 4810,
+    "path": "/electrolux-ac-service-center-in-diwalipura/",
+    "slug": "electrolux-ac-service-center-in-diwalipura",
+    "title": "Electrolux AC Service Center in Diwalipura"
+  },
+  {
+    "type": "pages",
+    "id": 4805,
+    "path": "/carrier-ac-service-center-in-tarsali/",
+    "slug": "carrier-ac-service-center-in-tarsali",
+    "title": "Carrier AC Service Center in Tarsali"
+  },
+  {
+    "type": "pages",
+    "id": 4801,
+    "path": "/carrier-ac-service-center-in-ajwa/",
+    "slug": "carrier-ac-service-center-in-ajwa",
+    "title": "Carrier AC Service Center in Ajwa"
+  },
+  {
+    "type": "pages",
+    "id": 4798,
+    "path": "/blue-star-ac-service-center-in-karjan/",
+    "slug": "blue-star-ac-service-center-in-karjan",
+    "title": "Blue Star AC Service Center in Karjan"
+  },
+  {
+    "type": "pages",
+    "id": 4795,
+    "path": "/blue-star-service-center-in-diwalipura/",
+    "slug": "blue-star-service-center-in-diwalipura",
+    "title": "Blue Star Service Center in diwalipura"
+  },
+  {
+    "type": "pages",
+    "id": 4792,
+    "path": "/blue-star-service-center-in-dabhoi/",
+    "slug": "blue-star-service-center-in-dabhoi",
+    "title": "Blue Star Service Center in Dabhoi"
+  },
+  {
+    "type": "pages",
+    "id": 4790,
+    "path": "/blue-star-service-center-in-anklav/",
+    "slug": "blue-star-service-center-in-anklav",
+    "title": "Blue Star Service Center in Anklav"
+  },
+  {
+    "type": "pages",
+    "id": 4786,
+    "path": "/blue-star-service-center-in-alkapuri/",
+    "slug": "blue-star-service-center-in-alkapuri",
+    "title": "Blue Star Service Center in AlkaPuri"
+  },
+  {
+    "type": "pages",
+    "id": 4780,
+    "path": "/ac-installation-in-por/",
+    "slug": "ac-installation-in-por",
+    "title": "ac installation in por"
+  },
+  {
+    "type": "pages",
+    "id": 4778,
+    "path": "/york-ac-repair-service-center-in-chhani/",
+    "slug": "york-ac-repair-service-center-in-chhani",
+    "title": "York AC Repair Service Center In Chhani"
+  },
+  {
+    "type": "pages",
+    "id": 4700,
+    "path": "/gallery/",
+    "slug": "gallery",
+    "title": "Gallery"
+  },
+  {
+    "type": "pages",
+    "id": 4685,
+    "path": "/testimonials/",
+    "slug": "testimonials",
+    "title": "Testimonial"
+  },
+  {
+    "type": "pages",
+    "id": 4672,
+    "path": "/sitemap-xml/",
+    "slug": "sitemap-xml",
+    "title": "Sitemap xml"
+  },
+  {
+    "type": "pages",
+    "id": 4173,
+    "path": "/franchise/",
+    "slug": "franchise",
+    "title": "franchise"
+  },
+  {
+    "type": "pages",
+    "id": 4167,
+    "path": "/about-us/",
+    "slug": "about-us",
+    "title": "about us"
+  },
+  {
+    "type": "pages",
+    "id": 4114,
+    "path": "/frequently-asked-questions/",
+    "slug": "frequently-asked-questions",
+    "title": "Frequently Asked Questions &#8211; FAQ&#8217;s"
+  },
+  {
+    "type": "pages",
+    "id": 3963,
+    "path": "/ac-repair-servicing-in-daman/",
+    "slug": "ac-repair-servicing-in-daman",
+    "title": "Ac Repair Servicing in Daman | Call Us 4 Free Estimate"
+  },
+  {
+    "type": "pages",
+    "id": 3961,
+    "path": "/ac-repair-servicing-in-vapi/",
+    "slug": "ac-repair-servicing-in-vapi",
+    "title": "Ac repair Servicing in Vapi | 100% Guaranteed Ac Service Repair"
+  },
+  {
+    "type": "pages",
+    "id": 3951,
+    "path": "/ac-repair-servicing-in-valsad/",
+    "slug": "ac-repair-servicing-in-valsad",
+    "title": "Ac Repair Servicing in Valsad | Works Since 1996"
+  },
+  {
+    "type": "pages",
+    "id": 3940,
+    "path": "/atlas-aircon-ac-servicing/",
+    "slug": "atlas-aircon-ac-servicing",
+    "title": "Atlas Aircon Ac Servicing Vadodara | Best Ac Service Provider Vadodara Since 1996"
+  },
+  {
+    "type": "pages",
+    "id": 3813,
+    "path": "/ac-technician-jobs/",
+    "slug": "ac-technician-jobs",
+    "title": "Jobs"
+  },
+  {
+    "type": "pages",
+    "id": 3278,
+    "path": "/ac-repair-cost-vadodara/",
+    "slug": "ac-repair-cost-vadodara",
+    "title": "Price List"
+  },
+  {
+    "type": "pages",
+    "id": 1819,
+    "path": "/blogs/",
+    "slug": "blogs",
+    "title": "Blogs"
+  },
+  {
+    "type": "pages",
+    "id": 27,
+    "path": "/contact-us/",
+    "slug": "contact-us",
+    "title": "Contact"
+  },
+  {
+    "type": "pages",
+    "id": 23,
+    "path": "/services/",
+    "slug": "services",
+    "title": "Our Services"
+  },
+  {
+    "type": "posts",
+    "id": 11269,
+    "path": "/vadodara-hvac-ac-service/",
+    "slug": "vadodara-hvac-ac-service",
+    "title": "Vadodara HVAC &amp; AC Service Blueprint (2026) | Atlas Aircons"
+  },
+  {
+    "type": "posts",
+    "id": 11266,
+    "path": "/the-ultimate-2026-guide-to-hvac/",
+    "slug": "the-ultimate-2026-guide-to-hvac",
+    "title": "The Ultimate 2026 Guide to HVAC Excellence in Vadodara: From Household Comfort to Industrial Precision"
+  },
+  {
+    "type": "posts",
+    "id": 11256,
+    "path": "/ac-not-cooling-top-5-causes-fast-fixes-in-vadodara/",
+    "slug": "ac-not-cooling-top-5-causes-fast-fixes-in-vadodara",
+    "title": "AC Not Cooling? Top 5 Causes &amp; Fast Fixes in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 11243,
+    "path": "/%f0%9f%94%b4-central-ac-vrf-repair-service-in-vadodara/",
+    "slug": "%f0%9f%94%b4-central-ac-vrf-repair-service-in-vadodara",
+    "title": "🔴 Central AC &amp; VRF Repair Service in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 11222,
+    "path": "/ultimate-split-ac-repair-guide-vadodara-prices-error-codes-inverter-fixes/",
+    "slug": "ultimate-split-ac-repair-guide-vadodara-prices-error-codes-inverter-fixes",
+    "title": "Ultimate Split AC Repair Guide Vadodara | Prices, Error Codes &amp; Inverter Fixes"
+  },
+  {
+    "type": "posts",
+    "id": 11220,
+    "path": "/expert-ahu-repair-cleanroom-cooling-in-vadodara-pharma-hospitals/",
+    "slug": "expert-ahu-repair-cleanroom-cooling-in-vadodara-pharma-hospitals",
+    "title": "Expert AHU Repair &amp; Cleanroom Cooling in Vadodara | Pharma &amp; Hospitals"
+  },
+  {
+    "type": "posts",
+    "id": 11218,
+    "path": "/heavy-duty-ductable-ac-repair-compressor-replacement-in-vadodara/",
+    "slug": "heavy-duty-ductable-ac-repair-compressor-replacement-in-vadodara",
+    "title": "Heavy-Duty Ductable AC Repair &amp; Compressor Replacement in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 11216,
+    "path": "/expert-cnc-water-chiller-repair-in-vadodara-all-gidc-zones/",
+    "slug": "expert-cnc-water-chiller-repair-in-vadodara-all-gidc-zones",
+    "title": "Expert CNC Water Chiller Repair in Vadodara &amp; All GIDC Zones"
+  },
+  {
+    "type": "posts",
+    "id": 11214,
+    "path": "/commercial-deep-freezer-repair-in-vadodara-restaurant-cooling-experts/",
+    "slug": "commercial-deep-freezer-repair-in-vadodara-restaurant-cooling-experts",
+    "title": "Commercial Deep Freezer Repair in Vadodara | Restaurant Cooling Experts"
+  },
+  {
+    "type": "posts",
+    "id": 11212,
+    "path": "/vadodara-panel-ac-repair-manjusar-halol-all-gidc-zones/",
+    "slug": "vadodara-panel-ac-repair-manjusar-halol-all-gidc-zones",
+    "title": "Vadodara Panel AC Repair: Manjusar, Halol &amp; All GIDC Zones"
+  },
+  {
+    "type": "posts",
+    "id": 11210,
+    "path": "/expert-ac-gas-charging-repair-in-sama-tp13-vadodara/",
+    "slug": "expert-ac-gas-charging-repair-in-sama-tp13-vadodara",
+    "title": "Expert AC Gas Charging &amp; Repair in Sama &amp; TP13, Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 11193,
+    "path": "/foam-jet-ac-cleaning-vs-standard-service-why-your-air-conditioner-needs-a-deep-wash/",
+    "slug": "foam-jet-ac-cleaning-vs-standard-service-why-your-air-conditioner-needs-a-deep-wash",
+    "title": "Foam Jet AC Cleaning vs. Standard Service: Why Your Air Conditioner Needs a Deep Wash"
+  },
+  {
+    "type": "posts",
+    "id": 10836,
+    "path": "/successful-chiller-repair-waghodia-2026/",
+    "slug": "successful-chiller-repair-waghodia-2026",
+    "title": "Successful Chiller Repair at Waghodia GIDC: Feb 2026 Case Study"
+  },
+  {
+    "type": "posts",
+    "id": 10780,
+    "path": "/industrial-ac-bill-high/",
+    "slug": "industrial-ac-bill-high",
+    "title": "5 Reasons Your Industrial AC Bill is High (And How to Calculate Real Costs)"
+  },
+  {
+    "type": "posts",
+    "id": 10775,
+    "path": "/dont-buy-a-1-5-ton-ac/",
+    "slug": "dont-buy-a-1-5-ton-ac",
+    "title": "Don&#8217;t Buy a 1.5 Ton AC Until You Read This (2026 Guide)"
+  },
+  {
+    "type": "posts",
+    "id": 9007,
+    "path": "/emergency-ac-repairing-service/",
+    "slug": "emergency-ac-repairing-service",
+    "title": "emergency ac repairing service"
+  },
+  {
+    "type": "posts",
+    "id": 8998,
+    "path": "/installation-and-fitting-ac/",
+    "slug": "installation-and-fitting-ac",
+    "title": "Top-Rated AC &#038; HVAC Installation Services in Vadodara – Affordable Prices &#038; Expert Care"
+  },
+  {
+    "type": "posts",
+    "id": 8991,
+    "path": "/panel-ac-centrifugal-fan/",
+    "slug": "panel-ac-centrifugal-fan",
+    "title": "panel ac centrifugal fan"
+  },
+  {
+    "type": "posts",
+    "id": 8961,
+    "path": "/ac-air-filters-sales-service/",
+    "slug": "ac-air-filters-sales-service",
+    "title": "AC Air Filters Sales &#038; Service in Vadodara, Gujarat | HEPA, Carbon, Washable Filters | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 8953,
+    "path": "/old-ac-buyer-in-vadodara/",
+    "slug": "old-ac-buyer-in-vadodara",
+    "title": "Sell Your Old AC in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 8772,
+    "path": "/when-to-buy-an-ac-in-india/",
+    "slug": "when-to-buy-an-ac-in-india",
+    "title": "when to buy an ac in India"
+  },
+  {
+    "type": "posts",
+    "id": 8767,
+    "path": "/ac-service-center-vadodara-3/",
+    "slug": "ac-service-center-vadodara-3",
+    "title": "ac service center"
+  },
+  {
+    "type": "posts",
+    "id": 8744,
+    "path": "/ac-repair-vadodara-charges/",
+    "slug": "ac-repair-vadodara-charges",
+    "title": "ac repair vadodara charges"
+  },
+  {
+    "type": "posts",
+    "id": 8723,
+    "path": "/cold-room-repair-service-vadodara/",
+    "slug": "cold-room-repair-service-vadodara",
+    "title": "1 Cold Room Repair Service in Vadodara | Atlas Aircon | Same-Day Service"
+  },
+  {
+    "type": "posts",
+    "id": 7718,
+    "path": "/ac-fitting-vadodara-charges/",
+    "slug": "ac-fitting-vadodara-charges",
+    "title": "AC Fitting in Vadodara &amp; Charges | Expert AC Installation @₹1500"
+  },
+  {
+    "type": "posts",
+    "id": 7715,
+    "path": "/window-ac-repair-vadodara-charges/",
+    "slug": "window-ac-repair-vadodara-charges",
+    "title": "Expert Window AC Repair in Vadodara &#8211; Affordable Charges"
+  },
+  {
+    "type": "posts",
+    "id": 7706,
+    "path": "/cassette-ac-repair-in-vadodara-charges/",
+    "slug": "cassette-ac-repair-in-vadodara-charges",
+    "title": "Expert Cassette AC Repair in Vadodara &#8211; Affordable Charges | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 7680,
+    "path": "/washing-machine-repair-in-vadodara-2/",
+    "slug": "washing-machine-repair-in-vadodara-2",
+    "title": "1 Washing Machine Repair in Vadodara | Atlas Aircon | 30-Min Service"
+  },
+  {
+    "type": "posts",
+    "id": 7243,
+    "path": "/advance-panel-ac-service-center/",
+    "slug": "advance-panel-ac-service-center",
+    "title": "Advance panel Ac and Chiller Repair Service Center and it Charges"
+  },
+  {
+    "type": "posts",
+    "id": 7238,
+    "path": "/rittal-panel-ac-service-center/",
+    "slug": "rittal-panel-ac-service-center",
+    "title": "Rittal Panel AC Repair Service Center"
+  },
+  {
+    "type": "posts",
+    "id": 7230,
+    "path": "/trusted-ac-gas-charging/",
+    "slug": "trusted-ac-gas-charging",
+    "title": "Refrigerant Gas for AC, HVAC &#038; Chillers – Unlock Superior Cooling with Atlas Aircon (Trusted &#038; Premium)"
+  },
+  {
+    "type": "posts",
+    "id": 7064,
+    "path": "/drain-pipe-repair-vadodara/",
+    "slug": "drain-pipe-repair-vadodara",
+    "title": "#1 AC Drain Pipe Repair In Vadodara | 3-Month Guarantee"
+  },
+  {
+    "type": "posts",
+    "id": 7062,
+    "path": "/oxygen-copper-piping-vadodara/",
+    "slug": "oxygen-copper-piping-vadodara",
+    "title": "1 Expert Oxygen Copper Piping in Vadodara | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 7059,
+    "path": "/refrigerator-circuit-repair-vadodara/",
+    "slug": "refrigerator-circuit-repair-vadodara",
+    "title": "Refrigerator Circuit &amp; PCB Repair in Vadodara | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 7057,
+    "path": "/refrigerator-compressor-repair-vadodara/",
+    "slug": "refrigerator-compressor-repair-vadodara",
+    "title": "#1 Refrigerator Compressor Repair Vadodara | Fridge Repair | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 7055,
+    "path": "/ac-on-rent-vadodara/",
+    "slug": "ac-on-rent-vadodara",
+    "title": "AC on Rent in Vadodara | Fast &amp; Affordable Cooling | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 7046,
+    "path": "/emergency-ahu-repair/",
+    "slug": "emergency-ahu-repair",
+    "title": "Need 24/7 Emergency AHU Repair? Get a Certified Technician On-Site in Under 2 Hours"
+  },
+  {
+    "type": "posts",
+    "id": 7039,
+    "path": "/chiller-manufacters/",
+    "slug": "chiller-manufacters",
+    "title": "Chiller manufacters in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5734,
+    "path": "/fast-refrigerator-repair-in-vadodara/",
+    "slug": "fast-refrigerator-repair-in-vadodara",
+    "title": "Fast Refrigerator Repair in Vadodara | Certified Techs &amp; 1-Year Warranty"
+  },
+  {
+    "type": "posts",
+    "id": 5724,
+    "path": "/vadodara-ac-dead-get-your-split-ac-cooling-again/",
+    "slug": "vadodara-ac-dead-get-your-split-ac-cooling-again",
+    "title": "Vadodara, AC Dead? Get Your Split AC Cooling Again in Under 2 Hours. Call Us Now!"
+  },
+  {
+    "type": "posts",
+    "id": 5646,
+    "path": "/refrigerator-repair-in-vadodara-frost-defrost-experts-atlas-aircon/",
+    "slug": "refrigerator-repair-in-vadodara-frost-defrost-experts-atlas-aircon",
+    "title": "Refrigerator Repair in Vadodara | Frost &amp; Defrost Experts | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 5603,
+    "path": "/emergency-ac-repair-in-vadodara/",
+    "slug": "emergency-ac-repair-in-vadodara",
+    "title": "The Silence of the Fan: Your Lifeline for Emergency AC Repair in Vadodara is Now a 2-Hour Promise"
+  },
+  {
+    "type": "posts",
+    "id": 5595,
+    "path": "/ac-not-cooling/",
+    "slug": "ac-not-cooling",
+    "title": "AC Not Cooling? 5 Common Reasons &#038; Quick Fixes for Vadodara Homeowners"
+  },
+  {
+    "type": "posts",
+    "id": 5560,
+    "path": "/vadodaras-leading-air-cooler-service-provider/",
+    "slug": "vadodaras-leading-air-cooler-service-provider",
+    "title": "Vadodara’s Leading Air Cooler Service Provider: Repair &#038; Maintenance"
+  },
+  {
+    "type": "posts",
+    "id": 4590,
+    "path": "/ac-blower-motor/",
+    "slug": "ac-blower-motor",
+    "title": "ac blower motor"
+  },
+  {
+    "type": "posts",
+    "id": 197,
+    "path": "/voice-controlled-air-conditioners-by-lg/",
+    "slug": "voice-controlled-air-conditioners-by-lg",
+    "title": "Voice Controlled Air Conditioners By LG"
+  },
+  {
+    "type": "posts",
+    "id": 4752,
+    "path": "/water-cooler-repair-service-near-me/",
+    "slug": "water-cooler-repair-service-near-me",
+    "title": "Reliable Water Cooler Repair Service near me in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 4637,
+    "path": "/split-ac-installation-and-repair-service/",
+    "slug": "split-ac-installation-and-repair-service",
+    "title": "Split AC Installation and Repair Services – Keeping Your Home Chill and Comfortable"
+  },
+  {
+    "type": "posts",
+    "id": 4587,
+    "path": "/pcb-repair-services-in-vadodara/",
+    "slug": "pcb-repair-services-in-vadodara",
+    "title": "PCB repair services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 134,
+    "path": "/ai-controlled-air-conditioner-by-lg-to-improve-your-comfort/",
+    "slug": "ai-controlled-air-conditioner-by-lg-to-improve-your-comfort",
+    "title": "What is AI mode in LG AC to improve comfort?"
+  },
+  {
+    "type": "posts",
+    "id": 5431,
+    "path": "/samsung-refrigerator-repair-in-vadodara/",
+    "slug": "samsung-refrigerator-repair-in-vadodara",
+    "title": "The Ultimate Guide to Samsung Refrigerator Repair in Vadodara: Services, Pricing, and Expert Assistance"
+  },
+  {
+    "type": "posts",
+    "id": 4928,
+    "path": "/hvac-contractors-in-vadodara/",
+    "slug": "hvac-contractors-in-vadodara",
+    "title": "Trusted HVAC Contractors in Vadodara for Repair, Service &amp; Installation"
+  },
+  {
+    "type": "posts",
+    "id": 5405,
+    "path": "/most-searched-ac-repair-and-installation-service/",
+    "slug": "most-searched-ac-repair-and-installation-service",
+    "title": "Why Atlas Aircon is Vadodara’s Most Searched AC Repair and Installation Service"
+  },
+  {
+    "type": "posts",
+    "id": 5265,
+    "path": "/fridge-repair-service-in-vadodara/",
+    "slug": "fridge-repair-service-in-vadodara",
+    "title": "Refrigerator/Fridge Repair Service in Vadodara by Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 5074,
+    "path": "/top-load-washing-machine-repair-service/",
+    "slug": "top-load-washing-machine-repair-service",
+    "title": "The Best Top Load Washing Machine Repair Service in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5112,
+    "path": "/electrolux-ac-repair/",
+    "slug": "electrolux-ac-repair",
+    "title": "Advanced Electrolux AC Repair &#038; Maintenance Solutions in Vadodara &#8211; Expert Service Guaranteed!"
+  },
+  {
+    "type": "posts",
+    "id": 250,
+    "path": "/360-cassette-samsungs-innovative-air-conditioner-brings-comfort/",
+    "slug": "360-cassette-samsungs-innovative-air-conditioner-brings-comfort",
+    "title": "360 Cassette: Samsung’s Innovative Air Conditioner Brings Comfort"
+  },
+  {
+    "type": "posts",
+    "id": 5194,
+    "path": "/fully-automatic-washing-machine-repair/",
+    "slug": "fully-automatic-washing-machine-repair",
+    "title": "Revitalize Your Laundry Routine: The Ultimate Guide to Fully Automatic Washing Machine Repair Services in vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 145,
+    "path": "/air-conditioner-maintenance/",
+    "slug": "air-conditioner-maintenance",
+    "title": "Air Conditioner Maintenance Servicing"
+  },
+  {
+    "type": "posts",
+    "id": 20,
+    "path": "/latest-hvac-systems-in-the-market/",
+    "slug": "latest-hvac-systems-in-the-market",
+    "title": "Latest HVAC Systems In The Market"
+  },
+  {
+    "type": "posts",
+    "id": 4296,
+    "path": "/air-cooler-repair-in-vadodara/",
+    "slug": "air-cooler-repair-in-vadodara",
+    "title": "Air Cooler Repair in Vadodara: Air Cooler Repair Service in Vadodara: Expert Solutions for Your Cooling Needs"
+  },
+  {
+    "type": "posts",
+    "id": 3527,
+    "path": "/how-to-cut-down-ac-bills-effectively/",
+    "slug": "how-to-cut-down-ac-bills-effectively",
+    "title": "How to Cut Down AC bills Effectively?"
+  },
+  {
+    "type": "posts",
+    "id": 4522,
+    "path": "/tower-ac-repair-and-service-in-vadodara/",
+    "slug": "tower-ac-repair-and-service-in-vadodara",
+    "title": "Tower AC repair and service in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 3319,
+    "path": "/how-to-choose-the-best-air-conditioner-for-your-home/",
+    "slug": "how-to-choose-the-best-air-conditioner-for-your-home",
+    "title": "How To Choose The Best Air Conditioner For Your Home?"
+  },
+  {
+    "type": "posts",
+    "id": 4240,
+    "path": "/inverter-ac-service-experts-in-vadodara/",
+    "slug": "inverter-ac-service-experts-in-vadodara",
+    "title": "Inverter AC Service Experts in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5407,
+    "path": "/ac-cleaning-charges-in-vadodara/",
+    "slug": "ac-cleaning-charges-in-vadodara",
+    "title": "The Truth About AC Cleaning Charges in Vadodara: What Your Technician Might Not Tell You"
+  },
+  {
+    "type": "posts",
+    "id": 4236,
+    "path": "/professional-ac-maintenance-services/",
+    "slug": "professional-ac-maintenance-services",
+    "title": "Professional AC Maintenance Services"
+  },
+  {
+    "type": "posts",
+    "id": 304,
+    "path": "/advantages-disadvantages-of-air-conditioning-system-on-human-health/",
+    "slug": "advantages-disadvantages-of-air-conditioning-system-on-human-health",
+    "title": "Advantages/Disadvantages of Air Conditioning System on Human Health"
+  },
+  {
+    "type": "posts",
+    "id": 4634,
+    "path": "/ductable-ac-installation-repair-services/",
+    "slug": "ductable-ac-installation-repair-services",
+    "title": "Ductable AC Installation Repair Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 312,
+    "path": "/how-to-buy-air-conditioner-based-on-star-ratings-for-your-needs/",
+    "slug": "how-to-buy-air-conditioner-based-on-star-ratings-for-your-needs",
+    "title": "How to Buy Air Conditioner Based on Star Ratings for your needs?"
+  },
+  {
+    "type": "posts",
+    "id": 4577,
+    "path": "/cube-ac-repairs-in-vadodara/",
+    "slug": "cube-ac-repairs-in-vadodara",
+    "title": "Cube AC Repairs in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5245,
+    "path": "/choose-best-ac-repair-service-vadodara/",
+    "slug": "choose-best-ac-repair-service-vadodara",
+    "title": "How to Choose the Best AC Repair Service in Vadodara: A Step-by-Step Guide"
+  },
+  {
+    "type": "posts",
+    "id": 54,
+    "path": "/ac-installation-in-vadodara-get-your-air-conditioner-installed-with-ease/",
+    "slug": "ac-installation-in-vadodara-get-your-air-conditioner-installed-with-ease",
+    "title": "AC Installation Get Your Ac Installed Ease Free Guidance 1996"
+  },
+  {
+    "type": "posts",
+    "id": 3832,
+    "path": "/how-to-clean-an-air-conditioner-filter/",
+    "slug": "how-to-clean-an-air-conditioner-filter",
+    "title": "How to Clean an Air Conditioner Filter?"
+  },
+  {
+    "type": "posts",
+    "id": 258,
+    "path": "/air-conditioner-maintenance-services-in-vadodara/",
+    "slug": "air-conditioner-maintenance-services-in-vadodara",
+    "title": "Air Conditioner Maintenance Services in Vadodara with Excellent Service Provider"
+  },
+  {
+    "type": "posts",
+    "id": 327,
+    "path": "/top-10-air-conditioners-to-buy-in-summer-2018/",
+    "slug": "top-10-air-conditioners-to-buy-in-summer-2018",
+    "title": "Top 10 Air Conditioners to Buy in Summer 2018"
+  },
+  {
+    "type": "posts",
+    "id": 4743,
+    "path": "/ac-shifting-services-in-vadodara/",
+    "slug": "ac-shifting-services-in-vadodara",
+    "title": "AC Shifting Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5393,
+    "path": "/cassette-ac-repair-services-in-vadodara/",
+    "slug": "cassette-ac-repair-services-in-vadodara",
+    "title": "Expert Cassette AC Repair Services in Vadodara: Keep Cool with Top-Notch Repairs and Maintenance"
+  },
+  {
+    "type": "posts",
+    "id": 5290,
+    "path": "/the-cost-of-ac-repair-what-to-expect-and-how-to-avoid-overpaying/",
+    "slug": "the-cost-of-ac-repair-what-to-expect-and-how-to-avoid-overpaying",
+    "title": "The Cost of AC Repair: What to Expect and How to Avoid Overpaying"
+  },
+  {
+    "type": "posts",
+    "id": 3752,
+    "path": "/how-to-shift-split-ac/",
+    "slug": "how-to-shift-split-ac",
+    "title": "How to shift split ac from one place to another? Call For free Estimate"
+  },
+  {
+    "type": "posts",
+    "id": 5426,
+    "path": "/refrigerator-repair-cost-in-vadodara/",
+    "slug": "refrigerator-repair-cost-in-vadodara",
+    "title": "How Much Does Refrigerator Repair Cost in Vadodara? Find Out Our Budget-Friendly Service Charges!"
+  },
+  {
+    "type": "posts",
+    "id": 5463,
+    "path": "/power-jet-ac-service-in-vadodara/",
+    "slug": "power-jet-ac-service-in-vadodara",
+    "title": "Power Jet AC Service in Vadodara: The Ultimate Solution for AC Cooling Problems"
+  },
+  {
+    "type": "posts",
+    "id": 4774,
+    "path": "/hvac-air-ventilation-grills/",
+    "slug": "hvac-air-ventilation-grills",
+    "title": "HVAC Air Ventilation Grills"
+  },
+  {
+    "type": "posts",
+    "id": 4597,
+    "path": "/ac-swing-motor-repair-services/",
+    "slug": "ac-swing-motor-repair-services",
+    "title": "AC Swing Motor Repair Services"
+  },
+  {
+    "type": "posts",
+    "id": 256,
+    "path": "/256-2/",
+    "slug": "256-2",
+    "title": "Air Conditioning Systems Advantages And Disadvantages"
+  },
+  {
+    "type": "posts",
+    "id": 5097,
+    "path": "/carrier-ac-repair-services/",
+    "slug": "carrier-ac-repair-services",
+    "title": "Expert Carrier AC Repair Services in Vadodara : Reliable Solutions for Your Cooling Needs"
+  },
+  {
+    "type": "posts",
+    "id": 3820,
+    "path": "/home-air-conditioner-maintenance-tips/",
+    "slug": "home-air-conditioner-maintenance-tips",
+    "title": "Home Air Conditioner Maintenance Tips"
+  },
+  {
+    "type": "posts",
+    "id": 4216,
+    "path": "/ac-repair-services-for-your-home/",
+    "slug": "ac-repair-services-for-your-home",
+    "title": "Cost-Effective AC Repair Services for Your Home"
+  },
+  {
+    "type": "posts",
+    "id": 5104,
+    "path": "/cruise-ac-repair-services/",
+    "slug": "cruise-ac-repair-services",
+    "title": "Expert Cruise AC Repair Services in Vadodara| Trained Professionals"
+  },
+  {
+    "type": "posts",
+    "id": 4287,
+    "path": "/split-ac-installation-in-vadodara/",
+    "slug": "split-ac-installation-in-vadodara",
+    "title": "Split AC Installation in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 4584,
+    "path": "/ac-remote-control/",
+    "slug": "ac-remote-control",
+    "title": "AC remote control"
+  },
+  {
+    "type": "posts",
+    "id": 5090,
+    "path": "/blue-star-ac-repair-services/",
+    "slug": "blue-star-ac-repair-services",
+    "title": "Expert Blue Star AC Repair Services: Trust Atlas Aircon for Reliable Solutions"
+  },
+  {
+    "type": "posts",
+    "id": 4900,
+    "path": "/premier-air-conditioning-service-in-vadodara/",
+    "slug": "premier-air-conditioning-service-in-vadodara",
+    "title": "Unlocking Cooling Comfort with Atlas Aircon – Your Premier Air Conditioning Service in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 318,
+    "path": "/split-window-ac-installation-services-in-vadodara/",
+    "slug": "split-window-ac-installation-services-in-vadodara",
+    "title": "Split &#038; Window AC Installation Services In Vadodara with Excellent Service"
+  },
+  {
+    "type": "posts",
+    "id": 4712,
+    "path": "/the-best-ac-repairing-services-in-vadodara/",
+    "slug": "the-best-ac-repairing-services-in-vadodara",
+    "title": "Breathe Easy: Unveiling the Best AC Repairing Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5058,
+    "path": "/refrigerator-cooling-repair-service/",
+    "slug": "refrigerator-cooling-repair-service",
+    "title": "Refrigerator Cooling Repair Service"
+  },
+  {
+    "type": "posts",
+    "id": 3321,
+    "path": "/willis-carrier-got-the-worlds-first-air-conditioner-patent/",
+    "slug": "willis-carrier-got-the-worlds-first-air-conditioner-patent",
+    "title": "Willis Carrier Got The World&#8217;s First Air Conditioner Patent"
+  },
+  {
+    "type": "posts",
+    "id": 4749,
+    "path": "/air-cooler-repair-services-near-me/",
+    "slug": "air-cooler-repair-services-near-me",
+    "title": "Keeping Cool: Emergency Air Cooler Repair &#038; Services near me in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 4184,
+    "path": "/ac-service-charges-in-vadodara/",
+    "slug": "ac-service-charges-in-vadodara",
+    "title": "Decoding the Cost of Cool: Unveiling Exclusive Ac Service Charges in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 4220,
+    "path": "/washing-machine-repair-service-centers/",
+    "slug": "washing-machine-repair-service-centers",
+    "title": "Washing Machine Repair Service Centers"
+  },
+  {
+    "type": "posts",
+    "id": 5100,
+    "path": "/croma-ac-repair-services/",
+    "slug": "croma-ac-repair-services",
+    "title": "Expert Croma AC Repair Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5451,
+    "path": "/ac-chemical-wash-deep-cleaning-services/",
+    "slug": "ac-chemical-wash-deep-cleaning-services",
+    "title": "Top Benefits of AC Chemical Wash Deep Cleaning Services in Vadodara: Keep Your Air Cool and Clean"
+  },
+  {
+    "type": "posts",
+    "id": 4369,
+    "path": "/washing-machine-repair-in-vadodara/",
+    "slug": "washing-machine-repair-in-vadodara",
+    "title": "Washing Machine Repair Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 4915,
+    "path": "/foam-jet-ac-servicing/",
+    "slug": "foam-jet-ac-servicing",
+    "title": "Revitalize Your Comfort: Unleash the Power of Foam Jet AC Cleaning Service in Vadodara with Atlas Aircon!"
+  },
+  {
+    "type": "posts",
+    "id": 4770,
+    "path": "/dehumidifier-repair-services/",
+    "slug": "dehumidifier-repair-services",
+    "title": "Unveiling Excellence: Atlas Aircon&#8217;s Unparalleled Dehumidifier Repair Services"
+  },
+  {
+    "type": "posts",
+    "id": 4593,
+    "path": "/ac-cooling-coil-repair-services/",
+    "slug": "ac-cooling-coil-repair-services",
+    "title": "AC cooling coil repair services"
+  },
+  {
+    "type": "posts",
+    "id": 4464,
+    "path": "/pressure-washer-power-jet-ac-service/",
+    "slug": "pressure-washer-power-jet-ac-service",
+    "title": "Pressure Washer &amp; Power Jet AC Service: The Ultimate Guide For Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 229,
+    "path": "/who-invented-the-air-conditioner-how-it-works/",
+    "slug": "who-invented-the-air-conditioner-how-it-works",
+    "title": "Who Invented The Air Conditioner &#038; How It Works?"
+  },
+  {
+    "type": "posts",
+    "id": 5056,
+    "path": "/symphony-air-cooler-repair-service/",
+    "slug": "symphony-air-cooler-repair-service",
+    "title": "Expert Symphony Air Cooler Repair Service in Vadodara: Professional Troubleshooting &#038; Maintenance Solutions"
+  },
+  {
+    "type": "posts",
+    "id": 4358,
+    "path": "/ac-cleaning-services-in-vadodara/",
+    "slug": "ac-cleaning-services-in-vadodara",
+    "title": "Unlock Ultimate Coolness: 3 Essential AC Cleaning Services in Vadodara You Can&#8217;t Ignore!"
+  },
+  {
+    "type": "posts",
+    "id": 4192,
+    "path": "/air-conditioner-gas-refilling-charges/",
+    "slug": "air-conditioner-gas-refilling-charges",
+    "title": "Air Conditioner Gas Refilling Charges"
+  },
+  {
+    "type": "posts",
+    "id": 4610,
+    "path": "/ac-gas-refilling/",
+    "slug": "ac-gas-refilling",
+    "title": "AC gas refilling"
+  },
+  {
+    "type": "posts",
+    "id": 3322,
+    "path": "/new-heating-ventilation-air-conditioning-hvac-regulations/",
+    "slug": "new-heating-ventilation-air-conditioning-hvac-regulations",
+    "title": "New Heating, Ventilation Air Conditioning (HVAC) Regulations"
+  },
+  {
+    "type": "posts",
+    "id": 4648,
+    "path": "/portable-ac-installation-and-repair-service/",
+    "slug": "portable-ac-installation-and-repair-service",
+    "title": "Portable AC Installation and Repair Service"
+  },
+  {
+    "type": "posts",
+    "id": 5423,
+    "path": "/top-refrigerator-repair-services-in-vadodara/",
+    "slug": "top-refrigerator-repair-services-in-vadodara",
+    "title": "Top Refrigerator Repair Services in Vadodara: Get Your Fridge Fixed by Experts! Top Refrigerator Service Centers in Vadodara: Expert Solutions at Your Doorstep"
+  },
+  {
+    "type": "posts",
+    "id": 3323,
+    "path": "/ac-service-in-vadodara-best-air-conditioner-amc-provider/",
+    "slug": "ac-service-in-vadodara-best-air-conditioner-amc-provider",
+    "title": "AC Service In Vadodara | Best Air Conditioner AMC Provider"
+  },
+  {
+    "type": "posts",
+    "id": 4226,
+    "path": "/home-appliance-repair/",
+    "slug": "home-appliance-repair",
+    "title": "One-stop home appliance repair solution"
+  },
+  {
+    "type": "posts",
+    "id": 5062,
+    "path": "/ac-service-and-repair-near/",
+    "slug": "ac-service-and-repair-near",
+    "title": "Expert AC Service and Repair near You | Trusted Local Solutions"
+  },
+  {
+    "type": "posts",
+    "id": 5119,
+    "path": "/gree-ac-repair/",
+    "slug": "gree-ac-repair",
+    "title": "Keeping Cool: Expert Gree AC Repair Service for Your Comfort"
+  },
+  {
+    "type": "posts",
+    "id": 3846,
+    "path": "/most-common-air-conditioner-problems/",
+    "slug": "most-common-air-conditioner-problems",
+    "title": "Most Common Air Conditioner Problems Require Repair"
+  },
+  {
+    "type": "posts",
+    "id": 5364,
+    "path": "/ac-cleaning-and-refrigerant-refill-services/",
+    "slug": "ac-cleaning-and-refrigerant-refill-services",
+    "title": "AC Cleaning and Refrigerant Refill Services for Better Cooling Efficiency – Trust Atlas Aircon for Your AC Needs"
+  },
+  {
+    "type": "posts",
+    "id": 4260,
+    "path": "/window-ac-repair-and-service/",
+    "slug": "window-ac-repair-and-service",
+    "title": "Get the Best Window AC Repair and Service for Unmatched Cooling Efficiency"
+  },
+  {
+    "type": "posts",
+    "id": 5396,
+    "path": "/top-ac-installation-services/",
+    "slug": "top-ac-installation-services",
+    "title": "Stay Cool in Vadodara: Top AC Installation Services You Can Trust with Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 4246,
+    "path": "/professional-standard-ac-installation-service/",
+    "slug": "professional-standard-ac-installation-service",
+    "title": "Professional standard AC installation service"
+  },
+  {
+    "type": "posts",
+    "id": 5275,
+    "path": "/eco-friendly-air-conditioning/",
+    "slug": "eco-friendly-air-conditioning",
+    "title": "The Future of Eco-Friendly Air Conditioning: Innovations in Energy-Efficient Systems and Sustainable Cooling Solutions"
+  },
+  {
+    "type": "posts",
+    "id": 4631,
+    "path": "/central-ac-installation-repair-service/",
+    "slug": "central-ac-installation-repair-service",
+    "title": "Central AC Installation Repair Service"
+  },
+  {
+    "type": "posts",
+    "id": 3500,
+    "path": "/common-problems-and-benefits-of-ac-repair/",
+    "slug": "common-problems-and-benefits-of-ac-repair",
+    "title": "Common Problems and Benefits of AC Repair with Excellent Service"
+  },
+  {
+    "type": "posts",
+    "id": 4376,
+    "path": "/central-ac-maintenance-services/",
+    "slug": "central-ac-maintenance-services",
+    "title": "Central AC Maintenance Services"
+  },
+  {
+    "type": "posts",
+    "id": 5255,
+    "path": "/ac-service-vadodara-summer-ready/",
+    "slug": "ac-service-vadodara-summer-ready",
+    "title": "Summer&#8217;s Coming! Get Your AC Ready with Atlas Aircon&#8217;s Expert AC Service in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5050,
+    "path": "/gas-refilling-services/",
+    "slug": "gas-refilling-services",
+    "title": "Enhance Your Refrigerator’s Performance with Expert Gas Refilling Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 3531,
+    "path": "/why-does-your-air-conditioner-blower-hot-air/",
+    "slug": "why-does-your-air-conditioner-blower-hot-air",
+    "title": "Why Does Your Air Conditioner Blower Hot Air?"
+  },
+  {
+    "type": "posts",
+    "id": 5181,
+    "path": "/front-load-washing-machine-repair-service/",
+    "slug": "front-load-washing-machine-repair-service",
+    "title": "Revive Your Laundry Routine: Expert Front Load Washing Machine Repair Service Unveiled!"
+  },
+  {
+    "type": "posts",
+    "id": 4581,
+    "path": "/air-conditioner-copper-wire-in-vadodara/",
+    "slug": "air-conditioner-copper-wire-in-vadodara",
+    "title": "Ac Copper Wire in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5115,
+    "path": "/godrej-ac-repair/",
+    "slug": "godrej-ac-repair",
+    "title": "Expert Godrej AC Repair Services: Fast &#038; Reliable Solutions"
+  },
+  {
+    "type": "posts",
+    "id": 5175,
+    "path": "/air-cooler-repair-at-your-doorstep/",
+    "slug": "air-cooler-repair-at-your-doorstep",
+    "title": "Revitalize Your Home Comfort with Atlas Aircon: Prompt and Expert Air Cooler Repair at Your Doorstep in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 147,
+    "path": "/latest-multi-inverter-split-air-conditioners-blue-star/",
+    "slug": "latest-multi-inverter-split-air-conditioners-blue-star",
+    "title": "Multi-Inverter Split Air Conditioners by Blue Star"
+  },
+  {
+    "type": "posts",
+    "id": 5357,
+    "path": "/deep-cleaning-ac-service-in-vadodara/",
+    "slug": "deep-cleaning-ac-service-in-vadodara",
+    "title": "Deep Cleaning AC Service in Vadodara: The Ultimate Guide to Keeping Your Air Conditioner in Top Condition &#8211; Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 215,
+    "path": "/various-types-of-air-conditioners-and-their-applications-you-must-know-before-buying/",
+    "slug": "various-types-of-air-conditioners-and-their-applications-you-must-know-before-buying",
+    "title": "Various Types of Air Conditioning System"
+  },
+  {
+    "type": "posts",
+    "id": 5475,
+    "path": "/package-ac-repair/",
+    "slug": "package-ac-repair",
+    "title": "#1 Package AC Repair: Get Your System Back to Peak Performance Today!"
+  },
+  {
+    "type": "posts",
+    "id": 3320,
+    "path": "/guide-on-air-conditioner-maintenance-service-selection/",
+    "slug": "guide-on-air-conditioner-maintenance-service-selection",
+    "title": "Guide on Air Conditioner Maintenance Service Selection"
+  },
+  {
+    "type": "posts",
+    "id": 4614,
+    "path": "/ac-fan-motor-sales-and-repair-service/",
+    "slug": "ac-fan-motor-sales-and-repair-service",
+    "title": "Ac Fan Motor Sales and Repair Service"
+  },
+  {
+    "type": "posts",
+    "id": 252,
+    "path": "/252-2/",
+    "slug": "252-2",
+    "title": "Air Conditioner to get Cheaper as Government Launches new Projects"
+  },
+  {
+    "type": "posts",
+    "id": 5151,
+    "path": "/comprehensive-walk-in-freezer-repair-services-ensuring-optimal-performance/",
+    "slug": "comprehensive-walk-in-freezer-repair-services-ensuring-optimal-performance",
+    "title": "Who is the Best Walk-In Freezer Repair Services: Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 4292,
+    "path": "/water-cooler-repair-services-in-vadodara/",
+    "slug": "water-cooler-repair-services-in-vadodara",
+    "title": "Water Cooler Repair Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5400,
+    "path": "/best-air-cooler-repair-services-provider/",
+    "slug": "best-air-cooler-repair-services-provider",
+    "title": "Who Is the Best Air Cooler Repair Services Provider in Vadodara at Your Doorstep?"
+  },
+  {
+    "type": "posts",
+    "id": 5342,
+    "path": "/refrigerator-repairs-at-your-doorstep/",
+    "slug": "refrigerator-repairs-at-your-doorstep",
+    "title": "Experienced Technicians for Get quick and reliable refrigerator repairs at your doorstep"
+  },
+  {
+    "type": "posts",
+    "id": 149,
+    "path": "/samsung-air-conditioner-feel-of-cool-and-comfortable-oasis-at-the-comfort-of-your-house/",
+    "slug": "samsung-air-conditioner-feel-of-cool-and-comfortable-oasis-at-the-comfort-of-your-house",
+    "title": "Samsung Air Conditioner – Feel of Cool and Comfortable Oasis at The Comfort of Your House"
+  },
+  {
+    "type": "posts",
+    "id": 4342,
+    "path": "/circuit-pcb-repair-service/",
+    "slug": "circuit-pcb-repair-service",
+    "title": "Circuit PCB Repair Service"
+  },
+  {
+    "type": "posts",
+    "id": 5109,
+    "path": "/daikin-ac-repair-maintenance-services/",
+    "slug": "daikin-ac-repair-maintenance-services",
+    "title": "Expert Daikin AC Repair &#038; Maintenance Services in Vadodara | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 4256,
+    "path": "/portable-air-conditioner-ac-repairing-service/",
+    "slug": "portable-air-conditioner-ac-repairing-service",
+    "title": "Portable Air Conditioner (Ac) Repairing Service"
+  },
+  {
+    "type": "posts",
+    "id": 5080,
+    "path": "/amazonbasics-ac-repair-services/",
+    "slug": "amazonbasics-ac-repair-services",
+    "title": "Reliable AmazonBasics AC Repair Services &#8211; Expert Technicians"
+  },
+  {
+    "type": "posts",
+    "id": 5187,
+    "path": "/semi-automatic-washing-machine-repair/",
+    "slug": "semi-automatic-washing-machine-repair",
+    "title": "Revitalize Your Laundry Love: Unleashing the Magic of Semi-Automatic Washing Machine Repair – Bringing Your Trusty Appliance Back to Life!"
+  },
+  {
+    "type": "posts",
+    "id": 4333,
+    "path": "/air-conditioner-condenser-repair/",
+    "slug": "air-conditioner-condenser-repair",
+    "title": "Air Conditioner (AC) Condenser Repair"
+  },
+  {
+    "type": "posts",
+    "id": 4156,
+    "path": "/the-benefits-of-regular-ac-and-refrigerator-maintenance/",
+    "slug": "the-benefits-of-regular-ac-and-refrigerator-maintenance",
+    "title": "Regular AC and Refrigerator Maintenance"
+  },
+  {
+    "type": "posts",
+    "id": 4625,
+    "path": "/cassette-ac-repair-service/",
+    "slug": "cassette-ac-repair-service",
+    "title": "🌬️ Get Your Cassette AC Repair Service Done by the Best in the Business! 🏆"
+  },
+  {
+    "type": "posts",
+    "id": 3748,
+    "path": "/how-to-service-ac-at-home/",
+    "slug": "how-to-service-ac-at-home",
+    "title": "How to service AC at home?"
+  },
+  {
+    "type": "posts",
+    "id": 5122,
+    "path": "/haier-ac-repair/",
+    "slug": "haier-ac-repair",
+    "title": "Expert Haier AC Repair Services: Fast, Reliable Solutions for Your Cooling Needs"
+  },
+  {
+    "type": "posts",
+    "id": 4641,
+    "path": "/window-ac-installation-and-repair-service/",
+    "slug": "window-ac-installation-and-repair-service",
+    "title": "Window AC installation and repair service in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 4349,
+    "path": "/second-hand-ac-buyers-dealers/",
+    "slug": "second-hand-ac-buyers-dealers",
+    "title": "Second Hand AC Buyers &#038; Dealers"
+  },
+  {
+    "type": "posts",
+    "id": 5295,
+    "path": "/best-refrigerator-repair-services-in-vadodara/",
+    "slug": "best-refrigerator-repair-services-in-vadodara",
+    "title": "Is Your Fridge Acting Up? Best Refrigerator Repair Services in Vadodara Today"
+  },
+  {
+    "type": "posts",
+    "id": 4364,
+    "path": "/cold-room-repair-in-vadodara/",
+    "slug": "cold-room-repair-in-vadodara",
+    "title": "Cold Room (Cold Storage) Repair in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 280,
+    "path": "/best-hvac-to-buy-for-your-office-in-this-summer-2019/",
+    "slug": "best-hvac-to-buy-for-your-office-in-this-summer-2019",
+    "title": "Best HVAC To Buy For Your Office In This Summer 2019"
+  },
+  {
+    "type": "posts",
+    "id": 3536,
+    "path": "/air-conditioning-repair-installation-and-refilling-services/",
+    "slug": "air-conditioning-repair-installation-and-refilling-services",
+    "title": "Air Conditioning Repair, Installation, and Refilling Services ~Excellent in service~"
+  },
+  {
+    "type": "posts",
+    "id": 4652,
+    "path": "/blue-star-ac-installation-and-repair-service/",
+    "slug": "blue-star-ac-installation-and-repair-service",
+    "title": "Blue Star AC installation and repair service"
+  },
+  {
+    "type": "posts",
+    "id": 4618,
+    "path": "/car-ac-repair-service/",
+    "slug": "car-ac-repair-service",
+    "title": "Car Ac Repair Service"
+  },
+  {
+    "type": "posts",
+    "id": 5503,
+    "path": "/affordable-and-expert-ac-repair-service/",
+    "slug": "affordable-and-expert-ac-repair-service",
+    "title": "Affordable and Expert AC Repair, Service, and Installation in Vadodara: Your Complete Guide"
+  },
+  {
+    "type": "posts",
+    "id": 4601,
+    "path": "/ac-copper-piping-installation-in-vadodara/",
+    "slug": "ac-copper-piping-installation-in-vadodara",
+    "title": "The Ultimate Guide to Flawless Copper Piping | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 115,
+    "path": "/ac-service-center-in-vadodara-repair-air-conditioner-at-best-price/",
+    "slug": "ac-service-center-in-vadodara-repair-air-conditioner-at-best-price",
+    "title": "AC Service Center in Vadodara &#8211; Repair Air Conditioner at Best Price"
+  },
+  {
+    "type": "posts",
+    "id": 4605,
+    "path": "/ac-compressor-repair-and-replacement-services/",
+    "slug": "ac-compressor-repair-and-replacement-services",
+    "title": "Ac compressor repair and replacement services"
+  },
+  {
+    "type": "posts",
+    "id": 5328,
+    "path": "/emergency-ac-breakdown-vadodara/",
+    "slug": "emergency-ac-breakdown-vadodara",
+    "title": "Emergency AC Breakdown? We’re Just a Call Away for Fast, Reliable Service! By – Atlas Aircon in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5469,
+    "path": "/ac-service-near-me/",
+    "slug": "ac-service-near-me",
+    "title": "AC Service Near Me: Fast, Professional, and Ready to Help You Today!"
+  },
+  {
+    "type": "posts",
+    "id": 4920,
+    "path": "/inverter-air-conditioner-pcb-repair/",
+    "slug": "inverter-air-conditioner-pcb-repair",
+    "title": "Mastering Inverter Air Conditioner PCB Repair: Expert Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 291,
+    "path": "/the-growth-of-precision-air-conditioning-systems/",
+    "slug": "the-growth-of-precision-air-conditioning-systems",
+    "title": "Precision Air Conditioning System &#8211; its Types, Features and Benefits"
+  },
+  {
+    "type": "posts",
+    "id": 4253,
+    "path": "/experienced-refrigerator-fridge-repairing/",
+    "slug": "experienced-refrigerator-fridge-repairing",
+    "title": "Experienced Refrigerator"
+  },
+  {
+    "type": "posts",
+    "id": 4656,
+    "path": "/carrier-ac-installation-and-repair-service/",
+    "slug": "carrier-ac-installation-and-repair-service",
+    "title": "Carrier AC Installation and Repair Service"
+  },
+  {
+    "type": "posts",
+    "id": 4759,
+    "path": "/air-dryer-repair-service/",
+    "slug": "air-dryer-repair-service",
+    "title": "Vadodara&#8217;s #1 Expert and Experienced air dryer maintenance and repair"
+  },
+  {
+    "type": "posts",
+    "id": 17,
+    "path": "/how-to-choose-the-right-refrigerator-based-on-usage/",
+    "slug": "how-to-choose-the-right-refrigerator-based-on-usage",
+    "title": "How To Choose The Right Refrigerator Based On Usage"
+  },
+  {
+    "type": "posts",
+    "id": 157,
+    "path": "/things-to-consider-before-buying-air-conditioner-ac-buying-guide/",
+    "slug": "things-to-consider-before-buying-air-conditioner-ac-buying-guide",
+    "title": "Things to consider before buying Air Conditioner &#8211; AC Buying Guide"
+  },
+  {
+    "type": "posts",
+    "id": 5144,
+    "path": "/onida-ac-repair-service/",
+    "slug": "onida-ac-repair-service",
+    "title": "Expert Onida AC Repair Service Center in Vadodara | Atlas Aircon"
+  },
+  {
+    "type": "posts",
+    "id": 101,
+    "path": "/ac-repair-in-vadodara-best-air-conditioner-repair-service-center/",
+    "slug": "ac-repair-in-vadodara-best-air-conditioner-repair-service-center",
+    "title": "AC Repair in Vadodara, Best Air Conditioner Repair Service Center"
+  },
+  {
+    "type": "posts",
+    "id": 4201,
+    "path": "/common-inverter-ac-issues/",
+    "slug": "common-inverter-ac-issues",
+    "title": "Common Inverter AC Issues"
+  },
+  {
+    "type": "posts",
+    "id": 4373,
+    "path": "/incubator-repair-services-in-vadodara/",
+    "slug": "incubator-repair-services-in-vadodara",
+    "title": "Incubator Repair Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 5243,
+    "path": "/how-atlas-aircon-ensures-fast-efficient-ac-repair-services-in-vadodara/",
+    "slug": "how-atlas-aircon-ensures-fast-efficient-ac-repair-services-in-vadodara",
+    "title": "How Atlas Aircon Ensures Fast &amp; Efficient AC Repair Services in Vadodara"
+  },
+  {
+    "type": "posts",
+    "id": 4763,
+    "path": "/hvac-ducting-repair-services/",
+    "slug": "hvac-ducting-repair-services",
+    "title": "HVAC Ducting Repair Services"
+  },
+  {
+    "type": "posts",
+    "id": 298,
+    "path": "/eesl-to-replicate-success-of-led-scheme-for-air-conditioners/",
+    "slug": "eesl-to-replicate-success-of-led-scheme-for-air-conditioners",
+    "title": "EESL To Replicate Success Of LED Scheme For Air Conditioners"
+  },
+  {
+    "type": "posts",
+    "id": 4250,
+    "path": "/air-conditioner-service-near-you/",
+    "slug": "air-conditioner-service-near-you",
+    "title": "expert and experienced air conditioner service near you"
+  }
+]

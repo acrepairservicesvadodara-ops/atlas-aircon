@@ -1,0 +1,96 @@
+{
+  "id": 23,
+  "date": "2015-08-03T09:38:34",
+  "date_gmt": "2015-08-03T09:38:34",
+  "guid": {
+    "rendered": "https://renovation.thememove.com/?page_id=23"
+  },
+  "modified": "2026-02-22T14:23:28",
+  "modified_gmt": "2026-02-22T08:53:28",
+  "slug": "services",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/services/",
+  "title": {
+    "rendered": "Our Services"
+  },
+  "content": {
+    "rendered": "<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/services_page_title.png\" alt=\"Our Services - Field Operations\" width=\"245\" height=\"286\" title=\"\">Every home owner has a list of renovation, home repair, or home improvement projects he or she needs done both interior and exterior. Sometimes that list can get quite long, too! The bathrooms that needs updating.\r\n<h2 style=\"text-align: center;\">Our Service</h2>\r\n<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/service01.jpg\" alt=\"Our Services - Field Operations\" width=\"370\" height=\"200\" title=\"\">[thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-renovation&#8221; icon_renovation=&#8221;rn-renovation&#8221; text=&#8221;Renovation&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Frenovation%2F|title:Renovation|&#8221;]<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/service02.jpg\" alt=\"Our Services - Field Operations\" width=\"370\" height=\"200\" title=\"\">[thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-electrical&#8221; icon_renovation=&#8221;rn-electrical&#8221; text=&#8221;Electrical&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Felectrical%2F|title:Electrical|&#8221;]<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/service03.jpg\" alt=\"Our Services - Field Operations\" width=\"370\" height=\"200\" title=\"\">[thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-painting&#8221; icon_renovation=&#8221;rn-painting&#8221; text=&#8221;Painting&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Fpainting%2F|title:Painting|&#8221;]<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/service04.jpg\" alt=\"Our Services - Field Operations\" width=\"370\" height=\"200\" title=\"\">[thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-plumbing&#8221; icon_renovation=&#8221;rn-plumbing&#8221; text=&#8221;Plumbing&#8221; link=&#8221;url:http%3A%2F%2Flocalhost%2Fwp_renovation%2Fservices%2Fplumbing%2F|title:Plumbing|&#8221;]<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/service05.jpg\" alt=\"Our Services - Field Operations\" width=\"370\" height=\"200\" title=\"\">[thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-heating&#8221; icon_renovation=&#8221;rn-heating&#8221; text=&#8221;Heating&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Fheating%2F|title:Heating|&#8221;]<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/service06.jpg\" alt=\"Our Services - Field Operations\" width=\"370\" height=\"200\" title=\"\">[thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-home&#8221; icon_renovation=&#8221;rn-home&#8221; text=&#8221;Roofing&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Froofing%2F|title:Roofing|&#8221;]<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/service07.jpg\" alt=\"Our Services - Field Operations\" width=\"370\" height=\"200\" title=\"\">[thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-wall&#8221; icon_renovation=&#8221;rn-drywall&#8221; text=&#8221;Dry Wall&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Fdry-wall%2F|title:Dry%20Wall|&#8221;]<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/service08.jpg\" alt=\"Our Services - Field Operations\" width=\"370\" height=\"200\" title=\"\">[thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-windows&#8221; icon_renovation=&#8221;rn-drill&#8221; text=&#8221;Bathroom&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Fbathroom%2F|title:Bathroom|&#8221;]<img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://renovation.thememove.com/data/images/service09.jpg\" alt=\"Our Services - Field Operations\" width=\"370\" height=\"200\" title=\"\">[thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-drill&#8221; icon_renovation=&#8221;rn-tools&#8221; text=&#8221;Interior&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Finterior%2F|title:Interior|&#8221;][thememove_icon icon_fontawesome=&#8221;fa fa-users&#8221; font_size=&#8221;26&#8243; font_color=&#8221;#111111&#8243;]We give a chance for people to work in the professional environment with challenges and values. Come with us![thememove_button text=&#8221;PURCHASE THIS THEME&#8221;]",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Every home owner has a list of renovation, home repair, or home improvement projects he or she needs done both interior and exterior. Sometimes that list can get quite long, too! The bathrooms that needs updating. Our Service [thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-renovation&#8221; icon_renovation=&#8221;rn-renovation&#8221; text=&#8221;Renovation&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Frenovation%2F|title:Renovation|&#8221;][thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-electrical&#8221; icon_renovation=&#8221;rn-electrical&#8221; text=&#8221;Electrical&#8221; link=&#8221;url:http%3A%2F%2Frenovation.thememove.com%2Fservices%2Felectrical%2F|title:Electrical|&#8221;][thememove_button add_icon=&#8221;yes&#8221; type=&#8221;renovation&#8221; icon_renovation=&#8221;rn-painting&#8221; icon_renovation=&#8221;rn-painting&#8221; [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "open",
+  "ping_status": "open",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-23",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/23",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=23"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/23/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=23"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

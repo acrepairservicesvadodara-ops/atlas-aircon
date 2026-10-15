@@ -1,0 +1,596 @@
+[
+ {
+  "url": "/checkout/",
+  "isWp": true,
+  "words": 0,
+  "group": "wp"
+ },
+ {
+  "url": "/gallery/",
+  "isWp": true,
+  "words": 0,
+  "group": "wp"
+ },
+ {
+  "url": "/my-account/",
+  "isWp": true,
+  "words": 0,
+  "group": "wp"
+ },
+ {
+  "url": "/testimonials/",
+  "isWp": true,
+  "words": 0,
+  "group": "wp"
+ },
+ {
+  "url": "/abp-bookings/",
+  "isWp": true,
+  "words": 1,
+  "group": "wp"
+ },
+ {
+  "url": "/book-appointment/",
+  "isWp": true,
+  "words": 1,
+  "group": "wp"
+ },
+ {
+  "url": "/register/",
+  "isWp": true,
+  "words": 1,
+  "group": "wp"
+ },
+ {
+  "url": "/cassette-ac-service-bharuch/",
+  "isWp": true,
+  "words": 28,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-power-calculator/",
+  "isWp": true,
+  "words": 36,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-tonnage-calculator/",
+  "isWp": true,
+  "words": 40,
+  "group": "wp"
+ },
+ {
+  "url": "/sitemap-xml/",
+  "isWp": true,
+  "words": 46,
+  "group": "wp"
+ },
+ {
+  "url": "/service-areas/",
+  "isWp": true,
+  "words": 59,
+  "group": "wp"
+ },
+ {
+  "url": "/emergency-ac-repair-in-vadodara/",
+  "isWp": true,
+  "words": 70,
+  "group": "wp"
+ },
+ {
+  "url": "/cart/",
+  "isWp": true,
+  "words": 80,
+  "group": "wp"
+ },
+ {
+  "url": "/carrier-ac-repair-service-center-vadodara/",
+  "isWp": true,
+  "words": 220,
+  "group": "wp"
+ },
+ {
+  "url": "/blue-star-ac-repair-service-center-vadodara/",
+  "isWp": true,
+  "words": 251,
+  "group": "wp"
+ },
+ {
+  "url": "/coolair-ac-repair-service-center-vadodara/",
+  "isWp": true,
+  "words": 272,
+  "group": "wp"
+ },
+ {
+  "url": "/amazon-basics-ac-repair-service-center-vadodara/",
+  "isWp": true,
+  "words": 285,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-vadodara/",
+  "isWp": true,
+  "words": 291,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-on-rent-vadodara/",
+  "isWp": true,
+  "words": 292,
+  "group": "wp"
+ },
+ {
+  "url": "/return-policy/",
+  "isWp": true,
+  "words": 293,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-rajpipla/",
+  "isWp": true,
+  "words": 346,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-surat/",
+  "isWp": true,
+  "words": 358,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-installation-vadodara/",
+  "isWp": true,
+  "words": 360,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-valsad/",
+  "isWp": true,
+  "words": 362,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-rajkot/",
+  "isWp": true,
+  "words": 374,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-anand/",
+  "isWp": true,
+  "words": 393,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-kheda/",
+  "isWp": true,
+  "words": 412,
+  "group": "wp"
+ },
+ {
+  "url": "/trusted-ac-gas-charging/",
+  "isWp": true,
+  "words": 417,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-ahmedabad/",
+  "isWp": true,
+  "words": 418,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-morbi/",
+  "isWp": true,
+  "words": 419,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-bharuch/",
+  "isWp": true,
+  "words": 421,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-godhra/",
+  "isWp": true,
+  "words": 423,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-daman/",
+  "isWp": true,
+  "words": 427,
+  "group": "wp"
+ },
+ {
+  "url": "/power-jet-ac-service-in-vadodara/",
+  "isWp": true,
+  "words": 431,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-gujarat/",
+  "isWp": true,
+  "words": 443,
+  "group": "wp"
+ },
+ {
+  "url": "/chiller-manufacters/",
+  "isWp": true,
+  "words": 443,
+  "group": "wp"
+ },
+ {
+  "url": "/why-does-your-air-conditioner-blower-hot-air/",
+  "isWp": true,
+  "words": 443,
+  "group": "wp"
+ },
+ {
+  "url": "/eco-friendly-air-conditioning/",
+  "isWp": true,
+  "words": 456,
+  "group": "wp"
+ },
+ {
+  "url": "/york-ac-repair-service-center-in-chhani/",
+  "isWp": true,
+  "words": 509,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-copper-piping-installation-in-vadodara/",
+  "isWp": true,
+  "words": 516,
+  "group": "wp"
+ },
+ {
+  "url": "/deep-freezer-repair-services-godhra/",
+  "isWp": true,
+  "words": 525,
+  "group": "wp"
+ },
+ {
+  "url": "/air-conditioning-repair-installation-and-refilling-services/",
+  "isWp": true,
+  "words": 529,
+  "group": "wp"
+ },
+ {
+  "url": "/panel-ac-centrifugal-fan/",
+  "isWp": true,
+  "words": 549,
+  "group": "wp"
+ },
+ {
+  "url": "/carrier-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/daikin-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/electrolux-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/haier-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/hitachi-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/kelvinator-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/lg-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/mitsubishi-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/onida-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/panasonic-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/samsung-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/voltas-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/york-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 562,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-installation-kheda/",
+  "isWp": true,
+  "words": 566,
+  "group": "wp"
+ },
+ {
+  "url": "/blue-star-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 567,
+  "group": "wp"
+ },
+ {
+  "url": "/o-general-ac-service-center-kheda/",
+  "isWp": true,
+  "words": 567,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-rajpipla/",
+  "isWp": true,
+  "words": 569,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-compressor-repair-and-replacement-services/",
+  "isWp": true,
+  "words": 578,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-cleaning-services-in-vadodara/",
+  "isWp": true,
+  "words": 591,
+  "group": "wp"
+ },
+ {
+  "url": "/common-inverter-ac-issues/",
+  "isWp": true,
+  "words": 602,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-installation-daman/",
+  "isWp": true,
+  "words": 604,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-vadodara/",
+  "isWp": true,
+  "words": 608,
+  "group": "wp"
+ },
+ {
+  "url": "/the-best-ac-repairing-services-in-vadodara/",
+  "isWp": true,
+  "words": 610,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-godhra/",
+  "isWp": true,
+  "words": 611,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-surat/",
+  "isWp": true,
+  "words": 614,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-installation-bharuch/",
+  "isWp": true,
+  "words": 618,
+  "group": "wp"
+ },
+ {
+  "url": "/how-to-clean-an-air-conditioner-filter/",
+  "isWp": true,
+  "words": 618,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-valsad/",
+  "isWp": true,
+  "words": 623,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-installation-anand/",
+  "isWp": true,
+  "words": 626,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-repair-gujarat/",
+  "isWp": true,
+  "words": 630,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-installation-gujarat/",
+  "isWp": true,
+  "words": 634,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-kheda/",
+  "isWp": true,
+  "words": 649,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-morbi/",
+  "isWp": true,
+  "words": 653,
+  "group": "wp"
+ },
+ {
+  "url": "/home-air-conditioner-maintenance-tips/",
+  "isWp": true,
+  "words": 657,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-installation-morbi/",
+  "isWp": true,
+  "words": 658,
+  "group": "wp"
+ },
+ {
+  "url": "/cassette-ac-repair-service/",
+  "isWp": true,
+  "words": 664,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-anand/",
+  "isWp": true,
+  "words": 665,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-bharuch/",
+  "isWp": true,
+  "words": 671,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-installation-ahmedabad/",
+  "isWp": true,
+  "words": 677,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-rajkot/",
+  "isWp": true,
+  "words": 679,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-gujarat/",
+  "isWp": true,
+  "words": 686,
+  "group": "wp"
+ },
+ {
+  "url": "/rittal-panel-ac-service-center/",
+  "isWp": true,
+  "words": 700,
+  "group": "wp"
+ },
+ {
+  "url": "/air-cooler-repair-services-ahmedabad/",
+  "isWp": true,
+  "words": 703,
+  "group": "wp"
+ },
+ {
+  "url": "/how-to-shift-split-ac/",
+  "isWp": true,
+  "words": 745,
+  "group": "wp"
+ },
+ {
+  "url": "/ultimate-split-ac-repair-guide-vadodara-prices-error-codes-inverter-fixes/",
+  "isWp": true,
+  "words": 745,
+  "group": "wp"
+ },
+ {
+  "url": "/when-to-buy-an-ac-in-india/",
+  "isWp": true,
+  "words": 757,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-service-center-vadodara-2/",
+  "isWp": true,
+  "words": 770,
+  "group": "wp"
+ },
+ {
+  "url": "/oxygen-copper-piping-vadodara/",
+  "isWp": true,
+  "words": 770,
+  "group": "wp"
+ },
+ {
+  "url": "/refrigerator-repair-in-vadodara-frost-defrost-experts-atlas-aircon/",
+  "isWp": true,
+  "words": 771,
+  "group": "wp"
+ },
+ {
+  "url": "/top-load-washing-machine-repair-service/",
+  "isWp": true,
+  "words": 779,
+  "group": "wp"
+ },
+ {
+  "url": "/professional-standard-ac-installation-service/",
+  "isWp": true,
+  "words": 783,
+  "group": "wp"
+ },
+ {
+  "url": "/washing-machine-repair-in-vadodara/",
+  "isWp": true,
+  "words": 783,
+  "group": "wp"
+ },
+ {
+  "url": "/comprehensive-walk-in-freezer-repair-services-ensuring-optimal-performance/",
+  "isWp": true,
+  "words": 784,
+  "group": "wp"
+ },
+ {
+  "url": "/second-hand-ac-buyers-dealers/",
+  "isWp": true,
+  "words": 790,
+  "group": "wp"
+ },
+ {
+  "url": "/ac-installation-godhra/",
+  "isWp": true,
+  "words": 793,
+  "group": "wp"
+ }
+]

@@ -1,0 +1,168 @@
+{
+  "id": 4601,
+  "date": "2025-02-26T17:06:24",
+  "date_gmt": "2025-02-26T11:36:24",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?p=4601"
+  },
+  "modified": "2025-10-07T10:13:30",
+  "modified_gmt": "2025-10-07T04:43:30",
+  "slug": "ac-copper-piping-installation-in-vadodara",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.atlasaircons.com/ac-copper-piping-installation-in-vadodara/",
+  "title": {
+    "rendered": "The Ultimate Guide to Flawless Copper Piping | Atlas Aircon"
+  },
+  "content": {
+    "rendered": "<!-- SEO Meta Tags -->\r\n\r\n<script src=\"https://cdn.tailwindcss.com\"></script>\r\n\r\n&nbsp;\r\n\r\n<!-- Google Fonts -->\r\n\r\n&nbsp;\r\n\r\n<!-- Custom Styles -->\r\n\r\n<style>\r\n        body {<br />            font-family: 'Roboto', sans-serif;<br />        }<br />        h1, h2, h3 {<br />            font-family: 'Poppins', sans-serif;<br />        }<br />        .hero-gradient {<br />            background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);<br />        }<br />        .brand-icon {<br />            filter: grayscale(100%) brightness(2);<br />            transition: all 0.3s ease;<br />        }<br />        .brand-icon:hover {<br />            filter: grayscale(0%) brightness(1);<br />        }<br />        .cta-button {<br />            transition: all 0.3s ease;<br />            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);<br />        }<br />        .cta-button:hover {<br />            transform: translateY(-3px);<br />            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);<br />        }<br />        .content-card {<br />            box-shadow: 0 10px 25px rgba(0,0,0,0.1);<br />            transition: transform 0.3s ease, box-shadow 0.3s ease;<br />        }<br />        .content-card:hover {<br />            transform: translateY(-5px);<br />            box-shadow: 0 15px 30px rgba(0,0,0,0.15);<br />        }<br />    </style>\r\n\r\n&nbsp;\r\n\r\n<!-- Schema Markup -->\r\n\r\n<script type=\"application/ld+json\">\r\n    {\r\n      \"@context\": \"https://schema.org\",\r\n      \"@graph\": [\r\n        {\r\n          \"@type\": \"HVACBusiness\",\r\n          \"name\": \"Atlas Aircon\",\r\n          \"image\": \"https://atlasaircons.com/wp-content/uploads/2025/09/copper-pipe.webp\",\r\n          \"@id\": \"https://atlasaircons.com/#organization\",\r\n          \"url\": \"https://atlasaircons.com\",\r\n          \"telephone\": \"+91-97272-57141\",\r\n          \"priceRange\": \"₹₹\",\r\n          \"address\": {\r\n            \"@type\": \"PostalAddress\",\r\n            \"streetAddress\": \"Sayajigunj\",\r\n            \"addressLocality\": \"Vadodara\",\r\n            \"postalCode\": \"390005\",\r\n            \"addressRegion\": \"GJ\",\r\n            \"addressCountry\": \"IN\"\r\n          },\r\n          \"geo\": {\r\n            \"@type\": \"GeoCoordinates\",\r\n            \"latitude\": 22.310696,\r\n            \"longitude\": 73.181236\r\n          },\r\n          \"openingHoursSpecification\": {\r\n            \"@type\": \"OpeningHoursSpecification\",\r\n            \"dayOfWeek\": [\r\n              \"Monday\",\r\n              \"Tuesday\",\r\n              \"Wednesday\",\r\n              \"Thursday\",\r\n              \"Friday\",\r\n              \"Saturday\",\r\n              \"Sunday\"\r\n            ],\r\n            \"opens\": \"09:00\",\r\n            \"closes\": \"20:00\"\r\n          },\r\n          \"areaServed\": [\r\n            {\"@type\": \"City\", \"name\": \"Vadodara\"},\r\n            {\"@type\": \"City\", \"name\": \"Ahmedabad\"},\r\n            {\"@type\": \"City\", \"name\": \"Nadiad\"},\r\n            {\"@type\": \"City\", \"name\": \"Anand\"},\r\n            {\"@type\": \"City\", \"name\": \"Karjan\"},\r\n            {\"@type\": \"City\", \"name\": \"Palej\"},\r\n            {\"@type\": \"City\", \"name\": \"Bharuch\"},\r\n            {\"@type\": \"City\", \"name\": \"Ankleshwar\"},\r\n            {\"@type\": \"City\", \"name\": \"Dahej\"},\r\n            {\"@type\": \"City\", \"name\": \"Jhagadia\"},\r\n            {\"@type\": \"City\", \"name\": \"Rajpipla\"},\r\n            {\"@type\": \"City\", \"name\": \"Surat\"},\r\n            {\"@type\": \"City\", \"name\": \"Vapi\"},\r\n            {\"@type\": \"City\", \"name\": \"Valsad\"},\r\n            {\"@type\": \"City\", \"name\": \"Daman\"},\r\n            {\"@type\": \"State\", \"name\": \"Gujarat\"},\r\n            {\"@type\": \"Country\", \"name\": \"India\"}\r\n          ]\r\n        },\r\n        {\r\n          \"@type\": \"BlogPosting\",\r\n          \"mainEntityOfPage\": {\r\n            \"@type\": \"WebPage\",\r\n            \"@id\": \"https://atlasaircons.com/ac-copper-piping-installation-in-vadodara/\"\r\n          },\r\n          \"headline\": \"The Ultimate Guide to Flawless Copper Piping in 2025 for AC & HVAC\",\r\n          \"description\": \"Discover the importance of quality copper pipes for AC, HVAC, refrigerators, and more. Atlas Aircon provides top-tier sales, repair, and installation services in Vadodara and across Gujarat.\",\r\n          \"image\": \"https://atlasaircons.com/wp-content/uploads/2025/09/copper-pipe.webp\",\r\n          \"author\": {\r\n            \"@type\": \"Organization\",\r\n            \"name\": \"Atlas Aircon\",\r\n            \"url\": \"https://atlasaircons.com\"\r\n          },\r\n          \"publisher\": {\r\n            \"@type\": \"Organization\",\r\n            \"name\": \"Atlas Aircon\",\r\n            \"logo\": {\r\n              \"@type\": \"ImageObject\",\r\n              \"url\": \"https://atlasaircons.com/wp-content/uploads/2023/09/cropped-ATLAS-AIRCON-LOGO-e1694519098922.png\"\r\n            }\r\n          },\r\n          \"datePublished\": \"2025-10-07\",\r\n          \"dateModified\": \"2025-10-07\"\r\n        },\r\n        {\r\n          \"@type\": \"Product\",\r\n          \"name\": \"Copper Pipes for HVAC and Refrigeration\",\r\n          \"image\": \"https://atlasaircons.com/wp-content/uploads/2025/09/copper-pipe.webp\",\r\n          \"description\": \"High-quality RR and Thailand-made copper pipes in various sizes (¼, ½, 7/8, 1 1/8 dia) for air conditioners, HVAC, AHUs, refrigerators, and medical oxygen lines. Available with professional insulation.\",\r\n          \"brand\": {\r\n            \"@type\": \"Brand\",\r\n            \"name\": \"RR | Atlas Aircon | Thailand Materials\"\r\n          },\r\n          \"sku\": \"AC-CP-001\",\r\n          \"offers\": {\r\n            \"@type\": \"AggregateOffer\",\r\n            \"priceCurrency\": \"INR\",\r\n            \"lowPrice\": \"300\",\r\n            \"highPrice\": \"2500\",\r\n            \"offerCount\": \"15\",\r\n            \"availability\": \"https://schema.org/InStock\",\r\n            \"seller\": {\r\n              \"@type\": \"Organization\",\r\n              \"name\": \"Atlas Aircon\"\r\n            }\r\n          }\r\n        },\r\n        {\r\n          \"@type\": \"Service\",\r\n          \"serviceType\": \"HVAC Contractor\",\r\n          \"provider\": {\r\n            \"@type\": \"Organization\",\r\n            \"name\": \"Atlas Aircon\"\r\n          },\r\n          \"areaServed\": {\r\n            \"@type\": \"State\",\r\n            \"name\": \"Gujarat\"\r\n          },\r\n          \"hasOfferCatalog\": {\r\n            \"@type\": \"OfferCatalog\",\r\n            \"name\": \"Copper Piping Services\",\r\n            \"itemListElement\": [\r\n              {\r\n                \"@type\": \"Offer\",\r\n                \"itemOffered\": {\r\n                  \"@type\": \"Service\",\r\n                  \"name\": \"Copper Pipe Installation\"\r\n                }\r\n              },\r\n              {\r\n                \"@type\": \"Offer\",\r\n                \"itemOffered\": {\r\n                  \"@type\": \"Service\",\r\n                  \"name\": \"Copper Pipe Repair & Service\"\r\n                }\r\n              },\r\n              {\r\n                \"@type\": \"Offer\",\r\n                \"itemOffered\": {\r\n                  \"@type\": \"Service\",\r\n                  \"name\": \"Copper Pipe Sales\"\r\n                }\r\n              }\r\n            ]\r\n          }\r\n        },\r\n        {\r\n          \"@type\": \"FAQPage\",\r\n          \"mainEntity\": [\r\n            {\r\n              \"@type\": \"Question\",\r\n              \"name\": \"Why is copper the best material for AC pipes?\",\r\n              \"acceptedAnswer\": {\r\n                \"@type\": \"Answer\",\r\n                \"text\": \"Copper is the industry standard for air conditioners and HVAC systems due to its excellent thermal conductivity, durability, and high corrosion resistance. This ensures efficient heat transfer and a long, leak-free service life for your cooling system.\"\r\n              }\r\n            },\r\n            {\r\n              \"@type\": \"Question\",\r\n              \"name\": \"What sizes of copper pipes do you offer?\",\r\n              \"acceptedAnswer\": {\r\n                \"@type\": \"Answer\",\r\n                \"text\": \"We stock and install a wide range of copper pipe diameters to suit any application, including the most common sizes: ¼ inch, ½ inch, 7/8 inch, and 1 1/8 inch. We can source other sizes for specific industrial or commercial needs.\"\r\n              }\r\n            },\r\n            {\r\n              \"@type\": \"Question\",\r\n              \"name\": \"Do you provide services outside of Vadodara?\",\r\n              \"acceptedAnswer\": {\r\n                \"@type\": \"Answer\",\r\n                \"text\": \"Yes! While we are based in Vadodara, our expert team serves numerous cities across Gujarat, including Ahmedabad, Surat, Bharuch, Ankleshwar, Anand, and many more. Contact us to confirm service availability in your specific location.\"\r\n              }\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n    }\r\n    </script>\r\n\r\n<!-- Main Content Container -->\r\n\r\n&nbsp;\r\n\r\n<article class=\"bg-white rounded-lg shadow-xl overflow-hidden\"><!-- Title and Intro Section -->\r\n<div class=\"p-8 md:p-12\">\r\n<h1 class=\"text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-4\">The Ultimate Guide to Flawless Copper Piping in 2025: Your AC&#8217;s Lifeline</h1>\r\n<p class=\"text-lg text-gray-600\">The silent hero of every cooling system is the copper pipe. Choosing the right quality and expert installation is not just a detail—it&#8217;s the secret to efficiency, longevity, and flawless performance. At <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-blue-600 font-semibold hover:underline\" href=\"https://atlasaircons.com\">Atlas Aircon</a>, we are Vadodara&#8217;s leading experts in copper piping solutions for every need.</p>\r\n\r\n</div>\r\n<!-- Main Image -->\r\n<div><img decoding=\"async\" class=\"w-full h-auto object-cover\" src=\"https://atlasaircons.com/wp-content/uploads/2025/09/copper-pipe.webp\" alt=\"High-quality copper pipes for air conditioning systems\" title=\"\"></div>\r\n<!-- Content Grid -->\r\n<div class=\"p-8 md:p-12 grid grid-cols-1 lg:grid-cols-3 gap-8\">\r\n\r\n<!-- Left Column: Core Info -->\r\n<div class=\"lg:col-span-2 space-y-10\">\r\n\r\n<!-- Applications Section -->\r\n\r\n<section>\r\n<h2 class=\"text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-600 pl-4\">Your One-Stop Solution for All Copper Piping Needs</h2>\r\n<p class=\"mb-6\">We specialize in providing premium copper piping and insulation for a vast range of applications. Our expertise ensures optimal performance whether it&#8217;s a new installation, a critical repair, or a system upgrade.</p>\r\n\r\n<div class=\"grid grid-cols-1 md:grid-cols-2 gap-6\">\r\n<div class=\"bg-blue-50 p-6 rounded-lg content-card\">\r\n<h3 class=\"font-bold text-lg text-blue-800 mb-2\">Residential &amp; Commercial Cooling</h3>\r\n<ul class=\"space-y-2 text-gray-700\">\r\n \t<li class=\"flex items-start\"><span class=\"text-blue-500 mr-3 mt-1\">❄️</span><strong>Air Conditioners (ACs):</strong> Split, Window, and Central units.</li>\r\n \t<li class=\"flex items-start\"><span class=\"text-blue-500 mr-3 mt-1\">🏢</span><strong>HVAC &amp; AHUs:</strong> For commercial complexes and industries.</li>\r\n \t<li class=\"flex items-start\"><span class=\"text-blue-500 mr-3 mt-1\">🧊</span><strong>Refrigerators &amp; Chillers:</strong> Precision piping for consistent cooling.</li>\r\n</ul>\r\n</div>\r\n<div class=\"bg-green-50 p-6 rounded-lg content-card\">\r\n<h3 class=\"font-bold text-lg text-green-800 mb-2\">Specialized &amp; Critical Applications</h3>\r\n<ul class=\"space-y-2 text-gray-700\">\r\n \t<li class=\"flex items-start\"><span class=\"text-green-500 mr-3 mt-1\">🏥</span><strong>Medical Oxygen Lines:</strong> High-purity, secure medical-grade piping.</li>\r\n \t<li class=\"flex items-start\"><span class=\"text-green-500 mr-3 mt-1\">🏠</span><strong>New Construction:</strong> End-to-end house piping solutions.</li>\r\n \t<li class=\"flex items-start\"><span class=\"text-green-500 mr-3 mt-1\">🏙️</span><strong>Council &amp; Municipal Projects:</strong> Durable and compliant copper works.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n</section><!-- Brands and Quality -->\r\n\r\n<section>\r\n<h2 class=\"text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-600 pl-4\">Uncompromising Quality: Brands We Trust</h2>\r\n<p class=\"mb-6\">The material of your copper pipe matters. We source only from the best to guarantee durability and performance, offering premier options from renowned manufacturers.</p>\r\n\r\n<div class=\"flex flex-wrap gap-8 items-center justify-center p-6 bg-gray-100 rounded-lg\">\r\n<div class=\"text-center\">\r\n<p class=\"text-xl font-bold text-red-600\">RR KABEL</p>\r\n<p class=\"text-sm text-gray-600\">Premium Indian Make</p>\r\n\r\n</div>\r\n<div class=\"text-center\">\r\n<p class=\"text-xl font-bold text-blue-600\">ATLAS AIRCON</p>\r\n<p class=\"text-sm text-gray-600\">Our Quality Assurance</p>\r\n\r\n</div>\r\n<div class=\"text-center\">\r\n<p class=\"text-xl font-bold text-green-600\">THAILAND MAKE</p>\r\n<p class=\"text-sm text-gray-600\">Superior Imported Quality</p>\r\n\r\n</div>\r\n</div>\r\n</section><!-- Pricelist Section -->\r\n\r\n<section>\r\n<h2 class=\"text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-600 pl-4\"><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/affordable-and-expert-ac-repair-service/\">Indicative Pricelist (Indian Price in ₹)</a></h2>\r\n<p class=\"text-sm text-gray-600 mb-4\">Note: Prices are approximate and subject to change based on market rates and project complexity. Contact us for a precise quote.</p>\r\n\r\n<div class=\"overflow-x-auto\">\r\n<table class=\"w-full text-left border-collapse\">\r\n<thead>\r\n<tr class=\"bg-gray-200\">\r\n<th class=\"p-3 font-semibold text-sm text-gray-700\">Pipe Diameter (DIA)</th>\r\n<th class=\"p-3 font-semibold text-sm text-gray-700\">Material</th>\r\n<th class=\"p-3 font-semibold text-sm text-gray-700\">Price per Meter (Approx.)</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr class=\"border-b\">\r\n<td class=\"p-3\">¼&#8221;</td>\r\n<td class=\"p-3\">RR / Thai</td>\r\n<td class=\"p-3\">₹350 &#8211; ₹450</td>\r\n</tr>\r\n<tr class=\"border-b bg-gray-50\">\r\n<td class=\"p-3\">½&#8221;</td>\r\n<td class=\"p-3\">RR / Thai</td>\r\n<td class=\"p-3\">₹600 &#8211; ₹750</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"p-3\">⅞&#8221;</td>\r\n<td class=\"p-3\">RR / Thai</td>\r\n<td class=\"p-3\">₹900 &#8211; ₹1100</td>\r\n</tr>\r\n<tr class=\"bg-gray-50\">\r\n<td class=\"p-3\">1 ⅛&#8221;</td>\r\n<td class=\"p-3\">RR / Thai</td>\r\n<td class=\"p-3\">₹1500 &#8211; ₹1800</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</section><!-- Do's and Don'ts -->\r\n\r\n<section>\r\n<h2 class=\"text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-600 pl-4\">Installation Best Practices: Do&#8217;s &amp; Don&#8217;ts</h2>\r\n<div class=\"grid grid-cols-1 md:grid-cols-2 gap-6\">\r\n<div class=\"border-l-4 border-green-500 pl-4\">\r\n<h3 class=\"font-bold text-lg text-green-700 mb-2\">DO&#8217;s ✅</h3>\r\n<ul class=\"space-y-2 text-gray-700 list-disc list-inside\">\r\n \t<li>Always use high-quality, insulated copper pipes.</li>\r\n \t<li>Ensure professional flaring and brazing for leak-proof joints.</li>\r\n \t<li>Perform a pressure test before charging refrigerant.</li>\r\n \t<li>Maintain proper bending radius to avoid kinks.</li>\r\n</ul>\r\n</div>\r\n<div class=\"border-l-4 border-red-500 pl-4\">\r\n<h3 class=\"font-bold text-lg text-red-700 mb-2\">DON&#8217;Ts ❌</h3>\r\n<ul class=\"space-y-2 text-gray-700 list-disc list-inside\">\r\n \t<li>Don&#8217;t use old or damaged pipes for new installations.</li>\r\n \t<li>Never skip insulation; it&#8217;s crucial for efficiency.</li>\r\n \t<li>Avoid sharp bends that restrict refrigerant flow.</li>\r\n \t<li>Don&#8217;t compromise on professional installation to save costs.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n</section></div>\r\n<!-- Right Column: Sidebar -->\r\n\r\n<aside class=\"space-y-8\"><!-- CTA / Contact Card -->\r\n<div class=\"bg-blue-600 text-white p-6 rounded-lg shadow-lg text-center content-card\">\r\n<h3 class=\"text-xl font-bold mb-2\">Get A Free Quote!</h3>\r\n<p class=\"mb-4\">For Sales, Repair &amp; Service</p>\r\n<a class=\"block w-full bg-white text-blue-600 font-bold py-3 px-4 rounded-md cta-button mb-3\" href=\"http://wa.me/919727257141\" target=\"_blank\" rel=\"noopener\"> 📞 Call: +91-97272-57141 </a>\r\n\r\n</div>\r\n<div class=\"bg-blue-600 text-white p-6 rounded-lg shadow-lg text-center content-card\"><a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-sm hover:underline\" href=\"https://atlasaircons.com/copper-pipe/\">Visit Our Main Page</a></div>\r\n<!-- Service Area Card -->\r\n<div class=\"bg-white p-6 rounded-lg shadow-md content-card\">\r\n<h3 class=\"font-bold text-lg mb-4 text-gray-800 border-b pb-2\">Our Extensive Service Area</h3>\r\n<div class=\"text-sm text-gray-600 space-y-2\">\r\n\r\n<strong>📍 Major Hub:</strong> Vadodara\r\n\r\n<strong>🏙️ Cities Covered:</strong> Ahmedabad, Nadiad, Anand, Karjan, Palej, Bharuch, Ankleshwar, Dahej, Jhagadia, Rajpipla, Surat, Vapi, Valsad, Daman.\r\n\r\n<strong>🌍 State &amp; Country:</strong> Proudly serving all of Gujarat and INDIA.\r\n\r\n</div>\r\n</div>\r\n<!-- Company Info Card -->\r\n<div class=\"bg-gray-100 p-6 rounded-lg content-card\">\r\n<h3 class=\"font-bold text-lg mb-4 text-gray-800\">Atlas Aircon</h3>\r\n<p class=\"text-gray-700\">Sayajigunj, Vadodara, 390005\r\nGujarat, INDIA\r\n<strong>Website:</strong> <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-blue-600 hover:underline\" href=\"https://atlasaircons.com\">atlasaircons.com</a></p>\r\n\r\n</div>\r\n</aside></div>\r\n<!-- FAQ Section -->\r\n\r\n<section class=\"bg-gray-50 p-8 md:p-12\">\r\n<h2 class=\"text-3xl font-bold text-center text-gray-800 mb-8\">Frequently Asked Questions</h2>\r\n<div class=\"max-w-3xl mx-auto space-y-4\"><details class=\"p-4 rounded-lg bg-white shadow-sm cursor-pointer\"><summary class=\"font-semibold text-lg\">Why is copper the best material for AC pipes?</summary>\r\n<p class=\"mt-2 text-gray-600\">Copper is the industry standard for air conditioners and HVAC systems due to its excellent thermal conductivity, durability, and high corrosion resistance. This ensures efficient heat transfer and a long, leak-free service life for your cooling system.</p>\r\n\r\n</details><details class=\"p-4 rounded-lg bg-white shadow-sm cursor-pointer\"><summary class=\"font-semibold text-lg\">What sizes of copper pipes do you offer?</summary>\r\n<p class=\"mt-2 text-gray-600\">We stock and install a wide range of copper pipe diameters to suit any application, including the most common sizes: ¼ inch, ½ inch, 7/8 inch, and 1 1/8 inch. We can source other sizes for specific industrial or commercial needs.</p>\r\n\r\n</details><details class=\"p-4 rounded-lg bg-white shadow-sm cursor-pointer\"><summary class=\"font-semibold text-lg\">Do you provide services outside of Vadodara?</summary>\r\n<p class=\"mt-2 text-gray-600\">Yes! While we are based in Vadodara, our expert team serves numerous cities across Gujarat, including Ahmedabad, Surat, Bharuch, Ankleshwar, Anand, and many more. Contact us to confirm service availability in your specific location.</p>\r\n\r\n</details></div>\r\n</section></article>&nbsp;",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "&nbsp; &nbsp; &nbsp; &nbsp; The Ultimate Guide to Flawless Copper Piping in 2025: Your AC&#8217;s Lifeline The silent hero of every cooling system is the copper pipe. Choosing the right quality and expert installation is not just a detail—it&#8217;s the secret to efficiency, longevity, and flawless performance. At Atlas Aircon, we are Vadodara&#8217;s leading experts [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 4602,
+  "comment_status": "open",
+  "ping_status": "open",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "categories": [
+    98,
+    91,
+    211,
+    1,
+    2042
+  ],
+  "tags": [
+    1504,
+    148,
+    1501,
+    1502,
+    1498,
+    1497,
+    1500,
+    1507,
+    1503,
+    1505,
+    1509,
+    803,
+    707,
+    673,
+    1506,
+    1499,
+    1508,
+    668,
+    675
+  ],
+  "class_list": [
+    "post-4601",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-ac-repair-service",
+    "category-air-conditioner-guide",
+    "category-air-conditioner-maintenance-tips",
+    "category-uncategorized",
+    "category-refrigerator-repair",
+    "tag-affordable-air-conditioner-copper-piping-services-in-vadodara",
+    "tag-air-conditioning",
+    "tag-air-conditioning-copper-piping-repair-in-vadodara",
+    "tag-best-copper-piping-services-for-air-conditioners-in-vadodara",
+    "tag-cooling",
+    "tag-copper-piping",
+    "tag-copper-piping-installation-for-air-conditioning-in-vadodara",
+    "tag-copper-piping-maintenance-for-air-conditioners-in-vadodara",
+    "tag-copper-piping-replacement-for-air-conditioning-in-vadodara",
+    "tag-emergency-copper-piping-repair-for-air-conditioning-in-vadodara",
+    "tag-expert-air-conditioner-copper-piping-technicians-in-vadodara",
+    "tag-hvac",
+    "tag-installation",
+    "tag-maintenance",
+    "tag-professional-air-conditioning-copper-piping-installation-in-vadodara",
+    "tag-professional-services",
+    "tag-reliable-copper-piping-services-for-air-conditioning-in-vadodara",
+    "tag-repair",
+    "tag-vadodara"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/4601",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=4601"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/4601/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/4602"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=4601"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/categories?post=4601"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/tags?post=4601"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

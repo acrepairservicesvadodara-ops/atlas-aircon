@@ -1,0 +1,103 @@
+{
+  "id": 4173,
+  "date": "2023-02-02T17:46:05",
+  "date_gmt": "2023-02-02T12:16:05",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=4173"
+  },
+  "modified": "2026-03-05T15:39:34",
+  "modified_gmt": "2026-03-05T10:09:34",
+  "slug": "franchise",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/franchise/",
+  "title": {
+    "rendered": "franchise"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Service\",\n      \"name\": \"Atlas Aircon Franchise Opportunity\",\n      \"serviceType\": \"Business Partnership\",\n      \"provider\": {\n        \"@type\": \"LocalBusiness\",\n        \"name\": \"Atlas Aircon\",\n        \"image\": \"https://atlasaircons.com/wp-content/uploads/2019/03/cropped-AtlasAircon-Logo.png\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"streetAddress\": \"27, Payal Complex, Sayajigunj\",\n          \"addressLocality\": \"Vadodara\",\n          \"postalCode\": \"390005\",\n          \"addressCountry\": \"IN\"\n        }\n      },\n      \"description\": \"Exclusive franchise opportunity to own and operate an Atlas Aircon service center in Gujarat. Includes technical training and brand support.\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do I need technical AC experience to buy a franchise?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"No. While a technical background is helpful, we provide complete engineering and business management training. We look for partners with a strong growth mindset.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is the ROI for an Atlas Aircon franchise?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"HVAC is an evergreen industry in Gujarat. With our established brand name and your local operations, most partners see a strong return on investment within the first 18-24 months.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n</script>\n\n<style>\n    .franchise-v2 { font-family: 'Poppins', sans-serif; }\n    .franchise-v2 .hero-franchise {\n        background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('https://atlasaircons.com/wp-content/uploads/2024/02/Atlas-Aircon-Ac-Service-in-vadodara-2.webp');\n        background-size: cover; background-position: center;\n    }\n    .franchise-v2 .step-num {\n        width: 50px; height: 50px; background: #2563eb; color: white;\n        display: flex; align-items: center; justify-content: center;\n        border-radius: 50%; font-weight: 800; margin-bottom: 1rem;\n    }\n    .franchise-v2 .faq-ans-box {\n        max-height: 0; overflow: hidden; transition: all 0.4s ease;\n    }\n    .franchise-v2 details[open] .faq-ans-box { max-height: 500px; padding-bottom: 1.5rem; }\n    .franchise-v2 summary { list-style: none; cursor: pointer; outline: none; }\n    .franchise-v2 summary::-webkit-details-marker { display: none; }\n</style>\n\n<div class=\"franchise-v2 bg-slate-50 text-slate-900 leading-relaxed\">\n\n    <section class=\"hero-franchise text-white py-20 md:py-32 text-center px-6\">\n        <div class=\"max-w-4xl mx-auto\">\n            <span class=\"text-yellow-400 font-bold uppercase tracking-widest text-sm mb-4 block\">Limited Locations Available</span>\n            <h1 class=\"text-4xl md:text-6xl font-black mb-6 leading-tight\">\n                Build Your Own <br><span class=\"text-blue-400\">Engineering Empire</span>\n            </h1>\n            <p class=\"text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto\">\n                Gujarat&#8217;s climate makes AC service an evergreen business. Partner with <strong>Atlas Aircon</strong> and skip the 20-year struggle of building a brand from scratch.\n            </p>\n            <div class=\"flex flex-col sm:flex-row gap-4 justify-center\">\n                <a href=\"#apply\" class=\"bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-bold text-lg shadow-2xl transition transform hover:-translate-y-1\">\n                    Request Franchise Kit\n                </a>\n                <a href=\"tel:+919727257141\" class=\"bg-white text-slate-900 px-10 py-4 rounded-xl font-bold text-lg hover:bg-slate-100 transition\">\n                    Call Franchise Manager\n                </a>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-20 px-6 bg-white\">\n        <div class=\"max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center\">\n            <div>\n                <h2 class=\"text-3xl md:text-5xl font-black text-slate-900 mb-8 leading-tight\">\n                    Why Start-Ups Fail, <br>But <span class=\"text-blue-600\">Atlas Partners Win</span>\n                </h2>\n                <div class=\"space-y-6 text-slate-600 text-lg\">\n                    <p>\n                        Most AC shops open and close within 2 years because they lack a <strong>system</strong>. They struggle with unskilled labor, no marketing plan, and zero spare parts inventory.\n                    </p>\n                    <p class=\"font-bold text-slate-900\">\n                        When you join Atlas Aircon, you get the &#8220;Blueprints&#8221; to a successful HVAC center.\n                    </p>\n                    <p>\n                        We give you access to our 25+ years of operational data. We show you how to manage industrial clients in GIDCs, how to hire reliable mechanics, and how to use our brand name to charge premium prices. You focus on growth; we provide the technical backbone.\n                    </p>\n                </div>\n            </div>\n            <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-6\">\n                <div class=\"p-8 bg-slate-50 rounded-2xl border border-slate-100 shadow-sm\">\n                    <div class=\"text-blue-600 text-3xl mb-4\"><i class=\"fas fa-certificate\"></i></div>\n                    <h3 class=\"font-bold text-lg mb-2\">ISO Certified Brand</h3>\n                    <p class=\"text-sm\">Use our recognized brand to win contracts with banks and factories immediately.</p>\n                </div>\n                <div class=\"p-8 bg-slate-50 rounded-2xl border border-slate-100 shadow-sm\">\n                    <div class=\"text-blue-600 text-3xl mb-4\"><i class=\"fas fa-tools\"></i></div>\n                    <h3 class=\"font-bold text-lg mb-2\">Full Training</h3>\n                    <p class=\"text-sm\">We train your team in our Vadodara facility on advanced VRF and Inverter board repairs.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-20 bg-slate-900 text-white px-6\">\n        <div class=\"max-w-7xl mx-auto text-center mb-16\">\n            <h2 class=\"text-3xl md:text-4xl font-black mb-4\">Your Journey to Ownership</h2>\n            <p class=\"text-slate-400\">We keep it simple. From inquiry to launch in 45 days.</p>\n        </div>\n        <div class=\"max-w-7xl mx-auto grid md:grid-cols-4 gap-8\">\n            <div class=\"relative\">\n                <div class=\"step-num\">1</div>\n                <h3 class=\"font-bold text-xl mb-2\">Apply</h3>\n                <p class=\"text-slate-400 text-sm\">Fill the form. Our expansion team reviews your area potential.</p>\n            </div>\n            <div class=\"relative\">\n                <div class=\"step-num\">2</div>\n                <h3 class=\"font-bold text-xl mb-2\">Verify</h3>\n                <p class=\"text-slate-400 text-sm\">Meet Mehfuz Shahid&#8217;s team in Vadodara to discuss the financial model.</p>\n            </div>\n            <div class=\"relative\">\n                <div class=\"step-num\">3</div>\n                <h3 class=\"font-bold text-xl mb-2\">Setup</h3>\n                <p class=\"text-slate-400 text-sm\">We help you choose the right tools and inventory for your location.</p>\n            </div>\n            <div class=\"relative\">\n                <div class=\"step-num\">4</div>\n                <h3 class=\"font-bold text-xl mb-2\">Go Live</h3>\n                <p class=\"text-slate-400 text-sm\">Launch with marketing support and immediate lead generation from us.</p>\n            </div>\n        </div>\n    </section>\n\n    <section id=\"apply\" class=\"py-20 px-6\">\n        <div class=\"max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-3xl shadow-2xl border border-slate-100\">\n            <h2 class=\"text-3xl font-black text-slate-900 text-center mb-2\">Franchise Inquiry 2026</h2>\n            <p class=\"text-center text-slate-500 mb-8\">Tell us about your background and target city.</p>\n            <form action=\"mailto:atlasaircon1@gmail.com\" method=\"POST\" enctype=\"text/plain\" class=\"space-y-6\">\n                <div class=\"grid md:grid-cols-2 gap-6\">\n                    <input type=\"text\" name=\"name\" placeholder=\"Full Name\" required class=\"w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:border-blue-600 outline-none\">\n                    <input type=\"tel\" name=\"phone\" placeholder=\"Mobile Number\" required class=\"w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:border-blue-600 outline-none\">\n                </div>\n                <input type=\"text\" name=\"city\" placeholder=\"Target City (e.g. Surat, Anand, Bharuch)\" required class=\"w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:border-blue-600 outline-none\">\n                <textarea name=\"experience\" placeholder=\"Briefly describe your current business or work experience...\" rows=\"4\" class=\"w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:border-blue-600 outline-none\"></textarea>\n                <button type=\"submit\" class=\"w-full bg-blue-600 text-white font-black py-5 rounded-xl text-xl uppercase tracking-widest hover:bg-blue-700 transition shadow-lg\">Submit Application</button>\n            </form>\n        </div>\n    </section>\n\n    <section class=\"py-20 bg-slate-50\">\n        <div class=\"max-w-4xl mx-auto px-6\">\n            <h2 class=\"text-3xl font-black text-center mb-12\">Franchise <span class=\"text-blue-600\">Quick Answers</span></h2>\n            <div class=\"space-y-4\">\n                <details class=\"group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm\">\n                    <summary class=\"p-6 font-bold flex justify-between items-center\">\n                        Is this a technical or management franchise?\n                        <i class=\"fas fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform\"></i>\n                    </summary>\n                    <div class=\"faq-ans-box px-6 text-slate-600\">\n                        It is both. We provide the <strong>Technical Operating Procedures</strong> (how to fix) and the <strong>Business Management System</strong> (how to bill and market). You manage the team; we provide the expertise.\n                    </div>\n                </details>\n                <details class=\"group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm\">\n                    <summary class=\"p-6 font-bold flex justify-between items-center\">\n                        Can I start with a single shop?\n                        <i class=\"fas fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform\"></i>\n                    </summary>\n                    <div class=\"faq-ans-box px-6 text-slate-600\">\n                        Yes. We have models for &#8220;Local Service Points&#8221; for smaller towns and &#8220;Engineering Hubs&#8221; for major cities like Ahmedabad or Surat. We will discuss the best fit for your budget.\n                    </div>\n                </details>\n            </div>\n        </div>\n    </section>\n\n</div>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Limited Locations Available Build Your Own Engineering Empire Gujarat&#8217;s climate makes AC service an evergreen business. Partner with Atlas Aircon and skip the 20-year struggle of building a brand from scratch. Request Franchise Kit Call Franchise Manager Why Start-Ups Fail, But Atlas Partners Win Most AC shops open and close within 2 years because they [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 5436,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-4173",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/4173",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=4173"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/4173/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/5436"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=4173"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

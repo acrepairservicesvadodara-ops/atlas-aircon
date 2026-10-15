@@ -1,0 +1,156 @@
+{
+  "id": 4201,
+  "date": "2025-02-18T15:27:49",
+  "date_gmt": "2025-02-18T09:57:49",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?p=4201"
+  },
+  "modified": "2025-07-09T09:11:30",
+  "modified_gmt": "2025-07-09T03:41:30",
+  "slug": "common-inverter-ac-issues",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.atlasaircons.com/common-inverter-ac-issues/",
+  "title": {
+    "rendered": "Common Inverter AC Issues"
+  },
+  "content": {
+    "rendered": "<!-- Meta Title & Description --><!-- Tailwind CSS -->\r\n<p><script src=\"https://cdn.tailwindcss.com\"></script></p>\r\n<!-- Google Fonts --><!-- Feather Icons for fallback -->\r\n<p><script src=\"https://unpkg.com/feather-icons\"></script></p>\r\n<!-- Custom Styles & Colors -->\r\n<p><style>\r\n        :root {\r\n            --primary-gold: #DAA520;\r\n            /* A rich, professional gold */\r\n            --secondary-silver: #C0C0C0;\r\n            --text-dark-gray: #333333;\r\n            --background-white: #FFFFFF;\r\n            --mate-white: #F5F5F5;\r\n        }\r\n\r\n        body {\r\n            font-family: 'Lato', sans-serif;\r\n            background-color: var(--mate-white);\r\n            color: var(--text-dark-gray);\r\n        }\r\n\r\n        h1, h2, h3, h4, h5, h6 {\r\n            font-family: 'Montserrat', sans-serif;\r\n            color: var(--text-dark-gray);\r\n        }\r\n\r\n        .text-gold {\r\n            color: var(--primary-gold);\r\n        }\r\n\r\n        .bg-gold {\r\n            background-color: var(--primary-gold);\r\n        }\r\n        \r\n        .border-gold {\r\n            border-color: var(--primary-gold);\r\n        }\r\n\r\n        .cta-gradient {\r\n            background: linear-gradient(145deg, var(--secondary-silver), #505050);\r\n            color: black;\r\n        }\r\n        \r\n        .cta-gradient:hover {\r\n            background: linear-gradient(145deg, #ffffff, #686868);\r\n        }\r\n        \r\n        .hero-gradient {\r\n             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));\r\n        }\r\n\r\n        /* Accordion styles */\r\n        .accordion-content {\r\n            max-height: 0;\r\n            overflow: hidden;\r\n            transition: max-height 0.4s ease-in-out;\r\n        }\r\n\r\n        /* Popup styles */\r\n        #quote-popup.hidden, #minimized-quote-btn.hidden {\r\n            display: none;\r\n        }\r\n    </style></p>\r\n<!-- JSON-LD Schema Markup (Unchanged) -->\r\n<p><script type=\"application/ld+json\">\r\n    {\r\n      \"@context\": \"https://schema.org\",\r\n      \"@type\": \"HVACBusiness\",\r\n      \"name\": \"Atlas Aircon\",\r\n      \"image\": \"https://atlasaircons.com/wp-content/uploads/2023/02/Common-Inverter-AC-Issues.png\",\r\n      \"@id\": \"https://atlasaircons.com\",\r\n      \"url\": \"https://atlasaircons.com/common-inverter-ac-issues/\",\r\n      \"telephone\": \"+91-9727257141\",\r\n      \"email\": \"atlasaircon1@gmail.com\",\r\n      \"priceRange\": \"₹₹\",\r\n      \"address\": {\r\n        \"@type\": \"PostalAddress\",\r\n        \"addressLocality\": \"Vadodara\",\r\n        \"addressRegion\": \"GJ\",\r\n        \"addressCountry\": \"IN\"\r\n      },\r\n      \"openingHoursSpecification\": {\r\n        \"@type\": \"OpeningHoursSpecification\",\r\n        \"dayOfWeek\": [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"],\r\n        \"opens\": \"00:00\",\r\n        \"closes\": \"23:59\"\r\n      },\r\n      \"areaServed\": {\r\n        \"@type\": \"City\",\r\n        \"name\": \"Vadodara\"\r\n      },\r\n      \"hasOfferCatalog\": {\r\n        \"@type\": \"OfferCatalog\",\r\n        \"name\": \"Inverter AC Services\",\r\n        \"itemListElement\": [\r\n          {\"@type\": \"Offer\", \"itemOffered\": {\"@type\": \"Service\", \"name\": \"Inverter AC Repair in Vadodara\", \"serviceType\": \"Repair\", \"provider\": {\"@type\": \"HVACBusiness\", \"name\": \"Atlas Aircon\"}}},\r\n          {\"@type\": \"Offer\", \"itemOffered\": {\"@type\": \"Service\", \"name\": \"Inverter AC Installation in Vadodara\", \"serviceType\": \"Installation\", \"provider\": {\"@type\": \"HVACBusiness\", \"name\": \"Atlas Aircon\"}}},\r\n          {\"@type\": \"Offer\", \"itemOffered\": {\"@type\": \"Service\", \"name\": \"Inverter AC AMC Provider in Vadodara\", \"serviceType\": \"Maintenance\", \"provider\": {\"@type\": \"HVACBusiness\", \"name\": \"Atlas Aircon\"}}}\r\n        ]\r\n      }\r\n    }\r\n    </script><script type=\"application/ld+json\">\r\n    {\r\n      \"@context\": \"https://schema.org\",\r\n      \"@type\": \"FAQPage\",\r\n      \"mainEntity\": [{\r\n        \"@type\": \"Question\",\r\n        \"name\": \"What is an inverter air conditioner?\",\r\n        \"acceptedAnswer\": {\r\n          \"@type\": \"Answer\",\r\n          \"text\": \"An inverter air conditioner is a type of AC that uses a variable-speed compressor. Instead of shutting off and on, it adjusts its speed to maintain a consistent temperature, resulting in significant energy savings and improved comfort.\"\r\n        }\r\n      },{\r\n        \"@type\": \"Question\",\r\n        \"name\": \"How often should I get my inverter AC serviced?\",\r\n        \"acceptedAnswer\": {\r\n          \"@type\": \"Answer\",\r\n          \"text\": \"For optimal performance and to prevent breakdowns, we recommend getting your inverter AC professionally serviced at least twice a year: once before the peak summer season and once after.\"\r\n        }\r\n      },{\r\n        \"@type\": \"Question\",\r\n        \"name\": \"Why is professional installation so critical for inverter air conditioners?\",\r\n        \"acceptedAnswer\": {\r\n          \"@type\": \"Answer\",\r\n          \"text\": \"Professional installation by a licensed technician is vital for inverter ACs to ensure the unit is installed correctly, is protected from electrical issues and power surges, and operates at peak efficiency. Incorrect installation can lead to poor performance, higher bills, and a shorter lifespan.\"\r\n        }\r\n      }]\r\n    }\r\n    </script><script type=\"application/ld+json\">\r\n    {\r\n      \"@context\": \"https://schema.org\",\r\n      \"@type\": \"BreadcrumbList\",\r\n      \"itemListElement\": [{\r\n        \"@type\": \"ListItem\",\r\n        \"position\": 1,\r\n        \"name\": \"Home\",\r\n        \"item\": \"https://atlasaircons.com\"\r\n      },{\r\n        \"@type\": \"ListItem\",\r\n        \"position\": 2,\r\n        \"name\": \"Inverter AC Repair & Services in Vadodara\",\r\n        \"item\": \"https://atlasaircons.com/common-inverter-ac-issues/\"\r\n      }]\r\n    }\r\n    </script></p>\r\n<!-- Hero Section -->\r\n<section class=\"relative text-white text-center py-20 md:py-32 bg-cover bg-center\" style=\"background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://atlasaircons.com/wp-content/uploads/2023/02/Common-Inverter-AC-Issues.png');\">\r\n<div class=\"container mx-auto px-6 relative z-10\">\r\n<h1 class=\"text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-white\">Expert Inverter AC Repair &amp; Service in Vadodara</h1>\r\n<p class=\"text-xl md:text-2xl mb-2 text-gold font-semibold\">Same-Day Service!</p>\r\n<h2 class=\"text-lg md:text-xl text-gray-200 mb-8 max-w-3xl mx-auto\">Fast, Reliable, and Affordable Solutions for All Inverter AC Brands. Call Atlas Aircon Now!</h2>\r\n<div class=\"flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4\"><button class=\"bg-gold text-black font-bold py-3 px-8 rounded-lg text-lg shadow-xl hover:bg-yellow-400 transition-transform transform hover:scale-105\" aria-label=\"Get a Free Quote\">Get a Free Quote</button> <a class=\"text-white font-bold py-3 px-8 rounded-lg text-lg border-2 border-white hover:bg-white hover:text-black transition-colors flex items-center\" href=\"tel:+919727257141\" aria-label=\"Call us at +91-9727257141\"> +91-9727257141 </a></div>\r\n</div>\r\n</section>\r\n<!-- Trust Bar -->\r\n<section class=\"bg-white\">\r\n<div class=\"container mx-auto px-6 py-8\">\r\n<div class=\"grid grid-cols-2 md:grid-cols-4 gap-8 text-center\">\r\n<div class=\"flex flex-col items-center\"><i class=\"h-12 w-12 text-gold mb-2\" data-feather=\"clock\"></i>\r\n<h3 class=\"font-bold text-lg\">10+ Years Experience</h3>\r\n</div>\r\n<div class=\"flex flex-col items-center\"><i class=\"h-12 w-12 text-gold mb-2\" data-feather=\"shield\"></i>\r\n<h3 class=\"font-bold text-lg\">Verified Technicians</h3>\r\n</div>\r\n<div class=\"flex flex-col items-center\"><i class=\"h-12 w-12 text-gold mb-2\" data-feather=\"phone-call\"></i>\r\n<h3 class=\"font-bold text-lg\">24/7 Support</h3>\r\n</div>\r\n<div class=\"flex flex-col items-center\"><i class=\"h-12 w-12 text-gold mb-2\" data-feather=\"thumbs-up\"></i>\r\n<h3 class=\"font-bold text-lg\">100% Satisfaction</h3>\r\n</div>\r\n</div>\r\n</div>\r\n</section>\r\n<!-- Main Content --><main class=\"container mx-auto px-6 py-16\">\r\n<div class=\"grid grid-cols-1 lg:grid-cols-3 gap-12\"><!-- Core Content Section -->\r\n<div class=\"lg:col-span-2\">\r\n<article class=\"prose prose-lg max-w-none text-gray-700\">\r\n<h2 class=\"text-3xl font-bold\">Expert Inverter AC Repair &amp; Service in Vadodara: Your 24/7 Comfort Partner for Common Inverter AC Issues</h2>\r\n<p class=\"lead\">Is your inverter AC acting up? In the sweltering heat of Vadodara, a malfunctioning air conditioner isn&#8217;t just an inconvenience—it&#8217;s an emergency.</p>\r\n<p>Welcome to Atlas Aircon, your trusted, local expert for comprehensive inverter AC repair, service, Common Inverter AC Issues across all of Vadodara. Whether you&#8217;re located near the bustling Alkapuri shopping district or in the industrial heart of Makarpura GIDC, our team is ready to serve you.</p>\r\n<img loading=\"lazy\" decoding=\"async\" class=\"rounded-lg shadow-md my-6 w-full alignnone\" src=\"https://atlasaircons.com/wp-content/uploads/2017/02/AC-With-Digital-Inverter-Technology.jpg\" alt=\"Common Inverter AC Issues\" width=\"880\" height=\"984\" title=\"\">\r\n<div class=\"hidden bg-gray-200 rounded-lg p-4 text-center text-gray-600\"><i class=\"h-16 w-16 mx-auto mb-2\" data-feather=\"image\"></i>\r\n<p>Image of Digital Inverter AC Technology</p>\r\n</div>\r\n<p>We understand the sophisticated technology behind inverter air conditioners. Our team of certified technicians is equipped with the latest tools and extensive training to handle any issue with any brand, ensuring your home or office returns to a state of cool comfort as quickly as possible.</p>\r\n<p class=\"font-bold text-gold\">Don&#8217;t sweat it! For immediate assistance and same-day service, call Atlas Aircon at +91-9727257141.</p>\r\n<h3 class=\"text-2xl font-bold mt-12\">Why Choose Atlas Aircon for Your Inverter AC Needs in Vadodara?</h3>\r\n<p>When your high-efficiency inverter AC needs attention, you need a specialist. Here’s why hundreds of customers across the city trust us:</p>\r\n<div class=\"flex flex-col md:flex-row gap-6 items-center my-6\">\r\n<div class=\"md:w-2/3\">\r\n<ul>\r\n<li><strong>Inverter Technology Specialists:</strong> We are experts in inverter technology, from complex PCB circuit diagnostics to precise refrigerant management.</li>\r\n<li><strong>Service for All Major Brands:</strong> We are your one-stop shop for all inverter AC models, including Daikin, LG, Voltas, and Hitachi.</li>\r\n<li><strong>Rapid, City-Wide Service:</strong> Our service network spans every corner of Vadodara. Our technicians are available near landmarks like Sayaji Baug and Lakshmi Vilas Palace, ensuring a swift response.</li>\r\n<li><strong>Transparent &amp; Honest Pricing:</strong> We provide a clear and detailed estimate before any work begins.</li>\r\n</ul>\r\n</div>\r\n<div class=\"md:w-1/3\"><a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://atlasaircons.com/wp-content/uploads/2025/07/Atlas-aircon-vehicle.webp\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-medium wp-image-7254\" src=\"https://atlasaircons.com/wp-content/uploads/2025/07/Atlas-aircon-vehicle-300x300.webp\" alt=\"Atlas aircon vehicle\" width=\"300\" height=\"300\" title=\"\" srcset=\"https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-aircon-vehicle-300x300.webp 300w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-aircon-vehicle-720x720.webp 720w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-aircon-vehicle-150x150.webp 150w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-aircon-vehicle-768x768.webp 768w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-aircon-vehicle-1536x1536.webp 1536w, https://www.atlasaircons.com/wp-content/uploads/2025/07/Atlas-aircon-vehicle.webp 2048w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a><br />\r\n<div class=\"hidden bg-gray-200 rounded-lg p-4 text-center text-gray-600\"><i class=\"h-16 w-16 mx-auto mb-2\" data-feather=\"truck\"></i>\r\n<p>Atlas Aircon Service Vehicle</p>\r\n</div>\r\n</div>\r\n</div>\r\n<h3 class=\"text-2xl font-bold mt-12\">Pros and Cons of Inverter Air Conditioners</h3>\r\n<p>Understanding the technology helps you appreciate its value. Inverter ACs offer massive energy savings and superior comfort but can be sensitive to power fluctuations.</p>\r\n<img decoding=\"async\" class=\"rounded-lg shadow-md my-6 w-full\" src=\"https://atlasaircons.com/wp-content/uploads/2025/02/A-comparison-of-energy-consumption-between-inverter-AC-systems-and-traditional-units.webp\" alt=\"Energy consumption comparison between inverter and non-inverter AC\" title=\"\">\r\n<div class=\"hidden bg-gray-200 rounded-lg p-4 text-center text-gray-600\"><i class=\"h-16 w-16 mx-auto mb-2\" data-feather=\"bar-chart-2\"></i>\r\n<p>Energy Consumption Comparison Chart</p>\r\n</div>\r\n<h4 class=\"text-xl font-bold mt-8\">Explore Our Other Services</h4>\r\n<p>Beyond inverter ACs, we serve businesses along the main industrial corridors in Vadodara and residential customers with a wide range of solutions.</p>\r\n<ul>\r\n<li>Need <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-gold hover:underline\" href=\"https://atlasaircons.com/ac-repair-in-vadodara.html\">general AC repair services</a>? We&#8217;ve got you covered.</li>\r\n<li>We also offer <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-gold hover:underline\" href=\"https://atlasaircons.com/services/refrigerator-repair-services.html\">refrigerator repair</a> to keep your kitchen running smoothly.</li>\r\n<li>For commercial clients, we provide expert <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-gold hover:underline\" href=\"https://atlasaircons.com/services/other-repairing/chiller-repair-services.html\">chiller repair services</a> and <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-gold hover:underline\" href=\"https://atlasaircons.com/services/other-repairing/hvac-system-services.html\">complete HVAC system services</a>.</li>\r\n<li>Don&#8217;t forget about seasonal comfort with our <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-gold hover:underline\" href=\"https://atlasaircons.com/services/other-repairing/air-cooler-repair-services.html\">air cooler repair services</a>.</li>\r\n</ul>\r\n</article>\r\n</div>\r\n<!-- Sidebar -->\r\n<aside class=\"space-y-12\">\r\n<div id=\"services\" class=\"bg-white p-6 rounded-lg shadow-lg\">\r\n<h3 class=\"text-2xl font-bold mb-6 border-b-2 border-gold pb-2\">Our Comprehensive Services</h3>\r\n<div class=\"space-y-4\">\r\n<div class=\"flex items-center\"><i class=\"h-6 w-6 text-gold mr-3\" data-feather=\"tool\"></i> Inverter AC Repair</div>\r\n<div class=\"flex items-center\"><i class=\"h-6 w-6 text-gold mr-3\" data-feather=\"home\"></i> Inverter AC Installation</div>\r\n<div class=\"flex items-center\"><i class=\"h-6 w-6 text-gold mr-3\" data-feather=\"file-text\"></i> Inverter AC AMC</div>\r\n<div class=\"flex items-center\"><i class=\"h-6 w-6 text-gold mr-3\" data-feather=\"thermometer\"></i> Inverter AC Gas Refilling</div>\r\n<div class=\"flex items-center\"><i class=\"h-6 w-6 text-gold mr-3\" data-feather=\"cpu\"></i> PCB Circuit Repair</div>\r\n<div class=\"flex items-center\"><i class=\"h-6 w-6 text-gold mr-3\" data-feather=\"settings\"></i> General Servicing</div>\r\n</div>\r\n</div>\r\n<div class=\"bg-white p-6 rounded-lg shadow-lg\">\r\n<h3 class=\"text-2xl font-bold mb-6 border-b-2 border-gold pb-2\">What Our Customers Say</h3>\r\n<div class=\"space-y-6\">\r\n<div class=\"border-l-4 border-gold pl-4\">\r\n<p class=\"italic text-gray-600\">&#8220;Incredible service! The technician from Atlas Aircon was professional, punctual, and fixed my Daikin inverter AC in under an hour. Highly recommended!&#8221;</p>\r\n<p class=\"text-right font-bold text-gray-800 mt-2\">&#8211; Priya S., Alkapuri</p>\r\n</div>\r\n<div class=\"border-l-4 border-gold pl-4\">\r\n<p class=\"italic text-gray-600\">&#8220;My Voltas AC wasn&#8217;t cooling. I called them in the morning, and by afternoon, my room was chilly again. Very fast and transparent pricing.&#8221;</p>\r\n<p class=\"text-right font-bold text-gray-800 mt-2\">&#8211; Ramesh P., Manjalpur</p>\r\n</div>\r\n</div>\r\n</div>\r\n</aside>\r\n</div>\r\n<!-- FAQ Section -->\r\n<section id=\"faq\" class=\"mt-20 max-w-4xl mx-auto\">\r\n<h2 class=\"text-3xl font-bold text-center mb-8\">Frequently Asked Questions</h2>\r\n<div class=\"space-y-4\"><!-- FAQ Item 1 -->\r\n<div class=\"bg-white rounded-lg shadow-md\"><button class=\"accordion-header w-full p-5 text-left text-lg font-semibold flex justify-between items-center hover:bg-gray-50\" aria-expanded=\"false\"> What is an inverter air conditioner? </button>\r\n<div class=\"accordion-content\">\r\n<p class=\"p-5 pt-0 text-gray-600\">An inverter air conditioner is a type of AC that uses a variable-speed compressor. Instead of shutting off and on, it adjusts its speed to maintain a consistent temperature, resulting in significant energy savings and improved comfort.</p>\r\n</div>\r\n</div>\r\n<!-- FAQ Item 2 -->\r\n<div class=\"bg-white rounded-lg shadow-md\"><button class=\"accordion-header w-full p-5 text-left text-lg font-semibold flex justify-between items-center hover:bg-gray-50\" aria-expanded=\"false\"> How often should I get my inverter AC serviced? </button>\r\n<div class=\"accordion-content\">\r\n<p class=\"p-5 pt-0 text-gray-600\">For optimal performance and to prevent breakdowns, we recommend getting your inverter AC professionally serviced at least twice a year: once before the peak summer season and once after.</p>\r\n</div>\r\n</div>\r\n<!-- FAQ Item 3 -->\r\n<div class=\"bg-white rounded-lg shadow-md\"><button class=\"accordion-header w-full p-5 text-left text-lg font-semibold flex justify-between items-center hover:bg-gray-50\" aria-expanded=\"false\"> Is it more expensive to repair an inverter AC? </button>\r\n<div class=\"accordion-content\">\r\n<p class=\"p-5 pt-0 text-gray-600\">While some specific components like the PCB or compressor can be more expensive, many common repairs (like fixing leaks or cleaning) cost the same. Our expert PCB repair services often make it much cheaper than replacing the whole board.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</section>\r\n</main><!-- Quote Popup -->\r\n<div id=\"quote-popup\" class=\"hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 p-4\">\r\n<div id=\"popup-content\" class=\"bg-white rounded-lg shadow-2xl p-8 max-w-md w-full relative transform transition-all scale-95\"><button class=\"absolute top-2 right-2 text-gray-500 hover:text-gray-800\" aria-label=\"Close quote form\"> <i class=\"h-8 w-8\" data-feather=\"x\"></i> </button>\r\n<h3 class=\"text-2xl font-bold mb-2 text-center\">Get a Free Quote!</h3>\r\n<p class=\"text-center text-gray-600 mb-6\">Fill out the form below or contact us directly.</p>\r\n<form class=\"space-y-4\" action=\"#\">\r\n<div><label class=\"block text-sm font-medium text-gray-700\" for=\"popup-name\">Name</label> <input id=\"popup-name\" class=\"mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-gold focus:border-gold\" name=\"name\" type=\"text\" /></div>\r\n<div><label class=\"block text-sm font-medium text-gray-700\" for=\"popup-phone\">Phone</label> <input id=\"popup-phone\" class=\"mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-gold focus:border-gold\" name=\"phone\" type=\"tel\" /></div>\r\n<div><label class=\"block text-sm font-medium text-gray-700\" for=\"popup-service\">Service Needed</label><select id=\"popup-service\" class=\"mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-gold focus:border-gold\" name=\"service\">\r\n<option>Inverter AC Repair</option>\r\n<option>Installation</option>\r\n<option>AMC</option>\r\n<option>Gas Refilling</option>\r\n<option>Other</option>\r\n</select></div>\r\n<div><button class=\"w-full bg-gold text-black font-bold py-3 px-4 rounded-lg shadow-lg hover:bg-yellow-400 transition-colors\" type=\"submit\">Submit Request</button></div>\r\n</form>\r\n<div class=\"mt-6 flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2\"><a class=\"flex-1 text-center cta-gradient font-bold py-3 px-4 rounded-lg shadow-lg transition-all flex items-center justify-center\" href=\"tel:+919727257141\"> <i class=\"h-5 w-5 mr-2\" data-feather=\"phone-call\"></i> Call Now </a> <a class=\"flex-1 text-center bg-green-500 text-white font-bold py-3 px-4 rounded-lg shadow-lg hover:bg-green-600 transition-colors flex items-center justify-center\" href=\"https://wa.me/919727257141\" target=\"_blank\" rel=\"noopener\"> <i class=\"h-5 w-5 mr-2\" data-feather=\"message-circle\"></i> WhatsApp </a></div>\r\n</div>\r\n</div>\r\n<!-- Minimized Quote Button -->\r\n<p><button id=\"minimized-quote-btn\" class=\"hidden fixed bottom-5 right-5 bg-gold text-black rounded-full p-4 shadow-lg z-40 transform hover:scale-110 transition-transform\" aria-label=\"Open quote form\"> <i class=\"h-8 w-8\" data-feather=\"tool\"></i> </button> <script>\r\n        document.addEventListener('DOMContentLoaded', function() {\r\n            // --- Feather Icons ---\r\n            feather.replace();\r\n\r\n            // --- Accordion Logic ---\r\n            const accordionHeaders = document.querySelectorAll('.accordion-header');\r\n            accordionHeaders.forEach(header => {\r\n                header.addEventListener('click', () => {\r\n                    const content = header.nextElementSibling;\r\n                    const icon = header.querySelector('.accordion-icon');\r\n                    const isExpanded = header.getAttribute('aria-expanded') === 'true';\r\n\r\n                    // Close all other accordions\r\n                    accordionHeaders.forEach(otherHeader => {\r\n                        if (otherHeader !== header) {\r\n                            otherHeader.nextElementSibling.style.maxHeight = null;\r\n                            otherHeader.querySelector('.accordion-icon').classList.remove('rotate-180');\r\n                            otherHeader.setAttribute('aria-expanded', 'false');\r\n                        }\r\n                    });\r\n\r\n                    // Toggle current accordion\r\n                    if (isExpanded) {\r\n                        content.style.maxHeight = null;\r\n                        icon.classList.remove('rotate-180');\r\n                        header.setAttribute('aria-expanded', 'false');\r\n                    } else {\r\n                        content.style.maxHeight = content.scrollHeight + 'px';\r\n                        icon.classList.add('rotate-180');\r\n                        header.setAttribute('aria-expanded', 'true');\r\n                    }\r\n                });\r\n            });\r\n\r\n            // --- Modal Logic ---\r\n            const modal = document.getElementById('quote-popup');\r\n            const modalContent = document.getElementById('popup-content');\r\n            const minimizedBtn = document.getElementById('minimized-quote-btn');\r\n            let modalShownOnce = false;\r\n\r\n            // Open modal function\r\n            window.openModal = function() {\r\n                minimizedBtn.classList.add('hidden');\r\n                modal.classList.remove('hidden');\r\n                setTimeout(() => {\r\n                    modalContent.classList.remove('scale-95');\r\n                }, 10);\r\n            };\r\n\r\n            // Close modal function\r\n            window.closeModal = function() {\r\n                modalContent.classList.add('scale-95');\r\n                setTimeout(() => {\r\n                    modal.classList.add('hidden');\r\n                    minimizedBtn.classList.remove('hidden');\r\n                }, 300);\r\n            };\r\n\r\n            // Timer-based popup trigger (only once)\r\n            setTimeout(() => {\r\n                if (!modalShownOnce) {\r\n                    modalShownOnce = true;\r\n                    openModal();\r\n                }\r\n            }, 60000); // 60 seconds\r\n\r\n            // Close modal on escape key\r\n            document.addEventListener('keydown', (e) => {\r\n                if (e.key === 'Escape' && !modal.classList.contains('hidden')) {\r\n                    closeModal();\r\n                }\r\n            });\r\n\r\n            // Close modal on overlay click\r\n            modal.addEventListener('click', (e) => {\r\n                if (e.target === modal) {\r\n                    closeModal();\r\n                }\r\n            });\r\n        });\r\n    </script></p>\r\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Expert Inverter AC Repair &amp; Service in Vadodara Same-Day Service! Fast, Reliable, and Affordable Solutions for All Inverter AC Brands. Call Atlas Aircon Now! Get a Free Quote +91-9727257141 10+ Years Experience Verified Technicians 24/7 Support 100% Satisfaction Expert Inverter AC Repair &amp; Service in Vadodara: Your 24/7 Comfort Partner for Common Inverter AC Issues [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 4202,
+  "comment_status": "open",
+  "ping_status": "open",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "categories": [
+    211
+  ],
+  "tags": [
+    644,
+    641,
+    645,
+    643,
+    646,
+    651,
+    655,
+    654,
+    141,
+    649,
+    647,
+    652,
+    650,
+    653,
+    648,
+    642,
+    640
+  ],
+  "class_list": [
+    "post-4201",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-air-conditioner-maintenance-tips",
+    "tag-ac-technician",
+    "tag-common-issues",
+    "tag-energy-efficiency",
+    "tag-hvac-technician",
+    "tag-indoor-climate",
+    "tag-installation-complexity",
+    "tag-inverter-ac-circuit-repair",
+    "tag-inverter-ac-installation",
+    "tag-inverter-air-conditioner",
+    "tag-leaking-water",
+    "tag-not-turning-on",
+    "tag-printed-circuit-board-pcb",
+    "tag-remote-control",
+    "tag-repair-cost",
+    "tag-strange-noises",
+    "tag-tips",
+    "tag-troubleshooting"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/4201",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=4201"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/4201/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/4202"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=4201"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/categories?post=4201"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/tags?post=4201"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

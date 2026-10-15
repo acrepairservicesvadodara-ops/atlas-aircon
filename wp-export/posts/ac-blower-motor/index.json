@@ -1,0 +1,140 @@
+{
+  "id": 4590,
+  "date": "2025-05-14T02:33:54",
+  "date_gmt": "2025-05-13T21:03:54",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?p=4590"
+  },
+  "modified": "2025-10-12T15:44:27",
+  "modified_gmt": "2025-10-12T10:14:27",
+  "slug": "ac-blower-motor",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.atlasaircons.com/ac-blower-motor/",
+  "title": {
+    "rendered": "ac blower motor"
+  },
+  "content": {
+    "rendered": "&nbsp;\r\n\r\n<!-- SEO Meta Tags -->\r\n\r\n<!-- Open Graph / Facebook -->\r\n\r\n<!-- Twitter -->\r\n\r\n<script src=\"https://cdn.tailwindcss.com\"></script>\r\n\r\n<style>\r\n        body {<br />            font-family: 'Inter', sans-serif;<br />        }<br />        .tab-content { display: none; }<br />        .tab-content.active { display: block; }<br />    </style>\r\n\r\n<!-- JSON-LD Schema Markup -->\r\n<script type=\"application/ld+json\">\r\n    {\r\n      \"@context\": \"https://schema.org\",\r\n      \"@graph\": [\r\n        {\r\n          \"@type\": \"Product\",\r\n          \"name\": \"Atlas Aircon AC Indoor Blower Motor (Multiple Variants)\",\r\n          \"image\": \"https://atlasaircons.com/wp-content/uploads/2023/03/ac-blower-motor.webp\",\r\n          \"description\": \"Discover high-performance, reliable, and energy-efficient indoor blower motors for all types of air conditioners, air coolers, HVAC systems, and Air Handling Units (AHU). Engineered by Atlas Aircon for superior airflow and durability. Available across Gujarat, including Vadodara, Ahmedabad, and Surat.\",\r\n          \"sku\": \"AA-BM-VARIOUS\",\r\n          \"brand\": {\r\n            \"@type\": \"Brand\",\r\n            \"name\": \"Atlas Aircon\"\r\n          },\r\n          \"offers\": {\r\n            \"@type\": \"AggregateOffer\",\r\n            \"priceCurrency\": \"INR\",\r\n            \"lowPrice\": \"1500\",\r\n            \"highPrice\": \"8500\",\r\n            \"offerCount\": \"5\",\r\n            \"priceValidUntil\": \"2025-12-31\",\r\n            \"availability\": \"https://schema.org/InStock\",\r\n            \"seller\": {\r\n              \"@type\": \"Organization\",\r\n              \"name\": \"Atlas Aircon\"\r\n            }\r\n          },\r\n          \"aggregateRating\": {\r\n            \"@type\": \"AggregateRating\",\r\n            \"ratingValue\": \"4.8\",\r\n            \"reviewCount\": \"215\"\r\n          },\r\n          \"review\": [\r\n            {\r\n              \"@type\": \"Review\",\r\n              \"author\": \"Rakesh Patel\",\r\n              \"datePublished\": \"2023-08-15\",\r\n              \"reviewRating\": {\r\n                \"@type\": \"Rating\",\r\n                \"ratingValue\": \"5\"\r\n              },\r\n              \"reviewBody\": \"Excellent quality motor from Atlas Aircon. My AC's cooling is better than ever. Fast delivery in Ahmedabad.\"\r\n            },\r\n            {\r\n              \"@type\": \"Review\",\r\n              \"author\": \"Priya Shah\",\r\n              \"datePublished\": \"2023-07-22\",\r\n              \"reviewRating\": {\r\n                \"@type\": \"Rating\",\r\n                \"ratingValue\": \"4\"\r\n              },\r\n              \"reviewBody\": \"Good performance and low noise. The team in Vadodara was very helpful in selecting the right model.\"\r\n            }\r\n          ]\r\n        },\r\n        {\r\n          \"@type\": \"LocalBusiness\",\r\n          \"name\": \"Atlas Aircon\",\r\n          \"image\": \"https://atlasaircons.com/wp-content/uploads/2023/03/ac-blower-motor.webp\",\r\n          \"@id\": \"https://atlasaircons.com\",\r\n          \"url\": \"https://atlasaircons.com\",\r\n          \"telephone\": \"+91-97272-57141\",\r\n          \"priceRange\": \"₹₹\",\r\n          \"address\": {\r\n            \"@type\": \"PostalAddress\",\r\n            \"streetAddress\": \"Sayajigunj\",\r\n            \"addressLocality\": \"Vadodara\",\r\n            \"postalCode\": \"390005\",\r\n            \"addressRegion\": \"GJ\",\r\n            \"addressCountry\": \"IN\"\r\n          },\r\n          \"geo\": {\r\n            \"@type\": \"GeoCoordinates\",\r\n            \"latitude\": 22.310696,\r\n            \"longitude\": 73.187309\r\n          },\r\n          \"openingHoursSpecification\": {\r\n            \"@type\": \"OpeningHoursSpecification\",\r\n            \"dayOfWeek\": [\r\n              \"Monday\",\r\n              \"Tuesday\",\r\n              \"Wednesday\",\r\n              \"Thursday\",\r\n              \"Friday\",\r\n              \"Saturday\",\r\n              \"Sunday\"\r\n            ],\r\n            \"opens\": \"09:00\",\r\n            \"closes\": \"20:00\"\r\n          },\r\n          \"areaServed\": [\r\n            {\"@type\": \"City\", \"name\": \"Vadodara\"},\r\n            {\"@type\": \"City\", \"name\": \"Ahmedabad\"},\r\n            {\"@type\": \"City\", \"name\": \"Nadiad\"},\r\n            {\"@type\": \"City\", \"name\": \"Anand\"},\r\n            {\"@type\": \"City\", \"name\": \"Karjan\"},\r\n            {\"@type\": \"City\", \"name\": \"Palej\"},\r\n            {\"@type\": \"City\", \"name\": \"Bharuch\"},\r\n            {\"@type\": \"City\", \"name\": \"Ankleshwar\"},\r\n            {\"@type\": \"City\", \"name\": \"Dahej\"},\r\n            {\"@type\": \"City\", \"name\": \"Jhagadia\"},\r\n            {\"@type\": \"City\", \"name\": \"Rajpipla\"},\r\n            {\"@type\": \"City\", \"name\": \"Surat\"},\r\n            {\"@type\": \"City\", \"name\": \"Vapi\"},\r\n            {\"@type\": \"City\", \"name\": \"Valsad\"},\r\n            {\"@type\": \"City\", \"name\": \"Daman\"},\r\n            {\"@type\": \"State\", \"name\": \"Gujarat\"},\r\n            {\"@type\": \"Country\", \"name\": \"India\"}\r\n          ]\r\n        },\r\n        {\r\n          \"@type\": \"FAQPage\",\r\n          \"mainEntity\": [\r\n            {\r\n              \"@type\": \"Question\",\r\n              \"name\": \"What is the price of an AC indoor blower motor in India?\",\r\n              \"acceptedAnswer\": {\r\n                \"@type\": \"Answer\",\r\n                \"text\": \"The price of an AC indoor blower motor in India can range from ₹1,500 to ₹8,500 depending on the brand, capacity (tonnage), motor type (copper/aluminum), and compatibility with your AC model. At Atlas Aircon, we offer competitive pricing for all major brands.\"\r\n              }\r\n            },\r\n            {\r\n              \"@type\": \"Question\",\r\n              \"name\": \"How do I know if my AC blower motor is bad?\",\r\n              \"acceptedAnswer\": {\r\n                \"@type\": \"Answer\",\r\n                \"text\": \"Common signs of a faulty blower motor include: weak or no airflow from the vents, strange noises (humming, screeching), the outdoor unit running but the indoor fan not spinning, or the motor overheating and shutting off. If you face these issues, contact our technicians for an inspection.\"\r\n              }\r\n            },\r\n            {\r\n              \"@type\": \"Question\",\r\n              \"name\": \"Can I use an air cooler fan motor in an air conditioner?\",\r\n              \"acceptedAnswer\": {\r\n                \"@type\": \"Answer\",\r\n                \"text\": \"No, it is not recommended. While they serve a similar function, an air conditioner blower motor is specifically designed for the static pressure and airflow requirements of an HVAC system, which are very different from an air cooler fan motor.\"\r\n              }\r\n            },\r\n            {\r\n                \"@type\": \"Question\",\r\n                \"name\": \"Do you provide installation services in Surat?\",\r\n                \"acceptedAnswer\": {\r\n                  \"@type\": \"Answer\",\r\n                  \"text\": \"Yes, Atlas Aircon provides expert installation and ac motor repair services across Gujarat, including Surat, Vadodara, Ahmedabad, Bharuch, and many other cities. Contact us at +91-97272-57141 to schedule a visit.\"\r\n                }\r\n            }\r\n          ]\r\n        }\r\n      ]\r\n    }\r\n    </script>\r\n<div class=\"container mx-auto p-4 sm:p-6 lg:p-8\">\r\n<div class=\"bg-white rounded-lg shadow-xl overflow-hidden\">\r\n<div class=\"grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 p-6 lg:p-8\">\r\n\r\n<!-- Product Image -->\r\n<div class=\"flex items-center justify-center\"><img decoding=\"async\" class=\"max-w-full h-auto rounded-lg object-contain\" src=\"https://atlasaircons.com/wp-content/uploads/2023/03/ac-blower-motor.webp\" alt=\"Atlas Aircon AC Indoor Blower Motor\" title=\"\"></div>\r\n<!-- Product Details -->\r\n<div>\r\n<h1 class=\"text-3xl lg:text-4xl font-bold text-gray-900 mb-2\">Atlas Aircon AC Blower Motor</h1>\r\n<p class=\"text-sm text-gray-500 mb-4\">SKU: AA-BM-VARIOUS</p>\r\n\r\n<div class=\"flex items-center mb-4\">\r\n<div class=\"flex text-yellow-400\">\r\n\r\n<!-- Star ratings -->\r\n\r\n</div>\r\n<span class=\"ml-2 text-gray-600 text-sm\">(215 Reviews)</span>\r\n\r\n</div>\r\n<div class=\"mb-6\">\r\n\r\n<span class=\"text-3xl font-bold text-emerald-600\">₹2,500.00 – ₹8,500.00</span>\r\n<p class=\"text-sm text-gray-500\">Price varies by model &amp; capacity</p>\r\n\r\n</div>\r\n<!-- Short Description -->\r\n<div class=\"space-y-3 text-gray-700\">\r\n\r\n🌬️ <strong>AC Indoor Blower Motor:</strong> The heart of your air conditioner! Our genuine <strong>AC indoor blower motor</strong> ensures powerful, consistent airflow for rapid cooling. Perfect for split, window, and cassette ACs. Restore your AC&#8217;s performance with a motor you can trust at just <span class=\"text-3xl font-bold text-emerald-600\">₹4,500.00 only</span>.\r\n\r\n💨 <strong>Air Cooler Fan Motor:</strong> Upgrade your air cooler with a high-speed, durable <strong>air cooler fan motor</strong>. Experience a stronger breeze and better cooling efficiency, perfect for beating the Gujarat heat. Low noise and energy-saving models are available.\r\n\r\n⚙️ <strong>HVAC &amp; AHU Blower Motor:</strong> For commercial and industrial needs, our robust <strong>HVAC fan motor</strong> and <strong>Air Handling Unit (AHU) Blower Motor</strong> are second to none. Built for continuous operation, they deliver unmatched reliability for large-scale cooling systems in <strong>Dahej</strong>, <strong>Jhagadia</strong>, and <strong>Ankleshwar</strong>.\r\n\r\n</div>\r\n<div class=\"mt-6\"><a class=\"w-full text-center bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 inline-block\" href=\"http://wa.me/919727257141\" target=\"_blank\" rel=\"noopener\">\r\n📞 Call Now for Best Price: +91-97272-57141\r\n</a></div>\r\n</div>\r\n</div>\r\n<!-- Tabs Section -->\r\n<div class=\"border-t border-gray-200\">\r\n<div class=\"flex border-b border-gray-200\"><button class=\"tab-button active flex-1 py-4 px-2 text-center font-semibold text-blue-600 border-b-2 border-blue-600\">Description</button>\r\n<button class=\"tab-button flex-1 py-4 px-2 text-center font-semibold text-gray-600\">Technical Details</button>\r\n<button class=\"tab-button flex-1 py-4 px-2 text-center font-semibold text-gray-600\">Do&#8217;s &amp; Don&#8217;ts</button>\r\n<button class=\"tab-button flex-1 py-4 px-2 text-center font-semibold text-gray-600\">FAQs</button></div>\r\n<div class=\"p-6 lg:p-8\">\r\n\r\n<!-- Long Description Tab -->\r\n<div id=\"description\" class=\"tab-content active prose max-w-none\">\r\n<h3 class=\"font-bold text-xl mb-4\">The Ultimate Powerhouse for Your Cooling System</h3>\r\nThe <strong>blower motor</strong> is a critical component responsible for circulating cool air throughout your space. A weak or faulty motor leads to poor cooling, higher electricity bills, and potential system failure. At <strong>Atlas Aircon</strong>, we provide top-tier replacement motors that not only restore but often enhance your cooling system&#8217;s original performance. Whether you need a simple <strong>air cooler fan motor</strong> or a heavy-duty <strong>AHU Blower motor</strong>, we have the perfect solution.\r\n<h4 class=\"font-semibold text-lg mt-6 mb-2\">Key Features &amp; Benefits:</h4>\r\n<ul class=\"list-disc list-inside space-y-2\">\r\n \t<li><strong>High Efficiency:</strong> Our motors are designed for maximum airflow with minimum power consumption, saving you money on your energy bills.</li>\r\n \t<li><strong>Durable Construction:</strong> Featuring 100% copper windings (in select models) for longevity and superior performance, they are built to last.</li>\r\n \t<li><strong>Low Noise Operation:</strong> Engineered with precision bearings to ensure whisper-quiet operation, maintaining the peace in your home or office.</li>\r\n \t<li><strong>Wide Compatibility:</strong> We stock motors compatible with all major brands like Voltas, LG, Samsung, Daikin, Carrier, and more.</li>\r\n \t<li><strong>Local Availability:</strong> Get your <strong>ac blower motor near me</strong> with fast delivery and service in <strong>Vadodara</strong>, <strong>Ahmedabad</strong>, <strong>Surat</strong>, <strong>Nadiad</strong>, <strong>Anand</strong>, and across <strong>Gujarat</strong>.</li>\r\n</ul>\r\n<p class=\"mt-4\">Struggling with cooling issues? Don&#8217;t wait for a complete breakdown. An aging motor can strain your entire AC unit. Explore our <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-blue-600 hover:underline\" href=\"https://atlasaircons.com/emergency-ac-repairing/\">emergency AC repair services</a> or browse our range of <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-blue-600 hover:underline\" href=\"https://atlasaircons.com/products/ac-repair/window-air-conditioner-products.html\">window air conditioner products</a>. Trust <a rel=\"noopener noreferrer\" target=\"_blank\" class=\"text-blue-600 hover:underline\" href=\"https://atlasaircons.com/\">Atlas Aircon</a> for all your HVAC needs.</p>\r\n\r\n</div>\r\n<!-- Technical Details Tab -->\r\n<div id=\"tech-details\" class=\"tab-content\">\r\n<h3 class=\"font-bold text-xl mb-4\">Product Specifications</h3>\r\n<div class=\"overflow-x-auto\">\r\n<table class=\"w-full text-left border-collapse\">\r\n<thead>\r\n<tr>\r\n<th class=\"py-2 px-4 bg-gray-100 font-semibold border-b\">Attribute</th>\r\n<th class=\"py-2 px-4 bg-gray-100 font-semibold border-b\">Details</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\">Motor Type</td>\r\n<td class=\"py-2 px-4\">Single Phase / Three Phase AC Induction Motor</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\">Application</td>\r\n<td class=\"py-2 px-4\">Split AC, Window AC, Air Cooler, HVAC, AHU, FCU</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\">Winding Material</td>\r\n<td class=\"py-2 px-4\">Copper / Aluminum options available</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\">Voltage</td>\r\n<td class=\"py-2 px-4\">220-240V AC, 50Hz (Standard)</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\">Speed (RPM)</td>\r\n<td class=\"py-2 px-4\">960 / 1440 RPM (Varies by model)</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\">Capacities</td>\r\n<td class=\"py-2 px-4\">0.5 Ton to 5.5 Ton and above for commercial units</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\">Warranty</td>\r\n<td class=\"py-2 px-4\">1-Year Manufacturer Warranty</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\">Brand</td>\r\n<td class=\"py-2 px-4\">Atlas Aircon Certified / Multi-Brand</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n<h3 class=\"font-bold text-xl mt-8 mb-4\">Price List (Indicative)</h3>\r\n<div class=\"overflow-x-auto\">\r\n<table class=\"w-full text-left border-collapse\">\r\n<thead>\r\n<tr>\r\n<th class=\"py-2 px-4 bg-gray-100 font-semibold border-b\">Motor Type</th>\r\n<th class=\"py-2 px-4 bg-gray-100 font-semibold border-b\">Estimated Price (INR)</th>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\"><strong>Air Cooler Fan Motor</strong> (Aluminum)</td>\r\n<td class=\"py-2 px-4\">₹1,500 &#8211; ₹2,500</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\"><strong>Window AC Blower Motor</strong> (1-2 Ton)</td>\r\n<td class=\"py-2 px-4\">₹2,000 &#8211; ₹3,500</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\"><strong>Split AC Indoor Blower Motor</strong> (1-2 Ton)</td>\r\n<td class=\"py-2 px-4\">₹2,500 &#8211; ₹4,500</td>\r\n</tr>\r\n<tr class=\"border-b\">\r\n<td class=\"py-2 px-4\"><strong>HVAC / AHU Blower Motor</strong> (Commercial)</td>\r\n<td class=\"py-2 px-4\">₹5,000 &#8211; ₹8,500+</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<!-- Do's & Don'ts Tab -->\r\n<div id=\"dos-donts\" class=\"tab-content grid grid-cols-1 md:grid-cols-2 gap-8\">\r\n<div>\r\n<h4 class=\"font-bold text-lg text-green-600 mb-2\">✅ Do&#8217;s</h4>\r\n<ul class=\"list-disc list-inside space-y-2\">\r\n \t<li><strong>Match the Specs:</strong> Always ensure the new motor&#8217;s voltage, RPM, and shaft size match the old one.</li>\r\n \t<li><strong>Clean the Blower Wheel:</strong> Before installing a new motor, thoroughly clean the blower wheel for balanced operation.</li>\r\n \t<li><strong>Check Capacitor:</strong> It&#8217;s a good practice to replace the capacitor when replacing the motor.</li>\r\n \t<li><strong>Professional Installation:</strong> For safety and proper functioning, have the motor installed by a qualified HVAC technician.</li>\r\n</ul>\r\n</div>\r\n<div>\r\n<h4 class=\"font-bold text-lg text-red-600 mb-2\">❌ Don&#8217;ts</h4>\r\n<ul class=\"list-disc list-inside space-y-2\">\r\n \t<li><strong>Don&#8217;t Ignore Noises:</strong> Strange sounds are early warnings. Don&#8217;t wait for the motor to fail completely.</li>\r\n \t<li><strong>Don&#8217;t Mismatch Rotation:</strong> Ensure the motor&#8217;s rotation direction (CW/CCW) is correct for your unit.</li>\r\n \t<li><strong>Don&#8217;t Operate with a Bad Motor:</strong> Running the AC with a faulty motor can damage the compressor.</li>\r\n \t<li><strong>Don&#8217;t Neglect Maintenance:</strong> Regular cleaning of filters and coils reduces the strain on the blower motor.</li>\r\n</ul>\r\n</div>\r\n<div class=\"md:col-span-2 mt-4 p-4 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700\">\r\n\r\n<strong>Common Issues:</strong> Watch out for weak airflow, humming/grinding noises, motor overheating, or the fan not starting. These signal it&#8217;s time for a replacement.\r\n\r\n</div>\r\n<div class=\"md:col-span-2 mt-4\">\r\n<h4 class=\"font-bold text-lg mb-2\">Pros and Cons</h4>\r\n<div class=\"grid grid-cols-1 sm:grid-cols-2 gap-4\">\r\n<div class=\"bg-green-100 p-3 rounded\"><strong>Pros:</strong> Restores cooling efficiency, lowers energy consumption, ensures quiet operation.</div>\r\n<div class=\"bg-red-100 p-3 rounded\"><strong>Cons:</strong> Can be a complex DIY job, requires matching exact specifications to avoid damage.</div>\r\n</div>\r\n</div>\r\n</div>\r\n<!-- FAQs Tab -->\r\n<div id=\"faq\" class=\"tab-content space-y-4\">\r\n<div class=\"border-b pb-4\">\r\n<h4 class=\"font-semibold text-lg\">What is the price of an AC indoor blower motor in India?</h4>\r\n<p class=\"mt-1 text-gray-700\">The price of an <strong>AC indoor blower motor</strong> in India can range from <strong>₹1,500 to ₹8,500</strong> depending on the brand, capacity (tonnage), motor type (copper/aluminum), and compatibility with your AC model. At Atlas Aircon, we offer competitive pricing for all major brands.</p>\r\n\r\n</div>\r\n<div class=\"border-b pb-4\">\r\n<h4 class=\"font-semibold text-lg\">How do I know if my AC blower motor is bad?</h4>\r\n<p class=\"mt-1 text-gray-700\">Common signs of a faulty <strong>blower motor</strong> include: weak or no airflow from the vents, strange noises (humming, screeching), the outdoor unit running but the indoor fan not spinning, or the motor overheating and shutting off. If you face these issues in <strong>Anand</strong> or <strong>Karjan</strong>, contact our technicians for an inspection.</p>\r\n\r\n</div>\r\n<div class=\"border-b pb-4\">\r\n<h4 class=\"font-semibold text-lg\">Can I use an air cooler fan motor in an air conditioner?</h4>\r\n<p class=\"mt-1 text-gray-700\">No, it is not recommended. While they serve a similar function, an <strong>air conditioner blower motor</strong> is specifically designed for the static pressure and airflow requirements of an HVAC system, which are very different from an <strong>air cooler fan motor</strong>.</p>\r\n\r\n</div>\r\n<div class=\"border-b pb-4\">\r\n<h4 class=\"font-semibold text-lg\">Do you provide installation services in Surat?</h4>\r\n<p class=\"mt-1 text-gray-700\">Yes, Atlas Aircon provides expert installation and <strong>ac motor repair services</strong> across Gujarat, including <strong>Surat</strong>, <strong>Vadodara</strong>, <strong>Ahmedabad</strong>, <strong>Bharuch</strong>, and many other cities. Contact us at +91-97272-57141 to schedule a visit.</p>\r\n\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<script>\r\n        function openTab(event, tabName) {\r\n            // Hide all tab content\r\n            const tabcontent = document.querySelectorAll('.tab-content');\r\n            tabcontent.forEach(tab => tab.style.display = 'none');\r\n\r\n            // Deactivate all tab buttons\r\n            const tabbuttons = document.querySelectorAll('.tab-button');\r\n            tabbuttons.forEach(button => {\r\n                button.classList.remove('active', 'text-blue-600', 'border-blue-600');\r\n                button.classList.add('text-gray-600');\r\n            });\r\n\r\n            // Show the selected tab content\r\n            document.getElementById(tabName).style.display = 'block';\r\n\r\n            // Activate the selected tab button\r\n            event.currentTarget.classList.add('active', 'text-blue-600', 'border-blue-600');\r\n            event.currentTarget.classList.remove('text-gray-600');\r\n        }\r\n\r\n        // Set the default active tab on page load\r\n        document.addEventListener('DOMContentLoaded', () => {\r\n            document.querySelector('.tab-button').click();\r\n        });\r\n    </script>\r\n\r\n&nbsp;",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "&nbsp; Atlas Aircon AC Blower Motor SKU: AA-BM-VARIOUS (215 Reviews) ₹2,500.00 – ₹8,500.00 Price varies by model &amp; capacity 🌬️ AC Indoor Blower Motor: The heart of your air conditioner! Our genuine AC indoor blower motor ensures powerful, consistent airflow for rapid cooling. Perfect for split, window, and cassette ACs. Restore your AC&#8217;s performance with [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 4591,
+  "comment_status": "open",
+  "ping_status": "open",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "categories": [
+    98
+  ],
+  "tags": [
+    1470,
+    1477,
+    1474,
+    1476,
+    1471,
+    1472,
+    1475,
+    1473,
+    1478
+  ],
+  "class_list": [
+    "post-4590",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-ac-repair-service",
+    "tag-ac-blower-motor",
+    "tag-ac-blower-motor-cost",
+    "tag-ac-blower-motor-dealers-in-vadodara",
+    "tag-ac-blower-motor-price-in-vadodara",
+    "tag-ac-blower-motor-repair-in-vadodara",
+    "tag-ac-blower-motor-service-in-vadodara",
+    "tag-ac-blower-motor-servicing-near-me",
+    "tag-ac-blower-motor-supplier-in-vadodara",
+    "tag-trustworthy-ac-blower-motor-repair-services"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/4590",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=4590"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/posts/4590/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media/4591"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=4590"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/categories?post=4590"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/tags?post=4590"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

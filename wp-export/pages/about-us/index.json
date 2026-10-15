@@ -1,0 +1,96 @@
+{
+  "id": 4167,
+  "date": "2023-02-02T17:35:58",
+  "date_gmt": "2023-02-02T12:05:58",
+  "guid": {
+    "rendered": "https://atlasaircons.com/?page_id=4167"
+  },
+  "modified": "2026-03-05T15:24:21",
+  "modified_gmt": "2026-03-05T09:54:21",
+  "slug": "about-us",
+  "status": "publish",
+  "type": "page",
+  "link": "https://www.atlasaircons.com/about-us/",
+  "title": {
+    "rendered": "about us"
+  },
+  "content": {
+    "rendered": "\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"AboutPage\",\n      \"@id\": \"https://atlasaircons.com/about-us/#webpage\",\n      \"url\": \"https://atlasaircons.com/about-us/\",\n      \"name\": \"About Atlas Aircon - Leading HVAC Engineers in Vadodara\",\n      \"description\": \"Learn about Atlas Aircon, founded by Mehfuz Shahid, specializing in industrial HVAC and residential AC services across Gujarat since 1996.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"@id\": \"https://atlasaircons.com/#person\",\n      \"name\": \"Mehfuz Shahid Khan\",\n      \"jobTitle\": \"Director & Lead Engineer\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Atlas Aircon\"\n      },\n      \"description\": \"HVAC specialist with over 20 years of hands-on experience in industrial chiller repair and commercial cooling infrastructure.\",\n      \"knowsAbout\": [\"HVAC Engineering\", \"Industrial Chillers\", \"AC Repair\", \"VRF Systems\"]\n    }\n  ]\n}\n</script>\n\n<script>\n    if (typeof tailwind !== 'undefined') {\n        window.tailwind.config = {\n            theme: {\n                extend: {\n                    fontFamily: {\n                        sans: ['Inter', 'sans-serif'],\n                        display: ['Oswald', 'sans-serif'],\n                    },\n                    colors: {\n                        slate: { 850: '#151e2e', 950: '#020617' },\n                        cyan: { 450: '#00e1ff' }\n                    }\n                }\n            }\n        }\n    }\n</script>\n\n<style>\n    .atlas-about-wrapper { overflow: hidden; }\n    .atlas-about-wrapper .text-glow { \n        text-shadow: 0 0 20px rgba(0, 225, 255, 0.3); \n    }\n    .atlas-about-wrapper .hero-bg-tint {\n        background: linear-gradient(rgba(2, 6, 23, 0.8), rgba(2, 6, 23, 0.9)), url('https://atlasaircons.com/wp-content/uploads/2024/02/Atlas-Aircon-Ac-Service-in-vadodara-2.webp');\n        background-size: cover;\n        background-position: center;\n    }\n    /* Fixed animation */\n    @keyframes fadeInCustom {\n        from { opacity: 0; transform: translateY(10px); }\n        to { opacity: 1; transform: translateY(0); }\n    }\n    .animate-atlas { animation: fadeInCustom 0.8s ease-out forwards; }\n</style>\n\n<div class=\"atlas-about-wrapper bg-white text-slate-800 antialiased selection:bg-cyan-500 selection:text-white\">\n\n    <header class=\"relative hero-bg-tint h-[60vh] flex items-center\">\n        <div class=\"container mx-auto px-6 relative z-10 animate-atlas\">\n            <span class=\"text-cyan-400 font-bold tracking-[0.3em] uppercase text-sm mb-4 block\">Since 1996</span>\n            <h1 class=\"font-display text-5xl md:text-7xl text-white font-bold uppercase leading-none mb-6\">\n                Engineering <br><span class=\"text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 text-glow\">The Climate.</span>\n            </h1>\n            <p class=\"text-slate-400 text-lg max-w-xl border-l-4 border-cyan-500 pl-6\">\n                From high-precision GIDC industrial plants to luxury residential cooling. We don&#8217;t just fix ACs; we master the environment.\n            </p>\n        </div>\n    </header>\n\n    <section class=\"py-20 relative\">\n        <div class=\"container mx-auto px-6\">\n            <div class=\"flex flex-col lg:flex-row gap-16 items-center\">\n                \n                <div class=\"lg:w-1/2 space-y-8\">\n                    <h2 class=\"font-display text-4xl font-bold text-slate-900 uppercase\">\n                        The Vision of <span class=\"text-blue-600\">Mehfuz Shahid</span>\n                    </h2>\n                    <div class=\"text-slate-600 text-lg leading-relaxed\">\n                        <p class=\"text-xl font-medium text-slate-800 mb-4 italic\">\n                            &#8220;A machine is only as good as the engineer who maintains it.&#8221;\n                        </p>\n                        <p class=\"mb-4\">\n                            This is the philosophy that <strong>Mehfuz Shahid</strong> founded Atlas Aircon upon. Starting as a solo technician with a single toolkit in Sayajigunj, he saw a gap in Vadodara&#8217;s market: the lack of <strong>technical honesty</strong>.\n                        </p>\n                        <p>\n                            Today, Mehfuz leads a team of 15+ elite technicians managing infrastructure for Gujarat&#8217;s chemical plants in Nandesari and manufacturing units in Makarpura GIDC. He still personally oversees complex overhauls to ensure the &#8220;Atlas Standard.&#8221;\n                        </p>\n                    </div>\n                    \n                    <div class=\"grid grid-cols-3 gap-6 pt-8 border-t border-slate-100\">\n                        <div>\n                            <span class=\"block text-3xl font-display font-bold text-slate-900\">25+</span>\n                            <span class=\"text-xs font-bold text-slate-400 uppercase tracking-widest\">Years Active</span>\n                        </div>\n                        <div>\n                            <span class=\"block text-3xl font-display font-bold text-slate-900\">10k+</span>\n                            <span class=\"text-xs font-bold text-slate-400 uppercase tracking-widest\">Systems Fixed</span>\n                        </div>\n                        <div>\n                            <span class=\"block text-3xl font-display font-bold text-slate-900\">24/7</span>\n                            <span class=\"text-xs font-bold text-slate-400 uppercase tracking-widest\">GIDC Support</span>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"lg:w-1/2 relative\">\n                    <div class=\"absolute top-0 right-0 w-64 h-64 bg-cyan-100 rounded-full blur-3xl opacity-50 -z-10\"></div>\n                    <div class=\"bg-white p-2 rounded-2xl shadow-2xl transition duration-500\">\n                        <img decoding=\"async\" src=\"https://atlasaircons.com/wp-content/uploads/2025/02/exhausted-man-and-woman-sitting-on-sofa-and-suffer-2024-11-19-09-36-50-utc-scaled.webp\" class=\"w-full rounded-xl grayscale hover:grayscale-0 transition duration-500\" alt=\"Atlas Aircon Engineering Team\" title=\"\">\n                    </div>\n                    <div class=\"absolute -bottom-6 -left-6 bg-slate-900 text-white p-6 rounded-xl shadow-xl max-w-xs\">\n                        <i class=\"fas fa-quote-left text-cyan-400 text-xl mb-3\"></i>\n                        <p class=\"font-display uppercase text-md leading-tight mb-4\">\n                            We don&#8217;t leave until the temperature is exactly where you want it.\n                        </p>\n                        <span class=\"text-cyan-400 text-xs font-bold tracking-widest uppercase\">— Mehfuz Shahid</span>\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-20 bg-slate-50 border-y border-slate-200\">\n        <div class=\"container mx-auto px-6 text-center mb-16\">\n            <span class=\"text-blue-600 font-bold tracking-widest uppercase text-xs\">Technical Authority</span>\n            <h2 class=\"font-display text-4xl font-bold text-slate-900 uppercase mt-2\">\n                Why GIDC Industry Leaders <br>Trust Atlas Aircon\n            </h2>\n        </div>\n\n        <div class=\"container mx-auto px-6 grid md:grid-cols-3 gap-8\">\n            <div class=\"bg-white p-8 rounded-xl border-t-4 border-blue-600 shadow-sm hover:shadow-xl transition group\">\n                <div class=\"w-12 h-12 bg-blue-50 flex items-center justify-center mb-6 group-hover:bg-blue-600 transition\">\n                    <i class=\"fas fa-microchip text-xl text-blue-600 group-hover:text-white\"></i>\n                </div>\n                <h3 class=\"font-display text-xl font-bold mb-3 uppercase italic\">Precision Cooling</h3>\n                <p class=\"text-slate-600 text-sm leading-relaxed\">\n                    We manage critical environments for labs and data centers where thermal stability is non-negotiable.\n                </p>\n            </div>\n\n            <div class=\"bg-white p-8 rounded-xl border-t-4 border-cyan-400 shadow-sm hover:shadow-xl transition group\">\n                <div class=\"w-12 h-12 bg-cyan-50 flex items-center justify-center mb-6 group-hover:bg-cyan-400 transition\">\n                    <i class=\"fas fa-bolt text-xl text-cyan-500 group-hover:text-white\"></i>\n                </div>\n                <h3 class=\"font-display text-xl font-bold mb-3 uppercase italic\">45-Min Response</h3>\n                <p class=\"text-slate-600 text-sm leading-relaxed\">\n                    Our units are deployed strategically to reach Makarpura, Nandesari, and Savli GIDC faster than any local shop.\n                </p>\n            </div>\n\n            <div class=\"bg-white p-8 rounded-xl border-t-4 border-slate-800 shadow-sm hover:shadow-xl transition group\">\n                <div class=\"w-12 h-12 bg-slate-100 flex items-center justify-center mb-6 group-hover:bg-slate-800 transition\">\n                    <i class=\"fas fa-shield-alt text-xl text-slate-800 group-hover:text-white\"></i>\n                </div>\n                <h3 class=\"font-display text-xl font-bold mb-3 uppercase italic\">OEM Authenticity</h3>\n                <p class=\"text-slate-600 text-sm leading-relaxed\">\n                    Zero compromise. We only use OEM-certified parts and high-grade refrigerants for maximum system longevity.\n                </p>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"py-20 bg-slate-900 text-white relative overflow-hidden\">\n        <div class=\"container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center justify-between\">\n            <div class=\"md:w-1/2 mb-10 md:mb-0\">\n                <h2 class=\"font-display text-4xl font-bold uppercase mb-6 leading-tight\">\n                    Active Across <br><span class=\"text-cyan-400\">The Golden Corridor.</span>\n                </h2>\n                <p class=\"text-slate-400 mb-8 max-w-md\">\n                    From chemical hubs in Ankleshwar to corporate towers in Ahmedabad. Our engineering fleet is always on standby.\n                </p>\n                \n                <div class=\"flex flex-wrap gap-3\">\n                    <span class=\"px-4 py-1.5 border border-slate-700 rounded-full text-xs font-bold uppercase tracking-widest\">Vadodara</span>\n                    <span class=\"px-4 py-1.5 border border-slate-700 rounded-full text-xs font-bold uppercase tracking-widest\">Bharuch</span>\n                    <span class=\"px-4 py-1.5 border border-slate-700 rounded-full text-xs font-bold uppercase tracking-widest\">Anand</span>\n                    <span class=\"px-4 py-1.5 border border-slate-700 rounded-full text-xs font-bold uppercase tracking-widest\">Vapi</span>\n                </div>\n            </div>\n\n            <div class=\"md:w-1/3 bg-slate-850 p-8 border-t-4 border-cyan-400 shadow-2xl rounded-lg\">\n                <h3 class=\"font-display text-2xl font-bold uppercase mb-2\">Technical Support</h3>\n                <p class=\"text-slate-400 text-sm mb-6\">Direct access to Mehfuz Shahid&#8217;s team.</p>\n                <div class=\"space-y-4\">\n                    <a href=\"tel:+919727257141\" class=\"block w-full bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-center py-4 rounded uppercase tracking-widest transition\">\n                        Call +91 97272 57141\n                    </a>\n                    <a href=\"https://wa.me/919727257141\" class=\"block w-full border border-slate-600 hover:text-green-400 text-slate-300 font-bold text-center py-4 rounded uppercase tracking-widest transition\" target=\"_blank\" rel=\"noopener\">\n                        WhatsApp Inquiry\n                    </a>\n                </div>\n            </div>\n        </div>\n    </section>\n\n</div>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "Since 1996 Engineering The Climate. From high-precision GIDC industrial plants to luxury residential cooling. We don&#8217;t just fix ACs; we master the environment. The Vision of Mehfuz Shahid &#8220;A machine is only as good as the engineer who maintains it.&#8221; This is the philosophy that Mehfuz Shahid founded Atlas Aircon upon. Starting as a solo [&hellip;]",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_acf_changed": false,
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-4167",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "acf": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/4167",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/comments?post=4167"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/pages/4167/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.atlasaircons.com/wp-json/wp/v2/media?parent=4167"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}
