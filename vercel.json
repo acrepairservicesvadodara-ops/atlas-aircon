@@ -80,7 +80,7 @@
     { "source": "/blog/:slug+/", "destination": "/blogs/", "permanent": true }
   ],
   "rewrites": [
-    { "source": "/:path*", "destination": "/api/gone/?p=/:path*" }
+    { "source": "/:path*", "destination": "/api/gone?p=/:path*" }
   ],
   "headers": [
     {
