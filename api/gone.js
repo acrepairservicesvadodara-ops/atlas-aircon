@@ -22,8 +22,20 @@ const GONE_PATTERNS = [
 ];
 
 module.exports = function handler(req, res) {
-  const rawUrl = req.url || '/';
-  const pathname = rawUrl.split('?')[0] || '/';
+  let pathname = '/';
+  try {
+    const parsed = new URL(req.url || '/', 'https://www.atlasaircons.com');
+    const pParam = parsed.searchParams.get('p');
+    if (pParam) {
+      pathname = pParam.startsWith('/') ? pParam : `/${pParam}`;
+    } else if (req.headers && req.headers['x-vercel-sc-pathname']) {
+      pathname = String(req.headers['x-vercel-sc-pathname']);
+    } else {
+      pathname = parsed.pathname || '/';
+    }
+  } catch {
+    pathname = (req.url || '/').split('?')[0] || '/';
+  }
   const isGone = GONE_PATTERNS.some((re) => re.test(pathname));
   const status = isGone ? 410 : 404;
 
