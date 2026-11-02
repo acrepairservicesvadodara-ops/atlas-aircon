@@ -12,6 +12,16 @@ allFaultCodes.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
   title="AC Fault Codes & Error Diagnostics | Atlas Aircon"
   description="Comprehensive database of AC error codes for Daikin, O General, Voltas, and more. Learn what they mean and how Atlas Aircon fixes them."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.atlasaircons.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Fault Codes", "item": "https://www.atlasaircons.com/fault-codes/" }
+      ]
+    })} />
+  </Fragment>
   <section class="page-header">
     <div class="header-bg"></div>
     <div class="container relative z-10 text-center">

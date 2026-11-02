@@ -1,0 +1,136 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+import WhatsAppForm from '@components/WhatsAppForm.astro';
+
+const testimonials = [
+  {
+    name: 'Rajeshbhai Patel',
+    role: 'Homeowner • Alkapuri, Vadodara',
+    service: 'Daikin Inverter PCB Micro-Repair',
+    quote: 'An authorized mechanic quoted ₹11,200 to replace our entire outdoor inverter board for a U4 fault. Atlas Aircon diagnosed a blown communication optocoupler and repaired the original board for ₹2,200 within two hours. Still cooling flawlessly through 45°C May afternoons.',
+  },
+  {
+    name: 'Mehul Shah',
+    role: 'Plant Utility Head • Makarpura GIDC',
+    service: '35 TR Water-Cooled Chiller Descaling & Recovery',
+    quote: 'Our injection molding chiller tripped on high head pressure during a night shift. Atlas Aircon arrived at 1:15 AM with descaling pumps and nitrogen testing gear, restored normal condensing approach by 4:30 AM, and saved an entire export production batch.',
+  },
+  {
+    name: 'Dr. Priya Nair',
+    role: 'Clinic Director • Subhanpura, Vadodara',
+    service: '4-Way Cassette AC Overhaul & AMC',
+    quote: 'Water dripping from ceiling cassettes used to disrupt patient consultations every monsoon. Atlas Aircon sanitized the lift pumps, calibrated float switches across all 6 units, and put us on a quarterly preventive schedule—zero breakdowns in 14 months.',
+  },
+  {
+    name: 'Krunal Desai',
+    role: 'Facility Manager • Savli–Manjusar GIDC',
+    service: 'Rittal & Advance Panel AC Maintenance',
+    quote: 'VFD cabinets on our CNC line were tripping at 2 PM daily. Their team degreased oil-fouled condensers, replaced worn axial fans, and sealed door interlocks across 14 enclosure coolers. Shop-floor spindle uptime is back to 100%.',
+  },
+  {
+    name: 'Sonalben Joshi',
+    role: 'Apartment Resident • Gotri–Bhayli Road',
+    service: 'Vacuum-Verified R32 Gas Charging & Jet Wash',
+    quote: 'Two previous local technicians topped up gas without finding the leak. Atlas Aircon pressurized the copper flare lines with 350 PSI dry nitrogen, fixed a cracked flare nut, pulled a 45-minute digital vacuum, and weighed in pure R32 with a 90-day written warranty.',
+  },
+  {
+    name: 'Harish Verma',
+    role: 'Showroom Owner • Sayajigunj, Vadodara',
+    service: 'Ductable & Split AC Annual Maintenance',
+    quote: 'Transparent rate card, uniformed technicians who use 360-degree waterproof cleaning jackets so walls stay spotless, and proper GST tax invoices every quarter. Easily the most disciplined HVAC engineering team in Vadodara.',
+  },
+];
+
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Client Testimonials', item: 'https://www.atlasaircons.com/testimonials/' },
+  ],
+};
+---
+
+<BaseLayout
+  title="Client Testimonials & Verified Service Reviews | Atlas Aircon Vadodara"
+  description="Read verified feedback from Vadodara homeowners, clinics, corporate offices, and GIDC manufacturing plants served by Atlas Aircon's 24/7 HVAC engineers."
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
+
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 hero-grid">
+      <div>
+        <div class="section-badge"><Icon name="shield" size={14} strokeWidth={2} /> Verified Customer Feedback</div>
+        <h1 class="page-title">Client <span>Testimonials</span></h1>
+        <p class="hero-intro">
+          Why thousands of households in Vadodara and industrial plants across Makarpura, Savli, Por, Halol, Nandesari, and Dahej GIDC trust Atlas Aircon for precision cooling repairs, honest diagnostics, and written service warranties.
+        </p>
+      </div>
+      <div>
+        <WhatsAppForm />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="rev-grid">
+        {testimonials.map((t) => (
+          <article class="card rev-card">
+            <div class="rev-tag">{t.service}</div>
+            <p class="rev-quote">“{t.quote}”</p>
+            <div class="rev-author">
+              <strong>{t.name}</strong>
+              <span>{t.role}</span>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <div class="card standards-card">
+        <h2>Our 4-Pillar Customer Accountability Charter</h2>
+        <p>
+          Every service call dispatched from our Sayajigunj engineering hub follows strict instrument-verified protocols. Whether servicing a 1.5-Ton bedroom split AC or a 100-TR pharmaceutical brine chiller, our engineers document pre-repair and post-repair amperage, manifold pressures, and supply-air Delta-T before closing a job ticket.
+        </p>
+        <ul>
+          <li><strong>Upfront Rate-Card Transparency:</strong> Diagnosis and exact part/labor quote approved before any tool touches your unit—zero surprise charges.</li>
+          <li><strong>Component-Level Honesty:</strong> Micro-soldering inverter PCBs and brazing copper coils whenever safe and economical rather than pushing costly assemblies.</li>
+          <li><strong>Mandatory Nitrogen & Micron Vacuuming:</strong> Zero air-purging shortcuts on R32, R410A, R134a, or R404A refrigeration circuits.</li>
+          <li><strong>90-Day Written Service Warranty:</strong> Free priority revisit if the rectified technical symptom recurs within the warranty window.</li>
+        </ul>
+        <div class="cta-links">
+          <a href="/book-appointment/" class="btn btn-primary">Book Service Visit</a>
+          <a href="/recent-projects/" class="btn btn-outline">Browse Field Case Logs</a>
+          <a href="/ac-repair-cost-vadodara/" class="btn btn-outline">View Official Price List</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { position: relative; padding: var(--space-16) 0 var(--space-12); overflow: hidden; }
+  .header-bg { position: absolute; inset: 0; background: radial-gradient(ellipse at top left, rgba(6,182,212,0.14) 0%, transparent 65%), var(--color-navy); }
+  .hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: var(--space-8); align-items: center; }
+  .page-title { font-family: 'Poppins', sans-serif; font-size: clamp(2.2rem, 4vw, 3.4rem); font-weight: 800; color: #f8fafc; margin: var(--space-3) 0; }
+  .page-title span { color: #22d3ee; }
+  .hero-intro { color: var(--color-text-secondary); line-height: 1.75; }
+  .rev-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: var(--space-6); margin-bottom: var(--space-10); }
+  .rev-card { padding: var(--space-6); display: flex; flex-direction: column; gap: var(--space-4); }
+  .rev-tag { align-self: flex-start; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #06b6d4; background: rgba(6,182,212,0.12); padding: 4px 10px; border-radius: 999px; }
+  .rev-quote { color: #e2e8f0; line-height: 1.7; font-size: var(--text-sm); flex-grow: 1; margin: 0; }
+  .rev-author { display: flex; flex-direction: column; border-top: 1px solid var(--color-border); padding-top: var(--space-3); }
+  .rev-author strong { color: #f8fafc; font-size: var(--text-base); }
+  .rev-author span { color: var(--color-text-muted); font-size: var(--text-xs); }
+  .standards-card { padding: var(--space-8); }
+  .standards-card h2 { color: #f8fafc; margin-bottom: var(--space-3); }
+  .standards-card p, .standards-card li { color: var(--color-text-secondary); line-height: 1.8; }
+  .standards-card ul { padding-left: 1.25rem; display: grid; gap: var(--space-2); margin: var(--space-4) 0 var(--space-6); }
+  .cta-links { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+  @media (max-width: 960px) { .hero-grid { grid-template-columns: 1fr; } }
+</style>
+

@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "adhunik-panel-ac-restoration-at-fag-schaeffler-manjusar-gidc-precision-cooling",
+    "title": "Adhunik Panel AC Restoration at Industrial Bearing Line, Manjusar GIDC",
+    "location": "Manjusar GIDC, Savli",
+    "serviceType": "Industrial Panel AC",
+    "date": "2026-07-12",
+    "summary": "Restored closed-loop 2,500W enclosure panel air conditioner protecting high-precision CNC grinding VFD drives from 47°C shop-floor heat.",
+    "problem": "High-pressure alarm trips every 40 minutes due to coolant-mist fouled condenser fins and weakened axial fan capacitor.",
+    "solution": "Degreased condenser coil with non-caustic solvent, replaced high-temperature axial blower capacitor, nitrogen leak-tested R134a circuit, evacuated to 420 microns, and recharged exact factory weight — stabilizing cabinet internal temperature at 33.2°C."
+  },
+  {
+    "slug": "cold-room-installation-system-overhaul-in-asoj-kattha-manufacturing-facility",
+    "title": "Cold Room Installation & Refrigeration Overhaul in Asoj Processing Facility",
+    "location": "Asoj, Vadodara–Halol Highway",
+    "serviceType": "Cold Storage & Chiller",
+    "date": "2026-07-19",
+    "summary": "Complete refrigeration circuit overhaul, TXV calibration, and PUF sealing restoration for a continuous-duty industrial cold chamber in Asoj.",
+    "problem": "Chamber unable to pull below +9°C against a +2°C process requirement due to moisture-iced TXV orifice and worn compressor suction reed valves.",
+    "solution": "Installed new Danfoss thermostatic expansion valve + sweat liquid-line filter drier, overhauled condensing unit fan controls, pressure-tested at 350 PSI nitrogen, evacuated below 400 microns, and commissioned steady +1.8°C holding temperature."
+  },
+  {
+    "slug": "commercial-ac-repair-in-fatehgunj-vadodara-21-unit-overhaul",
+    "title": "Commercial AC Overhaul in Fatehgunj, Vadodara — 21-Unit Corporate Office",
+    "location": "Fatehgunj, Vadodara",
+    "serviceType": "Commercial AMC & Overhaul",
+    "date": "2026-07-26",
+    "summary": "Weekend turnaround overhauling 21 split and cassette air conditioners across a 3-floor commercial facility in Fatehgunj with zero business-hour disruption.",
+    "problem": "Uneven cabin cooling, 4 units dripping condensate onto false ceilings, and 3 outdoor inverter units tripping on high head pressure.",
+    "solution": "Performed 360-degree bib foam-jet coil cleaning on all 21 units, cleared algae-blocked condensate lift pumps, repaired 2 outdoor inverter PCBs, and balanced refrigerant charges — cutting floor power draw by 21%."
+  },
+  {
+    "slug": "emergency-dispatch-2-ton-inverter-ac-gas-charging-servicing-in-alkapuri-vadodara",
+    "title": "Emergency Dispatch: 2-Ton Inverter AC Gas Charging & Servicing in Alkapuri, Vadodara",
+    "location": "Alkapuri, Vadodara",
+    "serviceType": "Gas Charging & Jet Service",
+    "date": "2026-08-03",
+    "summary": "Same-afternoon recovery of a 2-Ton R32 inverter split AC showing zero cooling and EC/U0 low-gas lockout in Alkapuri.",
+    "problem": "Cracked 1/2-inch brass flare nut at outdoor service valve had vented refrigerant charge over two months.",
+    "solution": "Cut pipe end clean, forged fresh 45-degree eccentric flare with calibrated torque wrench, passed 350 PSI dry nitrogen bubble & pressure-drop test, pulled 45-minute two-stage vacuum, and weighed in 920g virgin R32."
+  },
+  {
+    "slug": "emergency-dispatch-inverter-ac-pcb-circuit-repair-in-ajwa-road-vadodara",
+    "title": "Emergency Dispatch: Inverter AC PCB Circuit Repair on Ajwa Road, Vadodara",
+    "location": "Ajwa Road, Vadodara",
+    "serviceType": "Inverter PCB Micro-Repair",
+    "date": "2026-08-09",
+    "summary": "Component-level outdoor inverter PCB repair saving a residential customer ₹9,500 over full OEM board replacement on Ajwa Road.",
+    "problem": "Monsoon grid voltage spike blew primary MOV varistor, PCB track fuse, and serial communication optocoupler (E6/U4 lockout).",
+    "solution": "Reconstructed fused copper trace, soldered new switching regulator IC, high-isolation optocouplers, and surge protection stage, bench-tested on simulator compressor, and reinstalled same evening with 90-day warranty."
+  },
+  {
+    "slug": "industrial-dispatch-control-panel-ac-repair-servicing-in-makarpura-gidc",
+    "title": "Industrial Dispatch: Control Panel AC Repair & Servicing in Makarpura GIDC",
+    "location": "Makarpura GIDC, Vadodara",
+    "serviceType": "Panel AC Repair",
+    "date": "2026-08-15",
+    "summary": "Urgent 60-minute dispatch to a CNC machining plant in Makarpura GIDC after spindle drive over-temperature alarm halted production.",
+    "problem": "Enclosure cooler evaporator iced solid due to failed internal circulation fan and open door-interlock switch admitting humid factory air.",
+    "solution": "Replaced ball-bearing enclosure circulation blower, wired new door limit cut-out switch, chemically cleaned oil-coated condenser coil, and restored 34°C cabinet temperature within 2 hours."
+  },
+  {
+    "slug": "inverter-ac-pcb-repair-gas-charge-in-sayajigunj-vadodara",
+    "title": "Inverter AC PCB Repair & Precision R32 Gas Charge in Sayajigunj, Vadodara",
+    "location": "Sayajigunj, Vadodara",
+    "serviceType": "PCB & Refrigerant Recovery",
+    "date": "2026-08-21",
+    "summary": "Dual-fault resolution on a commercial showroom 1.5-Ton inverter AC in Sayajigunj suffering IPM current trips and low suction pressure.",
+    "problem": "Partially restricted capillary strainer combined with undercharge caused compressor overheating and outdoor IPM fault.",
+    "solution": "Flushed liquid line with dry nitrogen, replaced strainer, repaired IPM gate-drive resistor network on outdoor board, evacuated to 450 microns, and weighed in factory R32 specification — achieving 8.8°C grill air."
+  },
+  {
+    "slug": "lloyd-inverter-ac-precision-repair-service-in-maneja-vadodara",
+    "title": "Lloyd Inverter AC Precision Repair & Service in Maneja, Vadodara",
+    "location": "Maneja, Vadodara",
+    "serviceType": "Inverter AC Repair",
+    "date": "2026-08-28",
+    "summary": "Resolved intermittent E2/E5 shutdowns and weak afternoon cooling on a 1.5-Ton Lloyd heavy-duty inverter split AC in Maneja.",
+    "problem": "Degraded SMD zero-crossing resistor on indoor PCB paired with heavy construction dust packing the outdoor condenser fins.",
+    "solution": "Micro-soldered fresh precision SMD resistor network on indoor controller, executed high-pressure outdoor coil wash, verified 228V supply stability, and restored rapid 16°C Delta-T cooling."
+  },
+  {
+    "slug": "lloyd-inverter-ac-repair-gas-refilling-in-gotri-residential-cooling-restoration",
+    "title": "Lloyd Inverter AC Repair & Gas Refilling in Gotri — Residential Cooling Restoration",
+    "location": "Gotri, Vadodara",
+    "serviceType": "Gas Refilling & Leak Fix",
+    "date": "2026-09-04",
+    "summary": "Permanent silver-brazed U-bend leak repair and full R32 vacuum gas charging for an apartment homeowner in Gotri.",
+    "problem": "Formicary pinhole corrosion on indoor evaporator return bend caused recurring gas loss within weeks of previous local top-ups.",
+    "solution": "Dismantled evaporator coil, pressurized to 350 PSI dry nitrogen in water tank to pinpoint exact pinhole, silver-brazed bend with protective coating, evacuated below 500 microns, and charged virgin R32 by weight."
+  },
+  {
+    "slug": "mitsibushi-cassette-ac-precision-repair-service-in-subhanpura",
+    "title": "Mitsubishi Cassette AC Precision Repair & Drain Pump Service in Subhanpura",
+    "location": "Subhanpura, Vadodara",
+    "serviceType": "4-Way Cassette AC",
+    "date": "2026-09-11",
+    "summary": "Restored 3.0-Ton Mitsubishi ceiling cassette AC in a Subhanpura clinic experiencing float-switch cutoffs and P8 cooling error.",
+    "problem": "Biofilm sludge jammed the condensate lift pump float sensor while a loose outdoor flare fitting lowered R410A operating pressure.",
+    "solution": "Removed decorative grille, sanitized drain sump and lift-pump impeller, torqued flare nut, evacuated and weighed R410A in liquid phase, and verified balanced 4-way louver airflow with zero ceiling leakage."
+  },
+  {
+    "slug": "panasonic-inverter-ac-repair-and-service-in-manjalpur",
+    "title": "Panasonic Inverter AC Repair (H11 / F97 Fix) & Jet Service in Manjalpur",
+    "location": "Manjalpur, Vadodara",
+    "serviceType": "Brand AC Repair",
+    "date": "2026-09-19",
+    "summary": "Fixed Panasonic Econavi 1.5-Ton split AC displaying H11 communication fault and afternoon compressor overheat cutoffs in Manjalpur.",
+    "problem": "Corroded terminal-3 data wire splice in exterior wall sleeve plus matted dust blanket on top-floor terrace outdoor unit.",
+    "solution": "Pulled continuous joint-free 4-core copper communication cable, repaired outdoor PCB surge diode, foam-jet washed indoor & outdoor coils, and verified whisper-quiet cooling at 4.1 Amps steady draw."
+  }
+]

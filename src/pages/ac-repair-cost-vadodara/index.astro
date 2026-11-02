@@ -15,8 +15,18 @@ const prices = [
 
 <BaseLayout
   title="AC Repair Cost in Vadodara | Atlas Aircon Price List"
-  description="Transparent and upfront pricing for AC repair, gas charging, and installation in Vadodara. No hidden charges. View our 2024 price list."
+  description="Transparent and upfront pricing for AC repair, gas charging, and installation in Vadodara. No hidden charges. View our official rate card."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.atlasaircons.com/" },
+        { "@type": "ListItem", "position": 2, "name": "AC Repair Price List", "item": "https://www.atlasaircons.com/ac-repair-cost-vadodara/" }
+      ]
+    })} />
+  </Fragment>
   <section class="page-header">
     <div class="header-bg"></div>
     <div class="container relative z-10 text-center">

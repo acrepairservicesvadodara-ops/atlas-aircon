@@ -13,12 +13,39 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+const canonicalUrl = `https://www.atlasaircons.com/recent-projects/${entry.slug}/`;
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article',
+      '@id': `${canonicalUrl}#article`,
+      mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
+      headline: entry.data.title,
+      description: entry.data.description,
+      datePublished: entry.data.date.toISOString(),
+      author: { '@type': 'Organization', name: 'Atlas Aircon', url: 'https://www.atlasaircons.com/' },
+      publisher: { '@id': 'https://www.atlasaircons.com/#organization' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Recent Projects', item: 'https://www.atlasaircons.com/recent-projects/' },
+        { '@type': 'ListItem', position: 3, name: entry.data.title, item: canonicalUrl },
+      ],
+    },
+  ],
+};
 ---
 
 <BaseLayout
   title={`${entry.data.title} | Atlas Aircon Daily Ops`}
   description={entry.data.description}
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
   <article class="article-container">
     <header class="article-header text-center">
       <div class="meta-badges">

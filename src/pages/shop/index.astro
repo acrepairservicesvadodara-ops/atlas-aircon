@@ -52,6 +52,16 @@ const products = [
   title="Atlas Aircon Shop | Genuine Spares"
   description="Purchase genuine OEM AC spare parts, PCBs, remote controls, and accessories directly from Atlas Aircon."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.atlasaircons.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Spare Parts Shop", "item": "https://www.atlasaircons.com/shop/" }
+      ]
+    })} />
+  </Fragment>
   <section class="page-header">
     <div class="header-bg"></div>
     <div class="container relative z-10 text-center">

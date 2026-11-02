@@ -75,6 +75,28 @@ const stats = [
   title="AC Repair, Service & Installation In Vadodara | Atlas Aircon"
   description="Need urgent AC repair, service, or new installation in Vadodara? Atlas Aircon provides 24/7 expert cooling solutions for residential and industrial HVAC."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.atlasaircons.com/#home-service",
+      "name": "24/7 AC Repair, Installation & Industrial HVAC Services in Vadodara & Gujarat",
+      "provider": { "@id": "https://www.atlasaircons.com/#organization" },
+      "areaServed": [
+        { "@type": "City", "name": "Vadodara" },
+        { "@type": "State", "name": "Gujarat" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "HVAC Engineering Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "120-Bar Power Jet AC Deep Cleaning" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Inverter PCB Component-Level Repair" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Industrial Chiller & VRF Maintenance" } }
+        ]
+      }
+    })} />
+  </Fragment>
 
   <!-- ===================== HERO ===================== -->
   <section class="hero" id="hero">

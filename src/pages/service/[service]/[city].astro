@@ -112,6 +112,11 @@ const faqs = [
   }
 ];
 
+const svcIdx = services.findIndex((s) => s.slug === svc.slug);
+const relatedServicesInCity = Array.from({ length: 6 }, (_, k) => services[(svcIdx + k + 1) % services.length]);
+const locIdx = locations.findIndex((l) => l.slug === loc.slug);
+const nearbyLocationsForSvc = Array.from({ length: 8 }, (_, k) => locations[(locIdx + k + 1) % locations.length]);
+
 const schemaData = {
   "@context": "https://schema.org",
   "@graph": [
@@ -187,8 +192,9 @@ const schemaData = {
   title={`#1 ${svc.name} in ${city} | 24/7 HVAC Engineers | Atlas Aircon`}
   description={`Looking for professional ${svc.name} in ${city}? Atlas Aircon delivers instrument-verified ${svc.shortTitle.toLowerCase()}, arrival in ${slaTime}, and 90-day written warranty. Book via WhatsApp today.`}
 >
-  <!-- Schema.org JSON-LD -->
-  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
 
   <!-- ===================== HERO SECTION ===================== -->
   <section class="service-city-hero">
@@ -462,6 +468,47 @@ const schemaData = {
             </p>
           </div>
         ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INTERNAL CROSS-LINKING HUB ===================== -->
+  <section class="section">
+    <div class="container max-w-5xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="card p-6">
+          <h3 class="text-base font-bold text-white mb-2">Other HVAC Services in {city}</h3>
+          <p class="text-xs text-slate-400 mb-3">
+            Explore our <a href={`/ac-repair-${loc.slug}/`} class="text-cyan-400 hover:underline">{city} HVAC Dispatch Hub</a> or select another division:
+          </p>
+          <div class="flex flex-wrap gap-2">
+            {relatedServicesInCity.map((rs) => (
+              <a
+                href={`/service/${rs.slug}/${loc.slug}/`}
+                class="text-xs bg-slate-800/80 hover:bg-cyan-950 text-slate-300 hover:text-cyan-400 px-2.5 py-1.5 rounded border border-slate-700/60 transition-colors"
+              >
+                {rs.shortTitle}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div class="card p-6">
+          <h3 class="text-base font-bold text-white mb-2">Nearby Dispatch Zones for {svc.shortTitle}</h3>
+          <p class="text-xs text-slate-400 mb-3">
+            View <a href={`/services/${svc.slug}/`} class="text-cyan-400 hover:underline">{svc.shortTitle} Master Guide</a> or nearby areas:
+          </p>
+          <div class="flex flex-wrap gap-2">
+            {nearbyLocationsForSvc.map((nl) => (
+              <a
+                href={`/service/${svc.slug}/${nl.slug}/`}
+                class="text-xs bg-slate-800/80 hover:bg-cyan-950 text-slate-300 hover:text-cyan-400 px-2.5 py-1.5 rounded border border-slate-700/60 transition-colors"
+              >
+                {nl.name}
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   </section>

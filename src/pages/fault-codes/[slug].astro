@@ -5,20 +5,55 @@ import Icon from '@components/Icon.astro';
 
 export async function getStaticPaths() {
   const faultCodes = await getCollection('fault-codes');
-  return faultCodes.map(entry => ({
+  return faultCodes.map((entry, idx) => ({
     params: { slug: entry.slug },
-    props: { entry },
+    props: {
+      entry,
+      related: [
+        faultCodes[(idx + 1) % faultCodes.length],
+        faultCodes[(idx + 2) % faultCodes.length],
+        faultCodes[(idx + 3) % faultCodes.length],
+        faultCodes[(idx + 4) % faultCodes.length],
+      ],
+    },
   }));
 }
 
-const { entry } = Astro.props;
+const { entry, related } = Astro.props;
 const { Content } = await entry.render();
+const canonicalUrl = `https://www.atlasaircons.com/fault-codes/${entry.slug}/`;
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'TechArticle',
+      '@id': `${canonicalUrl}#article`,
+      mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
+      headline: entry.data.title,
+      description: entry.data.description,
+      datePublished: entry.data.date.toISOString(),
+      author: { '@type': 'Organization', name: 'Atlas Aircon', url: 'https://www.atlasaircons.com/' },
+      publisher: { '@id': 'https://www.atlasaircons.com/#organization' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+        { '@type': 'ListItem', position: 2, name: 'AC Fault Codes', item: 'https://www.atlasaircons.com/fault-codes/' },
+        { '@type': 'ListItem', position: 3, name: entry.data.title, item: canonicalUrl },
+      ],
+    },
+  ],
+};
 ---
 
 <BaseLayout
   title={`${entry.data.title} | Atlas Aircon Diagnostics`}
   description={entry.data.description}
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
   <article class="article-container">
     <header class="article-header text-center">
       <div class="brand-badge">{entry.data.brand}</div>
@@ -42,8 +77,26 @@ const { Content } = await entry.render();
         <a href="tel:+919727257141" class="btn btn-primary">
           <Icon name="phone" size={16} /> Call Engineer
         </a>
+        <a href="/fault-codes/" class="btn btn-outline" style="margin-left: 12px;">
+          All Fault Codes
+        </a>
       </div>
     </div>
+
+    {related?.length > 0 && (
+      <section class="card mt-12 p-8">
+        <h3>Related AC Error Diagnostics</h3>
+        <ul style="list-style:none;padding:0;margin:1rem 0 0;display:grid;gap:0.75rem;">
+          {related.map((r: any) => (
+            <li>
+              <a href={`/fault-codes/${r.slug}/`} style="color:#22d3ee;text-decoration:none;font-weight:600;">
+                [{r.data.brand}] {r.data.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </article>
 </BaseLayout>
 

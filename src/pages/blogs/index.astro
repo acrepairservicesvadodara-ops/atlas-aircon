@@ -1,61 +1,76 @@
 ---
+import fs from 'node:fs';
+import path from 'node:path';
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Icon from '@components/Icon.astro';
 
-const posts = [
-  {
-    title: 'Why Is My AC Tripping the Circuit Breaker?',
-    excerpt: 'Frequent MCB trips usually indicate a failing compressor drawing too many amps, or a short circuit in the outdoor condenser fan.',
-    date: 'Apr 12, 2024',
-    author: 'Atlas Engineering Team'
-  },
-  {
-    title: 'The Hidden Dangers of Low Refrigerant',
-    excerpt: 'Running an AC with low gas doesn’t just blow warm air—it freezes the evaporator coils and can permanently seize the compressor.',
-    date: 'Mar 28, 2024',
-    author: 'Atlas Engineering Team'
-  },
-  {
-    title: 'How Often Should Commercial Chillers Be Serviced?',
-    excerpt: 'For GIDC industrial plants, preventative maintenance schedules should be strictly adhered to every 30-45 days to prevent critical failures.',
-    date: 'Feb 15, 2024',
-    author: 'Atlas Engineering Team'
-  },
-  {
-    title: 'Inverter ACs: Are They Worth the Extra Cost?',
-    excerpt: 'An analysis of energy savings, ROI, and why the voltage fluctuations in Gujarat require specialized PCB protection.',
-    date: 'Jan 10, 2024',
-    author: 'Atlas Engineering Team'
-  }
-];
+const decode = (s: string) =>
+  s
+    .replace(/&#0*38;|&amp;/g, '&')
+    .replace(/&#8217;|&#8216;|&#0*39;/g, "'")
+    .replace(/&#8220;|&#8221;|&quot;/g, '"')
+    .replace(/&#8211;|&#8212;/g, '-')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+const rawPosts = JSON.parse(fs.readFileSync(path.resolve('wp-export/posts.json'), 'utf8'));
+const posts = rawPosts
+  .map((it: any) => {
+    const pathname = decodeURIComponent(new URL(it.link).pathname);
+    return {
+      path: pathname,
+      title: decode(it.title?.rendered || ''),
+      excerpt: decode(it.excerpt?.rendered || it.content?.rendered || '').slice(0, 165) + '…',
+      dateRaw: it.date || '2025-01-01',
+      date: it.date
+        ? new Date(it.date).toLocaleDateString('en-IN', { year: 'numeric', month: 'short', day: 'numeric' })
+        : 'Atlas Engineering',
+    };
+  })
+  .filter((p: any) => p.title && p.path && p.path !== '/')
+  .sort((a: any, b: any) => new Date(b.dateRaw).valueOf() - new Date(a.dateRaw).valueOf());
+
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Blogs', item: 'https://www.atlasaircons.com/blogs/' },
+  ],
+};
 ---
 
 <BaseLayout
-  title="Atlas Aircon Blog | HVAC Tips & News"
-  description="Read the latest news, tips, and insights on air conditioning maintenance and energy efficiency from the engineers at Atlas Aircon."
+  title="Atlas Aircon Blog | HVAC Maintenance, Repair & Engineering Guides"
+  description="Read practical guides, AC troubleshooting tips, GIDC chiller insights, and energy-saving advice from Atlas Aircon's senior HVAC engineers in Vadodara."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
+
   <section class="page-header">
     <div class="header-bg"></div>
     <div class="container relative z-10 text-center">
-      <div class="section-badge"><Icon name="file-text" size={14} strokeWidth={2} /> Engineering Insights</div>
+      <div class="section-badge"><Icon name="file-text" size={14} strokeWidth={2} /> Engineering Insights ({posts.length} Articles)</div>
       <h1 class="page-title">Atlas <span>Blog</span></h1>
-      <p class="page-subtitle">Maintenance tips and industry news.</p>
+      <p class="page-subtitle">Practical AC maintenance tips, troubleshooting guides, and Gujarat HVAC insights.</p>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
       <div class="blog-grid">
-        {posts.map((post) => (
-          <a href="#" class="blog-card card">
+        {posts.map((post: any) => (
+          <a href={post.path} class="blog-card card">
             <div class="blog-meta">
               <span><Icon name="calendar" size={12} /> {post.date}</span>
             </div>
-            <h3 class="blog-title">{post.title}</h3>
+            <h2 class="blog-title">{post.title}</h2>
             <p class="blog-excerpt">{post.excerpt}</p>
             <div class="blog-author">
               <div class="author-avatar"><Icon name="user" size={16} /></div>
-              <span>{post.author}</span>
+              <span>Atlas Engineering Team</span>
             </div>
           </a>
         ))}
@@ -91,26 +106,22 @@ const posts = [
     font-size: var(--text-lg);
     color: var(--color-text-secondary);
   }
-  
   .blog-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: var(--space-8);
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: var(--space-6);
   }
-  
   .blog-card {
     display: flex;
     flex-direction: column;
-    padding: var(--space-8);
+    padding: var(--space-6);
     text-decoration: none;
     transition: transform var(--transition-base), box-shadow var(--transition-base);
   }
-  
   .blog-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.3), 0 0 0 1px rgba(6,182,212,0.3);
   }
-  
   .blog-meta {
     display: flex;
     align-items: center;
@@ -118,55 +129,41 @@ const posts = [
     font-size: 0.8rem;
     color: var(--color-text-muted);
     font-weight: 600;
-    margin-bottom: var(--space-4);
+    margin-bottom: var(--space-3);
   }
-  
-  .blog-meta span {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-  
   .blog-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--text-xl);
+    font-family: var(--font-heading);
+    font-size: var(--text-lg);
     font-weight: 700;
-    color: #F8FAFC;
-    margin: 0 0 var(--space-3);
-    line-height: 1.4;
+    color: var(--color-text-primary);
+    line-height: 1.35;
+    margin-bottom: var(--space-3);
   }
-  
   .blog-excerpt {
-    color: var(--color-text-secondary);
     font-size: var(--text-sm);
-    line-height: 1.7;
-    margin: 0 0 var(--space-6);
+    color: var(--color-text-secondary);
+    line-height: 1.6;
     flex-grow: 1;
+    margin-bottom: var(--space-5);
   }
-  
   .blog-author {
     display: flex;
     align-items: center;
     gap: var(--space-3);
-    border-top: 1px solid rgba(255,255,255,0.05);
-    padding-top: var(--space-4);
-    margin-top: auto;
+    font-size: var(--text-xs);
+    color: var(--color-gold);
+    font-weight: 600;
+    padding-top: var(--space-3);
+    border-top: 1px solid rgba(255,255,255,0.06);
   }
-  
   .author-avatar {
-    width: 32px;
-    height: 32px;
-    background: rgba(6,182,212,0.1);
-    color: #06B6D4;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
+    background: rgba(6,182,212,0.12);
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .blog-author span {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: #E2E8F0;
+    color: #22d3ee;
   }
 </style>

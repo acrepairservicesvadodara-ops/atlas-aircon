@@ -7,6 +7,16 @@ import Icon from '@components/Icon.astro';
   title="Contact Us | Atlas Aircon Vadodara"
   description="Contact Atlas Aircon for emergency AC repairs, installations, and industrial HVAC maintenance in Vadodara. Available 24/7."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.atlasaircons.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://www.atlasaircons.com/contact-us/" }
+      ]
+    })} />
+  </Fragment>
   <!-- Page Header -->
   <section class="page-header">
     <div class="header-bg"></div>

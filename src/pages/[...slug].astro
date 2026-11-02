@@ -1,21 +1,53 @@
 ---
-// Catch-all route: renders every WordPress page/post at its ORIGINAL URL.
-// CONTENT = exact text/headings/lists/tables/images from WordPress (cleaned of WP/Tailwind markup).
+// Catch-all route: renders every WordPress page/post at its ORIGINAL URL + restored root pages.
+// CONTENT = exact text/headings/lists/tables/images from WordPress (cleaned of WP/Tailwind markup)
+//           plus structured engineering content for restored & enriched pages.
 // UI      = this Astro site's own design system (BaseLayout, page-header, cards, CTA).
-// Hand-built Astro pages (e.g. /about-us/, /ac-repair-[city]) take priority over this route.
 import fs from 'node:fs';
 import path from 'node:path';
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Icon from '@components/Icon.astro';
 import WhatsAppForm from '@components/WhatsAppForm.astro';
 import { cleanWpHtml } from '../lib/wp-clean';
-import { wpEntries, relatedFor } from '../lib/wp-data';
+import { wpEntries, relatedFor, REMOVED_WP_SLUGS } from '../lib/wp-data';
+import locations from '@data/locations.json';
 
 export async function getStaticPaths() {
   const dir = path.resolve('wp-export');
   const read = (f: string) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
   const seoFile = path.join(dir, 'seo.json');
   const seo: Record<string, any> = fs.existsSync(seoFile) ? read('seo.json') : {};
+
+  // Dedicated Astro routes that take precedence over [...slug].astro
+  const handBuiltSlugs = new Set<string>([
+    '404',
+    'about-us',
+    'ac-gas-charging',
+    'ac-installation',
+    'ac-power-calculator',
+    'ac-repair-cost-vadodara',
+    'ac-technician-jobs',
+    'ac-tonnage-calculator',
+    'blogs',
+    'book-appointment',
+    'cassette-ac-service',
+    'contact-us',
+    'fault-codes',
+    'franchise',
+    'gallery',
+    'industrial-hvac',
+    'inverter-pcb-repair',
+    'privacy-policy',
+    'recent-projects',
+    'service-areas',
+    'services',
+    'shop',
+    'sitemap',
+    'terms-and-conditions',
+    'testimonials',
+    'wiki',
+    ...locations.map((l) => `ac-repair-${l.slug}`),
+  ]);
 
   const items = [...read('pages.json'), ...read('posts.json')];
   const seen = new Set<string>();
@@ -24,7 +56,9 @@ export async function getStaticPaths() {
   for (const it of items) {
     const p = new URL(it.link).pathname; // e.g. /ac-repair-vadodara/
     const slug = decodeURIComponent(p).replace(/^\/|\/$/g, '');
-    if (!slug || seen.has(slug)) continue; // "/" is handled by index.astro
+    if (!slug || seen.has(slug) || REMOVED_WP_SLUGS.has(slug) || handBuiltSlugs.has(slug)) continue;
+    const itemSeo = seo[p] ?? null;
+    if (itemSeo?.noindex) continue;
     seen.add(slug);
     out.push({
       params: { slug },
@@ -34,60 +68,268 @@ export async function getStaticPaths() {
         excerpt: it.excerpt?.rendered as string,
         date: it.date as string,
         modified: it.modified as string,
-        seo: seo[p] ?? null,
+        seo: itemSeo,
         type: it.type as string,
+        restored: null,
       },
     });
   }
+
+  // Add all restored root-level HVAC service, equipment, spare-part, and technical guide pages
+  const restoredFile = path.resolve('src/data/restored-pages.json');
+  if (fs.existsSync(restoredFile)) {
+    const restoredItems = JSON.parse(fs.readFileSync(restoredFile, 'utf8'));
+    for (const r of restoredItems) {
+      if (!r.slug || seen.has(r.slug) || REMOVED_WP_SLUGS.has(r.slug) || handBuiltSlugs.has(r.slug)) continue;
+      seen.add(r.slug);
+      out.push({
+        params: { slug: r.slug },
+        props: {
+          raw: '',
+          wpTitle: r.title,
+          excerpt: r.intro,
+          date: '2026-10-15T10:00:00',
+          modified: '2026-11-01T12:00:00',
+          seo: null,
+          type: 'page',
+          restored: r,
+        },
+      });
+    }
+  }
+
   return out;
 }
 
-const { raw, wpTitle, excerpt, date, modified, seo, type } = Astro.props;
+const { raw, wpTitle, excerpt, date, modified, seo, type, restored } = Astro.props;
+const currentSlug = String(Astro.params.slug || '');
 
 const decode = (s: string) =>
   s
     .replace(/&#0*38;|&amp;/g, '&')
     .replace(/&#8217;|&#8216;/g, "'")
-    .replace(/&#8220;|&#8221;/g, '"')
+    .replace(/&#8220;|&#8221;|&quot;/g, '"')
     .replace(/&#8211;|&#8212;/g, '-')
     .replace(/&#0*39;/g, "'")
     .replace(/<[^>]+>/g, '')
     .trim();
 
-const { title: h1FromContent, html } = cleanWpHtml(raw);
+const cleaned = restored ? { title: restored.title, html: '' } : cleanWpHtml(raw);
+const h1FromContent = cleaned.title;
+const html = cleaned.html;
 
 const rawTitle = decode(wpTitle);
-const pageTitle = h1FromContent || rawTitle;
+const pageTitle = restored ? restored.title : (h1FromContent || rawTitle);
 
 // Clean SEO Title: prefer verified live title, else natural brand-anchored title
 const seoTitle = seo?.title
   ? decode(seo.title)
-  : `${pageTitle} | Atlas Aircon Vadodara & Gujarat`;
+  : pageTitle.includes('Atlas Aircon')
+    ? pageTitle
+    : `${pageTitle} | Atlas Aircon`;
 
-// Clean Description: prefer verified live description, else naturally composed summary
-const description = seo?.description
-  ? decode(seo.description)
-  : excerpt
-    ? decode(excerpt).slice(0, 155)
-    : `Looking for expert ${pageTitle}? Atlas Aircon delivers fast technician dispatch, genuine parts, and guaranteed cooling solutions across Vadodara and Gujarat. Call now!`;
+// Clean Description
+const description = restored
+  ? `${restored.intro} Book 24/7 certified engineers across Vadodara & Gujarat (${restored.priceNote}).`.slice(0, 160)
+  : seo?.description
+    ? decode(seo.description)
+    : excerpt
+      ? decode(excerpt).slice(0, 155)
+      : `Looking for expert ${pageTitle}? Atlas Aircon delivers fast technician dispatch, genuine parts, and guaranteed cooling solutions across Vadodara and Gujarat.`;
+
 const isPost = type === 'post';
 const dateLabel = date
   ? new Date(date).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })
   : '';
 const waText = encodeURIComponent(`Hi, I need help with: ${pageTitle}`);
 
+// Enriched localized/brand engineering supplements for Crawled-Not-Indexed WP pages
+const ENRICHED_SUPPLEMENTS: Record<
+  string,
+  {
+    corridor: string;
+    landmarks: string;
+    sla: string;
+    technicalSummary: string;
+    diagnostics: string[];
+    faqs: Array<{ q: string; a: string }>;
+  }
+> = {
+  'ac-service-in-alamgir': {
+    corridor: 'NH-48 Jambuva–Varnama Southern Vadodara Belt',
+    landmarks: 'Alamgir Village, Jambuva River Bridge, Sundarpura Crossroads, Kapurai–Tarsali Bypass & NH-48 Warehousing Hub',
+    sla: '60–75 Minutes from Makarpura Dispatch Hub',
+    technicalSummary:
+      'Properties and farmhouse residences around Alamgir on the southern NH-48 approach experience heavy highway diesel soot, cotton-field pollen, and frequent rural feeder voltage swings between 185V and 255V. Our Makarpura-stationed mobile van services split, window, cassette, and cold-room units in Alamgir with self-contained 120-bar pressure jet pumps, stabilizes outdoor inverter PCBs against rural phase dips, and charges virgin R32/R410A refrigerant strictly by digital weight scale.',
+    diagnostics: [
+      'Alkaline foaming coil wash to strip sticky NH-48 highway carbon film from outdoor condensers',
+      'On-site inverter PCB surge-varistor (MOV) & IPM inspection for rural MGVCL feeder fluctuations',
+      '350 PSI dry nitrogen leak verification & 500-micron two-stage vacuum pump dehydration',
+      'Wire-mesh anti-rodent guard installation for farmhouse & ground-floor outdoor units',
+    ],
+    faqs: [
+      {
+        q: 'How fast do Atlas Aircon technicians reach Alamgir near Jambuva?',
+        a: 'Our southern Vadodara mobile van dispatches directly from Makarpura via the NH-48 Jambuva bypass, reaching Alamgir homes, farmhouses, and highway warehouses within 60 to 75 minutes.',
+      },
+      {
+        q: 'Do you charge extra travel fees for AC service in Alamgir?',
+        a: 'No hidden highway surcharge applies. Standard inspection is ₹299 (waived upon repair approval) and 120-bar foam-jet split AC deep cleaning starts at ₹599.',
+      },
+    ],
+  },
+  'ac-service-in-sankarda': {
+    corridor: 'North Vadodara NH-48 / Bhadarva Industrial & Agro Corridor',
+    landmarks: 'Sankarda Chokdi, Ranoli GIDC North Gate, Fazalpur Approach, Vasad Toll Plaza & Nandesari Link Road',
+    sla: '60–80 Minutes from Chhani / Sama Dispatch Hub',
+    technicalSummary:
+      'Situated along the busy northern Vadodara industrial highway between Ranoli GIDC, Nandesari, and Vasad, HVAC equipment in Sankarda endures fine industrial particulate fallout, high ambient warehouse roof heat, and heavy dust accumulation. Atlas Aircon deploys certified technicians for residential split ACs in Sankarda townships as well as panel air conditioners, office VRF cassettes, and process chillers in surrounding industrial estates.',
+    diagnostics: [
+      'Anti-corrosive condenser fin neutralization protecting copper U-bends from nearby chemical-belt air',
+      'CNC & electrical control panel AC servicing (R134a closed-loop charge & filter-fan overhaul)',
+      'High-pressure 120-bar indoor evaporator & drain tray descaling to prevent water overflow',
+      'Digital clamp-meter starting/running current audit under 45°C peak afternoon load',
+    ],
+    faqs: [
+      {
+        q: 'Do you service both residential ACs and factory units in Sankarda?',
+        a: 'Yes. Our Chhani–Ranoli engineering team handles home split/window ACs across Sankarda as well as industrial panel ACs, ductable units, and water chillers in nearby Sankarda–Ranoli industrial plots.',
+      },
+      {
+        q: 'What warranty is included on AC gas charging and PCB repair in Sankarda?',
+        a: 'Every refrigerant refill, copper brazing repair, and inverter PCB micro-soldering job in Sankarda carries a written 90-day Atlas Aircon service and parts warranty.',
+      },
+    ],
+  },
+  'ac-service-in-samlaya': {
+    corridor: 'Savli–Manjusar–Samlaya Industrial & Railway Junction Belt',
+    landmarks: 'Samlaya Junction Railway Station, Savli–Jarod State Highway, Manjusar GIDC Extension & Bombardier/Alstom Ancillary Zone',
+    sla: '75–95 Minutes via Sama–Savli Express Corridor',
+    technicalSummary:
+      'Samlaya sits right beyond the Manjusar–Savli GIDC manufacturing hub, hosting railway staff quarters, agro-processing units, engineering workshops, and growing residential societies. Instead of waiting days for city brand centers, Samlaya residents and plant managers get same-day doorstep HVAC diagnostics from our dedicated Sama–Savli corridor mobile van stocked with capacitors, fan motors, copper coils, and sealed R32/R410A cylinders.',
+    diagnostics: [
+      'Complete split & window AC overhaul with blower wheel extraction and antimicrobial coil wash',
+      'Single-phase & three-phase compressor contactor, start/run capacitor, and overload relay replacement',
+      'Industrial workshop office ductable AC & water-cooler refrigeration circuit restoration',
+      'Precision vacuum evacuation below 500 microns before electronic scale refrigerant charging',
+    ],
+    faqs: [
+      {
+        q: 'Are same-day AC repair visits available in Samlaya?',
+        a: 'Yes. Our Sama–Savli–Manjusar service vehicle covers Samlaya daily, arriving within 75 to 95 minutes with complete spare parts and gas-charging equipment on board.',
+      },
+      {
+        q: 'Can you repair water coolers and deep freezers in Samlaya workshops?',
+        a: 'Yes. Alongside split and window air conditioners, we repair commercial stainless-steel water coolers, cold rooms, and chest freezers across Samlaya and Savli taluka.',
+      },
+    ],
+  },
+  'frigidaire-ac-repair-service-center-vadodara': {
+    corridor: 'Out-of-Warranty Imported & Legacy Split/Window AC Specialists — Vadodara',
+    landmarks: 'Alkapuri, Akota, Race Course, Nizampura, Manjalpur, Gotri & Vasna-Bhayli',
+    sla: '60–90 Minutes Across All Vadodara Zones',
+    technicalSummary:
+      'As an independent out-of-warranty HVAC engineering center, Atlas Aircon specializes in maintaining legacy and imported Frigidaire heavy-duty window, split, and portable air conditioners in Vadodara. Because Frigidaire OEM boards and motors are rarely stocked by general appliance shops, our component-level electronics lab repairs existing control boards, cross-matches exact BTU rotary/reciprocating compressors, and fabricates custom grooved copper coils.',
+    diagnostics: [
+      'Component-level Frigidaire PCB repair (SMPS power IC, relay drivers, NTC thermistors & display receivers)',
+      'Custom 100% grooved copper evaporator & condenser coil fabrication where imported spares are discontinued',
+      'Safe R22-to-R407C / R32/R410A drop-in compatibility assessment and POE/mineral oil flushing',
+      'Heavy-duty dual-shaft fan motor bearing replacement and dynamic squirrel-cage blower balancing',
+    ],
+    faqs: [
+      {
+        q: 'Are you an independent service provider for Frigidaire ACs in Vadodara?',
+        a: 'Yes. Atlas Aircon is an independent out-of-warranty HVAC specialist in Vadodara equipped to repair Frigidaire split, window, and portable ACs using component-level PCB diagnostics and compatible OEM-grade refrigeration spares.',
+      },
+      {
+        q: 'Can you fix old Frigidaire units when spare boards are discontinued?',
+        a: 'Yes. Our electronics bench repairs the original Frigidaire PCB at component level or installs a calibrated universal inverter/non-inverter control kit with full thermostat and louver functionality.',
+      },
+    ],
+  },
+  'voltas-ac-service-center-vadodara': {
+    corridor: 'Independent Out-of-Warranty Voltas Split, Adjustable Inverter, Window & Cassette AC Specialists',
+    landmarks: 'Sayajiganj HQ, Alkapuri, Karelibaug, Manjalpur, Waghodia Road, Gotri, Bhayli & Makarpura GIDC',
+    sla: '60 Minutes Across Vadodara Urban Wards',
+    technicalSummary:
+      'Voltas All-Weather and Adjustable Inverter air conditioners are among the most widely installed cooling units across Vadodara homes, banks, and retail showrooms. Atlas Aircon provides rapid independent out-of-warranty Voltas AC servicing—resolving E1/E6 communication faults, F1/F2/F3 sensor codes, EL-01 indoor-outdoor mismatch trips, and micro-channel condenser leaks without multi-day queue delays.',
+    diagnostics: [
+      'Voltas inverter error code troubleshooting (E1, E6, EL 01, F1/F2/F3, H6 BLDC motor & P4 IPM faults)',
+      'Permanent conversion of leaking aluminum micro-channel outdoor condensers to heavy-gauge 100% copper coils',
+      '120-bar waterproof jacket foam-jet cleaning of indoor cross-flow blower and hydrophilic blue fins',
+      'Voltas commercial 4-way ceiling cassette, tower floor-standing, and water dispenser cooling repair',
+    ],
+    faqs: [
+      {
+        q: 'Is Atlas Aircon an independent Voltas AC repair center in Vadodara?',
+        a: 'Yes. Atlas Aircon operates as an independent out-of-warranty HVAC engineering company servicing all Voltas split, inverter, window, cassette, and tower AC models across Vadodara within 60 minutes.',
+      },
+      {
+        q: 'How do you fix frequent gas leaks in Voltas outdoor condensers?',
+        a: 'Many older condensers suffer galvanic pinhole corrosion near open drains. We either silver-braze copper U-bends tested to 350 PSI dry nitrogen or upgrade micro-channel condensers to 100% pure copper coils with anti-corrosive coating.',
+      },
+    ],
+  },
+  'cassette-ac-service-gujarat': {
+    corridor: 'Commercial 4-Way & Round-Flow Ceiling Cassette HVAC Across Gujarat',
+    landmarks: 'Vadodara, Ahmedabad, Surat, Bharuch, Anand, Ankleshwar, Halol, Dahej & Gandhinagar Commercial Hubs',
+    sla: 'Same-Day Commercial Dispatch & Scheduled Night-Shift Servicing',
+    technicalSummary:
+      'Ceiling-mounted 4-way cassette air conditioners in corporate offices, retail showrooms, banks, clinics, and restaurants require specialized servicing because a clogged condensate lift pump or slime-blocked float switch can stain expensive false-ceiling gypsum boards. Atlas Aircon executes zero-mess commercial cassette maintenance across Gujarat—including night-shift and Sunday slots so your business operations are never disrupted.',
+    diagnostics: [
+      'Complete disassembly of decorative grille, motorized louver steppers, condensate drain pan, and float switch',
+      'Submersible condensate drain lift-pump descaling & 750mm vertical head lift verification',
+      '360-degree circular evaporator coil chemical foam-jet cleaning with suspended waterproof catchment funnel',
+      'Multi-unit VRV/VRF refnet refrigerant balancing, EEV coil testing, and GST-compliant AMC documentation',
+    ],
+    faqs: [
+      {
+        q: 'Why is my ceiling cassette AC dripping water onto the false ceiling or blinking a drain error?',
+        a: 'Algae bio-slime inside the internal condensate pan blocks the submersible lift pump or jams the float switch (triggering Daikin A3, Mitsubishi P5, or LG CH04 codes). Disassembling the pan, sanitizing the pump impeller, and flushing the PVC riser permanently resolves ceiling leaks.',
+      },
+      {
+        q: 'Do you offer after-hours commercial cassette AC AMC contracts in Gujarat?',
+        a: 'Yes. We provide quarterly and bi-monthly GST-invoiced Annual Maintenance Contracts for banks, hospitals, restaurants, and corporate offices across Vadodara, Bharuch, Anand, Halol, Ahmedabad, and Surat—including evening and weekend servicing.',
+      },
+    ],
+  },
+};
+
+const supplement = ENRICHED_SUPPLEMENTS[currentSlug] || null;
+
+// FAQs for restored pages or enriched WP pages
+const pageFaqs = restored
+  ? [
+      {
+        q: `How quickly can Atlas Aircon dispatch a technician for ${restored.title.split('|')[0].trim()}?`,
+        a: `Our mobile HVAC engineering vans reach all Vadodara residential and commercial zones within 60 to 90 minutes, and regional GIDC corridors (Halol, Savli, Por, Nandesari, Dahej, Ankleshwar, Bharuch, Anand) within 2 to 3 hours.`,
+      },
+      {
+        q: `What is the typical pricing scope for this service?`,
+        a: `Standard benchmark pricing: ${restored.priceNote}. Every job begins with an instrument-backed inspection and an upfront written estimate before any component repair or replacement is carried out.`,
+      },
+      {
+        q: `What testing protocol and warranty does Atlas Aircon include?`,
+        a: `Depending on equipment scope, our technicians execute 350 PSI dry nitrogen leak testing, dual-stage rotary vacuum dehydration below 500 microns, digital scale refrigerant charging, and clamp-meter load verification—backed by up to a 90-day written service warranty and GST billing.`,
+      },
+    ]
+  : supplement
+    ? supplement.faqs
+    : [];
+
 // Related pages (internal linking): prev/next + most similar slugs
-const self = wpEntries().find((e) => e.slug === Astro.params.slug);
+const self = wpEntries().find((e) => e.slug === currentSlug);
 const related = self ? relatedFor(self) : [];
 
-// Breadcrumbs: Home > (Blogs for posts) > current page. Does not affect any URL.
+// Breadcrumbs
 const ORIGIN = 'https://www.atlasaircons.com';
 const canonicalUrl = ORIGIN + Astro.url.pathname;
 const crumbs = [
   { name: 'Home', href: '/' },
-  ...(isPost ? [{ name: 'Blogs', href: '/blogs/' }] : []),
+  ...(isPost ? [{ name: 'Blogs', href: '/blogs/' }] : [{ name: 'Services', href: '/services/' }]),
   { name: pageTitle, href: Astro.url.pathname },
 ];
+
 const schemaGraph = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -114,12 +356,40 @@ const schemaGraph = {
             publisher: { '@id': `${ORIGIN}/#organization` },
           },
         ]
+      : [
+          {
+            '@type': 'Service',
+            '@id': `${canonicalUrl}#service`,
+            name: pageTitle,
+            description,
+            provider: { '@id': `${ORIGIN}/#organization` },
+            areaServed: [
+              { '@type': 'City', name: 'Vadodara' },
+              { '@type': 'State', name: 'Gujarat' },
+            ],
+          },
+        ]),
+    ...(pageFaqs.length > 0
+      ? [
+          {
+            '@type': 'FAQPage',
+            '@id': `${canonicalUrl}#faq`,
+            mainEntity: pageFaqs.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: f.a,
+              },
+            })),
+          },
+        ]
       : []),
   ],
 };
 ---
 
-<BaseLayout title={seoTitle} description={description} noindex={seo?.noindex}>
+<BaseLayout title={seoTitle} description={description}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(schemaGraph)} />
   </Fragment>
@@ -129,13 +399,19 @@ const schemaGraph = {
       <div class="hero-text">
         <div class="section-badge">
           <Icon name={isPost ? 'clock' : 'map-pin'} size={14} strokeWidth={2} />
-          {isPost ? 'Blog' : 'Atlas Aircon'}
+          {restored ? restored.badge : isPost ? 'Blog' : 'Atlas Aircon'}
           {isPost && dateLabel && <> • <time datetime={new Date(date).toISOString()}>{dateLabel}</time></>}
         </div>
         <h1 class="page-title">{pageTitle}</h1>
         <p class="hero-intro">
-          Professional HVAC and air conditioning services by <strong>Atlas Aircon</strong>. 
-          Prompt on-site diagnostics, precision repairs, and genuine OEM spare components backed by certified technicians.
+          {restored ? (
+            <>{restored.intro} Backed by <strong>Atlas Aircon</strong> field engineers across Vadodara and Gujarat industrial corridors.</>
+          ) : (
+            <>
+              Professional HVAC and air conditioning services by <strong>Atlas Aircon</strong>. Prompt on-site diagnostics,
+              precision repairs, and genuine OEM spare components backed by certified technicians.
+            </>
+          )}
         </p>
         <div class="hero-points">
           <span><Icon name="clock" size={14} /> 24/7 Emergency Dispatch</span>
@@ -160,7 +436,130 @@ const schemaGraph = {
           ))}
         </ol>
       </nav>
-      <article class="wp-prose card" set:html={html} />
+
+      {restored ? (
+        <article class="wp-prose card">
+          <h2>Engineering Scope & Technical Overview</h2>
+          <p>
+            <strong>{restored.intro}</strong> At Atlas Aircon, our dedicated service division specializes in{' '}
+            {restored.focus}. Operating across extreme 44°C–47°C Gujarat summer ambient temperatures and demanding GIDC utility
+            grids requires strict adherence to thermodynamic and electrical testing benchmarks rather than guesswork or temporary
+            top-ups.
+          </p>
+          <p>
+            Every field call begins with instrument-assisted root-cause verification: incoming phase voltage stability, compressor
+            winding insulation resistance, capacitor microfarad tolerance, heat-exchanger airflow Delta-T, and electronic leak
+            inspection. Whether servicing a residential apartment in Alkapuri, a retail showroom in Gotri, or a continuous-process
+            plant in Makarpura, Savli, Halol, or Dahej GIDC, our technicians restore factory-rated cooling efficiency and lower
+            monthly kWh consumption.
+          </p>
+
+          <h2>Standard Rate Benchmark & Service Specifications</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Parameter</th>
+                <th>Verified Atlas Aircon Standard</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Primary Technical Focus</strong></td>
+                <td>{restored.focus}</td>
+              </tr>
+              <tr>
+                <td><strong>Indicative Rate / Pricing Tier</strong></td>
+                <td><strong>{restored.priceNote}</strong> (Upfront written quote post-diagnosis)</td>
+              </tr>
+              <tr>
+                <td><strong>Dispatch Turnaround (SLA)</strong></td>
+                <td>60–90 Mins (Vadodara City) • 2–3 Hours (Halol, Savli, Por, Nandesari, Dahej, Ankleshwar)</td>
+              </tr>
+              <tr>
+                <td><strong>Testing & Evacuation Protocol</strong></td>
+                <td>350 PSI Dry Nitrogen Pressure Hold + &lt;500 Micron Dual-Stage Vacuum + Digital Scale Charge</td>
+              </tr>
+              <tr>
+                <td><strong>Warranty & Documentation</strong></td>
+                <td>Up to 90-Day Written Service Warranty • Formal GST Tax Invoice & Field Log Sheet</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2>4-Stage Field Execution Protocol (SOP)</h2>
+          <ol>
+            <li>
+              <strong>Calibrated Electrical & Thermal Audit:</strong> Checking supply voltage under load, starting/running amperage,
+              NTC sensor resistance curves, and PCB rail voltages (310V DC bus, 15V IPM drive, and 5V logic).
+            </li>
+            <li>
+              <strong>Mechanical & Heat-Exchanger Restoration:</strong> High-pressure 120-bar coil cleaning with waterproof
+              catchment jackets, silver-alloy copper brazing under dry nitrogen purge, or precision OEM spare installation.
+            </li>
+            <li>
+              <strong>Moisture Dehydration & Exact Metering:</strong> Deep two-stage vacuum pump evacuation below 500 microns to
+              eliminate acid-forming moisture before charging virgin R32, R410A, R134a, or R404A refrigerant by electronic weight.
+            </li>
+            <li>
+              <strong>Load Performance Sign-Off:</strong> Verifying 12°C–16°C evaporator air Delta-T, clear condensate drainage,
+              quiet vibration-free operation, and handing over your warranty invoice.
+            </li>
+          </ol>
+
+          <h2>Coverage Across Vadodara & Gujarat Corridors</h2>
+          <p>
+            Explore our <a href="/ac-repair-cost-vadodara/">transparent AC repair rate card</a>, browse all{' '}
+            <a href="/services/">core residential & industrial HVAC services</a>, check{' '}
+            <a href="/service-areas/">330+ Gujarat service areas</a>, or{' '}
+            <a href="/book-appointment/">schedule an engineer visit online</a>. We support all leading domestic and commercial
+            manufacturers including Daikin, Mitsubishi Electric, O General, Voltas, Blue Star, LG, Carrier, Hitachi, Panasonic,
+            Lloyd, Whirlpool, Godrej, Samsung, Haier, and Trane.
+          </p>
+
+          <h2>Frequently Asked Questions</h2>
+          {pageFaqs.map((f) => (
+            <details open>
+              <summary>{f.q}</summary>
+              <p style="margin-top: 0.6rem;">{f.a}</p>
+            </details>
+          ))}
+        </article>
+      ) : (
+        <article class="wp-prose card">
+          <div set:html={html} />
+
+          {supplement && (
+            <div class="supplement-box">
+              <hr />
+              <h2>Local Engineering Dispatch & Technical Protocol</h2>
+              <p>
+                <strong>Dispatch Corridor:</strong> {supplement.corridor}<br />
+                <strong>Key Coverage Landmarks:</strong> {supplement.landmarks}<br />
+                <strong>Verified Arrival SLA:</strong> {supplement.sla}
+              </p>
+              <p>{supplement.technicalSummary}</p>
+              <h3>On-Site Diagnostic Checklist</h3>
+              <ul>
+                {supplement.diagnostics.map((d) => (
+                  <li>{d}</li>
+                ))}
+              </ul>
+              <p>
+                Compare transparent charges on our <a href="/ac-repair-cost-vadodara/">Vadodara AC service price list</a>, explore{' '}
+                <a href="/service-areas/">nearby Gujarat service hubs</a>, or{' '}
+                <a href="/book-appointment/">book a priority technician slot</a>.
+              </p>
+              <h3>Frequently Asked Questions</h3>
+              {supplement.faqs.map((f) => (
+                <details open>
+                  <summary>{f.q}</summary>
+                  <p style="margin-top: 0.6rem;">{f.a}</p>
+                </details>
+              ))}
+            </div>
+          )}
+        </article>
+      )}
 
       {related.length > 0 && (
         <nav class="related card" aria-labelledby="related-heading">
@@ -172,8 +571,8 @@ const schemaGraph = {
       )}
 
       <aside class="wp-cta card">
-        <h2>Need AC Service in Vadodara?</h2>
-        <p>Talk to an Atlas Aircon engineer. 24/7 emergency dispatch across Gujarat.</p>
+        <h2>Need Certified HVAC Support in Vadodara or Gujarat?</h2>
+        <p>Talk directly to an Atlas Aircon senior engineer. 24/7 emergency dispatch across urban & GIDC zones.</p>
         <div class="wp-cta-btns">
           <a class="btn btn-primary" href="tel:+919727257141">Call +91 97272 57141</a>
           <a

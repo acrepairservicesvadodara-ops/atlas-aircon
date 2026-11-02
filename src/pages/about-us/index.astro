@@ -21,6 +21,16 @@ const team = [
   title="About Us | Atlas Aircon Vadodara"
   description="Learn about Atlas Aircon, Vadodara's premier HVAC engineering firm. Over 20 years of experience in residential, commercial, and industrial AC services."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.atlasaircons.com/" },
+        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.atlasaircons.com/about-us/" }
+      ]
+    })} />
+  </Fragment>
   <!-- Page Header -->
   <section class="page-header">
     <div class="header-bg"></div>

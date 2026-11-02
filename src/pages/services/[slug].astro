@@ -6,57 +6,22 @@ import servicesMaster from '@data/services-master.json';
 import locations from '@data/locations.json';
 
 export async function getStaticPaths() {
-  const serviceMap = new Map();
-
-  for (const s of servicesMaster) {
-    serviceMap.set(s.slug, s);
-  }
-
-  // Aliases for backward compatibility
-  const aliases: Record<string, string> = {
-    'industrial-chiller': 'industrial-chiller-repair',
-    'vrf-vrv-system': 'vrf-vrv-maintenance',
-    'cold-storage': 'cold-storage-maintenance',
-    'panel-ac': 'panel-ac-repair',
-    'industrial-hvac': 'industrial-chiller-repair',
-  };
-
-  const paths = [];
-
-  // Generate for all master slugs
-  for (const s of servicesMaster) {
-    paths.push({
-      params: { slug: s.slug },
-      props: { svc: s },
-    });
-  }
-
-  // Generate for aliases if not already in master
-  for (const [alias, targetSlug] of Object.entries(aliases)) {
-    if (!serviceMap.has(alias) && serviceMap.has(targetSlug)) {
-      paths.push({
-        params: { slug: alias },
-        props: { svc: { ...serviceMap.get(targetSlug)!, slug: alias } },
-      });
-    }
-  }
-
-  return paths;
+  return servicesMaster.map((s) => ({
+    params: { slug: s.slug },
+    props: { svc: s },
+  }));
 }
 
 const { svc } = Astro.props;
+const canonicalSlug = svc.slug;
 
-const aliasesMap: Record<string, string> = {
-  'industrial-chiller': 'industrial-chiller-repair',
-  'vrf-vrv-system': 'vrf-vrv-maintenance',
-  'cold-storage': 'cold-storage-maintenance',
-  'panel-ac': 'panel-ac-repair',
-  'industrial-hvac': 'industrial-chiller-repair',
-};
-const canonicalSlug = aliasesMap[svc.slug] || svc.slug;
-
-// Top Vadodara & GIDC locations for internal linking
+// Top Vadodara & GIDC locations for immediate display + grouped directory for all 333 locations
 const topLocations = locations.slice(0, 24);
+const remainingLocations = locations.slice(24);
+const isGidcLoc = (t: string) => /gidc|industrial|chemical|petrochemical|sez|manufacturing|pharma/i.test(t);
+const vadodaraZones = remainingLocations.filter((l) => l.isVadodara && !isGidcLoc(l.type));
+const industrialZones = remainingLocations.filter((l) => isGidcLoc(l.type));
+const regionalGujaratZones = remainingLocations.filter((l) => !l.isVadodara && !isGidcLoc(l.type));
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -153,8 +118,9 @@ const schemaData = {
   title={`${svc.name} in Vadodara & Gujarat | 24/7 HVAC Authority | Atlas Aircon`}
   description={`${svc.heroSubtitle} Expert ${svc.shortTitle.toLowerCase()} services in Vadodara and Gujarat GIDC zones. 24/7 emergency dispatch, genuine OEM spares, and 90-day written warranty. Book via WhatsApp.`}
 >
-  <!-- Schema.org JSON-LD -->
-  <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
 
   <!-- ===================== HERO SECTION ===================== -->
   <section class="page-header">
@@ -433,18 +399,77 @@ const schemaData = {
         </div>
       </div>
 
-      <!-- Quick Location Links Grid -->
+      <!-- Complete 333-Location Dispatch Directory (Zero Orphan Matrix Pages) -->
       <div class="card p-6 bg-surface">
-        <h4 class="text-base font-bold text-white mb-4">Popular Service Hubs for {svc.shortTitle}:</h4>
-        <div class="flex flex-wrap gap-2">
+        <div class="flex items-center justify-between flex-wrap gap-2 mb-4">
+          <h4 class="text-base font-bold text-white">Priority Dispatch Hubs for {svc.shortTitle}:</h4>
+          <a href="/service-areas/" class="text-xs text-cyan-400 hover:underline font-semibold">View Full Gujarat Coverage Map →</a>
+        </div>
+        <div class="flex flex-wrap gap-2 mb-6">
           {topLocations.map(loc => (
             <a
               href={`/service/${canonicalSlug}/${loc.slug}/`}
               class="text-xs bg-slate-800/80 hover:bg-cyan-950 text-slate-300 hover:text-cyan-400 px-3 py-1.5 rounded-md border border-slate-700/60 transition-colors"
             >
-              {svc.shortTitle} in {loc.name}
+              {loc.name}
             </a>
           ))}
+        </div>
+
+        <div class="space-y-3 border-t border-slate-800 pt-4">
+          {vadodaraZones.length > 0 && (
+            <details class="bg-slate-900/60 rounded-lg border border-slate-800 p-4">
+              <summary class="cursor-pointer text-sm font-bold text-slate-200 hover:text-cyan-400">
+                Vadodara Residential, Commercial & Highway Zones ({vadodaraZones.length} Areas)
+              </summary>
+              <div class="flex flex-wrap gap-2 mt-3">
+                {vadodaraZones.map(loc => (
+                  <a
+                    href={`/service/${canonicalSlug}/${loc.slug}/`}
+                    class="text-xs bg-slate-800/60 hover:bg-cyan-950 text-slate-300 hover:text-cyan-400 px-2.5 py-1 rounded border border-slate-700/50 transition-colors"
+                  >
+                    {loc.name}
+                  </a>
+                ))}
+              </div>
+            </details>
+          )}
+
+          {industrialZones.length > 0 && (
+            <details class="bg-slate-900/60 rounded-lg border border-slate-800 p-4">
+              <summary class="cursor-pointer text-sm font-bold text-slate-200 hover:text-cyan-400">
+                GIDC Estates, SEZ, Chemical & Manufacturing Corridors ({industrialZones.length} Hubs)
+              </summary>
+              <div class="flex flex-wrap gap-2 mt-3">
+                {industrialZones.map(loc => (
+                  <a
+                    href={`/service/${canonicalSlug}/${loc.slug}/`}
+                    class="text-xs bg-slate-800/60 hover:bg-cyan-950 text-slate-300 hover:text-cyan-400 px-2.5 py-1 rounded border border-slate-700/50 transition-colors"
+                  >
+                    {loc.name}
+                  </a>
+                ))}
+              </div>
+            </details>
+          )}
+
+          {regionalGujaratZones.length > 0 && (
+            <details class="bg-slate-900/60 rounded-lg border border-slate-800 p-4">
+              <summary class="cursor-pointer text-sm font-bold text-slate-200 hover:text-cyan-400">
+                Gujarat Regional Cities, Districts & Towns ({regionalGujaratZones.length} Locations)
+              </summary>
+              <div class="flex flex-wrap gap-2 mt-3">
+                {regionalGujaratZones.map(loc => (
+                  <a
+                    href={`/service/${canonicalSlug}/${loc.slug}/`}
+                    class="text-xs bg-slate-800/60 hover:bg-cyan-950 text-slate-300 hover:text-cyan-400 px-2.5 py-1 rounded border border-slate-700/50 transition-colors"
+                  >
+                    {loc.name}
+                  </a>
+                ))}
+              </div>
+            </details>
+          )}
         </div>
       </div>
     </div>

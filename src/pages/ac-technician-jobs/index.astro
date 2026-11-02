@@ -7,6 +7,16 @@ import Icon from '@components/Icon.astro';
   title="Careers & AC Technician Jobs | Atlas Aircon"
   description="We are hiring experienced AC technicians, HVAC engineers, and PCB specialists in Vadodara and GIDC hubs. Apply today."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.atlasaircons.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Careers", "item": "https://www.atlasaircons.com/ac-technician-jobs/" }
+      ]
+    })} />
+  </Fragment>
   <section class="page-header">
     <div class="header-bg"></div>
     <div class="container relative z-10 text-center">

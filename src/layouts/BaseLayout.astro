@@ -16,7 +16,7 @@ const {
   title,
   description = 'Need urgent AC repair, service, or new installation in Vadodara? Atlas Aircon provides 24/7 expert cooling solutions for residential and industrial HVAC.',
   image = '/images/emergency-ac-repair.webp',
-  canonical = Astro.url.href,
+  canonical = `https://www.atlasaircons.com${Astro.url.pathname}`,
   noindex = false,
 } = Astro.props;
 
@@ -79,27 +79,47 @@ const fullTitle = title.includes('Atlas Aircon') ? title : `${title} | ${siteNam
   <!-- Schema.org -->
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "@id": "https://www.atlasaircons.com/#organization",
-    "name": "Atlas Aircon",
-    "url": "https://www.atlasaircons.com/",
-    "telephone": "+91-972-725-7141",
-    "email": "atlasaircon1@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Payal Complex, 27, Opp. M.S. University, Sarod, Sayajiganj",
-      "addressLocality": "Vadodara",
-      "addressRegion": "Gujarat",
-      "postalCode": "390005",
-      "addressCountry": "IN"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "22.3085221",
-      "longitude": "73.1858956"
-    },
-    "openingHours": ["Mo-Su 00:00-23:59"],
-    "hasMap": "https://www.google.com/maps?cid=3979236368659212909"
+    "@graph": [
+      {
+        "@type": "HVACBusiness",
+        "@id": "https://www.atlasaircons.com/#organization",
+        "name": "Atlas Aircon",
+        "url": "https://www.atlasaircons.com/",
+        "logo": "https://www.atlasaircons.com/images/logo.webp",
+        "image": "https://www.atlasaircons.com/images/emergency-ac-repair.webp",
+        "priceRange": "₹₹",
+        "telephone": "+91-972-725-7141",
+        "email": "atlasaircon1@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Payal Complex, 27, Opp. M.S. University, Sarod, Sayajiganj",
+          "addressLocality": "Vadodara",
+          "addressRegion": "Gujarat",
+          "postalCode": "390005",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "22.3085221",
+          "longitude": "73.1858956"
+        },
+        "openingHours": ["Mo-Su 00:00-23:59"],
+        "hasMap": "https://www.google.com/maps?cid=3979236368659212909",
+        "sameAs": [
+          "https://www.facebook.com/atlasaircon/",
+          "https://www.instagram.com/atlasaircon/",
+          "https://www.linkedin.com/company/atlas-aircon"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.atlasaircons.com/#website",
+        "url": "https://www.atlasaircons.com/",
+        "name": "Atlas Aircon",
+        "publisher": { "@id": "https://www.atlasaircons.com/#organization" },
+        "inLanguage": "en-IN"
+      }
+    ]
   })} />
 
   <!-- Slot for page-specific head content -->

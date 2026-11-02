@@ -2,6 +2,16 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Icon from '@components/Icon.astro';
 import WhatsAppForm from '@components/WhatsAppForm.astro';
+import servicesMaster from '@data/services-master.json';
+
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.atlasaircons.com/services/' },
+  ],
+};
 
 const services = [
   {
@@ -23,7 +33,7 @@ const services = [
     title: 'Heavy Industrial & Commercial HVAC',
     desc: 'Rapid-deployment for critical chiller plants and multi-zone VRF systems. Thermal imaging and vibration analysis for predictive maintenance. AMC protocols for GIDC industries.',
     points: ['Water-Cooled & Air-Cooled Chiller Overhaul', 'VRF / VRV System Digital Diagnostics', 'CNC Machine & Control Panel AC Repair', 'Corporate & Industrial AMC Contracts'],
-    link: '/services/industrial-hvac/'
+    link: '/services/industrial-chiller-repair/'
   },
   {
     icon: 'circuit',
@@ -53,6 +63,9 @@ const services = [
   title="Our Services | Atlas Aircon Vadodara"
   description="Comprehensive AC repair, installation, gas charging, and industrial HVAC services by Atlas Aircon in Vadodara and across Gujarat."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
   <!-- Page Header -->
   <section class="page-header">
     <div class="header-bg"></div>
@@ -85,6 +98,22 @@ const services = [
             </div>
           </div>
         ))}
+      </div>
+
+      <div class="mt-14 pt-12 border-t border-slate-800">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl font-extrabold text-white mb-2">All 19 Specialized HVAC Engineering Divisions</h2>
+          <p class="text-slate-400 text-sm">Select any specialized division to view full technical SOPs, pricing matrices, and all 333 Gujarat dispatch hubs:</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {servicesMaster.map((s) => (
+            <a href={`/services/${s.slug}/`} class="card p-5 hover:border-cyan-500/50 transition-colors block no-underline">
+              <div class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-1">{s.category}</div>
+              <h3 class="text-base font-bold text-white mb-1">{s.name}</h3>
+              <p class="text-xs text-slate-400 leading-relaxed">{s.tagline}</p>
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   </section>

@@ -1,0 +1,123 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+import locations from '@data/locations.json';
+import services from '@data/services-master.json';
+
+const industrial = locations.filter((l) => /gidc|industrial|pharma|chemical/i.test(`${l.type} ${l.name}`));
+const vadodaraZones = locations.filter((l) => !industrial.includes(l) && (l.isVadodara ?? true));
+const regionalCities = locations.filter((l) => !industrial.includes(l) && !(l.isVadodara ?? true));
+
+const featuredRegionalLinks = [
+  { href: '/ac-service-in-alamgir/', label: 'AC Service in Alamgir' },
+  { href: '/ac-service-in-sankarda/', label: 'AC Service in Sankarda' },
+  { href: '/ac-service-in-samlaya/', label: 'AC Service in Samlaya' },
+  { href: '/voltas-ac-service-center-vadodara/', label: 'Voltas AC Service Vadodara' },
+  { href: '/frigidaire-ac-repair-service-center-vadodara/', label: 'Frigidaire AC Service Vadodara' },
+  { href: '/cassette-ac-service-gujarat/', label: 'Cassette AC Service Gujarat' },
+];
+
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Service Areas', item: 'https://www.atlasaircons.com/service-areas/' },
+  ],
+};
+---
+
+<BaseLayout
+  title="HVAC & AC Repair Service Areas Across Vadodara, GIDC & Gujarat | Atlas Aircon"
+  description="Browse all 333+ Vadodara neighborhoods, GIDC industrial estates, and Gujarat cities served 24/7 by Atlas Aircon's mobile HVAC engineering fleet."
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
+
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="map-pin" size={14} strokeWidth={2} /> 24/7 Dispatch Coverage</div>
+      <h1 class="page-title">Vadodara, GIDC & Gujarat <span>Service Areas</span></h1>
+      <p class="page-subtitle">
+        Centralized dispatch from Sayajigunj covering {locations.length} residential neighborhoods, industrial GIDC estates, and regional corridors across Gujarat.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container stack">
+      <div class="card sec-card">
+        <h2>19 Core HVAC Engineering Divisions</h2>
+        <p class="sec-desc">Select a specialized engineering service to view technical SOPs, pricing, and location-level availability:</p>
+        <div class="pill-grid">
+          {services.map((s) => (
+            <a href={`/services/${s.slug}/`} class="pill">{s.name}</a>
+          ))}
+        </div>
+      </div>
+
+      <div class="card sec-card">
+        <h2>Industrial GIDC & Manufacturing Corridors ({industrial.length} Zones)</h2>
+        <p class="sec-desc">Priority plant breakdown coverage for chillers, panel ACs, cleanroom AHUs, VRF systems, and cold rooms:</p>
+        <div class="area-grid">
+          {industrial.map((loc) => (
+            <a href={`/ac-repair-${loc.slug}/`}>{loc.name}</a>
+          ))}
+        </div>
+      </div>
+
+      <div class="card sec-card">
+        <h2>Vadodara Residential & Commercial Zones ({vadodaraZones.length} Areas)</h2>
+        <p class="sec-desc">60–90 minute doorstep dispatch for split, window, inverter, and cassette air conditioners:</p>
+        <div class="area-grid">
+          {vadodaraZones.map((loc) => (
+            <a href={`/ac-repair-${loc.slug}/`}>{loc.name}</a>
+          ))}
+        </div>
+      </div>
+
+      {regionalCities.length > 0 && (
+        <div class="card sec-card">
+          <h2>Regional Gujarat Cities & Highway Corridors ({regionalCities.length} Hubs)</h2>
+          <p class="sec-desc">Scheduled commercial AMC, industrial chiller overhauls, and multi-unit HVAC support across Gujarat:</p>
+          <div class="area-grid">
+            {regionalCities.map((loc) => (
+              <a href={`/ac-repair-${loc.slug}/`}>{loc.name}</a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div class="card sec-card">
+        <h2>Featured Suburban & Brand Service Desks</h2>
+        <div class="pill-grid">
+          {featuredRegionalLinks.map((item) => (
+            <a href={item.href} class="pill">{item.label}</a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { position: relative; padding: var(--space-20) 0 var(--space-12); overflow: hidden; }
+  .header-bg { position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(6,182,212,0.12) 0%, transparent 70%), var(--color-navy); }
+  .page-title { font-family: 'Poppins', sans-serif; font-size: clamp(2.1rem, 4vw, 3.4rem); font-weight: 800; color: #f8fafc; margin: var(--space-3) 0; }
+  .page-title span { color: #22d3ee; }
+  .page-subtitle { color: var(--color-text-secondary); max-width: 720px; margin: 0 auto; line-height: 1.7; }
+  .stack { display: grid; gap: var(--space-8); }
+  .sec-card { padding: var(--space-8); }
+  .sec-card h2 { color: #f8fafc; font-size: var(--text-xl); margin-bottom: var(--space-2); }
+  .sec-desc { color: var(--color-text-secondary); font-size: var(--text-sm); margin-bottom: var(--space-5); }
+  .pill-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+  .pill { padding: 8px 14px; border-radius: 8px; border: 1px solid rgba(6,182,212,0.35); background: rgba(6,182,212,0.08); color: #e2e8f0; text-decoration: none; font-size: var(--text-sm); font-weight: 600; }
+  .pill:hover { border-color: #22d3ee; color: #22d3ee; }
+  .area-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 8px 16px; }
+  .area-grid a { color: var(--color-text-secondary); text-decoration: none; font-size: var(--text-sm); padding: 4px 0; border-bottom: 1px dashed rgba(148,163,184,0.15); }
+  .area-grid a:hover { color: var(--color-gold); }
+  @media (max-width: 768px) { .sec-card { padding: var(--space-5); } }
+</style>
+

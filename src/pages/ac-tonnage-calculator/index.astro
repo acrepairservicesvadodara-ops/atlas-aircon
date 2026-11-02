@@ -1,0 +1,198 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+
+const faqs = [
+  {
+    q: 'Why does a top-floor room in Vadodara need higher AC tonnage than a middle-floor room?',
+    a: 'Direct solar radiation heats exposed RCC terrace slabs above 55°C during April–June in Gujarat, adding 20%–28% conductive ceiling heat load. Sizing up by 0.3 to 0.5 Ton prevents continuous 100% compressor runtime and premature overheating.',
+  },
+  {
+    q: 'How many BTU per hour equals 1 Ton of air conditioning?',
+    a: '1 Ton of refrigeration equals exactly 12,000 BTU/hr (or 3.517 kW of cooling capacity). A 1.5 Ton split AC delivers approximately 18,000 BTU/hr at rated conditions.',
+  },
+];
+
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebApplication',
+      name: 'Atlas Aircon AC Tonnage & BTU Heat Load Calculator',
+      url: 'https://www.atlasaircons.com/ac-tonnage-calculator/',
+      applicationCategory: 'UtilitiesApplication',
+      operatingSystem: 'All',
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+        { '@type': 'ListItem', position: 2, name: 'AC Tonnage Calculator', item: 'https://www.atlasaircons.com/ac-tonnage-calculator/' },
+      ],
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="AC Tonnage & BTU Size Calculator for Indian Rooms (45°C Heat Load) | Atlas Aircon"
+  description="Calculate the exact AC tonnage (1 Ton, 1.5 Ton, 2 Ton) and BTU/hr required for your bedroom, hall, office, or shop in Gujarat's 45°C summer climate."
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
+
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="gear" size={14} strokeWidth={2} /> HVAC Sizing Tool</div>
+      <h1 class="page-title">AC Tonnage & BTU <span>Size Calculator</span></h1>
+      <p class="page-subtitle">Calibrated for Gujarat's 44°C–46°C peak ambient, top-floor terrace heat gain, sun exposure, and occupancy.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container calc-layout">
+      <div class="card calc-card">
+        <h2>Enter Room Dimensions & Exposure</h2>
+        <div class="form-grid">
+          <label>
+            <span>Room Length (Feet)</span>
+            <input type="number" id="tc-len" value="14" min="6" max="100" />
+          </label>
+          <label>
+            <span>Room Width (Feet)</span>
+            <input type="number" id="tc-wid" value="12" min="6" max="100" />
+          </label>
+          <label>
+            <span>Ceiling Height (Feet)</span>
+            <input type="number" id="tc-ht" value="10" min="8" max="25" />
+          </label>
+          <label>
+            <span>Occupants in Room</span>
+            <input type="number" id="tc-occ" value="2" min="1" max="50" />
+          </label>
+          <label>
+            <span>Floor Level</span>
+            <select id="tc-floor">
+              <option value="1.0">Ground / Middle Floor (Shaded Ceiling)</option>
+              <option value="1.22">Top Floor (Exposed Terrace Roof)</option>
+            </select>
+          </label>
+          <label>
+            <span>Sunlight & Window Exposure</span>
+            <select id="tc-sun">
+              <option value="1.0">Normal / North-East Facing</option>
+              <option value="1.15">Heavy West / South Afternoon Sun</option>
+              <option value="1.25">Commercial Glass Storefront / Office</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="result-panel" id="tc-result">
+          <div class="res-label">Recommended AC Capacity</div>
+          <div class="res-main" id="tc-ton">1.5 Ton Split / Inverter AC</div>
+          <div class="res-sub" id="tc-btu">Estimated Heat Load: ~17,400 BTU/hr (168 sq.ft)</div>
+        </div>
+      </div>
+
+      <article class="card guide-card">
+        <h2>How HVAC Engineers Calculate Room Tonnage in Gujarat</h2>
+        <p>
+          Generic online charts assume mild 32°C outdoor weather and severely undersize air conditioners for Vadodara, Ahmedabad, Surat, Bharuch, and Anand—where May afternoon dry-bulb temperatures hit 45°C. An undersized 1.0 Ton unit installed in a 160 sq.ft top-floor bedroom will run its compressor at 100% duty cycle without ever reaching 24°C, spiking electricity bills and tripping on thermal overload.
+        </p>
+
+        <h3>Quick Reference Sizing Chart (Gujarat Climate)</h3>
+        <table class="sz-table">
+          <thead>
+            <tr><th>Room Area (Sq.Ft)</th><th>Middle Floor</th><th>Top Floor / West Sun</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Up to 110 sq.ft</td><td>1.0 Ton</td><td>1.0 – 1.2 Ton</td></tr>
+            <tr><td>115 – 165 sq.ft</td><td>1.5 Ton</td><td>1.5 – 1.8 Ton</td></tr>
+            <tr><td>170 – 230 sq.ft</td><td>2.0 Ton</td><td>2.0 – 2.2 Ton</td></tr>
+            <tr><td>240 – 360 sq.ft</td><td>2.5 – 3.0 Ton Cassette/Split</td><td>3.0 – 3.5 Ton</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Need On-Site Heat-Load Survey or AC Installation?</h3>
+        <p>
+          Planning concealed copper piping, a new split AC installation, or a commercial cassette/VRF layout? Explore our <a href="/services/ac-installation/">Vacuum-Certified AC Installation</a> or test running costs with our <a href="/ac-power-calculator/">AC Power Cost Calculator</a>.
+        </p>
+
+        {faqs.map((f) => (
+          <div class="faq">
+            <h4>{f.q}</h4>
+            <p>{f.a}</p>
+          </div>
+        ))}
+      </article>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      const ids = ['tc-len', 'tc-wid', 'tc-ht', 'tc-occ', 'tc-floor', 'tc-sun'];
+      const els = ids.map((id) => document.getElementById(id));
+      const tonEl = document.getElementById('tc-ton');
+      const btuEl = document.getElementById('tc-btu');
+      function calc() {
+        const l = parseFloat(els[0].value) || 12;
+        const w = parseFloat(els[1].value) || 10;
+        const h = parseFloat(els[2].value) || 10;
+        const occ = parseInt(els[3].value, 10) || 2;
+        const fl = parseFloat(els[4].value) || 1;
+        const sun = parseFloat(els[5].value) || 1;
+        const area = l * w;
+        let btu = area * 78 * (h / 10) * fl * sun + Math.max(0, occ - 2) * 600;
+        btu = Math.round(btu / 100) * 100;
+        const rawTon = btu / 12000;
+        let rec = '1.0 Ton Split / Inverter AC';
+        if (rawTon > 3.1) rec = Math.ceil(rawTon * 2) / 2 + ' Ton Commercial Cassette / Ductable AC';
+        else if (rawTon > 2.15) rec = '2.5 – 3.0 Ton Cassette / Heavy-Duty Split AC';
+        else if (rawTon > 1.62) rec = '2.0 Ton Split / Inverter AC';
+        else if (rawTon > 1.12) rec = '1.5 Ton Split / Inverter AC';
+        tonEl.textContent = rec;
+        btuEl.textContent = 'Estimated Peak Heat Load: ~' + btu.toLocaleString('en-IN') + ' BTU/hr (' + Math.round(area) + ' sq.ft)';
+      }
+      els.forEach((el) => el && el.addEventListener('input', calc));
+      calc();
+    })();
+  </script>
+</BaseLayout>
+
+<style>
+  .page-header { position: relative; padding: var(--space-20) 0 var(--space-12); overflow: hidden; }
+  .header-bg { position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(6,182,212,0.12) 0%, transparent 70%), var(--color-navy); }
+  .page-title { font-family: 'Poppins', sans-serif; font-size: clamp(2.1rem, 4vw, 3.4rem); font-weight: 800; color: #f8fafc; margin: var(--space-3) 0; }
+  .page-title span { color: #22d3ee; }
+  .page-subtitle { color: var(--color-text-secondary); max-width: 680px; margin: 0 auto; }
+  .calc-layout { display: grid; grid-template-columns: 1fr 1.15fr; gap: var(--space-8); align-items: start; }
+  .calc-card, .guide-card { padding: var(--space-8); }
+  .calc-card h2, .guide-card h2 { color: #f8fafc; margin-bottom: var(--space-4); }
+  .guide-card h3 { color: #f8fafc; margin: var(--space-6) 0 var(--space-3); }
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); }
+  label { display: flex; flex-direction: column; gap: 6px; font-size: var(--text-sm); color: #cbd5e1; font-weight: 600; }
+  input, select { padding: 10px 12px; border-radius: 8px; border: 1px solid var(--color-border); background: #0f172a; color: #f8fafc; font-size: var(--text-base); }
+  .result-panel { margin-top: var(--space-6); padding: var(--space-5); border-radius: 10px; background: rgba(6,182,212,0.12); border: 1px solid rgba(6,182,212,0.4); text-align: center; }
+  .res-label { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: #22d3ee; font-weight: 700; }
+  .res-main { font-size: var(--text-2xl); font-weight: 800; color: #f8fafc; margin: 6px 0; }
+  .res-sub { font-size: var(--text-sm); color: #cbd5e1; }
+  .guide-card p { color: var(--color-text-secondary); line-height: 1.75; }
+  .guide-card a { color: var(--color-gold); }
+  .sz-table { width: 100%; border-collapse: collapse; margin: var(--space-3) 0; }
+  .sz-table th, .sz-table td { padding: 9px 10px; border-bottom: 1px solid var(--color-border); text-align: left; font-size: var(--text-sm); color: #e2e8f0; }
+  .sz-table th { color: #22d3ee; }
+  .faq { border-top: 1px solid var(--color-border); padding-top: var(--space-3); margin-top: var(--space-3); }
+  .faq h4 { color: #22d3ee; font-size: var(--text-sm); margin-bottom: 4px; }
+  @media (max-width: 960px) { .calc-layout, .form-grid { grid-template-columns: 1fr; } .calc-card, .guide-card { padding: var(--space-5); } }
+</style>
+

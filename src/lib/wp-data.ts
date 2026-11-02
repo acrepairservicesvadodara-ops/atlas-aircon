@@ -1,5 +1,5 @@
-// Shared access to the exported WordPress pages/posts (wp-export/*.json).
-// Used by the HTML sitemap page and by the "Related pages" links on every migrated page.
+// Shared access to the exported WordPress pages/posts (wp-export/*.json) and restored pages.
+// Used by the HTML sitemap page and by the "Related pages" links on every migrated/restored page.
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -9,6 +9,16 @@ export interface WpEntry {
   title: string;
   type: 'page' | 'post';
 }
+
+// Permanently removed WooCommerce / booking / plugin system slugs (served 410 Gone via api/gone.js)
+export const REMOVED_WP_SLUGS = new Set<string>([
+  'abp-bookings',
+  'register',
+  'my-account',
+  'checkout',
+  'cart',
+  'sitemap-xml',
+]);
 
 const decode = (s: string) =>
   s
@@ -30,10 +40,27 @@ export function wpEntries(): WpEntry[] {
   for (const it of [...read('pages.json'), ...read('posts.json')]) {
     const p = new URL(it.link).pathname;
     const slug = decodeURIComponent(p).replace(/^\/|\/$/g, '');
-    if (!slug || seen.has(slug)) continue;
+    if (!slug || seen.has(slug) || REMOVED_WP_SLUGS.has(slug)) continue;
     seen.add(slug);
     out.push({ path: decodeURIComponent(p), slug, title: decode(it.title.rendered) || slug, type: it.type });
   }
+
+  // Include restored root-level business/equipment/service pages so they are cross-linked and listed on /sitemap/
+  const restoredFile = path.resolve('src/data/restored-pages.json');
+  if (fs.existsSync(restoredFile)) {
+    const restored = JSON.parse(fs.readFileSync(restoredFile, 'utf8'));
+    for (const r of restored) {
+      if (!r.slug || seen.has(r.slug) || REMOVED_WP_SLUGS.has(r.slug)) continue;
+      seen.add(r.slug);
+      out.push({
+        path: r.path || `/${r.slug}/`,
+        slug: r.slug,
+        title: r.title,
+        type: 'page',
+      });
+    }
+  }
+
   cache = out.sort((a, b) => a.slug.localeCompare(b.slug));
   return cache;
 }
@@ -52,8 +79,10 @@ export function relatedFor(entry: WpEntry): WpEntry[] {
   const i = same.findIndex((e) => e.slug === entry.slug);
   const picked: WpEntry[] = [];
   const add = (e?: WpEntry) => e && e.slug !== entry.slug && !picked.includes(e) && picked.push(e);
-  add(same[(i - 1 + same.length) % same.length]);
-  add(same[(i + 1) % same.length]);
+  if (same.length > 1 && i !== -1) {
+    add(same[(i - 1 + same.length) % same.length]);
+    add(same[(i + 1) % same.length]);
+  }
 
   const mine = tokens(entry.slug);
   const scored = same

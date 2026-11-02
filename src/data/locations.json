@@ -5,39 +5,39 @@
     "type": "HQ & Operations Hub",
     "isVadodara": true,
     "distanceKm": 0,
-    "slaTime": "30\u201360 Minutes"
+    "slaTime": "30–60 Minutes"
   },
   {
     "slug": "alkapuri-vadodara",
-    "name": "Alkapuri",
+    "name": "Alkapuri, Vadodara",
     "type": "VIP Residential & Commercial Hub",
     "isVadodara": true,
     "distanceKm": 2,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "gotri-vadodara",
-    "name": "Gotri",
+    "name": "Gotri, Vadodara",
     "type": "Urban Residential & Hospital Zone",
     "isVadodara": true,
     "distanceKm": 5,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "akota-vadodara",
-    "name": "Akota",
+    "name": "Akota, Vadodara",
     "type": "Urban Residential & Retail Hub",
     "isVadodara": true,
     "distanceKm": 3,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "karelibaug-vadodara",
-    "name": "Karelibaug",
+    "name": "Karelibaug, Vadodara",
     "type": "High-Density Residential Hub",
     "isVadodara": true,
     "distanceKm": 4,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "vasna-bhayli-vadodara",
@@ -45,7 +45,7 @@
     "type": "Luxury Residential Township",
     "isVadodara": true,
     "distanceKm": 7,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sama-savli-vadodara",
@@ -53,23 +53,23 @@
     "type": "Residential & Highway Corridor",
     "isVadodara": true,
     "distanceKm": 6,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "manjalpur-vadodara",
-    "name": "Manjalpur",
+    "name": "Manjalpur, Vadodara",
     "type": "Urban Residential & Commercial",
     "isVadodara": true,
     "distanceKm": 6,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "subhanpura-vadodara",
-    "name": "Subhanpura",
+    "name": "Subhanpura, Vadodara",
     "type": "Residential & Commercial",
     "isVadodara": true,
     "distanceKm": 4,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "fatehgunj-vadodara",
@@ -77,7 +77,7 @@
     "type": "Commercial & University Hub",
     "isVadodara": true,
     "distanceKm": 2,
-    "slaTime": "30\u201345 Minutes"
+    "slaTime": "30–45 Minutes"
   },
   {
     "slug": "sayajiganj-vadodara",
@@ -89,75 +89,75 @@
   },
   {
     "slug": "nizampura-vadodara",
-    "name": "Nizampura",
+    "name": "Nizampura, Vadodara",
     "type": "Urban Residential & Market Hub",
     "isVadodara": true,
     "distanceKm": 4,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "chhani-vadodara",
-    "name": "Chhani",
+    "name": "Chhani, Vadodara",
     "type": "Residential & Industrial Border",
     "isVadodara": true,
     "distanceKm": 6,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "atladara-vadodara",
-    "name": "Atladara",
+    "name": "Atladara, Vadodara",
     "type": "Residential & Commercial Corridor",
     "isVadodara": true,
     "distanceKm": 6,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "bhayli-vadodara",
-    "name": "Bhayli",
+    "name": "Bhayli, Vadodara",
     "type": "Premium Residential Zone",
     "isVadodara": true,
     "distanceKm": 8,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sevasi-vadodara",
-    "name": "Sevasi",
+    "name": "Sevasi, Vadodara",
     "type": "Villa & Township Corridor",
     "isVadodara": true,
     "distanceKm": 9,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "bill-vadodara",
-    "name": "Bill",
+    "name": "Bill, Vadodara",
     "type": "Developing Residential Zone",
     "isVadodara": true,
     "distanceKm": 8,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kalali-vadodara",
-    "name": "Kalali",
+    "name": "Kalali, Vadodara",
     "type": "Residential & Commercial Corridor",
     "isVadodara": true,
     "distanceKm": 6,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "diwalipura-vadodara",
-    "name": "Diwalipura",
+    "name": "Diwalipura, Vadodara",
     "type": "Courts & Residential Sector",
     "isVadodara": true,
     "distanceKm": 4,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "old-padra-road-vadodara",
-    "name": "Old Padra Road",
+    "name": "Old Padra Road, Vadodara",
     "type": "Prime Commercial Corridor",
     "isVadodara": true,
     "distanceKm": 3,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "harinagar-vadodara",
@@ -165,55 +165,55 @@
     "type": "Urban Residential Sector",
     "isVadodara": true,
     "distanceKm": 5,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "gorwa-vadodara",
-    "name": "Gorwa",
+    "name": "Gorwa, Vadodara",
     "type": "Residential & Light Industrial",
     "isVadodara": true,
     "distanceKm": 5,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "panchvati-vadodara",
-    "name": "Panchvati",
+    "name": "Panchvati, Vadodara",
     "type": "Residential & Commercial",
     "isVadodara": true,
     "distanceKm": 5,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "harni-vadodara",
-    "name": "Harni",
+    "name": "Harni, Vadodara",
     "type": "Airport & Residential Hub",
     "isVadodara": true,
     "distanceKm": 6,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "warasiya-vadodara",
-    "name": "Warasiya",
+    "name": "Warasiya, Vadodara",
     "type": "Urban Residential & Retail",
     "isVadodara": true,
     "distanceKm": 5,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "waghodia-road-vadodara",
-    "name": "Waghodia Road",
+    "name": "Waghodia Road, Vadodara",
     "type": "Major Residential Arterial",
     "isVadodara": true,
     "distanceKm": 6,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "ajwa-road-vadodara",
-    "name": "Ajwa Road",
+    "name": "Ajwa Road, Vadodara",
     "type": "Rapid Growth Residential Belt",
     "isVadodara": true,
     "distanceKm": 7,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "parivar-char-rasta",
@@ -221,87 +221,87 @@
     "type": "Commercial Junction",
     "isVadodara": true,
     "distanceKm": 6,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "dabhoi-road-vadodara",
-    "name": "Dabhoi Road",
+    "name": "Dabhoi Road, Vadodara",
     "type": "Residential & Warehouse Zone",
     "isVadodara": true,
     "distanceKm": 7,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "soma-talav-vadodara",
-    "name": "Soma Talav",
+    "name": "Soma Talav, Vadodara",
     "type": "Urban Residential Hub",
     "isVadodara": true,
     "distanceKm": 7,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "tarsali-vadodara",
-    "name": "Tarsali",
+    "name": "Tarsali, Vadodara",
     "type": "Highway Residential Township",
     "isVadodara": true,
     "distanceKm": 8,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "vadsar-vadodara",
-    "name": "Vadsar",
+    "name": "Vadsar, Vadodara",
     "type": "Residential & Highway Belt",
     "isVadodara": true,
     "distanceKm": 7,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "maneja-vadodara",
-    "name": "Maneja",
+    "name": "Maneja, Vadodara",
     "type": "Industrial & Heavy Rail Hub",
     "isVadodara": true,
     "distanceKm": 9,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "jambuva-vadodara",
-    "name": "Jambuva",
+    "name": "Jambuva, Vadodara",
     "type": "Highway Logistics & Residential",
     "isVadodara": true,
     "distanceKm": 11,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "pratapnagar-vadodara",
-    "name": "Pratapnagar",
+    "name": "Pratapnagar, Vadodara",
     "type": "Railway & Residential Sector",
     "isVadodara": true,
     "distanceKm": 4,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "mandvi-vadodara",
-    "name": "Mandvi",
+    "name": "Mandvi, Vadodara",
     "type": "Heritage Commercial Market",
     "isVadodara": true,
     "distanceKm": 3,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "panigate-vadodara",
-    "name": "Panigate",
+    "name": "Panigate, Vadodara",
     "type": "High-Density Residential Hub",
     "isVadodara": true,
     "distanceKm": 4,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "dandia-bazar-vadodara",
-    "name": "Dandia Bazar",
+    "name": "Dandia Bazar, Vadodara",
     "type": "Central Heritage District",
     "isVadodara": true,
     "distanceKm": 2,
-    "slaTime": "30\u201345 Minutes"
+    "slaTime": "30–45 Minutes"
   },
   {
     "slug": "chhani-jakat-naka",
@@ -309,7 +309,7 @@
     "type": "Commercial Entry Point",
     "isVadodara": true,
     "distanceKm": 5,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "sun-pharma-road",
@@ -317,15 +317,15 @@
     "type": "Prime Residential & Corporate",
     "isVadodara": true,
     "distanceKm": 5,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "kapurai-vadodara",
-    "name": "Kapurai",
+    "name": "Kapurai, Vadodara",
     "type": "Highway Junction & Residential",
     "isVadodara": true,
     "distanceKm": 8,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "bapod-vadodara",
@@ -333,7 +333,7 @@
     "type": "Urban Residential Belt",
     "isVadodara": true,
     "distanceKm": 6,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "makarpura-gidc",
@@ -341,7 +341,7 @@
     "type": "Heavy Engineering & Electrical GIDC",
     "isVadodara": true,
     "distanceKm": 8,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "nandesari-gidc",
@@ -349,7 +349,7 @@
     "type": "Chemical & Pharmaceutical GIDC",
     "isVadodara": true,
     "distanceKm": 18,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "por-gidc",
@@ -357,7 +357,7 @@
     "type": "Heavy Manufacturing & Auto GIDC",
     "isVadodara": true,
     "distanceKm": 16,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "ranoli-gidc",
@@ -365,15 +365,15 @@
     "type": "Chemical & Petrochemical Belt",
     "isVadodara": true,
     "distanceKm": 14,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "dashrath-industrial",
-    "name": "Dashrath",
+    "name": "Dashrath Industrial Belt",
     "type": "Chemical & Fertilizer Belt",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "koyali-refinery",
@@ -381,7 +381,7 @@
     "type": "Petrochemical Heavy Complex",
     "isVadodara": true,
     "distanceKm": 12,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "ramangamdi-gidc",
@@ -389,7 +389,7 @@
     "type": "Engineering & Fabrication Belt",
     "isVadodara": true,
     "distanceKm": 17,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "savli-gidc",
@@ -397,7 +397,7 @@
     "type": "Heavy Engineering & Metro Rail Belt",
     "isVadodara": false,
     "distanceKm": 32,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "manjusar-gidc",
@@ -405,7 +405,7 @@
     "type": "Automobile & Engineering SEZ",
     "isVadodara": false,
     "distanceKm": 28,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "halol-gidc",
@@ -413,7 +413,7 @@
     "type": "Automobile & Heavy Manufacturing Hub",
     "isVadodara": false,
     "distanceKm": 42,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "kalol-gidc",
@@ -421,7 +421,7 @@
     "type": "Packaging & Light Industrial Zone",
     "isVadodara": false,
     "distanceKm": 38,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "waghodia-gidc",
@@ -429,7 +429,7 @@
     "type": "Automobile Ancillary & Engineering",
     "isVadodara": false,
     "distanceKm": 26,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "padra-gidc",
@@ -437,7 +437,7 @@
     "type": "Pharmaceutical & Specialty Chemical",
     "isVadodara": false,
     "distanceKm": 18,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "ekalbara-gidc",
@@ -445,7 +445,7 @@
     "type": "Active Pharma (API) Cluster",
     "isVadodara": false,
     "distanceKm": 24,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "luna-industrial",
@@ -453,7 +453,7 @@
     "type": "Engineering & Fabrication Belt",
     "isVadodara": false,
     "distanceKm": 20,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "karjan-gidc",
@@ -461,7 +461,7 @@
     "type": "Textile, Ginning & Food Processing",
     "isVadodara": false,
     "distanceKm": 36,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "palej-gidc",
@@ -469,7 +469,7 @@
     "type": "Chemical & Plastic Manufacturing",
     "isVadodara": false,
     "distanceKm": 52,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "dahej-gidc",
@@ -477,7 +477,7 @@
     "type": "Mega Petrochemical PCPIR & Port SEZ",
     "isVadodara": false,
     "distanceKm": 98,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "dahej-sez",
@@ -485,7 +485,7 @@
     "type": "Export Chemical Mega Complex",
     "isVadodara": false,
     "distanceKm": 102,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "vilayat-gidc",
@@ -493,7 +493,7 @@
     "type": "Chemical & Synthetic Fiber Hub",
     "isVadodara": false,
     "distanceKm": 82,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "saykha-gidc",
@@ -501,7 +501,7 @@
     "type": "Specialty Chemical & Dyes SEZ",
     "isVadodara": false,
     "distanceKm": 90,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "ankleshwar-gidc",
@@ -509,7 +509,7 @@
     "type": "Asia's Largest Chemical & Pharma GIDC",
     "isVadodara": false,
     "distanceKm": 86,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "panoli-gidc",
@@ -517,7 +517,7 @@
     "type": "Pesticide & Agrochemical GIDC",
     "isVadodara": false,
     "distanceKm": 94,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "jhagadia-gidc",
@@ -525,7 +525,7 @@
     "type": "Heavy Glass, Chemical & Metals SEZ",
     "isVadodara": false,
     "distanceKm": 78,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "jambusar-gidc",
@@ -533,7 +533,7 @@
     "type": "Agrochemical & Bulk Drug Belt",
     "isVadodara": false,
     "distanceKm": 65,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "vitthal-udyognagar",
@@ -541,7 +541,7 @@
     "type": "Engineering, Valve & Pump GIDC",
     "isVadodara": false,
     "distanceKm": 42,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "tarapur-gidc",
@@ -549,7 +549,7 @@
     "type": "Textile Processing & Chemical Hub",
     "isVadodara": false,
     "distanceKm": 68,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "petlad-gidc",
@@ -557,7 +557,7 @@
     "type": "Textile & Agro Industrial Estate",
     "isVadodara": false,
     "distanceKm": 54,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "nadiad-gidc",
@@ -565,7 +565,7 @@
     "type": "Engineering & Food Processing Estate",
     "isVadodara": false,
     "distanceKm": 58,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "godhra-gidc",
@@ -573,7 +573,7 @@
     "type": "Mineral, Engineering & Agro Estate",
     "isVadodara": false,
     "distanceKm": 74,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "dabhoi-gidc",
@@ -581,7 +581,7 @@
     "type": "Small-Scale Engineering & Agro Belt",
     "isVadodara": false,
     "distanceKm": 34,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "borsad-gidc",
@@ -589,7 +589,7 @@
     "type": "Agro Processing & Packaging Estate",
     "isVadodara": false,
     "distanceKm": 48,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "ahmedabad",
@@ -597,7 +597,7 @@
     "type": "Metropolitan Commercial & Industrial Hub",
     "isVadodara": false,
     "distanceKm": 110,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "surat",
@@ -613,7 +613,7 @@
     "type": "Milk Capital & Commercial Hub",
     "isVadodara": false,
     "distanceKm": 44,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "v-v-nagar",
@@ -621,7 +621,7 @@
     "type": "Educational Hub & Faculty Townships",
     "isVadodara": false,
     "distanceKm": 46,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "nadiad",
@@ -629,7 +629,7 @@
     "type": "Commercial & Healthcare Center",
     "isVadodara": false,
     "distanceKm": 56,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "bharuch",
@@ -637,7 +637,7 @@
     "type": "Historic Port & Industrial Twin City",
     "isVadodara": false,
     "distanceKm": 76,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "ankleshwar",
@@ -645,7 +645,7 @@
     "type": "Industrial Hub & Chemical Corridor",
     "isVadodara": false,
     "distanceKm": 84,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "kheda",
@@ -653,7 +653,7 @@
     "type": "District Headquarters & Agro Corridor",
     "isVadodara": false,
     "distanceKm": 72,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "godhra",
@@ -661,7 +661,7 @@
     "type": "Commercial Junction & District Hub",
     "isVadodara": false,
     "distanceKm": 72,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "padra",
@@ -669,7 +669,7 @@
     "type": "Semi-Urban Center & Commercial Market",
     "isVadodara": false,
     "distanceKm": 16,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "karjan",
@@ -677,7 +677,7 @@
     "type": "Highway Town & Commercial Mandi",
     "isVadodara": false,
     "distanceKm": 34,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "shinor",
@@ -685,7 +685,7 @@
     "type": "Narmada Riverfront Heritage Town",
     "isVadodara": false,
     "distanceKm": 52,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "dabhoi",
@@ -693,7 +693,7 @@
     "type": "Historic Gateway & Commercial Hub",
     "isVadodara": false,
     "distanceKm": 32,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "waghodia",
@@ -701,7 +701,7 @@
     "type": "University & Industrial Corridor",
     "isVadodara": false,
     "distanceKm": 24,
-    "slaTime": "45\u201360 Minutes"
+    "slaTime": "45–60 Minutes"
   },
   {
     "slug": "halol",
@@ -709,7 +709,7 @@
     "type": "Automobile City & Tourism Gateway",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kalol",
@@ -717,7 +717,7 @@
     "type": "Semi-Urban Hub & Agro Mandi",
     "isVadodara": false,
     "distanceKm": 36,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "savli",
@@ -725,7 +725,7 @@
     "type": "Taluka Headquarters & Industrial Border",
     "isVadodara": false,
     "distanceKm": 30,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "jambusar",
@@ -733,7 +733,7 @@
     "type": "Coastal Agro & Chemical Hub",
     "isVadodara": false,
     "distanceKm": 62,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "khambhat",
@@ -741,7 +741,7 @@
     "type": "Coastal Port, Agate & Chemical Town",
     "isVadodara": false,
     "distanceKm": 78,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "borsad",
@@ -749,7 +749,7 @@
     "type": "Charotar Commercial & Tobacco Market",
     "isVadodara": false,
     "distanceKm": 46,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "petlad",
@@ -757,7 +757,7 @@
     "type": "Historic Textile & Commercial Town",
     "isVadodara": false,
     "distanceKm": 52,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "umreth",
@@ -765,7 +765,7 @@
     "type": "Commercial & Trade Junction",
     "isVadodara": false,
     "distanceKm": 62,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "dakor",
@@ -773,7 +773,7 @@
     "type": "Major Pilgrimage Center & Commercial",
     "isVadodara": false,
     "distanceKm": 68,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "bodeli",
@@ -781,7 +781,7 @@
     "type": "Tribal Commercial Mandi & Mining Belt",
     "isVadodara": false,
     "distanceKm": 64,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "sankheda",
@@ -789,7 +789,7 @@
     "type": "Artisan Craft & Commercial Center",
     "isVadodara": false,
     "distanceKm": 54,
-    "slaTime": "90\u2013120 Minutes"
+    "slaTime": "90–120 Minutes"
   },
   {
     "slug": "rajpipla",
@@ -797,7 +797,7 @@
     "type": "Narmada District Headquarters",
     "isVadodara": false,
     "distanceKm": 68,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "morbi",
@@ -877,7 +877,7 @@
     "type": "Capital City & IT/Electronic Hub",
     "isVadodara": false,
     "distanceKm": 135,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "mehsana",
@@ -949,7 +949,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "cost-vadodara",
@@ -957,7 +957,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "vadodara-best-air-conditioner-repair-service-center",
@@ -965,7 +965,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "in-vadodara-best-air-conditioner-repair-service-center",
@@ -973,7 +973,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "panoli-gidc-ankleshwar",
@@ -981,7 +981,7 @@
     "type": "Industrial & Commercial Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "services-for-your-home",
@@ -989,7 +989,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "servicing-in-daman",
@@ -997,7 +997,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "servicing-in-valsad",
@@ -1005,7 +1005,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "servicing-in-vapi",
@@ -1013,7 +1013,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "vadodara-charges",
@@ -1021,7 +1021,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "ajod",
@@ -1029,7 +1029,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "ajwa-road",
@@ -1037,7 +1037,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "akota-garden",
@@ -1045,7 +1045,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "akota",
@@ -1053,7 +1053,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "alamgir",
@@ -1061,7 +1061,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "alindra",
@@ -1069,7 +1069,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "alkapuri",
@@ -1077,7 +1077,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "amaliyara",
@@ -1085,7 +1085,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "amarapura",
@@ -1093,7 +1093,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "amodar",
@@ -1101,7 +1101,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "ampad",
@@ -1109,7 +1109,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "anagad",
@@ -1117,7 +1117,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "anjesar",
@@ -1125,7 +1125,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "ankhol",
@@ -1133,7 +1133,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "ankodiya",
@@ -1141,7 +1141,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "asoj",
@@ -1149,7 +1149,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "atladara",
@@ -1157,7 +1157,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "bajwa",
@@ -1165,7 +1165,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "bakrol",
@@ -1173,7 +1173,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "baranpura",
@@ -1181,7 +1181,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "baroda-dairy",
@@ -1189,7 +1189,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "bautha",
@@ -1197,7 +1197,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "bhadarva",
@@ -1205,7 +1205,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "bhayli-road",
@@ -1213,7 +1213,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "bhayli",
@@ -1221,7 +1221,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "bill",
@@ -1229,7 +1229,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "brushellz-industrial-park",
@@ -1237,7 +1237,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "champaner-road",
@@ -1245,7 +1245,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "chapad",
@@ -1253,7 +1253,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "chhani",
@@ -1261,7 +1261,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "chipad",
@@ -1269,7 +1269,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "dabhasha",
@@ -1277,7 +1277,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "dabhoi-road",
@@ -1285,7 +1285,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "dajipura",
@@ -1293,7 +1293,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "dandia-bazar",
@@ -1301,7 +1301,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "danteshwar",
@@ -1309,7 +1309,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "darapura",
@@ -1317,7 +1317,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "darbar-chowkdi",
@@ -1325,7 +1325,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "dashrath",
@@ -1333,7 +1333,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "dattapura",
@@ -1341,7 +1341,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "dena",
@@ -1349,7 +1349,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "dhaniavi",
@@ -1357,7 +1357,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "dhanora",
@@ -1365,7 +1365,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "diwalipura",
@@ -1373,7 +1373,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "dodka",
@@ -1381,7 +1381,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "dumad",
@@ -1389,7 +1389,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "ekalbara",
@@ -1397,7 +1397,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "ektanagar-kevadia-colony-narmada",
@@ -1405,7 +1405,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "ellora-park",
@@ -1413,7 +1413,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "eme",
@@ -1421,7 +1421,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "eshanya",
@@ -1429,7 +1429,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "fartilizer-nagar",
@@ -1437,7 +1437,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "fatehganj",
@@ -1445,7 +1445,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "fatehpura",
@@ -1453,7 +1453,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "fertilizer-nagar",
@@ -1461,7 +1461,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "garadhi",
@@ -1469,7 +1469,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "gokalpura",
@@ -1477,7 +1477,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "gorwa-bidc",
@@ -1485,7 +1485,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "gorwa",
@@ -1493,7 +1493,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "gotri",
@@ -1501,7 +1501,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "haripura",
@@ -1509,7 +1509,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "harni",
@@ -1517,7 +1517,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "hinglot",
@@ -1525,7 +1525,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "itola",
@@ -1533,7 +1533,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "jail-road",
@@ -1541,7 +1541,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "jambuva",
@@ -1549,7 +1549,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "jarod",
@@ -1557,7 +1557,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "jesangpura",
@@ -1565,7 +1565,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "jetalpur-road",
@@ -1573,7 +1573,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kalali",
@@ -1581,7 +1581,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kamlapura",
@@ -1589,7 +1589,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kapurai-village",
@@ -1597,7 +1597,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kapurai",
@@ -1605,7 +1605,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "karachiya",
@@ -1613,7 +1613,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "karakhadi-gidc",
@@ -1621,7 +1621,7 @@
     "type": "Industrial & Commercial Service Zone",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "karali",
@@ -1629,7 +1629,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "karchiya",
@@ -1637,7 +1637,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "karelibaug",
@@ -1645,7 +1645,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "karkhadi",
@@ -1653,7 +1653,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "karodiya",
@@ -1661,7 +1661,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kelanpur",
@@ -1669,7 +1669,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "khalipur",
@@ -1677,7 +1677,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "khanderao-market",
@@ -1685,7 +1685,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "khandiwada",
@@ -1693,7 +1693,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kharkhadi",
@@ -1701,7 +1701,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "khodiyar-nagar",
@@ -1709,7 +1709,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kirti-mandir",
@@ -1717,7 +1717,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kishanwadi",
@@ -1725,7 +1725,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kotambi",
@@ -1733,7 +1733,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "koyali",
@@ -1741,7 +1741,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "krishna-industrial-park",
@@ -1749,7 +1749,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "krusha-nagar",
@@ -1757,7 +1757,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "kundhela",
@@ -1765,7 +1765,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "lalbagh",
@@ -1773,7 +1773,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "lalbaug",
@@ -1781,7 +1781,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "lamdapura",
@@ -1789,7 +1789,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "lasundra",
@@ -1797,7 +1797,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "laxmipura",
@@ -1805,7 +1805,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "limbda-apollo-tyres",
@@ -1813,7 +1813,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "limda",
@@ -1821,7 +1821,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "madanzampa",
@@ -1829,7 +1829,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "madhavpura",
@@ -1837,7 +1837,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "mahapura",
@@ -1845,7 +1845,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "maharana-pratap-rd",
@@ -1853,7 +1853,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "maharana-pratap-road",
@@ -1861,7 +1861,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "makarand-desai-road",
@@ -1869,7 +1869,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "makarpura",
@@ -1877,7 +1877,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "makrand-desai-road",
@@ -1885,7 +1885,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "managalpara",
@@ -1893,7 +1893,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "mandvi",
@@ -1901,7 +1901,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "maneja",
@@ -1909,7 +1909,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "manisha-char-rasta",
@@ -1917,7 +1917,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "manjalpur",
@@ -1925,7 +1925,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "maretha",
@@ -1933,7 +1933,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "mehsana-nagar",
@@ -1941,7 +1941,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "moksi",
@@ -1949,7 +1949,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "muj-mahuda",
@@ -1957,7 +1957,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "nagarwada",
@@ -1965,7 +1965,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "nandesari",
@@ -1973,7 +1973,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "nava-ajva",
@@ -1981,7 +1981,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "navapura",
@@ -1989,7 +1989,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "new-alkapuri",
@@ -1997,7 +1997,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "new-ipcl-road",
@@ -2005,7 +2005,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "new-karelibaug",
@@ -2013,7 +2013,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "new-sama",
@@ -2021,7 +2021,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "new-vip-road",
@@ -2029,7 +2029,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "nizampura",
@@ -2037,7 +2037,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "old-padra-road",
@@ -2045,7 +2045,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "padmala",
@@ -2053,7 +2053,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "palaswada",
@@ -2061,7 +2061,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "panchvati",
@@ -2069,7 +2069,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "panigate",
@@ -2077,7 +2077,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "parda-road",
@@ -2085,7 +2085,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "pasa-bhai-park",
@@ -2093,7 +2093,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "patarveni",
@@ -2101,7 +2101,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "patod",
@@ -2109,7 +2109,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "petrochemical-t-ship",
@@ -2117,7 +2117,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "poicha-gidc",
@@ -2125,7 +2125,7 @@
     "type": "Industrial & Commercial Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "poicha",
@@ -2133,7 +2133,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "por-ramangamdi-gidc",
@@ -2141,7 +2141,7 @@
     "type": "Industrial & Commercial Service Zone",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "pratapgunj",
@@ -2149,7 +2149,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "pratapnagar",
@@ -2157,7 +2157,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "productivity-road",
@@ -2165,7 +2165,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "punit-nagar",
@@ -2173,7 +2173,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "race-course",
@@ -2181,7 +2181,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "raipura",
@@ -2189,7 +2189,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "raniya",
@@ -2197,7 +2197,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "ranoli",
@@ -2205,7 +2205,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "raopura",
@@ -2213,7 +2213,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sakarda",
@@ -2221,7 +2221,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sama-savli-road",
@@ -2229,7 +2229,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sama",
@@ -2237,7 +2237,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "samiyala",
@@ -2245,7 +2245,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "samlaya",
@@ -2253,7 +2253,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "samta",
@@ -2261,7 +2261,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sangam-char-rasta",
@@ -2269,7 +2269,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sangma",
@@ -2277,7 +2277,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sankarda",
@@ -2285,7 +2285,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sankheda-gidc",
@@ -2293,7 +2293,7 @@
     "type": "Industrial & Commercial Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sarabhai-campus",
@@ -2301,7 +2301,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sardar-estate",
@@ -2309,7 +2309,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "savli-manjusar-gidc",
@@ -2317,7 +2317,7 @@
     "type": "Industrial & Commercial Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sayajigunj",
@@ -2325,7 +2325,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sayajipura",
@@ -2333,7 +2333,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sevasi",
@@ -2341,7 +2341,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "shah-industrial-park",
@@ -2349,7 +2349,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sherkhi",
@@ -2357,7 +2357,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "siddharth-nagar",
@@ -2365,7 +2365,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sikandarpura",
@@ -2373,7 +2373,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sindhrot",
@@ -2381,7 +2381,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sisva",
@@ -2389,7 +2389,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sokhda",
@@ -2397,7 +2397,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "soma-talav",
@@ -2405,7 +2405,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sonarkui",
@@ -2413,7 +2413,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "subhanpura",
@@ -2421,7 +2421,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sultanpura",
@@ -2429,7 +2429,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "suncity-industrial-park",
@@ -2437,7 +2437,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "suncity-manjalpur",
@@ -2445,7 +2445,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "sundarpura",
@@ -2453,7 +2453,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "sunpharma-road",
@@ -2461,7 +2461,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "suryanagar",
@@ -2469,7 +2469,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "susan-char-rasta",
@@ -2477,7 +2477,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "susen-char-rasta",
@@ -2485,7 +2485,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "tandalja",
@@ -2493,7 +2493,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "tarsali",
@@ -2501,7 +2501,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "tilakwada-dashrath",
@@ -2509,7 +2509,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "timbi",
@@ -2517,7 +2517,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "tp-13",
@@ -2525,7 +2525,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "tulsidham-char-rasta",
@@ -2533,7 +2533,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "undera",
@@ -2541,7 +2541,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "vadiwadi",
@@ -2549,7 +2549,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "vadsar",
@@ -2557,7 +2557,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "varnama",
@@ -2565,7 +2565,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "varsada",
@@ -2573,7 +2573,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "vasant-vihar",
@@ -2581,7 +2581,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "vasna-bhayli-road",
@@ -2589,7 +2589,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "vasna-road",
@@ -2597,7 +2597,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "vasna",
@@ -2605,7 +2605,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "vemali",
@@ -2613,7 +2613,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "vip-road",
@@ -2621,7 +2621,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "virod",
@@ -2629,7 +2629,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "vishwamitri",
@@ -2637,7 +2637,7 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   },
   {
     "slug": "wadi",
@@ -2645,7 +2645,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "waghodia-road",
@@ -2653,7 +2653,7 @@
     "type": "Urban Residential Area",
     "isVadodara": true,
     "distanceKm": 10,
-    "slaTime": "60\u201390 Minutes"
+    "slaTime": "60–90 Minutes"
   },
   {
     "slug": "warasiya",
@@ -2661,6 +2661,6 @@
     "type": "Regional Service Zone",
     "isVadodara": false,
     "distanceKm": 40,
-    "slaTime": "2\u20133 Hours"
+    "slaTime": "2–3 Hours"
   }
 ]

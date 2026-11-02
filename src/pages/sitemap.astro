@@ -1,14 +1,23 @@
 ---
-// Human-readable HTML sitemap: links every migrated page and blog post, grouped by topic.
+// Human-readable HTML sitemap: links every live page, restored guide, fault code, wiki article, and blog post.
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Icon from '@components/Icon.astro';
+import { getCollection } from 'astro:content';
 import { wpEntries } from '../lib/wp-data';
+import servicesMaster from '@data/services-master.json';
+import wikiArticles from '@data/wiki-articles.json';
+import hvacWorkLogs from '@data/hvac-work-logs.json';
 
 const all = wpEntries();
 const posts = all.filter((e) => e.type === 'post');
 const pages = all.filter((e) => e.type === 'page');
 
-const groups: { title: string; items: typeof all }[] = [];
+const faultCodes = await getCollection('fault-codes');
+faultCodes.sort((a, b) => a.slug.localeCompare(b.slug));
+const recentProjects = await getCollection('recent-projects');
+recentProjects.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const groups: { title: string; items: { path: string; title: string }[] }[] = [];
 const used = new Set<string>();
 const take = (title: string, test: (s: string) => boolean, src = pages) => {
   const items = src.filter((e) => !used.has(e.slug) && test(e.slug));
@@ -16,17 +25,50 @@ const take = (title: string, test: (s: string) => boolean, src = pages) => {
   if (items.length) groups.push({ title, items });
 };
 
+groups.push({
+  title: 'Core HVAC Engineering Divisions',
+  items: servicesMaster.map((s) => ({ path: `/services/${s.slug}/`, title: s.name })),
+});
+
 take('AC Service by Area', (s) => /^ac-service(-in|s)?-/.test(s));
 take('AC Repair by Area', (s) => /^ac-repair/.test(s));
 take('Brand Service Centers', (s) => /service-center/.test(s));
-take('AC Installation & Other Services', (s) => /install|gas-charging|amc|chiller|vrf|cassette|panel|cold-storage|hvac/.test(s));
-take('More Pages', () => true);
+take('AC Installation, Equipment & Spare Parts', (s) => /install|gas-charging|amc|chiller|vrf|cassette|panel|cold-storage|hvac|coil|blower|motor|compressor|refrigerator|ahu/.test(s));
+take('More HVAC Guides & Pages', () => true);
+
+groups.push({
+  title: 'AC Error & Fault Code Diagnostics',
+  items: faultCodes.map((fc) => ({
+    path: `/fault-codes/${fc.slug}/`,
+    title: `${fc.data.brand} Error ${fc.data.code} — ${fc.data.title}`,
+  })),
+});
+
+groups.push({
+  title: 'Atlas HVAC Engineering Wiki',
+  items: wikiArticles.map((w) => ({ path: `/wiki/${w.slug}/`, title: w.title })),
+});
+
+groups.push({
+  title: 'Field Dispatch & Project Case Logs',
+  items: [
+    ...recentProjects.map((p) => ({ path: `/recent-projects/${p.slug}/`, title: p.data.title })),
+    ...hvacWorkLogs.map((h) => ({ path: `/hvac-work/${h.slug}/`, title: h.title })),
+  ],
+});
+
 groups.push({ title: 'Blog Articles', items: posts });
 
 const main = [
   { name: 'Home', href: '/' },
-  { name: 'Services', href: '/services/' },
+  { name: 'All Services', href: '/services/' },
+  { name: '333+ Service Areas Hub', href: '/service-areas/' },
+  { name: 'Book Appointment Online', href: '/book-appointment/' },
   { name: 'AC Repair Price List', href: '/ac-repair-cost-vadodara/' },
+  { name: 'AC Tonnage Calculator', href: '/ac-tonnage-calculator/' },
+  { name: 'AC Power Bill Calculator', href: '/ac-power-calculator/' },
+  { name: 'Customer Testimonials', href: '/testimonials/' },
+  { name: 'Project Photo Gallery', href: '/gallery/' },
   { name: 'About Us', href: '/about-us/' },
   { name: 'Contact Us', href: '/contact-us/' },
   { name: 'Spare Parts Store', href: '/shop/' },
@@ -39,18 +81,31 @@ const main = [
   { name: 'Privacy Policy', href: '/privacy-policy/' },
   { name: 'Terms & Conditions', href: '/terms-and-conditions/' },
 ];
+
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Sitemap', item: 'https://www.atlasaircons.com/sitemap/' },
+  ],
+};
 ---
 
 <BaseLayout
-  title="Sitemap | Atlas Aircon"
-  description="Browse every Atlas Aircon page: AC repair and service by area, brand service centers, installation, HVAC services and blog articles."
+  title="HTML Sitemap & Complete Site Directory | Atlas Aircon"
+  description="Browse every Atlas Aircon page: AC repair and service by area, brand service centers, fault code guides, HVAC wiki, installation, and blog articles."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
+
   <section class="page-header">
     <div class="header-bg"></div>
     <div class="container relative z-10 text-center">
       <div class="section-badge"><Icon name="map-pin" size={14} strokeWidth={2} /> Site Directory</div>
       <h1 class="page-title">Sitemap</h1>
-      <p class="page-subtitle">Every page on Atlas Aircon, grouped by topic.</p>
+      <p class="page-subtitle">Every live page, technical guide, and dispatch hub on Atlas Aircon, grouped by topic.</p>
     </div>
   </section>
 

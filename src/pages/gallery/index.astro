@@ -1,0 +1,124 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+
+const galleryItems = [
+  {
+    src: '/images/emergency-ac-repair.webp',
+    alt: 'Atlas Aircon field engineer performing 24/7 emergency AC diagnostics in Vadodara',
+    category: 'Emergency Dispatch',
+    title: '24/7 On-Site Diagnostic Van & Instrument Check',
+    caption: 'Digital clamp-meter amperage testing, manifold pressure verification, and inverter board inspection across Vadodara.',
+  },
+  {
+    src: '/wp-content/uploads/2025/04/AC-Chemical-Wash-Deep-Cleaning-in-Vadodara-1200x675.webp',
+    alt: 'Foam jet chemical wash deep cleaning of split AC evaporator coil in Vadodara',
+    category: 'Foam-Jet Servicing',
+    title: '360° Waterproof Jacket Foam-Jet Coil Cleaning',
+    caption: 'High-penetration coil surfactant and controlled jet washing removes compacted dust and algae without splashing interior walls.',
+  },
+  {
+    src: '/wp-content/uploads/2025/04/cassette-ac-repair-service-vadodara.png',
+    alt: '4-way ceiling cassette AC repair and condensate pump servicing in commercial office',
+    category: 'Commercial HVAC',
+    title: '4-Way Ceiling Cassette AC Overhaul & Lift-Pump Cleaning',
+    caption: 'Complete false-ceiling cassette maintenance for clinics, banks, corporate offices, and retail showrooms.',
+  },
+  {
+    src: '/wp-content/uploads/2025/03/deep-cleaning-ac-service-1200x674.webp',
+    alt: 'Outdoor AC condenser high-pressure fin washing for peak 45C summer efficiency',
+    category: 'Heat Rejection',
+    title: 'High-Pressure Outdoor Condenser Fin De-Fouling',
+    caption: 'Restoring unrestricted outdoor heat rejection lowers head pressure and cuts compressor power draw by up to 22%.',
+  },
+  {
+    src: '/wp-content/uploads/2025/04/Air-cooler-repair-service-vadodara-1200x675.webp',
+    alt: 'Industrial and commercial evaporative air cooler motor and pump servicing in Vadodara',
+    category: 'Industrial Cooling',
+    title: 'Shop-Floor Ducted Cooler & Ventilation Maintenance',
+    caption: 'Heavy-duty blower motor, submersible pump, and cellulose honeycomb pad servicing for GIDC workshops.',
+  },
+  {
+    src: '/wp-content/uploads/2025/04/male-worker-repairing-refrigerator-with-screwdrive-2025-01-10-02-24-25-utc.webp',
+    alt: 'Commercial refrigerator and deep freezer sealed-system repair technician in Vadodara',
+    category: 'Cold Chain',
+    title: 'Commercial Refrigeration, Visi-Cooler & Freezer Repair',
+    caption: 'Defrost system calibration, relay replacement, nitrogen leak testing, and precision refrigerant charging.',
+  },
+];
+
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Project & Service Gallery', item: 'https://www.atlasaircons.com/gallery/' },
+  ],
+};
+---
+
+<BaseLayout
+  title="HVAC Project & Service Photo Gallery | Atlas Aircon Vadodara"
+  description="Browse Atlas Aircon's field service gallery: foam-jet split AC deep cleaning, 4-way cassette overhauls, inverter PCB lab repairs, and industrial GIDC chiller maintenance."
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
+
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 text-center">
+      <div class="section-badge"><Icon name="zap" size={14} strokeWidth={2} /> Workmanship Showcase</div>
+      <h1 class="page-title">Service & Engineering <span>Gallery</span></h1>
+      <p class="page-subtitle">Inside our residential foam-jet servicing, commercial HVAC installations, electronics lab, and GIDC plant dispatches.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="gal-grid">
+        {galleryItems.map((item) => (
+          <figure class="card gal-card">
+            <img src={item.src} alt={item.alt} width="600" height="360" loading="lazy" decoding="async" />
+            <figcaption class="gal-body">
+              <span class="gal-cat">{item.category}</span>
+              <h2>{item.title}</h2>
+              <p>{item.caption}</p>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+
+      <div class="card info-card">
+        <h2>Clean-Room Discipline Inside Every Home & Factory</h2>
+        <p>
+          At Atlas Aircon, field workmanship is measured by instrument readings as much as visual neatness. Every residential crew carries waterproof indoor cleaning bibs, drop cloths, diamond core-drilling bits, digital manifold gauges, two-stage micron vacuum pumps, and calibrated torque wrenches. Every industrial crew arrives in full PPE with LOTO electrical safety kits, dry nitrogen cylinders, and Megger insulation testers.
+        </p>
+        <div class="cta-row">
+          <a href="/recent-projects/" class="btn btn-primary">Read Detailed Field Case Studies</a>
+          <a href="/book-appointment/" class="btn btn-outline">Book an Engineer Visit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { position: relative; padding: var(--space-20) 0 var(--space-12); overflow: hidden; }
+  .header-bg { position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(6,182,212,0.12) 0%, transparent 70%), var(--color-navy); }
+  .page-title { font-family: 'Poppins', sans-serif; font-size: clamp(2.2rem, 4.2vw, 3.5rem); font-weight: 800; color: #f8fafc; margin: var(--space-3) 0; }
+  .page-title span { color: #22d3ee; }
+  .page-subtitle { color: var(--color-text-secondary); max-width: 680px; margin: 0 auto; }
+  .gal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: var(--space-6); margin-bottom: var(--space-10); }
+  .gal-card { margin: 0; overflow: hidden; display: flex; flex-direction: column; }
+  .gal-card img { width: 100%; height: 220px; object-fit: cover; display: block; }
+  .gal-body { padding: var(--space-5); display: flex; flex-direction: column; gap: var(--space-2); }
+  .gal-cat { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #06b6d4; }
+  .gal-body h2 { font-size: var(--text-lg); color: #f8fafc; margin: 0; line-height: 1.35; }
+  .gal-body p { color: var(--color-text-secondary); font-size: var(--text-sm); line-height: 1.6; margin: 0; }
+  .info-card { padding: var(--space-8); }
+  .info-card h2 { color: #f8fafc; margin-bottom: var(--space-3); }
+  .info-card p { color: var(--color-text-secondary); line-height: 1.8; margin-bottom: var(--space-5); }
+  .cta-row { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+</style>
+

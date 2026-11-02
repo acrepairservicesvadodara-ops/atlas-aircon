@@ -1,0 +1,138 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Icon from '@components/Icon.astro';
+import WhatsAppForm from '@components/WhatsAppForm.astro';
+
+const faqs = [
+  {
+    q: 'How fast does an Atlas Aircon technician arrive after booking?',
+    a: 'Within Vadodara city limits (Alkapuri, Gotri, Akota, Manjalpur, Karelibaug, Waghodia Road, Vasna-Bhayli, Nizampura, Sama), our mobile van arrives within 60–90 minutes. For Makarpura, Por, Savli, Halol, Nandesari, and Dahej GIDC, dispatch takes 60–150 minutes.',
+  },
+  {
+    q: 'Is the ₹299 diagnostic inspection charge adjusted if I approve the repair?',
+    a: 'Yes. When you proceed with the recommended repair on the same visit, the basic inspection charge is adjusted against your final repair invoice.',
+  },
+  {
+    q: 'Do you provide GST invoices and written service warranties?',
+    a: 'Yes. Every residential, commercial, and industrial job includes a transparent service report, up to 90 days warranty on workmanship and replaced parts, and GST billing for commercial clients.',
+  },
+];
+
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.atlasaircons.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Book Appointment', item: 'https://www.atlasaircons.com/book-appointment/' },
+      ],
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Book AC Service & Repair Appointment Online | 60-Min Vadodara Dispatch"
+  description="Schedule doorstep AC repair, foam-jet servicing, gas charging, inverter PCB repair, or industrial chiller inspection in Vadodara & Gujarat. 24/7 instant confirmation."
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
+
+  <section class="page-header">
+    <div class="header-bg"></div>
+    <div class="container relative z-10 hero-grid">
+      <div>
+        <div class="section-badge"><Icon name="clock" size={14} strokeWidth={2} /> 24/7 Instant Dispatch Desk</div>
+        <h1 class="page-title">Book Your HVAC <span>Appointment</span></h1>
+        <p class="hero-intro">
+          Confirm a certified Atlas Aircon engineer in under 60 seconds. Submit your unit type, symptom, and neighborhood on the dispatch form—or call our 24/7 hotline directly at <strong>+91 97272 57141</strong>.
+        </p>
+        <ul class="highlights">
+          <li>✓ 60–90 Min Doorstep Arrival Across Vadodara</li>
+          <li>✓ Upfront Rate Card — Zero Hidden Charges</li>
+          <li>✓ Genuine OEM Spares & 500-Micron Vacuum Standard</li>
+          <li>✓ Up to 90-Day Written Service Warranty</li>
+        </ul>
+      </div>
+      <div>
+        <WhatsAppForm />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid-2">
+      <div class="card box">
+        <h2>Transparent Popular Service Rates</h2>
+        <table class="rate-table">
+          <thead>
+            <tr><th>Service Type</th><th>Standard Rate</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Diagnostic Fault Inspection</td><td>₹299</td></tr>
+            <tr><td>Foam-Jet Split AC Deep Service</td><td>₹599</td></tr>
+            <tr><td>Window AC Power-Jet Service</td><td>₹499</td></tr>
+            <tr><td>Standard Split AC Installation</td><td>₹1,499</td></tr>
+            <tr><td>AC Uninstallation (Pump-Down Safe)</td><td>₹699</td></tr>
+            <tr><td>Complete Leak Fix + Vacuum + Gas Refill</td><td>₹2,199 – ₹3,200</td></tr>
+            <tr><td>Inverter AC PCB Component Micro-Repair</td><td>₹1,200 – ₹3,800</td></tr>
+          </tbody>
+        </table>
+        <p class="note">See full item-wise pricing on our <a href="/ac-repair-cost-vadodara/">Official Vadodara AC Repair Price List</a>.</p>
+      </div>
+
+      <div class="card box">
+        <h2>How Our 4-Step Booking Works</h2>
+        <ol class="steps">
+          <li><strong>Instant Ticket Creation:</strong> Send the WhatsApp booking form or call +91 97272 57141 with your area and AC issue.</li>
+          <li><strong>Nearest Van Assigned:</strong> Our Sayajigunj control desk assigns the closest mobile technician carrying matching spares and gauges.</li>
+          <li><strong>Instrument Diagnosis & Quote:</strong> Engineer inspects your unit, explains the exact fault, and confirms upfront pricing before starting work.</li>
+          <li><strong>Load Test & Warranty Slip:</strong> Post-repair grill temperature, amperage, and leak checks verified—backed by our 90-day warranty.</li>
+        </ol>
+
+        <h3>Booking FAQs</h3>
+        {faqs.map((f) => (
+          <div class="faq">
+            <h4>{f.q}</h4>
+            <p>{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { position: relative; padding: var(--space-16) 0 var(--space-12); overflow: hidden; }
+  .header-bg { position: absolute; inset: 0; background: radial-gradient(ellipse at top left, rgba(6,182,212,0.14) 0%, transparent 65%), var(--color-navy); }
+  .hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: var(--space-8); align-items: center; }
+  .page-title { font-family: 'Poppins', sans-serif; font-size: clamp(2.1rem, 4vw, 3.3rem); font-weight: 800; color: #f8fafc; margin: var(--space-3) 0; }
+  .page-title span { color: #22d3ee; }
+  .hero-intro { color: var(--color-text-secondary); line-height: 1.75; margin-bottom: var(--space-4); }
+  .highlights { list-style: none; padding: 0; display: grid; gap: var(--space-2); color: #e2e8f0; font-size: var(--text-sm); font-weight: 600; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); align-items: start; }
+  .box { padding: var(--space-8); }
+  .box h2 { color: #f8fafc; margin-bottom: var(--space-4); }
+  .box h3 { color: #f8fafc; margin: var(--space-6) 0 var(--space-3); }
+  .rate-table { width: 100%; border-collapse: collapse; margin-bottom: var(--space-4); }
+  .rate-table th, .rate-table td { padding: 10px 12px; border-bottom: 1px solid var(--color-border); text-align: left; font-size: var(--text-sm); color: #e2e8f0; }
+  .rate-table th { color: #22d3ee; font-weight: 700; }
+  .note { font-size: var(--text-xs); color: var(--color-text-muted); }
+  .note a { color: var(--color-gold); }
+  .steps { padding-left: 1.25rem; display: grid; gap: var(--space-3); color: var(--color-text-secondary); line-height: 1.7; font-size: var(--text-sm); }
+  .faq { border-top: 1px solid var(--color-border); padding-top: var(--space-3); margin-top: var(--space-3); }
+  .faq h4 { color: #22d3ee; font-size: var(--text-sm); margin-bottom: 4px; }
+  .faq p { color: var(--color-text-secondary); font-size: var(--text-sm); line-height: 1.6; margin: 0; }
+  @media (max-width: 960px) { .hero-grid, .grid-2 { grid-template-columns: 1fr; } .box { padding: var(--space-5); } }
+</style>
+

@@ -8,6 +8,16 @@ import WhatsAppForm from '@components/WhatsAppForm.astro';
   title="Franchise Opportunity | Atlas Aircon Partner Network"
   description="Partner with Gujarat's leading HVAC engineering brand. Explore Atlas Aircon franchise and authorized service partner opportunities."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.atlasaircons.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Franchise", "item": "https://www.atlasaircons.com/franchise/" }
+      ]
+    })} />
+  </Fragment>
   <section class="page-header">
     <div class="header-bg"></div>
     <div class="container relative z-10 text-center">
