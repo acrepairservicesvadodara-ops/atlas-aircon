@@ -124,6 +124,46 @@ const fullTitle = title.includes('Atlas Aircon') ? title : `${title} | ${siteNam
 
   <!-- Slot for page-specific head content -->
   <slot name="head" />
+
+  <!-- Google Analytics 4 (G-MER4RZ5SCW / GT-NNQ4GWH7), Google Ads (AW-11137442967) & GTM (GTM-M4W37FCJ) -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER4RZ5SCW"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MER4RZ5SCW');
+    gtag('config', 'GT-NNQ4GWH7');
+    gtag('config', 'AW-11137442967');
+
+    // Google Tag Manager (deferred after window load for 95+ Core Web Vitals)
+    window.addEventListener('load', function() {
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-M4W37FCJ');
+    });
+
+    // Lead Conversion Tracking: Phone Calls (tel:) & WhatsApp Clicks (wa.me)
+    document.addEventListener('click', function(e) {
+      var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+      if (!a) return;
+      var href = a.getAttribute('href') || '';
+      if (href.indexOf('tel:') === 0) {
+        gtag('event', 'phone_call_click', {
+          event_category: 'lead',
+          event_label: window.location.pathname,
+          phone_number: href.replace('tel:', '')
+        });
+      } else if (href.indexOf('wa.me/') !== -1 || href.indexOf('whatsapp.com') !== -1) {
+        gtag('event', 'whatsapp_click', {
+          event_category: 'lead',
+          event_label: window.location.pathname
+        });
+      }
+    }, { passive: true });
+  </script>
 </head>
 
 <body class="bg-pattern">
